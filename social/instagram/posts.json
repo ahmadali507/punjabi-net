@@ -1,0 +1,10 @@
+{
+  "_doc": "Instagram queue. Text is always taken from the poem file (never typed here). status: draft -> approved (by the owner) -> posted. Only 'approved' posts are ever published.",
+  "posts": [
+    { "id": "001-bulleh-shah", "poem": "blha-kih-janan-min-kon", "verses": [0, 1], "status": "draft" },
+    { "id": "002-baba-farid", "poem": "frida-bre-da-bhla-kr", "verses": [0, 1], "status": "draft" },
+    { "id": "003-sultan-bahu", "poem": "dl-dria-smndron-donghe", "verses": [0], "status": "draft" },
+    { "id": "004-waris-shah", "poem": "heer-001", "verses": [0, 1], "status": "draft" },
+    { "id": "005-shah-hussain", "poem": "main-ni-min-kihnon-akhan", "verses": [0], "lines": [0, 1], "status": "draft" }
+  ]
+}

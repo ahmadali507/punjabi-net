@@ -27,6 +27,7 @@
     "@resvg/resvg-js": "^2.6.2",
     "pagefind": "^1.6.0",
     "subset-font": "^2.9.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "yaml": "^2.9.1"
   }
 }
