@@ -5,7 +5,6 @@
  *
  * Fonts (all SIL Open Font License 1.1, from github.com/google/fonts):
  *   Noto Nastaliq Urdu  – Shahmukhi text (pinned to 400: Nastaliq is not set bold)
- *   Noto Serif Gurmukhi – Gurmukhi text
  *   Source Serif 4      – English display headings
  *   Inter               – English body text and UI
  */
@@ -41,10 +40,8 @@ const LATIN_EXT = [[0x100, 0x17f], [0x250, 0x2af], [0x2b0, 0x2ff], [0x300, 0x36f
 const SHAHMUKHI_CORE = [...COMMON, [0x600, 0x6ff], [0x750, 0x77f]];
 const SHAHMUKHI_EXT = [[0x8a0, 0x8ff], [0xfb50, 0xfdff], [0xfe70, 0xfeff]];
 
-const GURMUKHI = [...COMMON, [0xa00, 0xa7f], [0x964, 0x965]];
 
 const NASTALIQ = 'notonastaliqurdu/NotoNastaliqUrdu[wght].ttf';
-const GURMUKHI_SRC = 'notoserifgurmukhi/NotoSerifGurmukhi[wght].ttf';
 const SERIF = 'sourceserif4/SourceSerif4[opsz,wght].ttf';
 const SANS = 'inter/Inter[opsz,wght].ttf';
 const W = { wght: { min: 400, max: 700 } };
@@ -52,7 +49,6 @@ const W = { wght: { min: 400, max: 700 } };
 const FONTS = [
   { src: NASTALIQ, out: 'nastaliq-core.woff2', r: SHAHMUKHI_CORE, axes: { wght: 400 } },
   { src: NASTALIQ, out: 'nastaliq-ext.woff2', r: SHAHMUKHI_EXT, axes: { wght: 400 } },
-  { src: GURMUKHI_SRC, out: 'gurmukhi.woff2', r: GURMUKHI, axes: W },
   { src: SERIF, out: 'serif-core.woff2', r: LATIN_CORE, axes: { opsz: 32, ...W } },
   { src: SERIF, out: 'serif-ext.woff2', r: LATIN_EXT, axes: { opsz: 32, ...W } },
   { src: SANS, out: 'sans-core.woff2', r: LATIN_CORE, axes: { opsz: 14, ...W } },

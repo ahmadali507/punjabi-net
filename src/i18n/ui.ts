@@ -1,146 +1,243 @@
 /**
- * Interface strings. English for "/", Punjabi for "/pa".
- * Punjabi strings are stored once per script (sm/gm/ro), the same as content.
- * They are never converted at runtime.
- *
+ * Interface strings. English for "/", Punjabi (Shahmukhi) for "/pa".
  * Status: drafted, NEEDS NATIVE-SPEAKER REVIEW before launch.
- * Roman spelling follows the site convention (macrons for long vowels,
- * underdots for retroflexes, ṅ for nasalisation).
  */
-export type ScriptText = { sm: string; gm: string; ro: string };
-
 export const ui = {
   'site.tagline': {
     en: 'An archive of Punjabi poetry, poets, proverbs and words',
-    pa: {
-      sm: 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دی سانبھ',
-      gm: 'ਪੰਜਾਬੀ ਸ਼ਾਇਰੀ, ਸ਼ਾਇਰਾਂ, ਅਖਾਣਾਂ ਤੇ ਲਫ਼ਜ਼ਾਂ ਦੀ ਸਾਂਭ',
-      ro: 'Panjābī shāirī, shāirāṅ, akhāṇāṅ te lafzāṅ dī sāmbh',
-    },
+    pa: 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دی سانبھ',
   },
   'skip': {
     en: 'Skip to content',
-    pa: { sm: 'سدھا لکھت ول جاؤ', gm: 'ਸਿੱਧਾ ਲਿਖਤ ਵੱਲ ਜਾਓ', ro: 'Siddhā likhat vall jāo' },
+    pa: 'سدھا لکھت ول جاؤ',
   },
   'nav.label': {
     en: 'Main',
-    pa: { sm: 'مکھ', gm: 'ਮੁੱਖ', ro: 'Mukkh' },
+    pa: 'مکھ',
   },
   'nav.menu': {
     en: 'Menu',
-    pa: { sm: 'مینو', gm: 'ਮੀਨੂ', ro: 'Mīnū' },
+    pa: 'مینو',
   },
   'nav.home': {
     en: 'Home',
-    pa: { sm: 'مکھ صفحہ', gm: 'ਮੁੱਖ ਸਫ਼ਾ', ro: 'Mukkh safhā' },
+    pa: 'مکھ صفحہ',
   },
   'nav.poets': {
     en: 'Poets',
-    pa: { sm: 'شاعر', gm: 'ਸ਼ਾਇਰ', ro: 'Shāir' },
+    pa: 'شاعر',
   },
   'nav.poems': {
     en: 'Poems',
-    pa: { sm: 'کلام', gm: 'ਕਲਾਮ', ro: 'Kalām' },
+    pa: 'کلام',
   },
   'nav.dictionary': {
     en: 'Dictionary',
-    pa: { sm: 'لغت', gm: 'ਸ਼ਬਦਕੋਸ਼', ro: 'Lughat' },
+    pa: 'لغت',
   },
   'nav.proverbs': {
     en: 'Proverbs',
-    pa: { sm: 'اکھان', gm: 'ਅਖਾਣ', ro: 'Akhāṇ' },
+    pa: 'اکھان',
   },
   'nav.forms': {
     en: 'Forms',
-    pa: { sm: 'صنفاں', gm: 'ਕਾਵਿ-ਰੂਪ', ro: 'Sinfāṅ' },
+    pa: 'صنفاں',
   },
   'nav.about': {
     en: 'About',
-    pa: { sm: 'ساڈے بارے', gm: 'ਸਾਡੇ ਬਾਰੇ', ro: 'Sāḍe bāre' },
+    pa: 'ساڈے بارے',
   },
   'nav.contribute': {
     en: 'Contribute',
-    pa: { sm: 'حصہ پاؤ', gm: 'ਹਿੱਸਾ ਪਾਓ', ro: 'Hissā pāo' },
+    pa: 'حصہ پاؤ',
   },
   'search.label': {
     en: 'Search',
-    pa: { sm: 'لبھو', gm: 'ਲੱਭੋ', ro: 'Labbho' },
+    pa: 'لبھو',
+  },
+  'search.open': {
+    en: 'Open search',
+    pa: 'لبھت کھولو',
+  },
+  'search.close': {
+    en: 'Close search',
+    pa: 'لبھت بند کرو',
   },
   'search.placeholder': {
     en: 'Search poets, poems, words…',
-    pa: { sm: 'شاعر، کلام، لفظ لبھو…', gm: 'ਸ਼ਾਇਰ, ਕਲਾਮ, ਲਫ਼ਜ਼ ਲੱਭੋ…', ro: 'Shāir, kalām, lafz labbho…' },
-  },
-  'script.label': {
-    en: 'Script',
-    pa: { sm: 'لپی', gm: 'ਲਿਪੀ', ro: 'Lipī' },
+    pa: 'شاعر، کلام، لفظ لبھو…',
   },
   'lang.label': {
     en: 'Language',
-    pa: { sm: 'بولی', gm: 'ਬੋਲੀ', ro: 'Bolī' },
+    pa: 'بولی',
   },
   'footer.noncommercial': {
     en: 'Non-commercial. No ads, no tracking. Texts are public domain unless noted.',
-    pa: {
-      sm: 'غیر تجارتی۔ نہ اشتہار، نہ ٹریکنگ۔ لکھتاں پبلک ڈومین وچ نیں، جے وکھرا نہ لکھیا ہووے۔',
-      gm: 'ਗ਼ੈਰ-ਤਜਾਰਤੀ। ਨਾ ਇਸ਼ਤਿਹਾਰ, ਨਾ ਟਰੈਕਿੰਗ। ਲਿਖਤਾਂ ਪਬਲਿਕ ਡੋਮੇਨ ਵਿੱਚ ਨੇ, ਜੇ ਵੱਖਰਾ ਨਾ ਲਿਖਿਆ ਹੋਵੇ।',
-      ro: 'Ġair-tijāratī. Nā ishtihār, nā ṭraikiṅg. Likhtāṅ pablik ḍomen vicc ne, je vakkhrā nā likhiā hove.',
-    },
+    pa: 'غیر تجارتی۔ نہ اشتہار، نہ ٹریکنگ۔ لکھتاں پبلک ڈومین وچ نیں، جے وکھرا نہ لکھیا ہووے۔',
   },
   'footer.instagram': {
     en: 'Instagram',
-    pa: { sm: 'انسٹاگرام', gm: 'ਇੰਸਟਾਗ੍ਰਾਮ', ro: 'Instāgrām' },
+    pa: 'انسٹاگرام',
   },
   'footer.source': {
     en: 'Every text records its printed source. Corrections are welcome.',
-    pa: {
-      sm: 'ہر لکھت نال اوہدی چھپی کتاب دا حوالہ اے۔ درستی جی آیاں نوں۔',
-      gm: 'ਹਰ ਲਿਖਤ ਨਾਲ ਉਹਦੀ ਛਪੀ ਕਿਤਾਬ ਦਾ ਹਵਾਲਾ ਏ। ਦਰੁਸਤੀ ਜੀ ਆਇਆਂ ਨੂੰ।',
-      ro: 'Har likhat nāl ohdī chapī kitāb dā havālā e. Darustī jī āiāṅ nūṅ.',
-    },
+    pa: 'ہر لکھت نال اوہدی چھپی کتاب دا حوالہ اے۔ درستی جی آیاں نوں۔',
   },
   'notfound.title': {
     en: 'Page not found',
-    pa: { sm: 'صفحہ نہیں لبھیا', gm: 'ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ', ro: 'Safhā nahīṅ labbhiā' },
+    pa: 'صفحہ نہیں لبھیا',
   },
   'notfound.body': {
     en: 'This page does not exist, or has moved.',
-    pa: {
-      sm: 'ایہہ صفحہ موجود نہیں، یا کتے ہور چلا گیا اے۔',
-      gm: 'ਇਹ ਸਫ਼ਾ ਮੌਜੂਦ ਨਹੀਂ, ਜਾਂ ਕਿਤੇ ਹੋਰ ਚਲਾ ਗਿਆ ਏ।',
-      ro: 'Ih safhā maujūd nahīṅ, jāṅ kite hor calā giā e.',
-    },
+    pa: 'ایہہ صفحہ موجود نہیں، یا کتے ہور چلا گیا اے۔',
   },
   'home.thesis': {
-    en: 'Punjabi poetry, kept in the words and scripts it was written in.',
-    pa: {
-      sm: 'پنجابی شاعری، اوہناں ای لفظاں تے لپیاں وچ جنہاں وچ لکھی گئی۔',
-      gm: 'ਪੰਜਾਬੀ ਸ਼ਾਇਰੀ, ਉਹਨਾਂ ਹੀ ਲਫ਼ਜ਼ਾਂ ਤੇ ਲਿਪੀਆਂ ਵਿੱਚ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਲਿਖੀ ਗਈ।',
-      ro: 'Panjābī shāirī, ohnāṅ ī lafzāṅ te lipīāṅ vicc jinhāṅ vicc likhī gaī.',
-    },
+    en: 'Punjabi poetry, kept in the words it was written in.',
+    pa: 'پنجابی شاعری، اوہناں ای لفظاں وچ جنہاں وچ لکھی گئی۔',
   },
   'home.intro': {
-    en: 'A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, from Baba Farid to Bhai Vir Singh. Every text names its printed source, and every page reads in Shahmukhi, Gurmukhi or Roman script.',
-    pa: {
-      sm: 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دا غیر تجارتی ذخیرہ، بابا فرید توں بھائی ویر سنگھ تیکر۔ ہر لکھت نال اوہدی چھپی کتاب دا ناں اے، تے ہر صفحہ شاہ مکھی، گُرمکھی یا رومن وچ پڑھیا جا سکدا اے۔',
-      gm: 'ਪੰਜਾਬੀ ਸ਼ਾਇਰੀ, ਸ਼ਾਇਰਾਂ, ਅਖਾਣਾਂ ਤੇ ਲਫ਼ਜ਼ਾਂ ਦਾ ਗ਼ੈਰ-ਤਜਾਰਤੀ ਜ਼ਖ਼ੀਰਾ, ਬਾਬਾ ਫ਼ਰੀਦ ਤੋਂ ਭਾਈ ਵੀਰ ਸਿੰਘ ਤੀਕਰ। ਹਰ ਲਿਖਤ ਨਾਲ ਉਹਦੀ ਛਪੀ ਕਿਤਾਬ ਦਾ ਨਾਂ ਏ, ਤੇ ਹਰ ਸਫ਼ਾ ਸ਼ਾਹਮੁਖੀ, ਗੁਰਮੁਖੀ ਜਾਂ ਰੋਮਨ ਵਿੱਚ ਪੜ੍ਹਿਆ ਜਾ ਸਕਦਾ ਏ।',
-      ro: 'Panjābī shāirī, shāirāṅ, akhāṇāṅ te lafzāṅ dā ġair-tijāratī zaxīrā, Bābā Farīd toṅ Bhāī Vīr Siṅgh tīkar. Har likhat nāl ohdī chapī kitāb dā nāṅ e, te har safhā Shāhmukhī, Gurmukhī jāṅ Roman vicc paṛhiā jā sakdā e.',
-    },
+    en: 'A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, from Baba Farid to Bhai Vir Singh, in Shahmukhi. Every text names its printed source.',
+    pa: 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دا غیر تجارتی ذخیرہ، بابا فرید توں بھائی ویر سنگھ تیکر، شاہ مکھی وچ۔ ہر لکھت نال اوہدی چھپی کتاب دا ناں اے۔',
   },
   'home.explore': {
     en: 'Explore poems',
-    pa: { sm: 'کلام پڑھو', gm: 'ਕਲਾਮ ਪੜ੍ਹੋ', ro: 'Kalām paṛho' },
+    pa: 'کلام پڑھو',
   },
   'home.meet': {
     en: 'Meet the poets',
-    pa: { sm: 'شاعراں نوں ملو', gm: 'ਸ਼ਾਇਰਾਂ ਨੂੰ ਮਿਲੋ', ro: 'Shāirāṅ nūṅ milo' },
+    pa: 'شاعراں نوں ملو',
   },
-} as const satisfies Record<string, { en: string; pa: ScriptText }>;
+  /* ---------- Reader (poem page) ---------- */
+  'reader.tools': {
+    en: 'Reading tools',
+    pa: 'پڑھن دیاں سہولتاں',
+  },
+  'reader.smaller': {
+    en: 'Smaller text',
+    pa: 'اکھر نکے کرو',
+  },
+  'reader.larger': {
+    en: 'Larger text',
+    pa: 'اکھر وڈے کرو',
+  },
+  'reader.copy': {
+    en: 'Copy',
+    pa: 'نقل کرو',
+  },
+  'reader.copied': {
+    en: 'Copied',
+    pa: 'نقل ہو گیا',
+  },
+  'reader.print': {
+    en: 'Print',
+    pa: 'چھاپو',
+  },
+  'reader.share': {
+    en: 'Share',
+    pa: 'سانجھا کرو',
+  },
+  'reader.linkCopied': {
+    en: 'Link copied',
+    pa: 'لنک نقل ہو گیا',
+  },
+  'reader.glossHint': {
+    en: 'Underlined words have meanings. Tap one, or reach them with Tab and move with the arrow keys.',
+    pa: 'جنہاں لفظاں ہیٹھ لکیر اے، اوہناں دے معنی ویکھن لئی اوہناں تے دباؤ۔',
+  },
+  'reader.verse': {
+    en: 'Verse',
+    pa: 'بند',
+  },
+  'reader.refrain': {
+    en: 'Refrain',
+    pa: 'ٹیک',
+  },
+  'gloss.close': {
+    en: 'Close',
+    pa: 'بند کرو',
+  },
+  'gloss.dictionary': {
+    en: 'Open in the dictionary',
+    pa: 'لغت وچ ویکھو',
+  },
+  'poem.textNeeded.title': {
+    en: 'Text not yet entered',
+    pa: 'لکھت حالے نہیں چاڑھی گئی',
+  },
+  'poem.textNeeded.body': {
+    en: 'This poem has not yet been checked against a printed edition, so its text is not shown. If you have a reliable printed source, please write to us.',
+    pa: 'ایس کلام دی لکھت حالے کسے چھپی کتاب نال نہیں ملائی گئی، ایس لئی ایتھے نہیں وکھائی گئی۔ جے تہاڈے کول کوئی بھروسے یوگ چھپی کتاب اے تاں سانوں لکھو۔',
+  },
+  'poem.textPending': {
+    en: 'Text pending',
+    pa: 'لکھت باقی',
+  },
+  'poem.translation': {
+    en: 'English translation',
+    pa: 'انگریزی ترجمہ',
+  },
+  'poem.aboutPoet': {
+    en: 'About the poet',
+    pa: 'شاعر بارے',
+  },
+  'poem.morePoet': {
+    en: 'More from this poet',
+    pa: 'ایسے شاعر دا ہور کلام',
+  },
+  'poem.source': {
+    en: 'Source',
+    pa: 'حوالہ',
+  },
+  'poem.verification': {
+    en: 'Verification',
+    pa: 'جانچ',
+  },
+  'poem.notes': {
+    en: 'Notes',
+    pa: 'نوٹ',
+  },
+  'source.page': {
+    en: 'p.',
+    pa: 'صفحہ',
+  },
+
+  /* ---------- Poet page ---------- */
+  'poet.works': {
+    en: 'Works',
+    pa: 'لکھتاں',
+  },
+  'poet.sources': {
+    en: 'Sources for this biography',
+    pa: 'ایس جیونی دے حوالے',
+  },
+  'poet.noPortrait': {
+    en: 'No authentic portrait of this poet is known.',
+    pa: 'ایس شاعر دی کوئی اصلی تصویر نہیں ملدی۔',
+  },
+  'poet.notAuthentic': {
+    en: 'A later imagined likeness, not a portrait from life.',
+    pa: 'ایہہ بعد وچ خیال نال بنائی تصویر اے، اصلی نہیں۔',
+  },
+  'poet.inCopyright': {
+    en: "This poet's work is still in copyright. The archive lists the books but does not reproduce the poems.",
+    pa: 'ایس شاعر دیاں لکھتاں حالے کاپی رائٹ ہیٹھ نیں۔ ایتھے کتاباں دے ناں نیں، کلام نہیں۔',
+  },
+  'poet.noPoems': {
+    en: 'No poems added yet.',
+    pa: 'حالے کوئی کلام نہیں چاڑھیا گیا۔',
+  },
+  'era.classical': {
+    en: 'Classical',
+    pa: 'کلاسیکی',
+  },
+  'era.modern': {
+    en: 'Modern',
+    pa: 'جدید',
+  },
+  'era.contemporary': {
+    en: 'Contemporary',
+    pa: 'اج دا',
+  },
+} as const satisfies Record<string, { en: string; pa: string }>;
 
 export type UIKey = keyof typeof ui;
-
-/** Names of the scripts, written in their own script so readers can find theirs. */
-export const SCRIPT_NAMES = {
-  sm: { self: 'شاہ مکھی', en: 'Shahmukhi' },
-  gm: { self: 'ਗੁਰਮੁਖੀ', en: 'Gurmukhi' },
-  ro: { self: 'Roman', en: 'Roman' },
-} as const;

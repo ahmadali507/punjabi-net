@@ -1,0 +1,9 @@
+---
+import PoetView from '~/views/PoetView.astro';
+import { getPoets } from '~/lib/content';
+
+export async function getStaticPaths() {
+  return (await getPoets()).map((poet) => ({ params: { slug: poet.id }, props: { poet } }));
+}
+---
+<PoetView poet={Astro.props.poet} />

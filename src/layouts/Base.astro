@@ -5,7 +5,7 @@ import Header from '~/components/Header.astro';
 import Footer from '~/components/Footer.astro';
 import { SITE } from '~/site.config';
 import T from '~/components/T.astro';
-import { asLocale, alternatePath } from '~/i18n';
+import { asLocale, alternatePath, PA_LANG } from '~/i18n';
 
 interface Props {
   title?: string;
@@ -27,24 +27,20 @@ const alt = {
 };
 const ogImage = new URL(image, Astro.site).href;
 
-// /pa pages are Punjabi throughout, so the document starts in Shahmukhi (RTL);
-// the head snippet below switches lang/dir before paint if another script is stored.
-const htmlLang = locale === 'pa' ? 'pnb' : 'en';
+// /pa pages are Punjabi (Shahmukhi) throughout: right-to-left.
+const htmlLang = locale === 'pa' ? PA_LANG : 'en';
 const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
 ---
 <!doctype html>
-<html lang={htmlLang} dir={htmlDir} data-locale={locale} data-script="sm">
+<html lang={htmlLang} dir={htmlDir} data-locale={locale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script is:inline>
       (function () {
-        var d = document.documentElement, s = 'sm', z;
-        try { s = localStorage.getItem('pn-script') || 'sm'; z = localStorage.getItem('pn-size'); } catch (e) {}
-        if (s !== 'gm' && s !== 'ro') s = 'sm';
-        d.dataset.script = s;
-        if (z && /^(0\.8|0\.9|1|1\.1|1\.2|1\.35|1\.5)$/.test(z)) d.style.setProperty('--reading-scale', z);
-        if (d.dataset.locale === 'pa' && s !== 'sm') { d.lang = s === 'gm' ? 'pa' : 'pa-Latn'; d.dir = 'ltr'; }
+        var z;
+        try { z = localStorage.getItem('pn-size'); } catch (e) {}
+        if (z && /^(0\.8|0\.9|1|1\.1|1\.2|1\.35|1\.5)$/.test(z)) document.documentElement.style.setProperty('--reading-scale', z);
       })();
     </script>
     <title>{fullTitle}</title>
@@ -71,7 +67,7 @@ const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <link rel="preload" href="/fonts/nastaliq-core.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/fonts/sans-core.woff2" as="font" type="font/woff2" crossorigin />
+    {locale === 'en' && <link rel="preload" href="/fonts/sans-core.woff2" as="font" type="font/woff2" crossorigin />}
     <slot name="head" />
   </head>
   <body>

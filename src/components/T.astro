@@ -1,10 +1,8 @@
 ---
-/** A UI string. English renders as text; Punjabi renders per script via <Pa>. */
-import Pa from './Pa.astro';
+/** A UI string in the page's language. On /pa the whole document is already lang="pnb" dir="rtl". */
 import { t, asLocale } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
 
 interface Props { k: UIKey }
-const value = t(asLocale(Astro.currentLocale), Astro.props.k);
 ---
-{typeof value === 'string' ? value : <Pa t={value} />}
+{t(asLocale(Astro.currentLocale), Astro.props.k)}

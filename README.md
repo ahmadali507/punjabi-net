@@ -2,8 +2,8 @@
 
 # punjabi.net (working name)
 
-A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary in Shahmukhi,
-Gurmukhi and Roman script. Modelled on pushto.net. Static Astro site, content in Markdown/JSON,
+A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, in Shahmukhi.
+Modelled on pushto.net. Static Astro site, content in Markdown/JSON,
 Git history as the editorial record.
 
 ```sh
@@ -11,6 +11,7 @@ npm install
 npm run dev        # http://localhost:4321
 npm run build      # astro check + build + Pagefind index
 npm run fonts      # re-subset the self-hosted fonts
+PN_FIXTURES=1 npm run dev   # also load src/content/_fixtures (layout placeholders, never built)
 ```
 
 - `PARITY.md`: pushto.net feature parity checklist

@@ -1,0 +1,117 @@
+---
+/** Poet page, shared by /poets/{slug} and /pa/poets/{slug}. */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import Source from '~/components/Source.astro';
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import { asLocale, localePath } from '~/i18n';
+import { lifespan, poemsByPoet, type Poet } from '~/lib/content';
+import type { UIKey } from '~/i18n/ui';
+import '~/styles/reader.css';
+
+interface Props { poet: Poet }
+const { poet } = Astro.props;
+const d = poet.data;
+const locale = asLocale(Astro.currentLocale);
+const poems = await poemsByPoet(poet.id);
+const { Content } = await render(poet);
+const inCopyright = d.copyright_status === 'in_copyright';
+const dates = lifespan(d);
+
+const en = locale === 'en';
+// First letter of the Shahmukhi name, for the no-portrait tile.
+const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
+---
+<Base title={d.name.en} description={d.bio_short} type="profile">
+  <article class="column poet">
+    <header class="poet__head">
+      <figure class="portrait">
+        {d.portrait ? (
+          <Image src={d.portrait} alt={`Portrait of ${d.name.en}`} width={240} height={300} class="portrait__img" />
+        ) : (
+          <div class="portrait__none" aria-hidden="true">
+            <span lang="pnb">{initial}</span>
+          </div>
+        )}
+        <figcaption class="portrait__caption">
+          {d.portrait ? (
+            <>
+              <span lang="en" dir="ltr">{d.portrait_caption}</span>
+              {!d.portrait_authentic && <> <T k="poet.notAuthentic" /></>}
+            </>
+          ) : (
+            <T k="poet.noPortrait" />
+          )}
+        </figcaption>
+      </figure>
+
+      <div class="poet__intro">
+        <p class="eyebrow">
+          <T k={`era.${d.era}` as UIKey} />
+          {d.styles.length > 0 && <span lang="en" dir="ltr"> · {d.styles.join(' · ')}</span>}
+        </p>
+        <h1 class="poet__name">
+          {en ? (
+            <>
+              <span lang="en">{d.name.en}</span>
+              <span class="poet__name-pa"><Pa t={d.name.pa} /></span>
+            </>
+          ) : (
+            <>
+              <span>{d.name.pa}</span>
+              <span class="poet__name-pa" lang="en" dir="ltr">{d.name.en}</span>
+            </>
+          )}
+        </h1>
+        <p class="poet__dates muted" lang="en" dir="ltr">{[dates, d.region].filter(Boolean).join(' · ')}</p>
+        <p class="poet__lede" lang="en" dir="ltr">{d.bio_short}</p>
+      </div>
+    </header>
+
+    <div class="prose" lang="en" dir="ltr"><Content /></div>
+
+    <section class="section-block" aria-labelledby="poet-poems">
+      <h2 id="poet-poems"><T k="nav.poems" /></h2>
+      {inCopyright ? (
+        <p class="notice"><T k="poet.inCopyright" /></p>
+      ) : poems.length === 0 ? (
+        <p class="muted"><T k="poet.noPoems" /></p>
+      ) : (
+        <ul class="poem-list">
+          {poems.map((p) => (
+            <li>
+              <a href={localePath(locale, `/poems/${p.id}`)}><Pa t={p.data.title} /></a>
+              {en && p.data.title_en && <span class="muted" lang="en"> {p.data.title_en}</span>}
+              {p.data.verses.length === 0 && <span class="badge"><T k="poem.textPending" /></span>}
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+
+    {d.bibliography.length > 0 && (
+      <section class="section-block" aria-labelledby="poet-works">
+        <h2 id="poet-works"><T k="poet.works" /></h2>
+        <ul class="biblio">
+          {d.bibliography.map((b) => (
+            <li>
+              <span lang="en" dir="ltr"><cite>{b.title}</cite></span>
+              {b.title_pa && <> · <Pa t={b.title_pa} /></>}
+              {(b.publisher || b.year) && <span class="muted" lang="en" dir="ltr"> ({[b.publisher, b.year].filter(Boolean).join(', ')})</span>}
+              {b.note && <p class="biblio__note muted" lang="en" dir="ltr">{b.note}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {d.bio_sources.length > 0 && (
+      <section class="section-block" aria-labelledby="poet-sources">
+        <h2 id="poet-sources"><T k="poet.sources" /></h2>
+        <ul class="biblio">{d.bio_sources.map((s) => <li><Source source={s} /></li>)}</ul>
+      </section>
+    )}
+  </article>
+</Base>

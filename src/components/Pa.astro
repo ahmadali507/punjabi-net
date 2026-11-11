@@ -1,25 +1,19 @@
 ---
 /**
- * Renders one piece of Punjabi text in all three scripts. CSS shows only the
- * active script (html[data-script]). Each script comes from the content file;
- * nothing is converted here.
+ * Punjabi (Shahmukhi) text, marked lang="pnb" dir="rtl" so it gets the Nastaliq
+ * face and right-to-left layout even on English pages.
  *
- * <Pa t={poem.title} />                       → three inline spans
- * <Pa t={verse} as="p" lines />               → three paragraphs, "\n" → line spans
+ * <Pa t={poem.title} />            → one span
+ * <Pa t={verse} as="p" lines />    → paragraph, "\n" → line spans
  */
-import type { ScriptText } from '~/i18n/ui';
-import { SCRIPTS, SCRIPT_ATTRS } from '~/i18n';
+import { PA_LANG } from '~/i18n';
 
 interface Props {
-  t: ScriptText;
+  t: string;
   as?: 'span' | 'p' | 'div' | 'li';
   lines?: boolean;
   class?: string;
 }
 const { t, as: Tag = 'span', lines = false, class: className } = Astro.props;
 ---
-{SCRIPTS.map((s) => (
-  <Tag data-s={s} lang={SCRIPT_ATTRS[s].lang} dir={SCRIPT_ATTRS[s].dir} class={className}>
-    {lines ? t[s].split('\n').map((line) => <span class="line">{line}</span>) : t[s]}
-  </Tag>
-))}
+<Tag lang={PA_LANG} dir="rtl" class={className}>{lines ? t.split('\n').map((line) => <span class="line">{line}</span>) : t}</Tag>

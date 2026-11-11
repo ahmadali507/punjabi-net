@@ -20,15 +20,6 @@
   unicode-range: U+8A0-8FF, U+FB50-FDFF, U+FE70-FEFF;
 }
 
-/* Gurmukhi: Noto Serif Gurmukhi, variable 400–700 */
-@font-face {
-  font-family: 'PN Gurmukhi';
-  src: url('/fonts/gurmukhi.woff2') format('woff2');
-  font-weight: 400 700;
-  font-display: swap;
-  unicode-range: U+20-7E, U+A0, U+200C-200F, U+2010-2014, U+2018-201D, U+2026, U+25CC, U+A00-A7F, U+964-965;
-}
-
 /* English display: Source Serif 4, variable 400–700 */
 @font-face {
   font-family: 'PN Serif';

@@ -2,26 +2,37 @@
  * Content schemas. Every collection is a folder of files under src/content;
  * Git history is the editorial record.
  *
- * Script rule: Shahmukhi (sm), Gurmukhi (gm) and Roman (ro) are stored
- * separately in the content files. Nothing is converted at runtime.
- * Machine-drafted Gurmukhi (scripts/shahmukhi-to-gurmukhi.mjs) must be
- * flagged with gurmukhi_status: "auto" until a person has reviewed it.
+ * Script rule: all Punjabi text is Shahmukhi. Romanisation appears only as a
+ * pronunciation aid in the dictionary (and optionally for proverbs), never as
+ * a way to read the archive.
  */
 import { defineCollection, reference } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+/**
+ * Layout fixtures (src/content/_fixtures) are loaded only when PN_FIXTURES=1,
+ * i.e. on the preview dev server. They hold placeholder lines that say they are
+ * placeholders, never poetry, and are never part of a production build.
+ */
+const FIXTURES = process.env.PN_FIXTURES === '1';
+function files(collection: string, ext: 'md' | 'json') {
+  return glob({
+    base: './src/content',
+    pattern: [`${collection}/**/*.${ext}`, ...(FIXTURES ? [`_fixtures/${collection}/**/*.${ext}`] : [])],
+    // Ids are the file name only, so a fixture and a real file share one namespace.
+    generateId: ({ entry }) => entry.replace(/^.*\//, '').replace(/\.(md|json)$/, ''),
+  });
+}
+
 /* ---------- Shared building blocks ---------- */
 
-/** One piece of Punjabi text, stored separately in each script. */
-const scriptText = z.object({
-  sm: z.string().trim().min(1, 'Shahmukhi text is required'),
-  gm: z.string().trim().min(1, 'Gurmukhi text is required (use the draft script, then mark gurmukhi_status: auto)'),
-  ro: z.string().trim().min(1, 'Roman text is required'),
-});
+/** Shahmukhi text. Must contain Arabic-script letters. */
+const SHAHMUKHI = /[؀-ۿݐ-ݿ]/;
+const pa = z.string().trim().min(1).regex(SHAHMUKHI, 'Punjabi text must be in Shahmukhi');
 
-/** Script text plus an English rendering (names, form titles). */
-const scriptTextEn = scriptText.extend({ en: z.string().trim().min(1) });
+/** A name in Shahmukhi plus its usual English spelling. */
+const name = z.object({ pa, en: z.string().trim().min(1) });
 
 /**
  * Historic dates as written by scholars. Accepted:
@@ -43,9 +54,7 @@ const source = z.object({
   page: z.union([z.number().int(), z.string().trim()]).optional(),
   url: z.url().optional(),
 });
-
-export const GURMUKHI_STATUS = ['auto', 'reviewed'] as const;
-const gurmukhiStatus = z.enum(GURMUKHI_STATUS);
+export type Source = z.infer<typeof source>;
 
 /** Placeholder note for files whose text has not been entered from print yet. */
 export const TEXT_NEEDED = 'Text needed from printed source';
@@ -56,11 +65,11 @@ export const ERAS = ['classical', 'modern', 'contemporary'] as const;
 
 const poets = defineCollection({
   // Frontmatter holds the fields; the Markdown body is the long bio.
-  loader: glob({ pattern: '**/*.md', base: './src/content/poets' }),
+  loader: files('poets', 'md'),
   schema: ({ image }) =>
     z
       .object({
-        name: scriptTextEn,
+        name,
         born: historicDate.optional(),
         died: historicDate.optional(),
         era: z.enum(ERAS),
@@ -75,7 +84,7 @@ const poets = defineCollection({
           .array(
             z.object({
               title: z.string().trim().min(1),
-              title_pa: scriptText.partial().optional(),
+              title_pa: pa.optional(),
               year: z.union([z.number().int(), z.string().trim()]).optional(),
               publisher: z.string().trim().optional(),
               note: z.string().trim().optional(),
@@ -95,9 +104,9 @@ const poets = defineCollection({
 
 const forms = defineCollection({
   // Frontmatter: name + one-paragraph description. Markdown body: history and structure.
-  loader: glob({ pattern: '**/*.md', base: './src/content/forms' }),
+  loader: files('forms', 'md'),
   schema: z.object({
-    name: scriptTextEn,
+    name,
     description: z.string().trim().min(1),
     order: z.number().int().default(100),
     sources: z.array(source).default([]),
@@ -112,23 +121,21 @@ export const POS = [
   'conjunction', 'interjection', 'particle', 'numeral', 'phrase',
 ] as const;
 
-const usage = z.object({ text: scriptText, en: z.string().trim().min(1) });
+const usage = z.object({ text: pa, en: z.string().trim().min(1) });
 
 const dictionary = defineCollection({
-  loader: glob({ pattern: '**/*.json', base: './src/content/dictionary' }),
+  loader: files('dictionary', 'json'),
   schema: z.object({
-    headword: scriptText,
+    headword: pa,
+    /** Pronunciation aid: romanised spelling (macrons for long vowels, underdots for retroflexes). */
+    romanized: z.string().trim().min(1),
     ipa: z.string().trim().optional(),
     pos: z.enum(POS),
     gender: z.enum(['masculine', 'feminine']).optional(),
     senses: z.array(z.string().trim().min(1)).min(1, 'At least one English sense'),
-    definition_pa: scriptText.optional(),
+    definition_pa: pa.optional(),
     forms: z
-      .object({
-        plural: scriptText.optional(),
-        feminine: scriptText.optional(),
-        oblique: scriptText.optional(),
-      })
+      .object({ plural: pa.optional(), feminine: pa.optional(), oblique: pa.optional() })
       .default({}),
     phrases: z.array(usage).default([]),
     examples: z.array(usage.extend({ source: source.optional() })).default([]),
@@ -141,65 +148,54 @@ const dictionary = defineCollection({
       .default({ ur: [], hi: [], en: [] }),
     dialects: z.array(z.enum(DIALECTS)).default([]),
     common: z.boolean().default(false),
-    source: source,
-    gurmukhi_status: gurmukhiStatus.default('auto'),
+    source,
   }),
 });
 
 /* ---------- Poems ---------- */
 
-/** A couplet or stanza. Lines are separated by "\n" in each script. */
+/** A couplet or stanza. Lines are separated by "\n". `en` must have the same number of lines. */
 const verse = z
   .object({
-    sm: z.string().trim().min(1),
-    gm: z.string().trim().min(1),
-    ro: z.string().trim().min(1),
+    text: pa,
     en: z.string().trim().optional(),
     refrain: z.boolean().default(false),
   })
-  .refine((v) => {
-    const n = (s: string) => s.split('\n').length;
-    return n(v.sm) === n(v.gm) && n(v.sm) === n(v.ro);
-  }, 'Shahmukhi, Gurmukhi and Roman must have the same number of lines');
+  .refine((v) => !v.en || v.en.split('\n').length === v.text.split('\n').length, {
+    message: 'The English translation must have the same number of lines as the verse',
+    path: ['en'],
+  });
 
 /**
  * Glossed word. Either a dictionary slug, or { entry, match } when the poem
- * uses an inflected spelling that differs from the headword, and/or `gloss`
+ * uses inflected spellings that differ from the headword, and/or `gloss`
  * when the meaning in this poem differs from the entry's first sense.
  */
 const glossItem = z.union([
   reference('dictionary'),
   z.object({
     entry: reference('dictionary'),
-    match: z
-      .object({
-        sm: z.array(z.string()).default([]),
-        gm: z.array(z.string()).default([]),
-        ro: z.array(z.string()).default([]),
-      })
-      .partial()
-      .optional(),
+    match: z.array(pa).default([]),
     gloss: z.string().trim().optional(),
   }),
 ]);
 
 const poems = defineCollection({
   // Frontmatter holds the poem; the optional Markdown body holds editorial notes.
-  loader: glob({ pattern: '**/*.md', base: './src/content/poems' }),
+  loader: files('poems', 'md'),
   schema: z
     .object({
       poet: reference('poets'),
       form: reference('forms'),
-      title: scriptText,
+      title: pa,
       title_en: z.string().trim().optional(),
       verses: z.array(verse).default([]),
       translation: z
         .object({ translator: z.string().trim().min(1), source: source.optional() })
         .optional(),
       glossary: z.array(glossItem).default([]),
-      source: source,
+      source,
       verification_note: z.string().trim().min(1),
-      gurmukhi_status: gurmukhiStatus,
       featured: z.boolean().default(false),
     })
     .refine((p) => p.verses.length > 0 || p.verification_note.startsWith(TEXT_NEEDED), {
@@ -215,14 +211,14 @@ const poems = defineCollection({
 /* ---------- Proverbs ---------- */
 
 const proverbs = defineCollection({
-  loader: glob({ pattern: '**/*.json', base: './src/content/proverbs' }),
+  loader: files('proverbs', 'json'),
   schema: z.object({
-    text: scriptText,
+    text: pa,
+    romanized: z.string().trim().optional(),
     literal_en: z.string().trim().min(1),
     meaning_en: z.string().trim().min(1),
     usage_note: z.string().trim().optional(),
-    source: source,
-    gurmukhi_status: gurmukhiStatus.default('auto'),
+    source,
   }),
 });
 

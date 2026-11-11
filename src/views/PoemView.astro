@@ -1,0 +1,165 @@
+---
+/**
+ * Poem reader, shared by /poems/{slug} and /pa/poems/{slug}.
+ * The poem text is the largest thing on the page. Glossed words are wrapped at
+ * build time; JavaScript only opens meanings and runs the reading tools.
+ */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import Source from '~/components/Source.astro';
+import { getEntry, render } from 'astro:content';
+import { asLocale, localePath, t, PA_LANG } from '~/i18n';
+import { lifespan, paDigits, poemsByPoet, resolveGlossary, segmentLine, type Poem } from '~/lib/content';
+import '~/styles/reader.css';
+
+interface Props { poem: Poem }
+const { poem } = Astro.props;
+const d = poem.data;
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+
+const poet = (await getEntry(d.poet))!;
+const form = (await getEntry(d.form))!;
+const more = (await poemsByPoet(poet.id)).filter((p) => p.id !== poem.id).slice(0, 6);
+const { Content } = await render(poem);
+const hasNotes = Boolean(poem.body?.trim());
+const { items: gloss, lookup } = await resolveGlossary(poem, (id) => localePath(locale, `/dictionary/${id}`));
+const hasText = d.verses.length > 0;
+const dates = lifespan(poet.data);
+
+const num = (n: number) => (en ? String(n) : paDigits(n));
+const pageTitle = `${d.title_en ?? d.title} · ${poet.data.name.en}`;
+const description = hasText
+  ? `${form.data.name.en} by ${poet.data.name.en}, in Shahmukhi${d.translation ? ' with an English translation' : ''}.`
+  : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
+---
+<Base title={pageTitle} description={description} type="article">
+  <article class="poem">
+    <header class="column poem__head">
+      <p class="eyebrow">
+        <a href={localePath(locale, `/forms/${form.id}`)}>{en ? form.data.name.en : form.data.name.pa}</a>
+      </p>
+      <h1 class="poem__title"><Pa t={d.title} /></h1>
+      {en && d.title_en && <p class="poem__title-en">{d.title_en}</p>}
+      <p class="poem__poet">
+        <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
+        {dates && <span class="muted"> · <bdi dir="ltr">{dates}</bdi></span>}
+      </p>
+    </header>
+
+    {hasText ? (
+      <div class="poem__body">
+        <div class="column reader-tools no-print" data-reader-tools hidden>
+          <div class="reader-tools__group" role="group" aria-label={t(locale, 'reader.tools')}>
+            <button type="button" class="tool" data-size="-1" aria-label={t(locale, 'reader.smaller')} lang="en" dir="ltr">A−</button>
+            <button type="button" class="tool" data-size="1" aria-label={t(locale, 'reader.larger')} lang="en" dir="ltr">A+</button>
+            <button type="button" class="tool" data-copy><T k="reader.copy" /></button>
+            <button type="button" class="tool" data-print><T k="reader.print" /></button>
+            <button type="button" class="tool" data-share><T k="reader.share" /></button>
+          </div>
+          <span class="reader-tools__status" role="status" aria-live="polite" data-copied={t(locale, 'reader.copied')} data-link-copied={t(locale, 'reader.linkCopied')}></span>
+        </div>
+
+        {gloss.length > 0 && <p class="column poem__hint muted no-print"><T k="reader.glossHint" /></p>}
+
+        <ol class="verses" data-verses data-title={d.title} data-poet={en ? poet.data.name.en : poet.data.name.pa}>
+          {d.verses.map((v, i) => (
+            <li class:list={['verse', { 'verse--refrain': v.refrain }]}>
+              <span class="verse__n">
+                <span class="visually-hidden"><T k="reader.verse" /> </span>{num(i + 1)}
+                {v.refrain && <span class="verse__refrain"> · <T k="reader.refrain" /></span>}
+              </span>
+              <p class="verse__text" lang={PA_LANG} dir="rtl">
+                {v.text.split('\n').map((line) => (
+                  <span class="line">
+                    {segmentLine(line, lookup).map((seg) =>
+                      seg.g === undefined ? seg.text : <button type="button" class="w" data-g={seg.g} tabindex="-1" aria-expanded="false" aria-controls="gloss">{seg.text}</button>,
+                    )}
+                  </span>
+                ))}
+              </p>
+              {v.en && (
+                <p class="verse__en" lang="en" dir="ltr">
+                  {v.en.split('\n').map((line) => <span class="line">{line}</span>)}
+                </p>
+              )}
+            </li>
+          ))}
+        </ol>
+
+        {gloss.length > 0 && (
+          <div class="gloss" id="gloss" data-gloss hidden>
+            <div class="gloss__head">
+              <p class="gloss__hw" lang={PA_LANG} dir="rtl" data-hw></p>
+              <button type="button" class="gloss__close" data-gloss-close aria-label={t(locale, 'gloss.close')}>×</button>
+            </div>
+            <p class="gloss__pron" lang="en" dir="ltr" data-pron></p>
+            <ol class="gloss__senses" lang="en" dir="ltr" data-senses></ol>
+            <a class="gloss__link" data-gloss-link href="#"><T k="gloss.dictionary" /></a>
+          </div>
+        )}
+        {gloss.length > 0 && <script type="application/json" id="gloss-data" set:html={JSON.stringify(gloss).replace(/</g, '\\u003c')} />}
+      </div>
+    ) : (
+      <section class="column poem__pending">
+        <h2><T k="poem.textNeeded.title" /></h2>
+        <p><T k="poem.textNeeded.body" /></p>
+        <p><a class="button" href={localePath(locale, '/about#contribute')}><T k="nav.contribute" /></a></p>
+      </section>
+    )}
+
+    <div class="column poem__after">
+      {d.translation && (
+        <p class="muted poem__translator">
+          <T k="poem.translation" />: <bdi lang="en">{d.translation.translator}</bdi>
+          {d.translation.source && <>, <Source source={d.translation.source} /></>}
+        </p>
+      )}
+
+      {hasNotes && (
+        <section class="poem__notes prose" lang="en" dir="ltr">
+          <h2><T k="poem.notes" /></h2>
+          <Content />
+        </section>
+      )}
+
+      <dl class="poem__meta">
+        <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
+        <div><dt><T k="poem.verification" /></dt><dd lang="en" dir="ltr">{d.verification_note}</dd></div>
+      </dl>
+
+      <aside class="poet-card no-print" aria-labelledby="about-poet">
+        <h2 class="eyebrow" id="about-poet"><T k="poem.aboutPoet" /></h2>
+        <p class="poet-card__name">
+          <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
+          {en && <Pa t={poet.data.name.pa} class="poet-card__pa" />}
+          {dates && <span class="muted"> · <bdi dir="ltr">{dates}</bdi></span>}
+        </p>
+        <p lang="en" dir="ltr">{poet.data.bio_short}</p>
+      </aside>
+
+      {more.length > 0 && (
+        <section class="more no-print" aria-labelledby="more-poet">
+          <h2 class="eyebrow" id="more-poet"><T k="poem.morePoet" /></h2>
+          <ul class="poem-list">
+            {more.map((p) => (
+              <li>
+                <a href={localePath(locale, `/poems/${p.id}`)}><Pa t={p.data.title} /></a>
+                {en && p.data.title_en && <span class="muted" lang="en"> {p.data.title_en}</span>}
+                {p.data.verses.length === 0 && <span class="badge"><T k="poem.textPending" /></span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+  </article>
+</Base>
+
+<script>
+  import { initReader } from '~/scripts/reader';
+  import { initGlossary } from '~/scripts/glossary';
+  initReader();
+  initGlossary();
+</script>

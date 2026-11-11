@@ -1,6 +1,57 @@
 # Changelog
 
+## Phase 2: poem and poet pages, Shahmukhi-only redesign (2026-11-11)
+
+### Scope change (owner decision)
+- **Shahmukhi only.** The Gurmukhi/Roman script switch is gone. Content, UI strings and schemas now
+  hold Punjabi once, in Shahmukhi; the schema rejects Punjabi fields with no Arabic-script letters.
+  `gurmukhi_status`, the Gurmukhi font and the Shahmukhi→Gurmukhi draft script (written, tested, then
+  dropped) are removed. Romanisation stays only as a dictionary pronunciation aid.
+- **New navbar** as approved in the wireframes: one slim bar — wordmark, links, Contribute, search
+  icon, EN | پنجابی toggle. Search opens in the bar (Escape closes); without JS the icon links to
+  `/search`. Phones get search + a `<details>` menu that works without JS. `/pa` mirrors right-to-left.
+- **Wireframes v2:** 19 Excalidraw screens in `docs/wireframes/` (approved).
+
+### Built
+- **Poem reader** `/poems/{slug}` and `/pa/poems/{slug}`: form label → `/forms/{slug}`, title, poet
+  and dates, numbered stanzas with refrain marker, optional English under each verse, translator
+  credit, editorial notes (Markdown body), source and verification note, About the poet, More from
+  this poet. Poems with no text yet show "Text not yet entered" and a Contribute link.
+- **Tap-a-word meanings:** glossed words are wrapped at build time (vowel marks and punctuation
+  ignored; inflected spellings via `match`). Card under the word on wide screens, bottom sheet on
+  phones. Keyboard: one Tab stop, arrow keys in reading order (Left = next), Home/End, Enter, Escape.
+- **Reading tools:** A−/A+ (7 steps, remembered as `pn-size`, applied before paint), Copy (title,
+  verses, poet, link), Print, Share (Web Share API, falls back to copying the link).
+- **Poet page** `/poets/{slug}`: portrait or letter tile with an honest caption, era/style tags,
+  English and Shahmukhi names, dates and region, one-line bio, long bio, poems (with "Text pending"
+  badges), works, biography sources. In-copyright poets show a notice instead of poems, and the build
+  **fails** if an in-copyright poet has any poem file (verified with a throwaway test file).
+- **Content:** Bulleh Shah (bio drafted from general reference; check against Lajwanti Rama Krishna,
+  *Panjabi Sufi Poets* (1938) before launch), the Kafi form (short description; full page in phase 3),
+  two kafis with titles only: verses empty, "Text needed from printed source", source edition not chosen.
+- **Layout fixtures** (`src/content/_fixtures`): placeholder lines that say they are placeholders,
+  loaded only when `PN_FIXTURES=1` (the preview server). Production builds exclude them.
+- **404** redesigned to the sketch.
+
+### Verified
+- `npm run build`: astro check 0 errors / 0 warnings / 0 hints; 9 pages; Pagefind indexed 9 pages.
+- 32 screenshots (8 pages × light/dark × 1280/360): no horizontal scroll at 360 px; `lang`/`dir`
+  correct (en/ltr, pnb/rtl); no console errors.
+- 26 scripted browser checks pass: meanings (click, Enter, arrows, Escape, focus return, click-outside,
+  poem-specific gloss first, bottom sheet on phones), A+ enlarges and persists across reload, verse text
+  (32 px) larger than the title (26 px), Copy content, search open/close in the bar, phone menu, skip link
+  first in Tab order.
+- JS: at most 4.5 KB inline per page (poem page); 0.8 KB elsewhere.
+
+### Left / open
+- Real poem text: needs your chosen printed edition(s).
+- Print-on-one-page can only be checked once real poems exist (phase 5).
+- Punjabi UI strings still need a native speaker's review.
+- `/search`, `/forms/*`, `/dictionary/*`, list pages, About: later phases (404 for now).
+
 ## Phase 1: foundation (2026-11-11)
+
+> Superseded in part by Phase 2: the script switch and Gurmukhi/Roman storage described below were removed.
 
 ### Reference study
 - pushto.net could not be read: every reference URL returns **HTTP 402 `DEPLOYMENT_DISABLED`** (Vercel),

@@ -1,8 +1,13 @@
 ---
+/**
+ * One slim bar: wordmark · links · Contribute · search · EN | پنجابی.
+ * Phones: wordmark · search · menu (<details>, so it works without JavaScript).
+ * The search icon is a link to /search; with JavaScript it opens a field in the bar.
+ * On /pa the document is dir="rtl", so the bar mirrors on its own.
+ */
 import T from './T.astro';
-import ScriptSwitch from './ScriptSwitch.astro';
 import { SITE } from '~/site.config';
-import { asLocale, localePath, alternatePath, i18nAttr, stripLocale } from '~/i18n';
+import { asLocale, localePath, alternatePath, stripLocale, t } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
 
 const locale = asLocale(Astro.currentLocale);
@@ -13,38 +18,83 @@ const nav: { key: UIKey; path: string }[] = [
   { key: 'nav.dictionary', path: '/dictionary' },
   { key: 'nav.proverbs', path: '/proverbs' },
   { key: 'nav.forms', path: '/forms' },
-  { key: 'nav.contribute', path: '/about#contribute' },
 ];
-const isCurrent = (path: string) => path !== '/' && !path.includes('#') && (here === path || here.startsWith(`${path}/`));
+const current = (path: string) => (here === path || here.startsWith(`${path}/`) ? 'page' : undefined);
+const searchHref = localePath(locale, '/search');
+const contributeHref = localePath(locale, '/about#contribute');
 ---
-<header class="site-header">
-  <div class="wrap site-header__bar">
-    <a class="wordmark" href={localePath(locale, '/')}>{SITE.name}</a>
+<header class="site-header" data-header>
+  <div class="wrap bar">
+    <a class="wordmark" href={localePath(locale, '/')} lang="en" dir="ltr">{SITE.name}</a>
 
-    <nav class="site-nav" {...i18nAttr(locale, 'nav.label', 'aria-label')}>
+    <nav class="site-nav" aria-label={t(locale, 'nav.label')}>
       <ul class="nav">
         {nav.map((item) => (
-          <li>
-            <a href={localePath(locale, item.path)} aria-current={isCurrent(item.path) ? 'page' : undefined}>
-              <T k={item.key} />
-            </a>
-          </li>
+          <li><a href={localePath(locale, item.path)} aria-current={current(item.path)}><T k={item.key} /></a></li>
         ))}
       </ul>
     </nav>
 
-    <div class="lang" role="group" {...i18nAttr(locale, 'lang.label', 'aria-label')}>
-      <a href={alternatePath(Astro.url.pathname, 'en')} hreflang="en" lang="en" aria-current={locale === 'en' ? 'true' : undefined}>EN</a>
-      <a href={alternatePath(Astro.url.pathname, 'pa')} hreflang="pnb" lang="pnb" dir="rtl" aria-current={locale === 'pa' ? 'true' : undefined}>پنجابی</a>
+    <form class="bar-search" role="search" action={searchHref} method="get" data-bar-search hidden>
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5 21 21" /></svg>
+      <label class="visually-hidden" for="site-search"><T k="search.label" /></label>
+      <input id="site-search" name="q" type="search" autocomplete="off" placeholder={t(locale, 'search.placeholder')} />
+      <button type="button" class="icon-btn" data-search-close aria-label={t(locale, 'search.close')}>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+      </button>
+    </form>
+
+    <div class="bar-actions">
+      <a class="button button--sm bar-contribute" href={contributeHref}><T k="nav.contribute" /></a>
+      <a class="icon-btn" href={searchHref} data-search-open aria-label={t(locale, 'search.open')}>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5 21 21" /></svg>
+      </a>
+      <div class="lang-toggle bar-lang" role="group" aria-label={t(locale, 'lang.label')}>
+        <a href={alternatePath(Astro.url.pathname, 'en')} hreflang="en" lang="en" dir="ltr" aria-current={locale === 'en' ? 'true' : undefined}>EN</a>
+        <a href={alternatePath(Astro.url.pathname, 'pa')} hreflang="pnb" lang="pnb" dir="rtl" aria-current={locale === 'pa' ? 'true' : undefined}>پنجابی</a>
+      </div>
+      <details class="menu" data-menu>
+        <summary class="icon-btn" aria-label={t(locale, 'nav.menu')}>
+          <svg class="icon icon--open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+          <svg class="icon icon--close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+        </summary>
+        <div class="menu__panel">
+          <ul class="menu__links">
+            {nav.map((item) => (
+              <li><a href={localePath(locale, item.path)} aria-current={current(item.path)}><T k={item.key} /></a></li>
+            ))}
+            <li><a href={contributeHref}><T k="nav.contribute" /></a></li>
+          </ul>
+          <div class="lang-toggle" role="group" aria-label={t(locale, 'lang.label')}>
+            <a href={alternatePath(Astro.url.pathname, 'en')} hreflang="en" lang="en" dir="ltr" aria-current={locale === 'en' ? 'true' : undefined}>EN</a>
+            <a href={alternatePath(Astro.url.pathname, 'pa')} hreflang="pnb" lang="pnb" dir="rtl" aria-current={locale === 'pa' ? 'true' : undefined}>پنجابی</a>
+          </div>
+        </div>
+      </details>
     </div>
   </div>
-
-  <div class="wrap site-header__tools">
-    <form class="search" role="search" action={localePath(locale, '/search')} method="get">
-      <label class="visually-hidden" for="site-search"><T k="search.label" /></label>
-      <input id="site-search" name="q" type="search" autocomplete="off" {...i18nAttr(locale, 'search.placeholder', 'placeholder')} />
-      <button type="submit"><T k="search.label" /></button>
-    </form>
-    <ScriptSwitch />
-  </div>
 </header>
+
+<script>
+  // Search opens in the bar. Without JavaScript the icon simply links to /search.
+  const header = document.querySelector<HTMLElement>('[data-header]');
+  const form = header?.querySelector<HTMLFormElement>('[data-bar-search]');
+  const open = header?.querySelector<HTMLAnchorElement>('[data-search-open]');
+  const input = form?.querySelector('input');
+  if (header && form && open && input) {
+    const close = () => {
+      form.hidden = true;
+      header.classList.remove('is-searching');
+      open.focus();
+    };
+    open.addEventListener('click', (e) => {
+      e.preventDefault();
+      header.querySelector<HTMLDetailsElement>('[data-menu]')?.removeAttribute('open');
+      form.hidden = false;
+      header.classList.add('is-searching');
+      input.focus();
+    });
+    form.querySelector('[data-search-close]')?.addEventListener('click', close);
+    form.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+  }
+</script>

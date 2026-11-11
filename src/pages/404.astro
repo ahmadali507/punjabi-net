@@ -1,13 +1,25 @@
 ---
 import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
 import T from '~/components/T.astro';
-import { tAttr, asLocale, localePath } from '~/i18n';
+import { ui } from '~/i18n/ui';
+import { t, asLocale, localePath } from '~/i18n';
 const locale = asLocale(Astro.currentLocale);
 ---
-<Base title={tAttr(locale, 'notfound.title')} noindex>
-  <section class="column section">
-    <h1><T k="notfound.title" /></h1>
-    <p><T k="notfound.body" /></p>
-    <p><a class="button" href={localePath(locale, '/')}><T k="nav.home" /></a></p>
+<Base title={t(locale, 'notfound.title')} noindex>
+  <section class="column section notfound">
+    <h1>
+      <Pa t={ui['notfound.title'].pa} class="notfound__pa" />
+      {locale === 'en' && <span class="notfound__en">{ui['notfound.title'].en}</span>}
+    </h1>
+    <p class="muted"><T k="notfound.body" /></p>
+    <p><a class="button button--primary" href={localePath(locale, '/')}><T k="nav.home" /></a></p>
   </section>
 </Base>
+
+<style>
+  .notfound { text-align: center; padding-block: clamp(3rem, 2rem + 6vw, 6rem); }
+  h1 { display: flex; flex-direction: column; gap: 0.5rem; font-weight: 400; }
+  .notfound__pa { font-size: clamp(1.8rem, 1.4rem + 2vw, 2.4rem); }
+  .notfound__en { font-size: 1.4rem; }
+</style>

@@ -1,0 +1,13 @@
+---
+/** A printed source: "Book, ed. Editor (Publisher, 1938), p. 12". Book titles stay as recorded. */
+import T from './T.astro';
+
+interface Props {
+  source: { book: string; editor?: string; publisher?: string; year?: string | number; page?: string | number; url?: string };
+}
+const { book, editor, publisher, year, page, url } = Astro.props.source;
+const pub = [publisher, year].filter(Boolean).join(', ');
+---
+<span class="source" lang="en" dir="ltr">
+  {url ? <a href={url} rel="noopener"><cite>{book}</cite></a> : <cite>{book}</cite>}{editor && <>, ed. {editor}</>}{pub && <> ({pub})</>}{page !== undefined && <>, <T k="source.page" /> {page}</>}
+</span>

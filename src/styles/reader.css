@@ -1,0 +1,223 @@
+/* =========================================================================
+   Poem reader + poet page. The poem text is the largest element on the page:
+   --verse-size is always above the title size.
+   ========================================================================= */
+
+.poem { padding-block: clamp(2rem, 1.5rem + 3vw, 4rem) 0; }
+.poem__head { text-align: center; margin-block-end: 2rem; }
+.poem__head .eyebrow a { text-decoration: none; }
+.poem__title { font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem); font-weight: 500; margin: 0 0 0.25rem; }
+.poem__title :lang(pnb) { line-height: 2; }
+.poem__title-en { font-family: var(--font-serif); font-style: italic; color: var(--muted); margin: 0 0 0.5rem; }
+.poem__poet { margin: 0; }
+
+/* ---------- Tools ---------- */
+.reader-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-block-end: 1rem;
+}
+.reader-tools[hidden] { display: none; }
+.reader-tools__group { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.35rem; }
+.tool {
+  min-height: 2.5rem;
+  min-width: 2.75rem;
+  padding: 0.2rem 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.tool:hover:not(:disabled) { color: var(--ink); border-color: var(--ink); }
+.tool:disabled { opacity: 0.45; cursor: default; }
+.tool :lang(pnb) { line-height: 1.5; font-size: 1rem; }
+.reader-tools__status { min-height: 1.5em; font-size: 0.9rem; color: var(--accent); }
+.poem__hint { text-align: center; font-size: 0.85rem; margin-block-end: 1.5rem; }
+
+/* ---------- Verses ---------- */
+.verses {
+  --verse-size: calc(clamp(1.4rem, 1.15rem + 1.2vw, 1.85rem) * var(--reading-scale));
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  max-width: 46rem;
+  text-align: center;
+}
+.verse { padding-block: 1.1rem; }
+.verse + .verse { border-top: 1px solid color-mix(in oklab, var(--rule) 60%, transparent); }
+.verse__n {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  margin-block-end: 0.15rem;
+}
+.verse__n :lang(pnb) { line-height: 1.6; font-size: 0.95rem; }
+.verse__refrain { color: var(--accent); }
+.verse__text { font-size: var(--verse-size); margin: 0; }
+.verse__text:lang(pnb) { line-height: 2.3; font-size: calc(var(--verse-size) * 1.08); }
+.verse__text:lang(pa-Latn) { font-size: calc(var(--verse-size) * 0.86); line-height: 1.55; font-style: italic; }
+.verse--refrain .verse__text { color: color-mix(in oklab, var(--ink) 88%, var(--accent)); }
+.verse__en {
+  font-family: var(--font-serif);
+  font-size: calc(1.05rem * var(--reading-scale));
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0.4rem 0 0;
+}
+
+/* Glossed word: a button that looks like text with a dotted underline. */
+.w {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline dotted color-mix(in oklab, var(--accent) 75%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.35em;
+  border-radius: 2px;
+}
+.w:lang(pnb), :lang(pnb) > .w, :lang(pnb) .w { text-underline-offset: 0.55em; }
+.w:hover, .w.is-open { color: var(--accent); background: var(--accent-wash); }
+.w:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- Meaning panel ---------- */
+.gloss {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 20;
+  padding: 1rem var(--gutter) 1.25rem;
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+  box-shadow: 0 -8px 24px color-mix(in oklab, var(--ink) 12%, transparent);
+  text-align: start;
+}
+.gloss[hidden] { display: none; }
+@media (min-width: 40rem) {
+  .gloss {
+    position: absolute;
+    width: 20rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    box-shadow: 0 8px 24px color-mix(in oklab, var(--ink) 12%, transparent);
+  }
+}
+.gloss__head { direction: rtl; display: flex; align-items: start; justify-content: space-between; gap: 1rem; }
+.gloss__hw { margin: 0; font-size: 1.4rem; }
+.gloss__hw :lang(pnb) { line-height: 1.9; }
+.gloss__close {
+  min-width: 2.5rem; min-height: 2.5rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  background: transparent; color: var(--muted); font-size: 1.25rem; line-height: 1; cursor: pointer;
+}
+.gloss__pron { font-size: 0.85rem; color: var(--muted); margin: 0 0 0.5rem; }
+.gloss__senses { margin: 0 0 0.75rem; padding-inline-start: 1.25rem; font-size: 0.95rem; }
+.gloss__link { font-size: 0.9rem; }
+
+/* ---------- Pending text ---------- */
+.poem__pending {
+  text-align: center;
+  padding-block: 2.5rem;
+  border-block: 1px solid var(--rule);
+  background: var(--wash);
+}
+.poem__pending h2 { font-size: 1.3rem; }
+.poem__pending p { color: var(--muted); max-width: 32rem; margin-inline: auto; }
+
+/* ---------- After the poem ---------- */
+.poem__after { margin-block-start: 2.5rem; }
+.notice {
+  padding: 0.75rem 1rem;
+  border-inline-start: 3px solid var(--accent);
+  background: var(--accent-wash);
+  font-size: 0.9rem;
+}
+.notice:lang(pnb), .notice :lang(pnb) { line-height: 2; }
+.poem__translator { font-size: 0.9rem; }
+.poem__notes { margin-block: 2rem; }
+.poem__notes h2, .poet-card h2, .more h2 { margin-block-end: 0.5rem; }
+.poem__meta { margin: 2rem 0; font-size: 0.9rem; display: grid; gap: 0.75rem; }
+.poem__meta div { display: grid; grid-template-columns: minmax(6rem, auto) 1fr; gap: 0.25rem 1rem; }
+.poem__meta dt { color: var(--muted); }
+.poem__meta dd { margin: 0; }
+@media (max-width: 30rem) { .poem__meta div { grid-template-columns: 1fr; } }
+
+.poet-card {
+  margin-block: 2.5rem;
+  padding: 1.25rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+.poet-card__name { font-size: 1.15rem; margin-block-end: 0.35rem; }
+.poet-card p:last-child { margin: 0; color: var(--muted); }
+
+.poem-list { list-style: none; padding: 0; margin: 0; }
+.poem-list li { padding-block: 0.6rem; border-bottom: 1px solid var(--rule); }
+.poem-list li:first-child { border-top: 1px solid var(--rule); }
+.poem-list a { font-size: 1.15rem; text-decoration: none; }
+.poem-list a:hover { text-decoration: underline; }
+.poem-list :lang(pnb) { line-height: 2; }
+.badge {
+  display: inline-block;
+  margin-inline-start: 0.5rem;
+  padding: 0 0.45rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  vertical-align: middle;
+}
+.badge :lang(pnb) { line-height: 1.7; font-size: 0.85rem; }
+
+/* ---------- Poet page ---------- */
+.poet { padding-block: clamp(2rem, 1.5rem + 3vw, 4rem) 0; }
+.poet__head { display: grid; gap: 1.5rem; margin-block-end: 2rem; }
+@media (min-width: 40rem) { .poet__head { grid-template-columns: 11rem 1fr; align-items: start; } }
+.portrait { margin: 0; max-width: 11rem; }
+.portrait__img, .portrait__none { width: 100%; aspect-ratio: 4 / 5; border-radius: var(--radius); object-fit: cover; }
+.portrait__none {
+  display: grid;
+  place-items: center;
+  background: var(--wash);
+  border: 1px dashed var(--rule);
+  color: color-mix(in oklab, var(--muted) 60%, var(--paper));
+  font-size: 3.5rem;
+}
+.portrait__none :lang(pnb) { line-height: 1.6; }
+.portrait__caption { margin-block-start: 0.5rem; font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+.portrait__caption :lang(pnb) { line-height: 1.9; font-size: 0.9rem; }
+.poet__name { display: flex; flex-direction: column; gap: 0.25rem; margin-block-end: 0.35rem; }
+.poet__name-pa { font-size: 0.7em; font-weight: 400; }
+.poet__name-pa :lang(pnb) { line-height: 1.9; }
+.poet__dates { margin-block-end: 0.75rem; }
+.poet__lede { font-size: 1.1rem; }
+.prose { max-width: var(--measure); }
+.prose p { margin-block-end: 1.1em; }
+.section-block { margin-block-start: 2.5rem; }
+.section-block h2 { font-size: 1.3rem; }
+.biblio { padding-inline-start: 1.1rem; margin: 0; }
+.biblio li { margin-block-end: 0.5rem; }
+.biblio__note { margin: 0.15rem 0 0; font-size: 0.9rem; }
+
+/* ---------- Print: one poem on one page ---------- */
+@media print {
+  @page { margin: 14mm 16mm; }
+  .poem { padding: 0; }
+  .poem__head { margin-block-end: 6mm; }
+  .verses { --verse-size: 13pt; max-width: none; padding: 0; }
+  .verse { padding-block: 2.5mm; break-inside: avoid; }
+  .verse + .verse { border-top: 0; }
+  .verse__text:lang(pnb) { line-height: 2; }
+  .verse__en { font-size: 9.5pt; margin-top: 1mm; }
+  .w { text-decoration: none; }
+  .gloss, .poem__hint, .notice { display: none !important; }
+  .poem__after { margin-block-start: 6mm; }
+  .poem__meta { margin: 0; font-size: 8.5pt; }
+  .poem__meta div { grid-template-columns: 6rem 1fr; }
+}
+
+.poet-card__pa { margin-left: 0.5rem; }
+.poem-list .muted:lang(en) { display: block; font-size: 0.9rem; line-height: 1.4; }
