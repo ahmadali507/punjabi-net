@@ -10,7 +10,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "fonts": "node scripts/subset-fonts.mjs",
-    "preview:build": "PN_FIXTURES=1 PN_OUT=dist-preview astro build && pagefind --site dist-preview",
+    "preview:build": "PN_OUT=dist-preview astro build && pagefind --site dist-preview",
     "test": "node --test tests/"
   },
   "engines": {
