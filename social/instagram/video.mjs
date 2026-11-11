@@ -41,11 +41,13 @@ const stanzas = post.verses.map((vi) => {
 });
 
 /* ---------- score ---------- */
-execFileSync(PY, [join(HERE, 'music/compose.py'), DIR, JSON.stringify(stanzas.map((s) => s.lines.map((l) => l.length))), '--seed', String(post.seed ?? 3)], { stdio: 'inherit' });
+// A sung recording from Instagram's music library when the post names one (song.py), else the original score.
+if (post.track) execFileSync(PY, [join(HERE, 'song.py'), id], { stdio: 'inherit' });
+else execFileSync(PY, [join(HERE, 'music/compose.py'), DIR, JSON.stringify(stanzas.map((s) => s.lines.map((l) => l.length))), '--seed', String(post.seed ?? 3)], { stdio: 'inherit' });
 const timing = JSON.parse(readFileSync(join(DIR, 'timing.json'), 'utf8'));
 
 /* ---------- page ---------- */
-const LOGO = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#2b2420"/><g fill="none" stroke="#c9962a" stroke-width="3.6" stroke-linecap="round"><path d="M18 17 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/><path d="M15 24.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M12 32 q 5 -4.5 10 0 t 10 0 t 10 0 t 10 0"/><path d="M15 39.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M18 47 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/></g></svg>`;
+const LOGO = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#23211d"/><g fill="none" stroke="#c9962a" stroke-width="3.6" stroke-linecap="round"><path d="M18 17 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/><path d="M15 24.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M12 32 q 5 -4.5 10 0 t 10 0 t 10 0 t 10 0"/><path d="M15 39.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M18 47 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/></g></svg>`;
 let li = 0;
 const verseHtml = stanzas.map((s, si) => `${si ? '<div class="gap"></div>' : ''}${s.lines.map((words) => {
   const n = li++;
@@ -61,34 +63,34 @@ const html = `<!doctype html><html lang="pnb" dir="rtl"><head><meta charset="utf
 @font-face{font-family:N;src:${font('nastaliq-core.woff2')}}@font-face{font-family:N;src:${font('nastaliq-ext.woff2')}}
 @font-face{font-family:S;src:${font('serif-core.woff2')};font-weight:400 700}@font-face{font-family:S;src:${font('serif-ext.woff2')};font-weight:400 700}
 *{margin:0;box-sizing:border-box}
-body{width:1080px;height:1920px;overflow:hidden;background:#f4eee3;color:#2b2420;font-family:N;position:relative}
-.paper{position:absolute;inset:0;background:radial-gradient(80% 50% at 50% 35%,#fbf7ef,transparent 75%),radial-gradient(120% 60% at 50% 110%,rgba(138,28,43,.07),transparent 60%)}
+body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d;font-family:N;position:relative}
+.paper{position:absolute;inset:0;background:radial-gradient(80% 50% at 50% 35%,#fbf9f4,transparent 75%),radial-gradient(120% 60% at 50% 110%,rgba(133,92,0,.07),transparent 60%)}
 .grain{position:absolute;inset:0;opacity:.35;mix-blend-mode:multiply}
-.border{position:absolute;inset:44px;border:1.5px solid rgba(138,28,43,.28)}
-.border::after{content:"";position:absolute;inset:10px;border:1px solid rgba(138,28,43,.14)}
-.m{position:absolute;width:var(--s);height:var(--s);border-radius:50%;background:rgba(138,28,43,var(--o));filter:blur(.6px)}
+.border{position:absolute;inset:44px;border:1.5px solid rgba(133,92,0,.28)}
+.border::after{content:"";position:absolute;inset:10px;border:1px solid rgba(133,92,0,.14)}
+.m{position:absolute;width:var(--s);height:var(--s);border-radius:50%;background:rgba(133,92,0,var(--o));filter:blur(.6px)}
 .loop{position:absolute;left:0;right:0;bottom:250px;width:1080px;height:420px}
-.loop path{fill:none;stroke:rgba(138,28,43,.38);stroke-width:2.2;stroke-linecap:round}
+.loop path{fill:none;stroke:rgba(133,92,0,.38);stroke-width:2.2;stroke-linecap:round}
 .scene{position:absolute;inset:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .top{position:absolute;top:120px;left:0;right:0;display:flex;justify-content:center}
-.kicker{font-size:40px;color:#8a1c2b;opacity:.8}
-.title{font-size:96px;line-height:1.7;color:#8a1c2b;padding:0 60px;text-wrap:balance}
-.rule{width:150px;height:2px;background:rgba(138,28,43,.5);margin:26px auto 30px}
+.kicker{font-size:40px;color:#855c00;opacity:.8}
+.title{font-size:96px;line-height:1.7;color:#855c00;padding:0 60px;text-wrap:balance}
+.rule{width:150px;height:2px;background:rgba(133,92,0,.5);margin:26px auto 30px}
 .pname{font-size:66px;line-height:1.5}
-.pen{direction:ltr;font:600 30px S;letter-spacing:.22em;text-transform:uppercase;color:#6d625a;margin-top:8px}
+.pen{direction:ltr;font:600 30px S;letter-spacing:.22em;text-transform:uppercase;color:#77736b;margin-top:8px}
 #verseScene{position:absolute;inset:0}
 .verse{position:absolute;inset:300px 90px 420px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
 .l{font-size:var(--fs);line-height:1.95;text-wrap:balance}
-.l.r{color:#8a1c2b}
+.l.r{color:#855c00}
 .w{display:inline-block;will-change:opacity,filter,transform}
 .gap{height:40px}
 .vfoot{position:absolute;bottom:170px;left:0;right:0;text-align:center}
-.vfoot .pname{font-size:52px;color:#8a1c2b}
+.vfoot .pname{font-size:52px;color:#855c00}
 .vfoot .pen{font-size:24px}
-.end .name{direction:ltr;font:600 80px S;color:#2b2420;margin-top:30px}
+.end .name{direction:ltr;font:600 80px S;color:#23211d;margin-top:30px}
 .end .hook{font-size:60px;line-height:1.9;margin-top:24px}
-.end .hen{direction:ltr;font:400 38px S;color:#6d625a}
-.soon{margin-top:46px;padding:18px 60px 24px;border:2px solid #8a1c2b;border-radius:40px;color:#8a1c2b;font-size:50px;line-height:1.6;display:flex;flex-direction:column;align-items:center}
+.end .hen{direction:ltr;font:400 38px S;color:#77736b}
+.soon{margin-top:46px;padding:18px 60px 24px;border:2px solid #855c00;border-radius:40px;color:#855c00;font-size:50px;line-height:1.6;display:flex;flex-direction:column;align-items:center}
 .soon span{direction:ltr;font:600 28px S;letter-spacing:.18em}
 </style></head><body>
 <div class="paper"></div>
@@ -207,7 +209,8 @@ const caption = [
   `${form.name.pa} · ${form.name.en}`, '',
   'punjabi.net — پنجابی شاعری پڑھن وچ تہاڈا ساتھی۔ جلدی آ رہی اے۔',
   'punjabi.net — to help you read Punjabi poetry. Coming soon.', '',
-  poem.source.book.startsWith('Wikisource') ? 'Text: public-domain transcription, Wikisource (Punjabi). Music: original.' : `Text: ${poem.source.book}. Music: original.`, '',
+  timing.track ? `Vocals: ${timing.track.artist} (“${timing.track.title}”). Poetry: ${poet.name.en}.` : 'Music: original.',
+  poem.source.book.startsWith('Wikisource') ? 'Text: public-domain transcription, Wikisource (Punjabi).' : `Text: ${poem.source.book}.`, '',
   `#PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #PunjabiSufiPoetry ${TAGS[poem.poet] ?? ''}`.trim(),
 ].join('\n');
 writeFileSync(join(HERE, 'out', `${id}-reel.txt`), caption + '\n');

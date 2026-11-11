@@ -12,6 +12,13 @@ Posts are generated from the archive, approved by the owner, then published one 
    (Raag Kafi: tanpura, strings, bass, santoor, chimes, all synthesised, so nothing to license; `seed` in
    posts.json changes the melody). Needs ffmpeg/ffprobe on PATH and a Python venv with numpy + scipy (PN_PY).
    `voice/` holds an earlier machine-recitation experiment (MMS-TTS), not used: its pronunciation wasn't good enough.
+   **Sung versions:** a post with `"track": {"id", "query", "from"?}` is set to a recording from Instagram's licensed
+   music library instead. `find_tracks.py <poem> "<query>"` searches and scores how closely each recording's timed
+   lyrics follow the poem; `song.py <id>` places each line where it is sung (Instagram's word-timed lyrics, or a
+   local Whisper transcription when a track has none; `--show` prints them) and cuts the song window
+   (≤ 90 s). `video.mjs` then reveals every word as it is sung. `post_reel.py [--publish]` posts the next approved
+   Reel with the song attached as Instagram music (track + start + length), so Instagram credits the artist and
+   covers the licence. Never use downloaded recordings any other way.
 4. **Publish** — `IG_SESSION_FILE=<file with the sessionid cookie> node social/instagram/post.mjs` checks the login
    and lists what would be posted; add `--publish` to post the next approved post (one per run; `--max N` for more,
    with 1.5–2.5 minutes between posts). Posted items get `posted_at`, `account`, `media_id` and `code`.
