@@ -2,12 +2,12 @@
  * Usage: node docs/wireframes/generate.mjs docs/wireframes  (needs roughjs, @resvg/resvg-js and
  * the Virgil, Noto Naskh Arabic and Noto Serif Gurmukhi TTFs; paths below point at ~/.local/tools.)
  * This is a design tool, not part of the site build.
- * Wireframe generator: one source → (a) an .excalidraw scene with one frame per
+ * Shahmukhi-only design (2026-11-11). Wireframe generator: one source → (a) an .excalidraw scene with one frame per
  * screen, (b) a PNG preview per frame rendered with rough.js + resvg.
  * Poem / proverb / dictionary text is drawn as placeholder squiggles, never invented.
  */
 import { createRequire } from 'node:module';
-import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
+import { writeFileSync, mkdirSync } from 'node:fs';
 const require = createRequire('/home/azureuser/.local/tools/');
 const rough = require('roughjs');
 const { Resvg } = require('@resvg/resvg-js');
@@ -117,52 +117,100 @@ function frame(name, w, h, build) {
 }
 
 /* ---------------- shared chrome ---------------- */
+// Shahmukhi only. Single slim bar: wordmark · links · Contribute · search icon · EN|پنجابی.
+const NAV_EN = ['Poets', 'Poems', 'Dictionary', 'Proverbs', 'Forms'];
+const NAV_PA = ['شاعر', 'کلام', 'لغت', 'اکھان', 'صنفاں'];
+
+function searchIcon(x, y, o = {}) {
+  if (o.boxed !== false) rect(x, y, 36, 36, { stroke: o.active ? OCHRE : FAINT, fill: o.active ? OCHRE_FILL : 'transparent', round: true });
+  ellipse(x + 9, y + 8, 14, 14, { stroke: INK, sw: 1.5 });
+  line(x + 21, y + 21, [[0, 0], [7, 7]], { stroke: INK, sw: 1.5 });
+}
+function menuIcon(x, y, open = false) {
+  rect(x, y, 36, 36, { stroke: open ? OCHRE : FAINT, fill: open ? OCHRE_FILL : 'transparent', round: true });
+  if (open) {
+    line(x + 10, y + 10, [[0, 0], [16, 16]], { sw: 1.5 });
+    line(x + 10, y + 26, [[0, 0], [16, -16]], { sw: 1.5 });
+  } else for (let i = 0; i < 3; i++) line(x + 9, y + 11 + i * 7, [[0, 0], [18, 0]], { sw: 1.5 });
+}
+/** Segmented EN | پنجابی toggle. */
+function langToggle(x, y, pa) {
+  rect(x, y, 112, 34, { stroke: FAINT, round: true });
+  rect(pa ? x + 46 : x + 3, y + 3, pa ? 63 : 41, 28, { stroke: OCHRE, fill: OCHRE_FILL, round: true });
+  text(x + 24, y + 8, 'EN', { size: 14, align: 'center' });
+  text(x + 78, y - 1, 'پنجابی', { size: 16, align: 'center' });
+}
+
 function header(w, o = {}) {
   const pa = o.pa;
   if (o.mobile) {
-    text(16, 16, 'punjabi.net', { size: 22, bold: true });
-    button(w - 118, 12, 'EN', { w: 40, h: 32, active: !pa });
-    text(w - 46, 8, 'پنجابی', { size: 18, align: 'center' });
-    text(16, 58, 'Poets   Poems   Dictionary   Proverbs\nForms   Contribute', { size: 15 });
-    rect(16, 112, w - 110, 36, { stroke: FAINT, round: true });
-    text(26, 121, 'Search poets, poems…', { size: 14, color: MUTED });
-    button(w - 90, 112, 'Search', { h: 36, w: 74, size: 14 });
-    text(16, 166, 'Script', { size: 14, color: MUTED });
-    button(70, 158, 'شاہ مکھی', { w: 84, h: 36, active: o.script !== 'gm', size: 15 });
-    button(160, 158, 'ਗੁਰਮੁਖੀ', { w: 80, h: 36, active: o.script === 'gm', size: 14 });
-    button(246, 158, 'Roman', { w: 70, h: 36, size: 14, muted: true });
-    line(0, 206, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
-    return 206;
+    if (pa) {
+      text(w - 16, 18, 'punjabi.net', { size: 20, bold: true, align: 'right' });
+      menuIcon(16, 14, o.menu);
+      searchIcon(60, 14);
+    } else {
+      text(16, 18, 'punjabi.net', { size: 20, bold: true });
+      searchIcon(w - 96, 14, { active: o.search });
+      menuIcon(w - 52, 14, o.menu);
+    }
+    line(0, 64, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
+    return 64;
   }
-  text(40, 26, 'punjabi.net', { size: 24, bold: true });
-  const nav = pa ? ['شاعر', 'کلام', 'لغت', 'اکھان', 'صنفاں', 'حصہ پاؤ'] : ['Poets', 'Poems', 'Dictionary', 'Proverbs', 'Forms', 'Contribute'];
-  let nx = 200;
-  nav.forEach((n, i) => {
-    text(nx, 28, n, { size: 16, color: o.active === i ? INK : INK });
-    if (o.active === i) line(nx, 50, [[0, 0], [n.length * 8.5, 0]], { stroke: OCHRE, sw: 3, roughness: 0.5 });
-    nx += n.length * (hasArabic(n) ? 8 : 9) + 30;
-  });
-  button(w - 120, 20, 'EN', { w: 40, h: 32, active: !pa });
-  text(w - 50, 14, 'پنجابی', { size: 18, align: 'center' });
-  rect(40, 70, 300, 36, { stroke: FAINT, round: true });
-  text(52, 79, pa ? 'شاعر، کلام، لفظ لبھو…' : 'Search poets, poems, words…', { size: 14, color: MUTED });
-  button(340, 70, pa ? 'لبھو' : 'Search', { h: 36, w: 72, size: 14 });
-  text(w - 330, 79, pa ? 'لپی' : 'Script', { size: 14, color: MUTED });
-  button(w - 280, 70, 'شاہ مکھی', { w: 84, h: 36, active: o.script !== 'gm' && o.script !== 'ro', size: 15 });
-  button(w - 190, 70, 'ਗੁਰਮੁਖੀ', { w: 80, h: 36, active: o.script === 'gm', size: 14 });
-  button(w - 104, 70, 'Roman', { w: 64, h: 36, size: 14, active: o.script === 'ro' });
-  line(0, 122, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
-  return 122;
+  if (o.search) {
+    // Search expanded: the field takes the links' place; Esc or × closes it.
+    text(40, 20, 'punjabi.net', { size: 22, bold: true });
+    rect(200, 14, w - 420, 38, { stroke: INK, round: true, sw: 1.5 });
+    searchIcon(206, 15, { boxed: false });
+    text(244, 23, o.query ?? 'Search poems, poets, words, proverbs…', { size: 14, color: o.query ? INK : MUTED });
+    text(w - 236, 20, '×', { size: 20 });
+    langToggle(w - 152, 16, pa);
+    line(0, 66, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
+    return 66;
+  }
+  if (pa) {
+    // RTL: everything mirrors.
+    text(w - 40, 20, 'punjabi.net', { size: 22, bold: true, align: 'right' });
+    let nx = w - 200;
+    NAV_PA.forEach((n, i) => {
+      const tw = n.length * 9;
+      text(nx, 12, n, { size: 18, align: 'right' });
+      if (o.active === i) line(nx - tw, 52, [[0, 0], [tw, 0]], { stroke: OCHRE, sw: 3, roughness: 0.5 });
+      nx -= tw + 34;
+    });
+    langToggle(40, 16, true);
+    searchIcon(164, 15);
+    button(212, 15, 'حصہ پاؤ', { h: 36, w: 86, size: 16 });
+  } else {
+    text(40, 20, 'punjabi.net', { size: 22, bold: true });
+    let nx = 200;
+    NAV_EN.forEach((n, i) => {
+      text(nx, 22, n, { size: 16 });
+      if (o.active === i) line(nx, 50, [[0, 0], [n.length * 8.6, 0]], { stroke: OCHRE, sw: 3, roughness: 0.5 });
+      nx += n.length * 9 + 30;
+    });
+    button(w - 300, 15, 'Contribute', { h: 36, w: 104, size: 14 });
+    searchIcon(w - 188, 15);
+    langToggle(w - 152, 16, false);
+  }
+  line(0, 66, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
+  return 66;
 }
+
 function footer(w, y, o = {}) {
   line(0, y, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
   const pad = o.mobile ? 16 : 40;
   if (o.couplet) {
-    text(w / 2, y + 18, 'closing couplet (from a verified poem)', { size: 12, color: MUTED, align: 'center' });
-    squiggles(w / 2 - 160, y + 46, 320, 2, { center: true, color: MUTED, gap: 22 });
-    text(w / 2, y + 92, '— Poet name', { size: 14, color: MUTED, align: 'center' });
-    line(pad, y + 122, [[0, 0], [w - 2 * pad, 0]], { stroke: FAINT, roughness: 0 });
-    y += 122;
+    text(w / 2, y + 18, o.pa ? 'آخری شعر (کسے جانچے کلام توں)' : 'closing couplet (from a verified poem)', { size: 12, color: MUTED, align: 'center' });
+    squiggles(w / 2 - 160, y + 50, 320, 2, { center: true, color: MUTED, gap: 22 });
+    text(w / 2, y + 96, '— poet', { size: 14, color: MUTED, align: 'center' });
+    line(pad, y + 126, [[0, 0], [w - 2 * pad, 0]], { stroke: FAINT, roughness: 0 });
+    y += 126;
+  }
+  if (o.pa) {
+    text(w - pad, y + 14, 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دی سانبھ', { size: 16, align: 'right' });
+    text(w - pad, y + 52, 'ساڈے بارے     حصہ پاؤ     صنفاں     انسٹاگرام', { size: 15, align: 'right' });
+    text(pad, y + 92, '© punjabi.net', { size: 12, color: MUTED });
+    return y + 120;
   }
   text(pad, y + 22, 'An archive of Punjabi poetry, poets, proverbs and words', { size: o.mobile ? 13 : 15 });
   text(pad, y + 52, 'About    Contribute    Forms    Instagram', { size: 14 });
@@ -170,192 +218,289 @@ function footer(w, y, o = {}) {
   return y + 120;
 }
 
+/** A list row for a poem: Shahmukhi title (right), poet + form (left). */
+function poemRow(x, y, w, o = {}) {
+  line(x, y, [[0, 0], [w, 0]], { stroke: FAINT, roughness: 0 });
+  tag(x, y + 16, o.form ?? 'KAFI', { accent: true });
+  text(x + 90, y + 18, o.poet ?? 'poet', { size: 14, color: MUTED });
+  if (o.pending) tag(x + 200, y + 16, 'Text pending');
+  squiggles(x + w - (o.tw ?? 300), y + 30, o.tw ?? 300, 1, { rtl: true, color: INK, sw: 2.5 });
+}
+const SM_ALPHABET = 'ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ و ہ ی ے'.split(' ');
+
 /* ================= SCREENS ================= */
 
+// 0. Navbar states
+frame('00 Navbar states', 1000, 700, (w) => {
+  text(40, 20, 'Navbar: one slim bar (64 px). Shahmukhi only, no script switch.', { size: 18 });
+  const strip = (y, label, o) => {
+    text(40, y, label, { size: 14, color: NOTE });
+    const save = FRAME.y; FRAME.y = save + y + 24;
+    rect(0, 0, w, 66, { stroke: FAINT, roughness: 0 });
+    header(w, o);
+    FRAME.y = save;
+  };
+  strip(60, 'A. Default (English UI) — active page underlined in ochre', { active: 1 });
+  strip(180, 'B. Search open — field replaces the links, results page on Enter (Pagefind)', { search: true });
+  strip(300, 'C. Punjabi UI (/pa) — whole bar mirrors right-to-left', { pa: true, active: 1 });
+  text(40, 420, 'D. Mobile (360 px) — closed, and menu open', { size: 14, color: NOTE });
+  const save = FRAME.y;
+  FRAME.y = save + 444;
+  rect(0, 0, 360, 66, { stroke: FAINT, roughness: 0 });
+  header(360, { mobile: true });
+  FRAME.y = save;
+  FRAME.y = save + 444;
+  const mx = 420;
+  FRAME.x += mx;
+  rect(0, 0, 360, 230, { stroke: FAINT, roughness: 0, fill: PAPER });
+  header(360, { mobile: true, menu: true });
+  ['Poets', 'Poems', 'Dictionary', 'Proverbs', 'Forms', 'Contribute'].forEach((n, i) => text(16 + (i % 2) * 170, 78 + Math.floor(i / 2) * 30, n, { size: 15 }));
+  langToggle(16, 180, false);
+  FRAME.x -= mx;
+  FRAME.y = save;
+  note(820, 470, 'menu is a <details>\nelement: works\nwithout JavaScript', 784, 520);
+});
+
 // 1. Home
-frame('01 Home (desktop)', 1000, 1330, (w) => {
+frame('01 Home (desktop)', 1000, 1360, (w) => {
   let y = header(w);
-  text(w / 2, y + 60, 'پنجابی شاعری، اوہناں ای لفظاں تے لپیاں وچ جنہاں وچ لکھی گئی۔', { size: 30, align: 'center' });
-  text(w / 2, y + 128, 'Punjabi poetry, kept in the words and scripts it was written in.', { size: 18, align: 'center', color: MUTED, italic: true });
+  text(w / 2, y + 60, 'پنجابی شاعری، اوہناں ای لفظاں وچ جنہاں وچ لکھی گئی۔', { size: 30, align: 'center' });
+  text(w / 2, y + 128, 'Punjabi poetry, kept in the words it was written in.', { size: 18, align: 'center', color: MUTED, italic: true });
   squiggles(w / 2 - 230, y + 176, 460, 3, { center: true });
   button(w / 2 - 170, y + 232, 'Explore poems', { primary: true, w: 160, h: 42 });
   button(w / 2 + 10, y + 232, 'Meet the poets', { w: 160, h: 42 });
-  note(w - 250, y + 6, 'thesis line: Punjabi (active\nscript) + English beneath', w - 300, y + 60);
+  note(w - 230, y + 10, 'thesis: Shahmukhi line,\nEnglish beneath', w - 290, y + 60);
   y += 320;
   text(40, y, 'Recommended poets', { size: 24 });
   text(w - 40, y + 6, 'All poets →', { size: 15, align: 'right' });
   const cw = (w - 80 - 3 * 24) / 4;
-  ['Bulleh Shah', 'Shah Hussain', 'Baba Farid', 'Waris Shah'].forEach((n, i) => {
+  [['بلھے شاہ', 'Bulleh Shah'], ['شاہ حسین', 'Shah Hussain'], ['بابا فرید', 'Baba Farid'], ['وارث شاہ', 'Waris Shah']].forEach(([sm, en], i) => {
     const x = 40 + i * (cw + 24);
     portrait(x, y + 46, cw, 150);
-    text(x, y + 206, ['بلھے شاہ', 'شاہ حسین', 'بابا فرید', 'وارث شاہ'][i], { size: 18 });
-    text(x, y + 246, n, { size: 16 });
+    text(x + cw, y + 206, sm, { size: 18, align: 'right' });
+    text(x, y + 246, en, { size: 16 });
     text(x, y + 268, 'born – died', { size: 13, color: MUTED });
   });
   y += 320;
   text(40, y, 'Selected poems', { size: 24 });
   text(w - 40, y + 6, 'All poems →', { size: 15, align: 'right' });
-  for (let i = 0; i < 4; i++) {
-    const ry = y + 50 + i * 62;
-    line(40, ry, [[0, 0], [w - 80, 0]], { stroke: FAINT, roughness: 0 });
-    tag(40, ry + 18, ['KAFI', 'DOHRA', 'BAIT', 'SIHARFI'][i], { accent: true });
-    squiggles(w - 420, ry + 30, 380, 1, { rtl: true, color: MUTED });
-    text(150, ry + 20, 'poem title (active script) · poet', { size: 14, color: MUTED });
-  }
-  footer(w, y + 320, { couplet: true });
+  ['KAFI', 'DOHRA', 'BAIT', 'SIHARFI'].forEach((f, i) => poemRow(40, y + 50 + i * 62, w - 80, { form: f, poet: ['Bulleh Shah', 'Baba Farid', 'Sultan Bahu', 'Hashim Shah'][i], tw: 380 }));
+  text(40, y + 310, 'Proverb of the day', { size: 20 });
+  squiggles(w - 480, y + 350, 440, 1, { rtl: true, color: INK, sw: 3 });
+  text(40, y + 340, 'meaning in English…', { size: 14, color: MUTED });
+  footer(w, y + 400, { couplet: true });
 });
 
-// 2. Poets
-frame('02 Poets (desktop)', 1000, 1180, (w) => {
+// 2. Home (mobile)
+frame('02 Home (mobile)', 390, 1240, (w) => {
+  let y = header(w, { mobile: true });
+  text(w / 2, y + 40, 'پنجابی شاعری، اوہناں ای\nلفظاں وچ جنہاں وچ لکھی گئی۔', { size: 24, align: 'center' });
+  text(w / 2, y + 150, 'Punjabi poetry, kept in the\nwords it was written in.', { size: 15, align: 'center', color: MUTED });
+  squiggles(30, y + 210, w - 60, 3, { center: true });
+  button(16, y + 268, 'Explore poems', { primary: true, w: w - 32, h: 44 });
+  button(16, y + 322, 'Meet the poets', { w: w - 32, h: 44 });
+  y += 400;
+  text(16, y, 'Recommended poets', { size: 20 });
+  [0, 1].forEach((i) => {
+    const x = 16 + i * ((w - 44) / 2 + 12), cw = (w - 44) / 2;
+    portrait(x, y + 40, cw, 130);
+    text(x + cw, y + 178, ['بلھے شاہ', 'شاہ حسین'][i], { size: 16, align: 'right' });
+    text(x, y + 214, ['Bulleh Shah', 'Shah Hussain'][i], { size: 14 });
+  });
+  y += 260;
+  text(16, y, 'Selected poems', { size: 20 });
+  for (let i = 0; i < 3; i++) poemRow(16, y + 40 + i * 60, w - 32, { tw: 180 });
+  footer(w, y + 240, { mobile: true, couplet: true });
+});
+
+// 3. Poets index
+frame('03 Poets (desktop)', 1000, 1200, (w) => {
   let y = header(w, { active: 0 });
   text(40, y + 36, 'Poets', { size: 36 });
   text(40, y + 88, '13 poets', { size: 15, color: MUTED });
   rect(w - 360, y + 44, 320, 38, { stroke: FAINT, round: true });
-  text(w - 348, y + 54, 'Filter poets by name…', { size: 14, color: MUTED });
+  text(w - 348, y + 54, 'Filter by name…', { size: 14, color: MUTED });
   let tx = 40;
   ['All', 'Classical', 'Modern', 'Contemporary'].forEach((t, i) => (tx += button(tx, y + 120, t, { h: 32, size: 14, active: i === 0 }) + 8));
-  note(tx + 30, y + 126, 'era filter + search are static-page JS (Pagefind/filter)', null);
   y += 180;
   const cw = (w - 80 - 3 * 24) / 4;
   const names = [['بابا فرید', 'Baba Farid'], ['شاہ حسین', 'Shah Hussain'], ['سلطان باہو', 'Sultan Bahu'], ['بلھے شاہ', 'Bulleh Shah'],
-    ['وارث شاہ', 'Waris Shah'], ['ہاشم شاہ', 'Hashim Shah'], ['میاں محمد بخش', 'Mian Muhammad Bakhsh'], ['ਭਾਈ ਵੀਰ ਸਿੰਘ', 'Bhai Vir Singh']];
+    ['وارث شاہ', 'Waris Shah'], ['ہاشم شاہ', 'Hashim Shah'], ['میاں محمد بخش', 'Mian Muhammad Bakhsh'], ['بھائی ویر سنگھ', 'Bhai Vir Singh']];
   names.forEach(([sm, en], i) => {
     const x = 40 + (i % 4) * (cw + 24), cy = y + Math.floor(i / 4) * 410;
-    portrait(x, cy, cw, 170);
-    text(x, cy + 176, i === 0 ? 'Imagined likeness, no authentic\nportrait survives' : 'caption: source of image', { size: 11, color: MUTED });
-    tag(x, cy + 214, i < 7 ? 'classical' : 'modern', { accent: true });
-    tag(x + 92, cy + 214, 'sufi');
-    text(x, cy + 246, sm, { size: 20 });
+    if (i % 3 === 0) {
+      rect(x, cy, cw, 170, { stroke: FAINT, dashed: true, fill: WASH, round: true });
+      text(x + cw / 2, cy + 60, sm.slice(0, 1), { size: 40, align: 'center', color: FAINT });
+    } else portrait(x, cy, cw, 170);
+    text(x, cy + 176, i % 3 === 0 ? 'No authentic portrait is known.' : 'Imagined likeness · source', { size: 11, color: MUTED });
+    tag(x, cy + 210, i < 7 ? 'classical' : 'modern', { accent: true });
+    tag(x + 92, cy + 210, 'sufi');
+    text(x + cw, cy + 242, sm, { size: 20, align: 'right' });
     text(x, cy + 290, en, { size: 16 });
     text(x, cy + 312, 'born – died', { size: 13, color: MUTED });
     squiggles(x, cy + 342, cw, 2);
   });
-  note(40, y + 372, 'honest caption when portrait_authentic: false', 60, y + 214);
+  note(40, y + 372, 'no portrait → letter tile + honest caption', 60, y + 180);
   footer(w, y + 840);
 });
 
-// 3. Poem reader (desktop)
-frame('03 Poem reader (desktop)', 1000, 1720, (w) => {
+// 4. Poet page
+frame('04 Poet page (desktop)', 1000, 1300, (w) => {
+  let y = header(w, { active: 0 });
+  portrait(40, y + 40, 220, 280);
+  text(40, y + 328, 'Imagined likeness, not a portrait\nfrom life. Source: …', { size: 12, color: MUTED });
+  const x = 300;
+  tag(x, y + 44, 'classical', { accent: true }); tag(x + 92, y + 44, 'sufi'); tag(x + 150, y + 44, 'kafi');
+  text(x, y + 82, 'Bulleh Shah', { size: 36 });
+  text(x + 300, y + 76, 'بلھے شاہ', { size: 30 });
+  text(x, y + 140, 'c. 1680 – 1757  ·  Kasur, Punjab', { size: 15, color: MUTED });
+  text(x, y + 176, 'One-line bio, larger than body text.', { size: 17 });
+  squiggles(x, y + 230, 640, 7);
+  text(x, y + 350, 'Poems (8)', { size: 22 });
+  ['KAFI', 'KAFI', 'DOHRA', 'SIHARFI'].forEach((f, i) => poemRow(x, y + 390 + i * 54, 660, { form: f, poet: '', pending: i === 1 }));
+  text(x, y + 630, 'Works', { size: 22 });
+  squiggles(x, y + 670, 560, 3, { color: MUTED, gap: 24 });
+  text(x, y + 750, 'Sources for this biography', { size: 18 });
+  squiggles(x, y + 786, 480, 1, { color: MUTED });
+  rect(x, y + 820, 660, 64, { stroke: OCHRE, fill: OCHRE_FILL, round: true });
+  text(x + 16, y + 832, 'In-copyright poets (e.g. Amrita Pritam): this box replaces the\npoem list. Biography and works only, no poems.', { size: 13 });
+  footer(w, y + 920);
+});
+
+// 5. Poems index
+frame('05 Poems (desktop)', 1000, 990, (w) => {
+  let y = header(w, { active: 1 });
+  text(40, y + 36, 'Poems', { size: 36 });
+  text(40, y + 88, '64 poems · 8 poets · 8 forms', { size: 15, color: MUTED });
+  let tx = 40;
+  ['All', 'Kafi', 'Doha', 'Bait', 'Siharfi', 'Baran Maah', 'Qissa', 'Boli', 'Dohra'].forEach((t, i) => (tx += button(tx, y + 124, t, { h: 32, size: 14, active: i === 0 }) + 8));
+  rect(w - 260, y + 44, 220, 38, { stroke: FAINT, round: true });
+  text(w - 248, y + 54, 'Poet: all  v', { size: 14 });
+  note(w - 250, y + 176, 'filters are links (?form=kafi):\nno JS needed', null);
+  y += 230;
+  text(40, y, 'Bulleh Shah', { size: 18, color: MUTED });
+  for (let i = 0; i < 4; i++) poemRow(40, y + 34 + i * 58, w - 80, { form: ['KAFI', 'KAFI', 'SIHARFI', 'BARAN MAAH'][i], poet: '', pending: i === 2, tw: 420 });
+  y += 290;
+  text(40, y, 'Baba Farid', { size: 18, color: MUTED });
+  for (let i = 0; i < 3; i++) poemRow(40, y + 34 + i * 58, w - 80, { form: 'DOHRA', poet: '', tw: 420 });
+  footer(w, y + 240);
+});
+
+// 6. Poem reader (desktop)
+frame('06 Poem reader (desktop)', 1000, 1740, (w) => {
   let y = header(w, { active: 1 });
   const cx = 230, cw = 540;
-  text(cx, y + 30, 'Poems  /  Bulleh Shah', { size: 13, color: MUTED });
-  tag(cx, y + 60, 'KAFI', { accent: true });
-  note(cx + 70, y + 62, '→ /forms/kafi', null);
-  rect(cx + cw - 300, y + 96, 300, 40, { stroke: FAINT, fill: WASH, fillStyle: 'hachure' });
-  text(cx + cw - 150, y + 106, 'poem title (active script)', { size: 14, color: MUTED, align: 'center' });
-  text(cx, y + 150, 'by Bulleh Shah', { size: 17 });
-  let bx = cx;
-  ['A−', 'A+', 'Copy', 'Print', 'Share'].forEach((b) => (bx += button(bx, y + 186, b, { h: 32, size: 14 }) + 8));
-  note(bx + 20, y + 192, 'text size persists\n(localStorage)', null);
-  let vy = y + 260;
+  text(w / 2, y + 34, 'KAFI', { size: 13, color: OCHRE, align: 'center' });
+  text(w / 2, y + 56, 'poem title', { size: 13, color: MUTED, align: 'center' });
+  squiggles(w / 2 - 110, y + 86, 220, 1, { center: true, color: INK, sw: 2 });
+  text(w / 2, y + 100, 'English title (italic)', { size: 14, color: MUTED, align: 'center', italic: true });
+  text(w / 2, y + 128, 'Bulleh Shah · c. 1680 – 1757', { size: 15, align: 'center' });
+  let bx = w / 2 - 150;
+  ['A−', 'A+', 'Copy', 'Print', 'Share'].forEach((b) => (bx += button(bx, y + 166, b, { h: 32, size: 14 }) + 8));
+  note(w / 2 + 200, y + 166, 'text size remembered;\nno script switch', null);
+  let vy = y + 240;
   for (let i = 1; i <= 4; i++) {
-    text(cx + cw + 24, vy + 6, String(i), { size: 14, color: MUTED });
-    squiggles(cx, vy + 14, cw, 2, { rtl: true, color: INK, sw: 3, gap: 40 });
-    if (i === 2) {
-      text(cx, vy + 92, 'English translation under the verse (optional)', { size: 14, color: MUTED, italic: true });
-      vy += 30;
-    }
+    text(w / 2, vy, i === 1 ? '1 · Refrain' : String(i), { size: 12, color: i === 1 ? OCHRE : MUTED, align: 'center' });
+    squiggles(cx + 40, vy + 30, cw - 80, 2, { center: true, color: INK, sw: 3.5, gap: 46 });
+    text(w / 2, vy + 98, 'optional English translation, under the verse', { size: 13, color: MUTED, align: 'center', italic: true });
     if (i === 1) {
-      line(cx + 300, vy + 32, [[0, 0], [70, 0]], { stroke: OCHRE, sw: 2, dashed: true, roughness: 0 });
-      rect(cx + 250, vy + 46, 250, 118, { fill: PAPER, stroke: INK, round: true, sw: 2 });
-      text(cx + 266, vy + 56, 'glossed word (script)', { size: 15 });
-      text(cx + 266, vy + 80, 'roman · /IPA/ · noun, m.', { size: 13, color: MUTED });
-      squiggles(cx + 266, vy + 110, 210, 1, { color: MUTED });
-      text(cx + 266, vy + 130, 'Open in dictionary →', { size: 13, color: OCHRE });
-      note(cx + cw + 50, vy + 120, 'tap or Enter on a\nglossed word opens\nthis popover; Esc\ncloses; arrow keys\nmove between words', cx + 504, vy + 110);
+      line(cx + 330, vy + 38, [[0, 0], [60, 0]], { stroke: OCHRE, sw: 2, dashed: true, roughness: 0 });
+      rect(cx + 280, vy + 52, 260, 126, { fill: PAPER, stroke: INK, round: true, sw: 2 });
+      text(cx + 524, vy + 58, 'لفظ', { size: 20, align: 'right' });
+      text(cx + 296, vy + 64, '×', { size: 16 });
+      text(cx + 296, vy + 100, 'lafz · /ləfz/ · noun, m.', { size: 13, color: MUTED });
+      squiggles(cx + 296, vy + 132, 210, 1, { color: MUTED });
+      text(cx + 296, vy + 150, 'Open in dictionary →', { size: 13, color: OCHRE });
+      note(cx + cw + 30, vy + 120, 'word meaning: tap, or\nTab + arrow keys;\nEsc closes', cx + 544, vy + 110);
     }
-    vy += 106;
+    vy += i === 1 ? 200 : 140;
   }
-  rect(cx, vy + 10, cw, 56, { stroke: OCHRE, fill: OCHRE_FILL, round: true });
-  text(cx + 16, vy + 20, 'Gurmukhi on this page is a machine draft, not yet reviewed.\n(shown only when Gurmukhi is active and gurmukhi_status: auto)', { size: 13 });
-  vy += 96;
+  vy += 10;
   line(cx, vy, [[0, 0], [cw, 0]], { stroke: FAINT, roughness: 0 });
-  text(cx, vy + 20, 'Source', { size: 18 });
-  text(cx, vy + 50, 'Book title, ed. Editor (Publisher, Year), p. 00  ↗', { size: 14 });
-  text(cx, vy + 82, 'Verification', { size: 18 });
-  text(cx, vy + 112, 'Checked line by line against the printed edition.', { size: 14, color: MUTED });
+  text(cx, vy + 20, 'Source', { size: 15, color: MUTED });
+  text(cx + 110, vy + 20, 'Book, ed. Editor (Publisher, Year), p. 00', { size: 14 });
+  text(cx, vy + 52, 'Verification', { size: 15, color: MUTED });
+  text(cx + 110, vy + 52, 'Checked against the printed edition.', { size: 14 });
+  vy += 100;
+  rect(cx, vy, cw, 130, { stroke: FAINT, round: true });
+  text(cx + 20, vy + 16, 'ABOUT THE POET', { size: 13, color: OCHRE });
+  text(cx + cw - 20, vy + 36, 'بلھے شاہ', { size: 18, align: 'right' });
+  text(cx + 20, vy + 46, 'Bulleh Shah · c. 1680 – 1757', { size: 15 });
+  squiggles(cx + 20, vy + 92, cw - 40, 2);
   vy += 160;
-  rect(cx, vy, cw, 170, { stroke: FAINT, round: true });
-  text(cx + 20, vy + 16, 'About the poet', { size: 18 });
-  portrait(cx + 20, vy + 50, 90, 100);
-  text(cx + 126, vy + 46, 'بلھے شاہ', { size: 18 });
-  text(cx + 200, vy + 56, '·  Bulleh Shah', { size: 16 });
-  squiggles(cx + 126, vy + 96, cw - 160, 2);
-  text(cx + 126, vy + 130, 'Read more →', { size: 14, color: OCHRE });
-  vy += 200;
-  text(cx, vy, 'More from this poet', { size: 18 });
-  for (let i = 0; i < 3; i++) {
-    line(cx, vy + 40 + i * 44, [[0, 0], [cw, 0]], { stroke: FAINT, roughness: 0 });
-    tag(cx, vy + 50 + i * 44, 'KAFI', { accent: true });
-    squiggles(cx + cw - 300, vy + 62 + i * 44, 300, 1, { rtl: true, color: MUTED });
-  }
-  note(40, y + 300, 'poem text is the\nlargest element;\none reading column', cx - 10, y + 300);
-  footer(w, vy + 190);
+  text(cx, vy, 'MORE FROM THIS POET', { size: 13, color: OCHRE });
+  for (let i = 0; i < 3; i++) poemRow(cx, vy + 30 + i * 54, cw, { poet: '', tw: 260, pending: i === 2 });
+  note(40, y + 300, 'poem text is the\nlargest element;\ncentred couplets', cx + 30, y + 280);
+  footer(w, vy + 220);
 });
 
-// 4. Poem reader (mobile, Gurmukhi)
-frame('04 Poem reader (mobile, Gurmukhi)', 390, 1300, (w) => {
-  let y = header(w, { mobile: true, script: 'gm' });
-  text(16, y + 24, 'Poems / Bulleh Shah', { size: 12, color: MUTED });
-  tag(16, y + 50, 'ਕਾਫ਼ੀ', { accent: true });
-  rect(16, y + 86, 260, 36, { stroke: FAINT, fill: WASH, fillStyle: 'hachure' });
-  text(26, y + 94, 'poem title (Gurmukhi)', { size: 14, color: MUTED });
-  text(16, y + 136, 'by Bulleh Shah', { size: 15 });
-  let bx = 16;
-  ['A−', 'A+', 'Copy', 'Print', 'Share'].forEach((b) => (bx += button(bx, y + 168, b, { h: 32, size: 13, w: b.length < 3 ? 40 : 62 }) + 6));
-  let vy = y + 236;
+// 7. Poem reader (mobile)
+frame('07 Poem reader (mobile)', 390, 1120, (w) => {
+  let y = header(w, { mobile: true });
+  text(w / 2, y + 24, 'KAFI', { size: 12, color: OCHRE, align: 'center' });
+  squiggles(w / 2 - 90, y + 62, 180, 1, { center: true, color: INK, sw: 2 });
+  text(w / 2, y + 80, 'Bulleh Shah', { size: 14, align: 'center' });
+  let bx = 26;
+  ['A−', 'A+', 'Copy', 'Print', 'Share'].forEach((b) => (bx += button(bx, y + 114, b, { h: 32, size: 13, w: b.length < 3 ? 42 : 62 }) + 6));
+  let vy = y + 180;
   for (let i = 1; i <= 4; i++) {
-    text(16, vy, String(i), { size: 13, color: MUTED });
-    squiggles(40, vy + 10, w - 56, 2, { color: INK, sw: 3, gap: 30 });
-    vy += 84;
+    text(w / 2, vy, String(i), { size: 12, color: MUTED, align: 'center' });
+    squiggles(30, vy + 28, w - 60, 2, { center: true, color: INK, sw: 3, gap: 40 });
+    vy += 120;
   }
-  rect(16, vy, w - 32, 70, { stroke: OCHRE, fill: OCHRE_FILL, round: true });
-  text(28, vy + 10, 'Gurmukhi is a machine draft,\nnot yet reviewed.', { size: 13 });
-  vy += 96;
-  text(16, vy, 'Source', { size: 16 });
-  squiggles(16, vy + 34, w - 32, 2, { color: MUTED });
-  text(16, vy + 70, 'Verification', { size: 16 });
-  squiggles(16, vy + 104, w - 32, 1, { color: MUTED });
-  rect(16, vy + 130, w - 32, 140, { stroke: FAINT, round: true });
-  text(30, vy + 144, 'About the poet', { size: 16 });
-  portrait(30, vy + 176, 70, 80);
-  squiggles(116, vy + 190, w - 150, 3);
-  note(200, y + 40, 'no horizontal scroll\nat 360 px', null);
-  footer(w, vy + 300, { mobile: true });
+  // bottom sheet
+  rect(0, 1120 - 330, w, 210, { fill: PAPER, stroke: INK, sw: 2 });
+  text(w - 20, 1120 - 316, 'لفظ', { size: 22, align: 'right' });
+  button(16, 1120 - 314, '×', { w: 36, h: 36 });
+  text(20, 1120 - 262, 'lafz · /ləfz/ · noun, m.', { size: 13, color: MUTED });
+  squiggles(20, 1120 - 226, w - 60, 2, { color: MUTED, gap: 22 });
+  text(20, 1120 - 172, 'Open in dictionary →', { size: 13, color: OCHRE });
+  note(20, 1120 - 380, 'on phones the meaning\nopens as a bottom sheet', null);
+  footer(w, 1120 - 120, { mobile: true });
 });
 
-// 5. Poet page
-frame('05 Poet page (desktop)', 1000, 1260, (w) => {
-  let y = header(w, { active: 0 });
-  portrait(40, y + 40, 260, 320);
-  text(40, y + 368, 'Imagined likeness, no authentic portrait survives.\nSource of image: …', { size: 12, color: MUTED });
-  const x = 340;
-  tag(x, y + 44, 'classical', { accent: true }); tag(x + 92, y + 44, 'sufi'); tag(x + 150, y + 44, 'kafi');
-  text(x, y + 82, 'بلھے شاہ', { size: 40 });
-  text(x, y + 158, 'Bulleh Shah', { size: 30 });
-  text(x, y + 200, 'born – died  ·  region', { size: 15, color: MUTED });
-  squiggles(x, y + 244, 600, 6);
-  text(x, y + 340, 'Poems (8)', { size: 22 });
-  for (let i = 0; i < 4; i++) {
-    line(x, y + 380 + i * 46, [[0, 0], [620, 0]], { stroke: FAINT, roughness: 0 });
-    tag(x, y + 392 + i * 46, ['KAFI', 'KAFI', 'DOHRA', 'SIHARFI'][i], { accent: true });
-    squiggles(x + 340, y + 404 + i * 46, 280, 1, { rtl: true, color: MUTED });
-  }
-  text(x, y + 590, 'Bibliography', { size: 22 });
-  squiggles(x, y + 630, 560, 3, { color: MUTED, gap: 24 });
-  rect(x, y + 720, 620, 64, { stroke: FAINT, fill: WASH, round: true });
-  text(x + 16, y + 732, 'In-copyright poets (e.g. Amrita Pritam): biography and\nbibliography only, no full poems.', { size: 13, color: MUTED });
-  footer(w, y + 830);
+// 8. Forms index
+frame('08 Forms (desktop)', 1000, 1000, (w) => {
+  let y = header(w, { active: 4 });
+  text(40, y + 36, 'Forms', { size: 36 });
+  text(40, y + 88, 'The shapes Punjabi poetry is written in.', { size: 15, color: MUTED });
+  y += 140;
+  const cw = (w - 80 - 3 * 24) / 4;
+  [['کافی', 'Kafi'], ['دوہا', 'Doha'], ['بیت', 'Bait'], ['سی حرفی', 'Siharfi'], ['بارہ ماہ', 'Baran Maah'], ['قصہ', 'Qissa'], ['بولی', 'Boli'], ['دوہڑا', 'Dohra']].forEach(([sm, en], i) => {
+    const x = 40 + (i % 4) * (cw + 24), cy = y + Math.floor(i / 4) * 250;
+    rect(x, cy, cw, 220, { stroke: FAINT, round: true });
+    text(x + cw - 16, cy + 8, sm, { size: 26, align: 'right' });
+    text(x + 16, cy + 74, en, { size: 18 });
+    squiggles(x + 16, cy + 120, cw - 32, 3, { gap: 16 });
+    text(x + 16, cy + 186, `${[12, 6, 5, 3, 2, 4, 0, 6][i]} poems`, { size: 13, color: MUTED });
+  });
+  footer(w, y + 540);
 });
 
-// 6. Proverbs
-frame('06 Proverbs (desktop)', 1000, 1120, (w) => {
+// 9. Form page
+frame('09 Form page: Kafi (desktop)', 1000, 1060, (w) => {
+  let y = header(w, { active: 4 });
+  const cx = 200, cw = 600;
+  text(cx, y + 30, 'Forms /', { size: 13, color: MUTED });
+  text(cx, y + 56, 'Kafi', { size: 40 });
+  text(cx + cw, y + 50, 'کافی', { size: 34, align: 'right' });
+  squiggles(cx, y + 140, cw, 3);
+  text(cx, y + 210, 'History and structure', { size: 22 });
+  squiggles(cx, y + 250, cw, 6, { color: MUTED });
+  text(cx, y + 360, 'Poems in this form', { size: 22 });
+  for (let i = 0; i < 3; i++) poemRow(cx, y + 400 + i * 54, cw, { poet: ['Bulleh Shah', 'Shah Hussain', 'Sultan Bahu'][i] });
+  text(cx, y + 590, 'Other forms:  Doha · Bait · Siharfi · Baran Maah · Qissa · Boli · Dohra', { size: 14 });
+  footer(w, y + 660);
+});
+
+// 10. Proverbs
+frame('10 Proverbs (desktop)', 1000, 1140, (w) => {
   let y = header(w, { active: 3 });
   const cx = 200, cw = 600;
   text(cx, y + 36, 'Proverbs', { size: 36 });
   text(cx, y + 88, '150 proverbs', { size: 15, color: MUTED });
   rect(cx, y + 120, cw, 40, { stroke: FAINT, round: true });
-  text(cx + 12, y + 130, 'Search proverbs (any script or English)…', { size: 14, color: MUTED });
+  text(cx + 12, y + 130, 'Search proverbs, in Shahmukhi or English…', { size: 14, color: MUTED });
   let vy = y + 196;
   for (let i = 1; i <= 5; i++) {
     line(cx, vy, [[0, 0], [cw, 0]], { stroke: FAINT, roughness: 0 });
@@ -365,101 +510,141 @@ frame('06 Proverbs (desktop)', 1000, 1120, (w) => {
     text(cx, vy + 78, 'Meaning: …', { size: 14 });
     vy += 118;
   }
-  note(cx + cw + 50, y + 236, 'each row links to\n/proverbs/{slug}\n(own page: text, literal,\nmeaning, usage note, source)', null);
+  note(cx + cw + 50, y + 236, 'each row opens\n/proverbs/{slug}', null);
   footer(w, vy + 30);
 });
 
-// 7. Dictionary index
-frame('07 Dictionary (desktop)', 1000, 1000, (w) => {
+// 11. Proverb page
+frame('11 Proverb page (desktop)', 1000, 860, (w) => {
+  let y = header(w, { active: 3 });
+  const cx = 200, cw = 600;
+  text(cx, y + 30, 'Proverbs / 12 of 150', { size: 13, color: MUTED });
+  squiggles(cx + 60, y + 110, cw - 120, 1, { center: true, color: INK, sw: 4 });
+  let bx = w / 2 - 70;
+  ['Copy', 'Share'].forEach((b) => (bx += button(bx, y + 150, b, { h: 32, size: 14 }) + 8));
+  text(cx, y + 220, 'Literally', { size: 15, color: MUTED });
+  squiggles(cx + 120, y + 230, 380, 1, { color: MUTED });
+  text(cx, y + 260, 'Meaning', { size: 15, color: MUTED });
+  squiggles(cx + 120, y + 270, 440, 2, { color: INK, gap: 22 });
+  text(cx, y + 330, 'Usage', { size: 15, color: MUTED });
+  squiggles(cx + 120, y + 340, 420, 2, { color: MUTED, gap: 22 });
+  text(cx, y + 400, 'Source', { size: 15, color: MUTED });
+  text(cx + 120, y + 400, 'Book (Publisher, Year), p. 00', { size: 14 });
+  line(cx, y + 450, [[0, 0], [cw, 0]], { stroke: FAINT, roughness: 0 });
+  text(cx, y + 470, '← previous', { size: 14 });
+  text(cx + cw, y + 470, 'next →', { size: 14, align: 'right' });
+  footer(w, y + 540);
+});
+
+// 12. Dictionary home
+frame('12 Dictionary (desktop)', 1000, 1000, (w) => {
   let y = header(w, { active: 2 });
   const cx = 160, cw = 680;
   text(cx, y + 36, 'Dictionary', { size: 36 });
   text(cx, y + 86, 'Backbone: Bhai Maya Singh, The Panjabi Dictionary (1895)', { size: 14, color: MUTED });
   rect(cx, y + 120, cw, 46, { stroke: INK, round: true, sw: 2 });
-  text(cx + 14, y + 132, 'Search a word in Shahmukhi, Gurmukhi, Roman or English…', { size: 15, color: MUTED });
+  text(cx + 14, y + 132, 'Search a word in Shahmukhi, romanised, or English…', { size: 15, color: MUTED });
   text(cx, y + 196, 'Browse by letter', { size: 20 });
-  const letters = 'ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ و ہ ی ے'.split(' ');
-  letters.forEach((l, i) => {
+  SM_ALPHABET.forEach((l, i) => {
     const lx = cx + cw - 46 - (i % 14) * 48, ly = y + 236 + Math.floor(i / 14) * 54;
     rect(lx, ly, 42, 44, { stroke: FAINT, round: true });
     text(lx + 21, ly + 2, l, { size: 20, align: 'center' });
   });
-  note(cx - 140, y + 250, '/dictionary/\nletter/{x}\n(alphabet of the\nactive script)', cx + 30, y + 260);
+  note(cx - 140, y + 250, 'right-to-left\nletter grid →\n/dictionary/\nletter/{x}', cx + 30, y + 260);
   text(cx, y + 420, 'Common words', { size: 20 });
   for (let i = 0; i < 10; i++) {
-    const tx = cx + (i % 5) * 136, ty = y + 460 + Math.floor(i / 5) * 44;
+    const tx = cx + cw - 124 - (i % 5) * 136, ty = y + 460 + Math.floor(i / 5) * 44;
     rect(tx, ty, 124, 34, { stroke: FAINT, round: true });
-    squiggles(tx + 20, ty + 17, 84, 1, { color: MUTED });
+    squiggles(tx + 20, ty + 17, 84, 1, { color: INK });
   }
   footer(w, y + 590);
 });
 
-// 8. Dictionary entry
-frame('08 Dictionary entry (desktop)', 1000, 1500, (w) => {
+// 13. Dictionary letter page
+frame('13 Dictionary: letter (desktop)', 1000, 920, (w) => {
+  let y = header(w, { active: 2 });
+  const cx = 160, cw = 680;
+  text(cx, y + 30, 'Dictionary / letter', { size: 13, color: MUTED });
+  text(cx + cw, y + 40, 'ب', { size: 64, align: 'right' });
+  text(cx, y + 70, '214 words', { size: 15, color: MUTED });
+  SM_ALPHABET.slice(0, 16).forEach((l, i) => {
+    const lx = cx + cw - 30 - i * 34;
+    if (i === 1) rect(lx - 4, y + 160, 30, 34, { stroke: OCHRE, fill: OCHRE_FILL, round: true });
+    text(lx + 11, y + 158, l, { size: 17, align: 'center' });
+  });
+  for (let i = 0; i < 10; i++) {
+    const col = i % 2, row = Math.floor(i / 2);
+    const x = cx + (1 - col) * (cw / 2 + 10), ry = y + 230 + row * 76;
+    line(x, ry, [[0, 0], [cw / 2 - 10, 0]], { stroke: FAINT, roughness: 0 });
+    squiggles(x + cw / 2 - 150, ry + 24, 130, 1, { color: INK, sw: 3, rtl: true });
+    text(x, ry + 12, 'noun, m.', { size: 12, color: MUTED });
+    text(x, ry + 40, 'first sense…', { size: 13 });
+  }
+  footer(w, y + 640);
+});
+
+// 14. Dictionary entry
+frame('14 Dictionary entry (desktop)', 1000, 1480, (w) => {
   let y = header(w, { active: 2 });
   const cx = 200, cw = 600;
-  text(cx, y + 30, 'Dictionary  /  letter', { size: 13, color: MUTED });
-  rect(cx + cw - 220, y + 58, 220, 60, { stroke: FAINT, fill: WASH, fillStyle: 'hachure' });
-  text(cx + cw - 110, y + 76, 'headword (active script)', { size: 13, color: MUTED, align: 'center' });
-  text(cx, y + 130, 'other scripts:  Gurmukhi · Roman', { size: 14, color: MUTED });
-  text(cx, y + 158, 'roman  ·  /IPA/  ·  noun, masculine', { size: 15 });
+  text(cx, y + 30, 'Dictionary / ب', { size: 13, color: MUTED });
+  rect(cx + cw - 200, y + 58, 200, 64, { stroke: FAINT, fill: WASH, fillStyle: 'hachure' });
+  text(cx + cw - 100, y + 78, 'headword', { size: 13, color: MUTED, align: 'center' });
+  text(cx, y + 80, 'roman  ·  /IPA/  ·  noun, masculine', { size: 15 });
   let tx = cx;
-  ['Majhi', 'Doabi'].forEach((d) => (tx += tag(tx, y + 190, d) + 8));
-  text(cx, y + 240, 'Senses', { size: 20 });
+  ['Majhi', 'Doabi'].forEach((d) => (tx += tag(tx, y + 112, d) + 8));
+  note(cx - 170, y + 80, 'romanisation shown\nonly as pronunciation', cx - 10, y + 90);
+  text(cx, y + 170, 'Senses', { size: 20 });
   for (let i = 1; i <= 3; i++) {
-    text(cx, y + 248 + i * 30, `${i}.`, { size: 15 });
-    squiggles(cx + 26, y + 260 + i * 30, 400 - i * 40, 1, { color: MUTED });
+    text(cx, y + 178 + i * 30, `${i}.`, { size: 15 });
+    squiggles(cx + 26, y + 190 + i * 30, 400 - i * 40, 1, { color: MUTED });
   }
-  text(cx, y + 380, 'Forms', { size: 20 });
+  text(cx, y + 310, 'Forms', { size: 20 });
   ['plural', 'feminine', 'oblique'].forEach((f, i) => {
-    text(cx, y + 418 + i * 32, f, { size: 14, color: MUTED });
-    squiggles(cx + 120, y + 428 + i * 32, 160, 1, { color: INK });
+    text(cx, y + 348 + i * 32, f, { size: 14, color: MUTED });
+    squiggles(cx + 120, y + 358 + i * 32, 140, 1, { color: INK, rtl: true });
   });
-  text(cx, y + 530, 'Phrases', { size: 20 });
-  squiggles(cx, y + 570, cw, 2, { color: MUTED, gap: 26 });
-  text(cx, y + 630, 'Examples', { size: 20 });
-  squiggles(cx + cw - 400, y + 672, 400, 1, { rtl: true, color: INK, sw: 2 });
-  text(cx, y + 690, 'English rendering…', { size: 13, color: MUTED, italic: true });
-  text(cx, y + 740, 'Translations', { size: 20 });
-  text(cx, y + 776, 'Urdu  ·  …', { size: 14 });
-  text(cx, y + 800, 'Hindi ·  …', { size: 14 });
-  text(cx, y + 824, 'English · …', { size: 14 });
-  rect(cx, y + 870, cw, 140, { stroke: OCHRE, round: true });
-  text(cx + 16, y + 884, 'Appears in poems', { size: 18 });
+  text(cx, y + 460, 'Phrases', { size: 20 });
   for (let i = 0; i < 2; i++) {
-    tag(cx + 16, y + 924 + i * 38, 'KAFI', { accent: true });
-    squiggles(cx + cw - 300, y + 936 + i * 38, 280, 1, { rtl: true, color: MUTED });
+    squiggles(cx + cw - 260, y + 504 + i * 46, 260, 1, { rtl: true, color: INK, sw: 2 });
+    text(cx, y + 494 + i * 46, 'English…', { size: 13, color: MUTED });
   }
-  note(cx + cw + 24, y + 900, 'two-way link:\npoem glossary and\ndictionary entry', cx + cw + 4, y + 920);
-  text(cx, y + 1036, 'Source: Maya Singh, The Panjabi Dictionary (1895), p. 00', { size: 13, color: MUTED });
-  footer(w, y + 1090);
+  text(cx, y + 610, 'Examples', { size: 20 });
+  squiggles(cx + cw - 400, y + 652, 400, 1, { rtl: true, color: INK, sw: 2 });
+  text(cx, y + 672, 'English rendering… — source', { size: 13, color: MUTED, italic: true });
+  text(cx, y + 720, 'Translations', { size: 20 });
+  text(cx, y + 756, 'Urdu · …     Hindi · …     English · …', { size: 14 });
+  rect(cx, y + 810, cw, 150, { stroke: OCHRE, round: true });
+  text(cx + 16, y + 824, 'Appears in poems', { size: 18 });
+  for (let i = 0; i < 2; i++) poemRow(cx + 16, y + 862 + i * 44, cw - 32, { tw: 240 });
+  note(cx + cw + 24, y + 840, 'two-way link with\nthe poem glossary', cx + cw + 4, y + 860);
+  text(cx, y + 990, 'Source: Maya Singh, The Panjabi Dictionary (1895), p. 00', { size: 13, color: MUTED });
+  footer(w, y + 1060);
 });
 
-// 9. Form page
-frame('09 Form page: Kafi (desktop)', 1000, 1000, (w) => {
-  let y = header(w, { active: 4 });
+// 15. Search results
+frame('15 Search results (desktop)', 1000, 850, (w) => {
+  let y = header(w, { search: true, query: 'عشق' });
   const cx = 200, cw = 600;
-  text(cx, y + 30, 'Forms', { size: 13, color: MUTED });
-  text(cx, y + 56, 'Kafi', { size: 40 });
-  text(cx, y + 106, 'کافی', { size: 22 });
-  text(cx + 70, y + 116, '·   ਕਾਫ਼ੀ', { size: 20 });
-  text(cx + 170, y + 116, '·   Kāfī', { size: 20 });
-  squiggles(cx, y + 186, cw, 4);
-  text(cx, y + 260, 'History and structure', { size: 22 });
-  squiggles(cx, y + 300, cw, 6, { color: MUTED });
-  text(cx, y + 410, 'Poems in this form', { size: 22 });
-  for (let i = 0; i < 3; i++) {
-    line(cx, y + 450 + i * 44, [[0, 0], [cw, 0]], { stroke: FAINT, roughness: 0 });
-    text(cx, y + 462 + i * 44, ['Bulleh Shah', 'Shah Hussain', 'Sultan Bahu'][i], { size: 14, color: MUTED });
-    squiggles(cx + cw - 300, y + 474 + i * 44, 300, 1, { rtl: true, color: MUTED });
-  }
-  text(cx, y + 600, 'Other forms:  Doha · Bait · Siharfi · Baran Maah · Qissa · Boli · Dohra', { size: 14 });
-  footer(w, y + 660);
+  text(cx, y + 36, 'Results for “عشق”', { size: 28 });
+  let tx = cx;
+  ['All 23', 'Poems 9', 'Poets 1', 'Words 4', 'Proverbs 9'].forEach((t, i) => (tx += button(tx, y + 96, t, { h: 32, size: 14, active: i === 0 }) + 8));
+  let vy = y + 160;
+  ['POEM', 'WORD', 'PROVERB', 'POEM'].forEach((k, i) => {
+    line(cx, vy, [[0, 0], [cw, 0]], { stroke: FAINT, roughness: 0 });
+    tag(cx, vy + 16, k, { accent: k === 'POEM' });
+    squiggles(cx + cw - 300, vy + 28, 300, 1, { rtl: true, color: INK, sw: 2.5 });
+    squiggles(cx + 60, vy + 62, cw - 60, 1, { rtl: true, color: MUTED });
+    rect(cx + 330, vy + 52, 50, 22, { stroke: OCHRE, fill: OCHRE_FILL, round: true });
+    vy += 104;
+  });
+  note(cx + cw + 24, y + 210, 'Pagefind, static\nindex; matched\nword highlighted', cx + 384, y + 222);
+  footer(w, vy + 40);
 });
 
-// 10. About / contribute
-frame('10 About + Contribute (desktop)', 1000, 1500, (w) => {
-  let y = header(w, { active: 5 });
+// 16. About / contribute
+frame('16 About + Contribute (desktop)', 1000, 1500, (w) => {
+  let y = header(w);
   const cx = 200, cw = 600;
   text(cx, y + 36, 'About', { size: 36 });
   text(cx, y + 96, 'Mission', { size: 22 });
@@ -485,6 +670,36 @@ frame('10 About + Contribute (desktop)', 1000, 1500, (w) => {
   button(cx, y + 1082, 'Send', { primary: true, w: 120, h: 42 });
   note(cx + cw + 30, y + 680, 'POST → Cloudflare Pages\nFunction (Formspree\nfallback); no accounts', cx + cw + 4, y + 700);
   footer(w, y + 1160);
+});
+
+// 17. Punjabi UI home
+frame('17 Home, Punjabi UI /pa (desktop)', 1000, 1060, (w) => {
+  let y = header(w, { pa: true });
+  text(w / 2, y + 60, 'پنجابی شاعری، اوہناں ای لفظاں وچ جنہاں وچ لکھی گئی۔', { size: 30, align: 'center' });
+  squiggles(w / 2 - 230, y + 160, 460, 3, { center: true });
+  button(w / 2 + 10, y + 220, 'کلام پڑھو', { primary: true, w: 160, h: 44, size: 18 });
+  button(w / 2 - 170, y + 220, 'شاعراں نوں ملو', { w: 160, h: 44, size: 18 });
+  y += 310;
+  text(w - 40, y, 'چونویں شاعر', { size: 24, align: 'right' });
+  text(40, y + 6, 'سارے شاعر', { size: 16, color: OCHRE });
+  const cw = (w - 80 - 3 * 24) / 4;
+  ['بلھے شاہ', 'شاہ حسین', 'بابا فرید', 'وارث شاہ'].forEach((sm, i) => {
+    const x = w - 40 - cw - i * (cw + 24);
+    portrait(x, y + 50, cw, 150);
+    text(x + cw, y + 210, sm, { size: 18, align: 'right' });
+  });
+  note(40, y + 270, 'everything mirrors right-to-left;\nEnglish only where the content is English', null);
+  footer(w, y + 340, { pa: true, couplet: true });
+});
+
+// 18. 404
+frame('18 Not found (desktop)', 1000, 620, (w) => {
+  let y = header(w);
+  text(w / 2, y + 80, 'صفحہ نہیں لبھیا', { size: 30, align: 'center' });
+  text(w / 2, y + 150, 'Page not found', { size: 22, align: 'center' });
+  text(w / 2, y + 186, 'This page does not exist, or has moved.', { size: 15, align: 'center', color: MUTED });
+  button(w / 2 - 60, y + 230, 'Home', { primary: true, w: 120, h: 42 });
+  footer(w, y + 330);
 });
 
 /* ---------------- write .excalidraw ---------------- */
