@@ -55,12 +55,8 @@ const ready = data.posts.filter((p) => p.status === 'approved').slice(0, max);
 if (!ready.length) { console.log('No approved posts waiting.'); process.exit(0); }
 if (!publish) { console.log(`Dry run. Would post: ${ready.map((p) => p.id).join(', ')}. Add --publish to post.`); process.exit(0); }
 
-/** Reel cover: the frame with the first line lit, as JPEG. */
-function coverOf(id) {
-  const out = join(OUT, id, 'cover.jpg');
-  execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-i', join(OUT, id, 'f-0.png'), '-q:v', '3', out]);
-  return readFileSync(out);
-}
+/** Reel cover: the verse fully written out (made by video.mjs). */
+const coverOf = (id) => readFileSync(join(OUT, id, 'cover.jpg'));
 
 for (const [n, post] of ready.entries()) {
   if (n > 0) await sleep(90_000 + Math.random() * 60_000); // never in quick succession

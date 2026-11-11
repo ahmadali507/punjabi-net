@@ -6,12 +6,12 @@ Posts are generated from the archive, approved by the owner, then published one 
    always read from the poem file, never retyped. `status`: `draft` → `approved` (only the owner sets this) → `posted`.
 2. **Render** — `node social/instagram/render.mjs [id…]` writes `out/<id>.png` (preview), `out/<id>.jpg` (upload,
    1080×1350) and `out/<id>.txt` (caption). Needs `playwright-core` (`PLAYWRIGHT_CORE=/path/to/index.mjs`).
-3. **Reels** — `~/.local/tts-venv/bin/python social/instagram/voice/recite.py <id> --rate 0.72` recites the lines
-   with Meta's open Punjabi voice (MMS-TTS `pan`, run locally). It reads Gurmukhi, which is built from each word's
-   romanisation in `src/content/glosses` (`voice/gurmukhi.py`); viewers only ever see Shahmukhi. Then
-   `node social/instagram/video.mjs <id>` writes `out/<id>.mp4` (1080×1920) and `out/<id>-reel.txt` (caption, with
-   the "coming soon" hook and a machine-voice note). Needs ffmpeg; the Python venv needs torch, transformers,
-   scipy and pyyaml.
+3. **Reels** — `node social/instagram/video.mjs <id>` writes `out/<id>.mp4` (1080×1920, 30 fps) and
+   `out/<id>-reel.txt` (caption with the "coming soon" hook). A title card, then the verse revealed word by word,
+   each word entering on its own santoor note of an original score made for that post by `music/compose.py`
+   (Raag Kafi: tanpura, strings, bass, santoor, chimes, all synthesised, so nothing to license; `seed` in
+   posts.json changes the melody). Needs ffmpeg/ffprobe on PATH and a Python venv with numpy + scipy (PN_PY).
+   `voice/` holds an earlier machine-recitation experiment (MMS-TTS), not used: its pronunciation wasn't good enough.
 4. **Publish** — `IG_SESSION_FILE=<file with the sessionid cookie> node social/instagram/post.mjs` checks the login
    and lists what would be posted; add `--publish` to post the next approved post (one per run; `--max N` for more,
    with 1.5–2.5 minutes between posts). Posted items get `posted_at`, `account`, `media_id` and `code`.
