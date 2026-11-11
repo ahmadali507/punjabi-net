@@ -129,6 +129,8 @@ const dictionary = defineCollection({
     headword: pa,
     /** Pronunciation aid: romanised spelling (macrons for long vowels, underdots for retroflexes). */
     romanized: z.string().trim().min(1),
+    /** true when the source prints only the romanised form and `headword` is the editors' Shahmukhi transcription. */
+    transliterated: z.boolean().default(false),
     ipa: z.string().trim().optional(),
     pos: z.enum(POS),
     gender: z.enum(['masculine', 'feminine']).optional(),
@@ -214,10 +216,16 @@ const proverbs = defineCollection({
   loader: files('proverbs', 'json'),
   schema: z.object({
     text: pa,
+    /** Romanised form; when the source gives only this, `text` is a transliteration of it. */
     romanized: z.string().trim().optional(),
+    /** true when `text` was transcribed into Shahmukhi by the editors from `romanized`. */
+    transliterated: z.boolean().default(false),
     literal_en: z.string().trim().min(1),
-    meaning_en: z.string().trim().min(1),
+    /** The source's explanation of the sense, when it gives one. */
+    meaning_en: z.string().trim().optional(),
     usage_note: z.string().trim().optional(),
+    /** The source's section heading (Soils, Cattle, Worldly wisdom…). */
+    topic: z.string().trim().optional(),
     source,
   }),
 });

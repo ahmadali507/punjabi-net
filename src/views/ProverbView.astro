@@ -18,15 +18,15 @@ const i = all.findIndex((p) => p.id === proverb.id);
 const prev = all[i - 1];
 const next = all[i + 1];
 ---
-<Base title={d.literal_en} description={d.meaning_en} type="article" image={`/og/proverbs/${proverb.id}.png`}>
+<Base title={d.literal_en} description={d.meaning_en ?? d.literal_en} type="article" image={`/og/proverbs/${proverb.id}.png`}>
   <article class="column section proverb" data-pagefind-body data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
     <p class="eyebrow">
       <a href={localePath(locale, '/proverbs')}><T k="nav.proverbs" /></a> · <span data-pagefind-ignore>{tf(locale, 'proverbs.position', { i: i + 1, n: all.length })}</span>
     </p>
     <h1 class="proverb__text"><Pa t={d.text} /></h1>
-    {d.romanized && <p class="muted" lang="pa-Latn" dir="ltr"><i>{d.romanized}</i></p>}
+    {d.romanized && <p class="muted proverb__roman" lang="pa-Latn" dir="ltr"><i>{d.romanized.split('\n').map((l) => <span class="line">{l}</span>)}</i></p>}
 
-    <div class="reader-tools no-print" data-share-tools data-copy-text={`${d.text}\n${d.meaning_en}`} hidden>
+    <div class="reader-tools no-print" data-share-tools data-copy-text={`${d.text}\n${d.literal_en}`} hidden>
       <div class="reader-tools__group">
         <button type="button" class="tool" data-copy><T k="reader.copy" /></button>
         <button type="button" class="tool" data-share><T k="reader.share" /></button>
@@ -36,10 +36,13 @@ const next = all[i + 1];
 
     <dl class="proverb-meta">
       <div><dt><T k="proverbs.literal" /></dt><dd lang="en" dir="ltr">{d.literal_en}</dd></div>
-      <div><dt><T k="proverbs.meaning" /></dt><dd lang="en" dir="ltr">{d.meaning_en}</dd></div>
+      {d.meaning_en && <div><dt><T k="proverbs.meaning" /></dt><dd lang="en" dir="ltr">{d.meaning_en}</dd></div>}
       {d.usage_note && <div><dt><T k="proverbs.usage" /></dt><dd lang="en" dir="ltr">{d.usage_note}</dd></div>}
+      {d.topic && <div><dt><T k="proverbs.topic" /></dt><dd lang="en" dir="ltr">{d.topic}</dd></div>}
       <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
     </dl>
+
+    {d.transliterated && <p class="notice" style="text-align:start"><T k="proverbs.translit" /></p>}
 
     <nav class="pager no-print" data-pagefind-ignore>
       {prev ? <a href={localePath(locale, `/proverbs/${prev.id}`)} rel="prev"><T k="proverbs.prev" /></a> : <span></span>}

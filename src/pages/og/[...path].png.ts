@@ -28,7 +28,7 @@ export const getStaticPaths = (async () => {
     })),
     ...poets.map((p) => ({ path: `poets/${p.id}`, card: { kicker: 'Poet', pa: p.data.name.pa, en: p.data.name.en, sub: lifespan(p.data) } })),
     ...forms.map((f) => ({ path: `forms/${f.id}`, card: { kicker: 'Form', pa: f.data.name.pa, en: f.data.name.en, sub: f.data.description } })),
-    ...proverbs.map((p) => ({ path: `proverbs/${p.id}`, card: { kicker: 'Proverb', pa: p.data.text, en: p.data.meaning_en } })),
+    ...proverbs.map((p) => ({ path: `proverbs/${p.id}`, card: { kicker: 'Proverb', pa: p.data.text, en: p.data.literal_en.replace(/\n/g, ' ') } })),
     ...entries.map((e) => ({ path: `dictionary/${e.id}`, card: { kicker: 'Dictionary', pa: e.data.headword, en: e.data.romanized, sub: e.data.senses[0] } })),
   ];
   return cards.map(({ path, card }) => ({ params: { path }, props: { card } }));

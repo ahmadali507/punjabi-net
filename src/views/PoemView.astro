@@ -37,6 +37,8 @@ const jsonLd = {
   author: { '@type': 'Person', name: poet.data.name.en, alternateName: poet.data.name.pa },
   isBasedOn: { '@type': 'Book', name: d.source.book, editor: d.source.editor, publisher: d.source.publisher },
 };
+// Stanza numbers skip refrain repeats: a kafi's refrain is labelled, not counted.
+const stanzaNo = d.verses.map((v, i) => (v.refrain ? 0 : d.verses.slice(0, i + 1).filter((x) => !x.refrain).length));
 const num = (n: number) => (en ? String(n) : paDigits(n));
 const pageTitle = `${d.title_en ?? d.title} · ${poet.data.name.en}`;
 const description = hasText
@@ -76,8 +78,11 @@ const description = hasText
           {d.verses.map((v, i) => (
             <li class:list={['verse', { 'verse--refrain': v.refrain }]}>
               <span class="verse__n">
-                <span class="visually-hidden"><T k="reader.verse" /> </span>{num(i + 1)}
-                {v.refrain && <span class="verse__refrain"> · <T k="reader.refrain" /></span>}
+                {v.refrain ? (
+                  <span class="verse__refrain"><T k="reader.refrain" /></span>
+                ) : (
+                  <><span class="visually-hidden"><T k="reader.verse" /> </span>{num(stanzaNo[i])}</>
+                )}
               </span>
               <p class="verse__text" lang={PA_LANG} dir="rtl">
                 {v.text.split('\n').map((line) => (
@@ -142,7 +147,7 @@ const description = hasText
         <h2 class="eyebrow" id="about-poet"><T k="poem.aboutPoet" /></h2>
         <p class="poet-card__name">
           <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
-          {en && <Pa t={poet.data.name.pa} class="poet-card__pa" />}
+          {en && <>{' '}<Pa t={poet.data.name.pa} class="poet-card__pa" /></>}
           {dates && <span class="muted"> · <bdi dir="ltr">{dates}</bdi></span>}
         </p>
         <p lang="en" dir="ltr">{poet.data.bio_short}</p>

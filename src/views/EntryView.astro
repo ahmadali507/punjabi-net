@@ -93,6 +93,7 @@ const tr = (['ur', 'hi', 'en'] as const).filter((k) => d.translations[k].length)
       </section>
     )}
 
+    {d.transliterated && <p class="notice"><T k="dict.translit" /></p>}
     <p class="entry__source muted"><T k="poem.source" />: <Source source={d.source} /></p>
   </article>
 </Base>

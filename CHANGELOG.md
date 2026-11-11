@@ -1,5 +1,49 @@
 # Changelog
 
+## Content: data gathering (2026-11-11)
+
+### Poems: 82 texts, all public domain
+| Poet | Poems | Source |
+|---|---|---|
+| Bulleh Shah | 10 kafis | Wikisource (PD-old) |
+| Shah Hussain | 10 kafis | Wikisource |
+| Sultan Bahu | 10 abyat | Wikisource |
+| Baba Farid | 10 shaloks (new form: Shalok) | Wikisource |
+| Hashim Shah | 10 dohras + the whole of Sassi Punnun | Wikisource |
+| Waris Shah | Heer, sections 1–10 (of 630) | Wikisource |
+| Mian Muhammad Bakhsh | 10 dohras + Saif ul Malook, section 1 | Wikisource |
+| Bhai Vir Singh | 10 poems from Matak Hulare (1922) (new form: Nazm) | punjabi-kavita.com Shahmukhi transliteration of the Gurmukhi original |
+
+- Texts were imported verbatim by script (`<poem>` blocks), split into stanzas, with kafi refrains detected
+  and labelled (refrains are not counted as numbered stanzas). Every poem links its source page and says
+  "Not yet checked against a printed edition."
+- "Ilmon bas karin o yar" (Bulleh Shah) is still a stub: no public-domain online text was found.
+
+### Proverbs: 159
+- From J. Wilson, *Grammar and Dictionary of Western Panjabi, as spoken in the Shahpur District, with
+  Proverbs, Sayings and Verses* (Punjab Government Press, Lahore, 1899; archive.org 12034371bsb), with
+  Wilson's English translations and explanations, topic and page. Wilson printed Punjabi in Roman letters,
+  so the Shahmukhi is an editorial transcription; each proverb shows the romanised original and a notice.
+- Skipped: slurs against castes and communities, garbled OCR, near-duplicate variants.
+
+### Dictionary: 553 entries
+- From the same Wilson book (Dictionary pp. 1–69), headwords transcribed into Shahmukhi (marked on each
+  entry), Wilson's English senses verbatim. Replaces the Maya Singh plan: the only online edition of
+  Maya Singh (DSAL) is under a Creative Commons licence and in Gurmukhi.
+- Entries from pages where the OCR separated headwords from definitions were paired by order and meaning;
+  they are the least certain (A–H pages 4–9, 13, 15, 17, 19–21, 23 and most P–Z pages).
+- 55 poems now have tap-a-word meanings (136 links), matched automatically to unambiguous noun/adjective
+  headwords; ambiguous words (پیر، مول، وچھا، کیہا) were removed by hand.
+
+### Poets: all 13 fact-checked
+- Dates, places, bios and bibliographies checked against Wikipedia, the Encyclopaedia of Sikhism, Dawn,
+  The Tribune, Rekhta and others; each poet lists its sources with URLs. Notable corrections: Munir Niazi's
+  birth year (1923?, not 1928), Shiv Kumar Batalvi's birthplace, Hashim Shah's village (Jagdev Kalan).
+
+### Needs a native speaker
+Shahmukhi transcriptions of proverbs and dictionary headwords; Bhai Vir Singh transliterations; `title_pa`
+spellings of some book titles; UI strings.
+
 ## Phase 5: About, contribute, SEO, OG images, print, Lighthouse (2026-11-11)
 
 ### Built

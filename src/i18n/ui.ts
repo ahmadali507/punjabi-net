@@ -391,8 +391,8 @@ export const ui = {
     pa: 'صنفاں',
   },
   'dict.backbone': {
-    en: 'Backbone: Bhai Maya Singh, The Panjabi Dictionary (1895)',
-    pa: 'بنیاد: بھائی مایا سنگھ، دی پنجابی ڈکشنری (۱۸۹۵)',
+    en: 'Source: J. Wilson, Grammar and Dictionary of Western Panjabi (Lahore, 1899)',
+    pa: 'ماخذ: جے ولسن، گرامر اینڈ ڈکشنری آف ویسٹرن پنجابی (لاہور، ۱۸۹۹)',
   },
   'dict.search': {
     en: 'Search a word in Shahmukhi, romanised or English…',
@@ -597,6 +597,22 @@ export const ui = {
   'contrib.back': {
     en: 'Back to the form',
     pa: 'فارم ول واپس',
+  },
+  'proverbs.translit': {
+    en: 'The source gives this proverb in Roman letters; the Shahmukhi is the editors’ transcription.',
+    pa: 'اصل کتاب وچ ایہہ اکھان رومن اکھراں وچ اے؛ شاہ مکھی ایتھوں دے سمپادکاں نے لکھی اے۔',
+  },
+  'proverbs.romanized': {
+    en: 'As printed',
+    pa: 'جیویں چھپیا',
+  },
+  'proverbs.topic': {
+    en: 'Topic',
+    pa: 'موضوع',
+  },
+  'dict.translit': {
+    en: 'The source prints this word in Roman letters only; the Shahmukhi spelling is the editors’ transcription.',
+    pa: 'اصل کتاب وچ ایہہ لفظ صرف رومن اکھراں وچ اے؛ شاہ مکھی ایتھوں دے سمپادکاں نے لکھی اے۔',
   },
 } as const satisfies Record<string, { en: string; pa: string }>;
 

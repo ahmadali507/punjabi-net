@@ -27,12 +27,12 @@ const proverbs = await getProverbs();
         </div>
         <ol class="proverb-list">
           {proverbs.map((p, i) => (
-            <li class="proverb-item" data-filter-item data-filter-text={`${p.data.text} ${p.data.romanized ?? ''} ${p.data.literal_en} ${p.data.meaning_en}`.toLowerCase()}>
+            <li class="proverb-item" data-filter-item data-filter-text={`${p.data.text} ${p.data.romanized ?? ''} ${p.data.literal_en} ${p.data.meaning_en ?? ''}`.toLowerCase()}>
               <span class="proverb-item__n">{num(locale, i + 1)}</span>
               <div>
                 <a class="proverb-item__text" href={localePath(locale, `/proverbs/${p.id}`)}><Pa t={p.data.text} /></a>
-                <p class="proverb-item__literal" lang="en" dir="ltr">{p.data.literal_en}</p>
-                <p class="proverb-item__meaning" lang="en" dir="ltr">{p.data.meaning_en}</p>
+                <p class="proverb-item__literal" lang="en" dir="ltr">{p.data.literal_en.replace(/\n/g, ' ')}</p>
+                {p.data.meaning_en && <p class="proverb-item__meaning" lang="en" dir="ltr">{p.data.meaning_en}</p>}
               </div>
             </li>
           ))}

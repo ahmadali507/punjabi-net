@@ -1,9 +1,0 @@
-{
-  "text": "نمونہ اکھان ۳، ایہہ اصلی اکھان نہیں",
-  "literal_en": "Sample proverb 3, this is not a real proverb.",
-  "meaning_en": "Layout fixture for the preview server. Real proverbs will be entered from a printed source.",
-  "usage_note": "Shown only on the preview server.",
-  "source": {
-    "book": "None (layout fixture)"
-  }
-}
