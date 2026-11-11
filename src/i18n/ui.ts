@@ -614,6 +614,10 @@ export const ui = {
     en: 'The source prints this word in Roman letters only; the Shahmukhi spelling is the editors’ transcription.',
     pa: 'اصل کتاب وچ ایہہ لفظ صرف رومن اکھراں وچ اے؛ شاہ مکھی ایتھوں دے سمپادکاں نے لکھی اے۔',
   },
+  'home.headline': {
+    en: 'The home of Punjabi poetry',
+    pa: 'پنجابی شاعری دا گھر',
+  },
 } as const satisfies Record<string, { en: string; pa: string }>;
 
 export type UIKey = keyof typeof ui;

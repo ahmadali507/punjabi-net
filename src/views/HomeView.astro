@@ -42,15 +42,21 @@ if (SITE.footerCouplet) {
 }
 ---
 <Base jsonLd={{ '@type': 'WebSite', name: SITE.name, url: Astro.site?.href, inLanguage: ['en', 'pnb'], description: SITE.description }}>
-  <section class="column section home-hero">
-    <h1 class="home-hero__thesis">
-      <Pa t={thesis.pa} />
-      {en && <span class="home-hero__en" lang="en" dir="ltr">{thesis.en}</span>}
-    </h1>
-    <p class="home-hero__intro"><T k="home.intro" /></p>
-    <div class="button-row">
-      <a class="button button--primary" href={localePath(locale, '/poems')}><T k="home.explore" /></a>
-      <a class="button" href={localePath(locale, '/poets')}><T k="home.meet" /></a>
+  <section class="home-hero">
+    <!-- Decoration only: ruled lines, a large faint پنجابی and a few diamonds (CSS, no JS). -->
+    <span class="home-hero__mark" lang="pnb" dir="rtl" aria-hidden="true">پنجابی</span>
+    <span class="home-hero__diamond home-hero__diamond--1" aria-hidden="true"></span>
+    <span class="home-hero__diamond home-hero__diamond--2" aria-hidden="true"></span>
+    <span class="home-hero__diamond home-hero__diamond--3" aria-hidden="true"></span>
+    <div class="home-hero__inner">
+      <h1 class="home-hero__title">{en ? ui['home.headline'].en : <Pa t={ui['home.headline'].pa} />}</h1>
+      <p class="home-hero__thesis"><Pa t={thesis.pa} /></p>
+      {en && <p class="home-hero__en" lang="en" dir="ltr">{thesis.en}</p>}
+      <p class="home-hero__intro"><T k="home.intro" /></p>
+      <div class="button-row">
+        <a class="button button--primary button--lg" href={localePath(locale, '/poems')}><T k="home.explore" /></a>
+        <a class="home-hero__link" href={localePath(locale, '/poets')}><T k="home.meet" /> <span aria-hidden="true">{en ? '→' : '←'}</span></a>
+      </div>
     </div>
   </section>
 
@@ -95,18 +101,101 @@ if (SITE.footerCouplet) {
 </Base>
 
 <style>
-  .home-hero { text-align: center; padding-block-start: clamp(3rem, 2rem + 6vw, 6rem); }
-  .home-hero__thesis { display: flex; flex-direction: column; gap: 0.75rem; font-weight: 400; }
-  .home-hero__thesis :global(:lang(pnb)) { font-size: clamp(1.7rem, 1.3rem + 2vw, 2.4rem); line-height: 2.1; }
+  /* ---------- Hero: ruled paper, faint watermark, diamonds ---------- */
+  .home-hero {
+    --rule-gap: 2.4rem;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: clamp(4rem, 2.5rem + 7vw, 8.5rem) var(--gutter) clamp(3.5rem, 2.5rem + 4vw, 6rem);
+    text-align: center;
+    border-bottom: 1px solid var(--rule);
+    background:
+      radial-gradient(ellipse 60% 55% at 25% 62%, color-mix(in oklab, var(--accent) 9%, transparent), transparent 70%),
+      radial-gradient(ellipse 45% 40% at 85% 20%, color-mix(in oklab, var(--accent) 6%, transparent), transparent 70%),
+      repeating-linear-gradient(to bottom, transparent 0 calc(var(--rule-gap) - 1px), color-mix(in oklab, var(--ink) 6%, transparent) calc(var(--rule-gap) - 1px) var(--rule-gap)),
+      var(--paper);
+  }
+  /* Fade the ruled lines out towards the bottom edge. */
+  .home-hero::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0;
+    height: 30%;
+    background: linear-gradient(to bottom, transparent, var(--paper));
+    z-index: -1;
+  }
+  .home-hero__mark {
+    position: absolute;
+    z-index: -2;
+    left: -3%;
+    top: 34%;
+    font-family: var(--font-sm);
+    font-size: clamp(9rem, 4rem + 26vw, 28rem);
+    line-height: 1;
+    color: color-mix(in oklab, var(--accent) 11%, transparent);
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+  }
+  .home-hero__diamond {
+    position: absolute;
+    z-index: -1;
+    width: clamp(2.5rem, 1.5rem + 3vw, 4.5rem);
+    aspect-ratio: 1;
+    rotate: 45deg;
+    background: color-mix(in oklab, var(--accent) 10%, transparent);
+    border-radius: 3px;
+    pointer-events: none;
+  }
+  .home-hero__diamond--1 { left: 22%; top: 46%; }
+  .home-hero__diamond--2 { left: 27%; top: 38%; width: clamp(1.5rem, 1rem + 2vw, 3rem); }
+  .home-hero__diamond--3 { right: 14%; bottom: 14%; }
+  .home-hero__inner { max-width: 56rem; margin-inline: auto; }
+
+  .home-hero__title {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(2.7rem, 1.2rem + 6.5vw, 6.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    max-width: 13ch;
+    margin: 0 auto 1.5rem;
+    text-wrap: balance;
+  }
+  html[lang='pnb'] .home-hero__title { max-width: none; letter-spacing: 0; line-height: 1.6; font-size: clamp(2.6rem, 1.4rem + 5vw, 5.4rem); }
+  .home-hero__thesis { margin: 0 auto 0.5rem; color: var(--accent); font-size: clamp(1.35rem, 1.1rem + 1.2vw, 2rem); }
+  .home-hero__thesis :global(:lang(pnb)) { line-height: 2; }
   .home-hero__en {
     font-family: var(--font-serif);
-    font-size: clamp(1.1rem, 1rem + 0.6vw, 1.35rem);
     font-style: italic;
+    font-size: clamp(1.05rem, 1rem + 0.4vw, 1.25rem);
     color: var(--muted);
-    line-height: 1.4;
+    margin: 0 auto 1.25rem;
   }
-  .home-hero__intro { max-width: 34rem; margin: 1.5rem auto 2rem; color: var(--muted); }
-  .button-row { justify-content: center; }
+  .home-hero__intro {
+    max-width: 36rem;
+    margin: 1rem auto 2.25rem;
+    font-family: var(--font-serif);
+    font-size: clamp(1.05rem, 1rem + 0.4vw, 1.25rem);
+    line-height: 1.75;
+    color: var(--muted);
+  }
+  html[lang='pnb'] .home-hero__intro { font-family: var(--font-sm); line-height: 2.2; }
+  .button-row { justify-content: center; align-items: center; gap: 1.5rem; }
+  .button--lg { min-height: 3.25rem; padding-inline: 1.6rem; font-size: 1.05rem; border-radius: 2px; }
+  .home-hero__link { color: var(--accent); font-size: 1.05rem; font-weight: 500; text-decoration: none; }
+  .home-hero__link:hover { text-decoration: underline; }
+  .home-hero__link span { display: inline-block; transition: translate 0.2s; }
+  .home-hero__link:hover span { translate: 0.25em 0; }
+  html[lang='pnb'] .home-hero__link:hover span { translate: -0.25em 0; }
+  @media (prefers-reduced-motion: reduce) { .home-hero__link span { transition: none; } }
+  @media (max-width: 40rem) {
+    .home-hero__mark { top: 52%; left: -12%; }
+    .home-hero__diamond--1, .home-hero__diamond--2 { left: 6%; }
+  }
+  @media print { .home-hero__mark, .home-hero__diamond { display: none; } .home-hero { background: none; } }
+
   .couplet blockquote { margin: 0 0 0.5rem; }
   .couplet figcaption { font-size: 0.95rem; color: var(--muted); }
 </style>
