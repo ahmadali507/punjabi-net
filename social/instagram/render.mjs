@@ -61,9 +61,6 @@ function caption(post, poem, poet, form, lines) {
     verse,
     '',
     `${form.name.pa} · ${form.name.en}`,
-    'پورا کلام، ہر لفظ دے معنی نال، punjabi.net تے (لنک بائیو وچ)۔',
-    'Read the full poem, with the meaning of every word, on punjabi.net (link in bio).',
-    '',
     sourceLine(poem.source),
     '',
     `#PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #PunjabiSufiPoetry ${TAGS[poem.poet] ?? ''}`.trim(),
@@ -97,13 +94,12 @@ body{width:1080px;height:1350px;overflow:hidden;background:#17140f;color:#efe7d6
 .rule{width:120px;height:1.5px;background:rgba(201,150,42,.55);margin:28px 0 22px}
 .foot{direction:ltr;font:400 24px S;color:rgba(239,231,214,.55);margin-top:26px;letter-spacing:.04em}
 </style></head><body><div class="bg"></div><div class="frame"></div><div class="wrap">
-<div class="top"><svg width="46" height="46" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#efe7d6"/><g fill="none" stroke="#a87717" stroke-width="3.6" stroke-linecap="round"><path d="M18 17 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/><path d="M15 24.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M12 32 q 5 -4.5 10 0 t 10 0 t 10 0 t 10 0"/><path d="M15 39.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M18 47 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/></g></svg>punjabi.net</div>
+<div class="top"><svg width="46" height="46" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#efe7d6"/><g fill="none" stroke="#a87717" stroke-width="3.6" stroke-linecap="round"><path d="M18 17 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/><path d="M15 24.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M12 32 q 5 -4.5 10 0 t 10 0 t 10 0 t 10 0"/><path d="M15 39.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M18 47 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/></g></svg></div>
 <div class="form">${esc(form.name.pa)}</div>
 <div class="verse" id="v">${body}</div>
 <div class="rule"></div>
 <div class="poet">${esc(poet.name.pa)}</div>
 <div class="poet-en">${esc(poet.name.en)}</div>
-<div class="foot">FULL POEM WITH WORD MEANINGS · PUNJABI.NET</div>
 </div></body></html>`;
 }
 

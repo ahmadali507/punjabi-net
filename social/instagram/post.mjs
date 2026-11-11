@@ -14,6 +14,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { setTimeout as sleep } from 'node:timers/promises';
+import { execFileSync } from 'node:child_process';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const QUEUE = join(HERE, 'posts.json');
@@ -54,33 +55,66 @@ const ready = data.posts.filter((p) => p.status === 'approved').slice(0, max);
 if (!ready.length) { console.log('No approved posts waiting.'); process.exit(0); }
 if (!publish) { console.log(`Dry run. Would post: ${ready.map((p) => p.id).join(', ')}. Add --publish to post.`); process.exit(0); }
 
+/** Reel cover: the frame with the first line lit, as JPEG. */
+function coverOf(id) {
+  const out = join(OUT, id, 'cover.jpg');
+  execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-i', join(OUT, id, 'f-0.png'), '-q:v', '3', out]);
+  return readFileSync(out);
+}
+
 for (const [n, post] of ready.entries()) {
   if (n > 0) await sleep(90_000 + Math.random() * 60_000); // never in quick succession
-  const jpeg = readFileSync(join(OUT, `${post.id}.jpg`));
-  const caption = readFileSync(join(OUT, `${post.id}.txt`), 'utf8').trim();
+  const reel = post.kind === 'reel';
+  const jpeg = reel ? coverOf(post.id) : readFileSync(join(OUT, `${post.id}.jpg`));
+  const caption = readFileSync(join(OUT, reel ? `${post.id}-reel.txt` : `${post.id}.txt`), 'utf8').trim();
   const uploadId = String(Date.now());
   const name = `fb_uploader_${uploadId}`;
+  const H = reel ? 1920 : 1350;
+
+  if (reel) {
+    const mp4 = readFileSync(join(OUT, `${post.id}.mp4`));
+    const ms = Math.round(Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', join(OUT, `${post.id}.mp4`)]).toString()) * 1000);
+    const vid = await fetch(`https://i.instagram.com/rupload_igvideo/${name}`, {
+      method: 'POST',
+      headers: headers({
+        'content-type': 'application/octet-stream', offset: '0', 'x-entity-name': name, 'x-entity-length': String(mp4.length),
+        'x-entity-type': 'video/mp4',
+        'x-instagram-rupload-params': JSON.stringify({ is_clips_video: '1', media_type: '2', upload_id: uploadId, video_format: 'video/mp4',
+          upload_media_width: 1080, upload_media_height: 1920, upload_media_duration_ms: ms }),
+      }),
+      body: mp4,
+    });
+    if (!vid.ok) throw new Error(`${post.id}: video upload failed (${vid.status}) ${await vid.text()}`);
+  }
 
   const up = await fetch(`https://i.instagram.com/rupload_igphoto/${name}`, {
     method: 'POST',
     headers: headers({
       'content-type': 'image/jpeg', offset: '0', 'x-entity-name': name, 'x-entity-length': String(jpeg.length),
       'x-entity-type': 'image/jpeg',
-      'x-instagram-rupload-params': JSON.stringify({ media_type: 1, upload_id: uploadId, upload_media_height: 1350, upload_media_width: 1080 }),
+      'x-instagram-rupload-params': JSON.stringify({ media_type: reel ? 2 : 1, upload_id: uploadId, upload_media_height: H, upload_media_width: 1080 }),
     }),
     body: jpeg,
   });
   if (!up.ok) throw new Error(`${post.id}: upload failed (${up.status}) ${await up.text()}`);
 
-  const conf = await fetch('https://www.instagram.com/api/v1/media/configure/', {
-    method: 'POST',
-    headers: headers({ 'content-type': 'application/x-www-form-urlencoded' }),
-    body: new URLSearchParams({ upload_id: uploadId, caption, source_type: 'library', disable_comments: '0', like_and_view_counts_disabled: '0' }),
-  });
-  const res = await conf.json().catch(() => ({}));
+  // Reels: Instagram transcodes the video first, so configure may answer "not ready" for a while.
+  let conf, res;
+  for (let attempt = 0; attempt < 12; attempt++) {
+    conf = await fetch(`https://www.instagram.com/api/v1/media/${reel ? 'configure_to_clips' : 'configure'}/`, {
+      method: 'POST',
+      headers: headers({ 'content-type': 'application/x-www-form-urlencoded' }),
+      body: new URLSearchParams({ upload_id: uploadId, caption, source_type: 'library', disable_comments: '0', like_and_view_counts_disabled: '0',
+        ...(reel ? { clips_share_preview_to_feed: '1' } : {}) }),
+    });
+    res = await conf.json().catch(() => ({}));
+    if (conf.ok && res.status === 'ok') break;
+    if (!reel || ![202, 400].includes(conf.status)) break;
+    await sleep(10_000);
+  }
   if (!conf.ok || res.status !== 'ok') throw new Error(`${post.id}: publish failed (${conf.status}) ${JSON.stringify(res).slice(0, 300)}`);
 
   Object.assign(post, { status: 'posted', posted_at: new Date().toISOString(), account: username, media_id: res.media?.id, code: res.media?.code });
   writeFileSync(QUEUE, JSON.stringify(data, null, 2) + '\n');
-  console.log(`Posted ${post.id}: https://www.instagram.com/p/${res.media?.code}/`);
+  console.log(`Posted ${post.id}: https://www.instagram.com/${reel ? 'reel' : 'p'}/${res.media?.code}/`);
 }
