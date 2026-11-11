@@ -108,15 +108,20 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   font-family: var(--font-sm);
   font-weight: 400;          /* Nastaliq is not set bold */
   line-height: 2.4;
-  font-size: 1.08em;         /* Nastaliq reads small at the same nominal size */
   letter-spacing: 0;
   word-spacing: 0.05em;
 }
-/* Keep nested spans from compounding the size bump. */
-:lang(pnb) :lang(pnb) { font-size: 1em; }
+/* Nastaliq reads small at the same nominal size. On English pages, Punjabi
+   snippets get a bump (once, not compounding); on /pa the base size is raised. */
+html:not([lang='pnb']) [lang='pnb'] { font-size: 1.08em; }
+html:not([lang='pnb']) [lang='pnb'] [lang='pnb'] { font-size: 1em; }
+html[lang='pnb'] body { font-size: 1.15rem; }
 /* On /pa the whole document is Punjabi: headings use Nastaliq, not the English serif. */
 html[lang='pnb'] h1, html[lang='pnb'] h2, html[lang='pnb'] h3 { font-family: var(--font-sm); font-weight: 400; line-height: 2; }
 html[lang='pnb'] body { font-family: var(--font-sm); }
+/* English passages inside Punjabi pages keep English type and spacing. */
+html[lang='pnb'] [lang='en'] { font-family: var(--font-sans); line-height: 1.6; }
+html[lang='pnb'] h1[lang='en'], html[lang='pnb'] h2[lang='en'], html[lang='pnb'] .prose[lang='en'] h2 { font-family: var(--font-serif); }
 .line { display: block; }
 
 /* ---------- Layout ---------- */
@@ -279,6 +284,19 @@ html[lang='pnb'] .menu__links { font-size: 1.1rem; }
   .is-searching .bar-actions { display: flex !important; }
   .is-searching .bar-actions > :not(.bar-lang) { display: none; }
 }
+
+/* ---------- Badge ---------- */
+.badge {
+  display: inline-block;
+  margin-inline-start: 0.5rem;
+  padding: 0 0.45rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  vertical-align: middle;
+}
+.badge :lang(pnb) { line-height: 1.7; font-size: 0.85rem; }
 
 /* ---------- Footer ---------- */
 .site-footer {

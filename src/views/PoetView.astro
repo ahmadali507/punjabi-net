@@ -25,9 +25,9 @@ const en = locale === 'en';
 const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
 ---
 <Base title={d.name.en} description={d.bio_short} type="profile">
-  <article class="column poet">
+  <article class="column poet" data-pagefind-body data-pagefind-filter="type:poet" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <header class="poet__head">
-      <figure class="portrait">
+      <figure class="portrait" data-pagefind-ignore>
         {d.portrait ? (
           <Image src={d.portrait} alt={`Portrait of ${d.name.en}`} width={240} height={300} class="portrait__img" />
         ) : (

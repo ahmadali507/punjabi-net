@@ -1,0 +1,9 @@
+---
+import FormView from '~/views/FormView.astro';
+import { getForms } from '~/lib/content';
+
+export async function getStaticPaths() {
+  return (await getForms()).map((form) => ({ params: { slug: form.id }, props: { form } }));
+}
+---
+<FormView form={Astro.props.form} />

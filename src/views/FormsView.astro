@@ -1,0 +1,33 @@
+---
+/** /forms and /pa/forms: the eight forms as cards. */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import { asLocale, localePath, t, tf } from '~/i18n';
+import { getForms, getPoems } from '~/lib/content';
+import '~/styles/lists.css';
+
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+const [forms, poems] = await Promise.all([getForms(), getPoems()]);
+---
+<Base title={t(locale, 'nav.forms')} description="The forms of Punjabi poetry: kafi, doha, bait, siharfi, baran maah, qissa, boli and dohra.">
+  <section class="wrap section">
+    <header class="list-head">
+      <div>
+        <h1><T k="nav.forms" /></h1>
+        <p class="muted"><T k="forms.intro" /></p>
+      </div>
+    </header>
+    <div class="form-grid">
+      {forms.map((f) => (
+        <a class="form-card" href={localePath(locale, `/forms/${f.id}`)}>
+          <span class="form-card__pa"><Pa t={f.data.name.pa} /></span>
+          {en && <span class="form-card__en">{f.data.name.en}</span>}
+          <span class="form-card__desc" lang="en" dir="ltr">{f.data.description}</span>
+          <span class="form-card__count">{tf(locale, 'poems.count', { n: poems.filter((p) => p.data.form.id === f.id).length })}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

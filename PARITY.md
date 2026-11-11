@@ -19,11 +19,11 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 | G1 | Header wordmark linking home | brief | 1 | ☑ |
 | G2 | Nav: Poets, Poems, Dictionary, Proverbs, Contribute | brief (unverified) | 1 | ☑ |
 | G3 | Nav item: Forms (Punjabi addition, replaces pushto's ghazal/nazm explainers) | brief §3 | 1 | ☑ |
-| G4 | Search in header: icon in the slim bar opens a field in place of the links; links to `/search` without JS | brief (unverified) | 2 (bar) / 3 (results) | ◐ |
+| G4 | Search in header: icon in the slim bar opens a field in place of the links; links to `/search` without JS | brief (unverified) | 2 (bar) / 3 (results) | ☑ |
 | G5 | EN / native-language switch (pushto `/ps` ↔ ours `/pa`), keeps the same page | brief | 1 | ☑ |
 | G6 | ~~Script switch Shahmukhi · Gurmukhi · Roman~~ — **removed 2026-11-11 by owner decision: Shahmukhi only** | brief §1 | — | ✗ deliberate |
 | G6b | Single slim navbar (wordmark · links · Contribute · search · EN/پنجابی); phone menu is a `<details>` (no JS) | owner, 2026-11-11 | 2 | ☑ |
-| G7 | Footer closing couplet | brief | 1 (slot) / 3 (content) | ◐ |
+| G7 | Footer closing couplet | brief | 1 (slot) / 3 (content) | ◐ (home only, once a verse exists) |
 | G8 | Footer Instagram link | brief | 1 (config slot, hidden until set) | ◐ |
 | G9 | Skip link, visible focus states | brief design rules | 1 | ☑ |
 | G10 | Light + dark theme (follows OS; no toggle, keeping the JS budget) | brief design rules | 1 | ☑ |
@@ -35,37 +35,37 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| H1 | Two-language thesis line (Punjabi + English) | 3 | ◐ placeholder |
-| H2 | Short intro paragraph | 3 | ◐ placeholder |
-| H3 | Buttons: "Explore poems", "Meet the poets" | 3 | ◐ |
-| H4 | Recommended poets block | 3 | ☐ |
-| H5 | Selected poems block (`featured: true`) | 3 | ☐ |
-| H6 | Closing couplet in footer | 3 | ☐ |
+| H1 | Two-language thesis line (Punjabi + English) | 3 | ☑ |
+| H2 | Short intro paragraph | 3 | ☑ |
+| H3 | Buttons: "Explore poems", "Meet the poets" | 3 | ☑ |
+| H4 | Recommended poets block | 3 | ☑ |
+| H5 | Selected poems block (`featured: true`) | 3 | ☑ |
+| H6 | Closing couplet in footer | 3 | ◐ (wired: shows when `SITE.footerCouplet` points at a verse that exists; none yet) |
 | H7 | Instagram link | 3 | ☐ (needs handle) |
 
 ## 3. Poets `/poets` (pushto `/poets`)
 
 | # | Feature / field | Phase | Status |
 |---|-----------------|-------|--------|
-| P1 | Grid of poet cards | 3 | ☐ |
-| P2 | Portrait (or honest placeholder) | 3 | ☐ |
+| P1 | Grid of poet cards | 3 | ☑ |
+| P2 | Portrait (or honest placeholder) | 3 | ☑ |
 | P3 | Honest caption when no authentic portrait exists (`portrait_authentic: false`) | 2 | ☑ (poet page) |
-| P4 | Era tag (classical / modern / contemporary) | 3 | ☐ |
-| P5 | Style tags | 3 | ☐ |
-| P6 | Native name (Shahmukhi) | 3 | ☐ |
-| P7 | English name | 3 | ☐ |
+| P4 | Era tag (classical / modern / contemporary) | 3 | ☑ |
+| P5 | Style tags | 3 | ☑ |
+| P6 | Native name (Shahmukhi) | 3 | ☑ |
+| P7 | English name | 3 | ☑ |
 | P8 | Dates, allowing "c." and centuries | 2 | ☑ |
-| P9 | One-line bio | 3 | ☐ |
-| P10 | Count of poets | 3 | ☐ |
-| P11 | Search box filtering poets | 3 | ☐ |
+| P9 | One-line bio | 3 | ☑ |
+| P10 | Count of poets | 3 | ☑ |
+| P11 | Search box filtering poets | 3 | ☑ |
 | P12 | Poet page: long bio, poem list, bibliography (in-copyright poets: bio + bibliography only; build fails if they have poems) | 2 | ☑ |
 
 ## 4. Poems `/poems` (pushto `/poems`)
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| L1 | List of poems: title, poet, form | 3 | ☐ |
-| L2 | Filter or search (unverified) | 3 | ☐ |
+| L1 | List of poems: title, poet, form | 3 | ☑ |
+| L2 | Filter or search (unverified) | 3 | ☑ |
 
 ## 5. Poem reader `/poems/{slug}` (pushto `/poems/kar-da-gulo-kra`)
 
@@ -93,12 +93,12 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| V1 | Numbered list | 3 | ☐ |
-| V2 | Original text (Shahmukhi) | 3 | ☐ |
-| V3 | English meaning (+ literal translation) | 3 | ☐ |
-| V4 | Per-proverb page `/proverbs/{slug}` | 3 | ☐ |
-| V5 | Search | 3 | ☐ |
-| V6 | Usage note (optional) | 3 | ☐ |
+| V1 | Numbered list | 3 | ☑ |
+| V2 | Original text (Shahmukhi) | 3 | ☑ |
+| V3 | English meaning (+ literal translation) | 3 | ☑ |
+| V4 | Per-proverb page `/proverbs/{slug}` | 3 | ☑ |
+| V5 | Search | 3 | ☑ |
+| V6 | Usage note (optional) | 3 | ☑ |
 
 ## 7. Dictionary `/dictionary` (pushto `/dictionary`)
 
@@ -132,7 +132,7 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| N1 | Every page mirrored under `/pa/…` with Punjabi UI strings | 1 (chrome) / each phase | ◐ |
+| N1 | Every page mirrored under `/pa/…` with Punjabi UI strings | 1 (chrome) / each phase | ◐ (all pages so far; dictionary and About to come) |
 | N2 | `/pa` is Shahmukhi, right-to-left throughout | 1 | ☑ |
 | N3 | UI strings in Shahmukhi | 1 | ☑ (needs native review) |
 
@@ -140,7 +140,7 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| X1 | Forms section `/forms/{slug}`: Kafi, Doha, Bait, Siharfi, Baran Maah, Qissa, Boli, Dohra | 3 | ☐ |
+| X1 | Forms section `/forms/{slug}`: Kafi, Doha, Bait, Siharfi, Baran Maah, Qissa, Boli, Dohra | 3 | ☑ |
 | X2 | ~~Shahmukhi→Gurmukhi draft transliterator~~ — dropped with Gurmukhi (written, then removed) | — | ✗ deliberate |
 | X3 | All Punjabi stored once, in Shahmukhi; schema rejects non-Arabic-script text | 2 | ☑ |
 

@@ -160,17 +160,6 @@
 .poem-list a { font-size: 1.15rem; text-decoration: none; }
 .poem-list a:hover { text-decoration: underline; }
 .poem-list :lang(pnb) { line-height: 2; }
-.badge {
-  display: inline-block;
-  margin-inline-start: 0.5rem;
-  padding: 0 0.45rem;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  font-size: 0.75rem;
-  color: var(--muted);
-  vertical-align: middle;
-}
-.badge :lang(pnb) { line-height: 1.7; font-size: 0.85rem; }
 
 /* ---------- Poet page ---------- */
 .poet { padding-block: clamp(2rem, 1.5rem + 3vw, 4rem) 0; }

@@ -6,6 +6,8 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://punjabi.net',
   output: 'static',
+  // The preview server builds into dist-preview (with layout fixtures); production uses dist.
+  outDir: process.env.PN_OUT || './dist',
   trailingSlash: 'never',
   build: { format: 'file' },
   i18n: {
@@ -19,6 +21,9 @@ export default defineConfig({
     }),
   ],
   devToolbar: { enabled: false },
-  // Lets the dev server answer through a Cloudflare quick tunnel (preview only).
-  vite: { server: { allowedHosts: ['.trycloudflare.com'] } },
+  // Lets the dev/preview server answer through a Cloudflare quick tunnel (preview only).
+  vite: {
+    server: { allowedHosts: ['.trycloudflare.com'] },
+    preview: { allowedHosts: ['.trycloudflare.com'] },
+  },
 });

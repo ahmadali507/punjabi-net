@@ -35,7 +35,7 @@ const description = hasText
   : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
 ---
 <Base title={pageTitle} description={description} type="article">
-  <article class="poem">
+  <article class="poem" data-pagefind-body data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
     <header class="column poem__head">
       <p class="eyebrow">
         <a href={localePath(locale, `/forms/${form.id}`)}>{en ? form.data.name.en : form.data.name.pa}</a>
@@ -50,7 +50,7 @@ const description = hasText
 
     {hasText ? (
       <div class="poem__body">
-        <div class="column reader-tools no-print" data-reader-tools hidden>
+        <div class="column reader-tools no-print" data-reader-tools data-pagefind-ignore hidden>
           <div class="reader-tools__group" role="group" aria-label={t(locale, 'reader.tools')}>
             <button type="button" class="tool" data-size="-1" aria-label={t(locale, 'reader.smaller')} lang="en" dir="ltr">A−</button>
             <button type="button" class="tool" data-size="1" aria-label={t(locale, 'reader.larger')} lang="en" dir="ltr">A+</button>
@@ -118,18 +118,18 @@ const description = hasText
       )}
 
       {hasNotes && (
-        <section class="poem__notes prose" lang="en" dir="ltr">
+        <section class="poem__notes">
           <h2><T k="poem.notes" /></h2>
-          <Content />
+          <div class="prose" lang="en" dir="ltr"><Content /></div>
         </section>
       )}
 
-      <dl class="poem__meta">
+      <dl class="poem__meta" data-pagefind-ignore>
         <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
         <div><dt><T k="poem.verification" /></dt><dd lang="en" dir="ltr">{d.verification_note}</dd></div>
       </dl>
 
-      <aside class="poet-card no-print" aria-labelledby="about-poet">
+      <aside class="poet-card no-print" aria-labelledby="about-poet" data-pagefind-ignore>
         <h2 class="eyebrow" id="about-poet"><T k="poem.aboutPoet" /></h2>
         <p class="poet-card__name">
           <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
@@ -140,7 +140,7 @@ const description = hasText
       </aside>
 
       {more.length > 0 && (
-        <section class="more no-print" aria-labelledby="more-poet">
+        <section class="more no-print" aria-labelledby="more-poet" data-pagefind-ignore>
           <h2 class="eyebrow" id="more-poet"><T k="poem.morePoet" /></h2>
           <ul class="poem-list">
             {more.map((p) => (

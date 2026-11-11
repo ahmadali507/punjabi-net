@@ -1,0 +1,37 @@
+---
+/**
+ * /search and /pa/search. Pagefind's static index (built after `astro build`);
+ * each language has its own index, chosen by the page's lang. Results are
+ * filtered by type: poem, poet, word, proverb, form.
+ */
+import Base from '~/layouts/Base.astro';
+import T from '~/components/T.astro';
+import { asLocale, t } from '~/i18n';
+import '~/styles/lists.css';
+
+const locale = asLocale(Astro.currentLocale);
+const TYPES = ['poem', 'poet', 'word', 'proverb', 'form'] as const;
+const labels = Object.fromEntries([['all', t(locale, 'filter.all')], ...TYPES.map((k) => [k, t(locale, `type.${k}`)])]);
+---
+<Base title={t(locale, 'search.title')} description="Search poems, poets, words and proverbs." noindex>
+  <section class="column section" data-search data-locale={locale}
+           data-labels={JSON.stringify(labels)}
+           data-results-for={t(locale, 'search.resultsFor')}
+           data-none={t(locale, 'search.none')}>
+    <h1 data-search-heading><T k="search.title" /></h1>
+    <form class="search-form" role="search" action="" method="get">
+      <label class="visually-hidden" for="search-q"><T k="search.label" /></label>
+      <input class="field" id="search-q" name="q" type="search" autocomplete="off" placeholder={t(locale, 'search.placeholder')} />
+      <button class="button button--primary" type="submit"><T k="search.label" /></button>
+    </form>
+    <div class="chips" role="group" aria-label={t(locale, 'type.poem')} data-search-tabs hidden></div>
+    <p class="muted" data-search-status><T k="search.prompt" /></p>
+    <ol class="results" data-search-results></ol>
+    <noscript><p class="empty"><T k="search.noscript" /></p></noscript>
+  </section>
+</Base>
+
+<script>
+  import { initSearch } from '~/scripts/search';
+  initSearch();
+</script>

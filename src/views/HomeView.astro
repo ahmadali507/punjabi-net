@@ -1,22 +1,51 @@
 ---
 /**
- * Home. Phase 1 has the thesis, intro and the two buttons only.
- * Recommended poets, selected poems and the footer couplet arrive in phase 3.
+ * Home: thesis, intro, buttons; recommended poets; selected poems; a proverb;
+ * closing couplet in the footer (only when SITE.footerCouplet points at a verse that exists).
  */
 import Base from '~/layouts/Base.astro';
 import Pa from '~/components/Pa.astro';
 import T from '~/components/T.astro';
+import PoetCard from '~/components/PoetCard.astro';
+import PoemRow from '~/components/PoemRow.astro';
+import { getEntry } from 'astro:content';
 import { ui } from '~/i18n/ui';
 import { asLocale, localePath } from '~/i18n';
+import { SITE } from '~/site.config';
+import { getForms, getPoems, getPoets, getProverbs } from '~/lib/content';
+import '~/styles/lists.css';
 
 const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
 const thesis = ui['home.thesis'];
+const [poets, poems, forms, proverbs] = await Promise.all([getPoets(), getPoems(), getForms(), getProverbs()]);
+const poetById = new Map(poets.map((p) => [p.id, p]));
+const formById = new Map(forms.map((f) => [f.id, f]));
+
+const recommended = poets.filter((p) => p.data.recommended).slice(0, 4);
+// Featured poems first, then poems with text, then the rest; four in all.
+const selected = [...poems]
+  .sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || Number(b.data.verses.length > 0) - Number(a.data.verses.length > 0))
+  .slice(0, 4);
+// A proverb that changes with each build day, so the page is static but not frozen.
+const day = Math.floor(Date.now() / 86_400_000);
+const proverb = proverbs.length ? proverbs[day % proverbs.length] : undefined;
+
+let couplet: { text: string; poet: string; href: string } | undefined;
+if (SITE.footerCouplet) {
+  const poem = await getEntry('poems', SITE.footerCouplet.poem);
+  const verse = poem?.data.verses[SITE.footerCouplet.verse];
+  if (poem && verse) {
+    const poet = poetById.get(poem.data.poet.id);
+    couplet = { text: verse.text, poet: (en ? poet?.data.name.en : poet?.data.name.pa) ?? '', href: localePath(locale, `/poems/${poem.id}`) };
+  }
+}
 ---
 <Base>
   <section class="column section home-hero">
     <h1 class="home-hero__thesis">
       <Pa t={thesis.pa} />
-      {locale === 'en' && <span class="home-hero__en" lang="en" dir="ltr">{thesis.en}</span>}
+      {en && <span class="home-hero__en" lang="en" dir="ltr">{thesis.en}</span>}
     </h1>
     <p class="home-hero__intro"><T k="home.intro" /></p>
     <div class="button-row">
@@ -24,13 +53,51 @@ const thesis = ui['home.thesis'];
       <a class="button" href={localePath(locale, '/poets')}><T k="home.meet" /></a>
     </div>
   </section>
+
+  {recommended.length > 0 && (
+    <section class="wrap home-block" aria-labelledby="h-poets">
+      <div class="block-head">
+        <h2 id="h-poets"><T k="home.recommended" /></h2>
+        <a href={localePath(locale, '/poets')}><T k="home.allPoets" /></a>
+      </div>
+      <div class="poet-grid">{recommended.map((p) => <PoetCard poet={p} compact />)}</div>
+    </section>
+  )}
+
+  {selected.length > 0 && (
+    <section class="wrap home-block" aria-labelledby="h-poems">
+      <div class="block-head">
+        <h2 id="h-poems"><T k="home.selected" /></h2>
+        <a href={localePath(locale, '/poems')}><T k="home.allPoems" /></a>
+      </div>
+      <ul class="poem-rows">
+        {selected.map((p) => <PoemRow poem={p} poet={poetById.get(p.data.poet.id)} form={formById.get(p.data.form.id)} />)}
+      </ul>
+    </section>
+  )}
+
+  {proverb && (
+    <section class="column home-block" aria-labelledby="h-proverb">
+      <div class="home-proverb">
+        <h2 id="h-proverb" class="eyebrow"><T k="home.proverb" /></h2>
+        <a class="home-proverb__text" href={localePath(locale, `/proverbs/${proverb.id}`)}><Pa t={proverb.data.text} /></a>
+        <p class="muted" lang="en" dir="ltr">{proverb.data.meaning_en}</p>
+      </div>
+    </section>
+  )}
+
+  {couplet && (
+    <figure class="couplet" slot="couplet">
+      <blockquote><Pa t={couplet.text} as="p" lines /></blockquote>
+      <figcaption><a href={couplet.href}>{couplet.poet}</a></figcaption>
+    </figure>
+  )}
 </Base>
 
 <style>
   .home-hero { text-align: center; padding-block-start: clamp(3rem, 2rem + 6vw, 6rem); }
   .home-hero__thesis { display: flex; flex-direction: column; gap: 0.75rem; font-weight: 400; }
-  .home-hero__thesis :global(:lang(pnb)) { font-size: clamp(1.7rem, 1.3rem + 2vw, 2.4rem); }
-  .home-hero__thesis :global(:lang(pnb)) { line-height: 2.1; }
+  .home-hero__thesis :global(:lang(pnb)) { font-size: clamp(1.7rem, 1.3rem + 2vw, 2.4rem); line-height: 2.1; }
   .home-hero__en {
     font-family: var(--font-serif);
     font-size: clamp(1.1rem, 1rem + 0.6vw, 1.35rem);
@@ -40,4 +107,6 @@ const thesis = ui['home.thesis'];
   }
   .home-hero__intro { max-width: 34rem; margin: 1.5rem auto 2rem; color: var(--muted); }
   .button-row { justify-content: center; }
+  .couplet blockquote { margin: 0 0 0.5rem; }
+  .couplet figcaption { font-size: 0.95rem; color: var(--muted); }
 </style>

@@ -1,0 +1,28 @@
+---
+/** One poem in a list: Shahmukhi title, English title, poet, form, "Text pending". */
+import Pa from './Pa.astro';
+import T from './T.astro';
+import { asLocale, localePath } from '~/i18n';
+import type { Poem } from '~/lib/content';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  poem: Poem;
+  poet?: CollectionEntry<'poets'>;
+  form?: CollectionEntry<'forms'>;
+}
+const { poem, poet, form } = Astro.props;
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+const d = poem.data;
+---
+<li class="poem-row" data-filter-item data-form={d.form.id} data-poet={d.poet.id}
+    data-filter-text={`${d.title} ${d.title_en ?? ''} ${poet?.data.name.en ?? ''}`.toLowerCase()}>
+  <a class="poem-row__title" href={localePath(locale, `/poems/${poem.id}`)}><Pa t={d.title} /></a>
+  <span class="poem-row__meta">
+    {form && <span class="tag tag--accent">{en ? form.data.name.en : form.data.name.pa}</span>}
+    {poet && <span class="poem-row__poet">{en ? poet.data.name.en : poet.data.name.pa}</span>}
+    {en && d.title_en && <span class="poem-row__en muted" lang="en">{d.title_en}</span>}
+    {d.verses.length === 0 && <span class="badge"><T k="poem.textPending" /></span>}
+  </span>
+</li>

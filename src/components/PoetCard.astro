@@ -1,0 +1,41 @@
+---
+/** Poet card for grids (home, /poets). Portrait or an honest letter tile. */
+import { Image } from 'astro:assets';
+import Pa from './Pa.astro';
+import T from './T.astro';
+import { asLocale, localePath } from '~/i18n';
+import { lifespan, type Poet } from '~/lib/content';
+import type { UIKey } from '~/i18n/ui';
+
+interface Props { poet: Poet; compact?: boolean }
+const { poet, compact = false } = Astro.props;
+const d = poet.data;
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
+const dates = lifespan(d);
+---
+<article class="poet-tile" data-filter-item data-era={d.era} data-filter-text={`${d.name.en} ${d.name.pa}`.toLowerCase()}>
+  <a class="poet-tile__link" href={localePath(locale, `/poets/${poet.id}`)}>
+    {d.portrait ? (
+      <Image src={d.portrait} alt="" width={320} height={400} class="poet-tile__img" />
+    ) : (
+      <span class="poet-tile__none" aria-hidden="true"><span lang="pnb">{initial}</span></span>
+    )}
+    <span class="poet-tile__pa"><Pa t={d.name.pa} /></span>
+    {en && <span class="poet-tile__en">{d.name.en}</span>}
+  </a>
+  {dates && <p class="poet-tile__dates muted"><bdi dir="ltr">{dates}</bdi></p>}
+  {!compact && (
+    <>
+      <p class="poet-tile__caption muted">
+        {d.portrait ? (d.portrait_authentic ? <bdi lang="en">{d.portrait_caption}</bdi> : <T k="poet.notAuthentic" />) : <T k="poet.noPortrait" />}
+      </p>
+      <p class="poet-tile__tags">
+        <span class="tag tag--accent"><T k={`era.${d.era}` as UIKey} /></span>
+        {d.styles.slice(0, 2).map((s) => <span class="tag" lang="en" dir="ltr">{s}</span>)}
+      </p>
+      <p class="poet-tile__bio" lang="en" dir="ltr">{d.bio_short}</p>
+    </>
+  )}
+</article>

@@ -15,6 +15,19 @@ export function t(locale: Locale, key: UIKey): string {
   return ui[key][locale];
 }
 
+/** Numbers in the page's digits: Western on English pages, Extended Arabic-Indic on /pa. */
+export function num(locale: Locale, n: number | string): string {
+  return locale === 'pa' ? String(n).replace(/\d/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d]) : String(n);
+}
+
+/** A UI string with {placeholders}; numbers are written in the page's digits. */
+export function tf(locale: Locale, key: UIKey, vars: Record<string, string | number>): string {
+  return t(locale, key).replace(/\{(\w+)\}/g, (_, k: string) => {
+    const v = vars[k];
+    return typeof v === 'number' ? num(locale, v) : (v ?? '');
+  });
+}
+
 /** Strip any locale prefix: "/pa/poems/x" -> "/poems/x". */
 export function stripLocale(pathname: string): string {
   const p = pathname.replace(/^\/pa(?=\/|$)/, '');

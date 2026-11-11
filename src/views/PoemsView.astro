@@ -1,0 +1,54 @@
+---
+/** /poems and /pa/poems: all poems grouped by poet, filterable by form and poet. */
+import Base from '~/layouts/Base.astro';
+import T from '~/components/T.astro';
+import PoemRow from '~/components/PoemRow.astro';
+import { asLocale, t, tf } from '~/i18n';
+import { getForms, getPoems, getPoets } from '~/lib/content';
+import '~/styles/lists.css';
+
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+const [poems, poets, forms] = await Promise.all([getPoems(), getPoets(), getForms()]);
+const formById = new Map(forms.map((f) => [f.id, f]));
+const groups = poets
+  .map((poet) => ({ poet, poems: poems.filter((p) => p.data.poet.id === poet.id) }))
+  .filter((g) => g.poems.length > 0);
+const usedForms = forms.filter((f) => poems.some((p) => p.data.form.id === f.id));
+---
+<Base title={t(locale, 'nav.poems')} description="Punjabi poems in Shahmukhi, each with its printed source.">
+  <section class="wrap section" data-filter>
+    <header class="list-head">
+      <div>
+        <h1><T k="nav.poems" /></h1>
+        <p class="muted">{tf(locale, 'poems.summary', { n: poems.length, p: groups.length, f: usedForms.length })}</p>
+      </div>
+      <div data-filter-controls hidden>
+        <label class="visually-hidden" for="poet-filter"><T k="poems.poet" /></label>
+        <select class="field" id="poet-filter" data-filter-key="poet">
+          <option value="">{t(locale, 'poems.allPoets')}</option>
+          {groups.map((g) => <option value={g.poet.id}>{en ? g.poet.data.name.en : g.poet.data.name.pa}</option>)}
+        </select>
+      </div>
+    </header>
+    <div class="chips" role="group" aria-label={t(locale, 'poems.form')} data-filter-controls hidden>
+      <button type="button" class="chip" data-filter-key="form" data-filter-value=""><T k="filter.all" /></button>
+      {usedForms.map((f) => <button type="button" class="chip" data-filter-key="form" data-filter-value={f.id}>{en ? f.data.name.en : f.data.name.pa}</button>)}
+    </div>
+
+    {groups.map((g) => (
+      <section class="poem-group" data-filter-group aria-labelledby={`g-${g.poet.id}`}>
+        <h2 id={`g-${g.poet.id}`}>{en ? g.poet.data.name.en : g.poet.data.name.pa}</h2>
+        <ul class="poem-rows">
+          {g.poems.map((p) => <PoemRow poem={p} form={formById.get(p.data.form.id)} />)}
+        </ul>
+      </section>
+    ))}
+    <p class="empty" data-filter-empty hidden><T k="filter.none" /></p>
+  </section>
+</Base>
+
+<script>
+  import { initFilter } from '~/scripts/filter';
+  initFilter();
+</script>

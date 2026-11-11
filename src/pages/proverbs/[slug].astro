@@ -1,0 +1,9 @@
+---
+import ProverbView from '~/views/ProverbView.astro';
+import { getProverbs } from '~/lib/content';
+
+export async function getStaticPaths() {
+  return (await getProverbs()).map((proverb) => ({ params: { slug: proverb.id }, props: { proverb } }));
+}
+---
+<ProverbView proverb={Astro.props.proverb} />

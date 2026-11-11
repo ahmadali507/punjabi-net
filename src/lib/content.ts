@@ -8,6 +8,8 @@ import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
 export type Poet = CollectionEntry<'poets'>;
 export type Poem = CollectionEntry<'poems'>;
 export type Entry = CollectionEntry<'dictionary'>;
+export type Form = CollectionEntry<'forms'>;
+export type Proverb = CollectionEntry<'proverbs'>;
 
 let checked: Promise<Poem[]> | undefined;
 
@@ -30,12 +32,32 @@ export function getPoems(): Promise<Poem[]> {
   return checked;
 }
 
+/** Approximate year for sorting: "c. 1680" -> 1680, "early 17th century" -> 1620, unknown -> 9999. */
+export function sortYear(date: string | undefined): number {
+  if (!date) return 9999;
+  const c = date.match(/(early|mid|late)? ?(\d{1,2})(?:st|nd|rd|th) century/);
+  if (c) return (Number(c[2]) - 1) * 100 + ({ early: 20, mid: 50, late: 80 }[c[1] ?? 'mid'] ?? 50);
+  return Number(date.match(/\d{3,4}/)?.[0] ?? 9999);
+}
+
+/** Poets in chronological order of birth. */
 export async function getPoets(): Promise<Poet[]> {
-  return (await getCollection('poets')).sort((a, b) => a.data.name.en.localeCompare(b.data.name.en));
+  return (await getCollection('poets')).sort(
+    (a, b) => sortYear(a.data.born ?? a.data.died) - sortYear(b.data.born ?? b.data.died) || a.data.name.en.localeCompare(b.data.name.en),
+  );
 }
 
 export async function poemsByPoet(poetId: string): Promise<Poem[]> {
   return (await getPoems()).filter((p) => p.data.poet.id === poetId);
+}
+
+export async function getForms(): Promise<Form[]> {
+  return (await getCollection('forms')).sort((a, b) => a.data.order - b.data.order || a.data.name.en.localeCompare(b.data.name.en));
+}
+
+/** Proverbs in a stable order (Shahmukhi alphabetical), so numbers and prev/next stay put. */
+export async function getProverbs(): Promise<Proverb[]> {
+  return (await getCollection('proverbs')).sort((a, b) => a.data.text.localeCompare(b.data.text, 'pnb') || a.id.localeCompare(b.id));
 }
 
 const byTitle = (a: Poem, b: Poem) => a.data.title.localeCompare(b.data.title, 'pnb');

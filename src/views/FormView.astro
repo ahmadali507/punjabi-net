@@ -1,0 +1,55 @@
+---
+/** /forms/{slug}: what the form is, its history and structure, and poems written in it. */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import PoemRow from '~/components/PoemRow.astro';
+import Source from '~/components/Source.astro';
+import { render } from 'astro:content';
+import { asLocale, localePath } from '~/i18n';
+import { getForms, getPoems, getPoets, type Form } from '~/lib/content';
+import '~/styles/lists.css';
+import '~/styles/reader.css';
+
+interface Props { form: Form }
+const { form } = Astro.props;
+const d = form.data;
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+const { Content } = await render(form);
+const [poems, poets, forms] = await Promise.all([getPoems(), getPoets(), getForms()]);
+const poetById = new Map(poets.map((p) => [p.id, p]));
+const inForm = poems.filter((p) => p.data.form.id === form.id);
+---
+<Base title={`${d.name.en} (${d.name.pa})`} description={d.description} type="article">
+  <article class="column section" data-pagefind-body data-pagefind-filter="type:form" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
+    <p class="eyebrow"><a href={localePath(locale, '/forms')}><T k="nav.forms" /></a></p>
+    <header class="form-head">
+      {en ? <h1>{d.name.en}</h1> : <h1>{d.name.pa}</h1>}
+      {en ? <Pa t={d.name.pa} class="form-head__pa" /> : <span class="muted" lang="en" dir="ltr">{d.name.en}</span>}
+    </header>
+    <p class="lede" lang="en" dir="ltr">{d.description}</p>
+
+    <section class="section-block">
+      <h2><T k="forms.history" /></h2>
+      <div class="prose" lang="en" dir="ltr"><Content /></div>
+      {d.sources.length > 0 && <ul class="biblio">{d.sources.map((s) => <li><Source source={s} /></li>)}</ul>}
+    </section>
+
+    <section class="section-block" data-pagefind-ignore>
+      <h2><T k="forms.poemsIn" /></h2>
+      {inForm.length ? (
+        <ul class="poem-rows">{inForm.map((p) => <PoemRow poem={p} poet={poetById.get(p.data.poet.id)} />)}</ul>
+      ) : (
+        <p class="muted"><T k="poet.noPoems" /></p>
+      )}
+    </section>
+
+    <nav class="section-block" aria-labelledby="other-forms" data-pagefind-ignore>
+      <h2 id="other-forms" class="eyebrow"><T k="forms.other" /></h2>
+      <ul class="inline-links">
+        {forms.filter((f) => f.id !== form.id).map((f) => <li><a href={localePath(locale, `/forms/${f.id}`)}>{en ? f.data.name.en : f.data.name.pa}</a></li>)}
+      </ul>
+    </nav>
+  </article>
+</Base>

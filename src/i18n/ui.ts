@@ -238,6 +238,158 @@ export const ui = {
     en: 'Contemporary',
     pa: 'اج دا',
   },
+  'filter.all': {
+    en: 'All',
+    pa: 'سارے',
+  },
+  'filter.era': {
+    en: 'Era',
+    pa: 'دور',
+  },
+  'filter.byName': {
+    en: 'Filter by name…',
+    pa: 'ناں نال لبھو…',
+  },
+  'filter.none': {
+    en: 'Nothing matches.',
+    pa: 'کجھ نہیں لبھیا۔',
+  },
+  'poets.count': {
+    en: '{n} poets',
+    pa: '{n} شاعر',
+  },
+  'poems.count': {
+    en: '{n} poems',
+    pa: '{n} کلام',
+  },
+  'poems.summary': {
+    en: '{n} poems · {p} poets · {f} forms',
+    pa: '{n} کلام · {p} شاعر · {f} صنفاں',
+  },
+  'poems.allPoets': {
+    en: 'All poets',
+    pa: 'سارے شاعر',
+  },
+  'poems.poet': {
+    en: 'Poet',
+    pa: 'شاعر',
+  },
+  'poems.form': {
+    en: 'Form',
+    pa: 'صنف',
+  },
+  'home.recommended': {
+    en: 'Recommended poets',
+    pa: 'چونویں شاعر',
+  },
+  'home.allPoets': {
+    en: 'All poets',
+    pa: 'سارے شاعر',
+  },
+  'home.selected': {
+    en: 'Selected poems',
+    pa: 'چونواں کلام',
+  },
+  'home.allPoems': {
+    en: 'All poems',
+    pa: 'سارا کلام',
+  },
+  'home.proverb': {
+    en: 'A proverb',
+    pa: 'اک اکھان',
+  },
+  'forms.intro': {
+    en: 'The shapes Punjabi poetry is written in.',
+    pa: 'اوہ روپ جنہاں وچ پنجابی شاعری لکھی جاندی اے۔',
+  },
+  'forms.history': {
+    en: 'History and structure',
+    pa: 'تاریخ تے بناوٹ',
+  },
+  'forms.poemsIn': {
+    en: 'Poems in this form',
+    pa: 'ایس صنف وچ کلام',
+  },
+  'forms.other': {
+    en: 'Other forms',
+    pa: 'ہور صنفاں',
+  },
+  'proverbs.count': {
+    en: '{n} proverbs',
+    pa: '{n} اکھان',
+  },
+  'proverbs.search': {
+    en: 'Search proverbs, in Shahmukhi or English…',
+    pa: 'اکھان لبھو، شاہ مکھی یا انگریزی وچ…',
+  },
+  'proverbs.literal': {
+    en: 'Literally',
+    pa: 'لفظی معنی',
+  },
+  'proverbs.meaning': {
+    en: 'Meaning',
+    pa: 'مطلب',
+  },
+  'proverbs.usage': {
+    en: 'Usage',
+    pa: 'ورتوں',
+  },
+  'proverbs.position': {
+    en: '{i} of {n}',
+    pa: '{n} وچوں {i}',
+  },
+  'proverbs.prev': {
+    en: 'Previous',
+    pa: 'پچھلا',
+  },
+  'proverbs.next': {
+    en: 'Next',
+    pa: 'اگلا',
+  },
+  'proverbs.empty': {
+    en: 'Proverbs are being entered from printed sources. None are published yet.',
+    pa: 'اکھان چھپیاں کتاباں توں چاڑھے جا رہے نیں۔ حالے کوئی نہیں چھپیا۔',
+  },
+  'search.title': {
+    en: 'Search',
+    pa: 'لبھت',
+  },
+  'search.resultsFor': {
+    en: 'Results for “{q}”',
+    pa: '“{q}” لئی نتیجے',
+  },
+  'search.none': {
+    en: 'Nothing found.',
+    pa: 'کجھ نہیں لبھیا۔',
+  },
+  'search.prompt': {
+    en: 'Type a word, a poet or a line.',
+    pa: 'کوئی لفظ، شاعر یا سطر لکھو۔',
+  },
+  'search.noscript': {
+    en: 'Search needs JavaScript. You can browse poets, poems and the dictionary instead.',
+    pa: 'لبھت لئی جاوا سکرپٹ چاہیدی اے۔ تسیں شاعراں، کلام تے لغت نوں ویکھ سکدے او۔',
+  },
+  'type.poem': {
+    en: 'Poems',
+    pa: 'کلام',
+  },
+  'type.poet': {
+    en: 'Poets',
+    pa: 'شاعر',
+  },
+  'type.word': {
+    en: 'Words',
+    pa: 'لفظ',
+  },
+  'type.proverb': {
+    en: 'Proverbs',
+    pa: 'اکھان',
+  },
+  'type.form': {
+    en: 'Forms',
+    pa: 'صنفاں',
+  },
 } as const satisfies Record<string, { en: string; pa: string }>;
 
 export type UIKey = keyof typeof ui;

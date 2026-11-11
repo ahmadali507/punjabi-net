@@ -1,0 +1,41 @@
+---
+/** /poets and /pa/poets: grid of poet cards with name search and era chips. */
+import Base from '~/layouts/Base.astro';
+import T from '~/components/T.astro';
+import PoetCard from '~/components/PoetCard.astro';
+import { asLocale, t, tf } from '~/i18n';
+import { getPoets } from '~/lib/content';
+import { ERAS } from '~/content.config';
+import type { UIKey } from '~/i18n/ui';
+import '~/styles/lists.css';
+
+const locale = asLocale(Astro.currentLocale);
+const poets = await getPoets();
+const eras = ERAS.filter((e) => poets.some((p) => p.data.era === e));
+---
+<Base title={t(locale, 'nav.poets')} description={`${poets.length} Punjabi poets, from Baba Farid onwards.`}>
+  <section class="wrap section" data-filter>
+    <header class="list-head">
+      <div>
+        <h1><T k="nav.poets" /></h1>
+        <p class="muted">{tf(locale, 'poets.count', { n: poets.length })}</p>
+      </div>
+      <div data-filter-controls hidden>
+        <input class="field" type="search" data-filter-input placeholder={t(locale, 'filter.byName')} aria-label={t(locale, 'filter.byName')} />
+      </div>
+    </header>
+    <div class="chips" role="group" aria-label={t(locale, 'filter.era')} data-filter-controls hidden>
+      <button type="button" class="chip" data-filter-key="era" data-filter-value=""><T k="filter.all" /></button>
+      {eras.map((e) => <button type="button" class="chip" data-filter-key="era" data-filter-value={e}><T k={`era.${e}` as UIKey} /></button>)}
+    </div>
+    <div class="poet-grid">
+      {poets.map((p) => <PoetCard poet={p} />)}
+    </div>
+    <p class="empty" data-filter-empty hidden><T k="filter.none" /></p>
+  </section>
+</Base>
+
+<script>
+  import { initFilter } from '~/scripts/filter';
+  initFilter();
+</script>

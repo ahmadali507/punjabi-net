@@ -1,5 +1,46 @@
 # Changelog
 
+## Phase 3: lists, home, forms, proverbs, search (2026-11-11)
+
+### Built
+- **Poets** `/poets`: chronological grid (by birth); letter tile with an honest caption when no portrait
+  exists; era and style tags; one-line bio; count; name filter (English or Shahmukhi) and era chips.
+- **Poems** `/poems`: grouped by poet; form chips and a poet select; filters mirror into the URL
+  (`?form=qissa&poet=waris-shah`) so a filtered list can be shared. "Text pending" badges.
+- **Home**: thesis, intro, buttons; recommended poets (`recommended: true`); selected poems (featured
+  first); a proverb that changes with each build day; closing couplet slot (shown only once
+  `SITE.footerCouplet` points at a verse that exists).
+- **Forms** `/forms` + `/forms/{slug}`: all eight forms with Shahmukhi and English names, a short
+  description, history and structure, poems in the form, links to the others.
+- **Proverbs** `/proverbs` + `/proverbs/{slug}`: numbered list with search (Shahmukhi, romanised or
+  English), per-proverb page with literal meaning, meaning, usage, source, copy/share and
+  previous/next. With no proverbs yet, the list shows an honest empty state.
+- **Search** `/search`: Pagefind's static index through its JS API (not its UI bundle), type tabs with
+  counts (poems, poets, words, proverbs, forms), highlighted excerpts, results in the page's language
+  (separate English and Shahmukhi indexes). The header search submits here.
+- **Content**: the other seven launch poets and five in-copyright poets (bio and works only), each
+  with an EDITORIAL note to check facts against print; seven more forms; title-only stubs for Heer,
+  Saif ul Malook and Sassi Punnun (no verses; edition to be chosen). **No proverbs yet**: none are
+  added until there is a printed source to take them from.
+- **Preview** now serves a production-style build (`npm run preview:build`, with fixtures) so search
+  works on the tunnel.
+
+### Fixed
+- On `/pa`, every heading had fallen back to body size: the Nastaliq size rule matched every element
+  and beat the heading sizes. The bump now applies once to Punjabi inside English pages; `/pa` raises
+  its base size instead. English passages on `/pa` keep English type and line spacing.
+
+### Verified
+- `npm run build`: 0 errors / 0 warnings / 0 hints; 65 pages; Pagefind indexed 52 (production).
+- 64 screenshots (16 pages × light/dark × 1280/360): no horizontal scroll (one search-page overflow fixed).
+- 17 browser checks: era/name filters (English and Shahmukhi), URL-driven poem filters, empty state,
+  search (English and Shahmukhi queries, type tabs, clean links), header search → results, `/pa`
+  search, proverb copy. No page errors.
+
+### Left / open
+- Proverbs and all poem texts need printed sources from you.
+- All new poet bios, dates and book titles are drafted from general knowledge and flagged for checking.
+
 ## Phase 2: poem and poet pages, Shahmukhi-only redesign (2026-11-11)
 
 ### Scope change (owner decision)

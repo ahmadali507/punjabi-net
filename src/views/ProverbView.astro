@@ -1,0 +1,54 @@
+---
+/** /proverbs/{slug}: one proverb with its literal and idiomatic meaning, usage and source. */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import Source from '~/components/Source.astro';
+import { asLocale, localePath, t, tf } from '~/i18n';
+import { getProverbs, type Proverb } from '~/lib/content';
+import '~/styles/lists.css';
+import '~/styles/reader.css';
+
+interface Props { proverb: Proverb }
+const { proverb } = Astro.props;
+const d = proverb.data;
+const locale = asLocale(Astro.currentLocale);
+const all = await getProverbs();
+const i = all.findIndex((p) => p.id === proverb.id);
+const prev = all[i - 1];
+const next = all[i + 1];
+---
+<Base title={d.literal_en} description={d.meaning_en} type="article">
+  <article class="column section proverb" data-pagefind-body data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
+    <p class="eyebrow">
+      <a href={localePath(locale, '/proverbs')}><T k="nav.proverbs" /></a> · <span data-pagefind-ignore>{tf(locale, 'proverbs.position', { i: i + 1, n: all.length })}</span>
+    </p>
+    <h1 class="proverb__text"><Pa t={d.text} /></h1>
+    {d.romanized && <p class="muted" lang="pa-Latn" dir="ltr"><i>{d.romanized}</i></p>}
+
+    <div class="reader-tools no-print" data-share-tools data-copy-text={`${d.text}\n${d.meaning_en}`} hidden>
+      <div class="reader-tools__group">
+        <button type="button" class="tool" data-copy><T k="reader.copy" /></button>
+        <button type="button" class="tool" data-share><T k="reader.share" /></button>
+      </div>
+      <span class="reader-tools__status" role="status" aria-live="polite" data-copied={t(locale, 'reader.copied')} data-link-copied={t(locale, 'reader.linkCopied')}></span>
+    </div>
+
+    <dl class="proverb-meta">
+      <div><dt><T k="proverbs.literal" /></dt><dd lang="en" dir="ltr">{d.literal_en}</dd></div>
+      <div><dt><T k="proverbs.meaning" /></dt><dd lang="en" dir="ltr">{d.meaning_en}</dd></div>
+      {d.usage_note && <div><dt><T k="proverbs.usage" /></dt><dd lang="en" dir="ltr">{d.usage_note}</dd></div>}
+      <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
+    </dl>
+
+    <nav class="pager no-print" data-pagefind-ignore>
+      {prev ? <a href={localePath(locale, `/proverbs/${prev.id}`)} rel="prev"><T k="proverbs.prev" /></a> : <span></span>}
+      {next ? <a href={localePath(locale, `/proverbs/${next.id}`)} rel="next"><T k="proverbs.next" /></a> : <span></span>}
+    </nav>
+  </article>
+</Base>
+
+<script>
+  import { initShare } from '~/scripts/share';
+  initShare();
+</script>
