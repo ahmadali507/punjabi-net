@@ -1,5 +1,12 @@
 # Changelog
 
+## Landing page (2026-11-11)
+
+- New hero: large serif headline ("The home of Punjabi poetry" / پنجابی شاعری دا گھر), the Shahmukhi thesis
+  in the accent colour, ruled-paper background lines, a faint centred پنجابی watermark, soft diamonds and a
+  warm glow. Pure CSS, works in dark mode and right-to-left, hidden in print. Lighthouse home 95, /pa 94.
+- The preview build no longer includes the layout fixtures.
+
 ## Portraits (2026-11-11)
 
 - 11 of 13 poets now have an image, all from **Wikimedia Commons** with a reusable licence: public domain,
