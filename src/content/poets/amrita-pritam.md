@@ -8,6 +8,11 @@ era: modern
 styles: [Modern]
 region: "Gujranwala and Lahore, later Delhi"
 bio_short: "Poet and novelist whose elegy addressed to Waris Shah mourned the Partition of Punjab; the first woman to win the Sahitya Akademi Award for Punjabi."
+portrait: ../../assets/portraits/amrita-pritam.jpg
+portrait_caption: "Photograph, 1971."
+portrait_authentic: true
+portrait_credit: "Amarjit Chandan · CC BY-SA 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Amrita_Pritam.jpg"
 copyright_status: in_copyright
 bibliography:
   - title: "Amrit Lehran"

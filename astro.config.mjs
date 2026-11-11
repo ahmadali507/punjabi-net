@@ -9,7 +9,8 @@ export default defineConfig({
   // The preview server builds into dist-preview (with layout fixtures); production uses dist.
   outDir: process.env.PN_OUT || './dist',
   trailingSlash: 'never',
-  build: { format: 'file' },
+  // Inline CSS: the stylesheets are small, and this removes render-blocking requests.
+  build: { format: 'file', inlineStylesheets: 'always' },
   i18n: {
     locales: ['en', 'pa'],
     defaultLocale: 'en',

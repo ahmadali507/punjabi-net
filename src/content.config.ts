@@ -79,6 +79,10 @@ const poets = defineCollection({
         portrait: image().optional(),
         portrait_caption: z.string().trim().optional(),
         portrait_authentic: z.boolean().default(false),
+        /** Who made the image and under what licence, e.g. "Amarjit Chandan · CC BY 4.0". */
+        portrait_credit: z.string().trim().optional(),
+        /** The image's source page (Wikimedia Commons file page). */
+        portrait_url: z.url().optional(),
         copyright_status: z.enum(['public_domain', 'in_copyright']),
         bibliography: z
           .array(
@@ -93,6 +97,10 @@ const poets = defineCollection({
           .default([]),
         bio_sources: z.array(source).default([]),
         recommended: z.boolean().default(false),
+      })
+      .refine((p) => !p.portrait || (p.portrait_credit && p.portrait_url), {
+        message: 'A portrait needs portrait_credit (author and licence) and portrait_url (source page)',
+        path: ['portrait_credit'],
       })
       .refine((p) => !p.portrait || p.portrait_caption, {
         message: 'A portrait needs a portrait_caption saying what the image is and where it came from',

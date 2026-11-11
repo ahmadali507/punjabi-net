@@ -19,6 +19,8 @@ const poems = await poemsByPoet(poet.id);
 const { Content } = await render(poet);
 const inCopyright = d.copyright_status === 'in_copyright';
 const dates = lifespan(d);
+// Don't repeat the era as a style ("Modern · Modern").
+const styles = d.styles.filter((s) => s.toLowerCase() !== d.era);
 const jsonLd = { '@type': 'Person', name: d.name.en, alternateName: d.name.pa, description: d.bio_short, homeLocation: d.region };
 
 const en = locale === 'en';
@@ -30,7 +32,7 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
     <header class="poet__head">
       <figure class="portrait" data-pagefind-ignore>
         {d.portrait ? (
-          <Image src={d.portrait} alt={`Portrait of ${d.name.en}`} width={240} height={300} class="portrait__img" />
+          <Image src={d.portrait} alt={d.portrait_authentic ? `Photograph of ${d.name.en}` : `${d.name.en}: ${d.portrait_caption}`} width={360} quality={70} class="portrait__img" loading="eager" fetchpriority="high" />
         ) : (
           <div class="portrait__none" aria-hidden="true">
             <span lang="pnb">{initial}</span>
@@ -40,7 +42,11 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
           {d.portrait ? (
             <>
               <span lang="en" dir="ltr">{d.portrait_caption}</span>
-              {!d.portrait_authentic && <> <T k="poet.notAuthentic" /></>}
+              {d.portrait_credit && (
+                <span class="portrait__credit" lang="en" dir="ltr">
+                  {d.portrait_url ? <a href={d.portrait_url} rel="noopener">{d.portrait_credit}</a> : d.portrait_credit}
+                </span>
+              )}
             </>
           ) : (
             <T k="poet.noPortrait" />
@@ -51,7 +57,7 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
       <div class="poet__intro">
         <p class="eyebrow">
           <T k={`era.${d.era}` as UIKey} />
-          {d.styles.length > 0 && <span lang="en" dir="ltr"> · {d.styles.join(' · ')}</span>}
+          {styles.length > 0 && <span lang="en" dir="ltr"> · {styles.join(' · ')}</span>}
         </p>
         <h1 class="poet__name">
           {en ? (

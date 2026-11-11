@@ -219,3 +219,10 @@
   .poem__meta div { grid-template-columns: 22mm 1fr; }
   .poem__meta dt, .poem__meta dd { line-height: 1.4; }
 }
+
+.portrait__credit { display: block; margin-top: 0.25rem; font-size: 0.72rem; }
+.portrait__credit a { color: inherit; }
+.poet-card { display: grid; grid-template-columns: auto 1fr; column-gap: 1rem; }
+.poet-card > :not(.poet-card__img) { grid-column: 2; }
+.poet-card__img { grid-row: 1 / span 3; width: 4.5rem; height: 4.5rem; border-radius: 50%; object-fit: cover; object-position: top; }
+.poet-card:not(:has(.poet-card__img)) { display: block; }

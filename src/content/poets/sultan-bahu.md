@@ -8,6 +8,11 @@ era: classical
 styles: [Sufi, Bait]
 region: "Shorkot, Jhang, Punjab"
 bio_short: "Qadiri Sufi of Shorkot and Jhang whose Punjabi abyat, most ending on the refrain 'hū', brought him lasting popular fame."
+portrait: ../../assets/portraits/sultan-bahu.jpg
+portrait_caption: "His shrine at Garh Maharaja, Jhang (no portrait of him is known)."
+portrait_authentic: false
+portrait_credit: "Shahaed912 · CC0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Tomb_of_Sultan_Bahu.jpg"
 copyright_status: public_domain
 bibliography:
   - title: "Abyat-e-Bahu"

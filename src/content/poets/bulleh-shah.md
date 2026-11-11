@@ -8,6 +8,11 @@ era: classical
 styles: [Sufi, Kafi]
 region: "Uch; later Kasur, Punjab"
 bio_short: "Sufi poet of Kasur and disciple of Shah Inayat Qadiri of Lahore, whose kafis question caste, ritual and religious authority."
+portrait: ../../assets/portraits/bulleh-shah.jpg
+portrait_caption: "Lithograph, late 19th century: a later depiction, not a portrait from life."
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Depiction_of_the_Punjabi_Sufi_poet_Bulleh_Shah,_from_a_lithograph_of_%27Siharfi_Bulleh_Shah%27,_circa_late_19th_century.jpg"
 copyright_status: public_domain
 recommended: true
 bibliography:

@@ -60,7 +60,7 @@ if (SITE.footerCouplet) {
         <h2 id="h-poets"><T k="home.recommended" /></h2>
         <a href={localePath(locale, '/poets')}><T k="home.allPoets" /></a>
       </div>
-      <div class="poet-grid">{recommended.map((p) => <PoetCard poet={p} compact />)}</div>
+      <div class="poet-grid">{recommended.map((p, i) => <PoetCard poet={p} compact priority={i === 0} />)}</div>
     </section>
   )}
 

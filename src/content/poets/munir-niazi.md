@@ -8,6 +8,11 @@ era: modern
 styles: [Modern]
 region: "Khanpur (Hoshiarpur), later Sahiwal and Lahore"
 bio_short: "Wrote in Urdu and Punjabi; known for short, haunting poems of loss and estrangement."
+portrait: ../../assets/portraits/munir-niazi.jpg
+portrait_caption: "Photograph."
+portrait_authentic: true
+portrait_credit: "Amarjit Chandan · CC BY 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Munir_Niazi._Poet.jpg"
 copyright_status: in_copyright
 bibliography:
   - title: "Safar di Raat"

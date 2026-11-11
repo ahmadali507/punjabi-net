@@ -56,6 +56,7 @@ html[lang='pnb'] .chip { font-size: 1rem; line-height: 1.7; }
 
 /* ---------- Poets grid ---------- */
 .poet-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); gap: 2.5rem 1.5rem; }
+@media (max-width: 30rem) { .poet-grid { grid-template-columns: 1fr 1fr; gap: 2rem 1rem; } .poet-tile__bio { display: none; } }
 .poet-tile[hidden] { display: none; }
 .poet-tile__link { display: flex; flex-direction: column; text-decoration: none; }
 .poet-tile__link:hover .poet-tile__en, .poet-tile__link:hover .poet-tile__pa { color: var(--accent); }
@@ -169,3 +170,5 @@ html[lang='pnb'] .form-card__pa { text-align: start; }
 .result__title:hover { color: var(--accent); }
 .result__excerpt { margin: 0.35rem 0 0; color: var(--muted); }
 .result__excerpt mark, .result__title mark { background: var(--accent-wash); color: var(--ink); border-radius: 2px; padding-inline: 0.1em; }
+
+.poet-tile__img { object-position: top; background: var(--wash); }

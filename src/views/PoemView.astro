@@ -8,6 +8,7 @@ import Base from '~/layouts/Base.astro';
 import Pa from '~/components/Pa.astro';
 import T from '~/components/T.astro';
 import Source from '~/components/Source.astro';
+import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
 import { lifespan, paDigits, poemsByPoet, resolveGlossary, segmentLine, type Poem } from '~/lib/content';
@@ -45,7 +46,7 @@ const description = hasText
   ? `${form.data.name.en} by ${poet.data.name.en}, in Shahmukhi${d.translation ? ' with an English translation' : ''}.`
   : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
 ---
-<Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd}>
+<Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd} preloadNastaliq>
   <article class="poem" data-pagefind-body data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
     <header class="column poem__head">
       <p class="eyebrow">
@@ -145,6 +146,7 @@ const description = hasText
 
       <aside class="poet-card no-print" aria-labelledby="about-poet" data-pagefind-ignore>
         <h2 class="eyebrow" id="about-poet"><T k="poem.aboutPoet" /></h2>
+        {poet.data.portrait && <Image src={poet.data.portrait} alt="" width={128} class="poet-card__img" />}
         <p class="poet-card__name">
           <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
           {en && <>{' '}<Pa t={poet.data.name.pa} class="poet-card__pa" /></>}

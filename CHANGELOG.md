@@ -1,5 +1,23 @@
 # Changelog
 
+## Portraits (2026-11-11)
+
+- 11 of 13 poets now have an image, all from **Wikimedia Commons** with a reusable licence: public domain,
+  CC0, CC BY or CC BY-SA. Google Images results are mostly copyrighted and unlicensed, so they were not
+  used. Each image carries a caption, a credit (author · licence · Wikimedia Commons) and a link to its
+  Commons page; the schema now requires all three.
+- Classical poets have no portraits from life. They are shown with later depictions, captioned as such:
+  Bulleh Shah (19th-century lithograph), Waris Shah (Lahore, about 1859), Baba Farid (Guler painting),
+  Shah Hussain (painting, about 1770). Sultan Bahu and Mian Muhammad Bakhsh are shown by their shrines.
+  Hashim Shah and Ustad Daman have no free image and keep the letter tile.
+- Modern poets have photographs: Bhai Vir Singh, Amrita Pritam, Shiv Kumar Batalvi, Munir Niazi and Surjit Patar.
+- Portraits also appear on the poets grid, home page cards, and as a round thumbnail in each poem's
+  "About the poet" box. Sources were resized to 640 px; Astro serves responsive WebP (200/320/420 px).
+  The poets grid is two columns on phones.
+- Performance: CSS is now inlined, and only the first card's image loads eagerly. Lighthouse mobile:
+  home 95, proverbs 96, poet pages 95–96, poems 98; `/poets` 90, because it shows 14 images at once.
+- The era is no longer repeated as a style tag ("Modern · Modern").
+
 ## Content: data gathering (2026-11-11)
 
 ### Poems: 82 texts, all public domain

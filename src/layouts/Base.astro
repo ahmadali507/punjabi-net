@@ -16,9 +16,11 @@ interface Props {
   noindex?: boolean;
   /** schema.org data for this page, emitted as JSON-LD. */
   jsonLd?: Record<string, unknown>;
+  /** Preload the Nastaliq font: on /pa, and on pages whose main content is Shahmukhi text (poems, proverbs). */
+  preloadNastaliq?: boolean;
 }
 
-const { title, description = SITE.description, image = '/og/default.png', type = 'website', noindex = false, jsonLd } = Astro.props;
+const { title, description = SITE.description, image = '/og/default.png', type = 'website', noindex = false, jsonLd, preloadNastaliq } = Astro.props;
 const locale = asLocale(Astro.currentLocale);
 const fullTitle = title ? `${title} · ${SITE.name}` : SITE.name;
 const path = Astro.url.pathname.replace(/\.html$/, '');
@@ -71,7 +73,7 @@ const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    <link rel="preload" href="/fonts/nastaliq-core.woff2" as="font" type="font/woff2" crossorigin />
+    {(preloadNastaliq ?? true) && <link rel="preload" href="/fonts/nastaliq-core.woff2" as="font" type="font/woff2" crossorigin />}
     {locale === 'en' && <link rel="preload" href="/fonts/sans-core.woff2" as="font" type="font/woff2" crossorigin />}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', ...jsonLd }).replace(/</g, '\\u003c')} />}
     <slot name="head" />

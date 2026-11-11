@@ -8,6 +8,11 @@ era: classical
 styles: [Sufi, Qissa]
 region: "Khari Sharif, near Mirpur (Azad Kashmir)"
 bio_short: "Sufi poet of Khari Sharif, author of Saif ul Malook (1863), a Punjabi verse retelling of the story of Prince Saif ul Malook, also called Safar ul Ishq."
+portrait: ../../assets/portraits/mian-muhammad-bakhsh.jpg
+portrait_caption: "His shrine at Khari Sharif (no portrait of him is known)."
+portrait_authentic: false
+portrait_credit: "Asifshiraz · CC BY-SA 3.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Shrine_of_Mian_Muhammad_Bakhsh.JPG"
 copyright_status: public_domain
 bibliography:
   - title: "Saif ul Malook"

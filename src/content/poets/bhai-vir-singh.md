@@ -8,6 +8,11 @@ era: modern
 styles: [Modern, Epic]
 region: "Amritsar, Punjab"
 bio_short: "A founder of modern Punjabi poetry and prose, writing in Gurmukhi; author of the epic Rana Surat Singh."
+portrait: ../../assets/portraits/bhai-vir-singh.jpg
+portrait_caption: "Photograph, late 19th or early 20th century."
+portrait_authentic: true
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Photograph_of_Sikh_literati_Bhai_Vir_Singh_in_his_younger_days.jpg"
 copyright_status: public_domain
 bibliography:
   - title: "Sundari"

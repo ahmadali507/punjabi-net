@@ -8,6 +8,11 @@ era: classical
 styles: [Sufi, Shalok]
 region: "Kothewal near Multan; later Pakpattan"
 bio_short: "Chishti Sufi of Pakpattan and among the earliest poets of Punjabi. His shaloks and hymns are preserved in the Guru Granth Sahib."
+portrait: ../../assets/portraits/baba-farid.jpg
+portrait_caption: "Detail of a Guler (Pahari) painting of an imaginary meeting of Sufi saints."
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Detail_of_Baba_Farid_from_a_Guler_painting_showing_an_imaginary_meeting_of_Sufi_saints.jpg"
 copyright_status: public_domain
 recommended: true
 bibliography:
