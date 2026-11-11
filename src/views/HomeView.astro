@@ -128,8 +128,10 @@ if (SITE.footerCouplet) {
   .home-hero__mark {
     position: absolute;
     z-index: -2;
-    left: -3%;
-    top: 34%;
+    /* Centred on the hero, whatever its size or direction. */
+    left: 50%;
+    top: 50%;
+    translate: -50% -46%;
     font-family: var(--font-sm);
     font-size: clamp(9rem, 4rem + 26vw, 28rem);
     line-height: 1;
@@ -191,7 +193,6 @@ if (SITE.footerCouplet) {
   html[lang='pnb'] .home-hero__link:hover span { translate: -0.25em 0; }
   @media (prefers-reduced-motion: reduce) { .home-hero__link span { transition: none; } }
   @media (max-width: 40rem) {
-    .home-hero__mark { top: 52%; left: -12%; }
     .home-hero__diamond--1, .home-hero__diamond--2 { left: 6%; }
   }
   @media print { .home-hero__mark, .home-hero__diamond { display: none; } .home-hero { background: none; } }
