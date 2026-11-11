@@ -132,6 +132,76 @@ export async function resolveGlossary(poem: Poem, dictionaryHref: (id: string) =
   return { items, lookup };
 }
 
+/** What the reader's meaning card shows for one word of a poem. */
+export interface WordMeaning {
+  /** Contextual meaning in this poem (editorial gloss). */
+  en?: string;
+  pos?: string;
+  roman?: string;
+  base?: string;
+  note?: string;
+  /** true while the gloss is an unreviewed editorial draft. */
+  draft?: boolean;
+  /** A sourced dictionary entry for the same word, when one exists. */
+  dict?: { hw: string; romanized: string; pos: string; senses: string[]; href: string; source: string };
+}
+
+/**
+ * Meanings for every glossed word of a poem: the poem's gloss file (contextual,
+ * editorial) merged with sourced dictionary entries (explicit glossary links
+ * first, then any unambiguous headword match). Returns card data and a lookup
+ * from normalised spelling to card index, for segmentLine().
+ */
+export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => string) {
+  const gloss = await getEntry('glosses', poem.id);
+  const entries = await getCollection('dictionary');
+  // Unambiguous headwords (and their listed forms) -> entry.
+  const byWord = new Map<string, Entry | null>();
+  for (const e of entries) {
+    for (const sp of [e.data.headword, e.data.forms.plural, e.data.forms.feminine, e.data.forms.oblique]) {
+      if (!sp) continue;
+      const k = normalise(sp);
+      byWord.set(k, byWord.has(k) ? null : e);
+    }
+  }
+  const explicit = new Map<string, Entry>();
+  for (const g of poem.data.glossary) {
+    const ref = 'entry' in g ? g.entry : g;
+    const e = entries.find((x) => x.id === ref.id);
+    if (!e) continue;
+    const spellings = [e.data.headword, e.data.forms.plural, e.data.forms.feminine, e.data.forms.oblique, ...('entry' in g ? (g.match ?? []) : [])];
+    for (const sp of spellings) if (sp) explicit.set(normalise(sp), e);
+  }
+  const dictFor = (k: string) => {
+    const e = explicit.get(k) ?? byWord.get(k) ?? undefined;
+    if (!e) return undefined;
+    const s = e.data.source;
+    return {
+      hw: e.data.headword,
+      romanized: e.data.romanized,
+      pos: e.data.pos,
+      senses: e.data.senses,
+      href: dictionaryHref(e.id),
+      source: [s.editor, s.year].filter(Boolean).join(', ') || s.book,
+    };
+  };
+
+  const items: WordMeaning[] = [];
+  const lookup = new Map<string, number>();
+  const words = gloss?.data.words ?? {};
+  for (const [k, w] of Object.entries(words)) {
+    lookup.set(k, items.length);
+    items.push({ ...w, draft: gloss!.data.status === 'draft', dict: dictFor(k) });
+  }
+  // Words with a sourced entry but no gloss yet still get a card.
+  for (const k of new Set([...explicit.keys()])) {
+    if (lookup.has(k)) continue;
+    const dict = dictFor(k);
+    if (dict) { lookup.set(k, items.length); items.push({ dict }); }
+  }
+  return { items, lookup };
+}
+
 export type Segment = { text: string; g?: number };
 
 /** Split one line into plain text and glossed words. Whitespace and punctuation stay outside the buttons. */

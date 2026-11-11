@@ -1,0 +1,199 @@
+{
+  "poem": "aih-dl-khoar-kre-nt-minon",
+  "status": "draft",
+  "words": {
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "ih"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "خوار": {
+      "en": "disgraced; wretched",
+      "pos": "adjective",
+      "roman": "xvār",
+      "note": "\"Khwar karna\": to humiliate, bring to ruin."
+    },
+    "کرے": {
+      "en": "makes; does",
+      "pos": "verb",
+      "roman": "kare",
+      "base": "کرنا"
+    },
+    "نت": {
+      "en": "always; constantly",
+      "pos": "adverb",
+      "roman": "nit"
+    },
+    "مینوں": {
+      "en": "me; to me",
+      "pos": "pronoun",
+      "roman": "mainūṅ",
+      "base": "میں"
+    },
+    "ایس": {
+      "en": "it; this (one) (agent)",
+      "pos": "pronoun",
+      "roman": "is",
+      "base": "ایہہ"
+    },
+    "ہوش": {
+      "en": "senses; awareness",
+      "pos": "noun",
+      "roman": "hosh"
+    },
+    "گوایا": {
+      "en": "has lost; made (me) lose",
+      "pos": "verb",
+      "roman": "gavāiā",
+      "base": "گوانا"
+    },
+    "میرا": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merā",
+      "base": "میں"
+    },
+    "جیوں": {
+      "en": "like; just as",
+      "pos": "conjunction",
+      "roman": "jiūṅ"
+    },
+    "دریا": {
+      "en": "river",
+      "pos": "noun",
+      "roman": "dariā"
+    },
+    "ہمیشہ": {
+      "en": "always",
+      "pos": "adverb",
+      "roman": "hameshā"
+    },
+    "ڈھاوے": {
+      "en": "erodes; tears down",
+      "pos": "verb",
+      "roman": "ḍhāve",
+      "base": "ڈھاہنا",
+      "note": "A river cuts away its own banks."
+    },
+    "اپنا": {
+      "en": "its own",
+      "pos": "pronoun",
+      "roman": "apṇā"
+    },
+    "آپ": {
+      "en": "self",
+      "pos": "pronoun",
+      "roman": "āp",
+      "note": "\"Apṇā āp\": its very self."
+    },
+    "چوفیرا": {
+      "en": "surroundings; all around",
+      "pos": "noun",
+      "roman": "chaupherā"
+    },
+    "اپنی": {
+      "en": "its own (fem.)",
+      "pos": "pronoun",
+      "roman": "apṇī",
+      "base": "اپنا"
+    },
+    "خبر": {
+      "en": "awareness; news",
+      "pos": "noun",
+      "roman": "xabar"
+    },
+    "نہیں": {
+      "en": "not; there is no",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "اس": {
+      "en": "this (oblique)",
+      "pos": "pronoun",
+      "roman": "is",
+      "base": "ایہہ"
+    },
+    "نوں": {
+      "en": "to (object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "دیپک": {
+      "en": "lamp",
+      "pos": "noun",
+      "roman": "dīpak"
+    },
+    "مگر": {
+      "en": "behind; beneath",
+      "pos": "postposition",
+      "roman": "magar",
+      "note": "Proverb: darkness lies right under the lamp (the lamp cannot see itself)."
+    },
+    "اندھیرا": {
+      "en": "darkness",
+      "pos": "noun",
+      "roman": "anhērā"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim",
+      "note": "Hashim Shah (c. 1735–1843), poet of Sassi Punnun and these dohras."
+    },
+    "یار": {
+      "en": "friend; beloved",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "ملے": {
+      "en": "meets; should meet",
+      "pos": "verb",
+      "roman": "mile",
+      "base": "ملنا"
+    },
+    "تد": {
+      "en": "then",
+      "pos": "adverb",
+      "roman": "tad"
+    },
+    "آکھاں": {
+      "en": "I shall say",
+      "pos": "verb",
+      "roman": "ākhāṅ",
+      "base": "آکھنا"
+    },
+    "اساں": {
+      "en": "we; I",
+      "pos": "pronoun",
+      "roman": "asāṅ"
+    },
+    "خوب": {
+      "en": "well; truly",
+      "pos": "adverb",
+      "roman": "xūb"
+    },
+    "ڈٹھا": {
+      "en": "have seen",
+      "pos": "verb",
+      "roman": "ḍiṭhā",
+      "base": "ویکھنا",
+      "note": "Old Punjabi past of \"to see\"."
+    },
+    "سکھ": {
+      "en": "comfort; happiness",
+      "pos": "noun",
+      "roman": "sukh"
+    },
+    "تیرا": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "terā",
+      "base": "توں"
+    }
+  }
+}

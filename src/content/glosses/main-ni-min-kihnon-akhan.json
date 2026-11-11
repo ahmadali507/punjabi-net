@@ -1,0 +1,290 @@
+{
+  "poem": "main-ni-min-kihnon-akhan",
+  "status": "draft",
+  "words": {
+    "مائیں": {
+      "en": "O mother",
+      "pos": "noun",
+      "roman": "māīṅ",
+      "base": "ماں"
+    },
+    "نی": {
+      "en": "O (to a woman; vocative)",
+      "pos": "interjection",
+      "roman": "nī"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "کیہنوں": {
+      "en": "to whom",
+      "pos": "pronoun",
+      "roman": "kihnūṅ"
+    },
+    "آکھاں": {
+      "en": "should I say, tell",
+      "pos": "verb",
+      "roman": "ākhāṅ",
+      "base": "آکھنا"
+    },
+    "درد": {
+      "en": "pain",
+      "pos": "noun",
+      "roman": "dard"
+    },
+    "وچھوڑے": {
+      "en": "separation",
+      "pos": "noun",
+      "roman": "vichhoṛe",
+      "base": "وچھوڑا"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "حال": {
+      "en": "state, condition",
+      "pos": "noun",
+      "roman": "hāl"
+    },
+    "دھواں": {
+      "en": "smoke",
+      "pos": "noun",
+      "roman": "dhūāṅ"
+    },
+    "دھکے": {
+      "en": "smoulders",
+      "pos": "verb",
+      "roman": "dhukhe",
+      "base": "دھکھنا"
+    },
+    "میرے": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "mere"
+    },
+    "مرشد": {
+      "en": "spiritual guide",
+      "pos": "noun",
+      "roman": "murshid",
+      "note": "Sufi term: the master who guides the seeker"
+    },
+    "والا": {
+      "en": "of, belonging to",
+      "pos": "particle",
+      "roman": "vālā"
+    },
+    "جاں": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jāṅ"
+    },
+    "پھولاں": {
+      "en": "I stir (the embers)",
+      "pos": "verb",
+      "roman": "pholāṅ",
+      "base": "پھولنا"
+    },
+    "تاں": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "لال": {
+      "en": "glowing red; the Beloved",
+      "pos": "noun",
+      "roman": "lāl",
+      "note": "Lit. ruby; first the red embers, then the lost Beloved"
+    },
+    "سولاں": {
+      "en": "piercing pains (lit. thorns)",
+      "pos": "noun",
+      "roman": "sūlāṅ",
+      "base": "سول"
+    },
+    "مار": {
+      "en": "striking",
+      "pos": "verb",
+      "roman": "mār",
+      "base": "مارنا"
+    },
+    "دیوانی": {
+      "en": "mad (fem.)",
+      "pos": "adjective",
+      "roman": "dīvānī"
+    },
+    "کیتی": {
+      "en": "made",
+      "pos": "verb",
+      "roman": "kītī",
+      "base": "کرنا"
+    },
+    "برہوں": {
+      "en": "the pain of separation",
+      "pos": "noun",
+      "roman": "birhoṅ",
+      "base": "برہا"
+    },
+    "پیا": {
+      "en": "has fallen upon",
+      "pos": "verb",
+      "roman": "piā",
+      "base": "پینا"
+    },
+    "ساڈے": {
+      "en": "my (lit. our)",
+      "pos": "pronoun",
+      "roman": "sāḍe"
+    },
+    "خیال": {
+      "en": "thoughts, mind",
+      "pos": "noun",
+      "roman": "xiāl"
+    },
+    "دکھاں": {
+      "en": "sorrows",
+      "pos": "noun",
+      "roman": "dukkhāṅ",
+      "base": "دکھ"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "روٹی": {
+      "en": "bread",
+      "pos": "noun",
+      "roman": "roṭī"
+    },
+    "سالن": {
+      "en": "curry",
+      "pos": "noun",
+      "roman": "sālan"
+    },
+    "آہیں": {
+      "en": "sighs",
+      "pos": "noun",
+      "roman": "āhīṅ",
+      "base": "آہ"
+    },
+    "بالن": {
+      "en": "firewood",
+      "pos": "noun",
+      "roman": "bālaṇ"
+    },
+    "بال": {
+      "en": "burning",
+      "pos": "verb",
+      "roman": "bāl",
+      "base": "بالنا"
+    },
+    "جنگل": {
+      "en": "forests",
+      "pos": "noun",
+      "roman": "jangal"
+    },
+    "بیلے": {
+      "en": "riverside thickets",
+      "pos": "noun",
+      "roman": "bele",
+      "base": "بیلا",
+      "note": "Where Ranjha grazed the buffaloes"
+    },
+    "پھرے": {
+      "en": "wandered",
+      "pos": "verb",
+      "roman": "phire",
+      "base": "پھرنا"
+    },
+    "ڈھونڈیندی": {
+      "en": "searching (fem.)",
+      "pos": "verb",
+      "roman": "ḍhūṇḍendī",
+      "base": "ڈھونڈنا"
+    },
+    "اجے": {
+      "en": "yet, still",
+      "pos": "adverb",
+      "roman": "aje"
+    },
+    "نہ": {
+      "en": "not; don't",
+      "pos": "particle",
+      "roman": "nah"
+    },
+    "پایو": {
+      "en": "found",
+      "pos": "verb",
+      "roman": "pāyo",
+      "base": "پانا"
+    },
+    "رانجھن": {
+      "en": "Ranjha, Heer's beloved",
+      "pos": "proper noun",
+      "roman": "Rāñjhaṇ",
+      "base": "رانجھا",
+      "note": "Hero of Heer Ranjha; for Sufis an image of the divine Beloved"
+    },
+    "پھراں": {
+      "en": "I wander",
+      "pos": "verb",
+      "roman": "phirāṅ",
+      "base": "پھرنا"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "کہے": {
+      "en": "says",
+      "pos": "verb",
+      "roman": "kahe",
+      "base": "کہنا"
+    },
+    "فقیر": {
+      "en": "faqir, mendicant",
+      "pos": "noun",
+      "roman": "faqīr",
+      "note": "Sufi term: one poor before God"
+    },
+    "حسین": {
+      "en": "Hussain (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Husain",
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+    },
+    "نمانا": {
+      "en": "humble, lowly",
+      "pos": "adjective",
+      "roman": "nimāṇā"
+    },
+    "شوہ": {
+      "en": "the Beloved (Lord)",
+      "pos": "noun",
+      "roman": "shauh",
+      "note": "Lit. husband; Sufi term for God as the Beloved"
+    },
+    "ملے": {
+      "en": "meets (me)",
+      "pos": "verb",
+      "roman": "mile",
+      "base": "ملنا"
+    },
+    "تھیواں": {
+      "en": "I become",
+      "pos": "verb",
+      "roman": "thīvāṅ",
+      "base": "تھیونا"
+    },
+    "نہال": {
+      "en": "fulfilled, blissful",
+      "pos": "adjective",
+      "roman": "nihāl"
+    }
+  }
+}

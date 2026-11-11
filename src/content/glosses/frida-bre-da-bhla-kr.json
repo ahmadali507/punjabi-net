@@ -1,0 +1,101 @@
+{
+  "poem": "frida-bre-da-bhla-kr",
+  "status": "draft",
+  "words": {
+    "فریدا": {
+      "en": "O Farid (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Farīdā",
+      "base": "فرید",
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+    },
+    "برے": {
+      "en": "the bad (one); wrongdoer",
+      "pos": "noun",
+      "roman": "bure",
+      "base": "برا"
+    },
+    "دا": {
+      "en": "of (masc.); to",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "بھلا": {
+      "en": "good",
+      "pos": "noun",
+      "roman": "bhalā"
+    },
+    "کر": {
+      "en": "do",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "غصہ": {
+      "en": "anger",
+      "pos": "noun",
+      "roman": "ġussā"
+    },
+    "من": {
+      "en": "mind; heart",
+      "pos": "noun",
+      "roman": "man"
+    },
+    "نہ": {
+      "en": "not; don't",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "ہنڈھاء": {
+      "en": "harbour; let (it) dwell",
+      "pos": "verb",
+      "roman": "hanḍhāe",
+      "base": "ہنڈھانا"
+    },
+    "دیہی": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "dehī"
+    },
+    "روگ": {
+      "en": "disease",
+      "pos": "noun",
+      "roman": "rog"
+    },
+    "لگ": {
+      "en": "strike; attach",
+      "pos": "verb",
+      "roman": "lag",
+      "base": "لگنا"
+    },
+    "ای": {
+      "en": "(verb ending: will)",
+      "pos": "particle",
+      "roman": "ī",
+      "note": "Uncertain: lag ī corresponds to Gurmukhi lagaī, 'will strike'."
+    },
+    "پلے": {
+      "en": "in (your) lap; possession",
+      "pos": "noun",
+      "roman": "palle",
+      "base": "پلا"
+    },
+    "سبھ": {
+      "en": "all",
+      "pos": "adjective",
+      "roman": "sabh"
+    },
+    "کجھ": {
+      "en": "something (everything)",
+      "pos": "pronoun",
+      "roman": "kujh",
+      "note": "sabh kujh: 'everything'."
+    },
+    "پاء": {
+      "en": "obtain; receive",
+      "pos": "verb",
+      "roman": "pāe",
+      "base": "پانا"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "poem": "frida-khak-nh-ndie",
+  "status": "draft",
+  "words": {
+    "فریدا": {
+      "en": "O Farid (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Farīdā",
+      "base": "فرید",
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+    },
+    "خاک": {
+      "en": "dust",
+      "pos": "noun",
+      "roman": "xāk"
+    },
+    "نہ": {
+      "en": "not; nothing",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "نندیے": {
+      "en": "(one should) slander",
+      "pos": "verb",
+      "roman": "nindīe",
+      "base": "نندنا"
+    },
+    "خاکو": {
+      "en": "(than) dust",
+      "pos": "noun",
+      "roman": "xākū",
+      "base": "خاک"
+    },
+    "جیڈ": {
+      "en": "as great as",
+      "pos": "adjective",
+      "roman": "jeḍ"
+    },
+    "کوء": {
+      "en": "anyone; anything",
+      "pos": "pronoun",
+      "roman": "koe"
+    },
+    "جیوندیاں": {
+      "en": "while living",
+      "pos": "adjective",
+      "roman": "jīvandiāṅ",
+      "base": "جیوندا"
+    },
+    "پیراں": {
+      "en": "feet",
+      "pos": "noun",
+      "roman": "pairāṅ",
+      "base": "پیر"
+    },
+    "تلے": {
+      "en": "under",
+      "pos": "postposition",
+      "roman": "tale"
+    },
+    "مویاں": {
+      "en": "when dead",
+      "pos": "adjective",
+      "roman": "moiāṅ",
+      "base": "موا"
+    },
+    "اپر": {
+      "en": "above; over",
+      "pos": "postposition",
+      "roman": "upar"
+    },
+    "ہوء": {
+      "en": "is; will be",
+      "pos": "verb",
+      "roman": "hoe",
+      "base": "ہونا"
+    }
+  }
+}

@@ -1,0 +1,9216 @@
+{
+ "poem": "sassi-punnun",
+ "status": "draft",
+ "words": {
+  "حکمت": {
+   "en": "wisdom; divine design",
+   "pos": "noun",
+   "roman": "hikmat"
+  },
+  "اوس": {
+   "en": "that (oblique); he, she",
+   "pos": "pronoun",
+   "roman": "os"
+  },
+  "خداوند": {
+   "en": "the Lord, God",
+   "pos": "noun",
+   "roman": "xudāvand"
+  },
+  "الی": {
+   "en": "most high, exalted",
+   "pos": "adjective",
+   "roman": "ālī",
+   "note": "Uncertain: probably اعلیٰ \"most high\" (or الٰہی \"divine\") in a variant spelling."
+  },
+  "مالک": {
+   "en": "owner, master",
+   "pos": "noun",
+   "roman": "mālik"
+  },
+  "ملک": {
+   "en": "country, realm",
+   "pos": "noun",
+   "roman": "mulk",
+   "note": "\"ملک ملک دا\" = of every realm."
+  },
+  "دا": {
+   "en": "of (masc.)",
+   "pos": "postposition",
+   "roman": "dā"
+  },
+  "لاکھ": {
+   "en": "a hundred thousand",
+   "pos": "numeral",
+   "roman": "lākh"
+  },
+  "کروڑ": {
+   "en": "ten million; countless",
+   "pos": "numeral",
+   "roman": "karoṛ"
+  },
+  "کرن": {
+   "en": "do, make (they)",
+   "pos": "verb",
+   "roman": "karan",
+   "base": "کرنا"
+  },
+  "چترائیاں": {
+   "en": "clever devices, ingenuities",
+   "pos": "noun",
+   "roman": "chatrāīāṅ",
+   "base": "چترائی"
+  },
+  "کوئی": {
+   "en": "anyone; no one (with \"not\")",
+   "pos": "pronoun",
+   "roman": "koī"
+  },
+  "پچھان": {
+   "en": "recognise, comprehend",
+   "pos": "verb",
+   "roman": "pachhāṇ",
+   "base": "پچھاننا"
+  },
+  "نہ": {
+   "en": "not",
+   "pos": "particle",
+   "roman": "na"
+  },
+  "سکدا": {
+   "en": "can, is able",
+   "pos": "verb",
+   "roman": "sakdā",
+   "base": "سکنا"
+  },
+  "قدرت": {
+   "en": "divine power",
+   "pos": "noun",
+   "roman": "qudrat"
+  },
+  "نال": {
+   "en": "with; by",
+   "pos": "postposition",
+   "roman": "nāl"
+  },
+  "رہے": {
+   "en": "remain(s), keep(s)",
+   "pos": "verb",
+   "roman": "rahe",
+   "base": "رہنا"
+  },
+  "سرگرداں": {
+   "en": "whirling, wandering bewildered",
+   "pos": "adjective",
+   "roman": "sargardāṅ"
+  },
+  "دائم": {
+   "en": "ever, perpetually",
+   "pos": "adverb",
+   "roman": "dāim"
+  },
+  "چرخ": {
+   "en": "wheel (of heaven)",
+   "pos": "noun",
+   "roman": "charx"
+  },
+  "فلک": {
+   "en": "sky, the heavens",
+   "pos": "noun",
+   "roman": "falak"
+  },
+  "ہاشم": {
+   "en": "Hashim (the poet names himself)",
+   "pos": "proper noun",
+   "roman": "Hāshim",
+   "note": "Hashim Shah (c. 1735–1843), author of this Sassi Punnun."
+  },
+  "خوب": {
+   "en": "fine, beautiful",
+   "pos": "adjective",
+   "roman": "xūb"
+  },
+  "ہوئی": {
+   "en": "became; was (fem.)",
+   "pos": "verb",
+   "roman": "hoī",
+   "base": "ہونا"
+  },
+  "گلکاری": {
+   "en": "flower-work, ornament",
+   "pos": "noun",
+   "roman": "gulkārī"
+  },
+  "فرش": {
+   "en": "floor, carpet; the earth",
+   "pos": "noun",
+   "roman": "farsh"
+  },
+  "فنا": {
+   "en": "transience, perishing",
+   "pos": "noun",
+   "roman": "fanā"
+  },
+  "خلق": {
+   "en": "creation; people",
+   "pos": "noun",
+   "roman": "xalq"
+  },
+  "حکیم": {
+   "en": "the All-Wise (God)",
+   "pos": "noun",
+   "roman": "hakīm"
+  },
+  "ازل": {
+   "en": "pre-eternity, beginning of time",
+   "pos": "noun",
+   "roman": "azal"
+  },
+  "دی": {
+   "en": "of (fem.)",
+   "pos": "postposition",
+   "roman": "dī"
+  },
+  "نقش": {
+   "en": "design, figure",
+   "pos": "noun",
+   "roman": "naqsh"
+  },
+  "نگار": {
+   "en": "painting, image",
+   "pos": "noun",
+   "roman": "nigār",
+   "note": "\"نقش نگار\" = adorned form, image."
+  },
+  "بنایا": {
+   "en": "made, fashioned",
+   "pos": "verb",
+   "roman": "banāyā",
+   "base": "بنانا"
+  },
+  "ہر": {
+   "en": "every",
+   "pos": "adjective",
+   "roman": "har"
+  },
+  "ارواح": {
+   "en": "souls",
+   "pos": "noun",
+   "roman": "arvāh",
+   "base": "روح"
+  },
+  "اسیر": {
+   "en": "captive",
+   "pos": "adjective",
+   "roman": "asīr"
+  },
+  "عشق": {
+   "en": "love",
+   "pos": "noun",
+   "roman": "ishq"
+  },
+  "قید": {
+   "en": "imprisonment, captivity",
+   "pos": "noun",
+   "roman": "qaid"
+  },
+  "جسم": {
+   "en": "body",
+   "pos": "noun",
+   "roman": "jism"
+  },
+  "وچ": {
+   "en": "in",
+   "pos": "postposition",
+   "roman": "vich"
+  },
+  "پایا": {
+   "en": "put, placed",
+   "pos": "verb",
+   "roman": "pāyā",
+   "base": "پانا"
+  },
+  "جو": {
+   "en": "who, which; whatever",
+   "pos": "pronoun",
+   "roman": "jo"
+  },
+  "مخلوق": {
+   "en": "creature(s), creation",
+   "pos": "noun",
+   "roman": "maxlūq"
+  },
+  "باہر": {
+   "en": "outside, beyond",
+   "pos": "adverb",
+   "roman": "bāhar"
+  },
+  "اس": {
+   "en": "that; him, her (oblique)",
+   "pos": "pronoun",
+   "roman": "us"
+  },
+  "تھیں": {
+   "en": "from; than",
+   "pos": "postposition",
+   "roman": "thīṅ"
+  },
+  "ارض": {
+   "en": "earth",
+   "pos": "noun",
+   "roman": "arz"
+  },
+  "سما": {
+   "en": "sky, heaven",
+   "pos": "noun",
+   "roman": "samā"
+  },
+  "آیا": {
+   "en": "came",
+   "pos": "verb",
+   "roman": "āyā",
+   "base": "آنا"
+  },
+  "جوش": {
+   "en": "passion, fervour",
+   "pos": "noun",
+   "roman": "josh"
+  },
+  "بخار": {
+   "en": "fever, heat",
+   "pos": "noun",
+   "roman": "buxār"
+  },
+  "دے": {
+   "en": "of (masc. pl., oblique)",
+   "pos": "postposition",
+   "roman": "de"
+  },
+  "اک": {
+   "en": "one; a",
+   "pos": "numeral",
+   "roman": "ik"
+  },
+  "شان": {
+   "en": "state, form; glory",
+   "pos": "noun",
+   "roman": "shān"
+  },
+  "وٹایا": {
+   "en": "changed, exchanged",
+   "pos": "verb",
+   "roman": "vaṭāyā",
+   "base": "وٹانا"
+  },
+  "حسن": {
+   "en": "beauty",
+   "pos": "noun",
+   "roman": "husn"
+  },
+  "کلام": {
+   "en": "speech, verse",
+   "pos": "noun",
+   "roman": "kalām"
+  },
+  "شاعر": {
+   "en": "poet",
+   "pos": "noun",
+   "roman": "shāir"
+  },
+  "کردے": {
+   "en": "do, make (pl.)",
+   "pos": "verb",
+   "roman": "karde",
+   "base": "کرنا"
+  },
+  "سخن": {
+   "en": "speech, verse",
+   "pos": "noun",
+   "roman": "suxan"
+  },
+  "ساتھیں": {
+   "en": "from us, by us",
+   "pos": "pronoun",
+   "roman": "sāthīṅ",
+   "note": "Uncertain: read as a form of ساتھوں \"from us\"."
+  },
+  "جیہا": {
+   "en": "like, such as",
+   "pos": "adjective",
+   "roman": "jehā"
+  },
+  "کو": {
+   "en": "some, about (particle)",
+   "pos": "particle",
+   "roman": "ku"
+  },
+  "عقل": {
+   "en": "intellect, reason",
+   "pos": "noun",
+   "roman": "aql"
+  },
+  "شعور": {
+   "en": "understanding",
+   "pos": "noun",
+   "roman": "shaūr"
+  },
+  "اساڈا": {
+   "en": "our (masc.)",
+   "pos": "pronoun",
+   "roman": "asāḍā"
+  },
+  "اساں": {
+   "en": "we",
+   "pos": "pronoun",
+   "roman": "asāṅ"
+  },
+  "بھی": {
+   "en": "also, too",
+   "pos": "particle",
+   "roman": "bhī"
+  },
+  "آکھ": {
+   "en": "say; having said",
+   "pos": "verb",
+   "roman": "ākh",
+   "base": "آکھنا"
+  },
+  "سنایا": {
+   "en": "recited, told",
+   "pos": "verb",
+   "roman": "suṇāyā",
+   "base": "سنانا"
+  },
+  "سن": {
+   "en": "hear; having heard",
+   "pos": "verb",
+   "roman": "suṇ",
+   "base": "سننا"
+  },
+  "ہوت": {
+   "en": "Hot (Punnun's Baloch clan)",
+   "pos": "proper noun",
+   "roman": "Hot",
+   "note": "Punnun is a prince of the Hot Baloch; \"ہوت علی\" is his father."
+  },
+  "سسی": {
+   "en": "Sassi, heroine of the qissa",
+   "pos": "proper noun",
+   "roman": "Sassī"
+  },
+  "دیاں": {
+   "en": "of (fem. pl.)",
+   "pos": "postposition",
+   "roman": "dīāṅ"
+  },
+  "باتاں": {
+   "en": "tales, words",
+   "pos": "noun",
+   "roman": "bātāṅ",
+   "base": "بات"
+  },
+  "کامل": {
+   "en": "perfect, complete",
+   "pos": "adjective",
+   "roman": "kāmil"
+  },
+  "کمایا": {
+   "en": "earned, practised",
+   "pos": "verb",
+   "roman": "kamāyā",
+   "base": "کمانا"
+  },
+  "طبیعت": {
+   "en": "temperament, disposition",
+   "pos": "noun",
+   "roman": "tabīat"
+  },
+  "کیتا": {
+   "en": "did, made",
+   "pos": "verb",
+   "roman": "kītā",
+   "base": "کرنا"
+  },
+  "وہم": {
+   "en": "thought, fancy",
+   "pos": "noun",
+   "roman": "vahm"
+  },
+  "اتے": {
+   "en": "upon; Atta (the washerman)",
+   "pos": "postposition",
+   "roman": "utte",
+   "note": "Also the name اتا Atta, the washerman who finds Sassi's chest (oblique اتے)."
+  },
+  "دل": {
+   "en": "heart",
+   "pos": "noun",
+   "roman": "dil"
+  },
+  "آدم": {
+   "en": "Adam (Jam Adam, king of Bhambhor); human being",
+   "pos": "proper noun",
+   "roman": "Ādam"
+  },
+  "جام": {
+   "en": "Jam (royal title); cup",
+   "pos": "noun",
+   "roman": "jām",
+   "note": "Jam is the title of the Sindhi rulers; in \"جام صراحی\" it means a wine-cup."
+  },
+  "بھنبھور": {
+   "en": "Bhambhor, Sassi's city in Sindh",
+   "pos": "proper noun",
+   "roman": "Bhambhor"
+  },
+  "شہر": {
+   "en": "city",
+   "pos": "noun",
+   "roman": "shahr"
+  },
+  "صاحب": {
+   "en": "lord, possessor (of)",
+   "pos": "noun",
+   "roman": "sāhib"
+  },
+  "تخت": {
+   "en": "throne",
+   "pos": "noun",
+   "roman": "taxt"
+  },
+  "کہاوے": {
+   "en": "is called",
+   "pos": "verb",
+   "roman": "kahāve",
+   "base": "کہاؤنا"
+  },
+  "جاہ": {
+   "en": "rank, dignity",
+   "pos": "noun",
+   "roman": "jāh"
+  },
+  "جلال": {
+   "en": "majesty",
+   "pos": "noun",
+   "roman": "jalāl"
+  },
+  "سکندر": {
+   "en": "Alexander (the Great)",
+   "pos": "proper noun",
+   "roman": "Sikandar"
+  },
+  "والا": {
+   "en": "like, belonging to (masc.)",
+   "pos": "particle",
+   "roman": "vālā"
+  },
+  "خاطر": {
+   "en": "mind, regard; for the sake of",
+   "pos": "noun",
+   "roman": "xātir",
+   "note": "\"خاطر نہ لیاوے\" = pays no heed to."
+  },
+  "مول": {
+   "en": "at all (with \"not\")",
+   "pos": "adverb",
+   "roman": "mūl"
+  },
+  "لیاوے": {
+   "en": "brings",
+   "pos": "verb",
+   "roman": "liāve",
+   "base": "لیاؤنا"
+  },
+  "وحوش": {
+   "en": "wild beasts",
+   "pos": "noun",
+   "roman": "vuhūsh"
+  },
+  "طیور": {
+   "en": "birds",
+   "pos": "noun",
+   "roman": "tuyūr"
+  },
+  "جناور": {
+   "en": "animals",
+   "pos": "noun",
+   "roman": "janāvar"
+  },
+  "سیس": {
+   "en": "head",
+   "pos": "noun",
+   "roman": "sīs"
+  },
+  "نواوے": {
+   "en": "bows (the head)",
+   "pos": "verb",
+   "roman": "nivāve",
+   "base": "نواؤنا"
+  },
+  "زبان": {
+   "en": "tongue; speech",
+   "pos": "noun",
+   "roman": "zabān"
+  },
+  "سکدی": {
+   "en": "can (fem.)",
+   "pos": "verb",
+   "roman": "sakdī",
+   "base": "سکنا"
+  },
+  "کون": {
+   "en": "who",
+   "pos": "pronoun",
+   "roman": "kauṇ"
+  },
+  "تعریف": {
+   "en": "praise",
+   "pos": "noun",
+   "roman": "tārīf"
+  },
+  "سناوے": {
+   "en": "tells, recites",
+   "pos": "verb",
+   "roman": "suṇāve",
+   "base": "سنانا"
+  },
+  "مکان": {
+   "en": "abode, place",
+   "pos": "noun",
+   "roman": "makān"
+  },
+  "الہی": {
+   "en": "divine",
+   "pos": "adjective",
+   "roman": "ilāhī"
+  },
+  "باغ": {
+   "en": "garden",
+   "pos": "noun",
+   "roman": "bāġ"
+  },
+  "بہشت": {
+   "en": "paradise",
+   "pos": "noun",
+   "roman": "bahisht"
+  },
+  "فروش": {
+   "en": "furnishings",
+   "pos": "noun",
+   "roman": "farosh",
+   "note": "\"فرش فروش\" = carpets and furnishings."
+  },
+  "گل": {
+   "en": "flower; neck; word, matter",
+   "pos": "noun",
+   "roman": "gul, gall",
+   "note": "Same spelling: گُل gul \"flower\" (گل بوٹا, گل لالہ); گل gal \"neck\" (گل لائے, گل بانہہ); گل gall \"matter, word\"."
+  },
+  "بوٹا": {
+   "en": "plant, shrub",
+   "pos": "noun",
+   "roman": "būṭā"
+  },
+  "ذات": {
+   "en": "kind, species; caste; self",
+   "pos": "noun",
+   "roman": "zāt"
+  },
+  "لگایا": {
+   "en": "planted",
+   "pos": "verb",
+   "roman": "lagāyā",
+   "base": "لگانا"
+  },
+  "ندیاں": {
+   "en": "streams, rivers",
+   "pos": "noun",
+   "roman": "nadīāṅ",
+   "base": "ندی"
+  },
+  "حوض": {
+   "en": "tank, pool",
+   "pos": "noun",
+   "roman": "hauz"
+  },
+  "تالاب": {
+   "en": "pond",
+   "pos": "noun",
+   "roman": "tālāb"
+  },
+  "چوطرفیں": {
+   "en": "on all four sides",
+   "pos": "adverb",
+   "roman": "chautarfīṅ"
+  },
+  "رل": {
+   "en": "together",
+   "pos": "adverb",
+   "roman": "ral",
+   "base": "رلنا",
+   "note": "\"رل مل\" = all together."
+  },
+  "مل": {
+   "en": "together; meet",
+   "pos": "verb",
+   "roman": "mil",
+   "base": "ملنا"
+  },
+  "سہایا": {
+   "en": "adorned, beautified",
+   "pos": "verb",
+   "roman": "suhāyā",
+   "base": "سہاؤنا"
+  },
+  "روح": {
+   "en": "soul",
+   "pos": "noun",
+   "roman": "rūh"
+  },
+  "پھسیا": {
+   "en": "trapped, ensnared",
+   "pos": "verb",
+   "roman": "phasiā",
+   "base": "پھسنا"
+  },
+  "دام": {
+   "en": "snare, net",
+   "pos": "noun",
+   "roman": "dām"
+  },
+  "فریب": {
+   "en": "deceit, illusion",
+   "pos": "noun",
+   "roman": "fareb"
+  },
+  "وچھایا": {
+   "en": "spread out",
+   "pos": "verb",
+   "roman": "vichhāyā",
+   "base": "وچھاؤنا"
+  },
+  "امیر": {
+   "en": "nobles",
+   "pos": "noun",
+   "roman": "amīr"
+  },
+  "وزیر": {
+   "en": "minister(s)",
+   "pos": "noun",
+   "roman": "vazīr"
+  },
+  "غلام": {
+   "en": "slave(s), servant(s)",
+   "pos": "noun",
+   "roman": "ġulām"
+  },
+  "کروڑاں": {
+   "en": "millions",
+   "pos": "numeral",
+   "roman": "karoṛāṅ",
+   "base": "کروڑ"
+  },
+  "لشکر": {
+   "en": "army",
+   "pos": "noun",
+   "roman": "lashkar"
+  },
+  "فوج": {
+   "en": "troops",
+   "pos": "noun",
+   "roman": "fauj"
+  },
+  "خزانے": {
+   "en": "treasures",
+   "pos": "noun",
+   "roman": "xazāne",
+   "base": "خزانہ"
+  },
+  "بیرک": {
+   "en": "banners, standards",
+   "pos": "noun",
+   "roman": "bairak"
+  },
+  "سرخ": {
+   "en": "red",
+   "pos": "adjective",
+   "roman": "surx"
+  },
+  "نشان": {
+   "en": "flags, ensigns; sign",
+   "pos": "noun",
+   "roman": "nishān"
+  },
+  "ہزاراں": {
+   "en": "thousands",
+   "pos": "numeral",
+   "roman": "hazārāṅ",
+   "base": "ہزار"
+  },
+  "شام": {
+   "en": "dark, dusky (as evening)",
+   "pos": "adjective",
+   "roman": "shām",
+   "note": "Uncertain: \"canopies dark as evening clouds\"; شام also means evening."
+  },
+  "گھٹاں": {
+   "en": "massed clouds",
+   "pos": "noun",
+   "roman": "ghaṭāṅ",
+   "base": "گھٹا"
+  },
+  "سمیانے": {
+   "en": "canopies, pavilions",
+   "pos": "noun",
+   "roman": "shamiāne",
+   "base": "شامیانہ"
+  },
+  "کھاون": {
+   "en": "eat (they)",
+   "pos": "verb",
+   "roman": "khāvan",
+   "base": "کھانا"
+  },
+  "خیر": {
+   "en": "alms, charity; welfare",
+   "pos": "noun",
+   "roman": "xair"
+  },
+  "فقیر": {
+   "en": "mendicant, fakir",
+   "pos": "noun",
+   "roman": "faqīr"
+  },
+  "مسافر": {
+   "en": "traveller(s)",
+   "pos": "noun",
+   "roman": "musāfir"
+  },
+  "ہوش": {
+   "en": "senses, awareness",
+   "pos": "noun",
+   "roman": "hosh",
+   "note": "\"صاحب ہوش دیوانے\" = the sane and the mad alike."
+  },
+  "دیوانے": {
+   "en": "mad (ones)",
+   "pos": "adjective",
+   "roman": "dīvāne",
+   "base": "دیوانہ"
+  },
+  "ایس": {
+   "en": "this (oblique)",
+   "pos": "pronoun",
+   "roman": "es"
+  },
+  "غمیں": {
+   "en": "grief (in)",
+   "pos": "noun",
+   "roman": "ġamīṅ",
+   "base": "غم"
+  },
+  "عاجز": {
+   "en": "helpless",
+   "pos": "adjective",
+   "roman": "ājiz"
+  },
+  "ہووس": {
+   "en": "would be (for him/her)",
+   "pos": "verb",
+   "roman": "hovas",
+   "base": "ہونا",
+   "note": "\"ہووس اولاد نہ\" = that he had no child."
+  },
+  "اولاد": {
+   "en": "offspring, children",
+   "pos": "noun",
+   "roman": "aulād"
+  },
+  "جانے": {
+   "en": "knows",
+   "pos": "verb",
+   "roman": "jāṇe",
+   "base": "جاننا"
+  },
+  "خواہش": {
+   "en": "desire",
+   "pos": "noun",
+   "roman": "xāhish"
+  },
+  "ہمیشہ": {
+   "en": "always",
+   "pos": "adverb",
+   "roman": "hamesha"
+  },
+  "پیر": {
+   "en": "saint (pir); foot",
+   "pos": "noun",
+   "roman": "pīr",
+   "note": "Same spelling for پیر \"Sufi saint\" and پیر \"foot\"."
+  },
+  "مناوے": {
+   "en": "propitiates, makes vows to",
+   "pos": "verb",
+   "roman": "manāve",
+   "base": "منانا"
+  },
+  "لباس": {
+   "en": "clothes",
+   "pos": "noun",
+   "roman": "libās"
+  },
+  "پوشاک": {
+   "en": "garments",
+   "pos": "noun",
+   "roman": "poshāk"
+  },
+  "برہنیاں": {
+   "en": "the naked (pl.)",
+   "pos": "noun",
+   "roman": "barahnīāṅ",
+   "base": "برہنہ"
+  },
+  "بھکھیاں": {
+   "en": "the hungry (pl.)",
+   "pos": "noun",
+   "roman": "bhukhīāṅ",
+   "base": "بھکھا"
+  },
+  "طعام": {
+   "en": "food",
+   "pos": "noun",
+   "roman": "taām"
+  },
+  "کھلاوے": {
+   "en": "feeds",
+   "pos": "verb",
+   "roman": "khilāve",
+   "base": "کھلانا"
+  },
+  "ویکھ": {
+   "en": "see; having seen",
+   "pos": "verb",
+   "roman": "vekh",
+   "base": "ویکھنا"
+  },
+  "اجاڑ": {
+   "en": "wilderness",
+   "pos": "noun",
+   "roman": "ujāṛ"
+  },
+  "کارن": {
+   "en": "for the sake of",
+   "pos": "postposition",
+   "roman": "kāran"
+  },
+  "سرائے": {
+   "en": "inn, caravanserai",
+   "pos": "noun",
+   "roman": "sarāe"
+  },
+  "لواوے": {
+   "en": "has (it) built",
+   "pos": "verb",
+   "roman": "lavāve",
+   "base": "لوانا"
+  },
+  "کرس": {
+   "en": "make (for him)",
+   "pos": "verb",
+   "roman": "karas",
+   "base": "کرنا"
+  },
+  "جہان": {
+   "en": "world",
+   "pos": "noun",
+   "roman": "jahān"
+  },
+  "دعائیں": {
+   "en": "prayers",
+   "pos": "noun",
+   "roman": "duāīṅ",
+   "base": "دعا"
+  },
+  "آمل": {
+   "en": "come and grant",
+   "pos": "verb",
+   "roman": "ā mil",
+   "note": "Uncertain: read as \"آ مل\", i.e. that the Lord may come and grant a boon."
+  },
+  "سائیں": {
+   "en": "the Lord, master",
+   "pos": "noun",
+   "roman": "sāīṅ"
+  },
+  "ور": {
+   "en": "boon, blessing",
+   "pos": "noun",
+   "roman": "var"
+  },
+  "در": {
+   "en": "pearl; door",
+   "pos": "noun",
+   "roman": "dur, dar",
+   "note": "\"درِ یتیم\" = a peerless pearl; elsewhere در = door."
+  },
+  "یتیم": {
+   "en": "peerless, unique",
+   "pos": "adjective",
+   "roman": "yatīm",
+   "note": "Lit. orphan; \"dur-e-yatim\" = a matchless single pearl."
+  },
+  "صدف": {
+   "en": "oyster shell",
+   "pos": "noun",
+   "roman": "sadaf"
+  },
+  "آہا": {
+   "en": "was (masc.)",
+   "pos": "verb",
+   "roman": "āhā"
+  },
+  "سنے": {
+   "en": "heard; hears",
+   "pos": "verb",
+   "roman": "suṇe",
+   "base": "سننا"
+  },
+  "پکار": {
+   "en": "plea, cry",
+   "pos": "noun",
+   "roman": "pukār"
+  },
+  "دلاں": {
+   "en": "hearts",
+   "pos": "noun",
+   "roman": "dilāṅ",
+   "base": "دل"
+  },
+  "پھیری": {
+   "en": "turned, returned",
+   "pos": "verb",
+   "roman": "pherī",
+   "base": "پھیرنا"
+  },
+  "بہار": {
+   "en": "spring, bloom",
+   "pos": "noun",
+   "roman": "bahār"
+  },
+  "شگوفے": {
+   "en": "buds, blossoms",
+   "pos": "noun",
+   "roman": "shagūfe",
+   "base": "شگوفہ"
+  },
+  "والی": {
+   "en": "of (fem.); ruler",
+   "pos": "noun",
+   "roman": "vālī",
+   "note": "As a noun والی = ruler, lord (شہر دے والی)."
+  },
+  "ہو": {
+   "en": "be; become; having become",
+   "pos": "verb",
+   "roman": "ho",
+   "base": "ہونا"
+  },
+  "امید": {
+   "en": "hope",
+   "pos": "noun",
+   "roman": "umīd"
+  },
+  "گلاں": {
+   "en": "flowers",
+   "pos": "noun",
+   "roman": "gulāṅ",
+   "base": "گل"
+  },
+  "چھیج": {
+   "en": "bed, couch",
+   "pos": "noun",
+   "roman": "chhej"
+  },
+  "معقول": {
+   "en": "fine, proper",
+   "pos": "adjective",
+   "roman": "māqūl"
+  },
+  "ابریشم": {
+   "en": "silk",
+   "pos": "noun",
+   "roman": "abresham"
+  },
+  "آہی": {
+   "en": "was (fem.)",
+   "pos": "verb",
+   "roman": "āhī"
+  },
+  "سخت": {
+   "en": "hard, harsh",
+   "pos": "adjective",
+   "roman": "saxt"
+  },
+  "سولاں": {
+   "en": "thorns; pangs",
+   "pos": "noun",
+   "roman": "sūlāṅ",
+   "base": "سول"
+  },
+  "ہوتے": {
+   "en": "became, were",
+   "pos": "verb",
+   "roman": "hote",
+   "note": "Uncertain: sense of the line is unclear; possibly \"of Hot\" (ہوت)."
+  },
+  "لالہ": {
+   "en": "tulip",
+   "pos": "noun",
+   "roman": "lāla",
+   "note": "\"گل لالہ\" = red tulip/poppy, emblem of a wounded heart."
+  },
+  "ہوگ": {
+   "en": "will be",
+   "pos": "verb",
+   "roman": "hog",
+   "base": "ہونا"
+  },
+  "پھلاں": {
+   "en": "flowers",
+   "pos": "noun",
+   "roman": "phullāṅ",
+   "base": "پھل"
+  },
+  "جنم": {
+   "en": "birth",
+   "pos": "noun",
+   "roman": "janam"
+  },
+  "لیا": {
+   "en": "took",
+   "pos": "verb",
+   "roman": "liā",
+   "base": "لینا",
+   "note": "\"جنم لیا\" = was born."
+  },
+  "شب": {
+   "en": "night",
+   "pos": "noun",
+   "roman": "shab"
+  },
+  "قدرے": {
+   "en": "of Qadr",
+   "pos": "proper noun",
+   "roman": "qadre",
+   "base": "قدر",
+   "note": "\"شب قدر\", the Night of Power, holiest night of Ramadan."
+  },
+  "مثل": {
+   "en": "like",
+   "pos": "postposition",
+   "roman": "misl"
+  },
+  "ہلال": {
+   "en": "crescent moon",
+   "pos": "noun",
+   "roman": "hilāl"
+  },
+  "درخشاں": {
+   "en": "shining",
+   "pos": "adjective",
+   "roman": "daraxshāṅ"
+  },
+  "بے": {
+   "en": "without",
+   "pos": "particle",
+   "roman": "be"
+  },
+  "آب": {
+   "en": "lustre; water",
+   "pos": "noun",
+   "roman": "āb",
+   "note": "\"بے آب\" = dulled, lustreless."
+  },
+  "ہوون": {
+   "en": "become (pl.)",
+   "pos": "verb",
+   "roman": "hovan",
+   "base": "ہونا"
+  },
+  "نگ": {
+   "en": "gems",
+   "pos": "noun",
+   "roman": "nag"
+  },
+  "موتی": {
+   "en": "pearls",
+   "pos": "noun",
+   "roman": "motī"
+  },
+  "مانک": {
+   "en": "rubies",
+   "pos": "noun",
+   "roman": "māṇak"
+  },
+  "لعل": {
+   "en": "ruby",
+   "pos": "noun",
+   "roman": "lāl"
+  },
+  "بدخشاں": {
+   "en": "Badakhshan",
+   "pos": "proper noun",
+   "roman": "Badaxshāṅ",
+   "note": "Region famed for its rubies."
+  },
+  "خیال": {
+   "en": "thought, imagination",
+   "pos": "noun",
+   "roman": "xiyāl"
+  },
+  "قیاسوں": {
+   "en": "conjecture (beyond)",
+   "pos": "noun",
+   "roman": "qiyāsoṅ",
+   "base": "قیاس"
+  },
+  "نظر": {
+   "en": "gaze, sight",
+   "pos": "noun",
+   "roman": "nazar"
+  },
+  "کرے": {
+   "en": "does, makes",
+   "pos": "verb",
+   "roman": "kare",
+   "base": "کرنا"
+  },
+  "ول": {
+   "en": "towards; again",
+   "pos": "postposition",
+   "roman": "val"
+  },
+  "نقشاں": {
+   "en": "features",
+   "pos": "noun",
+   "roman": "naqshāṅ",
+   "base": "نقش"
+  },
+  "شمس": {
+   "en": "sun",
+   "pos": "noun",
+   "roman": "shams"
+  },
+  "مثال": {
+   "en": "like",
+   "pos": "postposition",
+   "roman": "misāl"
+  },
+  "زر": {
+   "en": "gold",
+   "pos": "noun",
+   "roman": "zar"
+  },
+  "افشاں": {
+   "en": "scattering",
+   "pos": "adjective",
+   "roman": "afshāṅ",
+   "note": "\"زر افشاں\" = scattering gold."
+  },
+  "جمل": {
+   "en": "all, entire",
+   "pos": "adjective",
+   "roman": "jamal"
+  },
+  "ہوئے": {
+   "en": "became (pl.)",
+   "pos": "verb",
+   "roman": "hoe",
+   "base": "ہونا"
+  },
+  "خوشحال": {
+   "en": "happy, prosperous",
+   "pos": "adjective",
+   "roman": "xushhāl"
+  },
+  "پھریا": {
+   "en": "turned",
+   "pos": "verb",
+   "roman": "phiriā",
+   "base": "پھرنا"
+  },
+  "نیک": {
+   "en": "good",
+   "pos": "adjective",
+   "roman": "nek"
+  },
+  "زمانہ": {
+   "en": "time, age",
+   "pos": "noun",
+   "roman": "zamāna"
+  },
+  "نوبت": {
+   "en": "kettledrums",
+   "pos": "noun",
+   "roman": "naubat",
+   "note": "Drums played at palace gates on festive occasions."
+  },
+  "ناچ": {
+   "en": "dancing",
+   "pos": "noun",
+   "roman": "nāch"
+  },
+  "شمار": {
+   "en": "count",
+   "pos": "noun",
+   "roman": "shumār"
+  },
+  "دھرپت": {
+   "en": "dhrupad songs",
+   "pos": "noun",
+   "roman": "dhurpat",
+   "note": "Classical song genre."
+  },
+  "خزانہ": {
+   "en": "treasure",
+   "pos": "noun",
+   "roman": "xazāna"
+  },
+  "کر": {
+   "en": "do; having done",
+   "pos": "verb",
+   "roman": "kar",
+   "base": "کرنا"
+  },
+  "سروار": {
+   "en": "waving over the head (as offering)",
+   "pos": "noun",
+   "roman": "sarvār",
+   "note": "Uncertain: likely سر وار, gold waved round the head and thrown to the poor."
+  },
+  "سٹن": {
+   "en": "throw, scatter (they)",
+   "pos": "verb",
+   "roman": "suṭṭan",
+   "base": "سٹنا"
+  },
+  "سونا": {
+   "en": "gold",
+   "pos": "noun",
+   "roman": "sonā"
+  },
+  "ہور": {
+   "en": "more, other; and",
+   "pos": "adjective",
+   "roman": "hor"
+  },
+  "جواہر": {
+   "en": "jewels",
+   "pos": "noun",
+   "roman": "javāhar"
+  },
+  "فقر": {
+   "en": "the poor",
+   "pos": "noun",
+   "roman": "faqr",
+   "note": "Uncertain: with اواں likely one word فقراواں \"to the poor\"."
+  },
+  "اواں": {
+   "en": "(plural ending)",
+   "pos": "particle",
+   "roman": "āvāṅ",
+   "note": "Uncertain: likely second half of فقراواں \"to the poor\"."
+  },
+  "معاش": {
+   "en": "livelihood",
+   "pos": "noun",
+   "roman": "māsh"
+  },
+  "اہل": {
+   "en": "people (of)",
+   "pos": "noun",
+   "roman": "ahl",
+   "note": "\"اہل نجوم\" = astrologers."
+  },
+  "نجوم": {
+   "en": "stars; astrology",
+   "pos": "noun",
+   "roman": "nujūm"
+  },
+  "سدے": {
+   "en": "summoned",
+   "pos": "verb",
+   "roman": "sadde",
+   "base": "سدنا"
+  },
+  "ویلے": {
+   "en": "time (at)",
+   "pos": "noun",
+   "roman": "vele",
+   "base": "ویلا"
+  },
+  "حفظ": {
+   "en": "by heart",
+   "pos": "noun",
+   "roman": "hifz"
+  },
+  "توریت": {
+   "en": "the Torah",
+   "pos": "proper noun",
+   "roman": "Taurēt"
+  },
+  "زبانی": {
+   "en": "orally, by heart",
+   "pos": "adverb",
+   "roman": "zabānī"
+  },
+  "یمن": {
+   "en": "auspiciousness",
+   "pos": "noun",
+   "roman": "yumn"
+  },
+  "کرامت": {
+   "en": "miracles",
+   "pos": "noun",
+   "roman": "karāmat"
+  },
+  "والے": {
+   "en": "having, of (pl.)",
+   "pos": "particle",
+   "roman": "vāle"
+  },
+  "خبر": {
+   "en": "news",
+   "pos": "noun",
+   "roman": "xabar"
+  },
+  "دین": {
+   "en": "give (they)",
+   "pos": "verb",
+   "roman": "deṇ",
+   "base": "دینا"
+  },
+  "آسمانی": {
+   "en": "heavenly",
+   "pos": "adjective",
+   "roman": "āsmānī"
+  },
+  "ویکھن": {
+   "en": "see (they)",
+   "pos": "verb",
+   "roman": "vekhaṇ",
+   "base": "ویکھنا"
+  },
+  "عمر": {
+   "en": "life, age",
+   "pos": "noun",
+   "roman": "umar"
+  },
+  "نصیب": {
+   "en": "fate",
+   "pos": "noun",
+   "roman": "nasīb"
+  },
+  "کھولھ": {
+   "en": "opening",
+   "pos": "verb",
+   "roman": "khohl",
+   "base": "کھولھنا"
+  },
+  "ربانی": {
+   "en": "divine",
+   "pos": "adjective",
+   "roman": "rabbānī",
+   "note": "\"کلام ربانی\" = holy scripture."
+  },
+  "بھار": {
+   "en": "burden",
+   "pos": "noun",
+   "roman": "bhār"
+  },
+  "سر": {
+   "en": "head; upon",
+   "pos": "noun",
+   "roman": "sir"
+  },
+  "ڈاڈھا": {
+   "en": "heavy, severe",
+   "pos": "adjective",
+   "roman": "ḍāḍhā"
+  },
+  "ہوس": {
+   "en": "will be (for her)",
+   "pos": "verb",
+   "roman": "hos",
+   "base": "ہونا"
+  },
+  "شتاب": {
+   "en": "soon",
+   "pos": "adverb",
+   "roman": "shitāb"
+  },
+  "آسانی": {
+   "en": "ease",
+   "pos": "noun",
+   "roman": "āsānī"
+  },
+  "کتاب": {
+   "en": "book",
+   "pos": "noun",
+   "roman": "kitāb"
+  },
+  "نجومی": {
+   "en": "astrologers",
+   "pos": "noun",
+   "roman": "najūmī"
+  },
+  "چپ": {
+   "en": "silent",
+   "pos": "adjective",
+   "roman": "chupp"
+  },
+  "سارے": {
+   "en": "all",
+   "pos": "adjective",
+   "roman": "sāre"
+  },
+  "ظالم": {
+   "en": "tyrannical",
+   "pos": "adjective",
+   "roman": "zālim"
+  },
+  "حکم": {
+   "en": "command",
+   "pos": "noun",
+   "roman": "hukm"
+  },
+  "سہم": {
+   "en": "fear, dread",
+   "pos": "noun",
+   "roman": "sahm"
+  },
+  "سلطاناں": {
+   "en": "kings (of)",
+   "pos": "noun",
+   "roman": "sultānāṅ",
+   "base": "سلطان"
+  },
+  "دم": {
+   "en": "breath; moment",
+   "pos": "noun",
+   "roman": "dam",
+   "note": "\"دم مارے\" = dare speak."
+  },
+  "مارے": {
+   "en": "strikes; draws (breath)",
+   "pos": "verb",
+   "roman": "māre",
+   "base": "مارنا"
+  },
+  "بادشاہاں": {
+   "en": "kings (to)",
+   "pos": "noun",
+   "roman": "bādshāhāṅ",
+   "base": "بادشاہ"
+  },
+  "سچ": {
+   "en": "truth",
+   "pos": "noun",
+   "roman": "sach"
+  },
+  "آکھن": {
+   "en": "say; to say",
+   "pos": "verb",
+   "roman": "ākhaṇ",
+   "base": "آکھنا"
+  },
+  "اوکھا": {
+   "en": "difficult",
+   "pos": "adjective",
+   "roman": "aukhā"
+  },
+  "لاچار": {
+   "en": "helpless",
+   "pos": "adjective",
+   "roman": "lāchār"
+  },
+  "بیچارے": {
+   "en": "poor (ones)",
+   "pos": "adjective",
+   "roman": "bechāre",
+   "base": "بیچارا"
+  },
+  "بخت": {
+   "en": "fortune",
+   "pos": "noun",
+   "roman": "baxt"
+  },
+  "بخیل": {
+   "en": "miserly; envious, mean",
+   "pos": "adjective",
+   "roman": "baxīl"
+  },
+  "جتے": {
+   "en": "wins",
+   "pos": "verb",
+   "roman": "jitte",
+   "base": "جتنا"
+  },
+  "ہارے": {
+   "en": "loses",
+   "pos": "verb",
+   "roman": "hāre",
+   "base": "ہارنا"
+  },
+  "شاہ": {
+   "en": "king",
+   "pos": "noun",
+   "roman": "shāh"
+  },
+  "دوبار": {
+   "en": "again, twice",
+   "pos": "adverb",
+   "roman": "dobār"
+  },
+  "کہیا": {
+   "en": "said",
+   "pos": "verb",
+   "roman": "kahiā",
+   "base": "کہنا"
+  },
+  "کیہی": {
+   "en": "what kind of",
+   "pos": "pronoun",
+   "roman": "kehī"
+  },
+  "کہو": {
+   "en": "say",
+   "pos": "verb",
+   "roman": "kaho",
+   "base": "کہنا"
+  },
+  "جواب": {
+   "en": "answer",
+   "pos": "noun",
+   "roman": "javāb"
+  },
+  "کیہ": {
+   "en": "what",
+   "pos": "pronoun",
+   "roman": "kih"
+  },
+  "آوے": {
+   "en": "comes",
+   "pos": "verb",
+   "roman": "āve",
+   "base": "آنا"
+  },
+  "عرض": {
+   "en": "petition, plea",
+   "pos": "noun",
+   "roman": "arz"
+  },
+  "کیتی": {
+   "en": "did (fem.)",
+   "pos": "verb",
+   "roman": "kītī",
+   "base": "کرنا"
+  },
+  "دربار": {
+   "en": "court",
+   "pos": "noun",
+   "roman": "darbār"
+  },
+  "اساتھیں": {
+   "en": "from us, by us",
+   "pos": "pronoun",
+   "roman": "asāthīṅ"
+  },
+  "راست": {
+   "en": "true",
+   "pos": "adjective",
+   "roman": "rāst"
+  },
+  "جوگی": {
+   "en": "fit (to), able",
+   "pos": "adjective",
+   "roman": "jogī",
+   "base": "جوگا",
+   "note": "Here جوگا \"worthy, able\", not the ascetic yogi."
+  },
+  "جھوٹھ": {
+   "en": "lie, falsehood",
+   "pos": "noun",
+   "roman": "jhūṭh"
+  },
+  "ایمان": {
+   "en": "faith",
+   "pos": "noun",
+   "roman": "īmān"
+  },
+  "جلاوے": {
+   "en": "burns",
+   "pos": "verb",
+   "roman": "jalāve",
+   "base": "جلانا"
+  },
+  "لوکاؤ": {
+   "en": "concealment",
+   "pos": "noun",
+   "roman": "lukāo",
+   "note": "Uncertain: read as لکاؤ \"hiding\"; i.e. however much one hides it, who can erase fate."
+  },
+  "بتھیرا": {
+   "en": "plenty, a great deal",
+   "pos": "adjective",
+   "roman": "bathherā"
+  },
+  "قسمت": {
+   "en": "fate",
+   "pos": "noun",
+   "roman": "qismat"
+  },
+  "مٹاوے": {
+   "en": "erases",
+   "pos": "verb",
+   "roman": "miṭāve",
+   "base": "مٹانا"
+  },
+  "اوڑک": {
+   "en": "at last",
+   "pos": "adverb",
+   "roman": "oṛak"
+  },
+  "خوف": {
+   "en": "fear",
+   "pos": "noun",
+   "roman": "xauf"
+  },
+  "اتار": {
+   "en": "casting off",
+   "pos": "verb",
+   "roman": "utār",
+   "base": "اتارنا"
+  },
+  "بات": {
+   "en": "word, matter",
+   "pos": "noun",
+   "roman": "bāt"
+  },
+  "کہی": {
+   "en": "said (fem.)",
+   "pos": "verb",
+   "roman": "kahī",
+   "base": "کہنا"
+  },
+  "من": {
+   "en": "mind, heart",
+   "pos": "noun",
+   "roman": "man"
+  },
+  "بھانی": {
+   "en": "pleasing",
+   "pos": "adjective",
+   "roman": "bhāṇī",
+   "note": "\"من بھانی\" = as his mind held it, frankly."
+  },
+  "عاشق": {
+   "en": "lover; in love",
+   "pos": "noun",
+   "roman": "āshiq"
+  },
+  "کمال": {
+   "en": "utmost; perfection",
+   "pos": "noun",
+   "roman": "kamāl"
+  },
+  "جد": {
+   "en": "when",
+   "pos": "conjunction",
+   "roman": "jad"
+  },
+  "جوان": {
+   "en": "young, grown up",
+   "pos": "adjective",
+   "roman": "javān"
+  },
+  "سیانی": {
+   "en": "of age, wise (fem.)",
+   "pos": "adjective",
+   "roman": "siāṇī",
+   "base": "سیانا"
+  },
+  "مست": {
+   "en": "intoxicated, entranced",
+   "pos": "adjective",
+   "roman": "mast"
+  },
+  "بیہوش": {
+   "en": "unconscious",
+   "pos": "adjective",
+   "roman": "behosh"
+  },
+  "تھلاں": {
+   "en": "deserts",
+   "pos": "noun",
+   "roman": "thalāṅ",
+   "base": "تھل"
+  },
+  "مرسی": {
+   "en": "will die",
+   "pos": "verb",
+   "roman": "marsī",
+   "base": "مرنا"
+  },
+  "درد": {
+   "en": "pain",
+   "pos": "noun",
+   "roman": "dard"
+  },
+  "فراق": {
+   "en": "separation",
+   "pos": "noun",
+   "roman": "firāq"
+  },
+  "رنجانی": {
+   "en": "grieved, afflicted",
+   "pos": "adjective",
+   "roman": "ranjāṇī"
+  },
+  "اجہی": {
+   "en": "such",
+   "pos": "adjective",
+   "roman": "ajehī"
+  },
+  "ریہگ": {
+   "en": "will remain",
+   "pos": "verb",
+   "roman": "rehag",
+   "base": "رہنا"
+  },
+  "کہانی": {
+   "en": "story",
+   "pos": "noun",
+   "roman": "kahāṇī"
+  },
+  "تقریر": {
+   "en": "speech, pronouncement",
+   "pos": "noun",
+   "roman": "taqrīr"
+  },
+  "ہویا": {
+   "en": "became",
+   "pos": "verb",
+   "roman": "hoiā",
+   "base": "ہونا"
+  },
+  "بریاں": {
+   "en": "seared, roasted",
+   "pos": "adjective",
+   "roman": "biryāṅ"
+  },
+  "ماں": {
+   "en": "mother",
+   "pos": "noun",
+   "roman": "māṅ"
+  },
+  "پیو": {
+   "en": "father",
+   "pos": "noun",
+   "roman": "pio"
+  },
+  "خویش": {
+   "en": "kinsfolk",
+   "pos": "noun",
+   "roman": "xesh"
+  },
+  "قبیلہ": {
+   "en": "clan",
+   "pos": "noun",
+   "roman": "qabīla"
+  },
+  "آتش": {
+   "en": "fire",
+   "pos": "noun",
+   "roman": "ātish"
+  },
+  "چمک": {
+   "en": "flare, flash",
+   "pos": "noun",
+   "roman": "chamak"
+  },
+  "اٹھی": {
+   "en": "rose",
+   "pos": "verb",
+   "roman": "uṭhī",
+   "base": "اٹھنا"
+  },
+  "نوں": {
+   "en": "to; for (object marker)",
+   "pos": "postposition",
+   "roman": "nūṅ"
+  },
+  "جیوں": {
+   "en": "as, like",
+   "pos": "conjunction",
+   "roman": "jiūṅ"
+  },
+  "تیل": {
+   "en": "oil",
+   "pos": "noun",
+   "roman": "tel"
+  },
+  "فتیلا": {
+   "en": "wick",
+   "pos": "noun",
+   "roman": "fatīlā"
+  },
+  "خوشی": {
+   "en": "joy",
+   "pos": "noun",
+   "roman": "xushī"
+  },
+  "خراب": {
+   "en": "ruined",
+   "pos": "adjective",
+   "roman": "xarāb"
+  },
+  "زرد": {
+   "en": "pale",
+   "pos": "adjective",
+   "roman": "zard"
+  },
+  "رنگ": {
+   "en": "colour",
+   "pos": "noun",
+   "roman": "rang"
+  },
+  "پیلا": {
+   "en": "yellow",
+   "pos": "adjective",
+   "roman": "pīlā"
+  },
+  "بیٹھ": {
+   "en": "sitting down",
+   "pos": "verb",
+   "roman": "baiṭh",
+   "base": "بیٹھنا"
+  },
+  "دانا": {
+   "en": "wise",
+   "pos": "adjective",
+   "roman": "dānā"
+  },
+  "سیانے": {
+   "en": "wise men",
+   "pos": "noun",
+   "roman": "siāṇe",
+   "base": "سیانا"
+  },
+  "وچارن": {
+   "en": "deliberate (they)",
+   "pos": "verb",
+   "roman": "vichāran",
+   "base": "وچارنا"
+  },
+  "حیلا": {
+   "en": "remedy, stratagem",
+   "pos": "noun",
+   "roman": "hīlā"
+  },
+  "اعتبار": {
+   "en": "trust, hope",
+   "pos": "noun",
+   "roman": "itbār",
+   "note": "\"بے اعتبار\" = in despair."
+  },
+  "ہتھ": {
+   "en": "hand",
+   "pos": "noun",
+   "roman": "hatth",
+   "note": "\"ہتھ دھوتے\" = washed his hands of (it)."
+  },
+  "دھوتے": {
+   "en": "washed",
+   "pos": "verb",
+   "roman": "dhote",
+   "base": "دھونا"
+  },
+  "باپ": {
+   "en": "father",
+   "pos": "noun",
+   "roman": "bāp"
+  },
+  "مرادوں": {
+   "en": "wish (of)",
+   "pos": "noun",
+   "roman": "murādoṅ",
+   "base": "مراد"
+  },
+  "روپ": {
+   "en": "form, appearance",
+   "pos": "noun",
+   "roman": "rūp"
+  },
+  "سیاہ": {
+   "en": "black",
+   "pos": "adjective",
+   "roman": "siāh"
+  },
+  "جلادوں": {
+   "en": "executioner (than)",
+   "pos": "noun",
+   "roman": "jallādoṅ",
+   "base": "جلاد"
+  },
+  "ڈوبگ": {
+   "en": "will sink",
+   "pos": "verb",
+   "roman": "ḍobag",
+   "base": "ڈبنا"
+  },
+  "ننگ": {
+   "en": "honour",
+   "pos": "noun",
+   "roman": "nang",
+   "note": "\"ننگ ناموس\" = honour and repute."
+  },
+  "ناموس": {
+   "en": "reputation, honour",
+   "pos": "noun",
+   "roman": "nāmūs"
+  },
+  "حاصل": {
+   "en": "gain",
+   "pos": "noun",
+   "roman": "hāsil"
+  },
+  "پلیت": {
+   "en": "impure, cursed",
+   "pos": "adjective",
+   "roman": "palīt"
+  },
+  "اولادوں": {
+   "en": "offspring (from)",
+   "pos": "noun",
+   "roman": "aulādoṅ",
+   "base": "اولاد"
+  },
+  "خرچ": {
+   "en": "do away with (kill)",
+   "pos": "noun",
+   "roman": "xarch",
+   "note": "Lit. spend."
+  },
+  "کرو": {
+   "en": "do (imperative)",
+   "pos": "verb",
+   "roman": "karo",
+   "base": "کرنا"
+  },
+  "فرمایا": {
+   "en": "ordered",
+   "pos": "verb",
+   "roman": "farmāyā",
+   "base": "فرمانا"
+  },
+  "فارغ": {
+   "en": "free",
+   "pos": "adjective",
+   "roman": "fāriġ"
+  },
+  "فسادوں": {
+   "en": "trouble (from)",
+   "pos": "noun",
+   "roman": "fasādoṅ",
+   "base": "فساد"
+  },
+  "دوس": {
+   "en": "fault",
+   "pos": "noun",
+   "roman": "dos"
+  },
+  "لکھیا": {
+   "en": "written",
+   "pos": "verb",
+   "roman": "likhiā",
+   "base": "لکھنا"
+  },
+  "لیکھ": {
+   "en": "destiny (what is written)",
+   "pos": "noun",
+   "roman": "lekh"
+  },
+  "لکھاری": {
+   "en": "the writer (God)",
+   "pos": "noun",
+   "roman": "likhārī"
+  },
+  "تقصیر": {
+   "en": "fault",
+   "pos": "noun",
+   "roman": "taqsīr",
+   "note": "\"بے تقصیر\" = innocent."
+  },
+  "کوہاون": {
+   "en": "slaughter",
+   "pos": "verb",
+   "roman": "kohāvan",
+   "base": "کوہنا"
+  },
+  "کنیا": {
+   "en": "maiden, girl",
+   "pos": "noun",
+   "roman": "kanniā"
+  },
+  "نشٹ": {
+   "en": "destroyed",
+   "pos": "adjective",
+   "roman": "nashṭ"
+  },
+  "کل": {
+   "en": "all, whole",
+   "pos": "adjective",
+   "roman": "kul"
+  },
+  "ساری": {
+   "en": "whole, all (fem.)",
+   "pos": "adjective",
+   "roman": "sārī"
+  },
+  "پاپ": {
+   "en": "sin",
+   "pos": "noun",
+   "roman": "pāp"
+  },
+  "پرے": {
+   "en": "beyond",
+   "pos": "adverb",
+   "roman": "pare",
+   "note": "\"پرے پریرے\" = any further beyond."
+  },
+  "پریرے": {
+   "en": "further beyond",
+   "pos": "adverb",
+   "roman": "parere"
+  },
+  "قوم": {
+   "en": "people, nation",
+   "pos": "noun",
+   "roman": "qaum"
+  },
+  "ہووے": {
+   "en": "becomes; may be",
+   "pos": "verb",
+   "roman": "hove",
+   "base": "ہونا"
+  },
+  "ہتھیاری": {
+   "en": "murderous",
+   "pos": "adjective",
+   "roman": "hatthiārī"
+  },
+  "پا": {
+   "en": "put; having put",
+   "pos": "verb",
+   "roman": "pā",
+   "base": "پانا"
+  },
+  "صندوق": {
+   "en": "chest, box",
+   "pos": "noun",
+   "roman": "sandūq"
+  },
+  "رڑھاؤ": {
+   "en": "set adrift",
+   "pos": "verb",
+   "roman": "ruṛhāo",
+   "base": "رڑھانا"
+  },
+  "چکے": {
+   "en": "ends",
+   "pos": "verb",
+   "roman": "chukke",
+   "base": "چکنا"
+  },
+  "خر": {
+   "en": "(part of خرخواری) disgrace",
+   "pos": "noun",
+   "roman": "xar",
+   "note": "Uncertain: likely خرخواری \"disgrace, humiliation\"."
+  },
+  "خواری": {
+   "en": "disgrace",
+   "pos": "noun",
+   "roman": "xārī"
+  },
+  "زمین": {
+   "en": "earth",
+   "pos": "noun",
+   "roman": "zamīn"
+  },
+  "پر": {
+   "en": "on; but",
+   "pos": "postposition",
+   "roman": "par"
+  },
+  "تائیں": {
+   "en": "to, for",
+   "pos": "postposition",
+   "roman": "tāīṅ"
+  },
+  "بہت": {
+   "en": "very, much",
+   "pos": "adverb",
+   "roman": "bahut"
+  },
+  "پیارا": {
+   "en": "dear, beloved",
+   "pos": "adjective",
+   "roman": "piārā"
+  },
+  "سو": {
+   "en": "that (one); so",
+   "pos": "pronoun",
+   "roman": "so",
+   "note": "\"جو چاہے سو کردا\" = whatever He wills, that He does."
+  },
+  "پھر": {
+   "en": "then; again; wandering",
+   "pos": "adverb",
+   "roman": "phir"
+  },
+  "آپ": {
+   "en": "oneself, themselves",
+   "pos": "pronoun",
+   "roman": "āp"
+  },
+  "رڑھاون": {
+   "en": "set adrift (they)",
+   "pos": "verb",
+   "roman": "ruṛhāvan",
+   "base": "رڑھانا"
+  },
+  "جس": {
+   "en": "whom, which",
+   "pos": "pronoun",
+   "roman": "jis"
+  },
+  "گناہ": {
+   "en": "sin",
+   "pos": "noun",
+   "roman": "gunāh"
+  },
+  "ناکارہ": {
+   "en": "trifling, worthless",
+   "pos": "adjective",
+   "roman": "nākāra"
+  },
+  "دھن": {
+   "en": "blessed",
+   "pos": "adjective",
+   "roman": "dhann"
+  },
+  "اوہ": {
+   "en": "that; he, she",
+   "pos": "pronoun",
+   "roman": "oh"
+  },
+  "سرجنہارا": {
+   "en": "the Creator",
+   "pos": "noun",
+   "roman": "sirjanhārā"
+  },
+  "عیب": {
+   "en": "fault",
+   "pos": "noun",
+   "roman": "aib"
+  },
+  "چھپاون": {
+   "en": "hide, conceal",
+   "pos": "verb",
+   "roman": "chhupāvan",
+   "base": "چھپانا"
+  },
+  "ہارا": {
+   "en": "doer of (agent suffix)",
+   "pos": "particle",
+   "roman": "hārā",
+   "note": "\"چھپاون ہارا\" = the one who conceals."
+  },
+  "جے": {
+   "en": "if",
+   "pos": "conjunction",
+   "roman": "je"
+  },
+  "عدالت": {
+   "en": "justice, judgment",
+   "pos": "noun",
+   "roman": "adālat"
+  },
+  "نتارہ": {
+   "en": "settlement, verdict",
+   "pos": "noun",
+   "roman": "nitārā"
+  },
+  "واہ": {
+   "en": "wondrous",
+   "pos": "interjection",
+   "roman": "vāh"
+  },
+  "نام": {
+   "en": "name",
+   "pos": "noun",
+   "roman": "nām"
+  },
+  "لیاں": {
+   "en": "on taking",
+   "pos": "verb",
+   "roman": "liāṅ",
+   "base": "لینا"
+  },
+  "ڈردا": {
+   "en": "fears",
+   "pos": "verb",
+   "roman": "ḍardā",
+   "base": "ڈرنا"
+  },
+  "تختوں": {
+   "en": "from thrones",
+   "pos": "noun",
+   "roman": "taxtoṅ",
+   "base": "تخت"
+  },
+  "چا": {
+   "en": "lift; (intensifier)",
+   "pos": "verb",
+   "roman": "chā",
+   "base": "چاونا"
+  },
+  "سٹے": {
+   "en": "throws down",
+   "pos": "verb",
+   "roman": "suṭṭe",
+   "base": "سٹنا"
+  },
+  "پوے": {
+   "en": "falls; may fall",
+   "pos": "verb",
+   "roman": "pave",
+   "base": "پینا"
+  },
+  "بیل": {
+   "en": "bull",
+   "pos": "noun",
+   "roman": "bail",
+   "note": "The bull of legend that bears the earth on its head."
+  },
+  "غریب": {
+   "en": "humble, poor",
+   "pos": "adjective",
+   "roman": "ġarīb"
+  },
+  "دھر": {
+   "en": "place, set",
+   "pos": "verb",
+   "roman": "dhar",
+   "base": "دھرنا"
+  },
+  "جا": {
+   "en": "room, place; go",
+   "pos": "noun",
+   "roman": "jā",
+   "note": "\"جا نہ بولن والی\" = there is no room to speak."
+  },
+  "بولن": {
+   "en": "speak",
+   "pos": "verb",
+   "roman": "bolaṇ",
+   "base": "بولنا"
+  },
+  "چاہے": {
+   "en": "wills, wishes",
+   "pos": "verb",
+   "roman": "chāhe",
+   "base": "چاہنا"
+  },
+  "کردا": {
+   "en": "does",
+   "pos": "verb",
+   "roman": "kardā",
+   "base": "کرنا"
+  },
+  "استاد": {
+   "en": "master craftsman",
+   "pos": "noun",
+   "roman": "ustād"
+  },
+  "گھڑیا": {
+   "en": "fashioned",
+   "pos": "verb",
+   "roman": "ghaṛiā",
+   "base": "گھڑنا"
+  },
+  "قہر": {
+   "en": "wrath, calamity",
+   "pos": "noun",
+   "roman": "qahr"
+  },
+  "افلاطون": {
+   "en": "Plato",
+   "pos": "proper noun",
+   "roman": "Aflātūn"
+  },
+  "ارسطو": {
+   "en": "Aristotle",
+   "pos": "proper noun",
+   "roman": "Arastū"
+  },
+  "جیہے": {
+   "en": "like (pl.)",
+   "pos": "adjective",
+   "roman": "jehe",
+   "base": "جیہا"
+  },
+  "ہون": {
+   "en": "be, become (pl.)",
+   "pos": "verb",
+   "roman": "hoṇ",
+   "base": "ہونا"
+  },
+  "شاگرد": {
+   "en": "pupils",
+   "pos": "noun",
+   "roman": "shāgird"
+  },
+  "ہنر": {
+   "en": "skill, craft",
+   "pos": "noun",
+   "roman": "hunar"
+  },
+  "زینت": {
+   "en": "adornment",
+   "pos": "noun",
+   "roman": "zīnat"
+  },
+  "زیب": {
+   "en": "beauty, grace",
+   "pos": "noun",
+   "roman": "zeb"
+  },
+  "سکھے": {
+   "en": "learned",
+   "pos": "verb",
+   "roman": "sikkhe",
+   "base": "سکھنا"
+  },
+  "سبھ": {
+   "en": "all",
+   "pos": "adjective",
+   "roman": "sabh"
+  },
+  "اوتھوں": {
+   "en": "from there",
+   "pos": "adverb",
+   "roman": "othoṅ"
+  },
+  "دلبر": {
+   "en": "beauty; beloved",
+   "pos": "noun",
+   "roman": "dilbar",
+   "note": "Lit. heart-stealer."
+  },
+  "چین": {
+   "en": "China; peace",
+   "pos": "proper noun",
+   "roman": "Chīn",
+   "note": "In 20.3 China; in \"چین وہاوے\" peace, rest."
+  },
+  "مصر": {
+   "en": "Egypt",
+   "pos": "proper noun",
+   "roman": "Misr"
+  },
+  "آرائش": {
+   "en": "decoration",
+   "pos": "noun",
+   "roman": "ārāish"
+  },
+  "شاباش": {
+   "en": "bravo, well done",
+   "pos": "interjection",
+   "roman": "shābāsh"
+  },
+  "فکر": {
+   "en": "thought",
+   "pos": "noun",
+   "roman": "fikr"
+  },
+  "چندن": {
+   "en": "sandalwood",
+   "pos": "noun",
+   "roman": "chandan"
+  },
+  "شاخ": {
+   "en": "branch",
+   "pos": "noun",
+   "roman": "shāx"
+  },
+  "منگا": {
+   "en": "having fetched",
+   "pos": "verb",
+   "roman": "mangā",
+   "base": "منگانا"
+  },
+  "کداہوں": {
+   "en": "from somewhere",
+   "pos": "adverb",
+   "roman": "kidāhoṅ"
+  },
+  "کاریگر": {
+   "en": "craftsman",
+   "pos": "noun",
+   "roman": "kārīgar"
+  },
+  "ویل": {
+   "en": "creeper (motif)",
+   "pos": "noun",
+   "roman": "vel"
+  },
+  "سنہری": {
+   "en": "golden",
+   "pos": "adjective",
+   "roman": "sunahrī"
+  },
+  "کرکے": {
+   "en": "having made; as",
+   "pos": "verb",
+   "roman": "karke",
+   "base": "کرنا"
+  },
+  "جواہریں": {
+   "en": "with jewels",
+   "pos": "noun",
+   "roman": "javāharīṅ",
+   "base": "جواہر"
+  },
+  "جڑیا": {
+   "en": "studded, set",
+   "pos": "verb",
+   "roman": "jaṛiā",
+   "base": "جڑنا"
+  },
+  "زنجیر": {
+   "en": "chain",
+   "pos": "noun",
+   "roman": "zanjīr"
+  },
+  "چوفیر": {
+   "en": "all around",
+   "pos": "adverb",
+   "roman": "chaufer"
+  },
+  "پنجر": {
+   "en": "frame, cage",
+   "pos": "noun",
+   "roman": "pinjar"
+  },
+  "بیدرداں": {
+   "en": "the heartless ones",
+   "pos": "noun",
+   "roman": "bedardāṅ",
+   "base": "بیدرد"
+  },
+  "کڑیا": {
+   "en": "clamped, fastened",
+   "pos": "verb",
+   "roman": "kaṛiā",
+   "base": "کڑنا"
+  },
+  "تولد": {
+   "en": "birth",
+   "pos": "noun",
+   "roman": "tavallud"
+  },
+  "ہوندے": {
+   "en": "on being",
+   "pos": "verb",
+   "roman": "honde",
+   "base": "ہونا"
+  },
+  "آن": {
+   "en": "having come; (intensifier)",
+   "pos": "verb",
+   "roman": "āṇ",
+   "base": "آنا"
+  },
+  "دکھاں": {
+   "en": "sorrows",
+   "pos": "noun",
+   "roman": "dukkhāṅ",
+   "base": "دکھ"
+  },
+  "لڑ": {
+   "en": "hem (of garment)",
+   "pos": "noun",
+   "roman": "laṛ",
+   "note": "\"لڑ پھڑنا\" = to cling to."
+  },
+  "پھڑیا": {
+   "en": "seized",
+   "pos": "verb",
+   "roman": "phaṛiā",
+   "base": "پھڑنا"
+  },
+  "تدبیر": {
+   "en": "plan",
+   "pos": "noun",
+   "roman": "tadbīr"
+  },
+  "کیتے": {
+   "en": "made (pl.)",
+   "pos": "verb",
+   "roman": "kīte",
+   "base": "کرنا"
+  },
+  "ترے": {
+   "en": "three",
+   "pos": "numeral",
+   "roman": "tre"
+  },
+  "چھاندے": {
+   "en": "portions",
+   "pos": "noun",
+   "roman": "chhānde",
+   "base": "چھاندا"
+  },
+  "دتا": {
+   "en": "gave",
+   "pos": "verb",
+   "roman": "dittā",
+   "base": "دینا"
+  },
+  "نالے": {
+   "en": "along with; also",
+   "pos": "adverb",
+   "roman": "nāle"
+  },
+  "قسدی": {
+   "en": "for whom",
+   "pos": "pronoun",
+   "roman": "kisdī",
+   "note": "Uncertain: possibly کس دی \"whose\"; the line sets one portion for the wet-nurses."
+  },
+  "چھاندا": {
+   "en": "portion",
+   "pos": "noun",
+   "roman": "chhāndā"
+  },
+  "شیر": {
+   "en": "milk; lion",
+   "pos": "noun",
+   "roman": "shīr, sher",
+   "note": "\"شیر پلاون والے\" = wet-nurses; \"دل شیر\" = lion-hearted."
+  },
+  "پلاون": {
+   "en": "give to drink, nurse",
+   "pos": "verb",
+   "roman": "pilāvan",
+   "base": "پلانا"
+  },
+  "دوجا": {
+   "en": "second",
+   "pos": "numeral",
+   "roman": "dūjā"
+  },
+  "داج": {
+   "en": "dowry",
+   "pos": "noun",
+   "roman": "dāj"
+  },
+  "دہیج": {
+   "en": "dowry",
+   "pos": "noun",
+   "roman": "dahej"
+  },
+  "پڑاون": {
+   "en": "raise, bring up",
+   "pos": "verb",
+   "roman": "paṛhāvan",
+   "base": "پڑھانا",
+   "note": "Uncertain: probably \"teach, bring up\"."
+  },
+  "لکھ": {
+   "en": "wrote; a hundred thousand",
+   "pos": "verb",
+   "roman": "likh, lakkh",
+   "base": "لکھنا"
+  },
+  "تعویز": {
+   "en": "amulet",
+   "pos": "noun",
+   "roman": "tāvīz"
+  },
+  "حقیقت": {
+   "en": "truth, true account",
+   "pos": "noun",
+   "roman": "haqīqat"
+  },
+  "صرف": {
+   "en": "just, only",
+   "pos": "adverb",
+   "roman": "sirf"
+  },
+  "ڈالے": {
+   "en": "placed",
+   "pos": "verb",
+   "roman": "ḍāle",
+   "base": "ڈالنا"
+  },
+  "روڑھا": {
+   "en": "set adrift",
+   "pos": "verb",
+   "roman": "roṛhā",
+   "base": "روڑھنا"
+  },
+  "نوح": {
+   "en": "Noah",
+   "pos": "proper noun",
+   "roman": "Nūh",
+   "note": "Noah's flood."
+  },
+  "طوفان": {
+   "en": "flood, storm",
+   "pos": "noun",
+   "roman": "tūfān"
+  },
+  "وگیندا": {
+   "en": "flowing",
+   "pos": "verb",
+   "roman": "vagendā",
+   "base": "وگنا"
+  },
+  "باشک": {
+   "en": "Vasuki, serpent king",
+   "pos": "proper noun",
+   "roman": "Bāshak",
+   "note": "Mythic serpent who upholds the earth."
+  },
+  "نانگ": {
+   "en": "serpent",
+   "pos": "noun",
+   "roman": "nāng"
+  },
+  "ہاٹھ": {
+   "en": "endurance, ability to bear",
+   "pos": "noun",
+   "roman": "hāṭh",
+   "note": "Uncertain: sense inferred from context."
+  },
+  "دھول": {
+   "en": "Dhaul, the mythic earth-bearing bull",
+   "pos": "proper noun",
+   "roman": "Dhaul",
+   "note": "In folk cosmology the earth rests on the horn of the bull Dhaul."
+  },
+  "پناہ": {
+   "en": "refuge, mercy",
+   "pos": "noun",
+   "roman": "panāh"
+  },
+  "منگیندا": {
+   "en": "begs",
+   "pos": "verb",
+   "roman": "mangendā",
+   "base": "منگنا"
+  },
+  "پار": {
+   "en": "the far bank",
+   "pos": "noun",
+   "roman": "pār"
+  },
+  "ارار": {
+   "en": "the near bank",
+   "pos": "noun",
+   "roman": "urār",
+   "note": "\"پار ارار\" = both banks, from shore to shore."
+  },
+  "بلائیں": {
+   "en": "calamities, monsters",
+   "pos": "noun",
+   "roman": "balāīṅ",
+   "base": "بلا"
+  },
+  "بھریا": {
+   "en": "filled",
+   "pos": "verb",
+   "roman": "bhariā",
+   "base": "بھرنا"
+  },
+  "ڈانواں": {
+   "en": "tossing, unsteady",
+   "pos": "adjective",
+   "roman": "ḍānvāṅ",
+   "note": "\"ڈانواں ڈول\" = tossed about."
+  },
+  "ڈول": {
+   "en": "tossing, unsteady",
+   "pos": "adjective",
+   "roman": "ḍol"
+  },
+  "رہیندا": {
+   "en": "remains",
+   "pos": "verb",
+   "roman": "rahendā",
+   "base": "رہنا"
+  },
+  "کجھ": {
+   "en": "something; some",
+   "pos": "pronoun",
+   "roman": "kujh"
+  },
+  "کریندا": {
+   "en": "does",
+   "pos": "verb",
+   "roman": "karendā",
+   "base": "کرنا"
+  },
+  "تریا": {
+   "en": "set off, departed",
+   "pos": "verb",
+   "roman": "turiā",
+   "base": "ترنا",
+   "note": "In 24.1 also \"floated\"."
+  },
+  "توڑ": {
+   "en": "breaking",
+   "pos": "verb",
+   "roman": "toṛ",
+   "base": "توڑنا"
+  },
+  "صبر": {
+   "en": "patience",
+   "pos": "noun",
+   "roman": "sabr"
+  },
+  "چائیاں": {
+   "en": "lifted, took up",
+   "pos": "verb",
+   "roman": "chāīāṅ",
+   "base": "چاونا"
+  },
+  "رزق": {
+   "en": "sustenance, fate",
+   "pos": "noun",
+   "roman": "rizq",
+   "note": "\"رزق مہاراں\" = the reins of fate."
+  },
+  "مہاراں": {
+   "en": "reins (nose-reins)",
+   "pos": "noun",
+   "roman": "muhārāṅ",
+   "base": "مہار"
+  },
+  "گردش": {
+   "en": "revolution, turning",
+   "pos": "noun",
+   "roman": "gardish"
+  },
+  "باجھ": {
+   "en": "without",
+   "pos": "postposition",
+   "roman": "bājh"
+  },
+  "ملاح": {
+   "en": "boatman",
+   "pos": "noun",
+   "roman": "mallāh"
+  },
+  "کہاراں": {
+   "en": "bearers, porters",
+   "pos": "noun",
+   "roman": "kahārāṅ",
+   "base": "کہار"
+  },
+  "سورج": {
+   "en": "sun",
+   "pos": "noun",
+   "roman": "sūraj"
+  },
+  "تیز": {
+   "en": "fierce, sharp",
+   "pos": "adjective",
+   "roman": "tez"
+  },
+  "جل": {
+   "en": "water; burn",
+   "pos": "noun",
+   "roman": "jal"
+  },
+  "خونی": {
+   "en": "blood-red, murderous",
+   "pos": "adjective",
+   "roman": "xūnī"
+  },
+  "پہن": {
+   "en": "flashing",
+   "pos": "verb",
+   "roman": "pahin",
+   "note": "Uncertain: sense of \"پہن لساں چمکاراں\" unclear; roughly \"the waters flash and glitter\"."
+  },
+  "لساں": {
+   "en": "gleams",
+   "pos": "noun",
+   "roman": "lassāṅ",
+   "note": "Uncertain: see پہن."
+  },
+  "چمکاراں": {
+   "en": "sparkles, glints",
+   "pos": "noun",
+   "roman": "chamkārāṅ"
+  },
+  "گھیری": {
+   "en": "surrounded",
+   "pos": "verb",
+   "roman": "gherī",
+   "base": "گھیرنا"
+  },
+  "دشمن": {
+   "en": "enemies",
+   "pos": "noun",
+   "roman": "dushman"
+  },
+  "خور": {
+   "en": "eater",
+   "pos": "noun",
+   "roman": "xor",
+   "note": "\"آدم خور\" = man-eating."
+  },
+  "راکس": {
+   "en": "demon",
+   "pos": "noun",
+   "roman": "rākas"
+  },
+  "سیاہیں": {
+   "en": "black",
+   "pos": "adjective",
+   "roman": "siāhīṅ"
+  },
+  "ناگر": {
+   "en": "crocodile",
+   "pos": "noun",
+   "roman": "nāgar",
+   "note": "\"ناگر مچھ\" = crocodile."
+  },
+  "مچھ": {
+   "en": "fish; crocodile",
+   "pos": "noun",
+   "roman": "machh"
+  },
+  "کمیں": {
+   "en": "turtles",
+   "pos": "noun",
+   "roman": "kummīṅ",
+   "base": "کماں"
+  },
+  "جلہوڑے": {
+   "en": "water monsters",
+   "pos": "noun",
+   "roman": "jalhoṛe",
+   "note": "Uncertain: some kind of water creature."
+  },
+  "ناگ": {
+   "en": "cobra",
+   "pos": "noun",
+   "roman": "nāg"
+  },
+  "سنسار": {
+   "en": "crocodile",
+   "pos": "noun",
+   "roman": "sansār"
+  },
+  "تندوے": {
+   "en": "octopuses",
+   "pos": "noun",
+   "roman": "tandūe",
+   "base": "تندوا"
+  },
+  "زنبور": {
+   "en": "hornets",
+   "pos": "noun",
+   "roman": "zambūr",
+   "note": "Uncertain in a river list; perhaps a stinging water creature."
+  },
+  "بولہناں": {
+   "en": "dolphins",
+   "pos": "noun",
+   "roman": "bulhaṇāṅ",
+   "base": "بلہن"
+  },
+  "لاون": {
+   "en": "apply (they)",
+   "pos": "verb",
+   "roman": "lāvan",
+   "base": "لانا"
+  },
+  "زور": {
+   "en": "force, strength",
+   "pos": "noun",
+   "roman": "zor"
+  },
+  "تداہیں": {
+   "en": "then",
+   "pos": "adverb",
+   "roman": "tadāhīṅ"
+  },
+  "موت": {
+   "en": "death",
+   "pos": "noun",
+   "roman": "maut"
+  },
+  "تھلدے": {
+   "en": "desert (of the)",
+   "pos": "noun",
+   "roman": "thal de",
+   "base": "تھل"
+  },
+  "مارس": {
+   "en": "kill her",
+   "pos": "verb",
+   "roman": "māras",
+   "base": "مارنا"
+  },
+  "اتھائیں": {
+   "en": "here",
+   "pos": "adverb",
+   "roman": "ithāīṅ"
+  },
+  "گھمن": {
+   "en": "whirling",
+   "pos": "noun",
+   "roman": "ghumman",
+   "note": "\"گھمن گھیر\" = whirlpool."
+  },
+  "گھیر": {
+   "en": "circle",
+   "pos": "noun",
+   "roman": "gher"
+  },
+  "چوپھیریوں": {
+   "en": "from all around",
+   "pos": "adverb",
+   "roman": "chupheriōṅ"
+  },
+  "گھیرن": {
+   "en": "surround (they)",
+   "pos": "verb",
+   "roman": "gheran",
+   "base": "گھیرنا"
+  },
+  "ٹھاٹھاں": {
+   "en": "waves",
+   "pos": "noun",
+   "roman": "ṭhāṭhāṅ",
+   "base": "ٹھاٹھ"
+  },
+  "لہن": {
+   "en": "take (they)",
+   "pos": "verb",
+   "roman": "lahan",
+   "base": "لینا",
+   "note": "Uncertain."
+  },
+  "کلاوے": {
+   "en": "embrace",
+   "pos": "noun",
+   "roman": "kalāve",
+   "base": "کلاوا"
+  },
+  "لہراں": {
+   "en": "waves",
+   "pos": "noun",
+   "roman": "lahrāṅ",
+   "base": "لہر"
+  },
+  "طرفوں": {
+   "en": "side (from)",
+   "pos": "noun",
+   "roman": "tarfoṅ",
+   "base": "طرف"
+  },
+  "جاوے": {
+   "en": "goes",
+   "pos": "verb",
+   "roman": "jāve",
+   "base": "جانا"
+  },
+  "صورت": {
+   "en": "face, form",
+   "pos": "noun",
+   "roman": "sūrat"
+  },
+  "سحر": {
+   "en": "magic, enchantment",
+   "pos": "noun",
+   "roman": "sihr"
+  },
+  "جڑاؤ": {
+   "en": "jewelled",
+   "pos": "adjective",
+   "roman": "jaṛāo"
+  },
+  "بجلی": {
+   "en": "lightning",
+   "pos": "noun",
+   "roman": "bijlī"
+  },
+  "ڈراوے": {
+   "en": "frightens",
+   "pos": "verb",
+   "roman": "ḍarāve",
+   "base": "ڈرانا"
+  },
+  "چاہ": {
+   "en": "well",
+   "pos": "noun",
+   "roman": "chāh",
+   "note": "Allusion to the well into which Joseph was thrown by his brothers."
+  },
+  "جیویں": {
+   "en": "like, as",
+   "pos": "conjunction",
+   "roman": "jiveṅ"
+  },
+  "کنعانی": {
+   "en": "the Canaanite (Joseph)",
+   "pos": "proper noun",
+   "roman": "Kanānī"
+  },
+  "چھپاوے": {
+   "en": "hides",
+   "pos": "verb",
+   "roman": "chhupāve",
+   "base": "چھپانا"
+  },
+  "شہروں": {
+   "en": "from the city",
+   "pos": "noun",
+   "roman": "shahroṅ",
+   "base": "شہر"
+  },
+  "دور": {
+   "en": "far",
+   "pos": "adverb",
+   "roman": "dūr"
+  },
+  "پتن": {
+   "en": "ferry, landing place",
+   "pos": "noun",
+   "roman": "pattaṇ"
+  },
+  "دھوبا": {
+   "en": "washerman",
+   "pos": "noun",
+   "roman": "dhobā"
+  },
+  "دھوندا": {
+   "en": "washes",
+   "pos": "verb",
+   "roman": "dhondā",
+   "base": "دھونا"
+  },
+  "ندی": {
+   "en": "river",
+   "pos": "noun",
+   "roman": "nadī"
+  },
+  "کنارے": {
+   "en": "bank (on the)",
+   "pos": "noun",
+   "roman": "kināre",
+   "base": "کنارا"
+  },
+  "لیتا": {
+   "en": "took (name), named",
+   "pos": "verb",
+   "roman": "lītā",
+   "base": "لینا",
+   "note": "Uncertain: probably the washerman Atta's name in a variant spelling."
+  },
+  "فرشتہ": {
+   "en": "angel",
+   "pos": "noun",
+   "roman": "farishta"
+  },
+  "بزرگ": {
+   "en": "venerable",
+   "pos": "adjective",
+   "roman": "buzurg"
+  },
+  "ستارے": {
+   "en": "stars; star-like",
+   "pos": "noun",
+   "roman": "sitāre",
+   "base": "ستارا"
+  },
+  "ڈٹھا": {
+   "en": "saw",
+   "pos": "verb",
+   "roman": "ḍiṭṭhā",
+   "base": "ڈٹھنا"
+  },
+  "دراڈا": {
+   "en": "far off",
+   "pos": "adjective",
+   "roman": "durāḍā"
+  },
+  "چتارے": {
+   "en": "reflected, thought",
+   "pos": "verb",
+   "roman": "chitāre",
+   "base": "چتارنا"
+  },
+  "گیو": {
+   "en": "went (from him)",
+   "pos": "verb",
+   "roman": "gio",
+   "base": "جانا"
+  },
+  "دماغوں": {
+   "en": "from the brain",
+   "pos": "noun",
+   "roman": "dimāġoṅ",
+   "base": "دماغ"
+  },
+  "خانہ": {
+   "en": "house",
+   "pos": "noun",
+   "roman": "xāna",
+   "note": "\"جواہر خانہ\" = treasure-house."
+  },
+  "پیا": {
+   "en": "lying; fell",
+   "pos": "verb",
+   "roman": "piā",
+   "base": "پینا"
+  },
+  "ہے": {
+   "en": "is",
+   "pos": "verb",
+   "roman": "hai"
+  },
+  "آت": {
+   "en": "adrift",
+   "pos": "adjective",
+   "roman": "āt",
+   "note": "Uncertain: \"آت باہی\" not clear; perhaps \"lost, adrift\"."
+  },
+  "باہی": {
+   "en": "adrift",
+   "pos": "adjective",
+   "roman": "bāhī",
+   "note": "Uncertain: see آت."
+  },
+  "یا": {
+   "en": "or",
+   "pos": "conjunction",
+   "roman": "yā"
+  },
+  "آفت": {
+   "en": "calamity",
+   "pos": "noun",
+   "roman": "āfat"
+  },
+  "رڑھی": {
+   "en": "floated down",
+   "pos": "verb",
+   "roman": "ruṛhī",
+   "base": "رڑھنا"
+  },
+  "پہاڑوں": {
+   "en": "from the mountains",
+   "pos": "noun",
+   "roman": "pahāṛoṅ",
+   "base": "پہاڑ"
+  },
+  "اسرار": {
+   "en": "mysteries",
+   "pos": "noun",
+   "roman": "asrār"
+  },
+  "بیدار": {
+   "en": "awake",
+   "pos": "adjective",
+   "roman": "bedār"
+  },
+  "تاں": {
+   "en": "then",
+   "pos": "conjunction",
+   "roman": "tāṅ"
+  },
+  "گواہی": {
+   "en": "testimony, sign",
+   "pos": "noun",
+   "roman": "gavāhī"
+  },
+  "ڈونگھے": {
+   "en": "deep",
+   "pos": "adjective",
+   "roman": "ḍūṅghe",
+   "base": "ڈونگھا"
+  },
+  "سپاہی": {
+   "en": "soldier",
+   "pos": "noun",
+   "roman": "sipāhī"
+  },
+  "جند": {
+   "en": "life",
+   "pos": "noun",
+   "roman": "jind",
+   "note": "\"جند بازی\" = staking one's life."
+  },
+  "بازی": {
+   "en": "stake, game",
+   "pos": "noun",
+   "roman": "bāzī"
+  },
+  "شاد": {
+   "en": "glad",
+   "pos": "adjective",
+   "roman": "shād"
+  },
+  "نعمت": {
+   "en": "blessing",
+   "pos": "noun",
+   "roman": "nimat"
+  },
+  "شکر": {
+   "en": "thanks",
+   "pos": "noun",
+   "roman": "shukr"
+  },
+  "گزارے": {
+   "en": "offers (thanks)",
+   "pos": "verb",
+   "roman": "guzāre",
+   "base": "گزارنا"
+  },
+  "دریا": {
+   "en": "river",
+   "pos": "noun",
+   "roman": "dariā"
+  },
+  "مبارک": {
+   "en": "congratulations",
+   "pos": "noun",
+   "roman": "mubārak"
+  },
+  "دیون": {
+   "en": "give (they)",
+   "pos": "verb",
+   "roman": "devan",
+   "base": "دینا"
+  },
+  "یار": {
+   "en": "friend; beloved",
+   "pos": "noun",
+   "roman": "yār"
+  },
+  "پیارے": {
+   "en": "dear",
+   "pos": "adjective",
+   "roman": "piāre",
+   "base": "پیارا"
+  },
+  "مال": {
+   "en": "wealth, goods",
+   "pos": "noun",
+   "roman": "māl"
+  },
+  "ثواب": {
+   "en": "merit, reward",
+   "pos": "noun",
+   "roman": "savāb"
+  },
+  "کھلا": {
+   "en": "opened",
+   "pos": "verb",
+   "roman": "khullā",
+   "base": "کھلنا"
+  },
+  "کرم": {
+   "en": "grace; deeds (karma)",
+   "pos": "noun",
+   "roman": "karam"
+  },
+  "بھلے": {
+   "en": "good",
+   "pos": "adjective",
+   "roman": "bhale",
+   "base": "بھلا"
+  },
+  "دن": {
+   "en": "day(s)",
+   "pos": "noun",
+   "roman": "din"
+  },
+  "آئے": {
+   "en": "came",
+   "pos": "verb",
+   "roman": "āe",
+   "base": "آنا"
+  },
+  "جڑت": {
+   "en": "inlaid work",
+   "pos": "noun",
+   "roman": "jaṛat"
+  },
+  "جڑا": {
+   "en": "having studded",
+   "pos": "verb",
+   "roman": "jaṛā",
+   "base": "جڑانا"
+  },
+  "محلیں": {
+   "en": "palaces",
+   "pos": "noun",
+   "roman": "mahalīṅ",
+   "base": "محل"
+  },
+  "شوکت": {
+   "en": "grandeur",
+   "pos": "noun",
+   "roman": "shaukat"
+  },
+  "وٹائے": {
+   "en": "changed",
+   "pos": "verb",
+   "roman": "vaṭāe",
+   "base": "وٹانا"
+  },
+  "خدمتگار": {
+   "en": "attendants",
+   "pos": "noun",
+   "roman": "xidmatgār"
+  },
+  "نوکر": {
+   "en": "servants",
+   "pos": "noun",
+   "roman": "naukar"
+  },
+  "رکھوائے": {
+   "en": "engaged, had kept",
+   "pos": "verb",
+   "roman": "rakhvāe",
+   "base": "رکھوانا"
+  },
+  "سکے": {
+   "en": "withered, dried",
+   "pos": "adjective",
+   "roman": "sukke",
+   "base": "سکنا"
+  },
+  "رب": {
+   "en": "God",
+   "pos": "noun",
+   "roman": "rabb"
+  },
+  "چاہا": {
+   "en": "willed",
+   "pos": "verb",
+   "roman": "chāhā",
+   "base": "چاہنا"
+  },
+  "پل": {
+   "en": "moment",
+   "pos": "noun",
+   "roman": "pal"
+  },
+  "سہائے": {
+   "en": "made bloom, adorned",
+   "pos": "verb",
+   "roman": "suhāe",
+   "base": "سہاؤنا"
+  },
+  "جوت": {
+   "en": "light, radiance",
+   "pos": "noun",
+   "roman": "jot"
+  },
+  "سوائی": {
+   "en": "increased, more",
+   "pos": "adjective",
+   "roman": "savāī"
+  },
+  "علم": {
+   "en": "knowledge",
+   "pos": "noun",
+   "roman": "ilm"
+  },
+  "حیا": {
+   "en": "modesty",
+   "pos": "noun",
+   "roman": "hayā"
+  },
+  "حلیمی": {
+   "en": "gentleness",
+   "pos": "noun",
+   "roman": "halīmī"
+  },
+  "چترائی": {
+   "en": "cleverness",
+   "pos": "noun",
+   "roman": "chatrāī"
+  },
+  "چاہن": {
+   "en": "wish (they)",
+   "pos": "verb",
+   "roman": "chāhan",
+   "base": "چاہنا"
+  },
+  "کڑمائی": {
+   "en": "betrothal",
+   "pos": "noun",
+   "roman": "kuṛmāī"
+  },
+  "مصلاحت": {
+   "en": "counsel, plan",
+   "pos": "noun",
+   "roman": "maslāhat"
+  },
+  "غیرت": {
+   "en": "pride, indignation",
+   "pos": "noun",
+   "roman": "ġairat"
+  },
+  "بن": {
+   "en": "becoming; without",
+   "pos": "verb",
+   "roman": "baṇ",
+   "base": "بننا",
+   "note": "\"بن بن\" = forming (groups); elsewhere بن = without."
+  },
+  "پنچ": {
+   "en": "elders (of the council)",
+   "pos": "noun",
+   "roman": "panch"
+  },
+  "پنچایت": {
+   "en": "village council",
+   "pos": "noun",
+   "roman": "panchāit"
+  },
+  "دھوبی": {
+   "en": "washerman",
+   "pos": "noun",
+   "roman": "dhobī",
+   "note": "Sassi is raised by a washerman's family."
+  },
+  "پاس": {
+   "en": "near, to",
+   "pos": "postposition",
+   "roman": "pās"
+  },
+  "آون": {
+   "en": "come (they)",
+   "pos": "verb",
+   "roman": "āvan",
+   "base": "آنا"
+  },
+  "تمثیل": {
+   "en": "parable",
+   "pos": "noun",
+   "roman": "tamsīl"
+  },
+  "وہار": {
+   "en": "ways, custom",
+   "pos": "noun",
+   "roman": "vihār"
+  },
+  "جگت": {
+   "en": "world",
+   "pos": "noun",
+   "roman": "jagat"
+  },
+  "ہمیش": {
+   "en": "always",
+   "pos": "adverb",
+   "roman": "hamesh"
+  },
+  "چلاون": {
+   "en": "carry on (talk)",
+   "pos": "verb",
+   "roman": "chalāvan",
+   "base": "چلانا"
+  },
+  "دھیاں": {
+   "en": "daughters",
+   "pos": "noun",
+   "roman": "dhīāṅ",
+   "base": "دھی"
+  },
+  "سوہن": {
+   "en": "look well, befit",
+   "pos": "verb",
+   "roman": "sohan",
+   "base": "سوہنا"
+  },
+  "نہیں": {
+   "en": "not",
+   "pos": "particle",
+   "roman": "nahīṅ"
+  },
+  "گھر": {
+   "en": "home",
+   "pos": "noun",
+   "roman": "ghar"
+  },
+  "ماپیاں": {
+   "en": "parents (of)",
+   "pos": "noun",
+   "roman": "māpiāṅ",
+   "base": "ماپے"
+  },
+  "راج": {
+   "en": "kingdom",
+   "pos": "noun",
+   "roman": "rāj"
+  },
+  "کماون": {
+   "en": "earn (they)",
+   "pos": "verb",
+   "roman": "kamāvan",
+   "base": "کمانا"
+  },
+  "وانگ": {
+   "en": "like",
+   "pos": "postposition",
+   "roman": "vāṅg"
+  },
+  "بجھاوت": {
+   "en": "riddle",
+   "pos": "noun",
+   "roman": "bujhāvat",
+   "note": "Uncertain: likely بجھارت \"riddle\", i.e. speaking indirectly."
+  },
+  "لیاون": {
+   "en": "bring (they)",
+   "pos": "verb",
+   "roman": "liāvan",
+   "base": "لیاؤنا"
+  },
+  "کول": {
+   "en": "near, beside",
+   "pos": "postposition",
+   "roman": "kol"
+  },
+  "کتے": {
+   "en": "somewhere, at one point",
+   "pos": "adverb",
+   "roman": "kite"
+  },
+  "چھیڑے": {
+   "en": "raised (the topic)",
+   "pos": "verb",
+   "roman": "chheṛe",
+   "base": "چھیڑنا"
+  },
+  "بچہ": {
+   "en": "child",
+   "pos": "noun",
+   "roman": "bachcha"
+  },
+  "توں": {
+   "en": "you; from",
+   "pos": "pronoun",
+   "roman": "tūṅ"
+  },
+  "بالغ": {
+   "en": "grown up, of age",
+   "pos": "adjective",
+   "roman": "bāliġ"
+  },
+  "واگ": {
+   "en": "rein",
+   "pos": "noun",
+   "roman": "vāg"
+  },
+  "تیری": {
+   "en": "your (fem.)",
+   "pos": "pronoun",
+   "roman": "terī"
+  },
+  "تیرے": {
+   "en": "your",
+   "pos": "pronoun",
+   "roman": "tere"
+  },
+  "اچے": {
+   "en": "high",
+   "pos": "adjective",
+   "roman": "uchche",
+   "base": "اچا"
+  },
+  "آئیوں": {
+   "en": "you came",
+   "pos": "verb",
+   "roman": "āīoṅ",
+   "base": "آنا"
+  },
+  "جان": {
+   "en": "life, soul; know; go",
+   "pos": "noun",
+   "roman": "jān"
+  },
+  "بتھیرے": {
+   "en": "many",
+   "pos": "adjective",
+   "roman": "bathhere",
+   "base": "بتھیرا"
+  },
+  "سنا": {
+   "en": "tell",
+   "pos": "verb",
+   "roman": "suṇā",
+   "base": "سنانا"
+  },
+  "سویرے": {
+   "en": "soon; early",
+   "pos": "adverb",
+   "roman": "savere"
+  },
+  "شرماندی": {
+   "en": "shy, abashed",
+   "pos": "adjective",
+   "roman": "sharmāndī"
+  },
+  "سوز": {
+   "en": "burning grief",
+   "pos": "noun",
+   "roman": "soz"
+  },
+  "آنسو": {
+   "en": "tears",
+   "pos": "noun",
+   "roman": "ānsū"
+  },
+  "لکھے": {
+   "en": "written",
+   "pos": "verb",
+   "roman": "likhe",
+   "base": "لکھنا"
+  },
+  "کرماندی": {
+   "en": "of fate",
+   "pos": "noun",
+   "roman": "karmāṅ dī",
+   "base": "کرم"
+  },
+  "ڈھونڈن": {
+   "en": "seek (they)",
+   "pos": "verb",
+   "roman": "ḍhūṇḍan",
+   "base": "ڈھونڈنا"
+  },
+  "ساک": {
+   "en": "match, kinship",
+   "pos": "noun",
+   "roman": "sāk"
+  },
+  "جھڑ": {
+   "en": "(unclear)",
+   "pos": "particle",
+   "roman": "jhaṛ",
+   "note": "Uncertain: phrase \"ساک جھڑ وے جیندا\" unclear; probably \"a match from a lowly line\"."
+  },
+  "وے": {
+   "en": "(unclear particle)",
+   "pos": "particle",
+   "roman": "ve",
+   "note": "Uncertain: see جھڑ."
+  },
+  "جیندا": {
+   "en": "whose; living",
+   "pos": "pronoun",
+   "roman": "jendā",
+   "note": "Uncertain: see جھڑ."
+  },
+  "میں": {
+   "en": "I",
+   "pos": "pronoun",
+   "roman": "maiṅ"
+  },
+  "دھی": {
+   "en": "daughter",
+   "pos": "noun",
+   "roman": "dhī"
+  },
+  "بادشاہاندی": {
+   "en": "of kings",
+   "pos": "noun",
+   "roman": "bādshāhāṅ dī",
+   "base": "بادشاہ"
+  },
+  "پھیر": {
+   "en": "again; then",
+   "pos": "adverb",
+   "roman": "pher"
+  },
+  "لیو": {
+   "en": "took",
+   "pos": "verb",
+   "roman": "lio",
+   "base": "لینا"
+  },
+  "نیں": {
+   "en": "they (agent marker)",
+   "pos": "pronoun",
+   "roman": "nīṅ",
+   "note": "Enclitic: \"لیو نیں\" = they took."
+  },
+  "درماندی": {
+   "en": "distressed",
+   "pos": "adjective",
+   "roman": "darmāndī"
+  },
+  "شرکت": {
+   "en": "partnership",
+   "pos": "noun",
+   "roman": "shirkat"
+  },
+  "شریک": {
+   "en": "partners, kinsmen-rivals",
+   "pos": "noun",
+   "roman": "sharīk"
+  },
+  "مرد": {
+   "en": "men",
+   "pos": "noun",
+   "roman": "mard"
+  },
+  "فسادی": {
+   "en": "mischief-makers",
+   "pos": "adjective",
+   "roman": "fasādī"
+  },
+  "فریادی": {
+   "en": "complainants",
+   "pos": "noun",
+   "roman": "faryādī"
+  },
+  "بیٹھی": {
+   "en": "sitting",
+   "pos": "verb",
+   "roman": "baiṭhī",
+   "base": "بیٹھنا"
+  },
+  "شکل": {
+   "en": "shape, looks",
+   "pos": "noun",
+   "roman": "shakal"
+  },
+  "شہزادی": {
+   "en": "princess",
+   "pos": "noun",
+   "roman": "shahzādī"
+  },
+  "بخیلاں": {
+   "en": "the slanderers",
+   "pos": "noun",
+   "roman": "baxīlāṅ",
+   "base": "بخیل"
+  },
+  "لائق": {
+   "en": "fit, worthy",
+   "pos": "adjective",
+   "roman": "lāiq"
+  },
+  "تساڈی": {
+   "en": "your (fem.)",
+   "pos": "pronoun",
+   "roman": "tusāḍī"
+  },
+  "بھیجیا": {
+   "en": "sent",
+   "pos": "verb",
+   "roman": "bhejiā",
+   "base": "بھیجنا"
+  },
+  "نفر": {
+   "en": "attendant",
+   "pos": "noun",
+   "roman": "nafar"
+  },
+  "بلایا": {
+   "en": "summoned",
+   "pos": "verb",
+   "roman": "bulāyā",
+   "base": "بلانا"
+  },
+  "گلے": {
+   "en": "neck (of the)",
+   "pos": "noun",
+   "roman": "gale",
+   "base": "گل"
+  },
+  "حضور": {
+   "en": "presence (of the king)",
+   "pos": "noun",
+   "roman": "huzūr"
+  },
+  "پہنچایا": {
+   "en": "delivered",
+   "pos": "verb",
+   "roman": "pahunchāyā",
+   "base": "پہنچانا"
+  },
+  "کاغذ": {
+   "en": "paper, document",
+   "pos": "noun",
+   "roman": "kāġaz"
+  },
+  "واچ": {
+   "en": "reading",
+   "pos": "verb",
+   "roman": "vāch",
+   "base": "واچنا"
+  },
+  "پچھاتا": {
+   "en": "recognised",
+   "pos": "verb",
+   "roman": "pachhātā",
+   "base": "پچھاننا"
+  },
+  "جیہڑا": {
+   "en": "which",
+   "pos": "pronoun",
+   "roman": "jehṛā"
+  },
+  "رڑھایا": {
+   "en": "set adrift",
+   "pos": "verb",
+   "roman": "ruṛhāyā",
+   "base": "رڑھانا"
+  },
+  "شرمندہ": {
+   "en": "ashamed",
+   "pos": "adjective",
+   "roman": "sharminda"
+  },
+  "سوایا": {
+   "en": "greatly, all the more",
+   "pos": "adverb",
+   "roman": "savāyā"
+  },
+  "لہو": {
+   "en": "blood",
+   "pos": "noun",
+   "roman": "lahū"
+  },
+  "گرم": {
+   "en": "warm, hot",
+   "pos": "adjective",
+   "roman": "garm"
+  },
+  "پیاری": {
+   "en": "dear (fem.)",
+   "pos": "adjective",
+   "roman": "piārī"
+  },
+  "واری": {
+   "en": "time, turn",
+   "pos": "noun",
+   "roman": "vārī",
+   "note": "\"اک واری\" = once."
+  },
+  "صاف": {
+   "en": "flat, clear",
+   "pos": "adjective",
+   "roman": "sāf"
+  },
+  "دتو": {
+   "en": "gave",
+   "pos": "verb",
+   "roman": "ditto",
+   "base": "دینا",
+   "note": "\"دتو نیں\" = she gave."
+  },
+  "ملن": {
+   "en": "meeting, to meet",
+   "pos": "verb",
+   "roman": "milaṇ",
+   "base": "ملنا"
+  },
+  "حرام": {
+   "en": "forbidden",
+   "pos": "adjective",
+   "roman": "harām"
+  },
+  "تسانوں": {
+   "en": "to you",
+   "pos": "pronoun",
+   "roman": "tusānūṅ"
+  },
+  "روڑھ": {
+   "en": "setting adrift",
+   "pos": "verb",
+   "roman": "roṛh",
+   "base": "روڑھنا"
+  },
+  "ماؤں": {
+   "en": "mother",
+   "pos": "noun",
+   "roman": "māūṅ",
+   "base": "ماں"
+  },
+  "ماری": {
+   "en": "stricken",
+   "pos": "verb",
+   "roman": "mārī",
+   "base": "مارنا"
+  },
+  "نیند": {
+   "en": "sleep",
+   "pos": "noun",
+   "roman": "nīnd"
+  },
+  "آرام": {
+   "en": "rest",
+   "pos": "noun",
+   "roman": "ārām"
+  },
+  "یعقوب": {
+   "en": "Jacob (the prophet)",
+   "pos": "proper noun",
+   "roman": "Yāqūb",
+   "note": "Jacob wept for his lost son Joseph until he went blind."
+  },
+  "پیغمبر": {
+   "en": "prophet",
+   "pos": "noun",
+   "roman": "paiġambar"
+  },
+  "رو": {
+   "en": "weeping",
+   "pos": "verb",
+   "roman": "ro",
+   "base": "رونا"
+  },
+  "حال": {
+   "en": "state, condition",
+   "pos": "noun",
+   "roman": "hāl"
+  },
+  "ونجاوے": {
+   "en": "wastes, loses",
+   "pos": "verb",
+   "roman": "vanjāve",
+   "base": "ونجاؤنا"
+  },
+  "سوال": {
+   "en": "asks, prays",
+   "pos": "noun",
+   "roman": "savāl"
+  },
+  "لوڑی": {
+   "en": "longing, wished-for",
+   "pos": "adjective",
+   "roman": "loṛī",
+   "note": "Uncertain: from لوڑ \"need, longing\"."
+  },
+  "آندی": {
+   "en": "brought",
+   "pos": "verb",
+   "roman": "āndī",
+   "base": "لیاؤنا"
+  },
+  "روز": {
+   "en": "daily",
+   "pos": "adverb",
+   "roman": "roz"
+  },
+  "یاد": {
+   "en": "memory, remembrance",
+   "pos": "noun",
+   "roman": "yād"
+  },
+  "تھل": {
+   "en": "desert",
+   "pos": "noun",
+   "roman": "thal"
+  },
+  "مشرق": {
+   "en": "east",
+   "pos": "noun",
+   "roman": "mashriq"
+  },
+  "مغرب": {
+   "en": "west",
+   "pos": "noun",
+   "roman": "maġrib"
+  },
+  "اندر": {
+   "en": "in, within",
+   "pos": "postposition",
+   "roman": "andar"
+  },
+  "دھیائیے": {
+   "en": "we meditate on",
+   "pos": "verb",
+   "roman": "dhiāīe",
+   "base": "دھیاؤنا"
+  },
+  "اپر": {
+   "en": "boundless",
+   "pos": "adjective",
+   "roman": "apar",
+   "note": "\"اپر اپار\" = infinite, beyond all limit."
+  },
+  "اپار": {
+   "en": "infinite",
+   "pos": "adjective",
+   "roman": "apār"
+  },
+  "کس": {
+   "en": "what, which (oblique)",
+   "pos": "pronoun",
+   "roman": "kis"
+  },
+  "مونہہ": {
+   "en": "mouth",
+   "pos": "noun",
+   "roman": "mūṅh"
+  },
+  "سلاہیے": {
+   "en": "we praise",
+   "pos": "verb",
+   "roman": "salāhīe",
+   "base": "سلاہنا"
+  },
+  "انت": {
+   "en": "end, limit",
+   "pos": "noun",
+   "roman": "ant"
+  },
+  "تسیدا": {
+   "en": "his, its",
+   "pos": "pronoun",
+   "roman": "tisdā"
+  },
+  "سنائیے": {
+   "en": "we tell",
+   "pos": "verb",
+   "roman": "suṇāīe",
+   "base": "سنانا"
+  },
+  "ملساں": {
+   "en": "I will meet; will return to",
+   "pos": "verb",
+   "roman": "milsāṅ",
+   "base": "ملنا"
+  },
+  "آ": {
+   "en": "come",
+   "pos": "verb",
+   "roman": "ā",
+   "base": "آنا"
+  },
+  "پنوں": {
+   "en": "Punnun, the hero, Baloch prince of Kech",
+   "pos": "proper noun",
+   "roman": "Punnūṅ"
+  },
+  "آئیے": {
+   "en": "let us come",
+   "pos": "verb",
+   "roman": "āīe",
+   "base": "آنا"
+  },
+  "سوداگر": {
+   "en": "merchant",
+   "pos": "noun",
+   "roman": "saudāgar"
+  },
+  "زادہ": {
+   "en": "son",
+   "pos": "noun",
+   "roman": "zāda"
+  },
+  "غزنی": {
+   "en": "Ghazni (the merchant's son, a painter)",
+   "pos": "proper noun",
+   "roman": "Ġaznī"
+  },
+  "سداوے": {
+   "en": "is called",
+   "pos": "verb",
+   "roman": "sadāve",
+   "base": "سداؤنا"
+  },
+  "شوق": {
+   "en": "passion, fondness",
+   "pos": "noun",
+   "roman": "shauq"
+  },
+  "عمارت": {
+   "en": "building",
+   "pos": "noun",
+   "roman": "imārat"
+  },
+  "تازی": {
+   "en": "new, fresh",
+   "pos": "adjective",
+   "roman": "tāzī"
+  },
+  "بناوے": {
+   "en": "builds",
+   "pos": "verb",
+   "roman": "banāve",
+   "base": "بنانا"
+  },
+  "تس": {
+   "en": "that; him (oblique)",
+   "pos": "pronoun",
+   "roman": "tis"
+  },
+  "بادشاہ": {
+   "en": "king",
+   "pos": "noun",
+   "roman": "bādshāh"
+  },
+  "تصویر": {
+   "en": "portrait",
+   "pos": "noun",
+   "roman": "tasvīr"
+  },
+  "اتارے": {
+   "en": "draws",
+   "pos": "verb",
+   "roman": "utāre",
+   "base": "اتارنا"
+  },
+  "مصور": {
+   "en": "painter",
+   "pos": "noun",
+   "roman": "musavvir"
+  },
+  "جبرائیل": {
+   "en": "Gabriel",
+   "pos": "proper noun",
+   "roman": "Jibrāīl",
+   "note": "i.e. a peerless artist, a Gabriel among painters."
+  },
+  "مشک": {
+   "en": "musk",
+   "pos": "noun",
+   "roman": "mushk"
+  },
+  "ختن": {
+   "en": "Khotan",
+   "pos": "proper noun",
+   "roman": "Xutan",
+   "note": "Region famed for musk."
+  },
+  "سیاں": {
+   "en": "girlfriends, companions",
+   "pos": "noun",
+   "roman": "saīāṅ"
+  },
+  "اٹھ": {
+   "en": "rising, getting up",
+   "pos": "verb",
+   "roman": "uṭh",
+   "base": "اٹھنا"
+  },
+  "دوڑی": {
+   "en": "ran",
+   "pos": "verb",
+   "roman": "dauṛī",
+   "base": "دوڑنا"
+  },
+  "سیر": {
+   "en": "stroll",
+   "pos": "noun",
+   "roman": "sair"
+  },
+  "چمن": {
+   "en": "garden",
+   "pos": "noun",
+   "roman": "chaman"
+  },
+  "ویکھیا": {
+   "en": "saw",
+   "pos": "verb",
+   "roman": "vekhiā",
+   "base": "ویکھنا"
+  },
+  "کھڑوتا": {
+   "en": "standing",
+   "pos": "adjective",
+   "roman": "khaṛotā"
+  },
+  "سیم": {
+   "en": "silver",
+   "pos": "noun",
+   "roman": "sīm",
+   "note": "\"سیم بدن\" = silver-bodied."
+  },
+  "بدن": {
+   "en": "body",
+   "pos": "noun",
+   "roman": "badan"
+  },
+  "گھائل": {
+   "en": "wounded",
+   "pos": "adjective",
+   "roman": "ghāil"
+  },
+  "وانگوں": {
+   "en": "like",
+   "pos": "postposition",
+   "roman": "vāṅgoṅ"
+  },
+  "کوہ": {
+   "en": "mountain",
+   "pos": "noun",
+   "roman": "koh",
+   "note": "\"کوہ شکن\" = the mountain-breaker, Farhad, lover of Shirin."
+  },
+  "شکن": {
+   "en": "breaker",
+   "pos": "noun",
+   "roman": "shikan"
+  },
+  "بلا": {
+   "en": "calling",
+   "pos": "verb",
+   "roman": "bulā",
+   "base": "بلانا"
+  },
+  "ویر": {
+   "en": "brother",
+   "pos": "noun",
+   "roman": "vīr"
+  },
+  "بھراو": {
+   "en": "brother",
+   "pos": "noun",
+   "roman": "bharāo"
+  },
+  "مورت": {
+   "en": "image",
+   "pos": "noun",
+   "roman": "mūrat"
+  },
+  "مینوں": {
+   "en": "to me",
+   "pos": "pronoun",
+   "roman": "mainūṅ"
+  },
+  "سناؤ": {
+   "en": "tell",
+   "pos": "verb",
+   "roman": "suṇāo",
+   "base": "سنانا"
+  },
+  "کیہڑا": {
+   "en": "which",
+   "pos": "pronoun",
+   "roman": "kehṛā"
+  },
+  "شہزادہ": {
+   "en": "prince",
+   "pos": "noun",
+   "roman": "shahzāda"
+  },
+  "تھاں": {
+   "en": "place",
+   "pos": "noun",
+   "roman": "thāṅ"
+  },
+  "بتاؤ": {
+   "en": "tell",
+   "pos": "verb",
+   "roman": "batāo",
+   "base": "بتانا"
+  },
+  "جوڑے": {
+   "en": "joined (hands)",
+   "pos": "verb",
+   "roman": "joṛe",
+   "base": "جوڑنا"
+  },
+  "ٹھیک": {
+   "en": "exact",
+   "pos": "adjective",
+   "roman": "ṭhīk"
+  },
+  "پتہ": {
+   "en": "whereabouts",
+   "pos": "noun",
+   "roman": "patā"
+  },
+  "دس": {
+   "en": "tell",
+   "pos": "verb",
+   "roman": "dass",
+   "base": "دسنا"
+  },
+  "جاؤ": {
+   "en": "go",
+   "pos": "verb",
+   "roman": "jāo",
+   "base": "جانا"
+  },
+  "کیچم": {
+   "en": "Kech (in Makran), Punnun's city",
+   "pos": "proper noun",
+   "roman": "Kecham"
+  },
+  "ولایت": {
+   "en": "country, land",
+   "pos": "noun",
+   "roman": "vilāyat"
+  },
+  "تھلاندی": {
+   "en": "of the deserts",
+   "pos": "noun",
+   "roman": "thalāṅ dī",
+   "base": "تھل"
+  },
+  "علی": {
+   "en": "Ali (Hot Ali, Punnun's father)",
+   "pos": "proper noun",
+   "roman": "Alī"
+  },
+  "تسدا": {
+   "en": "his",
+   "pos": "pronoun",
+   "roman": "tisdā"
+  },
+  "پت": {
+   "en": "son",
+   "pos": "noun",
+   "roman": "putt"
+  },
+  "ثوابوں": {
+   "en": "merit (of)",
+   "pos": "noun",
+   "roman": "savāboṅ",
+   "base": "ثواب",
+   "note": "Uncertain: \"عیب ثوابوں خالی\" probably \"without any fault\"."
+  },
+  "خالی": {
+   "en": "free, empty",
+   "pos": "adjective",
+   "roman": "xālī"
+  },
+  "حسابوں": {
+   "en": "reckoning (beyond)",
+   "pos": "noun",
+   "roman": "hisāboṅ",
+   "base": "حساب"
+  },
+  "صفت": {
+   "en": "quality, attribute",
+   "pos": "noun",
+   "roman": "sifat"
+  },
+  "استاداں": {
+   "en": "the master (painter)",
+   "pos": "noun",
+   "roman": "ustādāṅ",
+   "base": "استاد"
+  },
+  "چڑنگ": {
+   "en": "spark",
+   "pos": "noun",
+   "roman": "chiṛang",
+   "note": "\"put a spark among straw\", i.e. set her heart ablaze."
+  },
+  "ککھاں": {
+   "en": "straws",
+   "pos": "noun",
+   "roman": "kakkhāṅ",
+   "base": "ککھ"
+  },
+  "ڈالی": {
+   "en": "threw",
+   "pos": "verb",
+   "roman": "ḍālī",
+   "base": "ڈالنا"
+  },
+  "آئی": {
+   "en": "came (fem.)",
+   "pos": "verb",
+   "roman": "āī",
+   "base": "آنا"
+  },
+  "نیندر": {
+   "en": "sleep",
+   "pos": "noun",
+   "roman": "nīndar"
+  },
+  "بھکھ": {
+   "en": "hunger",
+   "pos": "noun",
+   "roman": "bhukkh"
+  },
+  "زلیخاں": {
+   "en": "Zulaikha",
+   "pos": "proper noun",
+   "roman": "Zulaixāṅ",
+   "note": "Lover of Joseph (Yusuf), type of the lovesick woman."
+  },
+  "پہلی": {
+   "en": "former",
+   "pos": "adjective",
+   "roman": "pahilī"
+  },
+  "رمز": {
+   "en": "ways, manner",
+   "pos": "noun",
+   "roman": "ramz"
+  },
+  "ونجائی": {
+   "en": "lost",
+   "pos": "verb",
+   "roman": "vanjāī",
+   "base": "ونجاؤنا"
+  },
+  "احوال": {
+   "en": "condition",
+   "pos": "noun",
+   "roman": "ahvāl"
+  },
+  "بھیت": {
+   "en": "secret",
+   "pos": "noun",
+   "roman": "bhet"
+  },
+  "پچھاوس": {
+   "en": "(mother) asked her",
+   "pos": "verb",
+   "roman": "puchhāos",
+   "base": "پچھنا"
+  },
+  "مائی": {
+   "en": "mother",
+   "pos": "noun",
+   "roman": "māī"
+  },
+  "کٹھی": {
+   "en": "slain",
+   "pos": "verb",
+   "roman": "kuṭṭhī",
+   "base": "کوہنا"
+  },
+  "باہجھ": {
+   "en": "without",
+   "pos": "postposition",
+   "roman": "bājh"
+  },
+  "ہتھیاراں": {
+   "en": "weapons",
+   "pos": "noun",
+   "roman": "hathiārāṅ",
+   "base": "ہتھیار"
+  },
+  "النبا": {
+   "en": "flame, blaze",
+   "pos": "noun",
+   "roman": "alambā"
+  },
+  "بالے": {
+   "en": "kindles",
+   "pos": "verb",
+   "roman": "bāle",
+   "base": "بالنا"
+  },
+  "آپے": {
+   "en": "self, by itself",
+   "pos": "pronoun",
+   "roman": "āpe"
+  },
+  "ہتھیارا": {
+   "en": "killer",
+   "pos": "noun",
+   "roman": "hatthiārā"
+  },
+  "جلیاں": {
+   "en": "the burnt ones",
+   "pos": "noun",
+   "roman": "jaliāṅ"
+  },
+  "نت": {
+   "en": "always",
+   "pos": "adverb",
+   "roman": "nit"
+  },
+  "جالے": {
+   "en": "burns",
+   "pos": "verb",
+   "roman": "jāle",
+   "base": "جالنا"
+  },
+  "برہوں": {
+   "en": "pain of separation (birha)",
+   "pos": "noun",
+   "roman": "birhoṅ"
+  },
+  "بیدرد": {
+   "en": "heartless",
+   "pos": "adjective",
+   "roman": "bedard"
+  },
+  "دیندا": {
+   "en": "gives",
+   "pos": "verb",
+   "roman": "dendā",
+   "base": "دینا"
+  },
+  "چخہ": {
+   "en": "funeral pyre",
+   "pos": "noun",
+   "roman": "chikhā"
+  },
+  "سکھ": {
+   "en": "ease, comfort",
+   "pos": "noun",
+   "roman": "sukh"
+  },
+  "ساون": {
+   "en": "sleep",
+   "pos": "verb",
+   "roman": "sāvaṇ",
+   "base": "سونا",
+   "note": "\"who says they sleep in comfort\": lovers never rest"
+  },
+  "پیتے": {
+   "en": "have drunk",
+   "pos": "verb",
+   "roman": "pīte",
+   "base": "پینا"
+  },
+  "پریم": {
+   "en": "love",
+   "pos": "noun",
+   "roman": "prem"
+  },
+  "پیالے": {
+   "en": "cups",
+   "pos": "noun",
+   "roman": "piyāle",
+   "base": "پیالہ",
+   "note": "the cups of love, a Sufi image of intoxicating love"
+  },
+  "ڈاہڈ": {
+   "en": "firmness, resolve",
+   "pos": "noun",
+   "roman": "ḍāhḍ"
+  },
+  "دانش": {
+   "en": "wisdom, shrewdness",
+   "pos": "noun",
+   "roman": "dānish"
+  },
+  "بتائی": {
+   "en": "devised",
+   "pos": "verb",
+   "roman": "batāī",
+   "base": "بتانا"
+  },
+  "گھاٹ": {
+   "en": "landing places, fords",
+   "pos": "noun",
+   "roman": "ghāṭ"
+  },
+  "لئے": {
+   "en": "took",
+   "pos": "verb",
+   "roman": "lae",
+   "base": "لینا"
+  },
+  "پئیو": {
+   "en": "father",
+   "pos": "noun",
+   "roman": "pio"
+  },
+  "تھوں": {
+   "en": "from",
+   "pos": "postposition",
+   "roman": "thoṅ"
+  },
+  "چونگی": {
+   "en": "toll-post, watch-post",
+   "pos": "noun",
+   "roman": "chuṅgī"
+  },
+  "بہائی": {
+   "en": "set up, posted",
+   "pos": "verb",
+   "roman": "bahāī",
+   "base": "بہانا"
+  },
+  "پاہندی": {
+   "en": "wayfarer",
+   "pos": "noun",
+   "roman": "pāndhī"
+  },
+  "راہ": {
+   "en": "road, way",
+   "pos": "noun",
+   "roman": "rāh"
+  },
+  "نواحی": {
+   "en": "vicinity, neighbourhood",
+   "pos": "noun",
+   "roman": "nawāhī"
+  },
+  "پہنچائی": {
+   "en": "be brought (word to me)",
+   "pos": "verb",
+   "roman": "pahuṅchāī",
+   "base": "پہنچانا"
+  },
+  "برس": {
+   "en": "year",
+   "pos": "noun",
+   "roman": "baras"
+  },
+  "محنت": {
+   "en": "toil, hardship",
+   "pos": "noun",
+   "roman": "mehnat"
+  },
+  "زہد": {
+   "en": "austerity, abstinence",
+   "pos": "noun",
+   "roman": "zuhd"
+  },
+  "اٹھائے": {
+   "en": "bore, endured",
+   "pos": "verb",
+   "roman": "uṭhāe",
+   "base": "اٹھانا"
+  },
+  "کیچ": {
+   "en": "Kech, Punnun's homeland in Makran",
+   "pos": "proper noun",
+   "roman": "Kech"
+  },
+  "ولوں": {
+   "en": "from (the direction of)",
+   "pos": "postposition",
+   "roman": "valoṅ"
+  },
+  "وہاجن": {
+   "en": "to trade, to buy and sell",
+   "pos": "verb",
+   "roman": "vihājan",
+   "base": "وہاجنا"
+  },
+  "ناز": {
+   "en": "grace, coquetry",
+   "pos": "noun",
+   "roman": "nāz"
+  },
+  "نیاز": {
+   "en": "humble charm",
+   "pos": "noun",
+   "roman": "niyāz",
+   "note": "Uncertain: nāz-niyāz read as \"grace and charm\""
+  },
+  "بلوچاں": {
+   "en": "the Baloch (men)",
+   "pos": "proper noun",
+   "roman": "Balochāṅ",
+   "base": "بلوچ"
+  },
+  "پری": {
+   "en": "fairy",
+   "pos": "noun",
+   "roman": "parī"
+  },
+  "بھل": {
+   "en": "forget",
+   "pos": "verb",
+   "roman": "bhul",
+   "base": "بھلنا"
+  },
+  "جائے": {
+   "en": "would (go and); go",
+   "pos": "verb",
+   "roman": "jāe",
+   "base": "جانا"
+  },
+  "بلوچ": {
+   "en": "Baloch (people of Punnun's tribe)",
+   "pos": "proper noun",
+   "roman": "Baloch"
+  },
+  "زلیخا": {
+   "en": "Zulaikha",
+   "pos": "proper noun",
+   "roman": "Zulaikhā",
+   "note": "Potiphar's wife, who loved Yusuf (Joseph)"
+  },
+  "یوسف": {
+   "en": "Yusuf (Joseph), proverbial for beauty",
+   "pos": "proper noun",
+   "roman": "Yūsuf",
+   "note": "sold into Egypt by a caravan"
+  },
+  "بھلائے": {
+   "en": "would forget",
+   "pos": "verb",
+   "roman": "bhulāe",
+   "base": "بھلانا"
+  },
+  "آکھیا": {
+   "en": "said",
+   "pos": "verb",
+   "roman": "ākhiyā",
+   "base": "آکھنا"
+  },
+  "اترے": {
+   "en": "have alighted, camped",
+   "pos": "verb",
+   "roman": "utre",
+   "base": "اترنا"
+  },
+  "بپاری": {
+   "en": "traders, merchants",
+   "pos": "noun",
+   "roman": "bapārī"
+  },
+  "کنوں": {
+   "en": "from",
+   "pos": "postposition",
+   "roman": "kanoṅ"
+  },
+  "اوٹھ": {
+   "en": "camels",
+   "pos": "noun",
+   "roman": "ūṭh"
+  },
+  "شماری": {
+   "en": "counting",
+   "pos": "noun",
+   "roman": "shumārī",
+   "note": "\"beyond counting\""
+  },
+  "تور": {
+   "en": "gait",
+   "pos": "noun",
+   "roman": "tor"
+  },
+  "بھراوا": {
+   "en": "O brother",
+   "pos": "noun",
+   "roman": "bharāvā",
+   "base": "بھرا",
+   "note": "Uncertain: vocative address within the servant's report"
+  },
+  "چال": {
+   "en": "manner, bearing",
+   "pos": "noun",
+   "roman": "chāl"
+  },
+  "نیاری": {
+   "en": "distinctive, unique",
+   "pos": "adjective",
+   "roman": "niyārī"
+  },
+  "سرت": {
+   "en": "awareness, consciousness",
+   "pos": "noun",
+   "roman": "surt"
+  },
+  "آواز": {
+   "en": "sound, voice",
+   "pos": "noun",
+   "roman": "āwāz"
+  },
+  "ٹکانی": {
+   "en": "in its place, steady",
+   "pos": "adjective",
+   "roman": "ṭikāṇī"
+  },
+  "روحاں": {
+   "en": "spirits, souls",
+   "pos": "noun",
+   "roman": "rūhāṅ",
+   "base": "روح"
+  },
+  "پھرے": {
+   "en": "wanders",
+   "pos": "verb",
+   "roman": "phire",
+   "base": "پھرنا"
+  },
+  "الموت": {
+   "en": "(angel) of death",
+   "pos": "noun",
+   "roman": "al-maut",
+   "note": "part of malak al-maut, the angel of death"
+  },
+  "نشانی": {
+   "en": "sign, likeness",
+   "pos": "noun",
+   "roman": "nishānī"
+  },
+  "مسیحے": {
+   "en": "Messiah (Jesus), who raised the dead",
+   "pos": "proper noun",
+   "roman": "masīhe",
+   "base": "مسیحا",
+   "note": "the Baloch revive her like the Messiah"
+  },
+  "دتی": {
+   "en": "gave",
+   "pos": "verb",
+   "roman": "dittī",
+   "base": "دینا"
+  },
+  "زندگانی": {
+   "en": "life",
+   "pos": "noun",
+   "roman": "zindagānī"
+  },
+  "سنی": {
+   "en": "heard",
+   "pos": "verb",
+   "roman": "suṇī",
+   "base": "سننا"
+  },
+  "سریر": {
+   "en": "body",
+   "pos": "noun",
+   "roman": "sarīr"
+  },
+  "سنبھالی": {
+   "en": "recovered, collected",
+   "pos": "verb",
+   "roman": "sambhālī",
+   "base": "سنبھالنا"
+  },
+  "نار": {
+   "en": "fire; woman",
+   "pos": "noun",
+   "roman": "nār",
+   "note": "\"like fire\" (glowing cheeks) here; elsewhere \"woman\""
+  },
+  "رخسارے": {
+   "en": "cheeks",
+   "pos": "noun",
+   "roman": "rukhsāre",
+   "base": "رخسار"
+  },
+  "پھری": {
+   "en": "returned",
+   "pos": "verb",
+   "roman": "phirī",
+   "base": "پھرنا"
+  },
+  "لب": {
+   "en": "lips",
+   "pos": "noun",
+   "roman": "lab"
+  },
+  "لالی": {
+   "en": "redness",
+   "pos": "noun",
+   "roman": "lālī"
+  },
+  "ہار": {
+   "en": "necklaces, garlands",
+   "pos": "noun",
+   "roman": "hār"
+  },
+  "سنگار": {
+   "en": "adornment, finery",
+   "pos": "noun",
+   "roman": "singār"
+  },
+  "لگے": {
+   "en": "began",
+   "pos": "verb",
+   "roman": "lage",
+   "base": "لگنا"
+  },
+  "بھاون": {
+   "en": "to please",
+   "pos": "verb",
+   "roman": "bhāvaṇ",
+   "base": "بھاونا"
+  },
+  "خوش": {
+   "en": "happy",
+   "pos": "adjective",
+   "roman": "khush"
+  },
+  "حالی": {
+   "en": "state (khush-hālī: happiness)",
+   "pos": "noun",
+   "roman": "hālī"
+  },
+  "حیات": {
+   "en": "life",
+   "pos": "noun",
+   "roman": "hayāt",
+   "note": "āb-e-hayāt: water of life"
+  },
+  "پیالی": {
+   "en": "cup",
+   "pos": "noun",
+   "roman": "piyālī"
+  },
+  "نے": {
+   "en": "by (agent marker)",
+   "pos": "postposition",
+   "roman": "ne"
+  },
+  "خدمت": {
+   "en": "service, hospitality",
+   "pos": "noun",
+   "roman": "khidmat"
+  },
+  "کرائی": {
+   "en": "had done",
+   "pos": "verb",
+   "roman": "karāī",
+   "base": "کرانا"
+  },
+  "بہا": {
+   "en": "seating (them)",
+   "pos": "verb",
+   "roman": "bahā",
+   "base": "بہانا"
+  },
+  "پوچھائی": {
+   "en": "asked",
+   "pos": "verb",
+   "roman": "puchhāī",
+   "base": "پچھنا"
+  },
+  "لوبھ": {
+   "en": "greed",
+   "pos": "noun",
+   "roman": "lobh"
+  },
+  "کہیو": {
+   "en": "said",
+   "pos": "verb",
+   "roman": "kahio",
+   "base": "کہنا",
+   "note": "kahio nīṅ: they said"
+  },
+  "ساڈا": {
+   "en": "our",
+   "pos": "pronoun",
+   "roman": "sāḍā"
+  },
+  "بھائی": {
+   "en": "brother",
+   "pos": "noun",
+   "roman": "bhāī"
+  },
+  "دتیا": {
+   "en": "gave",
+   "pos": "verb",
+   "roman": "dittiyā",
+   "base": "دینا"
+  },
+  "شامت": {
+   "en": "misfortune, doom",
+   "pos": "noun",
+   "roman": "shāmat"
+  },
+  "وکھائی": {
+   "en": "showed",
+   "pos": "verb",
+   "roman": "vikhāī",
+   "base": "وکھانا"
+  },
+  "سمجھ": {
+   "en": "taking (them) for",
+   "pos": "verb",
+   "roman": "samajh",
+   "base": "سمجھنا"
+  },
+  "بھرا": {
+   "en": "brothers",
+   "pos": "noun",
+   "roman": "bharā"
+  },
+  "کرائے": {
+   "en": "had (them) made",
+   "pos": "verb",
+   "roman": "karāe",
+   "base": "کرانا"
+  },
+  "خلاص": {
+   "en": "release",
+   "pos": "noun",
+   "roman": "khalās"
+  },
+  "محال": {
+   "en": "impossible",
+   "pos": "adjective",
+   "roman": "muhāl"
+  },
+  "ہویونیں": {
+   "en": "became for them",
+   "pos": "verb",
+   "roman": "hoiyo nīṅ",
+   "base": "ہونا"
+  },
+  "بول": {
+   "en": "word",
+   "pos": "noun",
+   "roman": "bol"
+  },
+  "وگار": {
+   "en": "spoiled, wrong",
+   "pos": "adjective",
+   "roman": "vigāṛ",
+   "note": "Uncertain: \"having spoken a wrong word\""
+  },
+  "پچھے": {
+   "en": "afterwards",
+   "pos": "adverb",
+   "roman": "pichhe"
+  },
+  "پچھتاون": {
+   "en": "repent",
+   "pos": "verb",
+   "roman": "pachhtāvan",
+   "base": "پچھتانا"
+  },
+  "پھسائے": {
+   "en": "trapped",
+   "pos": "verb",
+   "roman": "phasāe",
+   "base": "پھسانا"
+  },
+  "وکیلوں": {
+   "en": "advocate (without an advocate)",
+   "pos": "noun",
+   "roman": "vakīloṅ",
+   "base": "وکیل"
+  },
+  "پھسیاں": {
+   "en": "the trapped",
+   "pos": "adjective",
+   "roman": "phasiyāṅ",
+   "base": "پھسنا"
+  },
+  "چھڈائے": {
+   "en": "frees",
+   "pos": "verb",
+   "roman": "chhuḍāe",
+   "base": "چھڈانا"
+  },
+  "دو": {
+   "en": "two",
+   "pos": "numeral",
+   "roman": "do"
+  },
+  "سردار": {
+   "en": "chiefs, leaders",
+   "pos": "noun",
+   "roman": "sardār"
+  },
+  "آہے": {
+   "en": "were",
+   "pos": "verb",
+   "roman": "āhe",
+   "base": "آہا"
+  },
+  "کروالی": {
+   "en": "caravan leaders",
+   "pos": "noun",
+   "roman": "karvālī"
+  },
+  "ہفت": {
+   "en": "seven",
+   "pos": "numeral",
+   "roman": "haft"
+  },
+  "ہزار": {
+   "en": "thousand",
+   "pos": "numeral",
+   "roman": "hazār"
+  },
+  "شتر": {
+   "en": "camels",
+   "pos": "noun",
+   "roman": "shutar"
+  },
+  "بنن": {
+   "en": "Bannan, a caravan leader",
+   "pos": "proper noun",
+   "roman": "Bannan",
+   "note": "Uncertain: read as the leader's name"
+  },
+  "بنیا": {
+   "en": "merchant",
+   "pos": "noun",
+   "roman": "baniyā",
+   "note": "Uncertain: possibly \"both became\""
+  },
+  "دوویں": {
+   "en": "both",
+   "pos": "pronoun",
+   "roman": "dovaiṅ"
+  },
+  "اندیشہ": {
+   "en": "worry, deliberation",
+   "pos": "noun",
+   "roman": "andesha"
+  },
+  "چھٹکارا": {
+   "en": "release",
+   "pos": "noun",
+   "roman": "chhuṭkārā"
+  },
+  "دیئے": {
+   "en": "(we) would give",
+   "pos": "verb",
+   "roman": "diye",
+   "base": "دینا"
+  },
+  "بھر": {
+   "en": "filling",
+   "pos": "verb",
+   "roman": "bhar",
+   "base": "بھرنا",
+   "note": "\"a tank filled with gold\""
+  },
+  "کیہا": {
+   "en": "what (power)",
+   "pos": "pronoun",
+   "roman": "kehā"
+  },
+  "ملکیں": {
+   "en": "in (foreign) lands",
+   "pos": "noun",
+   "roman": "mulkeṅ",
+   "base": "ملک"
+  },
+  "مان": {
+   "en": "pride, standing",
+   "pos": "noun",
+   "roman": "mān"
+  },
+  "اڈن": {
+   "en": "flying",
+   "pos": "adjective",
+   "roman": "uḍan"
+  },
+  "کھٹولا": {
+   "en": "cot (Flying Cot, the camel's name)",
+   "pos": "noun",
+   "roman": "khaṭolā",
+   "note": "uḍan khaṭolā: a magic flying bed of folk tales"
+  },
+  "کرھی": {
+   "en": "she-camel",
+   "pos": "noun",
+   "roman": "karhī"
+  },
+  "ہمراہی": {
+   "en": "companion",
+   "pos": "noun",
+   "roman": "hamrāhī"
+  },
+  "اسوار": {
+   "en": "mounted",
+   "pos": "adjective",
+   "roman": "aswār"
+  },
+  "سدھایا": {
+   "en": "set off",
+   "pos": "verb",
+   "roman": "sidhāyā",
+   "base": "سدھانا"
+  },
+  "بنے": {
+   "en": "towards, to the edge of",
+   "pos": "postposition",
+   "roman": "banne"
+  },
+  "راہی": {
+   "en": "traveller",
+   "pos": "noun",
+   "roman": "rāhī",
+   "note": "bad rāhī (v. 74): going astray"
+  },
+  "بوہت": {
+   "en": "more, very",
+   "pos": "adverb",
+   "roman": "bohat"
+  },
+  "منزل": {
+   "en": "stage of the journey",
+   "pos": "noun",
+   "roman": "manzil"
+  },
+  "تیوں": {
+   "en": "so, the more",
+   "pos": "adverb",
+   "roman": "tiyoṅ",
+   "note": "jiyoṅ jiyoṅ ... tiyoṅ tiyoṅ: the more ... the more"
+  },
+  "گئے": {
+   "en": "went",
+   "pos": "verb",
+   "roman": "gae",
+   "base": "جانا"
+  },
+  "دھائی": {
+   "en": "rushing, in haste",
+   "pos": "noun",
+   "roman": "dhāī",
+   "note": "kar dhāī: hastening; also an attack"
+  },
+  "دربارے": {
+   "en": "to the court",
+   "pos": "noun",
+   "roman": "darbāre",
+   "base": "دربار"
+  },
+  "روون": {
+   "en": "weep",
+   "pos": "verb",
+   "roman": "rovan",
+   "base": "رونا"
+  },
+  "کوک": {
+   "en": "cry, wail",
+   "pos": "noun",
+   "roman": "kūk"
+  },
+  "سناون": {
+   "en": "recount",
+   "pos": "verb",
+   "roman": "suṇāvan",
+   "base": "سنانا"
+  },
+  "حالت": {
+   "en": "plight",
+   "pos": "noun",
+   "roman": "hālat"
+  },
+  "چھٹدے": {
+   "en": "are freed",
+   "pos": "verb",
+   "roman": "chhuṭde",
+   "base": "چھٹنا"
+  },
+  "رہن": {
+   "en": "(they) will stay",
+   "pos": "verb",
+   "roman": "rahin",
+   "base": "رہنا"
+  },
+  "جگ": {
+   "en": "ages; world",
+   "pos": "noun",
+   "roman": "jug"
+  },
+  "چارے": {
+   "en": "all four",
+   "pos": "numeral",
+   "roman": "chāre",
+   "base": "چار",
+   "note": "jug chāre: the four ages, i.e. forever"
+  },
+  "پچھیا": {
+   "en": "asked",
+   "pos": "verb",
+   "roman": "puchhiyā",
+   "base": "پچھنا"
+  },
+  "دیواناں": {
+   "en": "ministers",
+   "pos": "noun",
+   "roman": "dīwānāṅ",
+   "base": "دیوان"
+  },
+  "پیش": {
+   "en": "avail",
+   "pos": "noun",
+   "roman": "pesh",
+   "note": "pesh nā jāṇā: to be of no avail"
+  },
+  "حکومت": {
+   "en": "power, rule",
+   "pos": "noun",
+   "roman": "hukūmat"
+  },
+  "جاندی": {
+   "en": "goes",
+   "pos": "verb",
+   "roman": "jāndī",
+   "base": "جانا"
+  },
+  "کار": {
+   "en": "use, effect",
+   "pos": "noun",
+   "roman": "kār"
+  },
+  "خزاناں": {
+   "en": "treasuries",
+   "pos": "noun",
+   "roman": "khazānāṅ",
+   "base": "خزانہ"
+  },
+  "بھیجن": {
+   "en": "to send",
+   "pos": "verb",
+   "roman": "bhejan",
+   "base": "بھیجنا"
+  },
+  "بدیس": {
+   "en": "foreign land",
+   "pos": "noun",
+   "roman": "bades"
+  },
+  "بگاناں": {
+   "en": "alien, strange",
+   "pos": "adjective",
+   "roman": "bagānāṅ",
+   "base": "بیگانہ"
+  },
+  "شہزادیاں": {
+   "en": "princes",
+   "pos": "noun",
+   "roman": "shahzādiyāṅ",
+   "base": "شہزادہ"
+  },
+  "تورے": {
+   "en": "sends off",
+   "pos": "verb",
+   "roman": "tore",
+   "base": "تورنا"
+  },
+  "کرواناں": {
+   "en": "caravaners",
+   "pos": "noun",
+   "roman": "karwānāṅ",
+   "base": "کروان"
+  },
+  "بیزار": {
+   "en": "distressed",
+   "pos": "adjective",
+   "roman": "bezār"
+  },
+  "کے": {
+   "en": "having (done)",
+   "pos": "particle",
+   "roman": "ke",
+   "note": "conjunctive: sun ke, having heard"
+  },
+  "تن": {
+   "en": "body",
+   "pos": "noun",
+   "roman": "tan"
+  },
+  "لا": {
+   "en": "setting to",
+   "pos": "verb",
+   "roman": "lā",
+   "base": "لانا"
+  },
+  "بجھاوے": {
+   "en": "would put out",
+   "pos": "verb",
+   "roman": "bujhāve",
+   "base": "بجھانا"
+  },
+  "پرائی": {
+   "en": "another's",
+   "pos": "adjective",
+   "roman": "parāī"
+  },
+  "وار": {
+   "en": "sacrifice (as offering)",
+   "pos": "noun",
+   "roman": "vār",
+   "note": "vār suṭṭṇā: to give up as an offering"
+  },
+  "سٹاں": {
+   "en": "I would cast",
+   "pos": "verb",
+   "roman": "suṭṭāṅ",
+   "base": "سٹنا"
+  },
+  "بادشاہی": {
+   "en": "kingdom",
+   "pos": "noun",
+   "roman": "bādshāhī"
+  },
+  "دنیا": {
+   "en": "world",
+   "pos": "noun",
+   "roman": "dunyā"
+  },
+  "مراد": {
+   "en": "wish, desire",
+   "pos": "noun",
+   "roman": "murād"
+  },
+  "کائی": {
+   "en": "any",
+   "pos": "pronoun",
+   "roman": "kāī"
+  },
+  "سنائے": {
+   "en": "recounted",
+   "pos": "verb",
+   "roman": "suṇāe",
+   "base": "سنانا"
+  },
+  "تساڈے": {
+   "en": "your (plural)",
+   "pos": "pronoun",
+   "roman": "tusāḍe"
+  },
+  "چشم": {
+   "en": "eye",
+   "pos": "noun",
+   "roman": "chashm"
+  },
+  "لائے": {
+   "en": "lets touch",
+   "pos": "verb",
+   "roman": "lāe",
+   "base": "لانا",
+   "note": "sleep does not touch her eyes"
+  },
+  "رمکی": {
+   "en": "wafted, stirred",
+   "pos": "verb",
+   "roman": "ramkī",
+   "base": "رمکنا"
+  },
+  "پرم": {
+   "en": "love",
+   "pos": "noun",
+   "roman": "prem"
+  },
+  "رہس": {
+   "en": "would stay",
+   "pos": "verb",
+   "roman": "rahas",
+   "base": "رہنا"
+  },
+  "ٹکانے": {
+   "en": "in place",
+   "pos": "noun",
+   "roman": "ṭikāṇe",
+   "base": "ٹکانا"
+  },
+  "دہشت": {
+   "en": "terror",
+   "pos": "noun",
+   "roman": "dahshat"
+  },
+  "تیغ": {
+   "en": "sword",
+   "pos": "noun",
+   "roman": "tegh"
+  },
+  "الم": {
+   "en": "grief",
+   "pos": "noun",
+   "roman": "alam"
+  },
+  "وسیا": {
+   "en": "settled, dwelt",
+   "pos": "verb",
+   "roman": "vasiyā",
+   "base": "وسنا"
+  },
+  "وسری": {
+   "en": "was forgotten",
+   "pos": "verb",
+   "roman": "visrī",
+   "base": "وسرنا"
+  },
+  "وا": {
+   "en": "wind",
+   "pos": "noun",
+   "roman": "vā"
+  },
+  "چمکے": {
+   "en": "flared up",
+   "pos": "verb",
+   "roman": "chamke",
+   "base": "چمکنا"
+  },
+  "جرم": {
+   "en": "fault, sin",
+   "pos": "noun",
+   "roman": "jurm",
+   "note": "Uncertain: \"jurm karam\": fire of fault and fate"
+  },
+  "سوار": {
+   "en": "mounted, rider",
+   "pos": "noun",
+   "roman": "sawār"
+  },
+  "ٹریا": {
+   "en": "set out",
+   "pos": "verb",
+   "roman": "ṭuriyā",
+   "base": "ٹرنا"
+  },
+  "جڑی": {
+   "en": "herb, love-charm",
+   "pos": "noun",
+   "roman": "jaṛī",
+   "note": "Uncertain: \"prem jaṛī\": a root or charm of love"
+  },
+  "پائی": {
+   "en": "put on",
+   "pos": "verb",
+   "roman": "pāī",
+   "base": "پانا"
+  },
+  "رات": {
+   "en": "night",
+   "pos": "noun",
+   "roman": "rāt"
+  },
+  "غبار": {
+   "en": "dust; dark",
+   "pos": "noun",
+   "roman": "ghubār"
+  },
+  "چرا": {
+   "en": "stealing",
+   "pos": "verb",
+   "roman": "churā",
+   "base": "چرانا"
+  },
+  "چور": {
+   "en": "thieves",
+   "pos": "noun",
+   "roman": "chor"
+  },
+  "چلے": {
+   "en": "went off",
+   "pos": "verb",
+   "roman": "chale",
+   "base": "چلنا"
+  },
+  "پلک": {
+   "en": "moment (eye-blink)",
+   "pos": "noun",
+   "roman": "palak"
+  },
+  "صبراں": {
+   "en": "patient ones",
+   "pos": "noun",
+   "roman": "sabrāṅ",
+   "base": "صبر",
+   "note": "be-sabrāṅ: the impatient"
+  },
+  "مہار": {
+   "en": "nose-rein (of a camel)",
+   "pos": "noun",
+   "roman": "muhār"
+  },
+  "اٹھائی": {
+   "en": "raised",
+   "pos": "verb",
+   "roman": "uṭhāī",
+   "base": "اٹھانا",
+   "note": "rizq muhār uṭhāī: fate took up the reins"
+  },
+  "بھا": {
+   "en": "lot, fate",
+   "pos": "noun",
+   "roman": "bhā",
+   "note": "Uncertain: bhā paī read as \"befell\""
+  },
+  "پئی": {
+   "en": "fell; lay",
+   "pos": "verb",
+   "roman": "paī",
+   "base": "پینا"
+  },
+  "بریائی": {
+   "en": "evil, misfortune",
+   "pos": "noun",
+   "roman": "buriyāī"
+  },
+  "دنیں": {
+   "en": "by day",
+   "pos": "noun",
+   "roman": "dineṅ",
+   "base": "دن"
+  },
+  "پھڑ": {
+   "en": "taking",
+   "pos": "verb",
+   "roman": "phaṛ",
+   "base": "پھڑنا"
+  },
+  "تھیون": {
+   "en": "become",
+   "pos": "verb",
+   "roman": "thīvan",
+   "base": "تھیونا"
+  },
+  "ماندے": {
+   "en": "weary",
+   "pos": "adjective",
+   "roman": "mānde"
+  },
+  "مزاج": {
+   "en": "temperament",
+   "pos": "noun",
+   "roman": "mizāj"
+  },
+  "پھرن": {
+   "en": "roam",
+   "pos": "verb",
+   "roman": "phiran",
+   "base": "پھرنا"
+  },
+  "جیہناندے": {
+   "en": "whose",
+   "pos": "pronoun",
+   "roman": "jehnānde"
+  },
+  "کروانی": {
+   "en": "caravaners",
+   "pos": "noun",
+   "roman": "karwānī"
+  },
+  "لیجاندے": {
+   "en": "carry off",
+   "pos": "verb",
+   "roman": "lai jānde",
+   "base": "لے جانا",
+   "note": "like the caravan that carried Yusuf to Egypt"
+  },
+  "دکھ": {
+   "en": "grief, pain",
+   "pos": "noun",
+   "roman": "dukh"
+  },
+  "پاون": {
+   "en": "suffer",
+   "pos": "verb",
+   "roman": "pāvan",
+   "base": "پانا"
+  },
+  "نظریں": {
+   "en": "into view",
+   "pos": "noun",
+   "roman": "nazreṅ",
+   "base": "نظر"
+  },
+  "وقت": {
+   "en": "time",
+   "pos": "noun",
+   "roman": "vaqt"
+  },
+  "سویرا": {
+   "en": "morning",
+   "pos": "noun",
+   "roman": "saverā"
+  },
+  "پیار": {
+   "en": "affection, care",
+   "pos": "noun",
+   "roman": "piyār"
+  },
+  "کیتو": {
+   "en": "did",
+   "pos": "verb",
+   "roman": "kīto",
+   "base": "کرنا",
+   "note": "kīto nīṅ: they did"
+  },
+  "کرہاں": {
+   "en": "camels",
+   "pos": "noun",
+   "roman": "karhāṅ",
+   "base": "کرہا"
+  },
+  "چست": {
+   "en": "nimble",
+   "pos": "adjective",
+   "roman": "chust"
+  },
+  "چالاک": {
+   "en": "swift",
+   "pos": "adjective",
+   "roman": "chālāk"
+  },
+  "ودھیرا": {
+   "en": "very, exceedingly",
+   "pos": "adverb",
+   "roman": "vadherā"
+  },
+  "حقارت": {
+   "en": "contempt, arrogance",
+   "pos": "noun",
+   "roman": "haqārat"
+  },
+  "ڈیرا": {
+   "en": "camp",
+   "pos": "noun",
+   "roman": "ḍerā"
+  },
+  "چھوڑ": {
+   "en": "letting loose",
+   "pos": "verb",
+   "roman": "chhoṛ",
+   "base": "چھوڑنا"
+  },
+  "شتراں": {
+   "en": "camels",
+   "pos": "noun",
+   "roman": "shutrāṅ",
+   "base": "شتر"
+  },
+  "چرن": {
+   "en": "graze",
+   "pos": "verb",
+   "roman": "charan",
+   "base": "چرنا"
+  },
+  "عراق": {
+   "en": "Iraqi (camels)",
+   "pos": "proper noun",
+   "roman": "Irāq",
+   "note": "Uncertain: read as Iraqi-bred camels"
+  },
+  "چوپھیرا": {
+   "en": "all around",
+   "pos": "adverb",
+   "roman": "chaupherā"
+  },
+  "قہقہہ": {
+   "en": "Qahqaha (enchanted wall)",
+   "pos": "proper noun",
+   "roman": "qahqaha",
+   "note": "legendary wall whose viewers laughed and leapt over it"
+  },
+  "طلسمیں": {
+   "en": "enchanted",
+   "pos": "adjective",
+   "roman": "tilismeṅ",
+   "base": "طلسم"
+  },
+  "آہیاں": {
+   "en": "were",
+   "pos": "verb",
+   "roman": "āhiyāṅ",
+   "base": "آہا"
+  },
+  "چوپھیر": {
+   "en": "all around",
+   "pos": "adverb",
+   "roman": "chaupher"
+  },
+  "دیواراں": {
+   "en": "walls",
+   "pos": "noun",
+   "roman": "dīwārāṅ",
+   "base": "دیوار"
+  },
+  "زمرد": {
+   "en": "emerald",
+   "pos": "noun",
+   "roman": "zumurrud"
+  },
+  "ثابت": {
+   "en": "whole, solid",
+   "pos": "adjective",
+   "roman": "sābit"
+  },
+  "نگاراں": {
+   "en": "designs",
+   "pos": "noun",
+   "roman": "nigārāṅ",
+   "base": "نگار"
+  },
+  "نہراں": {
+   "en": "channels",
+   "pos": "noun",
+   "roman": "nahrāṅ",
+   "base": "نہر"
+  },
+  "پھوہارے": {
+   "en": "fountains",
+   "pos": "noun",
+   "roman": "phuhāre",
+   "base": "پھوہارا"
+  },
+  "برسن": {
+   "en": "rain down",
+   "pos": "verb",
+   "roman": "barsan",
+   "base": "برسنا"
+  },
+  "چونک": {
+   "en": "square, crossing",
+   "pos": "noun",
+   "roman": "chauṅk"
+  },
+  "بہاراں": {
+   "en": "blooms, spring",
+   "pos": "noun",
+   "roman": "bahārāṅ",
+   "base": "بہار"
+  },
+  "شور": {
+   "en": "clamour, song",
+   "pos": "noun",
+   "roman": "shor"
+  },
+  "مور": {
+   "en": "peacocks",
+   "pos": "noun",
+   "roman": "mor"
+  },
+  "چکور": {
+   "en": "chakor partridges",
+   "pos": "noun",
+   "roman": "chakor",
+   "note": "the chakor is said to love the moon"
+  },
+  "کھڑے": {
+   "en": "stood",
+   "pos": "verb",
+   "roman": "khaṛe",
+   "base": "کھڑنا"
+  },
+  "مکھ": {
+   "en": "faces",
+   "pos": "noun",
+   "roman": "mukh"
+  },
+  "سیب": {
+   "en": "apples",
+   "pos": "noun",
+   "roman": "seb"
+  },
+  "انگور": {
+   "en": "grapes",
+   "pos": "noun",
+   "roman": "aṅgūr"
+  },
+  "انار": {
+   "en": "pomegranates",
+   "pos": "noun",
+   "roman": "anār"
+  },
+  "بھرے": {
+   "en": "full",
+   "pos": "adjective",
+   "roman": "bhare",
+   "base": "بھرنا"
+  },
+  "رس": {
+   "en": "juice",
+   "pos": "noun",
+   "roman": "ras"
+  },
+  "چنج": {
+   "en": "beak",
+   "pos": "noun",
+   "roman": "chuñj"
+  },
+  "طوطے": {
+   "en": "parrots",
+   "pos": "noun",
+   "roman": "tote",
+   "base": "طوطا"
+  },
+  "قمری": {
+   "en": "turtle-dove",
+   "pos": "noun",
+   "roman": "qumrī",
+   "note": "in Persian poetry it laments its love for the cypress"
+  },
+  "فریاداں": {
+   "en": "laments",
+   "pos": "noun",
+   "roman": "fariyādāṅ",
+   "base": "فریاد"
+  },
+  "سرو": {
+   "en": "cypress",
+   "pos": "noun",
+   "roman": "sarv"
+  },
+  "آزاد": {
+   "en": "free, upright",
+   "pos": "adjective",
+   "roman": "āzād",
+   "note": "sarv-e-āzād: the \"free cypress\""
+  },
+  "کھلوتے": {
+   "en": "stood",
+   "pos": "verb",
+   "roman": "khalote",
+   "base": "کھلونا"
+  },
+  "اپنے": {
+   "en": "own",
+   "pos": "pronoun",
+   "roman": "apne"
+  },
+  "غوط": {
+   "en": "immersed",
+   "pos": "noun",
+   "roman": "ghoṭ"
+  },
+  "بلخی": {
+   "en": "of Balkh",
+   "pos": "adjective",
+   "roman": "Balkhī"
+  },
+  "بغدادی": {
+   "en": "of Baghdad",
+   "pos": "adjective",
+   "roman": "Baghdādī"
+  },
+  "اشتر": {
+   "en": "camels",
+   "pos": "noun",
+   "roman": "ushtar"
+  },
+  "بختی": {
+   "en": "Bactrian (two-humped)",
+   "pos": "adjective",
+   "roman": "bukhtī"
+  },
+  "دوزخ": {
+   "en": "hell",
+   "pos": "noun",
+   "roman": "dozakh"
+  },
+  "پیٹ": {
+   "en": "belly",
+   "pos": "noun",
+   "roman": "peṭ"
+  },
+  "گردن": {
+   "en": "neck",
+   "pos": "noun",
+   "roman": "gardan"
+  },
+  "چوڑی": {
+   "en": "broad",
+   "pos": "adjective",
+   "roman": "chauṛī"
+  },
+  "عزرائیل": {
+   "en": "Azrael, angel of death",
+   "pos": "proper noun",
+   "roman": "Azrāīl"
+  },
+  "چارن": {
+   "en": "graze, feed on",
+   "pos": "verb",
+   "roman": "chāran",
+   "base": "چارنا"
+  },
+  "تڑاون": {
+   "en": "break",
+   "pos": "verb",
+   "roman": "tuṛāvan",
+   "base": "تڑانا"
+  },
+  "شاخاں": {
+   "en": "branches",
+   "pos": "noun",
+   "roman": "shākhāṅ",
+   "base": "شاخ"
+  },
+  "حیوانی": {
+   "en": "brutish behaviour",
+   "pos": "noun",
+   "roman": "haiwānī"
+  },
+  "گمان": {
+   "en": "presumption",
+   "pos": "noun",
+   "roman": "gumān",
+   "note": "trusting in Punnun's protection"
+  },
+  "چیہ": {
+   "en": "bold spirit, zeal",
+   "pos": "noun",
+   "roman": "chīh",
+   "note": "chīh chaṛhnā: to grow bold"
+  },
+  "چڑھے": {
+   "en": "rose, mounted",
+   "pos": "verb",
+   "roman": "chaṛhe",
+   "base": "چڑھنا"
+  },
+  "باغباناں": {
+   "en": "gardeners",
+   "pos": "noun",
+   "roman": "bāghbānāṅ",
+   "base": "باغبان"
+  },
+  "ویران": {
+   "en": "ruined",
+   "pos": "adjective",
+   "roman": "vīrān"
+  },
+  "سارا": {
+   "en": "entire",
+   "pos": "adjective",
+   "roman": "sārā"
+  },
+  "چار": {
+   "en": "grazed",
+   "pos": "verb",
+   "roman": "chār",
+   "base": "چارنا"
+  },
+  "خدا": {
+   "en": "God",
+   "pos": "noun",
+   "roman": "khudā"
+  },
+  "مرنوں": {
+   "en": "of dying",
+   "pos": "verb",
+   "roman": "marnoṅ",
+   "base": "مرنا"
+  },
+  "ڈر": {
+   "en": "fear",
+   "pos": "noun",
+   "roman": "ḍar"
+  },
+  "بیگاناں": {
+   "en": "others'",
+   "pos": "adjective",
+   "roman": "begānāṅ",
+   "base": "بیگانہ"
+  },
+  "بیراجا": {
+   "en": "without a king",
+   "pos": "adjective",
+   "roman": "berājā"
+  },
+  "نیاؤں": {
+   "en": "justice",
+   "pos": "noun",
+   "roman": "niyāoṅ"
+  },
+  "فریاد": {
+   "en": "complaint",
+   "pos": "noun",
+   "roman": "fariyād"
+  },
+  "وچارے": {
+   "en": "pondered; poor wretches",
+   "pos": "verb",
+   "roman": "vichāre",
+   "base": "وچارنا",
+   "note": "also bechāre, \"poor fellows\", in the same verse"
+  },
+  "کمینے": {
+   "en": "low-born",
+   "pos": "adjective",
+   "roman": "kamīne"
+  },
+  "ایڈ": {
+   "en": "such",
+   "pos": "adjective",
+   "roman": "eḍ"
+  },
+  "دلیری": {
+   "en": "boldness",
+   "pos": "noun",
+   "roman": "dalerī"
+  },
+  "نکارے": {
+   "en": "worthless",
+   "pos": "adjective",
+   "roman": "nakāre"
+  },
+  "شاید": {
+   "en": "perhaps",
+   "pos": "adverb",
+   "roman": "shāyad"
+  },
+  "ہوسی": {
+   "en": "will be",
+   "pos": "verb",
+   "roman": "hosī",
+   "base": "ہونا"
+  },
+  "پسارے": {
+   "en": "liberties, sprawl",
+   "pos": "noun",
+   "roman": "pasāre"
+  },
+  "فضولی": {
+   "en": "insolence",
+   "pos": "noun",
+   "roman": "fuzūlī"
+  },
+  "مصلحت": {
+   "en": "counsel",
+   "pos": "noun",
+   "roman": "maslahat"
+  },
+  "چل": {
+   "en": "went",
+   "pos": "verb",
+   "roman": "chal",
+   "base": "چلنا"
+  },
+  "چناری": {
+   "en": "of the plane-tree",
+   "pos": "adjective",
+   "roman": "chanārī",
+   "base": "چنار"
+  },
+  "صفائی": {
+   "en": "sheen, keenness",
+   "pos": "noun",
+   "roman": "safāī"
+  },
+  "اوائل": {
+   "en": "early (youth)",
+   "pos": "noun",
+   "roman": "awāil"
+  },
+  "پئیاں": {
+   "en": "fell upon",
+   "pos": "verb",
+   "roman": "paiyāṅ",
+   "base": "پینا"
+  },
+  "مار": {
+   "en": "beating",
+   "pos": "noun",
+   "roman": "mār"
+  },
+  "ویہن": {
+   "en": "raise",
+   "pos": "verb",
+   "roman": "vehan",
+   "note": "Uncertain: \"the Baloch cry for mercy\""
+  },
+  "دوہائی": {
+   "en": "cry for help",
+   "pos": "noun",
+   "roman": "duhāī"
+  },
+  "تیار": {
+   "en": "ready",
+   "pos": "adjective",
+   "roman": "tayār"
+  },
+  "کنچن": {
+   "en": "golden",
+   "pos": "adjective",
+   "roman": "kañchan"
+  },
+  "پلنگھ": {
+   "en": "bed",
+   "pos": "noun",
+   "roman": "palaṅgh"
+  },
+  "رویل": {
+   "en": "raibel jasmine",
+   "pos": "noun",
+   "roman": "raivel",
+   "note": "a fragrant white flower"
+  },
+  "چنبیلی": {
+   "en": "jasmine",
+   "pos": "noun",
+   "roman": "chambelī"
+  },
+  "مالن": {
+   "en": "gardener woman",
+   "pos": "noun",
+   "roman": "mālan"
+  },
+  "گندھ": {
+   "en": "stringing, weaving",
+   "pos": "verb",
+   "roman": "gundh",
+   "base": "گندھنا"
+  },
+  "وچھائی": {
+   "en": "spread",
+   "pos": "verb",
+   "roman": "vichhāī",
+   "base": "وچھانا"
+  },
+  "تسدے": {
+   "en": "its, his",
+   "pos": "pronoun",
+   "roman": "tisde"
+  },
+  "سکھائی": {
+   "en": "soothing, restful",
+   "pos": "adjective",
+   "roman": "sukhāī"
+  },
+  "آس": {
+   "en": "hope",
+   "pos": "noun",
+   "roman": "ās"
+  },
+  "صدق": {
+   "en": "sincerity, true faith",
+   "pos": "noun",
+   "roman": "sidq"
+  },
+  "خوابوں": {
+   "en": "with sleep",
+   "pos": "noun",
+   "roman": "khwāboṅ",
+   "base": "خواب"
+  },
+  "شعا": {
+   "en": "rays",
+   "pos": "noun",
+   "roman": "shuā"
+  },
+  "پوس": {
+   "en": "spills (from it)",
+   "pos": "verb",
+   "roman": "pos",
+   "base": "پینا"
+  },
+  "نقابوں": {
+   "en": "from the veil",
+   "pos": "noun",
+   "roman": "naqāboṅ",
+   "base": "نقاب"
+  },
+  "چھپائیے": {
+   "en": "one hides",
+   "pos": "verb",
+   "roman": "chhupāiye",
+   "base": "چھپانا"
+  },
+  "آوگ": {
+   "en": "will come",
+   "pos": "verb",
+   "roman": "āvag",
+   "base": "آنا"
+  },
+  "گلابوں": {
+   "en": "from rose (water)",
+   "pos": "noun",
+   "roman": "gulāboṅ",
+   "base": "گلاب"
+  },
+  "پریت": {
+   "en": "love",
+   "pos": "noun",
+   "roman": "prīt"
+  },
+  "چھپ": {
+   "en": "hide",
+   "pos": "verb",
+   "roman": "chhup",
+   "base": "چھپنا"
+  },
+  "تارک": {
+   "en": "renouncers",
+   "pos": "noun",
+   "roman": "tārik"
+  },
+  "حجابوں": {
+   "en": "from veils",
+   "pos": "noun",
+   "roman": "hijāboṅ",
+   "base": "حجاب"
+  },
+  "سدھ": {
+   "en": "awareness, senses",
+   "pos": "noun",
+   "roman": "sudh"
+  },
+  "حیران": {
+   "en": "astonished",
+   "pos": "adjective",
+   "roman": "hairān"
+  },
+  "فون": {
+   "en": "art, wiles",
+   "pos": "noun",
+   "roman": "fun",
+   "note": "Uncertain: likely fann, \"the art of beloveds\""
+  },
+  "محبوباں": {
+   "en": "beloveds",
+   "pos": "noun",
+   "roman": "mehbūbāṅ",
+   "base": "محبوب"
+  },
+  "روشن": {
+   "en": "bright",
+   "pos": "adjective",
+   "roman": "roshan"
+  },
+  "شمع": {
+   "en": "candle",
+   "pos": "noun",
+   "roman": "shamā"
+  },
+  "جمال": {
+   "en": "beauty",
+   "pos": "noun",
+   "roman": "jamāl"
+  },
+  "داغ": {
+   "en": "scar, dark spot",
+   "pos": "noun",
+   "roman": "dāgh",
+   "note": "the tulip's dark heart, a mark of love's wound"
+  },
+  "دیدار": {
+   "en": "sight (of each other)",
+   "pos": "noun",
+   "roman": "dīdār"
+  },
+  "انجانے": {
+   "en": "unawares; innocent",
+   "pos": "adjective",
+   "roman": "anjāne"
+  },
+  "ڈٹھیوں": {
+   "en": "having seen",
+   "pos": "verb",
+   "roman": "ḍiṭṭhiyoṅ",
+   "base": "ویکھنا"
+  },
+  "واچن": {
+   "en": "read",
+   "pos": "verb",
+   "roman": "vāchan",
+   "base": "واچنا"
+  },
+  "مولے": {
+   "en": "at all",
+   "pos": "adverb",
+   "roman": "mūle"
+  },
+  "نین": {
+   "en": "eyes",
+   "pos": "noun",
+   "roman": "nain"
+  },
+  "اداس": {
+   "en": "sad",
+   "pos": "adjective",
+   "roman": "udās"
+  },
+  "سکدیاں": {
+   "en": "longing ones",
+   "pos": "adjective",
+   "roman": "sikdiyāṅ",
+   "base": "سکنا"
+  },
+  "ملے": {
+   "en": "met",
+   "pos": "verb",
+   "roman": "mile",
+   "base": "ملنا"
+  },
+  "قیمت": {
+   "en": "value",
+   "pos": "noun",
+   "roman": "qīmat"
+  },
+  "قدر": {
+   "en": "worth",
+   "pos": "noun",
+   "roman": "qadr"
+  },
+  "پچھانے": {
+   "en": "recognises",
+   "pos": "verb",
+   "roman": "pachhāṇe",
+   "base": "پچھاننا"
+  },
+  "نیونہہ": {
+   "en": "love",
+   "pos": "noun",
+   "roman": "neuṅh"
+  },
+  "اصل": {
+   "en": "true, real",
+   "pos": "adjective",
+   "roman": "asl"
+  },
+  "گوار": {
+   "en": "boor",
+   "pos": "noun",
+   "roman": "gawār"
+  },
+  "لدا": {
+   "en": "loading",
+   "pos": "verb",
+   "roman": "lad",
+   "base": "لدنا"
+  },
+  "جوڑن": {
+   "en": "join",
+   "pos": "verb",
+   "roman": "joṛan",
+   "base": "جوڑنا"
+  },
+  "دست": {
+   "en": "hands",
+   "pos": "noun",
+   "roman": "dast",
+   "note": "jo kar dast: folding the hands in entreaty"
+  },
+  "ڈیرے": {
+   "en": "camps, tents",
+   "pos": "noun",
+   "roman": "ḍere",
+   "base": "ڈیرا"
+  },
+  "جنہاں": {
+   "en": "whose",
+   "pos": "pronoun",
+   "roman": "jinhāṅ"
+  },
+  "تنہاں": {
+   "en": "their",
+   "pos": "pronoun",
+   "roman": "tinhāṅ"
+  },
+  "پھیرے": {
+   "en": "turns back",
+   "pos": "verb",
+   "roman": "phere",
+   "base": "پھیرنا"
+  },
+  "کروانا": {
+   "en": "caravaners",
+   "pos": "noun",
+   "roman": "karwānā",
+   "base": "کروان"
+  },
+  "جویں": {
+   "en": "as, how",
+   "pos": "adverb",
+   "roman": "javeṅ"
+  },
+  "زلف": {
+   "en": "tress",
+   "pos": "noun",
+   "roman": "zulf"
+  },
+  "گھت": {
+   "en": "throwing",
+   "pos": "verb",
+   "roman": "ghatt",
+   "base": "گھتنا"
+  },
+  "پھاہی": {
+   "en": "noose",
+   "pos": "noun",
+   "roman": "phāhī"
+  },
+  "بد": {
+   "en": "bad",
+   "pos": "adjective",
+   "roman": "bad",
+   "note": "bad rāhī: going astray"
+  },
+  "واہی": {
+   "en": "struck",
+   "pos": "verb",
+   "roman": "vāhī",
+   "base": "واہنا"
+  },
+  "وہاوے": {
+   "en": "passes, spends",
+   "pos": "verb",
+   "roman": "vihāve",
+   "base": "وہانا"
+  },
+  "بھلی": {
+   "en": "better",
+   "pos": "adjective",
+   "roman": "bhalī"
+  },
+  "مرجان": {
+   "en": "to die",
+   "pos": "verb",
+   "roman": "mar jāṇ",
+   "base": "مرنا"
+  },
+  "چنگیرا": {
+   "en": "better",
+   "pos": "adjective",
+   "roman": "chaṅgerā"
+  },
+  "جہنم": {
+   "en": "hell",
+   "pos": "noun",
+   "roman": "jahannam"
+  },
+  "کولوں": {
+   "en": "than",
+   "pos": "postposition",
+   "roman": "koloṅ"
+  },
+  "تپ": {
+   "en": "heat, fever",
+   "pos": "noun",
+   "roman": "tap"
+  },
+  "لوک": {
+   "en": "people",
+   "pos": "noun",
+   "roman": "lok"
+  },
+  "ویچ": {
+   "en": "sold",
+   "pos": "verb",
+   "roman": "vech",
+   "base": "ویچنا"
+  },
+  "ورد": {
+   "en": "litany, constant refrain",
+   "pos": "noun",
+   "roman": "vird"
+  },
+  "زبانے": {
+   "en": "on the tongue",
+   "pos": "noun",
+   "roman": "zabāne",
+   "base": "زبان"
+  },
+  "پٹ": {
+   "en": "tearing",
+   "pos": "verb",
+   "roman": "puṭṭ",
+   "base": "پٹنا"
+  },
+  "وال": {
+   "en": "hair",
+   "pos": "noun",
+   "roman": "vāl"
+  },
+  "گلیاں": {
+   "en": "lanes",
+   "pos": "noun",
+   "roman": "galiyāṅ",
+   "base": "گلی"
+  },
+  "مجلس": {
+   "en": "gathering",
+   "pos": "noun",
+   "roman": "majlis"
+  },
+  "زنانے": {
+   "en": "women",
+   "pos": "noun",
+   "roman": "zanāne"
+  },
+  "صحیح": {
+   "en": "safe",
+   "pos": "adjective",
+   "roman": "sahīh"
+  },
+  "سلامت": {
+   "en": "sound",
+   "pos": "adjective",
+   "roman": "salāmat"
+  },
+  "خانے": {
+   "en": "home",
+   "pos": "noun",
+   "roman": "khāne",
+   "base": "خانہ"
+  },
+  "دھائے": {
+   "en": "rushed",
+   "pos": "verb",
+   "roman": "dhāe",
+   "base": "دھانا"
+  },
+  "شراب": {
+   "en": "wine",
+   "pos": "noun",
+   "roman": "sharāb"
+  },
+  "لوکائی": {
+   "en": "hidden",
+   "pos": "adjective",
+   "roman": "lukāī",
+   "note": "Uncertain: read as \"concealed\""
+  },
+  "صراحی": {
+   "en": "flask",
+   "pos": "noun",
+   "roman": "surāhī"
+  },
+  "لیائے": {
+   "en": "brought",
+   "pos": "verb",
+   "roman": "liyāe",
+   "base": "لیانا"
+  },
+  "جانن": {
+   "en": "know",
+   "pos": "verb",
+   "roman": "jāṇan",
+   "base": "جاننا"
+  },
+  "گز": {
+   "en": "at all (har guz)",
+   "pos": "adverb",
+   "roman": "guz"
+  },
+  "دھروہ": {
+   "en": "treachery",
+   "pos": "noun",
+   "roman": "dharoh"
+  },
+  "کمائے": {
+   "en": "committed",
+   "pos": "verb",
+   "roman": "kamāe",
+   "base": "کمانا"
+  },
+  "کہیے": {
+   "en": "who",
+   "pos": "pronoun",
+   "roman": "kahe",
+   "note": "Uncertain: \"say, who found happiness\""
+  },
+  "انصاف": {
+   "en": "justice",
+   "pos": "noun",
+   "roman": "insāf"
+  },
+  "دکھائے": {
+   "en": "showed",
+   "pos": "verb",
+   "roman": "dikhāe",
+   "base": "دکھانا"
+  },
+  "پوچھا": {
+   "en": "reached",
+   "pos": "verb",
+   "roman": "pohchā",
+   "base": "پہنچنا"
+  },
+  "گھنے": {
+   "en": "much",
+   "pos": "adjective",
+   "roman": "ghaṇe"
+  },
+  "کھوٹ": {
+   "en": "falseness",
+   "pos": "noun",
+   "roman": "khoṭ"
+  },
+  "شیریں": {
+   "en": "sweet",
+   "pos": "adjective",
+   "roman": "shīrīṅ"
+  },
+  "ہس": {
+   "en": "laughing",
+   "pos": "verb",
+   "roman": "has",
+   "base": "ہسنا"
+  },
+  "وطنی": {
+   "en": "compatriots",
+   "pos": "noun",
+   "roman": "watanī"
+  },
+  "بتاون": {
+   "en": "make out, show",
+   "pos": "verb",
+   "roman": "batāvan",
+   "base": "بتانا"
+  },
+  "محرم": {
+   "en": "confidant",
+   "pos": "noun",
+   "roman": "mahram"
+  },
+  "لوکا": {
+   "en": "concealment",
+   "pos": "noun",
+   "roman": "lukā",
+   "note": "Uncertain"
+  },
+  "ہٹیری": {
+   "en": "holding back",
+   "pos": "noun",
+   "roman": "haṭerī",
+   "note": "Uncertain"
+  },
+  "مرگ": {
+   "en": "death",
+   "pos": "noun",
+   "roman": "marg"
+  },
+  "بھلا": {
+   "en": "better",
+   "pos": "adjective",
+   "roman": "bhalā"
+  },
+  "پھس": {
+   "en": "being trapped",
+   "pos": "verb",
+   "roman": "phas",
+   "base": "پھسنا"
+  },
+  "کروان": {
+   "en": "caravan",
+   "pos": "noun",
+   "roman": "karwān"
+  },
+  "چڑھیا": {
+   "en": "rose",
+   "pos": "verb",
+   "roman": "chaṛhiyā",
+   "base": "چڑھنا"
+  },
+  "چند": {
+   "en": "moon",
+   "pos": "noun",
+   "roman": "chann",
+   "note": "the moon rising: her joy"
+  },
+  "ودھیرے": {
+   "en": "more, further",
+   "pos": "adverb",
+   "roman": "vadhere"
+  },
+  "تر": {
+   "en": "crossing (over)",
+   "pos": "verb",
+   "roman": "tar",
+   "base": "ترنا"
+  },
+  "مگراہاں": {
+   "en": "in pursuit, following",
+   "pos": "adverb",
+   "roman": "magrāhāṅ",
+   "note": "Uncertain"
+  },
+  "بھاگ": {
+   "en": "fortune",
+   "pos": "noun",
+   "roman": "bhāg"
+  },
+  "میرے": {
+   "en": "my",
+   "pos": "pronoun",
+   "roman": "mere"
+  },
+  "سمجھن": {
+   "en": "understand",
+   "pos": "verb",
+   "roman": "samjhan",
+   "base": "سمجھنا"
+  },
+  "پاپی": {
+   "en": "sinners",
+   "pos": "noun",
+   "roman": "pāpī"
+  },
+  "ہیرے": {
+   "en": "habituated",
+   "pos": "adjective",
+   "roman": "hīre",
+   "note": "Uncertain: \"used to doing sin\""
+  },
+  "بہ": {
+   "en": "sitting",
+   "pos": "verb",
+   "roman": "bah",
+   "base": "بہنا"
+  },
+  "مٹھی": {
+   "en": "sweet",
+   "pos": "adjective",
+   "roman": "miṭṭhī",
+   "note": "sweet tongues, black hearts"
+  },
+  "کالے": {
+   "en": "black",
+   "pos": "adjective",
+   "roman": "kāle"
+  },
+  "چوگاون": {
+   "en": "herd, graze (camels)",
+   "pos": "verb",
+   "roman": "chogāvan",
+   "base": "چوگانا"
+  },
+  "دوش": {
+   "en": "blame",
+   "pos": "noun",
+   "roman": "dosh"
+  },
+  "کئی": {
+   "en": "many",
+   "pos": "adjective",
+   "roman": "kaī"
+  },
+  "گالے": {
+   "en": "ruined, wasted",
+   "pos": "verb",
+   "roman": "gāle",
+   "base": "گالنا"
+  },
+  "رہیا": {
+   "en": "remained (beyond)",
+   "pos": "verb",
+   "roman": "rahiyā",
+   "base": "رہنا"
+  },
+  "جوابوں": {
+   "en": "from answering",
+   "pos": "noun",
+   "roman": "jawāboṅ",
+   "base": "جواب"
+  },
+  "بانہہ": {
+   "en": "arm",
+   "pos": "noun",
+   "roman": "bāṅh"
+  },
+  "ڈگیا": {
+   "en": "fell",
+   "pos": "verb",
+   "roman": "ḍiggiyā",
+   "base": "ڈگنا"
+  },
+  "شرابوں": {
+   "en": "from the wine",
+   "pos": "noun",
+   "roman": "sharāboṅ",
+   "base": "شراب"
+  },
+  "تے": {
+   "en": "and; then",
+   "pos": "conjunction",
+   "roman": "te"
+  },
+  "ایہہ": {
+   "en": "this",
+   "pos": "pronoun",
+   "roman": "eh"
+  },
+  "جن": {
+   "en": "who, those who",
+   "pos": "pronoun",
+   "roman": "jin"
+  },
+  "کن": {
+   "en": "whom; by",
+   "pos": "pronoun",
+   "roman": "kin",
+   "note": "Uncertain: \"jin kin\": whoever (took) the way of love"
+  },
+  "کاج": {
+   "en": "purpose, task",
+   "pos": "noun",
+   "roman": "kāj"
+  },
+  "گوایا": {
+   "en": "lost",
+   "pos": "verb",
+   "roman": "gavāyā",
+   "base": "گوانا"
+  },
+  "نصفوں": {
+   "en": "at half (of the night)",
+   "pos": "noun",
+   "roman": "nisfoṅ",
+   "base": "نصف",
+   "note": "midnight"
+  },
+  "گئی": {
+   "en": "went, passed",
+   "pos": "verb",
+   "roman": "gaī",
+   "base": "جانا"
+  },
+  "تنگ": {
+   "en": "saddle girths",
+   "pos": "noun",
+   "roman": "taṅg"
+  },
+  "کسائے": {
+   "en": "tightened",
+   "pos": "verb",
+   "roman": "kasāe",
+   "base": "کسنا"
+  },
+  "محمل": {
+   "en": "camel litter",
+   "pos": "noun",
+   "roman": "mahmil"
+  },
+  "لے": {
+   "en": "taking",
+   "pos": "verb",
+   "roman": "lai",
+   "base": "لینا"
+  },
+  "بھنبھوروں": {
+   "en": "from Bhambhor",
+   "pos": "proper noun",
+   "roman": "Bhambhoroṅ",
+   "base": "بھنبھور",
+   "note": "Sassi's city in Sindh"
+  },
+  "کٹھن": {
+   "en": "hard",
+   "pos": "adjective",
+   "roman": "kaṭhin"
+  },
+  "کٹھور": {
+   "en": "cruel",
+   "pos": "adjective",
+   "roman": "kaṭhor"
+  },
+  "ترس": {
+   "en": "pity",
+   "pos": "noun",
+   "roman": "taras",
+   "note": "be-taras: pitiless"
+  },
+  "ککرمے": {
+   "en": "evil-doers",
+   "pos": "noun",
+   "roman": "kukarme"
+  },
+  "وچھوڑ": {
+   "en": "separating",
+   "pos": "verb",
+   "roman": "vichhoṛ",
+   "base": "وچھوڑنا"
+  },
+  "رون": {
+   "en": "weeping",
+   "pos": "verb",
+   "roman": "roṇ",
+   "base": "رونا"
+  },
+  "کلاون": {
+   "en": "lamenting",
+   "pos": "verb",
+   "roman": "kalāvan"
+  },
+  "نبڑی": {
+   "en": "ended",
+   "pos": "verb",
+   "roman": "nibṛī",
+   "base": "نبڑنا"
+  },
+  "چڑی": {
+   "en": "sparrow",
+   "pos": "noun",
+   "roman": "chiṛī"
+  },
+  "چچلانی": {
+   "en": "chirped",
+   "pos": "verb",
+   "roman": "chuchlānī",
+   "note": "the dawn chirping of sparrows"
+  },
+  "کباب": {
+   "en": "roast (meat)",
+   "pos": "noun",
+   "roman": "kabāb"
+  },
+  "جدائی": {
+   "en": "separation",
+   "pos": "noun",
+   "roman": "judāī"
+  },
+  "کانی": {
+   "en": "arrow",
+   "pos": "noun",
+   "roman": "kānī"
+  },
+  "اوگھاڑ": {
+   "en": "opening",
+   "pos": "verb",
+   "roman": "ughāṛ",
+   "base": "اگھاڑنا"
+  },
+  "ویکھے": {
+   "en": "looked",
+   "pos": "verb",
+   "roman": "vekhe",
+   "base": "ویکھنا"
+  },
+  "جاگ": {
+   "en": "waking",
+   "pos": "noun",
+   "roman": "jāg"
+  },
+  "لئی": {
+   "en": "took",
+   "pos": "verb",
+   "roman": "laī",
+   "base": "لینا"
+  },
+  "اوٹھاں": {
+   "en": "camels",
+   "pos": "noun",
+   "roman": "ūṭhāṅ",
+   "base": "اوٹھ"
+  },
+  "واحد": {
+   "en": "sole, only one",
+   "pos": "adjective",
+   "roman": "wāhid"
+  },
+  "ناہیں": {
+   "en": "is not",
+   "pos": "particle",
+   "roman": "nāhīṅ"
+  },
+  "خاک": {
+   "en": "dust",
+   "pos": "noun",
+   "roman": "khāk",
+   "note": "putting dust on the head: a sign of mourning"
+  },
+  "چھڈ": {
+   "en": "leaving",
+   "pos": "verb",
+   "roman": "chhaḍ",
+   "base": "چھڈنا"
+  },
+  "تپیا": {
+   "en": "burned",
+   "pos": "verb",
+   "roman": "tapiyā",
+   "base": "تپنا"
+  },
+  "خون": {
+   "en": "blood",
+   "pos": "noun",
+   "roman": "khūn"
+  },
+  "اکھیں": {
+   "en": "from the eyes",
+   "pos": "noun",
+   "roman": "akkheṅ",
+   "base": "اکھ"
+  },
+  "پھٹ": {
+   "en": "bursting",
+   "pos": "verb",
+   "roman": "phaṭ",
+   "base": "پھٹنا"
+  },
+  "اویہا": {
+   "en": "such",
+   "pos": "adjective",
+   "roman": "vehā"
+  },
+  "لاوے": {
+   "en": "inflicts",
+   "pos": "verb",
+   "roman": "lāve",
+   "base": "لانا"
+  },
+  "بان": {
+   "en": "habit, way; arrow",
+   "pos": "noun",
+   "roman": "bāṇ"
+  },
+  "ایہا": {
+   "en": "this (very)",
+   "pos": "pronoun",
+   "roman": "ehā"
+  },
+  "لٹاں": {
+   "en": "locks of hair",
+   "pos": "noun",
+   "roman": "liṭāṅ",
+   "base": "لٹ",
+   "note": "loosening the hair: a sign of grief"
+  },
+  "باہروں": {
+   "en": "outside",
+   "pos": "adverb",
+   "roman": "bāhroṅ"
+  },
+  "گھریا": {
+   "en": "surrounded",
+   "pos": "verb",
+   "roman": "ghiriyā",
+   "base": "گھرنا"
+  },
+  "گروہ": {
+   "en": "crowd",
+   "pos": "noun",
+   "roman": "guroh"
+  },
+  "شتابی": {
+   "en": "quickly",
+   "pos": "adverb",
+   "roman": "shitābī"
+  },
+  "چھٹا": {
+   "en": "broke loose",
+   "pos": "verb",
+   "roman": "chhuṭṭā",
+   "base": "چھٹنا"
+  },
+  "پرواروں": {
+   "en": "from the halo; from the family",
+   "pos": "noun",
+   "roman": "parvāroṅ",
+   "base": "پروار",
+   "note": "the moon escaped its circle of stars"
+  },
+  "سانبھ": {
+   "en": "preserving, guarding",
+   "pos": "verb",
+   "roman": "sāmbh",
+   "base": "سانبھنا"
+  },
+  "تکدی": {
+   "en": "looks",
+   "pos": "verb",
+   "roman": "takdī",
+   "base": "تکنا"
+  },
+  "ہجر": {
+   "en": "separation",
+   "pos": "noun",
+   "roman": "hijr"
+  },
+  "دئیوں": {
+   "en": "of",
+   "pos": "postposition",
+   "roman": "diyoṅ"
+  },
+  "ماروں": {
+   "en": "by the stroke",
+   "pos": "noun",
+   "roman": "māroṅ",
+   "base": "مار"
+  },
+  "سہن": {
+   "en": "to bear",
+   "pos": "verb",
+   "roman": "sahan",
+   "base": "سہنا"
+  },
+  "بری": {
+   "en": "worse",
+   "pos": "adjective",
+   "roman": "burī"
+  },
+  "تلواروں": {
+   "en": "than swords",
+   "pos": "noun",
+   "roman": "talwāroṅ",
+   "base": "تلوار"
+  },
+  "دھوبن": {
+   "en": "washerwoman (her foster mother)",
+   "pos": "noun",
+   "roman": "dhoban"
+  },
+  "نصیحت": {
+   "en": "advice",
+   "pos": "noun",
+   "roman": "nasīhat"
+  },
+  "کردی": {
+   "en": "gives, does",
+   "pos": "verb",
+   "roman": "kardī",
+   "base": "کرنا"
+  },
+  "پو": {
+   "en": "take (to)",
+   "pos": "verb",
+   "roman": "pau",
+   "base": "پینا",
+   "note": "Uncertain: \"come child, go back\""
+  },
+  "راہیں": {
+   "en": "on paths",
+   "pos": "noun",
+   "roman": "rāheṅ",
+   "base": "راہ"
+  },
+  "کمینی": {
+   "en": "low-born",
+   "pos": "adjective",
+   "roman": "kamīnī"
+  },
+  "تدھ": {
+   "en": "you",
+   "pos": "pronoun",
+   "roman": "tudh"
+  },
+  "بھج": {
+   "en": "running",
+   "pos": "verb",
+   "roman": "bhajj",
+   "base": "بھجنا"
+  },
+  "دوڑیں": {
+   "en": "you run",
+   "pos": "verb",
+   "roman": "dauṛeṅ",
+   "base": "دوڑنا"
+  },
+  "لاج": {
+   "en": "shame, modesty",
+   "pos": "noun",
+   "roman": "lāj"
+  },
+  "اجے": {
+   "en": "still",
+   "pos": "adverb",
+   "roman": "aje"
+  },
+  "کیہے": {
+   "en": "what (kind of)",
+   "pos": "pronoun",
+   "roman": "kehe"
+  },
+  "پائے": {
+   "en": "brought upon",
+   "pos": "verb",
+   "roman": "pāe",
+   "base": "پانا"
+  },
+  "گھنڈ": {
+   "en": "brutes",
+   "pos": "noun",
+   "roman": "ghanḍ",
+   "note": "Uncertain: the Baloch as monsters"
+  },
+  "موڑ": {
+   "en": "turning (in reply)",
+   "pos": "verb",
+   "roman": "moṛ",
+   "base": "موڑنا"
+  },
+  "وین": {
+   "en": "laments",
+   "pos": "noun",
+   "roman": "vain"
+  },
+  "سدھائے": {
+   "en": "carried off",
+   "pos": "verb",
+   "roman": "sidhāe",
+   "base": "سدھانا"
+  },
+  "ہوندی": {
+   "en": "had there been",
+   "pos": "verb",
+   "roman": "hondī",
+   "base": "ہونا"
+  },
+  "شہزادے": {
+   "en": "the prince",
+   "pos": "noun",
+   "roman": "shahzāde",
+   "base": "شہزادہ"
+  },
+  "کد": {
+   "en": "when (never)",
+   "pos": "adverb",
+   "roman": "kad"
+  },
+  "واچے": {
+   "en": "reads, undergoes",
+   "pos": "verb",
+   "roman": "vāche",
+   "base": "واچنا",
+   "note": "one must live out what fate has written"
+  },
+  "میرا": {
+   "en": "my",
+   "pos": "pronoun",
+   "roman": "merā"
+  },
+  "مائے": {
+   "en": "O mother",
+   "pos": "noun",
+   "roman": "māe",
+   "base": "ماں"
+  },
+  "مڑ": {
+   "en": "turn back",
+   "pos": "verb",
+   "roman": "muṛ",
+   "base": "مڑنا"
+  },
+  "ایسی": {
+   "en": "such",
+   "pos": "adjective",
+   "roman": "aisī"
+  },
+  "رہسی": {
+   "en": "will remain",
+   "pos": "verb",
+   "roman": "rahsī",
+   "base": "رہنا"
+  },
+  "سمیں": {
+   "en": "at the time",
+   "pos": "noun",
+   "roman": "sameṅ",
+   "base": "سماں",
+   "note": "ant sameṅ: in the end"
+  },
+  "لیسی": {
+   "en": "will take",
+   "pos": "verb",
+   "roman": "lesī",
+   "base": "لینا"
+  },
+  "لہاں": {
+   "en": "will come (seeking)",
+   "pos": "verb",
+   "roman": "lahāṅ",
+   "note": "Uncertain"
+  },
+  "پیسی": {
+   "en": "will fall, set (back)",
+   "pos": "verb",
+   "roman": "pesī",
+   "base": "پینا"
+  },
+  "ملیاں": {
+   "en": "meeting",
+   "pos": "verb",
+   "roman": "miliyāṅ",
+   "base": "ملنا"
+  },
+  "چاٹ": {
+   "en": "craving",
+   "pos": "noun",
+   "roman": "chāṭ"
+  },
+  "لگی": {
+   "en": "has struck",
+   "pos": "verb",
+   "roman": "lagī",
+   "base": "لگنا"
+  },
+  "کیسی": {
+   "en": "what kind of",
+   "pos": "pronoun",
+   "roman": "kaisī"
+  },
+  "مڑن": {
+   "en": "to turn back",
+   "pos": "verb",
+   "roman": "muṛan",
+   "base": "مڑنا"
+  },
+  "پچھانہہ": {
+   "en": "back",
+   "pos": "adverb",
+   "roman": "pichhāṅh"
+  },
+  "دیندے": {
+   "en": "let",
+   "pos": "verb",
+   "roman": "dende",
+   "base": "دینا"
+  },
+  "شالا": {
+   "en": "may God grant",
+   "pos": "interjection",
+   "roman": "shālā"
+  },
+  "دکھیے": {
+   "en": "the grieving",
+   "pos": "adjective",
+   "roman": "dukhiye"
+  },
+  "کیڈک": {
+   "en": "how great",
+   "pos": "adjective",
+   "roman": "keḍak"
+  },
+  "ملائے": {
+   "en": "unites",
+   "pos": "verb",
+   "roman": "milāe",
+   "base": "ملانا"
+  },
+  "دھیا": {
+   "en": "daughter",
+   "pos": "noun",
+   "roman": "dhīyā",
+   "base": "دھی"
+  },
+  "زورا": {
+   "en": "force",
+   "pos": "noun",
+   "roman": "zorā"
+  },
+  "بدیسیں": {
+   "en": "with foreigners",
+   "pos": "noun",
+   "roman": "badeseṅ",
+   "base": "بدیسی"
+  },
+  "بال": {
+   "en": "children",
+   "pos": "noun",
+   "roman": "bāl"
+  },
+  "ایانے": {
+   "en": "innocent, ignorant",
+   "pos": "adjective",
+   "roman": "iyāṇe"
+  },
+  "وچار": {
+   "en": "consider",
+   "pos": "verb",
+   "roman": "vichār",
+   "base": "وچارنا"
+  },
+  "دھگانے": {
+   "en": "forced upon",
+   "pos": "adjective",
+   "roman": "dhagāne",
+   "note": "Uncertain: \"what blame on whom by force\""
+  },
+  "آکھے": {
+   "en": "says",
+   "pos": "verb",
+   "roman": "ākhe",
+   "base": "آکھنا"
+  },
+  "چڑھ": {
+   "en": "climb, rise to",
+   "pos": "verb",
+   "roman": "chaṛh",
+   "base": "چڑھنا"
+  },
+  "چیہے": {
+   "en": "frenzy, zeal",
+   "pos": "noun",
+   "roman": "chīhe"
+  },
+  "دیوانی": {
+   "en": "crazed girl",
+   "pos": "noun",
+   "roman": "dīwānī"
+  },
+  "ہن": {
+   "en": "now",
+   "pos": "adverb",
+   "roman": "hun"
+  },
+  "ملسیں": {
+   "en": "will you meet",
+   "pos": "verb",
+   "roman": "milseṅ",
+   "base": "ملنا"
+  },
+  "پیریں": {
+   "en": "on foot",
+   "pos": "noun",
+   "roman": "paireṅ",
+   "base": "پیر"
+  },
+  "ترن": {
+   "en": "crossing",
+   "pos": "verb",
+   "roman": "taran",
+   "base": "ترنا"
+  },
+  "بیگانی": {
+   "en": "stranger (girl)",
+   "pos": "adjective",
+   "roman": "begānī"
+  },
+  "سولی": {
+   "en": "stake, gallows",
+   "pos": "noun",
+   "roman": "sūlī"
+  },
+  "سار": {
+   "en": "like",
+   "pos": "postposition",
+   "roman": "sār"
+  },
+  "اگے": {
+   "en": "ahead",
+   "pos": "adverb",
+   "roman": "agge"
+  },
+  "مارو": {
+   "en": "Maru (the desert)",
+   "pos": "proper noun",
+   "roman": "Mārū",
+   "note": "thal mārū: the Thar desert"
+  },
+  "مریں": {
+   "en": "you'll die",
+   "pos": "verb",
+   "roman": "mareṅ",
+   "base": "مرنا"
+  },
+  "پانی": {
+   "en": "water",
+   "pos": "noun",
+   "roman": "pāṇī"
+  },
+  "اکیلی": {
+   "en": "alone",
+   "pos": "adjective",
+   "roman": "akelī"
+  },
+  "بر": {
+   "en": "wilderness",
+   "pos": "noun",
+   "roman": "bar"
+  },
+  "گاہ": {
+   "en": "place",
+   "pos": "noun",
+   "roman": "gāh"
+  },
+  "بیابانی": {
+   "en": "desolate",
+   "pos": "adjective",
+   "roman": "biyābānī"
+  },
+  "روں": {
+   "en": "I stay",
+   "pos": "verb",
+   "roman": "rauṅ",
+   "base": "رہنا",
+   "note": "Uncertain"
+  },
+  "ایویں": {
+   "en": "thus, like this",
+   "pos": "adverb",
+   "roman": "eveṅ"
+  },
+  "پرواہ": {
+   "en": "care, concern",
+   "pos": "noun",
+   "roman": "parwāh"
+  },
+  "پتنگ": {
+   "en": "moth",
+   "pos": "noun",
+   "roman": "pataṅg",
+   "note": "the moth that dies in the candle flame"
+  },
+  "مفت": {
+   "en": "needlessly",
+   "pos": "adverb",
+   "roman": "muft"
+  },
+  "برہا": {
+   "en": "love-longing",
+   "pos": "noun",
+   "roman": "birhā"
+  },
+  "مردے": {
+   "en": "die",
+   "pos": "verb",
+   "roman": "marde",
+   "base": "مرنا"
+  },
+  "ترساں": {
+   "en": "I'll cross",
+   "pos": "verb",
+   "roman": "tarsāṅ",
+   "base": "ترنا"
+  },
+  "ڈرساں": {
+   "en": "I'll fear",
+   "pos": "verb",
+   "roman": "ḍarsāṅ",
+   "base": "ڈرنا"
+  },
+  "راہوں": {
+   "en": "of the road",
+   "pos": "noun",
+   "roman": "rāhoṅ",
+   "base": "راہ"
+  },
+  "تلی": {
+   "en": "palm (of the hand)",
+   "pos": "noun",
+   "roman": "talī",
+   "note": "life on the palm: ready to die"
+  },
+  "دھرساں": {
+   "en": "I'll place",
+   "pos": "verb",
+   "roman": "dharsāṅ",
+   "base": "دھرنا"
+  },
+  "جب": {
+   "en": "when",
+   "pos": "conjunction",
+   "roman": "jab"
+  },
+  "لگ": {
+   "en": "until",
+   "pos": "postposition",
+   "roman": "lag"
+  },
+  "ساس": {
+   "en": "breath",
+   "pos": "noun",
+   "roman": "sās"
+  },
+  "نراس": {
+   "en": "hopeless, spent",
+   "pos": "adjective",
+   "roman": "nirās"
+  },
+  "سنسی": {
+   "en": "will hear",
+   "pos": "verb",
+   "roman": "suṇsī",
+   "base": "سننا"
+  },
+  "ملاں": {
+   "en": "I'll meet",
+   "pos": "verb",
+   "roman": "milāṅ",
+   "base": "ملنا"
+  },
+  "پگ": {
+   "en": "feet; step",
+   "pos": "noun",
+   "roman": "pag"
+  },
+  "پھڑساں": {
+   "en": "I'll clasp",
+   "pos": "verb",
+   "roman": "phaṛsāṅ",
+   "base": "پھڑنا"
+  },
+  "شہید": {
+   "en": "martyr",
+   "pos": "noun",
+   "roman": "shahīd"
+  },
+  "ہویساں": {
+   "en": "I will become",
+   "pos": "verb",
+   "roman": "hovsāṅ",
+   "base": "ہونا"
+  },
+  "مرساں": {
+   "en": "I'll die",
+   "pos": "verb",
+   "roman": "marsāṅ",
+   "base": "مرنا"
+  },
+  "پندھ": {
+   "en": "journey",
+   "pos": "noun",
+   "roman": "pandh"
+  },
+  "بندھن": {
+   "en": "bonds",
+   "pos": "noun",
+   "roman": "bandhan"
+  },
+  "ٹٹ": {
+   "en": "broke",
+   "pos": "verb",
+   "roman": "ṭuṭṭ",
+   "base": "ٹٹنا"
+  },
+  "ڈور": {
+   "en": "string",
+   "pos": "noun",
+   "roman": "ḍor"
+  },
+  "پتنگوں": {
+   "en": "from the kite",
+   "pos": "noun",
+   "roman": "pataṅgoṅ",
+   "base": "پتنگ"
+  },
+  "دھردی": {
+   "en": "set (foot)",
+   "pos": "verb",
+   "roman": "dhardī",
+   "base": "دھرنا"
+  },
+  "بہوں": {
+   "en": "ever, much",
+   "pos": "adverb",
+   "roman": "bahoṅ"
+  },
+  "پرپیر": {
+   "en": "foot beyond",
+   "pos": "noun",
+   "roman": "par-pair",
+   "note": "Uncertain: never stepped off her bed before"
+  },
+  "پلنگوں": {
+   "en": "from the bed; than leopards",
+   "pos": "noun",
+   "roman": "palaṅgoṅ",
+   "base": "پلنگ"
+  },
+  "سدھائی": {
+   "en": "set off",
+   "pos": "verb",
+   "roman": "sidhāī",
+   "base": "سدھانا"
+  },
+  "دانوں": {
+   "en": "more fiercely than",
+   "pos": "adverb",
+   "roman": "dānoṅ",
+   "note": "Uncertain"
+  },
+  "جاس": {
+   "en": "goes",
+   "pos": "verb",
+   "roman": "jās",
+   "base": "جانا"
+  },
+  "خلاصی": {
+   "en": "release",
+   "pos": "noun",
+   "roman": "khalāsī"
+  },
+  "فرنگوں": {
+   "en": "from the Firangis (Europeans)",
+   "pos": "proper noun",
+   "roman": "Farangoṅ",
+   "base": "فرنگی",
+   "note": "like release from a Firangi prison"
+  },
+  "اسباب": {
+   "en": "provisions",
+   "pos": "noun",
+   "roman": "asbāb"
+  },
+  "کیوں": {
+   "en": "because",
+   "pos": "conjunction",
+   "roman": "kiyoṅ"
+  },
+  "خطر": {
+   "en": "danger",
+   "pos": "noun",
+   "roman": "khatar"
+  },
+  "خوراک": {
+   "en": "food",
+   "pos": "noun",
+   "roman": "khurāk"
+  },
+  "کلیجہ": {
+   "en": "heart (liver)",
+   "pos": "noun",
+   "roman": "kalejā",
+   "note": "her food: her own heart"
+  },
+  "راہبر": {
+   "en": "guide",
+   "pos": "noun",
+   "roman": "rāhbar"
+  },
+  "سرخی": {
+   "en": "redness",
+   "pos": "noun",
+   "roman": "surkhī"
+  },
+  "جنون": {
+   "en": "madness",
+   "pos": "noun",
+   "roman": "junūn"
+  },
+  "قمر": {
+   "en": "moon",
+   "pos": "noun",
+   "roman": "qamar"
+  },
+  "چمکی": {
+   "en": "blazed",
+   "pos": "verb",
+   "roman": "chamkī",
+   "base": "چمکنا"
+  },
+  "دوپہراں": {
+   "en": "noon",
+   "pos": "noun",
+   "roman": "dupahrāṅ",
+   "base": "دوپہر"
+  },
+  "گرمی": {
+   "en": "heat",
+   "pos": "noun",
+   "roman": "garmī"
+  },
+  "بہارے": {
+   "en": "in full blaze",
+   "pos": "noun",
+   "roman": "bahāre",
+   "base": "بہار",
+   "note": "Uncertain: \"the heat at its height\""
+  },
+  "تپدی": {
+   "en": "scorching",
+   "pos": "adjective",
+   "roman": "tapdī",
+   "base": "تپنا"
+  },
+  "وگے": {
+   "en": "blows",
+   "pos": "verb",
+   "roman": "vagge",
+   "base": "وگنا"
+  },
+  "اسمانے": {
+   "en": "in the sky",
+   "pos": "noun",
+   "roman": "asmāne",
+   "base": "اسمان"
+  },
+  "پنچھی": {
+   "en": "birds",
+   "pos": "noun",
+   "roman": "pañchhī"
+  },
+  "کھلوتا": {
+   "en": "stood",
+   "pos": "verb",
+   "roman": "khalotā",
+   "base": "کھلونا"
+  },
+  "لوں": {
+   "en": "every hair, pore",
+   "pos": "noun",
+   "roman": "lūṅ",
+   "note": "lūṅ lūṅ: with every pore"
+  },
+  "پکارے": {
+   "en": "cries out",
+   "pos": "verb",
+   "roman": "pukāre",
+   "base": "پکارنا"
+  },
+  "نازک": {
+   "en": "delicate",
+   "pos": "adjective",
+   "roman": "nāzuk"
+  },
+  "ملوک": {
+   "en": "tender",
+   "pos": "adjective",
+   "roman": "malūk"
+  },
+  "مہندی": {
+   "en": "henna",
+   "pos": "noun",
+   "roman": "mehndī"
+  },
+  "سنگارے": {
+   "en": "adorned",
+   "pos": "verb",
+   "roman": "singāre",
+   "base": "سنگارنا"
+  },
+  "بہے": {
+   "en": "sat (down)",
+   "pos": "verb",
+   "roman": "bahe",
+   "base": "بہنا"
+  },
+  "جی": {
+   "en": "life, heart",
+   "pos": "noun",
+   "roman": "jī"
+  },
+  "وارے": {
+   "en": "sacrifice",
+   "pos": "verb",
+   "roman": "vāre",
+   "base": "وارنا"
+  },
+  "بالو": {
+   "en": "sand",
+   "pos": "noun",
+   "roman": "bālū"
+  },
+  "ریت": {
+   "en": "sand",
+   "pos": "noun",
+   "roman": "ret"
+  },
+  "تپے": {
+   "en": "heated",
+   "pos": "verb",
+   "roman": "tape",
+   "base": "تپنا"
+  },
+  "تڑکن": {
+   "en": "crackle, blister",
+   "pos": "verb",
+   "roman": "taṛkan",
+   "base": "تڑکنا"
+  },
+  "بھنن": {
+   "en": "roast",
+   "pos": "verb",
+   "roman": "bhunan",
+   "base": "بھننا"
+  },
+  "جوں": {
+   "en": "like",
+   "pos": "postposition",
+   "roman": "jūṅ"
+  },
+  "بھٹھیارے": {
+   "en": "grain-roasters",
+   "pos": "noun",
+   "roman": "bhaṭhiyāre",
+   "base": "بھٹھیارا",
+   "note": "her feet roast like grain in a roaster's sand"
+  },
+  "یقین": {
+   "en": "faith, resolve",
+   "pos": "noun",
+   "roman": "yaqīn"
+  },
+  "تپش": {
+   "en": "heat",
+   "pos": "noun",
+   "roman": "tapish"
+  },
+  "ڈاڈھ": {
+   "en": "firmness",
+   "pos": "noun",
+   "roman": "ḍāḍh"
+  },
+  "ہٹھ": {
+   "en": "resolve, stubbornness",
+   "pos": "noun",
+   "roman": "haṭh"
+  },
+  "وہانی": {
+   "en": "passed; became too much",
+   "pos": "verb",
+   "roman": "vihānī",
+   "base": "وہانا"
+  },
+  "کچرک": {
+   "en": "how long",
+   "pos": "adverb",
+   "roman": "kacharak"
+  },
+  "دلبریاں": {
+   "en": "comforts, courage",
+   "pos": "noun",
+   "roman": "dilbariyāṅ",
+   "base": "دلبری"
+  },
+  "چوہن": {
+   "en": "drip",
+   "pos": "verb",
+   "roman": "chovan",
+   "base": "چونا"
+  },
+  "لباں": {
+   "en": "lips",
+   "pos": "noun",
+   "roman": "labāṅ",
+   "base": "لب"
+  },
+  "گیا": {
+   "en": "went, broke",
+   "pos": "verb",
+   "roman": "giyā",
+   "base": "جانا"
+  },
+  "نمانی": {
+   "en": "humble, helpless girl",
+   "pos": "adjective",
+   "roman": "nimāṇī"
+  },
+  "جاناں": {
+   "en": "had I known",
+   "pos": "verb",
+   "roman": "jāṇāṅ",
+   "base": "جاننا"
+  },
+  "جاہن": {
+   "en": "they would go",
+   "pos": "verb",
+   "roman": "jāhan",
+   "base": "جانا"
+  },
+  "ستی": {
+   "en": "sleeping",
+   "pos": "adjective",
+   "roman": "suttī",
+   "base": "سونا"
+  },
+  "جھمکاں": {
+   "en": "I would blink",
+   "pos": "verb",
+   "roman": "jhamkāṅ",
+   "base": "جھمکنا"
+  },
+  "گرد": {
+   "en": "dust",
+   "pos": "noun",
+   "roman": "gard"
+  },
+  "دمکاں": {
+   "en": "I glitter; gleams",
+   "pos": "verb",
+   "roman": "damkāṅ",
+   "base": "دمکنا"
+  },
+  "دیہن": {
+   "en": "appear",
+   "pos": "verb",
+   "roman": "dehan"
+  },
+  "دکھالی": {
+   "en": "visible",
+   "pos": "adjective",
+   "roman": "dikhālī"
+  },
+  "چمکاں": {
+   "en": "glimmers (mirages)",
+   "pos": "noun",
+   "roman": "chamkāṅ",
+   "base": "چمک",
+   "note": "the desert mirage looks like water"
+  },
+  "وکھالن": {
+   "en": "to show",
+   "pos": "verb",
+   "roman": "vikhālan",
+   "base": "وکھانا"
+  },
+  "اوکھی": {
+   "en": "hard",
+   "pos": "adjective",
+   "roman": "aukhī"
+  },
+  "تانگھ": {
+   "en": "longing",
+   "pos": "noun",
+   "roman": "tāṅgh"
+  },
+  "بےانصاف": {
+   "en": "unjust",
+   "pos": "adjective",
+   "roman": "be-insāf"
+  },
+  "دردی": {
+   "en": "feeling (be-dardī: heartless)",
+   "pos": "noun",
+   "roman": "dardī"
+  },
+  "وگدی": {
+   "en": "walking on",
+   "pos": "verb",
+   "roman": "vagdī",
+   "base": "وگنا"
+  },
+  "ڈھیندی": {
+   "en": "falling",
+   "pos": "verb",
+   "roman": "ḍhendī",
+   "base": "ڈھینا"
+  },
+  "بہندی": {
+   "en": "sitting",
+   "pos": "verb",
+   "roman": "bahndī",
+   "base": "بہنا"
+  },
+  "اٹھدی": {
+   "en": "rising",
+   "pos": "verb",
+   "roman": "uṭhdī",
+   "base": "اٹھنا"
+  },
+  "لیندی": {
+   "en": "taking (breath)",
+   "pos": "verb",
+   "roman": "lendī",
+   "base": "لینا"
+  },
+  "ٹوٹ": {
+   "en": "withdrawal, craving",
+   "pos": "noun",
+   "roman": "ṭoṭ",
+   "note": "like one craving after wine"
+  },
+  "ویہندی": {
+   "en": "looks",
+   "pos": "verb",
+   "roman": "vehndī",
+   "base": "ویکھنا"
+  },
+  "ڈھونڈے": {
+   "en": "searches",
+   "pos": "verb",
+   "roman": "ḍhūṇḍe",
+   "base": "ڈھونڈنا"
+  },
+  "کھوج": {
+   "en": "track, footprints",
+   "pos": "noun",
+   "roman": "khoj"
+  },
+  "کت": {
+   "en": "which",
+   "pos": "pronoun",
+   "roman": "kit",
+   "note": "kit val: in which direction"
+  },
+  "بھال": {
+   "en": "search",
+   "pos": "noun",
+   "roman": "bhāl"
+  },
+  "پیندی": {
+   "en": "falls, comes to her",
+   "pos": "verb",
+   "roman": "pendī",
+   "base": "پینا"
+  },
+  "گانویں": {
+   "en": "sing (of it)",
+   "pos": "verb",
+   "roman": "gāveṅ",
+   "base": "گانا"
+  },
+  "سپورن": {
+   "en": "complete",
+   "pos": "adjective",
+   "roman": "sapūran"
+  },
+  "جیندی": {
+   "en": "whose",
+   "pos": "pronoun",
+   "roman": "jendī"
+  },
+  "ملیا": {
+   "en": "was found, met",
+   "pos": "verb",
+   "roman": "miliyā",
+   "base": "ملنا"
+  },
+  "خضر": {
+   "en": "Khizr",
+   "pos": "proper noun",
+   "roman": "Khizr",
+   "note": "the immortal guide who found the water of life"
+  },
+  "نور": {
+   "en": "light",
+   "pos": "noun",
+   "roman": "nūr"
+  },
+  "دارو": {
+   "en": "remedy",
+   "pos": "noun",
+   "roman": "dārū"
+  },
+  "بلک": {
+   "en": "rather",
+   "pos": "conjunction",
+   "roman": "balak",
+   "note": "Uncertain: read as balki"
+  },
+  "قاصد": {
+   "en": "messenger",
+   "pos": "noun",
+   "roman": "qāsid"
+  },
+  "مت": {
+   "en": "lest",
+   "pos": "conjunction",
+   "roman": "mat"
+  },
+  "مٹ": {
+   "en": "be erased",
+   "pos": "verb",
+   "roman": "miṭ",
+   "base": "مٹنا"
+  },
+  "دیکھ": {
+   "en": "looking",
+   "pos": "verb",
+   "roman": "dekh",
+   "base": "دیکھنا"
+  },
+  "رہی": {
+   "en": "kept (on)",
+   "pos": "verb",
+   "roman": "rahī",
+   "base": "رہنا"
+  },
+  "نظری": {
+   "en": "in sight",
+   "pos": "noun",
+   "roman": "nazrī"
+  },
+  "وساہ": {
+   "en": "trust",
+   "pos": "noun",
+   "roman": "visāh"
+  },
+  "چھل": {
+   "en": "deceive",
+   "pos": "verb",
+   "roman": "chhal",
+   "base": "چھلنا"
+  },
+  "کاکا": {
+   "en": "Kaka (the shepherd's name)",
+   "pos": "proper noun",
+   "roman": "Kākā"
+  },
+  "ایالی": {
+   "en": "shepherd",
+   "pos": "noun",
+   "roman": "ayālī"
+  },
+  "گرو": {
+   "en": "flock",
+   "pos": "noun",
+   "roman": "garo",
+   "note": "Uncertain"
+  },
+  "چر": {
+   "en": "grazing",
+   "pos": "verb",
+   "roman": "char",
+   "base": "چرنا"
+  },
+  "دوروں": {
+   "en": "from afar",
+   "pos": "adverb",
+   "roman": "dūroṅ"
+  },
+  "انچر": {
+   "en": "flock",
+   "pos": "noun",
+   "roman": "añchar",
+   "note": "Uncertain"
+  },
+  "پھڑیوس": {
+   "en": "he took",
+   "pos": "verb",
+   "roman": "phaṛiyus",
+   "base": "پھڑنا"
+  },
+  "ادھر": {
+   "en": "that way",
+   "pos": "adverb",
+   "roman": "udhar"
+  },
+  "جاوس": {
+   "en": "his (heart) goes",
+   "pos": "verb",
+   "roman": "jāvus",
+   "base": "جانا"
+  },
+  "ڈریا": {
+   "en": "was afraid",
+   "pos": "verb",
+   "roman": "ḍariyā",
+   "base": "ڈرنا"
+  },
+  "زنانی": {
+   "en": "woman",
+   "pos": "noun",
+   "roman": "zanānī"
+  },
+  "بچاوے": {
+   "en": "saves",
+   "pos": "verb",
+   "roman": "bachāve",
+   "base": "بچانا"
+  },
+  "الٹے": {
+   "en": "upside-down, ill-starred",
+   "pos": "adjective",
+   "roman": "ulṭe"
+  },
+  "الٹی": {
+   "en": "turned wrong",
+   "pos": "adjective",
+   "roman": "ulṭī"
+  },
+  "ساڑ": {
+   "en": "scorching",
+   "pos": "verb",
+   "roman": "sāṛ",
+   "base": "ساڑنا"
+  },
+  "انجانن": {
+   "en": "ignorant, innocent",
+   "pos": "adjective",
+   "roman": "anjāṇan",
+   "note": "Uncertain"
+  },
+  "تھوڑی": {
+   "en": "little, scant",
+   "pos": "adjective",
+   "roman": "thoṛī"
+  },
+  "پچھا": {
+   "en": "back",
+   "pos": "noun",
+   "roman": "pichhā",
+   "note": "Uncertain: she turned back to the track"
+  },
+  "چلی": {
+   "en": "went",
+   "pos": "verb",
+   "roman": "chalī",
+   "base": "چلنا"
+  },
+  "کوڑی": {
+   "en": "bitter",
+   "pos": "adjective",
+   "roman": "kauṛī"
+  },
+  "پکڑے": {
+   "en": "catch",
+   "pos": "verb",
+   "roman": "pakṛe",
+   "base": "پکڑنا"
+  },
+  "پوڑی": {
+   "en": "ladder",
+   "pos": "noun",
+   "roman": "pauṛī"
+  },
+  "ترلے": {
+   "en": "entreaties",
+   "pos": "noun",
+   "roman": "tarle",
+   "base": "ترلا"
+  },
+  "جتن": {
+   "en": "efforts",
+   "pos": "noun",
+   "roman": "jatan"
+  },
+  "پوہتی": {
+   "en": "reached",
+   "pos": "verb",
+   "roman": "pohtī",
+   "base": "پہنچنا"
+  },
+  "توڑی": {
+   "en": "until, to the end",
+   "pos": "postposition",
+   "roman": "toṛī"
+  },
+  "ٹٹدی": {
+   "en": "breaking",
+   "pos": "verb",
+   "roman": "ṭuṭdī",
+   "base": "ٹٹنا"
+  },
+  "گئیاں": {
+   "en": "went (forth)",
+   "pos": "verb",
+   "roman": "gaiyāṅ",
+   "base": "جانا"
+  },
+  "چھٹ": {
+   "en": "bursting out",
+   "pos": "verb",
+   "roman": "chhuṭ",
+   "base": "چھٹنا"
+  },
+  "آہیں": {
+   "en": "sighs",
+   "pos": "noun",
+   "roman": "āheṅ",
+   "base": "آہ"
+  },
+  "قیامت": {
+   "en": "the Day of Judgment",
+   "pos": "noun",
+   "roman": "qiyāmat"
+  },
+  "مرن": {
+   "en": "may (they) die",
+   "pos": "verb",
+   "roman": "maran",
+   "base": "مرنا"
+  },
+  "لون": {
+   "en": "salt",
+   "pos": "noun",
+   "roman": "lūṇ"
+  },
+  "طرح": {
+   "en": "like",
+   "pos": "noun",
+   "roman": "tarah"
+  },
+  "کھر": {
+   "en": "dissolving",
+   "pos": "verb",
+   "roman": "khur",
+   "base": "کھرنا",
+   "note": "khur khur: melting away like salt"
+  },
+  "کوکاں": {
+   "en": "cries",
+   "pos": "noun",
+   "roman": "kūkāṅ",
+   "base": "کوک"
+  },
+  "پتھر": {
+   "en": "stones",
+   "pos": "noun",
+   "roman": "patthar"
+  },
+  "ڈھل": {
+   "en": "melt",
+   "pos": "verb",
+   "roman": "ḍhal",
+   "base": "ڈھلنا"
+  },
+  "کھڑیا": {
+   "en": "carried off",
+   "pos": "verb",
+   "roman": "khaṛiyā",
+   "base": "کھڑنا"
+  },
+  "مر": {
+   "en": "dying",
+   "pos": "verb",
+   "roman": "mar",
+   "base": "مرنا"
+  },
+  "نیر": {
+   "en": "water, tears",
+   "pos": "noun",
+   "roman": "nīr"
+  },
+  "تخم": {
+   "en": "seed, progeny",
+   "pos": "noun",
+   "roman": "tukhm"
+  },
+  "زمینوں": {
+   "en": "from the earth",
+   "pos": "noun",
+   "roman": "zamīnoṅ",
+   "base": "زمین"
+  },
+  "توبہ": {
+   "en": "repentance",
+   "pos": "noun",
+   "roman": "tauba"
+  },
+  "ادبی": {
+   "en": "courtesy (be-adabī: disrespect)",
+   "pos": "noun",
+   "roman": "adabī"
+  },
+  "اسواری": {
+   "en": "ride",
+   "pos": "noun",
+   "roman": "aswārī"
+  },
+  "جیڈ": {
+   "en": "as great as",
+   "pos": "adjective",
+   "roman": "jeḍ"
+  },
+  "نکرمن": {
+   "en": "ill-fated woman",
+   "pos": "noun",
+   "roman": "nikarman"
+  },
+  "ڈھوئی": {
+   "en": "refuge",
+   "pos": "noun",
+   "roman": "ḍhoī"
+  },
+  "کونت": {
+   "en": "husband, beloved",
+   "pos": "noun",
+   "roman": "kaunt"
+  },
+  "سہاگن": {
+   "en": "happily married woman",
+   "pos": "noun",
+   "roman": "suhāgan"
+  },
+  "سوئی": {
+   "en": "she (and she alone)",
+   "pos": "pronoun",
+   "roman": "soī"
+  },
+  "غش": {
+   "en": "faint",
+   "pos": "noun",
+   "roman": "ghash"
+  },
+  "رہو": {
+   "en": "stay, be",
+   "pos": "verb",
+   "roman": "raho",
+   "base": "رہنا"
+  },
+  "گوائی": {
+   "en": "lost",
+   "pos": "verb",
+   "roman": "gavāī",
+   "base": "گوانا"
+  },
+  "اکسے": {
+   "en": "in a single (breath)",
+   "pos": "adjective",
+   "roman": "ikse",
+   "base": "اک"
+  },
+  "شکرانے": {
+   "en": "thanksgivings",
+   "pos": "noun",
+   "roman": "shukrāne",
+   "base": "شکرانہ"
+  },
+  "رہ": {
+   "en": "way",
+   "pos": "noun",
+   "roman": "rah",
+   "base": "راہ"
+  },
+  "دھیان": {
+   "en": "thought",
+   "pos": "noun",
+   "roman": "dhiyān"
+  },
+  "سوچ": {
+   "en": "thinking",
+   "pos": "noun",
+   "roman": "soch"
+  },
+  "ڈگ": {
+   "en": "fallen",
+   "pos": "verb",
+   "roman": "ḍigg",
+   "base": "ڈگنا"
+  },
+  "اینویں": {
+   "en": "thus, like that",
+   "pos": "adverb",
+   "roman": "enveṅ"
+  },
+  "ہلدی": {
+   "en": "moves",
+   "pos": "verb",
+   "roman": "hildī",
+   "base": "ہلنا"
+  },
+  "ویکھاں": {
+   "en": "let me see",
+   "pos": "verb",
+   "roman": "vekhāṅ",
+   "base": "ویکھنا"
+  },
+  "ڈرنا": {
+   "en": "fear",
+   "pos": "verb",
+   "roman": "ḍarnā"
+  },
+  "ٹلدی": {
+   "en": "is averted",
+   "pos": "verb",
+   "roman": "ṭaldī",
+   "base": "ٹلنا",
+   "note": "what must happen cannot be averted"
+  },
+  "اجڑ": {
+   "en": "flock",
+   "pos": "noun",
+   "roman": "ijaṛ"
+  },
+  "چڑھیوس": {
+   "en": "rose in him",
+   "pos": "verb",
+   "roman": "chaṛhiyus",
+   "base": "چڑھنا"
+  },
+  "دلوں": {
+   "en": "from the heart",
+   "pos": "noun",
+   "roman": "diloṅ",
+   "base": "دل"
+  },
+  "فانی": {
+   "en": "transient",
+   "pos": "adjective",
+   "roman": "fānī"
+  },
+  "فقیری": {
+   "en": "the dervish's path",
+   "pos": "noun",
+   "roman": "faqīrī"
+  },
+  "گور": {
+   "en": "grave",
+   "pos": "noun",
+   "roman": "gor"
+  },
+  "نمانے": {
+   "en": "humble, forlorn",
+   "pos": "adjective",
+   "roman": "nimāṇe"
+  },
+  "کفنی": {
+   "en": "dervish's cloak",
+   "pos": "noun",
+   "roman": "kafnī",
+   "note": "a shroud-like garment worn by ascetics"
+  },
+  "برہنہ": {
+   "en": "bare",
+   "pos": "adjective",
+   "roman": "barahna"
+  },
+  "بیٹھا": {
+   "en": "sat",
+   "pos": "verb",
+   "roman": "baiṭhā",
+   "base": "بہنا"
+  },
+  "سرہانے": {
+   "en": "at the head (of the grave)",
+   "pos": "noun",
+   "roman": "sirhāne",
+   "base": "سرہانا"
+  },
+  "خاص": {
+   "en": "true, special",
+   "pos": "adjective",
+   "roman": "khās"
+  },
+  "ایہو": {
+   "en": "this very",
+   "pos": "pronoun",
+   "roman": "eho"
+  },
+  "اڈیا": {
+   "en": "flew",
+   "pos": "verb",
+   "roman": "uḍiyā",
+   "base": "اڈنا"
+  },
+  "سفنے": {
+   "en": "in a dream",
+   "pos": "noun",
+   "roman": "supne",
+   "base": "سفنا"
+  },
+  "جگایا": {
+   "en": "woke",
+   "pos": "verb",
+   "roman": "jagāyā",
+   "base": "جگانا"
+  },
+  "سنگ": {
+   "en": "with",
+   "pos": "postposition",
+   "roman": "saṅg"
+  },
+  "قول": {
+   "en": "word",
+   "pos": "noun",
+   "roman": "qaul"
+  },
+  "قرار": {
+   "en": "promise",
+   "pos": "noun",
+   "roman": "qarār"
+  },
+  "نبھایا": {
+   "en": "kept",
+   "pos": "verb",
+   "roman": "nibhāyā",
+   "base": "نبھانا"
+  },
+  "رخصت": {
+   "en": "leave, farewell",
+   "pos": "noun",
+   "roman": "rukhsat"
+  },
+  "اٹکی": {
+   "en": "broke off",
+   "pos": "verb",
+   "roman": "uṭkī"
+  },
+  "جلدی": {
+   "en": "hastily",
+   "pos": "adverb",
+   "roman": "jaldī"
+  },
+  "کچاوے": {
+   "en": "camel litter",
+   "pos": "noun",
+   "roman": "kachāve",
+   "base": "کچاوا"
+  },
+  "محل": {
+   "en": "palace",
+   "pos": "noun",
+   "roman": "mahal"
+  },
+  "سہاوے": {
+   "en": "pleasant",
+   "pos": "adjective",
+   "roman": "suhāve"
+  },
+  "اچانک": {
+   "en": "suddenly",
+   "pos": "adverb",
+   "roman": "achānak"
+  },
+  "کری": {
+   "en": "she-camel",
+   "pos": "noun",
+   "roman": "karī"
+  },
+  "مڑیا": {
+   "en": "turned back",
+   "pos": "verb",
+   "roman": "muṛiyā",
+   "base": "مڑنا"
+  },
+  "تیں": {
+   "en": "you",
+   "pos": "pronoun",
+   "roman": "taiṅ",
+   "note": "taiṅ bin: without you"
+  },
+  "نابینا": {
+   "en": "blind",
+   "pos": "adjective",
+   "roman": "nābīnā",
+   "note": "as Jacob wept blind for Joseph"
+  },
+  "سڑیا": {
+   "en": "burned (in grief)",
+   "pos": "verb",
+   "roman": "saṛiyā",
+   "base": "سڑنا"
+  },
+  "اگ": {
+   "en": "fire",
+   "pos": "noun",
+   "roman": "agg"
+  },
+  "بھڑکے": {
+   "en": "blazes",
+   "pos": "verb",
+   "roman": "bhaṛke",
+   "base": "بھڑکنا"
+  },
+  "کہندی": {
+   "en": "says",
+   "pos": "verb",
+   "roman": "kahndī",
+   "base": "کہنا"
+  },
+  "پتا": {
+   "en": "father",
+   "pos": "noun",
+   "roman": "pitā"
+  },
+  "مویاں": {
+   "en": "the dead",
+   "pos": "noun",
+   "roman": "moiyāṅ",
+   "base": "مویا"
+  },
+  "جیہڑی": {
+   "en": "whatever, which",
+   "pos": "pronoun",
+   "roman": "jehṛī"
+  },
+  "اساڈے": {
+   "en": "us; our",
+   "pos": "pronoun",
+   "roman": "asāḍe"
+  },
+  "ملاوے": {
+   "en": "unites",
+   "pos": "verb",
+   "roman": "milāve",
+   "base": "ملانا"
+  },
+  "کہند": {
+   "en": "say",
+   "pos": "verb",
+   "roman": "kahind",
+   "base": "کہنا",
+   "note": "Uncertain"
+  },
+  "کھلوندے": {
+   "en": "stand (in the way)",
+   "pos": "verb",
+   "roman": "khalonde",
+   "base": "کھلونا"
+  },
+  "اپنا": {
+   "en": "their own",
+   "pos": "pronoun",
+   "roman": "apnā"
+  },
+  "گلےلگ": {
+   "en": "embracing",
+   "pos": "verb",
+   "roman": "gale lag"
+  },
+  "روندے": {
+   "en": "weep",
+   "pos": "verb",
+   "roman": "ronde",
+   "base": "رونا"
+  },
+  "مڑنے": {
+   "en": "to return",
+   "pos": "verb",
+   "roman": "muṛne",
+   "base": "مڑنا"
+  },
+  "دیساں": {
+   "en": "we will let",
+   "pos": "verb",
+   "roman": "desāṅ",
+   "base": "دینا"
+  },
+  "آؤ": {
+   "en": "come",
+   "pos": "verb",
+   "roman": "āo",
+   "base": "آنا"
+  },
+  "وس": {
+   "en": "power, control",
+   "pos": "noun",
+   "roman": "vas"
+  },
+  "باز": {
+   "en": "players, gamblers",
+   "pos": "noun",
+   "roman": "bāz",
+   "note": "ishq bāz: those who stake all on love"
+  },
+  "کھڑکت": {
+   "en": "clash (of steel)",
+   "pos": "noun",
+   "roman": "khaṛkat",
+   "note": "Uncertain"
+  },
+  "ڈھوندے": {
+   "en": "bring, offer up",
+   "pos": "verb",
+   "roman": "ḍhonde",
+   "base": "ڈھونا"
+  },
+  "کچھے": {
+   "en": "from the armpit, at his side",
+   "pos": "noun",
+   "roman": "kachchhe"
+  },
+  "پکڑ": {
+   "en": "seizing",
+   "pos": "verb",
+   "roman": "pakaṛ",
+   "base": "پکڑنا"
+  },
+  "کٹاری": {
+   "en": "dagger",
+   "pos": "noun",
+   "roman": "kaṭārī"
+  },
+  "جمروپ": {
+   "en": "like Death himself",
+   "pos": "adjective",
+   "roman": "jamrūp",
+   "note": "Jam (Yama): the god of death"
+  },
+  "دھاری": {
+   "en": "edged",
+   "pos": "adjective",
+   "roman": "dhārī"
+  },
+  "تد": {
+   "en": "then",
+   "pos": "adverb",
+   "roman": "tad"
+  },
+  "بھائیاں": {
+   "en": "brothers",
+   "pos": "noun",
+   "roman": "bhāiyāṅ",
+   "base": "بھائی"
+  },
+  "پھڑے": {
+   "en": "holds",
+   "pos": "verb",
+   "roman": "phaṛe",
+   "base": "پھڑنا"
+  },
+  "بازاں": {
+   "en": "gamblers (jind-bāz: life-staking)",
+   "pos": "noun",
+   "roman": "bāzāṅ",
+   "base": "باز"
+  },
+  "ہاری": {
+   "en": "lost",
+   "pos": "verb",
+   "roman": "hārī",
+   "base": "ہارنا"
+  },
+  "سٹی": {
+   "en": "turned, flung",
+   "pos": "verb",
+   "roman": "suṭṭī",
+   "base": "سٹنا"
+  },
+  "دائی": {
+   "en": "-giving (dukh-dāī: grievous)",
+   "pos": "adjective",
+   "roman": "dāī"
+  },
+  "گیل": {
+   "en": "company",
+   "pos": "noun",
+   "roman": "gail"
+  },
+  "چھڈائی": {
+   "en": "freed (from)",
+   "pos": "verb",
+   "roman": "chhuḍāī",
+   "base": "چھڈانا"
+  },
+  "جھب": {
+   "en": "quickly",
+   "pos": "adverb",
+   "roman": "jhab"
+  },
+  "سٹ": {
+   "en": "fling, set",
+   "pos": "verb",
+   "roman": "suṭṭ",
+   "base": "سٹنا"
+  },
+  "ددھ": {
+   "en": "milk",
+   "pos": "noun",
+   "roman": "duddh"
+  },
+  "ملیدا": {
+   "en": "malida, sweet crumbled bread",
+   "pos": "noun",
+   "roman": "malīdā",
+   "note": "a rich treat promised to the camel"
+  },
+  "کرساں": {
+   "en": "I'll do",
+   "pos": "verb",
+   "roman": "karsāṅ",
+   "base": "کرنا"
+  },
+  "ٹہل": {
+   "en": "service, care",
+   "pos": "noun",
+   "roman": "ṭahal"
+  },
+  "کرنی": {
+   "en": "she-camel",
+   "pos": "noun",
+   "roman": "karnī",
+   "note": "Uncertain: variant of karhī"
+  },
+  "ترنی": {
+   "en": "running, pace",
+   "pos": "noun",
+   "roman": "tarnī",
+   "note": "Uncertain"
+  },
+  "دھرے": {
+   "en": "sets (her feet)",
+   "pos": "verb",
+   "roman": "dhare",
+   "base": "دھرنا"
+  },
+  "تیروں": {
+   "en": "than arrows",
+   "pos": "noun",
+   "roman": "tīroṅ",
+   "base": "تیر"
+  },
+  "پہتا": {
+   "en": "reached",
+   "pos": "verb",
+   "roman": "pahutā",
+   "base": "پہنچنا"
+  },
+  "قبرے": {
+   "en": "at the grave",
+   "pos": "noun",
+   "roman": "qabre",
+   "base": "قبر"
+  },
+  "عاقل": {
+   "en": "wise",
+   "pos": "adjective",
+   "roman": "āqil"
+  },
+  "وزیروں": {
+   "en": "than ministers",
+   "pos": "noun",
+   "roman": "wazīroṅ",
+   "base": "وزیر"
+  },
+  "ڈٹھی": {
+   "en": "saw",
+   "pos": "verb",
+   "roman": "ḍiṭṭhī",
+   "base": "ویکھنا"
+  },
+  "فقیروں": {
+   "en": "from the fakir",
+   "pos": "noun",
+   "roman": "faqīroṅ",
+   "base": "فقیر"
+  },
+  "سمایا": {
+   "en": "lies buried",
+   "pos": "verb",
+   "roman": "samāyā",
+   "base": "سمانا"
+  },
+  "واقف": {
+   "en": "informed",
+   "pos": "adjective",
+   "roman": "wāqif"
+  },
+  "پیروں": {
+   "en": "about the saint",
+   "pos": "noun",
+   "roman": "pīroṅ",
+   "base": "پیر",
+   "note": "Uncertain"
+  },
+  "آکھی": {
+   "en": "told",
+   "pos": "verb",
+   "roman": "ākhī",
+   "base": "آکھنا"
+  },
+  "اتاری": {
+   "en": "brought down",
+   "pos": "verb",
+   "roman": "utārī",
+   "base": "اتارنا"
+  },
+  "جپدی": {
+   "en": "repeating, chanting",
+   "pos": "verb",
+   "roman": "japdī",
+   "base": "جپنا"
+  },
+  "جانا": {
+   "en": "knew",
+   "pos": "verb",
+   "roman": "jāṇā",
+   "base": "جاننا"
+  },
+  "بیچاری": {
+   "en": "poor woman",
+   "pos": "noun",
+   "roman": "bechārī"
+  },
+  "کلیجے": {
+   "en": "in the heart",
+   "pos": "noun",
+   "roman": "kaleje",
+   "base": "کلیجہ"
+  },
+  "کھلی": {
+   "en": "opened",
+   "pos": "verb",
+   "roman": "khulī",
+   "base": "کھلنا"
+  },
+  "جانی": {
+   "en": "beloved",
+   "pos": "noun",
+   "roman": "jānī"
+  },
+  "ماٹی": {
+   "en": "earth, dust",
+   "pos": "noun",
+   "roman": "māṭī"
+  },
+  "تھی": {
+   "en": "becoming",
+   "pos": "verb",
+   "roman": "thī",
+   "base": "تھیونا"
+  },
+  "سمانی": {
+   "en": "merged",
+   "pos": "verb",
+   "roman": "samānī",
+   "base": "سمانا"
+  }
+ }
+}

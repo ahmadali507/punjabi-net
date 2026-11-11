@@ -1,0 +1,169 @@
+{
+  "poem": "ath-gie-goandhon-yar",
+  "status": "draft",
+  "words": {
+    "اٹھ": {
+      "en": "depart (lit. rise)",
+      "pos": "verb",
+      "roman": "uṭh",
+      "base": "اٹھنا"
+    },
+    "گئے": {
+      "en": "went",
+      "pos": "verb",
+      "roman": "gae",
+      "base": "جانا"
+    },
+    "گوانڈھوں": {
+      "en": "from the neighbourhood",
+      "pos": "noun",
+      "roman": "gavāṇḍhoṅ",
+      "base": "گوانڈھ"
+    },
+    "یار": {
+      "en": "friend, beloved",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "ربا": {
+      "en": "O God",
+      "pos": "noun",
+      "roman": "rabbā",
+      "base": "رب"
+    },
+    "ہن": {
+      "en": "now",
+      "pos": "adverb",
+      "roman": "hun"
+    },
+    "کیہ": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "kih"
+    },
+    "کریے": {
+      "en": "should we do",
+      "pos": "verb",
+      "roman": "kariye",
+      "base": "کرنا"
+    },
+    "چلے": {
+      "en": "departed",
+      "pos": "verb",
+      "roman": "challe",
+      "base": "چلنا"
+    },
+    "رہندے": {
+      "en": "stay",
+      "pos": "verb",
+      "roman": "rahinde",
+      "base": "رہنا"
+    },
+    "ناہیں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nāhīṅ"
+    },
+    "ہویا": {
+      "en": "has become",
+      "pos": "verb",
+      "roman": "hoyā",
+      "base": "ہونا"
+    },
+    "ساتھ": {
+      "en": "caravan, travelling party",
+      "pos": "noun",
+      "roman": "sāth"
+    },
+    "تیار": {
+      "en": "ready",
+      "pos": "adjective",
+      "roman": "tiyār"
+    },
+    "ڈاڈھ": {
+      "en": "fierce burning pain",
+      "pos": "noun",
+      "roman": "ḍāḍh"
+    },
+    "کلیجے": {
+      "en": "heart (lit. liver)",
+      "pos": "noun",
+      "roman": "kaleje",
+      "base": "کلیجہ"
+    },
+    "بل": {
+      "en": "burning",
+      "pos": "verb",
+      "roman": "bal",
+      "base": "بلنا",
+      "note": "بل بل: burning and burning"
+    },
+    "اٹھے": {
+      "en": "rises",
+      "pos": "verb",
+      "roman": "uṭṭhe",
+      "base": "اٹھنا"
+    },
+    "بھڑکے": {
+      "en": "blazes up",
+      "pos": "verb",
+      "roman": "bhaṛke",
+      "base": "بھڑکنا"
+    },
+    "برہوں": {
+      "en": "of separation",
+      "pos": "noun",
+      "roman": "birhoṅ",
+      "base": "برہا"
+    },
+    "نار": {
+      "en": "fire",
+      "pos": "noun",
+      "roman": "nār"
+    },
+    "بلھا": {
+      "en": "Bulleh (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bullhā"
+    },
+    "شوہ": {
+      "en": "the Beloved, the Lord",
+      "pos": "noun",
+      "roman": "shauh",
+      "note": "lit. husband; Bulleh Shah's name for God or his master"
+    },
+    "پیارے": {
+      "en": "beloved",
+      "pos": "adjective",
+      "roman": "piāre",
+      "base": "پیارا"
+    },
+    "باجھوں": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bājhoṅ"
+    },
+    "رہے": {
+      "en": "remained",
+      "pos": "verb",
+      "roman": "rahe",
+      "base": "رہنا"
+    },
+    "ارار": {
+      "en": "this bank (of the river)",
+      "pos": "noun",
+      "roman": "urār"
+    },
+    "نہ": {
+      "en": "neither, not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "پار": {
+      "en": "the far bank",
+      "pos": "noun",
+      "roman": "pār",
+      "note": "ارار نہ پار: neither here nor there"
+    }
+  }
+}

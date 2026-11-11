@@ -1,0 +1,334 @@
+{
+  "poem": "ranjha-ranjha-krdi-ni-min-ape-ranjha",
+  "status": "draft",
+  "words": {
+    "رانجھا": {
+      "en": "Ranjha, hero of the Heer Ranjha story",
+      "pos": "proper noun",
+      "roman": "Rāñjhā"
+    },
+    "کردی": {
+      "en": "repeating, saying",
+      "pos": "verb",
+      "roman": "kardī",
+      "base": "کرنا"
+    },
+    "نی": {
+      "en": "O (friends; said to women)",
+      "pos": "interjection",
+      "roman": "nī"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "آپے": {
+      "en": "myself",
+      "pos": "pronoun",
+      "roman": "āpe"
+    },
+    "ہوئی": {
+      "en": "became",
+      "pos": "verb",
+      "roman": "hoī",
+      "base": "ہونا"
+    },
+    "سدو": {
+      "en": "call",
+      "pos": "verb",
+      "roman": "saddo",
+      "base": "سدنا"
+    },
+    "مینوں": {
+      "en": "me",
+      "pos": "pronoun",
+      "roman": "mainūṅ"
+    },
+    "دھیدو": {
+      "en": "Dhido (Ranjha's own name)",
+      "pos": "proper noun",
+      "roman": "Dhīdo"
+    },
+    "ہیر": {
+      "en": "Heer, the heroine",
+      "pos": "proper noun",
+      "roman": "Hīr"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "آکھو": {
+      "en": "call, say",
+      "pos": "verb",
+      "roman": "ākho",
+      "base": "آکھنا"
+    },
+    "کوئی": {
+      "en": "anyone",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "رانجھے": {
+      "en": "Ranjha",
+      "pos": "proper noun",
+      "roman": "Rāñjhe",
+      "base": "رانجھا"
+    },
+    "ہور": {
+      "en": "other",
+      "pos": "adjective",
+      "roman": "hor"
+    },
+    "خیال": {
+      "en": "thought",
+      "pos": "noun",
+      "roman": "xiyāl"
+    },
+    "نہیں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "اوہ": {
+      "en": "he",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "آپ": {
+      "en": "himself",
+      "pos": "pronoun",
+      "roman": "āp"
+    },
+    "ہے": {
+      "en": "is",
+      "pos": "verb",
+      "roman": "hai",
+      "base": "ہونا"
+    },
+    "اپنی": {
+      "en": "his own",
+      "pos": "pronoun",
+      "roman": "apṇī",
+      "base": "اپنا"
+    },
+    "کرے": {
+      "en": "gives, does",
+      "pos": "verb",
+      "roman": "kare",
+      "base": "کرنا"
+    },
+    "دلجوئی": {
+      "en": "consolation, comfort",
+      "pos": "noun",
+      "roman": "diljoī"
+    },
+    "جو": {
+      "en": "whoever",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "ساڈے": {
+      "en": "our",
+      "pos": "pronoun",
+      "roman": "sāḍe",
+      "base": "ساڈا"
+    },
+    "اندر": {
+      "en": "inside",
+      "pos": "postposition",
+      "roman": "andar"
+    },
+    "وسے": {
+      "en": "dwells",
+      "pos": "verb",
+      "roman": "vasse",
+      "base": "وسنا"
+    },
+    "ذات": {
+      "en": "essence; caste, kind",
+      "pos": "noun",
+      "roman": "zāt"
+    },
+    "اساڈی": {
+      "en": "our",
+      "pos": "pronoun",
+      "roman": "asāḍī",
+      "base": "اساڈا"
+    },
+    "سو": {
+      "en": "that same",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "ای": {
+      "en": "very, indeed",
+      "pos": "particle",
+      "roman": "ī"
+    },
+    "ہتھ": {
+      "en": "in hand",
+      "pos": "noun",
+      "roman": "hatth"
+    },
+    "کھونڈی": {
+      "en": "herdsman's crooked staff",
+      "pos": "noun",
+      "roman": "khūṇḍī"
+    },
+    "میرے": {
+      "en": "me (before me)",
+      "pos": "pronoun",
+      "roman": "mere",
+      "base": "میرا"
+    },
+    "اگے": {
+      "en": "in front",
+      "pos": "postposition",
+      "roman": "agge"
+    },
+    "منگو": {
+      "en": "herd of buffaloes",
+      "pos": "noun",
+      "roman": "mangū"
+    },
+    "موڈھے": {
+      "en": "on the shoulder",
+      "pos": "noun",
+      "roman": "moḍhe",
+      "base": "موڈھا"
+    },
+    "بھورا": {
+      "en": "coarse blanket",
+      "pos": "noun",
+      "roman": "bhūrā"
+    },
+    "لوئی": {
+      "en": "woollen shawl",
+      "pos": "noun",
+      "roman": "loī"
+    },
+    "بلھا": {
+      "en": "Bulleh (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bullhā"
+    },
+    "سلیٹی": {
+      "en": "Saleti, Heer of the Sial clan",
+      "pos": "proper noun",
+      "roman": "Saleṭī"
+    },
+    "ویکھو": {
+      "en": "look",
+      "pos": "verb",
+      "roman": "vekho",
+      "base": "ویکھنا"
+    },
+    "کتھے": {
+      "en": "where",
+      "pos": "adverb",
+      "roman": "kitthe"
+    },
+    "جا": {
+      "en": "having gone",
+      "pos": "verb",
+      "roman": "jā",
+      "base": "جانا"
+    },
+    "کھلوئی": {
+      "en": "stands",
+      "pos": "verb",
+      "roman": "khaloī",
+      "base": "کھلونا"
+    },
+    "جس": {
+      "en": "whom",
+      "pos": "pronoun",
+      "roman": "jis"
+    },
+    "دے": {
+      "en": "with (دے نال)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "نیونہہ": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "neṅh"
+    },
+    "لگایا": {
+      "en": "gave (lit. attached)",
+      "pos": "verb",
+      "roman": "lagāyā",
+      "base": "لگانا"
+    },
+    "اوہو": {
+      "en": "that very",
+      "pos": "pronoun",
+      "roman": "oho"
+    },
+    "جیہی": {
+      "en": "like, such",
+      "pos": "adjective",
+      "roman": "jehī"
+    },
+    "تخت": {
+      "en": "Takht (Takht Hazara, Ranjha's home)",
+      "pos": "proper noun",
+      "roman": "Taxt"
+    },
+    "ہزارے": {
+      "en": "Hazara (Takht Hazara)",
+      "pos": "proper noun",
+      "roman": "Hazāre",
+      "base": "ہزارا"
+    },
+    "لے": {
+      "en": "take (me)",
+      "pos": "verb",
+      "roman": "lai",
+      "base": "لینا"
+    },
+    "چل": {
+      "en": "go",
+      "pos": "verb",
+      "roman": "chal",
+      "base": "چلنا"
+    },
+    "بلھیا": {
+      "en": "O Bulleh",
+      "pos": "proper noun",
+      "roman": "Bullhiā",
+      "base": "بلھا"
+    },
+    "سیالیں": {
+      "en": "among the Sials (Heer's clan)",
+      "pos": "proper noun",
+      "roman": "Siālīṅ",
+      "base": "سیال"
+    },
+    "ملے": {
+      "en": "is found",
+      "pos": "verb",
+      "roman": "mile",
+      "base": "ملنا"
+    },
+    "ڈھوئی": {
+      "en": "shelter, refuge",
+      "pos": "noun",
+      "roman": "ḍhoī"
+    }
+  }
+}

@@ -71,51 +71,83 @@
   margin: 0.4rem 0 0;
 }
 
-/* Glossed word: a button that looks like text with a dotted underline. */
+/* Glossed word: a button that reads as text, with a soft bar under it (when meanings are on). */
 .w {
   all: unset;
   cursor: pointer;
-  text-decoration: underline dotted color-mix(in oklab, var(--accent) 75%, transparent);
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 0.35em;
-  border-radius: 2px;
+  border-radius: 6px;
+  padding-inline: 0.06em;
+  background-image: linear-gradient(color-mix(in oklab, var(--accent) 22%, transparent), color-mix(in oklab, var(--accent) 22%, transparent));
+  background-repeat: no-repeat;
+  background-size: calc(100% - 0.12em) 0.12em;
+  background-position: 50% 92%;
+  transition: background-color 0.15s, color 0.15s;
 }
-.w:lang(pnb), :lang(pnb) > .w, :lang(pnb) .w { text-underline-offset: 0.55em; }
-.w:hover, .w.is-open { color: var(--accent); background: var(--accent-wash); }
+.w:hover { color: var(--accent); background-color: color-mix(in oklab, var(--accent) 8%, transparent); }
+.w.is-open { color: var(--accent); background-color: var(--accent-wash); }
 .w:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+[data-gloss-state='off'] .w { background-image: none; cursor: text; }
+[data-gloss-state='off'] .w:hover { color: inherit; background-color: transparent; }
+@media (prefers-reduced-motion: reduce) { .w { transition: none; } }
 
-/* ---------- Meaning panel ---------- */
+/* Toolbar: the meanings switch leads, like a primary control. */
+.tool { display: inline-flex; align-items: center; gap: 0.4rem; }
+.tool--meanings { font-weight: 600; }
+.tool--meanings[aria-pressed='true'] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+.tool--meanings[aria-pressed='true']:hover { color: var(--paper); filter: brightness(1.08); }
+.tool--meanings .icon { width: 1.05rem; height: 1.05rem; }
+.tools-sep { width: 1px; align-self: stretch; margin-inline: 0.35rem; background: var(--rule); }
+
+/* ---------- Meaning card ---------- */
 .gloss {
   position: fixed;
   inset: auto 0 0 0;
   z-index: 20;
-  padding: 1rem var(--gutter) 1.25rem;
+  padding: 0.9rem var(--gutter) 1.1rem;
   background: var(--paper);
-  border-top: 1px solid var(--rule);
-  box-shadow: 0 -8px 24px color-mix(in oklab, var(--ink) 12%, transparent);
+  border-top: 3px solid var(--accent);
+  box-shadow: 0 -10px 30px color-mix(in oklab, var(--ink) 16%, transparent);
   text-align: start;
+  max-height: 70vh;
+  overflow: auto;
 }
 .gloss[hidden] { display: none; }
 @media (min-width: 40rem) {
   .gloss {
     position: absolute;
-    width: 20rem;
+    width: 23rem;
+    max-height: none;
     border: 1px solid var(--rule);
-    border-radius: var(--radius);
-    box-shadow: 0 8px 24px color-mix(in oklab, var(--ink) 12%, transparent);
+    border-top: 3px solid var(--accent);
+    border-radius: 4px;
+    box-shadow: 0 14px 36px color-mix(in oklab, var(--ink) 16%, transparent);
   }
 }
-.gloss__head { direction: rtl; display: flex; align-items: start; justify-content: space-between; gap: 1rem; }
-.gloss__hw { margin: 0; font-size: 1.4rem; }
-.gloss__hw :lang(pnb) { line-height: 1.9; }
+.gloss__top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--rule); }
+.gloss__label { font: 600 0.72rem var(--font-sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
+html[lang='pnb'] .gloss__label { font-family: var(--font-sm); font-size: 0.95rem; letter-spacing: 0; text-transform: none; }
 .gloss__close {
-  min-width: 2.5rem; min-height: 2.5rem;
-  border: 1px solid var(--rule); border-radius: var(--radius);
-  background: transparent; color: var(--muted); font-size: 1.25rem; line-height: 1; cursor: pointer;
+  display: inline-grid; place-items: center;
+  width: 2.25rem; height: 2.25rem;
+  border: 0; border-radius: 50%;
+  background: transparent; color: var(--muted); cursor: pointer;
 }
-.gloss__pron { font-size: 0.85rem; color: var(--muted); margin: 0 0 0.5rem; }
-.gloss__senses { margin: 0 0 0.75rem; padding-inline-start: 1.25rem; font-size: 0.95rem; }
-.gloss__link { font-size: 0.9rem; }
+.gloss__close:hover { background: var(--wash); color: var(--ink); }
+.gloss__word { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-direction: row-reverse; margin-top: 0.4rem; }
+html[lang='pnb'] .gloss__word { flex-direction: row; }
+.gloss__hw { margin: 0; font-size: 2rem; line-height: 1.9; }
+.gloss__pos { font-family: var(--font-serif); font-style: italic; color: var(--muted); font-size: 0.95rem; }
+html[lang='pnb'] .gloss__pos { font-family: var(--font-sm); font-style: normal; }
+.gloss__pron { margin: -0.2rem 0 0.5rem; font-size: 0.85rem; color: var(--muted); }
+.gloss__en { margin: 0; padding-top: 0.55rem; border-top: 1px solid var(--rule); font-family: var(--font-serif); font-size: 1.15rem; line-height: 1.45; }
+.gloss__note { margin: 0.35rem 0 0; font-size: 0.88rem; color: var(--muted); }
+.gloss__dict { margin-top: 0.75rem; padding: 0.6rem 0.75rem; background: var(--wash); border-radius: 4px; }
+.gloss__dict-head { margin: 0 0 0.25rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+html[lang='pnb'] .gloss__dict-head { font-size: 0.9rem; letter-spacing: 0; text-transform: none; }
+.gloss__senses { margin: 0 0 0.35rem; padding-inline-start: 1.2rem; font-size: 0.92rem; }
+.gloss__link { font-size: 0.85rem; }
+.gloss__draft { margin: 0.75rem 0 0; font-size: 0.75rem; color: var(--muted); font-style: italic; }
+html[lang='pnb'] .gloss__draft { font-style: normal; }
 
 /* ---------- Pending text ---------- */
 .poem__pending {

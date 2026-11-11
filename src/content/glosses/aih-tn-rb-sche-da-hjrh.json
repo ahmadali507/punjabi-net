@@ -1,0 +1,198 @@
+{
+  "poem": "aih-tn-rb-sche-da-hjrh",
+  "status": "draft",
+  "words": {
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "ih"
+    },
+    "تن": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "tan"
+    },
+    "رب": {
+      "en": "Lord; God",
+      "pos": "noun",
+      "roman": "rabb"
+    },
+    "سچے": {
+      "en": "true",
+      "pos": "adjective",
+      "roman": "sachche",
+      "base": "سچا"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "حجرہ": {
+      "en": "chamber; cell",
+      "pos": "noun",
+      "roman": "hujrā",
+      "note": "A dervish's private cell for worship."
+    },
+    "پا": {
+      "en": "cast (a glance)",
+      "pos": "verb",
+      "roman": "pā",
+      "base": "پانا"
+    },
+    "فقیرا": {
+      "en": "O faqir (Sufi seeker)",
+      "pos": "noun",
+      "roman": "faqīrā",
+      "base": "فقیر"
+    },
+    "جھاتی": {
+      "en": "a peep; glance",
+      "pos": "noun",
+      "roman": "jhātī",
+      "note": "jhātī pā: 'take a look inside'."
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "نہ": {
+      "en": "not; don't",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "کر": {
+      "en": "do; make",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "منت": {
+      "en": "entreaty; begging a favour",
+      "pos": "noun",
+      "roman": "minnat"
+    },
+    "خواج": {
+      "en": "Khwaja (title)",
+      "pos": "noun",
+      "roman": "khwāj",
+      "note": "Short for khwāja, 'master', title of Khizr."
+    },
+    "خضر": {
+      "en": "Khizr, immortal guide",
+      "pos": "proper noun",
+      "roman": "Khizar",
+      "note": "Khwaja Khizr, keeper of the water of life in Islamic lore."
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "اندر": {
+      "en": "inside; within",
+      "pos": "adverb",
+      "roman": "andar"
+    },
+    "آب": {
+      "en": "water",
+      "pos": "noun",
+      "roman": "āb"
+    },
+    "حیاتی": {
+      "en": "of life",
+      "pos": "noun",
+      "roman": "hayātī",
+      "base": "حیات",
+      "note": "āb-e hayāt: the water of life, here found within oneself."
+    },
+    "شوق": {
+      "en": "longing; yearning",
+      "pos": "noun",
+      "roman": "shauq"
+    },
+    "دیوا": {
+      "en": "lamp",
+      "pos": "noun",
+      "roman": "dīvā"
+    },
+    "بال": {
+      "en": "light (it)",
+      "pos": "verb",
+      "roman": "bāl",
+      "base": "بالنا"
+    },
+    "انھیرے": {
+      "en": "in the darkness",
+      "pos": "noun",
+      "roman": "anhere",
+      "base": "انھیرا"
+    },
+    "لبھی": {
+      "en": "(will be) found",
+      "pos": "verb",
+      "roman": "labbhī",
+      "base": "لبھنا"
+    },
+    "وست": {
+      "en": "thing; object",
+      "pos": "noun",
+      "roman": "vast",
+      "note": "Figuratively, the hidden treasure: God within."
+    },
+    "کھڑاتی": {
+      "en": "lost",
+      "pos": "adjective",
+      "roman": "khaṛātī",
+      "note": "Uncertain: read as 'lost, gone missing'; 'the lost thing is found'."
+    },
+    "مرن": {
+      "en": "dying; death",
+      "pos": "noun",
+      "roman": "maran",
+      "base": "مرنا"
+    },
+    "تھیں": {
+      "en": "than; from",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "اگے": {
+      "en": "before",
+      "pos": "adverb",
+      "roman": "agge"
+    },
+    "مر": {
+      "en": "died",
+      "pos": "verb",
+      "roman": "mar",
+      "base": "مرنا"
+    },
+    "رہے": {
+      "en": "(have) become (dead)",
+      "pos": "verb",
+      "roman": "rahe",
+      "base": "رہنا",
+      "note": "mar rahe: 'died'. 'Die before you die', a Sufi saying."
+    },
+    "باہوجنہاں": {
+      "en": "Bahu; those who",
+      "pos": "phrase",
+      "roman": "Bāhū jinhāṅ",
+      "note": "Two words run together in the source: باہو + جنہاں."
+    },
+    "رمز": {
+      "en": "secret; hidden meaning",
+      "pos": "noun",
+      "roman": "ramz"
+    },
+    "پچھاتی": {
+      "en": "recognised; grasped",
+      "pos": "verb",
+      "roman": "pachhātī",
+      "base": "پچھاننا"
+    }
+  }
+}

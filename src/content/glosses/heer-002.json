@@ -1,0 +1,215 @@
+{
+  "poem": "heer-002",
+  "status": "draft",
+  "words": {
+    "دوئی": {
+      "en": "second",
+      "pos": "numeral",
+      "roman": "dūī"
+    },
+    "نعت": {
+      "en": "praise of the Prophet",
+      "pos": "noun",
+      "roman": "nāt"
+    },
+    "رسول": {
+      "en": "the Messenger (the Prophet)",
+      "pos": "noun",
+      "roman": "rasūl"
+    },
+    "مقبول": {
+      "en": "accepted; beloved (of God)",
+      "pos": "adjective",
+      "roman": "maqbūl"
+    },
+    "والی": {
+      "en": "of; belonging to (fem.)",
+      "pos": "postposition",
+      "roman": "vālī"
+    },
+    "جیں": {
+      "en": "whom; whose",
+      "pos": "pronoun",
+      "roman": "jaiṅ"
+    },
+    "دے": {
+      "en": "of",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "حق": {
+      "en": "in favour of; for (whose sake)",
+      "pos": "noun",
+      "roman": "haqq",
+      "note": "lit. right; truth"
+    },
+    "نزول": {
+      "en": "sending down; revelation",
+      "pos": "noun",
+      "roman": "nuzūl"
+    },
+    "لولاک": {
+      "en": "\"Laulak\" (but for you)",
+      "pos": "noun",
+      "roman": "laulāk",
+      "note": "alludes to the saying \"Laulaka lama khalaqtu al-aflak\": but for you I would not have made the heavens"
+    },
+    "کیتا": {
+      "en": "made; did",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "خاکی": {
+      "en": "of dust; earthly",
+      "pos": "adjective",
+      "roman": "xākī",
+      "note": "the Prophet is called \"of dust\", i.e. human and humble"
+    },
+    "آکھ": {
+      "en": "calling",
+      "pos": "verb",
+      "roman": "ākh",
+      "base": "آکھنا"
+    },
+    "کے": {
+      "en": "having (conjunctive)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "مرتبہ": {
+      "en": "rank; station",
+      "pos": "noun",
+      "roman": "martabā"
+    },
+    "بدا": {
+      "en": "great; exalted",
+      "pos": "adjective",
+      "roman": "baddā",
+      "note": "Uncertain: probably a form of وڈا 'great'"
+    },
+    "دتا": {
+      "en": "gave",
+      "pos": "verb",
+      "roman": "dittā",
+      "base": "دینا"
+    },
+    "سب": {
+      "en": "all",
+      "pos": "adjective",
+      "roman": "sab"
+    },
+    "خلق": {
+      "en": "creation; people",
+      "pos": "noun",
+      "roman": "xalq"
+    },
+    "عیب": {
+      "en": "faults",
+      "pos": "noun",
+      "roman": "aib"
+    },
+    "تھیں": {
+      "en": "from",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "پاک": {
+      "en": "pure; free",
+      "pos": "adjective",
+      "roman": "pāk"
+    },
+    "سرور": {
+      "en": "chief; leader",
+      "pos": "noun",
+      "roman": "sarvar"
+    },
+    "ہو": {
+      "en": "being",
+      "pos": "verb",
+      "roman": "ho",
+      "base": "ہونا"
+    },
+    "اولیاں": {
+      "en": "saints",
+      "pos": "noun",
+      "roman": "auliyāṅ",
+      "base": "ولی"
+    },
+    "انبیاں": {
+      "en": "prophets",
+      "pos": "noun",
+      "roman": "ambiyāṅ",
+      "base": "نبی"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "اگے": {
+      "en": "before",
+      "pos": "postposition",
+      "roman": "agge"
+    },
+    "آپ": {
+      "en": "himself",
+      "pos": "pronoun",
+      "roman": "āp"
+    },
+    "نوں": {
+      "en": "(object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "خاک": {
+      "en": "dust",
+      "pos": "noun",
+      "roman": "xāk",
+      "note": "made himself dust = humbled himself"
+    },
+    "کرے": {
+      "en": "keeps saying",
+      "pos": "verb",
+      "roman": "kare",
+      "base": "کرنا"
+    },
+    "امتی": {
+      "en": "\"my community!\"",
+      "pos": "noun",
+      "roman": "ummatī",
+      "note": "on Judgment Day the Prophet intercedes crying \"ummati, ummati\""
+    },
+    "روز": {
+      "en": "day",
+      "pos": "noun",
+      "roman": "roz"
+    },
+    "قیامت": {
+      "en": "Resurrection; Judgment",
+      "pos": "noun",
+      "roman": "qiyāmat"
+    },
+    "خوشی": {
+      "en": "joy",
+      "pos": "noun",
+      "roman": "xushī"
+    },
+    "چھڈ": {
+      "en": "leaving",
+      "pos": "verb",
+      "roman": "chhaḍḍ",
+      "base": "چھڈنا"
+    },
+    "جیو": {
+      "en": "heart; soul",
+      "pos": "noun",
+      "roman": "jīo"
+    },
+    "غمناک": {
+      "en": "sorrowful",
+      "pos": "adjective",
+      "roman": "ġamnāk"
+    }
+  }
+}

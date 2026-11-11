@@ -1,0 +1,242 @@
+{
+  "poem": "koi-dm-man-le-rng-rlian",
+  "status": "draft",
+  "words": {
+    "کوئی": {
+      "en": "a few",
+      "pos": "adjective",
+      "roman": "koī"
+    },
+    "دم": {
+      "en": "breath; moment",
+      "pos": "noun",
+      "roman": "dam"
+    },
+    "مان": {
+      "en": "enjoy; pride",
+      "pos": "verb",
+      "roman": "māṇ",
+      "base": "ماننا",
+      "note": "Line 1: verb 'enjoy'; line 2: noun 'pride' (مان کرنا, to be proud)"
+    },
+    "لے": {
+      "en": "take (completes 'enjoy')",
+      "pos": "verb",
+      "roman": "le",
+      "base": "لینا"
+    },
+    "رنگ": {
+      "en": "colours; joys",
+      "pos": "noun",
+      "roman": "rang"
+    },
+    "رلیاں": {
+      "en": "merriments",
+      "pos": "noun",
+      "roman": "raliāṅ",
+      "base": "رلی",
+      "note": "رنگ رلیاں: merrymaking"
+    },
+    "دھن": {
+      "en": "wealth",
+      "pos": "noun",
+      "roman": "dhan"
+    },
+    "جوبن": {
+      "en": "youth, bloom of youth",
+      "pos": "noun",
+      "roman": "joban"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "نہ": {
+      "en": "not; don't",
+      "pos": "particle",
+      "roman": "nah"
+    },
+    "کرئیے": {
+      "en": "one should do",
+      "pos": "verb",
+      "roman": "karīe",
+      "base": "کرنا"
+    },
+    "بہت": {
+      "en": "many",
+      "pos": "adjective",
+      "roman": "bahut"
+    },
+    "سیانیاں": {
+      "en": "wise women",
+      "pos": "adjective",
+      "roman": "siāṇiāṅ",
+      "base": "سیانا"
+    },
+    "چھلاں": {
+      "en": "were beguiled",
+      "pos": "verb",
+      "roman": "chhallāṅ",
+      "base": "چھلنا",
+      "note": "Uncertain: 'deceived (by pride)'"
+    },
+    "جیہناں": {
+      "en": "those whose; those (with) whom",
+      "pos": "pronoun",
+      "roman": "jihnāṅ"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "بال": {
+      "en": "child",
+      "pos": "noun",
+      "roman": "bāl"
+    },
+    "پن": {
+      "en": "-hood (بال پن: childhood)",
+      "pos": "noun",
+      "roman": "paṇ"
+    },
+    "کھیڈیا": {
+      "en": "played",
+      "pos": "verb",
+      "roman": "kheḍiā",
+      "base": "کھیڈنا"
+    },
+    "سے": {
+      "en": "they, those",
+      "pos": "pronoun",
+      "roman": "se"
+    },
+    "سئیاں": {
+      "en": "girlfriends",
+      "pos": "noun",
+      "roman": "saīāṅ",
+      "base": "سئی"
+    },
+    "اٹھ": {
+      "en": "having risen, getting up",
+      "pos": "verb",
+      "roman": "uṭṭh",
+      "base": "اٹھنا"
+    },
+    "چلیاں": {
+      "en": "have departed",
+      "pos": "verb",
+      "roman": "challiāṅ",
+      "base": "چلنا"
+    },
+    "بابل": {
+      "en": "father",
+      "pos": "noun",
+      "roman": "bābul",
+      "note": "The father's house: maidenhood, i.e. this world"
+    },
+    "آنگن": {
+      "en": "courtyard",
+      "pos": "noun",
+      "roman": "āṅgan"
+    },
+    "چھڈ": {
+      "en": "leaving",
+      "pos": "verb",
+      "roman": "chhaḍ",
+      "base": "چھڈنا"
+    },
+    "گئیاں": {
+      "en": "went",
+      "pos": "verb",
+      "roman": "gaīāṅ",
+      "base": "جانا"
+    },
+    "ساہورڑے": {
+      "en": "in-laws'",
+      "pos": "noun",
+      "roman": "sāhurṛe",
+      "base": "ساہورا",
+      "note": "The in-laws' home: the hereafter"
+    },
+    "گھر": {
+      "en": "home, house",
+      "pos": "noun",
+      "roman": "ghar"
+    },
+    "ایہہ": {
+      "en": "these",
+      "pos": "pronoun",
+      "roman": "eh"
+    },
+    "گلیاں": {
+      "en": "lanes",
+      "pos": "noun",
+      "roman": "galiāṅ",
+      "base": "گلی"
+    },
+    "تینوں": {
+      "en": "to you",
+      "pos": "pronoun",
+      "roman": "tainūṅ"
+    },
+    "سپنا": {
+      "en": "a dream",
+      "pos": "noun",
+      "roman": "supnā"
+    },
+    "تھیسن": {
+      "en": "will become",
+      "pos": "verb",
+      "roman": "thīsan",
+      "base": "تھیونا"
+    },
+    "والیاں": {
+      "en": "of, belonging to (fem. pl.)",
+      "pos": "particle",
+      "roman": "vāliāṅ"
+    },
+    "کہے": {
+      "en": "says",
+      "pos": "verb",
+      "roman": "kahe",
+      "base": "کہنا"
+    },
+    "حسین": {
+      "en": "Hussain (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Husain",
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+    },
+    "فقیر": {
+      "en": "faqir, mendicant",
+      "pos": "noun",
+      "roman": "faqīr",
+      "note": "Sufi term: one poor before God"
+    },
+    "سائیں": {
+      "en": "the Lord (Master)",
+      "pos": "noun",
+      "roman": "sāīṅ"
+    },
+    "کرلے": {
+      "en": "do",
+      "pos": "verb",
+      "roman": "kar le",
+      "base": "کرنا"
+    },
+    "گلاں": {
+      "en": "deeds (lit. words)",
+      "pos": "noun",
+      "roman": "gallāṅ",
+      "base": "گل"
+    },
+    "بھلیاں": {
+      "en": "good",
+      "pos": "adjective",
+      "roman": "bhaliāṅ",
+      "base": "بھلا"
+    }
+  }
+}

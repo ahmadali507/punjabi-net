@@ -1,0 +1,198 @@
+{
+  "poem": "heer-006",
+  "status": "draft",
+  "words": {
+    "یاراں": {
+      "en": "friends",
+      "pos": "noun",
+      "roman": "yārāṅ",
+      "base": "یار"
+    },
+    "اساں": {
+      "en": "us; me",
+      "pos": "pronoun",
+      "roman": "asāṅ"
+    },
+    "نوں": {
+      "en": "to",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "آن": {
+      "en": "came and",
+      "pos": "verb",
+      "roman": "ān",
+      "base": "آنا"
+    },
+    "سوال": {
+      "en": "request",
+      "pos": "noun",
+      "roman": "savāl"
+    },
+    "کیتا": {
+      "en": "made",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "ہیر": {
+      "en": "Heer, heroine of the qissa",
+      "pos": "proper noun",
+      "roman": "Hīr"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "نواں": {
+      "en": "new; anew",
+      "pos": "adjective",
+      "roman": "navāṅ"
+    },
+    "بنائے": {
+      "en": "compose",
+      "pos": "verb",
+      "roman": "banāe",
+      "base": "بنانا"
+    },
+    "جی": {
+      "en": "indeed (respectful)",
+      "pos": "particle",
+      "roman": "jī"
+    },
+    "ایس": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "es"
+    },
+    "پریم": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "prem"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "جھوک": {
+      "en": "abode; herders' settlement",
+      "pos": "noun",
+      "roman": "jhok"
+    },
+    "سبھ": {
+      "en": "whole; all",
+      "pos": "adjective",
+      "roman": "sabh"
+    },
+    "قصہ": {
+      "en": "tale",
+      "pos": "noun",
+      "roman": "qissā"
+    },
+    "ڈھب": {
+      "en": "manner; style",
+      "pos": "noun",
+      "roman": "ḍhab"
+    },
+    "سوہنے": {
+      "en": "beautiful",
+      "pos": "adjective",
+      "roman": "sohṇe",
+      "base": "سوہنا"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "سنائیے": {
+      "en": "let us tell",
+      "pos": "verb",
+      "roman": "suṇāīe",
+      "base": "سنانا"
+    },
+    "عجب": {
+      "en": "wondrous",
+      "pos": "adjective",
+      "roman": "ajab"
+    },
+    "بہار": {
+      "en": "splendour (lit. spring)",
+      "pos": "noun",
+      "roman": "bahār"
+    },
+    "دے": {
+      "en": "of",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "شعر": {
+      "en": "verses",
+      "pos": "noun",
+      "roman": "shiar"
+    },
+    "کرکے": {
+      "en": "composing",
+      "pos": "verb",
+      "roman": "karke",
+      "base": "کرنا"
+    },
+    "رانجھے": {
+      "en": "Ranjha, hero of the qissa",
+      "pos": "proper noun",
+      "roman": "Rāñjhe",
+      "base": "رانجھا"
+    },
+    "میل": {
+      "en": "union",
+      "pos": "noun",
+      "roman": "mel"
+    },
+    "ملائیے": {
+      "en": "let us bring about",
+      "pos": "verb",
+      "roman": "milāīe",
+      "base": "ملانا"
+    },
+    "مجالساں": {
+      "en": "gatherings",
+      "pos": "noun",
+      "roman": "majlisāṅ",
+      "base": "مجلس"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "بہہ": {
+      "en": "sitting",
+      "pos": "verb",
+      "roman": "bahi",
+      "base": "بہنا"
+    },
+    "کے": {
+      "en": "having (conjunctive)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "مزا": {
+      "en": "delight; relish",
+      "pos": "noun",
+      "roman": "mazā"
+    },
+    "پائیے": {
+      "en": "let us enjoy",
+      "pos": "verb",
+      "roman": "pāīe",
+      "base": "پانا"
+    }
+  }
+}

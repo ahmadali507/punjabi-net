@@ -1,0 +1,83 @@
+{
+  "poem": "frida-mn-midan-kr",
+  "status": "draft",
+  "words": {
+    "فریدا": {
+      "en": "O Farid (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Farīdā",
+      "base": "فرید",
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+    },
+    "من": {
+      "en": "mind; heart",
+      "pos": "noun",
+      "roman": "man"
+    },
+    "میدان": {
+      "en": "level field; plain",
+      "pos": "noun",
+      "roman": "maidān"
+    },
+    "کر": {
+      "en": "make",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "ٹوئے": {
+      "en": "pits; hollows",
+      "pos": "noun",
+      "roman": "ṭoe",
+      "base": "ٹویا"
+    },
+    "ٹبے": {
+      "en": "mounds; hillocks",
+      "pos": "noun",
+      "roman": "ṭibbe",
+      "base": "ٹبا"
+    },
+    "لاہ": {
+      "en": "level off; remove",
+      "pos": "verb",
+      "roman": "lāh",
+      "base": "لاہنا"
+    },
+    "اگے": {
+      "en": "hereafter; ahead",
+      "pos": "adverb",
+      "roman": "agge"
+    },
+    "مول": {
+      "en": "at all",
+      "pos": "adverb",
+      "roman": "mūl"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "آوسی": {
+      "en": "will come (near)",
+      "pos": "verb",
+      "roman": "āvsī",
+      "base": "آونا"
+    },
+    "دوزخ": {
+      "en": "hell",
+      "pos": "noun",
+      "roman": "dozax"
+    },
+    "سندی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "sandī"
+    },
+    "بھاہ": {
+      "en": "fire",
+      "pos": "noun",
+      "roman": "bhāh"
+    }
+  }
+}

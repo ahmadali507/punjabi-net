@@ -1,0 +1,190 @@
+{
+  "poem": "drd-andr-da-andr-sare",
+  "status": "draft",
+  "words": {
+    "درد": {
+      "en": "pain",
+      "pos": "noun",
+      "roman": "dard"
+    },
+    "اندر": {
+      "en": "inside; within",
+      "pos": "adverb",
+      "roman": "andar"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "ساڑے": {
+      "en": "burns",
+      "pos": "verb",
+      "roman": "sāṛe",
+      "base": "ساڑنا"
+    },
+    "باہر": {
+      "en": "outside; out",
+      "pos": "adverb",
+      "roman": "bāhar"
+    },
+    "کراں": {
+      "en": "(if) I do (bring)",
+      "pos": "verb",
+      "roman": "karāṅ",
+      "base": "کرنا"
+    },
+    "تاں": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "گھائل": {
+      "en": "wounded",
+      "pos": "adjective",
+      "roman": "ghāil"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "حال": {
+      "en": "state; condition",
+      "pos": "noun",
+      "roman": "hāl"
+    },
+    "اساڈا": {
+      "en": "our",
+      "pos": "pronoun",
+      "roman": "asāḍā"
+    },
+    "کویں": {
+      "en": "how",
+      "pos": "adverb",
+      "roman": "kiveṅ"
+    },
+    "اوہ": {
+      "en": "they",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "جانن": {
+      "en": "(can) know",
+      "pos": "verb",
+      "roman": "jānan",
+      "base": "جاننا"
+    },
+    "جو": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "دنیا": {
+      "en": "the world",
+      "pos": "noun",
+      "roman": "duniyā"
+    },
+    "تے": {
+      "en": "on; towards",
+      "pos": "postposition",
+      "roman": "te"
+    },
+    "مائل": {
+      "en": "inclined; attached",
+      "pos": "adjective",
+      "roman": "māil"
+    },
+    "بحر": {
+      "en": "sea",
+      "pos": "noun",
+      "roman": "bahr"
+    },
+    "سمندر": {
+      "en": "ocean",
+      "pos": "noun",
+      "roman": "samundar"
+    },
+    "عشقے": {
+      "en": "of love",
+      "pos": "noun",
+      "roman": "ishqe",
+      "base": "عشق"
+    },
+    "والا": {
+      "en": "of; belonging to",
+      "pos": "particle",
+      "roman": "vālā"
+    },
+    "ہر": {
+      "en": "every",
+      "pos": "adjective",
+      "roman": "har"
+    },
+    "دم": {
+      "en": "moment; breath",
+      "pos": "noun",
+      "roman": "dam",
+      "note": "har dam: 'constantly'."
+    },
+    "ویہندا": {
+      "en": "flowing",
+      "pos": "verb",
+      "roman": "vahindā",
+      "base": "وہنا"
+    },
+    "حائل": {
+      "en": "barring the way; in between",
+      "pos": "adjective",
+      "roman": "hāil"
+    },
+    "پہنچ": {
+      "en": "reaching; access",
+      "pos": "noun",
+      "roman": "pahuṅch"
+    },
+    "حضور": {
+      "en": "the (divine) Presence",
+      "pos": "noun",
+      "roman": "huzūr"
+    },
+    "آسان": {
+      "en": "easy",
+      "pos": "adjective",
+      "roman": "āsān"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "نام": {
+      "en": "name",
+      "pos": "noun",
+      "roman": "nām"
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "تیرا"
+    },
+    "دے": {
+      "en": "of (masc. pl.)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "سائل": {
+      "en": "beggars; supplicants",
+      "pos": "noun",
+      "roman": "sāil"
+    }
+  }
+}

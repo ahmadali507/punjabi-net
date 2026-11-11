@@ -1,0 +1,68 @@
+{
+  "poem": "vchri-konj",
+  "status": "draft",
+  "words": {
+    "مٹھے": {
+      "en": "sweet",
+      "pos": "adjective",
+      "roman": "miṭṭhe",
+      "base": "مٹھا"
+    },
+    "تاں": {
+      "en": "indeed",
+      "pos": "particle",
+      "roman": "tāṅ"
+    },
+    "لگدے": {
+      "en": "seem",
+      "pos": "verb",
+      "roman": "lagde",
+      "base": "لگنا"
+    },
+    "مینوں": {
+      "en": "to me",
+      "pos": "pronoun",
+      "roman": "mainūṅ"
+    },
+    "پھلاں": {
+      "en": "flowers",
+      "pos": "noun",
+      "roman": "phullāṅ",
+      "base": "پھل"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de",
+      "base": "دا"
+    },
+    "ہلارے": {
+      "en": "swaying",
+      "pos": "noun",
+      "roman": "hulāre",
+      "base": "ہلارا"
+    },
+    "جان": {
+      "en": "life, soul",
+      "pos": "noun",
+      "roman": "jān"
+    },
+    "میری": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merī",
+      "base": "میرا"
+    },
+    "پر": {
+      "en": "but",
+      "pos": "conjunction",
+      "roman": "par"
+    },
+    "کسدی": {
+      "en": "aches, is wrung",
+      "pos": "verb",
+      "roman": "kasdī",
+      "base": "کسنا"
+    }
+  }
+}

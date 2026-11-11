@@ -1,0 +1,211 @@
+{
+  "poem": "heer-007",
+  "status": "draft",
+  "words": {
+    "حکم": {
+      "en": "command",
+      "pos": "noun",
+      "roman": "hukam"
+    },
+    "من": {
+      "en": "obeying",
+      "pos": "verb",
+      "roman": "mann",
+      "base": "منّنا"
+    },
+    "کے": {
+      "en": "having (conjunctive)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "سجناں": {
+      "en": "friends",
+      "pos": "noun",
+      "roman": "sajjaṇāṅ",
+      "base": "سجن"
+    },
+    "پیاریاں": {
+      "en": "dear",
+      "pos": "adjective",
+      "roman": "piāriāṅ",
+      "base": "پیارا"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "قصہ": {
+      "en": "tale",
+      "pos": "noun",
+      "roman": "qissā"
+    },
+    "عجب": {
+      "en": "wondrous",
+      "pos": "adjective",
+      "roman": "ajab"
+    },
+    "بہار": {
+      "en": "splendour (lit. spring)",
+      "pos": "noun",
+      "roman": "bahār"
+    },
+    "جوڑیا": {
+      "en": "composed",
+      "pos": "verb",
+      "roman": "joṛiā",
+      "base": "جوڑنا"
+    },
+    "اے": {
+      "en": "has (auxiliary)",
+      "pos": "verb",
+      "roman": "e"
+    },
+    "فقرہ": {
+      "en": "phrase; sentence",
+      "pos": "noun",
+      "roman": "fiqrā"
+    },
+    "جوڑ": {
+      "en": "joining",
+      "pos": "verb",
+      "roman": "joṛ",
+      "base": "جوڑنا"
+    },
+    "خوب": {
+      "en": "well",
+      "pos": "adverb",
+      "roman": "xūb"
+    },
+    "درست": {
+      "en": "correct; polished",
+      "pos": "adjective",
+      "roman": "durust"
+    },
+    "کیتا": {
+      "en": "made",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "نواں": {
+      "en": "new",
+      "pos": "adjective",
+      "roman": "navāṅ"
+    },
+    "پھل": {
+      "en": "flower",
+      "pos": "noun",
+      "roman": "phull"
+    },
+    "گلاب": {
+      "en": "rose",
+      "pos": "noun",
+      "roman": "gulāb"
+    },
+    "توڑیا": {
+      "en": "plucked",
+      "pos": "verb",
+      "roman": "toṛiā",
+      "base": "توڑنا"
+    },
+    "بہت": {
+      "en": "much",
+      "pos": "adverb",
+      "roman": "bahut"
+    },
+    "جیو": {
+      "en": "mind; heart",
+      "pos": "noun",
+      "roman": "jīo"
+    },
+    "دے": {
+      "en": "of",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "تدبیر": {
+      "en": "careful planning",
+      "pos": "noun",
+      "roman": "tadbīr"
+    },
+    "کر": {
+      "en": "having made",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "فرہاد": {
+      "en": "Farhad, lover of Shirin",
+      "pos": "proper noun",
+      "roman": "Farhād",
+      "note": "he cut through a mountain for Shirin; the poet likens his labour to it"
+    },
+    "پہاڑ": {
+      "en": "mountain",
+      "pos": "noun",
+      "roman": "pahāṛ"
+    },
+    "نوں": {
+      "en": "(object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "پھوڑیا": {
+      "en": "broke open",
+      "pos": "verb",
+      "roman": "phoṛiā",
+      "base": "پھوڑنا"
+    },
+    "سبھا": {
+      "en": "all; every",
+      "pos": "adjective",
+      "roman": "sabhā",
+      "note": "Uncertain: possibly \"assembly\" (سبھا)"
+    },
+    "وین": {
+      "en": "words; utterances",
+      "pos": "noun",
+      "roman": "vain",
+      "note": "Uncertain: may instead mean \"picking out\" (selecting the words)"
+    },
+    "زیب": {
+      "en": "adornment",
+      "pos": "noun",
+      "roman": "zeb"
+    },
+    "بنا": {
+      "en": "making",
+      "pos": "verb",
+      "roman": "banā",
+      "base": "بنانا"
+    },
+    "دتا": {
+      "en": "gave (completive)",
+      "pos": "verb",
+      "roman": "dittā",
+      "base": "دینا"
+    },
+    "جیہا": {
+      "en": "like; as",
+      "pos": "postposition",
+      "roman": "jehā"
+    },
+    "عطر": {
+      "en": "perfume (attar)",
+      "pos": "noun",
+      "roman": "itar"
+    },
+    "نچوڑیا": {
+      "en": "squeezed out; distilled",
+      "pos": "verb",
+      "roman": "nichoṛiā",
+      "base": "نچوڑنا"
+    }
+  }
+}

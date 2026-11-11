@@ -1,0 +1,164 @@
+{
+  "poem": "andr-ho-te-bahr-ho",
+  "status": "draft",
+  "words": {
+    "اندر": {
+      "en": "inside; within",
+      "pos": "adverb",
+      "roman": "andar"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Hū, 'He', a Sufi name of God; here both subject of the poem and the refrain."
+    },
+    "تے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "باہر": {
+      "en": "outside",
+      "pos": "adverb",
+      "roman": "bāhar"
+    },
+    "وت": {
+      "en": "then",
+      "pos": "adverb",
+      "roman": "vat"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "کتھ": {
+      "en": "where",
+      "pos": "adverb",
+      "roman": "kitth"
+    },
+    "لبھیندا": {
+      "en": "is found",
+      "pos": "verb",
+      "roman": "labbhīndā",
+      "base": "لبھنا"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "داغ": {
+      "en": "brand; burn-mark",
+      "pos": "noun",
+      "roman": "dāġ"
+    },
+    "محبت": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "muhabbat"
+    },
+    "والا": {
+      "en": "of; belonging to",
+      "pos": "particle",
+      "roman": "vālā"
+    },
+    "ہر": {
+      "en": "every",
+      "pos": "adjective",
+      "roman": "har"
+    },
+    "دم": {
+      "en": "breath; moment",
+      "pos": "noun",
+      "roman": "dam",
+      "note": "har dam: 'every moment, constantly'."
+    },
+    "پیا": {
+      "en": "keeps (on)",
+      "pos": "particle",
+      "roman": "piā",
+      "base": "پینا",
+      "note": "Marks continuous action: piā saṛīndā, 'keeps burning'."
+    },
+    "سڑیندا": {
+      "en": "burning",
+      "pos": "verb",
+      "roman": "saṛīndā",
+      "base": "سڑنا"
+    },
+    "جتھے": {
+      "en": "where",
+      "pos": "adverb",
+      "roman": "jitthe"
+    },
+    "کرے": {
+      "en": "makes; does",
+      "pos": "verb",
+      "roman": "kare",
+      "base": "کرنا"
+    },
+    "رشنائی": {
+      "en": "light; radiance",
+      "pos": "noun",
+      "roman": "rushnāī"
+    },
+    "چھوڑ": {
+      "en": "leaving",
+      "pos": "verb",
+      "roman": "chhoṛ",
+      "base": "چھوڑنا"
+    },
+    "اندھیرا": {
+      "en": "darkness",
+      "pos": "noun",
+      "roman": "andherā"
+    },
+    "ویندا": {
+      "en": "goes (away)",
+      "pos": "verb",
+      "roman": "vendā",
+      "base": "ونجنا"
+    },
+    "دوئیں": {
+      "en": "both",
+      "pos": "numeral",
+      "roman": "doīṅ"
+    },
+    "جہان": {
+      "en": "worlds",
+      "pos": "noun",
+      "roman": "jahān",
+      "note": "This world and the next."
+    },
+    "غلام": {
+      "en": "slaves; servants",
+      "pos": "noun",
+      "roman": "ġulām"
+    },
+    "اس": {
+      "en": "of him; his",
+      "pos": "pronoun",
+      "roman": "us"
+    },
+    "جو": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "صحی": {
+      "en": "truly; rightly",
+      "pos": "adverb",
+      "roman": "sahī"
+    },
+    "کریندا": {
+      "en": "does (practises)",
+      "pos": "verb",
+      "roman": "karīndā",
+      "base": "کرنا",
+      "note": "Hū sahī karīndā: who rightly practises the remembrance of Hu."
+    }
+  }
+}

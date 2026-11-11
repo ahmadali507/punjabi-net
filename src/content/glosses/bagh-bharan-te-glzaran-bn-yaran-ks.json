@@ -1,0 +1,172 @@
+{
+  "poem": "bagh-bharan-te-glzaran-bn-yaran-ks",
+  "status": "draft",
+  "words": {
+    "باغ": {
+      "en": "gardens",
+      "pos": "noun",
+      "roman": "bāġ"
+    },
+    "بہاراں": {
+      "en": "springtimes; blossoms",
+      "pos": "noun",
+      "roman": "bahārāṅ",
+      "base": "بہار"
+    },
+    "تے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "گلزاراں": {
+      "en": "rose gardens; flower beds",
+      "pos": "noun",
+      "roman": "gulzārāṅ",
+      "base": "گلزار"
+    },
+    "بن": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bin"
+    },
+    "یاراں": {
+      "en": "friends; the beloved",
+      "pos": "noun",
+      "roman": "yārāṅ",
+      "base": "یار"
+    },
+    "کس": {
+      "en": "what; of what",
+      "pos": "pronoun",
+      "roman": "kis"
+    },
+    "کاری": {
+      "en": "use; worth",
+      "pos": "noun",
+      "roman": "kārī",
+      "note": "\"Kis kari\": of what use?"
+    },
+    "یار": {
+      "en": "the beloved; friend",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "ملے": {
+      "en": "should meet; if (he) meets",
+      "pos": "verb",
+      "roman": "mile",
+      "base": "ملنا"
+    },
+    "دکھ": {
+      "en": "sorrows",
+      "pos": "noun",
+      "roman": "dukh"
+    },
+    "جان": {
+      "en": "go (away)",
+      "pos": "verb",
+      "roman": "jāṇ",
+      "base": "جانا",
+      "note": "Thousands of sorrows would leave."
+    },
+    "ہزاراں": {
+      "en": "thousands",
+      "pos": "numeral",
+      "roman": "hazārāṅ",
+      "base": "ہزار"
+    },
+    "شکر": {
+      "en": "thanks",
+      "pos": "noun",
+      "roman": "shukar"
+    },
+    "کہاں": {
+      "en": "I would say",
+      "pos": "verb",
+      "roman": "kahāṅ",
+      "base": "کہنا"
+    },
+    "لکھ": {
+      "en": "a hundred thousand",
+      "pos": "numeral",
+      "roman": "lakkh"
+    },
+    "واری": {
+      "en": "times",
+      "pos": "noun",
+      "roman": "vārī"
+    },
+    "اچی": {
+      "en": "high",
+      "pos": "adjective",
+      "roman": "uchchī",
+      "base": "اچا"
+    },
+    "جائی": {
+      "en": "place",
+      "pos": "noun",
+      "roman": "jāī",
+      "base": "جا",
+      "note": "\"Uchi jai\": in too high a place, above one's station."
+    },
+    "نینہں": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "nehuṅ"
+    },
+    "لگایا": {
+      "en": "I attached; fell in",
+      "pos": "verb",
+      "roman": "lagāiā",
+      "base": "لگانا"
+    },
+    "بنی": {
+      "en": "came upon; befell",
+      "pos": "verb",
+      "roman": "baṇī",
+      "base": "بننا"
+    },
+    "مصیبت": {
+      "en": "calamity; hardship",
+      "pos": "noun",
+      "roman": "musībat"
+    },
+    "بھاری": {
+      "en": "heavy",
+      "pos": "adjective",
+      "roman": "bhārī"
+    },
+    "باجھ": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bājh"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "بخشا": {
+      "en": "Bakhsh (O Muhammad Bakhsh)",
+      "pos": "proper noun",
+      "roman": "Baxshā",
+      "note": "Vocative of the poet's name, Mian Muhammad Bakhsh."
+    },
+    "کون": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kauṇ"
+    },
+    "کرے": {
+      "en": "will do; would show",
+      "pos": "verb",
+      "roman": "kare",
+      "base": "کرنا"
+    },
+    "غمخاری": {
+      "en": "sympathy; consolation",
+      "pos": "noun",
+      "roman": "ġamxārī"
+    }
+  }
+}

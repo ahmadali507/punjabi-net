@@ -1,0 +1,202 @@
+{
+  "poem": "mhndi",
+  "status": "draft",
+  "words": {
+    "سجن": {
+      "en": "beloved",
+      "pos": "noun",
+      "roman": "sajjan"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de",
+      "base": "دا"
+    },
+    "ہتھ": {
+      "en": "hand",
+      "pos": "noun",
+      "roman": "hatth"
+    },
+    "لگی": {
+      "en": "applied",
+      "pos": "verb",
+      "roman": "laggī",
+      "base": "لگنا"
+    },
+    "ہوئی": {
+      "en": "(perfect: having been)",
+      "pos": "verb",
+      "roman": "hoī",
+      "base": "ہونا"
+    },
+    "آپے": {
+      "en": "of his own accord",
+      "pos": "adverb",
+      "roman": "āpe"
+    },
+    "نی": {
+      "en": "O (to a woman)",
+      "pos": "interjection",
+      "roman": "nī"
+    },
+    "اج": {
+      "en": "today, tonight",
+      "pos": "adverb",
+      "roman": "ajj"
+    },
+    "رات": {
+      "en": "night",
+      "pos": "noun",
+      "roman": "rāt"
+    },
+    "نے": {
+      "en": "(agent marker)",
+      "pos": "postposition",
+      "roman": "ne"
+    },
+    "سانوں": {
+      "en": "us (me, the henna)",
+      "pos": "pronoun",
+      "roman": "sānūṅ"
+    },
+    "پھڑ": {
+      "en": "having caught",
+      "pos": "verb",
+      "roman": "phaṛ",
+      "base": "پھڑنا"
+    },
+    "گھٹ": {
+      "en": "tightly",
+      "pos": "adverb",
+      "roman": "ghuṭṭ"
+    },
+    "رکھیا": {
+      "en": "held, kept",
+      "pos": "verb",
+      "roman": "rakkhiā",
+      "base": "رکھنا"
+    },
+    "وصل": {
+      "en": "union",
+      "pos": "noun",
+      "roman": "vasl"
+    },
+    "ماہی": {
+      "en": "beloved",
+      "pos": "noun",
+      "roman": "māhī"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "مہر": {
+      "en": "seal",
+      "pos": "noun",
+      "roman": "mohar",
+      "note": "Henna's mark on the hand as a seal; could also be read mehar 'grace'."
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "اساں": {
+      "en": "we (agent)",
+      "pos": "pronoun",
+      "roman": "asāṅ"
+    },
+    "لکھیا": {
+      "en": "written",
+      "pos": "verb",
+      "roman": "likhiā",
+      "base": "لکھنا"
+    },
+    "جندڑی": {
+      "en": "(dear) life",
+      "pos": "noun",
+      "roman": "jindṛī",
+      "base": "جند"
+    },
+    "ساڈی": {
+      "en": "our",
+      "pos": "pronoun",
+      "roman": "sāḍī",
+      "base": "ساڈا"
+    },
+    "انگ": {
+      "en": "limbs, body",
+      "pos": "noun",
+      "roman": "aṅg"
+    },
+    "سما": {
+      "en": "absorbed",
+      "pos": "verb",
+      "roman": "samā",
+      "base": "سمانا"
+    },
+    "لئی": {
+      "en": "took (in)",
+      "pos": "verb",
+      "roman": "laī",
+      "base": "لینا"
+    },
+    "ویکھ": {
+      "en": "seeing",
+      "pos": "verb",
+      "roman": "vekh",
+      "base": "ویکھنا"
+    },
+    "خوش": {
+      "en": "happy",
+      "pos": "adjective",
+      "roman": "xush"
+    },
+    "ہووے": {
+      "en": "is, becomes",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "کیوں": {
+      "en": "say, well (asking)",
+      "pos": "adverb",
+      "roman": "kiuṅ"
+    },
+    "سہیو": {
+      "en": "O friends",
+      "pos": "noun",
+      "roman": "sahīo",
+      "base": "سہیلی"
+    },
+    "کوئی": {
+      "en": "any, some",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "سواد": {
+      "en": "taste, relish",
+      "pos": "noun",
+      "roman": "savād"
+    },
+    "چھوہ": {
+      "en": "touch",
+      "pos": "noun",
+      "roman": "chhoh"
+    },
+    "بی": {
+      "en": "also",
+      "pos": "particle",
+      "roman": "bhī",
+      "note": "Odd spelling for بھی."
+    },
+    "چکھیا": {
+      "en": "tasted",
+      "pos": "verb",
+      "roman": "chakkhiā",
+      "base": "چکھنا"
+    }
+  }
+}

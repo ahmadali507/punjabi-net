@@ -1,0 +1,189 @@
+{
+  "poem": "min-kojhi-mira-dlbr-sohna",
+  "status": "draft",
+  "words": {
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "کوجھی": {
+      "en": "ugly; plain (fem.)",
+      "pos": "adjective",
+      "roman": "kojhī",
+      "base": "کوجھا"
+    },
+    "میرا": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merā"
+    },
+    "دلبر": {
+      "en": "beloved",
+      "pos": "noun",
+      "roman": "dilbar"
+    },
+    "سوہنا": {
+      "en": "beautiful",
+      "pos": "adjective",
+      "roman": "sohṇā"
+    },
+    "کیونکر": {
+      "en": "how",
+      "pos": "adverb",
+      "roman": "kiuṅkar"
+    },
+    "اس": {
+      "en": "him",
+      "pos": "pronoun",
+      "roman": "us"
+    },
+    "نوں": {
+      "en": "to (object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "بھاواں": {
+      "en": "(may) I please",
+      "pos": "verb",
+      "roman": "bhāvāṅ",
+      "base": "بھاونا"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "ویہڑے": {
+      "en": "courtyard",
+      "pos": "noun",
+      "roman": "vehṛe",
+      "base": "ویہڑا"
+    },
+    "ساڈے": {
+      "en": "our",
+      "pos": "pronoun",
+      "roman": "sāḍe",
+      "base": "ساڈا"
+    },
+    "وڑدا": {
+      "en": "enters",
+      "pos": "verb",
+      "roman": "vaṛdā",
+      "base": "وڑنا"
+    },
+    "ناہیں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nāhīṅ"
+    },
+    "پئی": {
+      "en": "(I) keep (on)",
+      "pos": "particle",
+      "roman": "paī",
+      "note": "Continuous marker (fem.): paī ... pāvāṅ, 'I keep trying'."
+    },
+    "لکھ": {
+      "en": "a hundred thousand; countless",
+      "pos": "numeral",
+      "roman": "lakkh"
+    },
+    "وسیلے": {
+      "en": "means; intercessions",
+      "pos": "noun",
+      "roman": "vasīle",
+      "base": "وسیلہ"
+    },
+    "پاواں": {
+      "en": "(I) employ; put",
+      "pos": "verb",
+      "roman": "pāvāṅ",
+      "base": "پانا"
+    },
+    "نہ": {
+      "en": "neither; nor",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "سوہنی": {
+      "en": "beautiful (fem.)",
+      "pos": "adjective",
+      "roman": "sohṇī",
+      "base": "سوہنا"
+    },
+    "دولت": {
+      "en": "wealth",
+      "pos": "noun",
+      "roman": "daulat"
+    },
+    "پلے": {
+      "en": "in (my) possession",
+      "pos": "noun",
+      "roman": "palle",
+      "base": "پلا",
+      "note": "Literally 'in the hem of my garment'."
+    },
+    "یار": {
+      "en": "beloved; friend",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "مناواں": {
+      "en": "(may I) win over",
+      "pos": "verb",
+      "roman": "manāvāṅ",
+      "base": "منانا"
+    },
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "ih"
+    },
+    "دکھ": {
+      "en": "grief; sorrow",
+      "pos": "noun",
+      "roman": "dukh"
+    },
+    "ہر": {
+      "en": "every",
+      "pos": "adjective",
+      "roman": "har"
+    },
+    "دم": {
+      "en": "moment; breath",
+      "pos": "noun",
+      "roman": "dam",
+      "note": "har dam: 'always'."
+    },
+    "رہسی": {
+      "en": "will remain",
+      "pos": "verb",
+      "roman": "rahsī",
+      "base": "رہنا"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "روندڑی": {
+      "en": "weeping (fem.)",
+      "pos": "adjective",
+      "roman": "rondaṛī",
+      "base": "رونا"
+    },
+    "ہی": {
+      "en": "just; only",
+      "pos": "particle",
+      "roman": "hī"
+    },
+    "مرجاواں": {
+      "en": "I shall die",
+      "pos": "verb",
+      "roman": "mar jāvāṅ",
+      "base": "مرجانا"
+    }
+  }
+}

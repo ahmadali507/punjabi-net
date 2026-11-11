@@ -1,0 +1,133 @@
+{
+  "poem": "je-rb-nhatian-dhotian-mlda",
+  "status": "draft",
+  "words": {
+    "جے": {
+      "en": "if",
+      "pos": "conjunction",
+      "roman": "je"
+    },
+    "رب": {
+      "en": "Lord; God",
+      "pos": "noun",
+      "roman": "rabb"
+    },
+    "نہاتیاں": {
+      "en": "by bathing",
+      "pos": "verb",
+      "roman": "nhātiāṅ",
+      "base": "نہاونا"
+    },
+    "دھوتیاں": {
+      "en": "by washing",
+      "pos": "verb",
+      "roman": "dhotiāṅ",
+      "base": "دھونا"
+    },
+    "ملدا": {
+      "en": "were found; would be found",
+      "pos": "verb",
+      "roman": "mildā",
+      "base": "ملنا"
+    },
+    "ڈڈواں": {
+      "en": "frogs",
+      "pos": "noun",
+      "roman": "ḍaḍḍuāṅ",
+      "base": "ڈڈو"
+    },
+    "مچھیاں": {
+      "en": "fish",
+      "pos": "noun",
+      "roman": "machhiāṅ",
+      "base": "مچھی"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "مون": {
+      "en": "head-shaving; tonsure",
+      "pos": "noun",
+      "roman": "mūn"
+    },
+    "منایاں": {
+      "en": "by having (it) shaved",
+      "pos": "verb",
+      "roman": "munāiāṅ",
+      "base": "منانا",
+      "note": "mūn munāiāṅ: by shaving the head, as ascetics do."
+    },
+    "بھیڈاں": {
+      "en": "sheep",
+      "pos": "noun",
+      "roman": "bheḍāṅ",
+      "base": "بھیڈ"
+    },
+    "سسیاں": {
+      "en": "lambs; hares",
+      "pos": "noun",
+      "roman": "sassiāṅ",
+      "note": "Uncertain: read as small shorn animals (lambs or hares)."
+    },
+    "جتیاں": {
+      "en": "by celibacy",
+      "pos": "noun",
+      "roman": "jatiāṅ",
+      "base": "جت"
+    },
+    "ستیاں": {
+      "en": "by chastity",
+      "pos": "noun",
+      "roman": "satiāṅ",
+      "base": "ست"
+    },
+    "ڈانڈاں": {
+      "en": "bullocks",
+      "pos": "noun",
+      "roman": "ḍāṅḍāṅ",
+      "base": "ڈانڈ"
+    },
+    "خصیاں": {
+      "en": "castrated",
+      "pos": "adjective",
+      "roman": "xassiāṅ",
+      "base": "خصی"
+    },
+    "اوہناں": {
+      "en": "those; them",
+      "pos": "pronoun",
+      "roman": "ohnāṅ"
+    },
+    "نوں": {
+      "en": "to (object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "نیتاں": {
+      "en": "intentions",
+      "pos": "noun",
+      "roman": "nīyatāṅ",
+      "base": "نیت"
+    },
+    "جنہاں": {
+      "en": "whose",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "اچھیاں": {
+      "en": "good; pure",
+      "pos": "adjective",
+      "roman": "achchhiāṅ",
+      "base": "اچھا"
+    }
+  }
+}

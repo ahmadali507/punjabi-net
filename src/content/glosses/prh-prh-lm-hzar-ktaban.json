@@ -1,0 +1,173 @@
+{
+  "poem": "prh-prh-lm-hzar-ktaban",
+  "status": "draft",
+  "words": {
+    "پڑھ": {
+      "en": "read; reading",
+      "pos": "verb",
+      "roman": "paṛh",
+      "base": "پڑھنا",
+      "note": "paṛh paṛh: 'reading and reading'."
+    },
+    "علم": {
+      "en": "learning; knowledge",
+      "pos": "noun",
+      "roman": "ilm"
+    },
+    "ہزار": {
+      "en": "a thousand",
+      "pos": "numeral",
+      "roman": "hazār"
+    },
+    "کتاباں": {
+      "en": "books",
+      "pos": "noun",
+      "roman": "kitābāṅ",
+      "base": "کتاب"
+    },
+    "عالم": {
+      "en": "scholars",
+      "pos": "noun",
+      "roman": "ālim"
+    },
+    "ہووے": {
+      "en": "(they) become",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "بھارے": {
+      "en": "great; eminent",
+      "pos": "adjective",
+      "roman": "bhāre",
+      "base": "بھارا"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "حرف": {
+      "en": "letter",
+      "pos": "noun",
+      "roman": "harf"
+    },
+    "عشق": {
+      "en": "(divine) love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "جانن": {
+      "en": "know (how to)",
+      "pos": "verb",
+      "roman": "jānan",
+      "base": "جاننا"
+    },
+    "بھلے": {
+      "en": "lost; gone astray",
+      "pos": "adjective",
+      "roman": "bhulle",
+      "base": "بھلنا"
+    },
+    "پھرن": {
+      "en": "wander",
+      "pos": "verb",
+      "roman": "phiran",
+      "base": "پھرنا"
+    },
+    "بچارے": {
+      "en": "wretched; poor souls",
+      "pos": "adjective",
+      "roman": "bichāre",
+      "base": "بچارا"
+    },
+    "عقل": {
+      "en": "reason; intellect",
+      "pos": "noun",
+      "roman": "aql"
+    },
+    "وچ": {
+      "en": "between",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "منزل": {
+      "en": "stage; journey",
+      "pos": "noun",
+      "roman": "manzil"
+    },
+    "بھاری": {
+      "en": "heavy; vast",
+      "pos": "adjective",
+      "roman": "bhārī"
+    },
+    "سئیاں": {
+      "en": "hundreds",
+      "pos": "numeral",
+      "roman": "saiāṅ",
+      "base": "سو"
+    },
+    "کوہاں": {
+      "en": "kos (about two miles each)",
+      "pos": "noun",
+      "roman": "kohāṅ",
+      "base": "کوہ"
+    },
+    "دے": {
+      "en": "of (masc. pl.)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "پاڑے": {
+      "en": "gaps; distances",
+      "pos": "noun",
+      "roman": "pāṛe",
+      "base": "پاڑا"
+    },
+    "جنہاں": {
+      "en": "(those) who",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "خرید": {
+      "en": "bought",
+      "pos": "verb",
+      "roman": "xarīd",
+      "base": "خریدنا"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "دوہیں": {
+      "en": "both",
+      "pos": "numeral",
+      "roman": "dohīṅ"
+    },
+    "جہانیں": {
+      "en": "in the worlds",
+      "pos": "noun",
+      "roman": "jahānīṅ",
+      "base": "جہان"
+    },
+    "مارے": {
+      "en": "ruined; struck down",
+      "pos": "verb",
+      "roman": "māre",
+      "base": "مارنا"
+    }
+  }
+}

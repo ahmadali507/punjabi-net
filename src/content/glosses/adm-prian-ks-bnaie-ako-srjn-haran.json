@@ -1,0 +1,152 @@
+{
+  "poem": "adm-prian-ks-bnaie-ako-srjn-haran",
+  "status": "draft",
+  "words": {
+    "آدم": {
+      "en": "Adam; mankind",
+      "pos": "proper noun",
+      "roman": "Ādam"
+    },
+    "پریاں": {
+      "en": "fairies",
+      "pos": "noun",
+      "roman": "parīāṅ",
+      "base": "پری",
+      "note": "Saif ul Malook's story joins a human prince and a fairy princess."
+    },
+    "کس": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kis"
+    },
+    "بنائے": {
+      "en": "made; created",
+      "pos": "verb",
+      "roman": "baṇāe",
+      "base": "بنانا"
+    },
+    "اکو": {
+      "en": "the one; one and the same",
+      "pos": "adjective",
+      "roman": "ikko",
+      "base": "اک"
+    },
+    "سرجنہاران": {
+      "en": "the Creator",
+      "pos": "noun",
+      "roman": "sirjaṇhārā",
+      "note": "Uncertain: text reads \"-hāran\"; the word is \"sirjaṇhār\", Creator."
+    },
+    "حسن": {
+      "en": "Beauty",
+      "pos": "noun",
+      "roman": "husan"
+    },
+    "عشق": {
+      "en": "Love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "دو": {
+      "en": "two",
+      "pos": "numeral",
+      "roman": "do"
+    },
+    "نام": {
+      "en": "names",
+      "pos": "noun",
+      "roman": "nām"
+    },
+    "رکھائیوس": {
+      "en": "he had named; he gave",
+      "pos": "verb",
+      "roman": "rakhāiūs",
+      "base": "رکھنا",
+      "note": "The suffix -us means \"by him\"."
+    },
+    "نور": {
+      "en": "light (divine)",
+      "pos": "noun",
+      "roman": "nūr"
+    },
+    "منڈھ": {
+      "en": "root; origin",
+      "pos": "noun",
+      "roman": "muṇḍh"
+    },
+    "سارا": {
+      "en": "all; entire",
+      "pos": "adjective",
+      "roman": "sārā"
+    },
+    "مہبوباں": {
+      "en": "the beloveds",
+      "pos": "noun",
+      "roman": "mahbūbāṅ",
+      "base": "محبوب"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "صورت": {
+      "en": "face; form",
+      "pos": "noun",
+      "roman": "sūrat"
+    },
+    "اتے": {
+      "en": "on; upon",
+      "pos": "postposition",
+      "roman": "utte"
+    },
+    "اسے": {
+      "en": "that same (one)",
+      "pos": "pronoun",
+      "roman": "use",
+      "base": "اوہ"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "چمکارا": {
+      "en": "gleam; radiance",
+      "pos": "noun",
+      "roman": "chamkārā"
+    },
+    "عاشق": {
+      "en": "lover",
+      "pos": "noun",
+      "roman": "āshiq"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "اوہو": {
+      "en": "that very (one)",
+      "pos": "pronoun",
+      "roman": "oho",
+      "base": "اوہ"
+    },
+    "سرنیارا": {
+      "en": "the unique secret",
+      "pos": "noun",
+      "roman": "sirr niārā",
+      "note": "Sirr: Sufi term for the innermost secret; \"niara\", unique, apart. Uncertain reading."
+    }
+  }
+}

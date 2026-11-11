@@ -1,0 +1,190 @@
+{
+  "poem": "dl-dlgir-hoia-tqdiron",
+  "status": "draft",
+  "words": {
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "دلگیر": {
+      "en": "grieving; dejected",
+      "pos": "adjective",
+      "roman": "dilgīr"
+    },
+    "ہویا": {
+      "en": "has become",
+      "pos": "verb",
+      "roman": "hoiā",
+      "base": "ہونا"
+    },
+    "تقدیروں": {
+      "en": "by fate",
+      "pos": "noun",
+      "roman": "taqdīroṅ",
+      "base": "تقدیر"
+    },
+    "تینوں": {
+      "en": "you; to you",
+      "pos": "pronoun",
+      "roman": "tainūṅ",
+      "base": "توں"
+    },
+    "کون": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kauṇ"
+    },
+    "دیوے": {
+      "en": "would give",
+      "pos": "verb",
+      "roman": "deve",
+      "base": "دینا"
+    },
+    "دم": {
+      "en": "breath; moment",
+      "pos": "noun",
+      "roman": "dam",
+      "note": "\"Dam sukh dā\": a moment's ease; later \"dam dukh dā\": the breath (heat) of pain."
+    },
+    "سکھ": {
+      "en": "comfort; ease",
+      "pos": "noun",
+      "roman": "sukh"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "بہتے": {
+      "en": "most; many",
+      "pos": "adjective",
+      "roman": "bahute",
+      "base": "بہتا"
+    },
+    "یار": {
+      "en": "friends",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "بیدرد": {
+      "en": "heartless; without feeling",
+      "pos": "adjective",
+      "roman": "bedard"
+    },
+    "لباسی": {
+      "en": "hypocritical; all outward show",
+      "pos": "adjective",
+      "roman": "libāsī",
+      "note": "Literally \"of the garment\": pious only in dress."
+    },
+    "کر": {
+      "en": "making; (they) make",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "گیان": {
+      "en": "wisdom; spiritual knowledge",
+      "pos": "noun",
+      "roman": "giān"
+    },
+    "سناون": {
+      "en": "recite; tell",
+      "pos": "verb",
+      "roman": "suṇāvan",
+      "base": "سنانا"
+    },
+    "مکھ": {
+      "en": "mouth; lips",
+      "pos": "noun",
+      "roman": "mukh",
+      "note": "\"Mukh dā giān\": wisdom from the lips only."
+    },
+    "دردی": {
+      "en": "those who feel; sympathisers",
+      "pos": "noun",
+      "roman": "dardī"
+    },
+    "درد": {
+      "en": "pain",
+      "pos": "noun",
+      "roman": "dard"
+    },
+    "ونڈایا": {
+      "en": "shared out",
+      "pos": "verb",
+      "roman": "vanḍāiā",
+      "base": "ونڈانا"
+    },
+    "لوڑن": {
+      "en": "want; seek",
+      "pos": "verb",
+      "roman": "loṛan",
+      "base": "لوڑنا"
+    },
+    "ہتھوں": {
+      "en": "directly; at first hand",
+      "pos": "adverb",
+      "roman": "hatthoṅ",
+      "base": "ہتھ",
+      "note": "Literally \"from the hand\"."
+    },
+    "آن": {
+      "en": "coming",
+      "pos": "verb",
+      "roman": "āṇ",
+      "base": "آؤنا"
+    },
+    "دکھاون": {
+      "en": "show",
+      "pos": "verb",
+      "roman": "dikhāvan",
+      "base": "دکھانا"
+    },
+    "دکھ": {
+      "en": "pain; sorrow",
+      "pos": "noun",
+      "roman": "dukh"
+    },
+    "کامل": {
+      "en": "perfect; complete",
+      "pos": "adjective",
+      "roman": "kāmil",
+      "note": "A \"kamil\" is a perfected spiritual guide."
+    },
+    "ملے": {
+      "en": "meets; should meet",
+      "pos": "verb",
+      "roman": "mile",
+      "base": "ملنا"
+    },
+    "کوئی": {
+      "en": "some; any",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "تاں": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "سرد": {
+      "en": "cool",
+      "pos": "adjective",
+      "roman": "sard"
+    },
+    "ہووے": {
+      "en": "would become",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+ "poem": "sjn-de-hth-banh-asadi",
+ "status": "draft",
+ "words": {
+  "سجن": {
+   "en": "the beloved",
+   "pos": "noun",
+   "roman": "sajjaṇ"
+  },
+  "دے": {
+   "en": "of (masc. oblique)",
+   "pos": "postposition",
+   "roman": "de"
+  },
+  "ہتھ": {
+   "en": "hand",
+   "pos": "noun",
+   "roman": "hatth"
+  },
+  "بانہہ": {
+   "en": "arm",
+   "pos": "noun",
+   "roman": "bāṅh",
+   "note": "بانہہ پھڑنا/دینا: to take someone under one's protection"
+  },
+  "اساڈی": {
+   "en": "my (lit. our)",
+   "pos": "pronoun",
+   "roman": "asāḍī"
+  },
+  "کیونکر": {
+   "en": "how",
+   "pos": "adverb",
+   "roman": "kiuṅkar"
+  },
+  "آکھاں": {
+   "en": "should I say, tell",
+   "pos": "verb",
+   "roman": "ākhāṅ",
+   "base": "آکھنا"
+  },
+  "چھڈ": {
+   "en": "let go; leave",
+   "pos": "verb",
+   "roman": "chhaḍ",
+   "base": "چھڈنا"
+  },
+  "وے": {
+   "en": "O (to a man; vocative)",
+   "pos": "interjection",
+   "roman": "ve"
+  },
+  "اڑیا": {
+   "en": "O friend, dear one",
+   "pos": "noun",
+   "roman": "aṛiā"
+  },
+  "رات": {
+   "en": "night",
+   "pos": "noun",
+   "roman": "rāt"
+  },
+  "اندھیری": {
+   "en": "dark",
+   "pos": "adjective",
+   "roman": "anhērī"
+  },
+  "بدل": {
+   "en": "clouds",
+   "pos": "noun",
+   "roman": "baddal"
+  },
+  "کنیاں": {
+   "en": "drizzle, raindrops",
+   "pos": "noun",
+   "roman": "kaṇiāṅ",
+   "base": "کنی"
+  },
+  "باہجھ": {
+   "en": "without",
+   "pos": "postposition",
+   "roman": "bājh"
+  },
+  "وکیلاں": {
+   "en": "advocates, intercessors",
+   "pos": "noun",
+   "roman": "vakīlāṅ",
+   "base": "وکیل"
+  },
+  "مشکل": {
+   "en": "hardship",
+   "pos": "noun",
+   "roman": "mushkil"
+  },
+  "بنیاں": {
+   "en": "has befallen",
+   "pos": "verb",
+   "roman": "baṇiāṅ",
+   "base": "بننا"
+  },
+  "ڈاہڈے": {
+   "en": "the Mighty One (God)",
+   "pos": "noun",
+   "roman": "ḍāhḍe",
+   "base": "ڈاہڈا"
+  },
+  "کیتا": {
+   "en": "made, did",
+   "pos": "verb",
+   "roman": "kītā",
+   "base": "کرنا"
+  },
+  "سڈ": {
+   "en": "summons, call",
+   "pos": "noun",
+   "roman": "saḍḍ",
+   "note": "The call of death"
+  },
+  "عشق": {
+   "en": "love",
+   "pos": "noun",
+   "roman": "ishq"
+  },
+  "محبت": {
+   "en": "affection, love",
+   "pos": "noun",
+   "roman": "mahabbat"
+  },
+  "سو": {
+   "en": "they (alone)",
+   "pos": "pronoun",
+   "roman": "so"
+  },
+  "ای": {
+   "en": "only (emphatic)",
+   "pos": "particle",
+   "roman": "ī"
+  },
+  "جیہناں": {
+   "en": "those whose; those (with) whom",
+   "pos": "pronoun",
+   "roman": "jihnāṅ"
+  },
+  "ہڈ": {
+   "en": "bones",
+   "pos": "noun",
+   "roman": "haḍḍ"
+  },
+  "کلر": {
+   "en": "saline, barren soil",
+   "pos": "noun",
+   "roman": "kallar"
+  },
+  "کھٹن": {
+   "en": "to dig",
+   "pos": "verb",
+   "roman": "khaṭṭaṇ",
+   "base": "کھٹنا",
+   "note": "Uncertain: also 'to earn'; line warns against labour on barren ground"
+  },
+  "کھوہڑی": {
+   "en": "small well",
+   "pos": "noun",
+   "roman": "khohṛī",
+   "base": "کھوہ",
+   "note": "Uncertain"
+  },
+  "چینا": {
+   "en": "millet",
+   "pos": "noun",
+   "roman": "chīnā",
+   "note": "Uncertain: proso millet as a crop"
+  },
+  "ریت": {
+   "en": "sand",
+   "pos": "noun",
+   "roman": "ret"
+  },
+  "نہ": {
+   "en": "not; don't",
+   "pos": "particle",
+   "roman": "nah"
+  },
+  "گڈ": {
+   "en": "plant; fix",
+   "pos": "verb",
+   "roman": "gaḍḍ",
+   "base": "گڈنا",
+   "note": "Last line: fix (your) eyes on (His) eyes"
+  },
+  "نت": {
+   "en": "always, daily",
+   "pos": "adverb",
+   "roman": "nit"
+  },
+  "بھرناں": {
+   "en": "filling",
+   "pos": "verb",
+   "roman": "bharnāṅ",
+   "base": "بھرنا",
+   "note": "Uncertain"
+  },
+  "چٹھیاں": {
+   "en": "handfuls",
+   "pos": "noun",
+   "roman": "chuṭṭhiāṅ",
+   "note": "Uncertain: possibly 'fistfuls' or 'letters'"
+  },
+  "اک": {
+   "en": "one; a",
+   "pos": "numeral",
+   "roman": "ik"
+  },
+  "دن": {
+   "en": "day",
+   "pos": "noun",
+   "roman": "din"
+  },
+  "جاسیں": {
+   "en": "you will go",
+   "pos": "verb",
+   "roman": "jāsīṅ",
+   "base": "جانا"
+  },
+  "کہے": {
+   "en": "says",
+   "pos": "verb",
+   "roman": "kahe",
+   "base": "کہنا"
+  },
+  "حسین": {
+   "en": "Hussain (the poet names himself)",
+   "pos": "proper noun",
+   "roman": "Husain",
+   "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+  },
+  "فقیر": {
+   "en": "faqir, mendicant",
+   "pos": "noun",
+   "roman": "faqīr",
+   "note": "Sufi term: one poor before God"
+  },
+  "نمانا": {
+   "en": "humble, lowly",
+   "pos": "adjective",
+   "roman": "nimāṇā"
+  },
+  "نین": {
+   "en": "eyes",
+   "pos": "noun",
+   "roman": "nain"
+  },
+  "نیناں": {
+   "en": "(His) eyes",
+   "pos": "noun",
+   "roman": "naināṅ",
+   "base": "نین"
+  },
+  "نال": {
+   "en": "with",
+   "pos": "postposition",
+   "roman": "nāl"
+  },
+  "جانن": {
+   "en": "know (they alone know)",
+   "pos": "verb",
+   "roman": "jāṇan",
+   "base": "جاننا"
+  },
+  "پئی": {
+   "en": "has entered, has seized",
+   "pos": "verb",
+   "roman": "paī",
+   "note": "Love 'has fallen into' (got into) their bones."
+  }
+ }
+}

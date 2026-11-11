@@ -1,0 +1,183 @@
+{
+  "poem": "heer-001",
+  "status": "draft",
+  "words": {
+    "اول": {
+      "en": "first",
+      "pos": "adverb",
+      "roman": "avval"
+    },
+    "حمد": {
+      "en": "praise (of God)",
+      "pos": "noun",
+      "roman": "hamd"
+    },
+    "خدا": {
+      "en": "God",
+      "pos": "noun",
+      "roman": "xudā"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "ورد": {
+      "en": "devotional recitation",
+      "pos": "noun",
+      "roman": "vird",
+      "note": "a litany repeated as daily devotion"
+    },
+    "کیجے": {
+      "en": "let us make; one should make",
+      "pos": "verb",
+      "roman": "kījai",
+      "base": "کرنا"
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "کیتا": {
+      "en": "made; did",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "سو": {
+      "en": "which (that very thing)",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "جگ": {
+      "en": "world",
+      "pos": "noun",
+      "roman": "jag"
+    },
+    "مول": {
+      "en": "root; origin",
+      "pos": "noun",
+      "roman": "mūl"
+    },
+    "میاں": {
+      "en": "O friend (address)",
+      "pos": "interjection",
+      "roman": "miyāṅ",
+      "note": "refrain word addressed to the listener"
+    },
+    "پہلے": {
+      "en": "first of all",
+      "pos": "adverb",
+      "roman": "pahile"
+    },
+    "آپ": {
+      "en": "himself",
+      "pos": "pronoun",
+      "roman": "āp"
+    },
+    "ہے": {
+      "en": "(emphatic) indeed",
+      "pos": "verb",
+      "roman": "hai"
+    },
+    "رب": {
+      "en": "God; the Lord",
+      "pos": "noun",
+      "roman": "rabb"
+    },
+    "نے": {
+      "en": "(agent marker)",
+      "pos": "postposition",
+      "roman": "ne"
+    },
+    "معشوق": {
+      "en": "the beloved",
+      "pos": "noun",
+      "roman": "māshūq"
+    },
+    "نبی": {
+      "en": "prophet",
+      "pos": "noun",
+      "roman": "nabī"
+    },
+    "رسول": {
+      "en": "messenger (of God)",
+      "pos": "noun",
+      "roman": "rasūl"
+    },
+    "پیر": {
+      "en": "spiritual guide",
+      "pos": "noun",
+      "roman": "pīr"
+    },
+    "فقیر": {
+      "en": "dervish",
+      "pos": "noun",
+      "roman": "faqīr"
+    },
+    "مرتبہ": {
+      "en": "rank; station",
+      "pos": "noun",
+      "roman": "martabā"
+    },
+    "مرد": {
+      "en": "man",
+      "pos": "noun",
+      "roman": "mard"
+    },
+    "بھلا": {
+      "en": "good; blessed",
+      "pos": "adjective",
+      "roman": "bhalā"
+    },
+    "رنجول": {
+      "en": "grief-stricken",
+      "pos": "adjective",
+      "roman": "ranjūl",
+      "note": "Uncertain: from رنج 'grief'; the man of love is blessed though sorrowful"
+    },
+    "کھلے": {
+      "en": "opened",
+      "pos": "verb",
+      "roman": "khulle",
+      "base": "کھلنا"
+    },
+    "تنھاں": {
+      "en": "their (of those)",
+      "pos": "pronoun",
+      "roman": "tinhāṅ"
+    },
+    "دے": {
+      "en": "of (pl.)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "باب": {
+      "en": "doors",
+      "pos": "noun",
+      "roman": "bāb"
+    },
+    "قلوب": {
+      "en": "hearts",
+      "pos": "noun",
+      "roman": "qulūb",
+      "base": "قلب"
+    },
+    "اندر": {
+      "en": "within",
+      "pos": "postposition",
+      "roman": "andar"
+    },
+    "جیہناں": {
+      "en": "who (those who)",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "قبول": {
+      "en": "accepted",
+      "pos": "adjective",
+      "roman": "qabūl"
+    }
+  }
+}

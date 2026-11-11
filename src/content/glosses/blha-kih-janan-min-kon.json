@@ -1,0 +1,374 @@
+{
+  "poem": "blha-kih-janan-min-kon",
+  "status": "draft",
+  "words": {
+    "بلھا": {
+      "en": "Bulleh (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bullhā"
+    },
+    "کیہ": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "kih"
+    },
+    "جاناں": {
+      "en": "do I know",
+      "pos": "verb",
+      "roman": "jāṇāṅ",
+      "base": "جاننا"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "کون": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kauṇ"
+    },
+    "نہ": {
+      "en": "neither, not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "مومن": {
+      "en": "believer",
+      "pos": "noun",
+      "roman": "momin"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "مسیت": {
+      "en": "mosque",
+      "pos": "noun",
+      "roman": "masīt"
+    },
+    "آں": {
+      "en": "am",
+      "pos": "verb",
+      "roman": "āṅ",
+      "base": "ہونا"
+    },
+    "کفر": {
+      "en": "unbelief",
+      "pos": "noun",
+      "roman": "kufr"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "ریت": {
+      "en": "rites, ways",
+      "pos": "noun",
+      "roman": "rīt"
+    },
+    "پاکاں": {
+      "en": "the pure",
+      "pos": "noun",
+      "roman": "pākāṅ",
+      "base": "پاک"
+    },
+    "پلیت": {
+      "en": "impure",
+      "pos": "adjective",
+      "roman": "palīt"
+    },
+    "موسی": {
+      "en": "Moses (Musa)",
+      "pos": "proper noun",
+      "roman": "Mūsā"
+    },
+    "فرعون": {
+      "en": "Pharaoh",
+      "pos": "proper noun",
+      "roman": "Firaun"
+    },
+    "اندر": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "andar"
+    },
+    "بید": {
+      "en": "the Vedas",
+      "pos": "proper noun",
+      "roman": "Bed"
+    },
+    "کتاباں": {
+      "en": "books (scriptures)",
+      "pos": "noun",
+      "roman": "kitābāṅ",
+      "base": "کتاب"
+    },
+    "بھنگاں": {
+      "en": "bhang (cannabis)",
+      "pos": "noun",
+      "roman": "bhangāṅ",
+      "base": "بھنگ"
+    },
+    "شراباں": {
+      "en": "wines",
+      "pos": "noun",
+      "roman": "sharābāṅ",
+      "base": "شراب"
+    },
+    "رنداں": {
+      "en": "libertines, drinkers",
+      "pos": "noun",
+      "roman": "rindāṅ",
+      "base": "رند"
+    },
+    "مست": {
+      "en": "intoxicated",
+      "pos": "adjective",
+      "roman": "mast"
+    },
+    "خراباں": {
+      "en": "ruined, dissolute",
+      "pos": "adjective",
+      "roman": "xarābāṅ",
+      "base": "خراب"
+    },
+    "جاگن": {
+      "en": "waking",
+      "pos": "noun",
+      "roman": "jāgaṇ",
+      "base": "جاگنا"
+    },
+    "سون": {
+      "en": "sleep",
+      "pos": "noun",
+      "roman": "saun"
+    },
+    "شادی": {
+      "en": "joy",
+      "pos": "noun",
+      "roman": "shādī"
+    },
+    "غمناکی": {
+      "en": "sorrow",
+      "pos": "noun",
+      "roman": "ġamnākī"
+    },
+    "پلیتی": {
+      "en": "impurity",
+      "pos": "noun",
+      "roman": "palītī"
+    },
+    "پاکی": {
+      "en": "purity",
+      "pos": "noun",
+      "roman": "pākī"
+    },
+    "آبی": {
+      "en": "of water",
+      "pos": "adjective",
+      "roman": "ābī"
+    },
+    "خاکی": {
+      "en": "of earth",
+      "pos": "adjective",
+      "roman": "xākī"
+    },
+    "آتش": {
+      "en": "fire",
+      "pos": "noun",
+      "roman": "ātish"
+    },
+    "پون": {
+      "en": "wind, air",
+      "pos": "noun",
+      "roman": "paun"
+    },
+    "عربی": {
+      "en": "Arab",
+      "pos": "adjective",
+      "roman": "arabī"
+    },
+    "لاہوری": {
+      "en": "of Lahore",
+      "pos": "adjective",
+      "roman": "Lāhaurī"
+    },
+    "ہندی": {
+      "en": "Indian",
+      "pos": "adjective",
+      "roman": "hindī"
+    },
+    "شہر": {
+      "en": "city",
+      "pos": "noun",
+      "roman": "shahir"
+    },
+    "نگوری": {
+      "en": "of Nagaur",
+      "pos": "adjective",
+      "roman": "Nagaurī",
+      "note": "Uncertain: probably the town of Nagaur"
+    },
+    "ہندو": {
+      "en": "Hindu",
+      "pos": "noun",
+      "roman": "hindū"
+    },
+    "ترک": {
+      "en": "Turk",
+      "pos": "noun",
+      "roman": "turk"
+    },
+    "پشوری": {
+      "en": "of Peshawar",
+      "pos": "adjective",
+      "roman": "Pashaurī"
+    },
+    "رہندا": {
+      "en": "live",
+      "pos": "verb",
+      "roman": "rahindā",
+      "base": "رہنا"
+    },
+    "ندون": {
+      "en": "Nadaun (a town)",
+      "pos": "proper noun",
+      "roman": "Nadauṇ",
+      "note": "Uncertain: probably Nadaun in the Kangra hills"
+    },
+    "بھیت": {
+      "en": "secret",
+      "pos": "noun",
+      "roman": "bhet"
+    },
+    "مذہب": {
+      "en": "religion",
+      "pos": "noun",
+      "roman": "mazhab"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "پایا": {
+      "en": "found",
+      "pos": "verb",
+      "roman": "pāyā",
+      "base": "پانا"
+    },
+    "آدم": {
+      "en": "Adam",
+      "pos": "proper noun",
+      "roman": "Ādam"
+    },
+    "حوا": {
+      "en": "Eve",
+      "pos": "proper noun",
+      "roman": "Havvā"
+    },
+    "جایا": {
+      "en": "born of",
+      "pos": "verb",
+      "roman": "jāyā"
+    },
+    "اپنا": {
+      "en": "my own",
+      "pos": "pronoun",
+      "roman": "apṇā"
+    },
+    "نام": {
+      "en": "name",
+      "pos": "noun",
+      "roman": "nām"
+    },
+    "دھرایا": {
+      "en": "had (myself) named",
+      "pos": "verb",
+      "roman": "dharāyā",
+      "base": "دھرانا"
+    },
+    "بیٹھن": {
+      "en": "sitting still",
+      "pos": "noun",
+      "roman": "baiṭhaṇ",
+      "base": "بیٹھنا"
+    },
+    "بھون": {
+      "en": "moving, wandering",
+      "pos": "noun",
+      "roman": "bhauṇ",
+      "base": "بھونا"
+    },
+    "اول": {
+      "en": "first",
+      "pos": "adjective",
+      "roman": "avval"
+    },
+    "آخر": {
+      "en": "last",
+      "pos": "adjective",
+      "roman": "āxir"
+    },
+    "آپ": {
+      "en": "self",
+      "pos": "pronoun",
+      "roman": "āp"
+    },
+    "نوں": {
+      "en": "to (object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "کوئی": {
+      "en": "any",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "دوجا": {
+      "en": "second, other",
+      "pos": "adjective",
+      "roman": "dūjā"
+    },
+    "ہور": {
+      "en": "else",
+      "pos": "adjective",
+      "roman": "hor"
+    },
+    "پچھاناں": {
+      "en": "recognise",
+      "pos": "verb",
+      "roman": "pachhāṇāṅ",
+      "base": "پچھاننا"
+    },
+    "میتھوں": {
+      "en": "than me",
+      "pos": "pronoun",
+      "roman": "maithoṅ"
+    },
+    "سیانا": {
+      "en": "wise",
+      "pos": "adjective",
+      "roman": "siāṇā"
+    },
+    "اوہ": {
+      "en": "that",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "کھڑا": {
+      "en": "standing",
+      "pos": "adjective",
+      "roman": "khaṛā"
+    },
+    "ہے": {
+      "en": "is",
+      "pos": "verb",
+      "roman": "hai",
+      "base": "ہونا"
+    }
+  }
+}

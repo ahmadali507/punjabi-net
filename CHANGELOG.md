@@ -1,5 +1,21 @@
 # Changelog
 
+## Word meanings for every word (2026-11-11)
+
+- **Every word of all 82 poems is now tappable** (4,996 distinct poem-words), like pushto.net. Each poem has a
+  gloss file in `src/content/glosses/` with the word's meaning in that poem, part of speech, romanisation,
+  base form where inflected, and notes for allusions and idioms.
+- **These are editorial drafts** (owner's decision): written per poem by the editors, not taken from a printed
+  dictionary, and every card says "Editorial gloss, not yet reviewed". About 100 words the drafters were unsure
+  of start their note with "Uncertain:", so a reviewer can start there. Where a word also has a sourced entry
+  (Wilson 1899), the card shows that too, with a link to the dictionary.
+- **Reader:** a "Word meanings" button leads the toolbar and turns the underlines on or off (remembered). Every
+  word has a soft bar under it. The card shows a label, the word, part of speech, pronunciation and base form,
+  the meaning, the note, the dictionary entry and the draft notice. Keyboard and bottom-sheet behaviour as before.
+- `npm run glosses:check` lists any poem word without a gloss (currently none). Two fused words in the source
+  texts (a comma with no space after it, and باہوجنہاں) were split.
+- Lighthouse: poems 98; Sassi Punnun 93 (4,194 tappable words on one page).
+
 ## Landing page (2026-11-11)
 
 - New hero: large serif headline ("The home of Punjabi poetry" / پنجابی شاعری دا گھر), the Shahmukhi thesis

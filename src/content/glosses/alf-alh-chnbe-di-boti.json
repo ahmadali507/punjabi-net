@@ -1,0 +1,170 @@
+{
+  "poem": "alf-alh-chnbe-di-boti",
+  "status": "draft",
+  "words": {
+    "الف": {
+      "en": "Alif (first letter)",
+      "pos": "noun",
+      "roman": "alif",
+      "note": "Acrostic: the first letter, also the first letter of 'Allah'."
+    },
+    "اللہ": {
+      "en": "Allah; God",
+      "pos": "proper noun",
+      "roman": "Allāh"
+    },
+    "چنبے": {
+      "en": "of the jasmine",
+      "pos": "noun",
+      "roman": "chambe",
+      "base": "چنبا",
+      "note": "Chamba: a fragrant jasmine-like flowering plant."
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "بوٹی": {
+      "en": "plant; herb",
+      "pos": "noun",
+      "roman": "būṭī"
+    },
+    "مرشد": {
+      "en": "spiritual guide",
+      "pos": "noun",
+      "roman": "murshid"
+    },
+    "من": {
+      "en": "heart; mind",
+      "pos": "noun",
+      "roman": "man"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "لائی": {
+      "en": "planted",
+      "pos": "verb",
+      "roman": "lāī",
+      "base": "لانا"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "نفی": {
+      "en": "negation",
+      "pos": "noun",
+      "roman": "nafī",
+      "note": "nafī-isbāt: the formula lā ilāha (negation) illā Allāh (affirmation)."
+    },
+    "اثبات": {
+      "en": "affirmation",
+      "pos": "noun",
+      "roman": "isbāt"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "پانی": {
+      "en": "water",
+      "pos": "noun",
+      "roman": "pānī"
+    },
+    "ملیس": {
+      "en": "it was given (it received)",
+      "pos": "verb",
+      "roman": "miliyus",
+      "base": "ملنا"
+    },
+    "ہر": {
+      "en": "every",
+      "pos": "adjective",
+      "roman": "har"
+    },
+    "رگے": {
+      "en": "vein (in every vein)",
+      "pos": "noun",
+      "roman": "rage",
+      "base": "رگ"
+    },
+    "جائی": {
+      "en": "place (everywhere)",
+      "pos": "noun",
+      "roman": "jāī",
+      "base": "جا"
+    },
+    "اندر": {
+      "en": "inside; within",
+      "pos": "adverb",
+      "roman": "andar"
+    },
+    "مشک": {
+      "en": "musk; fragrance",
+      "pos": "noun",
+      "roman": "mushk"
+    },
+    "مچایا": {
+      "en": "spread; raised",
+      "pos": "verb",
+      "roman": "machāiā",
+      "base": "مچانا"
+    },
+    "جاں": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jāṅ"
+    },
+    "پھلاں": {
+      "en": "flowers",
+      "pos": "noun",
+      "roman": "phullāṅ",
+      "base": "پھل"
+    },
+    "تے": {
+      "en": "on; to",
+      "pos": "postposition",
+      "roman": "te"
+    },
+    "آئی": {
+      "en": "came (into flower)",
+      "pos": "verb",
+      "roman": "āī",
+      "base": "آنا"
+    },
+    "جیوے": {
+      "en": "long live",
+      "pos": "verb",
+      "roman": "jīve",
+      "base": "جینا"
+    },
+    "کامل": {
+      "en": "perfect",
+      "pos": "adjective",
+      "roman": "kāmil"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "جیں": {
+      "en": "who (did it)",
+      "pos": "pronoun",
+      "roman": "jeṅ"
+    },
+    "ایہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "ih"
+    }
+  }
+}

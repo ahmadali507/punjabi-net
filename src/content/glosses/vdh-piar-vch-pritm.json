@@ -1,0 +1,167 @@
+{
+  "poem": "vdh-piar-vch-pritm",
+  "status": "draft",
+  "words": {
+    "سکدا": {
+      "en": "longing",
+      "pos": "verb",
+      "roman": "sikkdā",
+      "base": "سکنا"
+    },
+    "وچھا": {
+      "en": "calf",
+      "pos": "noun",
+      "roman": "vacchhā"
+    },
+    "چھٹیا": {
+      "en": "broke loose",
+      "pos": "verb",
+      "roman": "chhuṭṭiā",
+      "base": "چھٹنا"
+    },
+    "دھا": {
+      "en": "running, rushing",
+      "pos": "verb",
+      "roman": "dhā",
+      "base": "دھانا"
+    },
+    "امی": {
+      "en": "mother",
+      "pos": "noun",
+      "roman": "ammī"
+    },
+    "ول": {
+      "en": "towards",
+      "pos": "postposition",
+      "roman": "val"
+    },
+    "آیا": {
+      "en": "came",
+      "pos": "verb",
+      "roman": "āiā",
+      "base": "آنا"
+    },
+    "امیں": {
+      "en": "the mother (agent)",
+      "pos": "noun",
+      "roman": "ammīṅ",
+      "base": "امی"
+    },
+    "اس": {
+      "en": "it, him",
+      "pos": "pronoun",
+      "roman": "us"
+    },
+    "توں": {
+      "en": "than",
+      "pos": "postposition",
+      "roman": "toṅ"
+    },
+    "ودھ": {
+      "en": "more",
+      "pos": "adverb",
+      "roman": "vadh"
+    },
+    "پیارے": {
+      "en": "in love; loving",
+      "pos": "noun",
+      "roman": "piāre",
+      "base": "پیار"
+    },
+    "ترٹھ": {
+      "en": "delighted, gracious",
+      "pos": "adjective",
+      "roman": "truṭṭh",
+      "base": "ترٹھنا"
+    },
+    "لاڈ": {
+      "en": "fondling, affection",
+      "pos": "noun",
+      "roman": "lāḍ"
+    },
+    "لڈایا": {
+      "en": "lavished (fondled)",
+      "pos": "verb",
+      "roman": "laḍāiā",
+      "base": "لڈانا"
+    },
+    "سکدی": {
+      "en": "longing",
+      "pos": "verb",
+      "roman": "sikkdī",
+      "base": "سکنا"
+    },
+    "ندی": {
+      "en": "river",
+      "pos": "noun",
+      "roman": "nadī"
+    },
+    "جال": {
+      "en": "enduring",
+      "pos": "verb",
+      "roman": "jāl",
+      "base": "جالنا",
+      "note": "jafar jālnā: to endure hardships."
+    },
+    "جپھراں": {
+      "en": "hardships",
+      "pos": "noun",
+      "roman": "jafrāṅ",
+      "base": "جفر",
+      "note": "Odd spelling for جفراں."
+    },
+    "جد": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jad"
+    },
+    "شہہ": {
+      "en": "great, king",
+      "pos": "adjective",
+      "roman": "shah"
+    },
+    "ساگر": {
+      "en": "ocean",
+      "pos": "noun",
+      "roman": "sāgar"
+    },
+    "پہنچی": {
+      "en": "reached",
+      "pos": "verb",
+      "roman": "pahuṅchī",
+      "base": "پہنچنا"
+    },
+    "پیار": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "piār"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "پریتم": {
+      "en": "beloved",
+      "pos": "noun",
+      "roman": "prītam"
+    },
+    "ملن": {
+      "en": "to meet",
+      "pos": "verb",
+      "roman": "milaṇ",
+      "base": "ملنا"
+    },
+    "اگاہاں": {
+      "en": "forward",
+      "pos": "adverb",
+      "roman": "agāhāṅ"
+    },
+    "دھایا": {
+      "en": "rushed",
+      "pos": "verb",
+      "roman": "dhāiā",
+      "base": "دھانا"
+    }
+  }
+}

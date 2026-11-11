@@ -1,0 +1,217 @@
+{
+  "poem": "tinda-shq-qsai-vria",
+  "status": "draft",
+  "words": {
+    "تیندا": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "teṇḍā",
+      "base": "توں",
+      "note": "Western (Lahnda) form of \"terā\"."
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "قصائی": {
+      "en": "butcher",
+      "pos": "noun",
+      "roman": "qasāī"
+    },
+    "وڑیا": {
+      "en": "entered; broke in",
+      "pos": "verb",
+      "roman": "vaṛiā",
+      "base": "وڑنا"
+    },
+    "جن": {
+      "en": "which; who",
+      "pos": "pronoun",
+      "roman": "jin"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "سولاں": {
+      "en": "stabbing pains",
+      "pos": "noun",
+      "roman": "sūlāṅ",
+      "base": "سول",
+      "note": "Literally thorns, spikes."
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "بھریا": {
+      "en": "filled; (line 4) full of",
+      "pos": "verb",
+      "roman": "bhariā",
+      "base": "بھرنا"
+    },
+    "اک": {
+      "en": "one",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "دن": {
+      "en": "day",
+      "pos": "noun",
+      "roman": "din"
+    },
+    "برس": {
+      "en": "year",
+      "pos": "noun",
+      "roman": "baras"
+    },
+    "جیہا": {
+      "en": "like",
+      "pos": "adjective",
+      "roman": "jehā"
+    },
+    "ہو": {
+      "en": "becoming",
+      "pos": "verb",
+      "roman": "ho",
+      "base": "ہونا"
+    },
+    "بیتے": {
+      "en": "passes",
+      "pos": "verb",
+      "roman": "bīte",
+      "base": "بیتنا"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "عمر": {
+      "en": "life; lifespan",
+      "pos": "noun",
+      "roman": "umar"
+    },
+    "ولوں": {
+      "en": "about; regarding",
+      "pos": "postposition",
+      "roman": "valoṅ",
+      "base": "ول"
+    },
+    "بہت": {
+      "en": "very; much",
+      "pos": "adverb",
+      "roman": "bahut"
+    },
+    "ڈریا": {
+      "en": "am afraid",
+      "pos": "verb",
+      "roman": "ḍariā",
+      "base": "ڈرنا"
+    },
+    "دلبر": {
+      "en": "beloved; heart-stealer",
+      "pos": "noun",
+      "roman": "dilbar"
+    },
+    "یار": {
+      "en": "friend; beloved",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "ڈٹھے": {
+      "en": "on seeing",
+      "pos": "verb",
+      "roman": "ḍiṭhe",
+      "base": "ویکھنا"
+    },
+    "مکھ": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "mukh"
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "توں"
+    },
+    "میرا": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merā",
+      "base": "میں"
+    },
+    "تن": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "tan"
+    },
+    "من": {
+      "en": "mind; soul",
+      "pos": "noun",
+      "roman": "man"
+    },
+    "تھیوے": {
+      "en": "becomes",
+      "pos": "verb",
+      "roman": "thīve",
+      "base": "تھیونا"
+    },
+    "ہریا": {
+      "en": "green; flourishing",
+      "pos": "adjective",
+      "roman": "hariā",
+      "base": "ہرا"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "راہ": {
+      "en": "path; road",
+      "pos": "noun",
+      "roman": "rāh"
+    },
+    "اڈیکے": {
+      "en": "waits for; watches",
+      "pos": "verb",
+      "roman": "uḍīke",
+      "base": "اڈیکنا"
+    },
+    "تیرا": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "terā",
+      "base": "توں"
+    },
+    "کدی": {
+      "en": "sometime; ever",
+      "pos": "adverb",
+      "roman": "kadī"
+    },
+    "آ": {
+      "en": "come",
+      "pos": "verb",
+      "roman": "ā",
+      "base": "آؤنا"
+    },
+    "پل": {
+      "en": "press in; rush (to me)",
+      "pos": "verb",
+      "roman": "pil",
+      "note": "Uncertain: possibly \"pal\" (a moment), i.e. \"come for a moment\"."
+    },
+    "بھاگی": {
+      "en": "good fortune",
+      "pos": "noun",
+      "roman": "bhāgī",
+      "base": "بھاگ",
+      "note": "\"Bhagi bhariya\": O one full of good fortune."
+    }
+  }
+}

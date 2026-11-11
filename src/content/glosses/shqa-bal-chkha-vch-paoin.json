@@ -1,0 +1,175 @@
+{
+  "poem": "shqa-bal-chkha-vch-paoin",
+  "status": "draft",
+  "words": {
+    "عشقا": {
+      "en": "O love",
+      "pos": "noun",
+      "roman": "ishqā",
+      "base": "عشق"
+    },
+    "بال": {
+      "en": "kindle; light",
+      "pos": "verb",
+      "roman": "bāl",
+      "base": "بالنا"
+    },
+    "چخا": {
+      "en": "funeral pyre",
+      "pos": "noun",
+      "roman": "chikhā"
+    },
+    "وچ": {
+      "en": "in; into",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "پاویں": {
+      "en": "you put (me)",
+      "pos": "verb",
+      "roman": "pāveṅ",
+      "base": "پاؤنا"
+    },
+    "تاں": {
+      "en": "then; even so",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "انگ": {
+      "en": "limb; body",
+      "pos": "noun",
+      "roman": "ang"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "موڑاں": {
+      "en": "I would turn (away)",
+      "pos": "verb",
+      "roman": "moṛāṅ",
+      "base": "موڑنا"
+    },
+    "ذرا": {
+      "en": "even a little",
+      "pos": "adverb",
+      "roman": "zarā"
+    },
+    "مکھ": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "mukh",
+      "note": "\"Mukh moṛna\": to turn the face away, retreat."
+    },
+    "کافر": {
+      "en": "infidel",
+      "pos": "noun",
+      "roman": "kāfir"
+    },
+    "تھیواں": {
+      "en": "may I become",
+      "pos": "verb",
+      "roman": "thīvāṅ",
+      "base": "تھیونا"
+    },
+    "جے": {
+      "en": "if; even if",
+      "pos": "conjunction",
+      "roman": "je"
+    },
+    "سیس": {
+      "en": "head",
+      "pos": "noun",
+      "roman": "sīs"
+    },
+    "دھراویں": {
+      "en": "you place",
+      "pos": "verb",
+      "roman": "dharāveṅ",
+      "base": "دھرنا"
+    },
+    "ارا": {
+      "en": "saw",
+      "pos": "noun",
+      "roman": "ārā",
+      "note": "A saw on the head: martyrdom, as in the tale of the prophet Zakariya sawn in a tree."
+    },
+    "شوق": {
+      "en": "longing; ardour",
+      "pos": "noun",
+      "roman": "shauq"
+    },
+    "شراب": {
+      "en": "wine",
+      "pos": "noun",
+      "roman": "sharāb",
+      "note": "Sufi wine: divine love."
+    },
+    "پلائیو": {
+      "en": "you made (me) drink",
+      "pos": "verb",
+      "roman": "pilāio",
+      "base": "پلانا"
+    },
+    "مینوں": {
+      "en": "me",
+      "pos": "pronoun",
+      "roman": "mainūṅ",
+      "base": "میں"
+    },
+    "ہن": {
+      "en": "now",
+      "pos": "adverb",
+      "roman": "huṇ"
+    },
+    "ہویا": {
+      "en": "have become",
+      "pos": "verb",
+      "roman": "hoiā",
+      "base": "ہونا"
+    },
+    "مست": {
+      "en": "intoxicated; ecstatic",
+      "pos": "adjective",
+      "roman": "mast"
+    },
+    "مقرا": {
+      "en": "utterly; for certain",
+      "pos": "adjective",
+      "roman": "muqarrā",
+      "note": "Uncertain: probably from \"muqarrar\", fixed, confirmed."
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "نہیں": {
+      "en": "is no more; not",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "رہو": {
+      "en": "remain",
+      "pos": "verb",
+      "roman": "raho",
+      "base": "رہنا"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "ہی": {
+      "en": "alone; only",
+      "pos": "particle",
+      "roman": "hī"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "poem": "kjh-vsah-nh-sah-aie-da-man",
+  "status": "draft",
+  "words": {
+    "کجھ": {
+      "en": "any; at all",
+      "pos": "pronoun",
+      "roman": "kujh"
+    },
+    "وساہ": {
+      "en": "trust; certainty",
+      "pos": "noun",
+      "roman": "visāh"
+    },
+    "نہ": {
+      "en": "no; not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "ساہ": {
+      "en": "breath",
+      "pos": "noun",
+      "roman": "sāh"
+    },
+    "آئے": {
+      "en": "coming (next)",
+      "pos": "verb",
+      "roman": "āe",
+      "base": "آؤنا",
+      "note": "\"Sah aye da\": of the breath that is to come."
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "مان": {
+      "en": "pride",
+      "pos": "noun",
+      "roman": "māṇ"
+    },
+    "کیہا": {
+      "en": "what (kind of)",
+      "pos": "pronoun",
+      "roman": "kehā"
+    },
+    "پھر": {
+      "en": "then",
+      "pos": "adverb",
+      "roman": "phir"
+    },
+    "کرنا": {
+      "en": "to make; take",
+      "pos": "verb",
+      "roman": "karnā"
+    },
+    "جس": {
+      "en": "which; the one",
+      "pos": "pronoun",
+      "roman": "jis"
+    },
+    "جسے": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "jusse",
+      "base": "جثہ"
+    },
+    "نوں": {
+      "en": "(object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "چھنڈ": {
+      "en": "shaking clean; dusting",
+      "pos": "verb",
+      "roman": "chhaṇḍ",
+      "base": "چھنڈنا",
+      "note": "\"Chhand chhand\": dusting off again and again."
+    },
+    "رکھیں": {
+      "en": "you keep",
+      "pos": "verb",
+      "roman": "rakkheṅ",
+      "base": "رکھنا"
+    },
+    "خاک": {
+      "en": "dust; earth",
+      "pos": "noun",
+      "roman": "xāk"
+    },
+    "اندر": {
+      "en": "in; inside",
+      "pos": "postposition",
+      "roman": "andar"
+    },
+    "وننج": {
+      "en": "going",
+      "pos": "verb",
+      "roman": "vanj",
+      "base": "وننجنا",
+      "note": "Western Punjabi for \"going\"."
+    },
+    "دھرنا": {
+      "en": "to be laid",
+      "pos": "verb",
+      "roman": "dharnā"
+    },
+    "لوئ": {
+      "en": "light (of day)",
+      "pos": "noun",
+      "roman": "loe",
+      "note": "\"Loe loe\": while daylight lasts."
+    },
+    "بھر": {
+      "en": "fill",
+      "pos": "verb",
+      "roman": "bhar",
+      "base": "بھرنا"
+    },
+    "لے": {
+      "en": "(for yourself)",
+      "pos": "verb",
+      "roman": "lai",
+      "base": "لینا"
+    },
+    "کڑیئے": {
+      "en": "O girl",
+      "pos": "noun",
+      "roman": "kuṛīe",
+      "base": "کڑی",
+      "note": "The soul as a village girl fetching water."
+    },
+    "جے": {
+      "en": "if",
+      "pos": "conjunction",
+      "roman": "je"
+    },
+    "تدھ": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tudh",
+      "base": "توں"
+    },
+    "بھانڈا": {
+      "en": "pitcher; pot",
+      "pos": "noun",
+      "roman": "bhāṇḍā"
+    },
+    "بھرنا": {
+      "en": "to fill; must fill",
+      "pos": "verb",
+      "roman": "bharnā"
+    },
+    "شام": {
+      "en": "evening; (2nd) Shaam, the dark beloved",
+      "pos": "noun",
+      "roman": "shām",
+      "note": "Pun: evening has fallen without Shyam (the dark beloved, Krishna as lover)."
+    },
+    "پئی": {
+      "en": "has fallen",
+      "pos": "verb",
+      "roman": "paī",
+      "base": "پینا"
+    },
+    "بن": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bin"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "گھر": {
+      "en": "home",
+      "pos": "noun",
+      "roman": "ghar"
+    },
+    "جاندی": {
+      "en": "going (fem.)",
+      "pos": "verb",
+      "roman": "jāndī",
+      "base": "جانا"
+    },
+    "نے": {
+      "en": "(she) will have to",
+      "pos": "particle",
+      "roman": "ne",
+      "note": "\"Jandi ne darna\": she must be afraid going home."
+    },
+    "ڈرنا": {
+      "en": "fear; be afraid",
+      "pos": "verb",
+      "roman": "ḍarnā"
+    }
+  }
+}

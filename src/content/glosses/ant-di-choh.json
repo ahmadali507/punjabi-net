@@ -1,0 +1,181 @@
+{
+  "poem": "ant-di-choh",
+  "status": "draft",
+  "words": {
+    "ہے": {
+      "en": "O (vocative)",
+      "pos": "interjection",
+      "roman": "he"
+    },
+    "اننت": {
+      "en": "Infinite One (God)",
+      "pos": "noun",
+      "roman": "anant"
+    },
+    "اک": {
+      "en": "one, a single",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "چھوہ": {
+      "en": "touch",
+      "pos": "noun",
+      "roman": "chhoh",
+      "note": "Bhai Vir Singh's key image: the Divine touch."
+    },
+    "تہاڈی": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tuhāḍī",
+      "base": "تہاڈا"
+    },
+    "نوں": {
+      "en": "for; to (object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "منگدا": {
+      "en": "begs, asks for",
+      "pos": "verb",
+      "roman": "maṅgdā",
+      "base": "منگنا"
+    },
+    "نہں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nahīṅ",
+      "note": "Odd spelling for نہیں."
+    },
+    "رجدا": {
+      "en": "is sated",
+      "pos": "verb",
+      "roman": "rajjdā",
+      "base": "رجنا"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "قہر": {
+      "en": "fury, calamity",
+      "pos": "noun",
+      "roman": "qahar"
+    },
+    "وچھوڑا": {
+      "en": "separation",
+      "pos": "noun",
+      "roman": "vichhoṛā"
+    },
+    "سیلے": {
+      "en": "spear, lance",
+      "pos": "noun",
+      "roman": "sele",
+      "base": "سیل"
+    },
+    "وانگو": {
+      "en": "like",
+      "pos": "postposition",
+      "roman": "vāṅgū"
+    },
+    "وجدا": {
+      "en": "strikes, pierces",
+      "pos": "verb",
+      "roman": "vajjdā",
+      "base": "وجنا"
+    },
+    "چشمیں": {
+      "en": "springs (of water)",
+      "pos": "noun",
+      "roman": "chashmīṅ",
+      "base": "چشمہ"
+    },
+    "جیوں": {
+      "en": "as, just as",
+      "pos": "conjunction",
+      "roman": "jiuṅ"
+    },
+    "غیب": {
+      "en": "the Unseen",
+      "pos": "noun",
+      "roman": "ġaib"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "ملی": {
+      "en": "was received",
+      "pos": "verb",
+      "roman": "milī",
+      "base": "ملنا"
+    },
+    "پیا": {
+      "en": "keeps on (continuous)",
+      "pos": "verb",
+      "roman": "piā",
+      "base": "پینا"
+    },
+    "نت": {
+      "en": "always, ever",
+      "pos": "adverb",
+      "roman": "nit"
+    },
+    "کھیڈے": {
+      "en": "plays",
+      "pos": "verb",
+      "roman": "kheḍe",
+      "base": "کھیڈنا"
+    },
+    "اپنی": {
+      "en": "your own",
+      "pos": "pronoun",
+      "roman": "apṇī",
+      "base": "اپنا"
+    },
+    "گود": {
+      "en": "lap",
+      "pos": "noun",
+      "roman": "god"
+    },
+    "کھڈا": {
+      "en": "having played (us), dandled",
+      "pos": "verb",
+      "roman": "khaḍā",
+      "base": "کھڈاونا"
+    },
+    "تؤں": {
+      "en": "so, likewise",
+      "pos": "adverb",
+      "roman": "tiuṅ",
+      "note": "Odd spelling for تیوں (tiuṅ), correlative of جیوں."
+    },
+    "ماں": {
+      "en": "mother",
+      "pos": "noun",
+      "roman": "māṅ"
+    },
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "eh"
+    },
+    "کچھ": {
+      "en": "something; (all) this",
+      "pos": "pronoun",
+      "roman": "kujh"
+    },
+    "پھبدا": {
+      "en": "befits, becomes",
+      "pos": "verb",
+      "roman": "phabbdā",
+      "base": "پھبنا"
+    }
+  }
+}

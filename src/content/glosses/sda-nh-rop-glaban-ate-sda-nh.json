@@ -1,0 +1,155 @@
+{
+  "poem": "sda-nh-rop-glaban-ate-sda-nh",
+  "status": "draft",
+  "words": {
+    "سدا": {
+      "en": "forever; always",
+      "pos": "adverb",
+      "roman": "sadā"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "روپ": {
+      "en": "beauty; bloom",
+      "pos": "noun",
+      "roman": "rūp"
+    },
+    "گلاباں": {
+      "en": "roses",
+      "pos": "noun",
+      "roman": "gulābāṅ",
+      "base": "گلاب"
+    },
+    "اتے": {
+      "en": "on; upon",
+      "pos": "postposition",
+      "roman": "utte"
+    },
+    "باغ": {
+      "en": "garden",
+      "pos": "noun",
+      "roman": "bāġ"
+    },
+    "بہاراں": {
+      "en": "springtimes",
+      "pos": "noun",
+      "roman": "bahārāṅ",
+      "base": "بہار"
+    },
+    "بھج": {
+      "en": "running",
+      "pos": "verb",
+      "roman": "bhajj",
+      "base": "بھجنا",
+      "note": "\"Bhaj bhaj\": running again and again."
+    },
+    "پھیرے": {
+      "en": "rounds; visits",
+      "pos": "noun",
+      "roman": "phere",
+      "base": "پھیرا"
+    },
+    "کرسن": {
+      "en": "will make",
+      "pos": "verb",
+      "roman": "karsan",
+      "base": "کرنا"
+    },
+    "طوطے": {
+      "en": "parrots",
+      "pos": "noun",
+      "roman": "tote",
+      "base": "طوطا"
+    },
+    "بھور": {
+      "en": "black bees",
+      "pos": "noun",
+      "roman": "bhaur"
+    },
+    "ہزاراں": {
+      "en": "thousands",
+      "pos": "numeral",
+      "roman": "hazārāṅ",
+      "base": "ہزار",
+      "note": "Possibly also \"hazar\", nightingale."
+    },
+    "چار": {
+      "en": "four",
+      "pos": "numeral",
+      "roman": "chār"
+    },
+    "دہاڑے": {
+      "en": "days",
+      "pos": "noun",
+      "roman": "dihāṛe",
+      "base": "دہاڑا",
+      "note": "\"Char dihare\": a brief while."
+    },
+    "حسن": {
+      "en": "beauty",
+      "pos": "noun",
+      "roman": "husan"
+    },
+    "جوانی": {
+      "en": "youth",
+      "pos": "noun",
+      "roman": "javānī"
+    },
+    "مان": {
+      "en": "pride",
+      "pos": "noun",
+      "roman": "māṇ"
+    },
+    "کیا": {
+      "en": "what (is the)",
+      "pos": "pronoun",
+      "roman": "kiā"
+    },
+    "دلداراں": {
+      "en": "O beloveds",
+      "pos": "noun",
+      "roman": "dildārāṅ",
+      "base": "دلدار"
+    },
+    "سکدے": {
+      "en": "longing; pining",
+      "pos": "verb",
+      "roman": "sikde",
+      "base": "سکنا"
+    },
+    "اسیں": {
+      "en": "we",
+      "pos": "pronoun",
+      "roman": "asīṅ"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "بخشا": {
+      "en": "Bakhsh (O Muhammad Bakhsh)",
+      "pos": "proper noun",
+      "roman": "Baxshā"
+    },
+    "کیوں": {
+      "en": "why",
+      "pos": "adverb",
+      "roman": "kiūṅ"
+    },
+    "پرواہ": {
+      "en": "care; concern",
+      "pos": "noun",
+      "roman": "parvāh"
+    },
+    "یاراں": {
+      "en": "the friends; beloveds",
+      "pos": "noun",
+      "roman": "yārāṅ",
+      "base": "یار"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "poem": "rba-mire-hal-da-mhrm-ton",
+  "status": "draft",
+  "words": {
+    "ربا": {
+      "en": "O God",
+      "pos": "noun",
+      "roman": "Rabbā",
+      "base": "رب"
+    },
+    "میرے": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "mere"
+    },
+    "حال": {
+      "en": "state, condition",
+      "pos": "noun",
+      "roman": "hāl"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "محرم": {
+      "en": "confidant, one who knows",
+      "pos": "noun",
+      "roman": "mahram"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "اندر": {
+      "en": "inside",
+      "pos": "adverb",
+      "roman": "andar"
+    },
+    "ہیں": {
+      "en": "are",
+      "pos": "verb",
+      "roman": "haiṅ",
+      "base": "ہونا"
+    },
+    "باھر": {
+      "en": "outside",
+      "pos": "adverb",
+      "roman": "bāhar"
+    },
+    "روم": {
+      "en": "pore (lit. hair)",
+      "pos": "noun",
+      "roman": "rom",
+      "note": "روم روم: every pore of the body"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "تانا": {
+      "en": "warp",
+      "pos": "noun",
+      "roman": "tāṇā"
+    },
+    "بانا": {
+      "en": "weft",
+      "pos": "noun",
+      "roman": "bāṇā"
+    },
+    "سبھ": {
+      "en": "all; everyone",
+      "pos": "pronoun",
+      "roman": "sabh"
+    },
+    "کجھ": {
+      "en": "something (سبھ کجھ: everything)",
+      "pos": "pronoun",
+      "roman": "kujh"
+    },
+    "میرا": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merā"
+    },
+    "کہے": {
+      "en": "says",
+      "pos": "verb",
+      "roman": "kahe",
+      "base": "کہنا"
+    },
+    "حسین": {
+      "en": "Hussain (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Husain",
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+    },
+    "فقیر": {
+      "en": "faqir, mendicant",
+      "pos": "noun",
+      "roman": "faqīr",
+      "note": "Sufi term: one poor before God"
+    },
+    "نماناں": {
+      "en": "humble, lowly",
+      "pos": "adjective",
+      "roman": "nimāṇāṅ",
+      "base": "نمانا"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "ناہیں": {
+      "en": "am not; am nothing",
+      "pos": "verb",
+      "roman": "nāhīṅ"
+    },
+    "سب": {
+      "en": "all",
+      "pos": "pronoun",
+      "roman": "sab"
+    }
+  }
+}

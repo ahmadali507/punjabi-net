@@ -1,0 +1,188 @@
+{
+  "poem": "jionde-kih-jan-sar-moian-di",
+  "status": "draft",
+  "words": {
+    "جیوندے": {
+      "en": "the living",
+      "pos": "noun",
+      "roman": "jīvande",
+      "base": "جیوندا"
+    },
+    "کیہ": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "kih"
+    },
+    "جانن": {
+      "en": "(do they) know",
+      "pos": "verb",
+      "roman": "jānan",
+      "base": "جاننا"
+    },
+    "سار": {
+      "en": "state; inner knowledge",
+      "pos": "noun",
+      "roman": "sār"
+    },
+    "مویاں": {
+      "en": "of the dead",
+      "pos": "noun",
+      "roman": "moiāṅ",
+      "base": "موا"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "سو": {
+      "en": "he (alone)",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "جانے": {
+      "en": "knows",
+      "pos": "verb",
+      "roman": "jāne",
+      "base": "جاننا"
+    },
+    "جو": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "مردا": {
+      "en": "dies",
+      "pos": "verb",
+      "roman": "mardā",
+      "base": "مرنا"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "قبراں": {
+      "en": "graves",
+      "pos": "noun",
+      "roman": "qabrāṅ",
+      "base": "قبر"
+    },
+    "دے": {
+      "en": "of (masc. obl.)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "ان": {
+      "en": "grain; food",
+      "pos": "noun",
+      "roman": "ann"
+    },
+    "نہ": {
+      "en": "not; nor",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "پانی": {
+      "en": "water",
+      "pos": "noun",
+      "roman": "pānī"
+    },
+    "خرچ": {
+      "en": "provisions; expenses",
+      "pos": "noun",
+      "roman": "xarch"
+    },
+    "لوڑیندا": {
+      "en": "is needed",
+      "pos": "verb",
+      "roman": "loṛīndā",
+      "base": "لوڑنا"
+    },
+    "گھر": {
+      "en": "home",
+      "pos": "noun",
+      "roman": "ghar",
+      "note": "Provisions 'from home': good deeds sent ahead from this life."
+    },
+    "دا": {
+      "en": "of; from (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "اک": {
+      "en": "one (first)",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "وچھوڑا": {
+      "en": "separation",
+      "pos": "noun",
+      "roman": "vichhoṛā"
+    },
+    "ماں": {
+      "en": "mother",
+      "pos": "noun",
+      "roman": "māṅ"
+    },
+    "پیو": {
+      "en": "father",
+      "pos": "noun",
+      "roman": "pio"
+    },
+    "بھائیاں": {
+      "en": "brothers",
+      "pos": "noun",
+      "roman": "bhāiāṅ",
+      "base": "بھائی"
+    },
+    "بیا": {
+      "en": "second; another",
+      "pos": "adjective",
+      "roman": "biā"
+    },
+    "عذاب": {
+      "en": "torment",
+      "pos": "noun",
+      "roman": "azāb"
+    },
+    "قبر": {
+      "en": "grave",
+      "pos": "noun",
+      "roman": "qabar"
+    },
+    "واہ": {
+      "en": "blessed; how fine",
+      "pos": "interjection",
+      "roman": "vāh"
+    },
+    "نصیبا": {
+      "en": "fate; fortune",
+      "pos": "noun",
+      "roman": "nasībā",
+      "base": "نصیب"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "جیہڑا": {
+      "en": "who; the one who",
+      "pos": "pronoun",
+      "roman": "jehṛā"
+    },
+    "حیاتی": {
+      "en": "life",
+      "pos": "noun",
+      "roman": "hayātī"
+    }
+  }
+}

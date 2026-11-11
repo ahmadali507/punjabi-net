@@ -1,0 +1,80 @@
+{
+  "poem": "rkhi-skhi-kha-ke",
+  "status": "draft",
+  "words": {
+    "رکھی": {
+      "en": "dry; plain",
+      "pos": "adjective",
+      "roman": "rukkhī",
+      "base": "رکھا"
+    },
+    "سکھی": {
+      "en": "dry; simple",
+      "pos": "adjective",
+      "roman": "sukkhī",
+      "base": "سکا",
+      "note": "rukkhī sukkhī: plain, unbuttered bread."
+    },
+    "کھا": {
+      "en": "eat",
+      "pos": "verb",
+      "roman": "khā",
+      "base": "کھانا"
+    },
+    "کے": {
+      "en": "having (done)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "ٹھنڈا": {
+      "en": "cold",
+      "pos": "adjective",
+      "roman": "ṭhanḍā"
+    },
+    "پانی": {
+      "en": "water",
+      "pos": "noun",
+      "roman": "pāṇī"
+    },
+    "پی": {
+      "en": "drink",
+      "pos": "verb",
+      "roman": "pī",
+      "base": "پینا"
+    },
+    "دیکھ": {
+      "en": "seeing",
+      "pos": "verb",
+      "roman": "dekh",
+      "base": "دیکھنا"
+    },
+    "پرائی": {
+      "en": "another's",
+      "pos": "adjective",
+      "roman": "parāī",
+      "base": "پرایا"
+    },
+    "چوپڑی": {
+      "en": "buttered (bread)",
+      "pos": "adjective",
+      "roman": "choparī",
+      "base": "چوپڑنا"
+    },
+    "نہ": {
+      "en": "don't",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "ترسائیں": {
+      "en": "make (it) crave",
+      "pos": "verb",
+      "roman": "tarsāīṅ",
+      "base": "ترساونا"
+    },
+    "جی": {
+      "en": "heart; soul",
+      "pos": "noun",
+      "roman": "jī"
+    }
+  }
+}

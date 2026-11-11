@@ -1,0 +1,203 @@
+{
+  "poem": "heer-003",
+  "status": "draft",
+  "words": {
+    "چارے": {
+      "en": "all four",
+      "pos": "numeral",
+      "roman": "chāre"
+    },
+    "یار": {
+      "en": "companions",
+      "pos": "noun",
+      "roman": "yār",
+      "note": "the four Rightly Guided Caliphs"
+    },
+    "رسول": {
+      "en": "the Prophet",
+      "pos": "noun",
+      "roman": "rasūl"
+    },
+    "دے": {
+      "en": "of (pl.)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "چار": {
+      "en": "four",
+      "pos": "numeral",
+      "roman": "chār"
+    },
+    "گوہر": {
+      "en": "jewels; pearls",
+      "pos": "noun",
+      "roman": "gauhar"
+    },
+    "سبھے": {
+      "en": "all",
+      "pos": "pronoun",
+      "roman": "sabhe"
+    },
+    "اک": {
+      "en": "one",
+      "pos": "numeral",
+      "roman": "ikk",
+      "note": "اک تھیں اک = each greater than the other"
+    },
+    "تھیں": {
+      "en": "than",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "چڑھندڑے": {
+      "en": "surpassing; higher",
+      "pos": "adjective",
+      "roman": "chaṛhandaṛe",
+      "base": "چڑھنا"
+    },
+    "نے": {
+      "en": "are",
+      "pos": "verb",
+      "roman": "ne"
+    },
+    "ابو": {
+      "en": "Abu (in Abu Bakr)",
+      "pos": "proper noun",
+      "roman": "abū"
+    },
+    "بکر": {
+      "en": "Bakr: Abu Bakr, the first caliph",
+      "pos": "proper noun",
+      "roman": "Bakr"
+    },
+    "تے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "عمر": {
+      "en": "Umar, the second caliph",
+      "pos": "proper noun",
+      "roman": "Umar"
+    },
+    "عثمان": {
+      "en": "Usman, the third caliph",
+      "pos": "proper noun",
+      "roman": "Usmān"
+    },
+    "علی": {
+      "en": "Ali, the fourth caliph",
+      "pos": "proper noun",
+      "roman": "Alī"
+    },
+    "آپو": {
+      "en": "each (their own)",
+      "pos": "pronoun",
+      "roman": "āpo",
+      "note": "آپو اپنے = each in his own"
+    },
+    "اپنے": {
+      "en": "own",
+      "pos": "pronoun",
+      "roman": "apne"
+    },
+    "گنیں": {
+      "en": "in virtues",
+      "pos": "noun",
+      "roman": "guṇīṅ",
+      "base": "گن"
+    },
+    "سوہندڑے": {
+      "en": "adorned; graceful",
+      "pos": "adjective",
+      "roman": "sohandaṛe",
+      "base": "سوہنا"
+    },
+    "جیہناں": {
+      "en": "who (those who)",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "صدق": {
+      "en": "sincerity; truthfulness",
+      "pos": "noun",
+      "roman": "sidq"
+    },
+    "یقین": {
+      "en": "certainty; faith",
+      "pos": "noun",
+      "roman": "yaqīn"
+    },
+    "تحقیق": {
+      "en": "realisation of truth",
+      "pos": "noun",
+      "roman": "tahqīq"
+    },
+    "کیتا": {
+      "en": "practised",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "راه": {
+      "en": "path; way",
+      "pos": "noun",
+      "roman": "rāh"
+    },
+    "رب": {
+      "en": "God",
+      "pos": "noun",
+      "roman": "rabb"
+    },
+    "سیس": {
+      "en": "heads",
+      "pos": "noun",
+      "roman": "sīs"
+    },
+    "وکندڑے": {
+      "en": "selling (their heads)",
+      "pos": "verb",
+      "roman": "vikandaṛe",
+      "base": "وکنا",
+      "note": "idiom: gave their lives on God's path"
+    },
+    "ذوق": {
+      "en": "pleasures",
+      "pos": "noun",
+      "roman": "zauq"
+    },
+    "چھڈ": {
+      "en": "leaving",
+      "pos": "verb",
+      "roman": "chhaḍḍ",
+      "base": "چھڈنا"
+    },
+    "کے": {
+      "en": "having (conjunctive)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "زہد": {
+      "en": "asceticism",
+      "pos": "noun",
+      "roman": "zuhd"
+    },
+    "واه": {
+      "en": "bravo; how wonderful",
+      "pos": "interjection",
+      "roman": "vāh"
+    },
+    "اوه": {
+      "en": "they; those",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "بندڑے": {
+      "en": "servants (dear)",
+      "pos": "noun",
+      "roman": "bandaṛe",
+      "base": "بندہ",
+      "note": "affectionate diminutive"
+    }
+  }
+}

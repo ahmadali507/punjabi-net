@@ -1,0 +1,339 @@
+{
+  "poem": "chrh-chk-te-chk-ghmanian",
+  "status": "draft",
+  "words": {
+    "چڑھ": {
+      "en": "climbing, mounting",
+      "pos": "verb",
+      "roman": "chaṛh",
+      "base": "چڑھنا"
+    },
+    "چک": {
+      "en": "wheel, whirling circle",
+      "pos": "noun",
+      "roman": "chakk",
+      "note": "Uncertain: wheel (as a potter's or spinning wheel); the speaker whirls in a dance."
+    },
+    "تے": {
+      "en": "on; and",
+      "pos": "postposition",
+      "roman": "te"
+    },
+    "گھمانیاں": {
+      "en": "I spin",
+      "pos": "verb",
+      "roman": "ghumānīāṅ",
+      "base": "گھمانا"
+    },
+    "مہینوال": {
+      "en": "Mahinwal, Sohni's lover",
+      "pos": "proper noun",
+      "roman": "Mahīṅvāl",
+      "note": "Hero of Sohni Mahinwal; here a figure for the beloved."
+    },
+    "توں": {
+      "en": "to; for (sacrifice)",
+      "pos": "postposition",
+      "roman": "toṅ"
+    },
+    "صدقے": {
+      "en": "sacrificed (devoted)",
+      "pos": "noun",
+      "roman": "sadqe",
+      "base": "صدقہ"
+    },
+    "پئی": {
+      "en": "(continuous: am being)",
+      "pos": "verb",
+      "roman": "paī",
+      "base": "پینا"
+    },
+    "جانیاں": {
+      "en": "I go; I am (being)",
+      "pos": "verb",
+      "roman": "jānīāṅ",
+      "base": "جانا"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "تاں": {
+      "en": "indeed",
+      "pos": "particle",
+      "roman": "tāṅ"
+    },
+    "بدلاں": {
+      "en": "clouds",
+      "pos": "noun",
+      "roman": "baddlāṅ",
+      "base": "بدل"
+    },
+    "نوں": {
+      "en": "(object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "فرش": {
+      "en": "floor",
+      "pos": "noun",
+      "roman": "farsh"
+    },
+    "بنانیاں": {
+      "en": "I make",
+      "pos": "verb",
+      "roman": "banānīāṅ",
+      "base": "بنانا"
+    },
+    "اتے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "ate"
+    },
+    "ناچ": {
+      "en": "dance",
+      "pos": "noun",
+      "roman": "nāch"
+    },
+    "رنگیلڑے": {
+      "en": "colourful, gay",
+      "pos": "adjective",
+      "roman": "raṅgīlṛe",
+      "base": "رنگیلا"
+    },
+    "پانیاں": {
+      "en": "I perform (dance)",
+      "pos": "verb",
+      "roman": "pānīāṅ",
+      "base": "پانا"
+    },
+    "باجی": {
+      "en": "play, music",
+      "pos": "noun",
+      "roman": "bājī",
+      "note": "Uncertain: music or a game played with the lightning."
+    },
+    "بجلی": {
+      "en": "lightning",
+      "pos": "noun",
+      "roman": "bijlī"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de",
+      "base": "دا"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "لگانیاں": {
+      "en": "I set up, play",
+      "pos": "verb",
+      "roman": "lagānīāṅ",
+      "base": "لگانا"
+    },
+    "کھڑ": {
+      "en": "blooming (merrily)",
+      "pos": "adverb",
+      "roman": "khiṛ",
+      "note": "khiṛ khiṛ hassṇā: to laugh heartily."
+    },
+    "ہسنیاں": {
+      "en": "I laugh",
+      "pos": "verb",
+      "roman": "hassnīāṅ",
+      "base": "ہسنا"
+    },
+    "اونوں": {
+      "en": "him",
+      "pos": "pronoun",
+      "roman": "ūnūṅ",
+      "note": "Odd spelling for اوہنوں / اس نوں."
+    },
+    "شرمانیاں": {
+      "en": "I make shy",
+      "pos": "verb",
+      "roman": "sharmānīāṅ",
+      "base": "شرمانا"
+    },
+    "تارے": {
+      "en": "stars",
+      "pos": "noun",
+      "roman": "tāre",
+      "base": "تارا"
+    },
+    "کیساں": {
+      "en": "tresses, hair",
+      "pos": "noun",
+      "roman": "kesāṅ",
+      "base": "کیس"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "گندانیاں": {
+      "en": "I braid, thread",
+      "pos": "verb",
+      "roman": "gundānīāṅ",
+      "base": "گندنا"
+    },
+    "چند": {
+      "en": "moon",
+      "pos": "noun",
+      "roman": "chann"
+    },
+    "متھے": {
+      "en": "forehead",
+      "pos": "noun",
+      "roman": "matthe",
+      "base": "متھا"
+    },
+    "چا": {
+      "en": "lifting, up",
+      "pos": "verb",
+      "roman": "chā",
+      "base": "چانا"
+    },
+    "لٹکانیاں": {
+      "en": "I hang",
+      "pos": "verb",
+      "roman": "laṭkānīāṅ",
+      "base": "لٹکانا"
+    },
+    "نیلے": {
+      "en": "blue",
+      "pos": "adjective",
+      "roman": "nīle",
+      "base": "نیلا"
+    },
+    "عرشاں": {
+      "en": "skies, heavens",
+      "pos": "noun",
+      "roman": "arshāṅ",
+      "base": "عرش"
+    },
+    "ٹھمکدی": {
+      "en": "strutting gracefully",
+      "pos": "verb",
+      "roman": "ṭhumakdī",
+      "base": "ٹھمکنا"
+    },
+    "مینہہ": {
+      "en": "rain",
+      "pos": "noun",
+      "roman": "mīṅh"
+    },
+    "کرناں": {
+      "en": "rays",
+      "pos": "noun",
+      "roman": "kirnāṅ",
+      "base": "کرن"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "وسانیاں": {
+      "en": "I shower, rain",
+      "pos": "verb",
+      "roman": "vasānīāṅ",
+      "base": "وسانا"
+    },
+    "جندکنیاں": {
+      "en": "drops of life",
+      "pos": "noun",
+      "roman": "jind-kaṇīāṅ"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "لٹ": {
+      "en": "plunder (freely given)",
+      "pos": "noun",
+      "roman": "luṭṭ"
+    },
+    "لٹانیاں": {
+      "en": "I lavish, give away",
+      "pos": "verb",
+      "roman": "luṭānīāṅ",
+      "base": "لٹانا"
+    },
+    "عرشیپینگھ": {
+      "en": "rainbow",
+      "pos": "noun",
+      "roman": "arshī-pīṅgh",
+      "note": "Literally 'heavenly swing'."
+    },
+    "کمان": {
+      "en": "bow",
+      "pos": "noun",
+      "roman": "kamān"
+    },
+    "رنگ": {
+      "en": "colour",
+      "pos": "noun",
+      "roman": "raṅg"
+    },
+    "روپ": {
+      "en": "beauty, form",
+      "pos": "noun",
+      "roman": "rūp"
+    },
+    "تیر": {
+      "en": "arrows",
+      "pos": "noun",
+      "roman": "tīr"
+    },
+    "نور": {
+      "en": "light, radiance",
+      "pos": "noun",
+      "roman": "nūr"
+    },
+    "اکھیاں": {
+      "en": "eyes",
+      "pos": "noun",
+      "roman": "akkhīāṅ",
+      "base": "اکھ"
+    },
+    "سمانیاں": {
+      "en": "I pour in, absorb",
+      "pos": "verb",
+      "roman": "samānīāṅ",
+      "base": "سمانا"
+    },
+    "نورو": {
+      "en": "light (upon light)",
+      "pos": "noun",
+      "roman": "nūro",
+      "base": "نور",
+      "note": "nūro nūr: wholly light."
+    },
+    "ہوندڑی": {
+      "en": "becoming",
+      "pos": "verb",
+      "roman": "hondṛī",
+      "base": "ہونا"
+    },
+    "نوریاں": {
+      "en": "luminous ones",
+      "pos": "noun",
+      "roman": "nūrīāṅ",
+      "base": "نوری"
+    },
+    "لانیاں": {
+      "en": "I give, apply",
+      "pos": "verb",
+      "roman": "lānīāṅ",
+      "base": "لانا"
+    }
+  }
+}

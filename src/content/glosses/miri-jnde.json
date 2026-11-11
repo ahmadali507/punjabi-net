@@ -1,0 +1,183 @@
+{
+  "poem": "miri-jnde",
+  "status": "draft",
+  "words": {
+    "تیرا": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "terā"
+    },
+    "تھاؤں": {
+      "en": "place",
+      "pos": "noun",
+      "roman": "thāuṅ"
+    },
+    "کسے": {
+      "en": "some",
+      "pos": "pronoun",
+      "roman": "kise",
+      "base": "کوئی"
+    },
+    "ندی": {
+      "en": "river",
+      "pos": "noun",
+      "roman": "nadī"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de",
+      "base": "دا"
+    },
+    "کنارے": {
+      "en": "bank",
+      "pos": "noun",
+      "roman": "kināre",
+      "base": "کنارا"
+    },
+    "جنگل": {
+      "en": "forest",
+      "pos": "noun",
+      "roman": "jangal"
+    },
+    "بیلے": {
+      "en": "riverside thicket",
+      "pos": "noun",
+      "roman": "bele",
+      "base": "بیلا"
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "تیرا"
+    },
+    "بھاگاں": {
+      "en": "fortune, lot",
+      "pos": "noun",
+      "roman": "bhāgāṅ",
+      "base": "بھاگ"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "عرشاں": {
+      "en": "skies, heavens",
+      "pos": "noun",
+      "roman": "arshāṅ",
+      "base": "عرش"
+    },
+    "تے": {
+      "en": "on; and",
+      "pos": "postposition",
+      "roman": "te"
+    },
+    "اڈنا": {
+      "en": "to fly",
+      "pos": "verb",
+      "roman": "uḍḍaṇā"
+    },
+    "گاندیاں": {
+      "en": "singing",
+      "pos": "verb",
+      "roman": "gāndīāṅ",
+      "base": "گانا"
+    },
+    "پھرن": {
+      "en": "to roam",
+      "pos": "verb",
+      "roman": "phiraṇ",
+      "base": "پھرنا"
+    },
+    "اکیلے": {
+      "en": "alone",
+      "pos": "adjective",
+      "roman": "ikalle",
+      "base": "اکیلا"
+    },
+    "جیون": {
+      "en": "life",
+      "pos": "noun",
+      "roman": "jīvan"
+    },
+    "صیغہ": {
+      "en": "manner, mode",
+      "pos": "noun",
+      "roman": "sīġā",
+      "note": "Uncertain: Arabic ṣīġa 'form'; here 'your way of life'."
+    },
+    "ہی": {
+      "en": "only",
+      "pos": "particle",
+      "roman": "hī"
+    },
+    "جوگا": {
+      "en": "fit for",
+      "pos": "adjective",
+      "roman": "jogā"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "آپے": {
+      "en": "yourself; your own self",
+      "pos": "pronoun",
+      "roman": "āpe"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "کھیلیں": {
+      "en": "you play",
+      "pos": "verb",
+      "roman": "khelēṅ",
+      "base": "کھیلنا"
+    },
+    "کویں": {
+      "en": "how",
+      "pos": "adverb",
+      "roman": "kiveṅ"
+    },
+    "رولیاں": {
+      "en": "din, tumult",
+      "pos": "noun",
+      "roman": "rauliāṅ",
+      "base": "رولا"
+    },
+    "آ": {
+      "en": "having come",
+      "pos": "verb",
+      "roman": "ā",
+      "base": "آنا"
+    },
+    "کھلوتی": {
+      "en": "stood",
+      "pos": "verb",
+      "roman": "khalotī",
+      "base": "کھلونا"
+    },
+    "چار": {
+      "en": "four",
+      "pos": "numeral",
+      "roman": "chār"
+    },
+    "چپھیرے": {
+      "en": "all around",
+      "pos": "adverb",
+      "roman": "chuphere",
+      "note": "chār chuphere: on all sides."
+    },
+    "جھمیلے": {
+      "en": "entanglements, troubles",
+      "pos": "noun",
+      "roman": "jhamele",
+      "base": "جھمیلا"
+    }
+  }
+}

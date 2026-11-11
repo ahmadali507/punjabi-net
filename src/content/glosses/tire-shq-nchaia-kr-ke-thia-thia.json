@@ -1,0 +1,534 @@
+{
+  "poem": "tire-shq-nchaia-kr-ke-thia-thia",
+  "status": "draft",
+  "words": {
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "تیرا"
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "نچایا": {
+      "en": "made (me) dance",
+      "pos": "verb",
+      "roman": "nachāyā",
+      "base": "نچانا"
+    },
+    "کر": {
+      "en": "making, doing",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "کے": {
+      "en": "having (کر کے)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "تھیا": {
+      "en": "thaiyya (dance beat)",
+      "pos": "interjection",
+      "roman": "thaiyyā",
+      "note": "rhythmic syllables of dance steps"
+    },
+    "نے": {
+      "en": "(agent marker)",
+      "pos": "postposition",
+      "roman": "ne"
+    },
+    "ڈیرا": {
+      "en": "camp, dwelling",
+      "pos": "noun",
+      "roman": "ḍerā"
+    },
+    "میرے": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "mere",
+      "base": "میرا"
+    },
+    "اندر": {
+      "en": "inside",
+      "pos": "postposition",
+      "roman": "andar"
+    },
+    "کیتا": {
+      "en": "made",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "بھر": {
+      "en": "filling",
+      "pos": "verb",
+      "roman": "bhar",
+      "base": "بھرنا"
+    },
+    "زہر": {
+      "en": "poison",
+      "pos": "noun",
+      "roman": "zahir"
+    },
+    "پیالہ": {
+      "en": "cup",
+      "pos": "noun",
+      "roman": "piyālā"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "تاں": {
+      "en": "indeed",
+      "pos": "particle",
+      "roman": "tāṅ"
+    },
+    "آپے": {
+      "en": "myself",
+      "pos": "pronoun",
+      "roman": "āpe"
+    },
+    "پیتا": {
+      "en": "drank",
+      "pos": "verb",
+      "roman": "pītā",
+      "base": "پینا"
+    },
+    "جھبدے": {
+      "en": "quickly",
+      "pos": "adverb",
+      "roman": "jhabde"
+    },
+    "بوہڑیں": {
+      "en": "come to (my) aid",
+      "pos": "verb",
+      "roman": "bauhṛīṅ",
+      "base": "بوہڑنا"
+    },
+    "وے": {
+      "en": "O (said to a man)",
+      "pos": "interjection",
+      "roman": "ve"
+    },
+    "طبیبا": {
+      "en": "O physician",
+      "pos": "noun",
+      "roman": "tabībā",
+      "base": "طبیب"
+    },
+    "نہیں": {
+      "en": "otherwise (lit. not)",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "تے": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "مر": {
+      "en": "die",
+      "pos": "verb",
+      "roman": "mar",
+      "base": "مرنا"
+    },
+    "گیاں": {
+      "en": "(I) shall be gone",
+      "pos": "verb",
+      "roman": "gaiāṅ",
+      "base": "جانا"
+    },
+    "چھپ": {
+      "en": "set, hidden",
+      "pos": "verb",
+      "roman": "chhup",
+      "base": "چھپنا"
+    },
+    "گیا": {
+      "en": "went",
+      "pos": "verb",
+      "roman": "giā",
+      "base": "جانا"
+    },
+    "سورج": {
+      "en": "sun",
+      "pos": "noun",
+      "roman": "sūraj"
+    },
+    "باہر": {
+      "en": "outside",
+      "pos": "adverb",
+      "roman": "bāhar"
+    },
+    "رہ": {
+      "en": "remain",
+      "pos": "verb",
+      "roman": "rah",
+      "base": "رہنا"
+    },
+    "گئی": {
+      "en": "went (has)",
+      "pos": "verb",
+      "roman": "gaī",
+      "base": "جانا"
+    },
+    "آ": {
+      "en": "is, has (auxiliary)",
+      "pos": "verb",
+      "roman": "ā",
+      "base": "ہونا"
+    },
+    "لالی": {
+      "en": "redness (of dusk)",
+      "pos": "noun",
+      "roman": "lālī"
+    },
+    "صدقے": {
+      "en": "a sacrifice",
+      "pos": "noun",
+      "roman": "sadqe",
+      "base": "صدقہ",
+      "note": "صدقے ہوواں: I would give my life for you"
+    },
+    "ہوواں": {
+      "en": "may I be",
+      "pos": "verb",
+      "roman": "hovāṅ",
+      "base": "ہونا"
+    },
+    "دیویں": {
+      "en": "you give",
+      "pos": "verb",
+      "roman": "deveṅ",
+      "base": "دینا"
+    },
+    "مڑ": {
+      "en": "again",
+      "pos": "adverb",
+      "roman": "muṛ"
+    },
+    "جے": {
+      "en": "if",
+      "pos": "conjunction",
+      "roman": "je"
+    },
+    "وکھالی": {
+      "en": "a glimpse",
+      "pos": "noun",
+      "roman": "vikhālī"
+    },
+    "پیرا": {
+      "en": "O master (spiritual guide)",
+      "pos": "noun",
+      "roman": "pīrā",
+      "base": "پیر"
+    },
+    "بھل": {
+      "en": "erred",
+      "pos": "verb",
+      "roman": "bhull",
+      "base": "بھلنا"
+    },
+    "آں": {
+      "en": "am",
+      "pos": "verb",
+      "roman": "āṅ",
+      "base": "ہونا"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "ایس": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "es"
+    },
+    "دے": {
+      "en": "of",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "کولوں": {
+      "en": "from",
+      "pos": "postposition",
+      "roman": "koloṅ"
+    },
+    "مینوں": {
+      "en": "me",
+      "pos": "pronoun",
+      "roman": "mainūṅ"
+    },
+    "ہٹک": {
+      "en": "forbid",
+      "pos": "verb",
+      "roman": "haṭak",
+      "base": "ہٹکنا"
+    },
+    "مائے": {
+      "en": "O mother",
+      "pos": "noun",
+      "roman": "māe",
+      "base": "ماں"
+    },
+    "لاہو": {
+      "en": "downstream",
+      "pos": "adverb",
+      "roman": "lāhū",
+      "note": "Uncertain: read as \"downstream\" (لہندا/لاہا)"
+    },
+    "جاندڑے": {
+      "en": "going away",
+      "pos": "verb",
+      "roman": "jāndṛe",
+      "base": "جانا"
+    },
+    "بیڑے": {
+      "en": "boats",
+      "pos": "noun",
+      "roman": "beṛe",
+      "base": "بیڑا"
+    },
+    "کیہڑا": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kehṛā"
+    },
+    "موڑ": {
+      "en": "turn back",
+      "pos": "verb",
+      "roman": "moṛ",
+      "base": "موڑنا"
+    },
+    "لیائے": {
+      "en": "can bring",
+      "pos": "verb",
+      "roman": "liāe",
+      "base": "لیانا"
+    },
+    "میری": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merī",
+      "base": "میرا"
+    },
+    "عقل": {
+      "en": "reason, sense",
+      "pos": "noun",
+      "roman": "aql"
+    },
+    "جو": {
+      "en": "which",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "بھلی": {
+      "en": "went astray",
+      "pos": "verb",
+      "roman": "bhullī",
+      "base": "بھلنا"
+    },
+    "مہانیاں": {
+      "en": "boatmen",
+      "pos": "noun",
+      "roman": "mahāṇiāṅ",
+      "base": "مہانا"
+    },
+    "عشقے": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishqe",
+      "base": "عشق"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "جھنگی": {
+      "en": "thicket, grove",
+      "pos": "noun",
+      "roman": "jhangī"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "مور": {
+      "en": "peacock",
+      "pos": "noun",
+      "roman": "mor"
+    },
+    "بولیندا": {
+      "en": "calls",
+      "pos": "verb",
+      "roman": "bolīndā",
+      "base": "بولنا"
+    },
+    "سانوں": {
+      "en": "to us, for me",
+      "pos": "pronoun",
+      "roman": "sānūṅ"
+    },
+    "قبلہ": {
+      "en": "qibla (direction of prayer)",
+      "pos": "noun",
+      "roman": "qiblā"
+    },
+    "کعبہ": {
+      "en": "the Kaaba",
+      "pos": "proper noun",
+      "roman": "Kaʻbā"
+    },
+    "سوہنا": {
+      "en": "beautiful",
+      "pos": "adjective",
+      "roman": "sohṇā"
+    },
+    "یار": {
+      "en": "friend, beloved",
+      "pos": "noun",
+      "roman": "yār"
+    },
+    "دسیندا": {
+      "en": "appears",
+      "pos": "verb",
+      "roman": "disīndā",
+      "base": "دسنا"
+    },
+    "گھائل": {
+      "en": "wounded",
+      "pos": "adjective",
+      "roman": "ghāil"
+    },
+    "پھیر": {
+      "en": "then, afterwards",
+      "pos": "adverb",
+      "roman": "pher"
+    },
+    "خبر": {
+      "en": "news",
+      "pos": "noun",
+      "roman": "xabar",
+      "note": "خبر لینا: to look after someone"
+    },
+    "لئی": {
+      "en": "took",
+      "pos": "verb",
+      "roman": "laī",
+      "base": "لینا"
+    },
+    "بلھا": {
+      "en": "Bulleh (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bullhā"
+    },
+    "شوہ": {
+      "en": "the Beloved, the Lord",
+      "pos": "noun",
+      "roman": "shauh",
+      "note": "lit. husband; here Bulleh Shah's master"
+    },
+    "آندا": {
+      "en": "brought",
+      "pos": "verb",
+      "roman": "āndā",
+      "base": "آننا"
+    },
+    "عنایت": {
+      "en": "Inayat, Bulleh Shah's master",
+      "pos": "proper noun",
+      "roman": "Ināyat",
+      "note": "Shah Inayat Qadiri of Lahore"
+    },
+    "بوہے": {
+      "en": "door",
+      "pos": "noun",
+      "roman": "buhe",
+      "base": "بوہا"
+    },
+    "جس": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "jis"
+    },
+    "پوائے": {
+      "en": "made (me) wear",
+      "pos": "verb",
+      "roman": "pavāe",
+      "base": "پوانا"
+    },
+    "چولے": {
+      "en": "robes",
+      "pos": "noun",
+      "roman": "chole",
+      "base": "چولا"
+    },
+    "ساوے": {
+      "en": "green",
+      "pos": "adjective",
+      "roman": "sāve",
+      "base": "ساوا"
+    },
+    "سوہے": {
+      "en": "red",
+      "pos": "adjective",
+      "roman": "sūhe",
+      "base": "سوہا"
+    },
+    "جاں": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jāṅ"
+    },
+    "ماری": {
+      "en": "struck",
+      "pos": "verb",
+      "roman": "mārī",
+      "base": "مارنا"
+    },
+    "ہے": {
+      "en": "has",
+      "pos": "verb",
+      "roman": "hai",
+      "base": "ہونا"
+    },
+    "اڈی": {
+      "en": "heel",
+      "pos": "noun",
+      "roman": "aḍḍī",
+      "note": "اڈی مارنا: to stamp the heel in dance"
+    },
+    "مل": {
+      "en": "met",
+      "pos": "verb",
+      "roman": "mil",
+      "base": "ملنا"
+    },
+    "پیا": {
+      "en": "happened (to meet)",
+      "pos": "verb",
+      "roman": "piā",
+      "base": "پینا"
+    },
+    "وہیا": {
+      "en": "that one (the Beloved)",
+      "pos": "pronoun",
+      "roman": "vahiyā",
+      "note": "Uncertain: obscure word; most likely \"that very one\", the Beloved"
+    }
+  }
+}

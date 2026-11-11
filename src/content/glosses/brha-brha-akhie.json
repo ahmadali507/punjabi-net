@@ -1,0 +1,71 @@
+{
+  "poem": "brha-brha-akhie",
+  "status": "draft",
+  "words": {
+    "برہا": {
+      "en": "pain of separation",
+      "pos": "noun",
+      "roman": "birhā",
+      "note": "Birha: longing in separation from the Beloved."
+    },
+    "آکھیے": {
+      "en": "one says; is called",
+      "pos": "verb",
+      "roman": "ākhīe",
+      "base": "آکھنا"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "سلطان": {
+      "en": "king; sovereign",
+      "pos": "noun",
+      "roman": "sultān"
+    },
+    "جت": {
+      "en": "in which",
+      "pos": "pronoun",
+      "roman": "jit"
+    },
+    "تن": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "tan"
+    },
+    "برہوں": {
+      "en": "pain of separation",
+      "pos": "noun",
+      "roman": "birhoṅ",
+      "base": "برہا"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "اپجے": {
+      "en": "arises; springs up",
+      "pos": "verb",
+      "roman": "upje",
+      "base": "اپجنا"
+    },
+    "سو": {
+      "en": "that",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "جان": {
+      "en": "know; consider",
+      "pos": "verb",
+      "roman": "jāṇ",
+      "base": "جاننا"
+    },
+    "مسان": {
+      "en": "cremation ground",
+      "pos": "noun",
+      "roman": "masāṇ"
+    }
+  }
+}

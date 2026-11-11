@@ -1,0 +1,196 @@
+{
+  "poem": "tlb-tiri-thin-mrsan-nahin-jb-lg",
+  "status": "draft",
+  "words": {
+    "طلب": {
+      "en": "seeking; quest",
+      "pos": "noun",
+      "roman": "talab"
+    },
+    "تیری": {
+      "en": "your (fem.)",
+      "pos": "pronoun",
+      "roman": "terī",
+      "base": "توں"
+    },
+    "تھیں": {
+      "en": "from",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "مڑساں": {
+      "en": "I will turn back",
+      "pos": "verb",
+      "roman": "muṛsāṅ",
+      "base": "مڑنا"
+    },
+    "ناہیں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nāhīṅ"
+    },
+    "جب": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jab"
+    },
+    "لگ": {
+      "en": "until",
+      "pos": "postposition",
+      "roman": "lag",
+      "note": "\"Jab lag\": as long as."
+    },
+    "مطلب": {
+      "en": "aim; purpose",
+      "pos": "noun",
+      "roman": "matlab"
+    },
+    "ہوندا": {
+      "en": "is (fulfilled)",
+      "pos": "verb",
+      "roman": "hondā",
+      "base": "ہونا"
+    },
+    "یا": {
+      "en": "either; or",
+      "pos": "conjunction",
+      "roman": "yā"
+    },
+    "تن": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "tan"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "تساڈے": {
+      "en": "you (plural, respectful)",
+      "pos": "pronoun",
+      "roman": "tusāḍe",
+      "base": "تسیں"
+    },
+    "ملسی": {
+      "en": "will meet",
+      "pos": "verb",
+      "roman": "milsī",
+      "base": "ملنا"
+    },
+    "روح": {
+      "en": "soul",
+      "pos": "noun",
+      "roman": "rūh"
+    },
+    "ٹرسی": {
+      "en": "will depart",
+      "pos": "verb",
+      "roman": "ṭursī",
+      "base": "ٹرنا"
+    },
+    "روندا": {
+      "en": "weeping",
+      "pos": "verb",
+      "roman": "rondā",
+      "base": "رونا"
+    },
+    "قبر": {
+      "en": "grave",
+      "pos": "noun",
+      "roman": "qabar"
+    },
+    "میری": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merī",
+      "base": "میں"
+    },
+    "پٹ": {
+      "en": "dig open",
+      "pos": "verb",
+      "roman": "puṭṭ",
+      "base": "پٹنا"
+    },
+    "دیکھیں": {
+      "en": "see; look",
+      "pos": "verb",
+      "roman": "dekheṅ",
+      "base": "دیکھنا"
+    },
+    "سجنا": {
+      "en": "O beloved",
+      "pos": "noun",
+      "roman": "sajjaṇā",
+      "base": "سجن"
+    },
+    "جاں": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jāṅ"
+    },
+    "مر": {
+      "en": "die",
+      "pos": "verb",
+      "roman": "mar",
+      "base": "مرنا"
+    },
+    "چکو": {
+      "en": "(have) finished",
+      "pos": "verb",
+      "roman": "chukko",
+      "base": "چکنا",
+      "note": "Uncertain: \"mar chukko\": when I have died."
+    },
+    "سو": {
+      "en": "it; that (one)",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "بھوندا": {
+      "en": "whirling; turning",
+      "pos": "verb",
+      "roman": "bhaundā",
+      "base": "بھونا",
+      "note": "Uncertain: the soul still circling (around you)."
+    },
+    "کولے": {
+      "en": "embers; coals",
+      "pos": "noun",
+      "roman": "kole",
+      "base": "کولا"
+    },
+    "ہوسی": {
+      "en": "will be",
+      "pos": "verb",
+      "roman": "hosī",
+      "base": "ہونا"
+    },
+    "کفن": {
+      "en": "shroud",
+      "pos": "noun",
+      "roman": "kafan"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "اگ": {
+      "en": "fire",
+      "pos": "noun",
+      "roman": "agg"
+    },
+    "ڈھوندا": {
+      "en": "carrying; bearing",
+      "pos": "verb",
+      "roman": "ḍhondā",
+      "base": "ڈھونا"
+    }
+  }
+}

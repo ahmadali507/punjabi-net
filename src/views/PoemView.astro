@@ -11,7 +11,9 @@ import Source from '~/components/Source.astro';
 import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
-import { lifespan, paDigits, poemsByPoet, resolveGlossary, segmentLine, type Poem } from '~/lib/content';
+import type { UIKey } from '~/i18n/ui';
+import { lifespan, paDigits, poemsByPoet, segmentLine, wordMeanings, type Poem } from '~/lib/content';
+import { POS } from '~/content.config';
 import '~/styles/reader.css';
 
 interface Props { poem: Poem }
@@ -25,7 +27,9 @@ const form = (await getEntry(d.form))!;
 const more = (await poemsByPoet(poet.id)).filter((p) => p.id !== poem.id).slice(0, 6);
 const { Content } = await render(poem);
 const hasNotes = Boolean(poem.body?.trim());
-const { items: gloss, lookup } = await resolveGlossary(poem, (id) => localePath(locale, `/dictionary/${id}`));
+const { items: gloss, lookup } = await wordMeanings(poem, (id) => localePath(locale, `/dictionary/${id}`));
+// Part-of-speech labels in the page's language, for the meaning card.
+const posLabels = Object.fromEntries([...POS.map((p) => [p, t(locale, `pos.${p}` as UIKey)]), ['proper noun', t(locale, 'pos.proper')]]);
 const hasText = d.verses.length > 0;
 const dates = lifespan(poet.data);
 
@@ -64,6 +68,13 @@ const description = hasText
       <div class="poem__body">
         <div class="column reader-tools no-print" data-reader-tools data-pagefind-ignore hidden>
           <div class="reader-tools__group" role="group" aria-label={t(locale, 'reader.tools')}>
+            {gloss.length > 0 && (
+              <button type="button" class="tool tool--meanings" data-meanings aria-pressed="true">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H12v17H6.5A2.5 2.5 0 0 0 4 22.5zM20 5.5A2.5 2.5 0 0 0 17.5 3H12v17h5.5a2.5 2.5 0 0 1 2.5 2.5z" /></svg>
+                <T k="reader.meanings" />
+              </button>
+            )}
+            {gloss.length > 0 && <span class="tools-sep" aria-hidden="true"></span>}
             <button type="button" class="tool" data-size="-1" aria-label={t(locale, 'reader.smaller')} lang="en" dir="ltr">A−</button>
             <button type="button" class="tool" data-size="1" aria-label={t(locale, 'reader.larger')} lang="en" dir="ltr">A+</button>
             <button type="button" class="tool" data-copy><T k="reader.copy" /></button>
@@ -73,7 +84,7 @@ const description = hasText
           <span class="reader-tools__status" role="status" aria-live="polite" data-copied={t(locale, 'reader.copied')} data-link-copied={t(locale, 'reader.linkCopied')}></span>
         </div>
 
-        {gloss.length > 0 && <p class="column poem__hint muted no-print"><T k="reader.glossHint" /></p>}
+        {gloss.length > 0 && <p class="visually-hidden" id="gloss-hint"><T k="reader.glossHint" /></p>}
 
         <ol class:list={['verses', { 'verses--long': d.verses.length > 6 }]} data-verses data-title={d.title} data-poet={en ? poet.data.name.en : poet.data.name.pa}>
           {d.verses.map((v, i) => (
@@ -89,7 +100,7 @@ const description = hasText
                 {v.text.split('\n').map((line) => (
                   <span class="line">
                     {segmentLine(line, lookup).map((seg) =>
-                      seg.g === undefined ? seg.text : <button type="button" class="w" data-g={seg.g} tabindex="-1" aria-expanded="false" aria-controls="gloss">{seg.text}</button>,
+                      seg.g === undefined ? seg.text : <button type="button" class="w" data-g={seg.g} tabindex="-1" aria-expanded="false" aria-controls="gloss" aria-describedby="gloss-hint">{seg.text}</button>,
                     )}
                   </span>
                 ))}
@@ -104,17 +115,29 @@ const description = hasText
         </ol>
 
         {gloss.length > 0 && (
-          <div class="gloss" id="gloss" data-gloss hidden>
-            <div class="gloss__head">
-              <p class="gloss__hw" lang={PA_LANG} dir="rtl" data-hw></p>
-              <button type="button" class="gloss__close" data-gloss-close aria-label={t(locale, 'gloss.close')}>×</button>
+          <div class="gloss" id="gloss" data-gloss role="dialog" aria-labelledby="gloss-word" hidden>
+            <div class="gloss__top">
+              <span class="gloss__label"><T k="gloss.label" /></span>
+              <button type="button" class="gloss__close" data-gloss-close aria-label={t(locale, 'gloss.close')}>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+              </button>
+            </div>
+            <div class="gloss__word">
+              <p class="gloss__hw" id="gloss-word" lang={PA_LANG} dir="rtl" data-hw></p>
+              <span class="gloss__pos" data-pos></span>
             </div>
             <p class="gloss__pron" lang="en" dir="ltr" data-pron></p>
-            <ol class="gloss__senses" lang="en" dir="ltr" data-senses></ol>
-            <a class="gloss__link" data-gloss-link href="#"><T k="gloss.dictionary" /></a>
+            <p class="gloss__en" lang="en" dir="ltr" data-en></p>
+            <p class="gloss__note" lang="en" dir="ltr" data-note></p>
+            <div class="gloss__dict" data-dict hidden>
+              <p class="gloss__dict-head"><T k="gloss.fromDict" /> · <span lang="en" dir="ltr" data-dict-source></span></p>
+              <ol class="gloss__senses" lang="en" dir="ltr" data-senses></ol>
+              <a class="gloss__link" data-gloss-link href="#"><T k="gloss.dictionary" /> →</a>
+            </div>
+            <p class="gloss__draft" data-draft hidden><T k="gloss.draft" /></p>
           </div>
         )}
-        {gloss.length > 0 && <script type="application/json" id="gloss-data" set:html={JSON.stringify(gloss).replace(/</g, '\\u003c')} />}
+        {gloss.length > 0 && <script type="application/json" id="gloss-data" set:html={JSON.stringify({ items: gloss, pos: posLabels, base: t(locale, 'gloss.base') }).replace(/</g, '\\u003c')} />}
       </div>
     ) : (
       <section class="column poem__pending">

@@ -1,0 +1,186 @@
+{
+  "poem": "b-bsm-alh-asm-alh-da",
+  "status": "draft",
+  "words": {
+    "ب": {
+      "en": "Be (second letter)",
+      "pos": "noun",
+      "roman": "be",
+      "note": "Acrostic: the letter of 'Bismillah'."
+    },
+    "بسم": {
+      "en": "in the name of",
+      "pos": "phrase",
+      "roman": "bism",
+      "note": "Bismillah: 'In the name of God', opening formula."
+    },
+    "اللہ": {
+      "en": "Allah; God",
+      "pos": "proper noun",
+      "roman": "Allāh"
+    },
+    "اسم": {
+      "en": "name",
+      "pos": "noun",
+      "roman": "ism"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "ih"
+    },
+    "بھی": {
+      "en": "also; too",
+      "pos": "particle",
+      "roman": "bhī"
+    },
+    "گہنا": {
+      "en": "jewel; ornament",
+      "pos": "noun",
+      "roman": "gahṇā"
+    },
+    "بھارا": {
+      "en": "heavy; precious",
+      "pos": "adjective",
+      "roman": "bhārā"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "نال": {
+      "en": "with; through",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "شفاعت": {
+      "en": "intercession",
+      "pos": "noun",
+      "roman": "shafā'at"
+    },
+    "سرور": {
+      "en": "chief; lord",
+      "pos": "noun",
+      "roman": "sarvar"
+    },
+    "عالمﷺ": {
+      "en": "of the worlds (peace be upon him)",
+      "pos": "phrase",
+      "roman": "ālam ṣallallāhu alaihi wa sallam",
+      "base": "عالم",
+      "note": "sarvar-e ālam: 'chief of the worlds', the Prophet Muhammad; ﷺ is the blessing formula."
+    },
+    "چھٹسی": {
+      "en": "will be set free; saved",
+      "pos": "verb",
+      "roman": "chhuṭsī",
+      "base": "چھٹنا"
+    },
+    "عالم": {
+      "en": "world",
+      "pos": "noun",
+      "roman": "ālam"
+    },
+    "سارا": {
+      "en": "whole; entire",
+      "pos": "adjective",
+      "roman": "sārā"
+    },
+    "حدوں": {
+      "en": "beyond (all) limits",
+      "pos": "noun",
+      "roman": "hadduṅ",
+      "base": "حد",
+      "note": "haddoṅ be-hadd: 'beyond measure'."
+    },
+    "بے": {
+      "en": "without",
+      "pos": "particle",
+      "roman": "be"
+    },
+    "حد": {
+      "en": "limit",
+      "pos": "noun",
+      "roman": "hadd"
+    },
+    "درود": {
+      "en": "blessings (on the Prophet)",
+      "pos": "noun",
+      "roman": "darūd"
+    },
+    "نبی": {
+      "en": "the Prophet",
+      "pos": "noun",
+      "roman": "nabī"
+    },
+    "ﷺ": {
+      "en": "peace and blessings be upon him",
+      "pos": "phrase",
+      "roman": "ṣallallāhu alaihi wa sallam"
+    },
+    "نوں": {
+      "en": "to; upon",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "جیدا": {
+      "en": "whose",
+      "pos": "pronoun",
+      "roman": "jedā"
+    },
+    "ایڈ": {
+      "en": "so great",
+      "pos": "adjective",
+      "roman": "eḍ"
+    },
+    "پسارا": {
+      "en": "expanse; reach",
+      "pos": "noun",
+      "roman": "pasārā"
+    },
+    "قربان": {
+      "en": "(I am) a sacrifice",
+      "pos": "adjective",
+      "roman": "qurbān"
+    },
+    "تنہاں": {
+      "en": "those",
+      "pos": "pronoun",
+      "roman": "tinhāṅ"
+    },
+    "توں": {
+      "en": "to; for",
+      "pos": "postposition",
+      "roman": "tūṅ"
+    },
+    "باہو": {
+      "en": "Bahu (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Bāhū",
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+    },
+    "جنہاں": {
+      "en": "who; to whom",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "ملیا": {
+      "en": "was given; obtained",
+      "pos": "verb",
+      "roman": "miliā",
+      "base": "ملنا"
+    },
+    "سہارا": {
+      "en": "support; refuge",
+      "pos": "noun",
+      "roman": "sahārā"
+    }
+  }
+}

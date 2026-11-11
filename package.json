@@ -11,7 +11,8 @@
     "check": "astro check",
     "fonts": "node scripts/subset-fonts.mjs",
     "preview:build": "PN_OUT=dist-preview astro build && pagefind --site dist-preview",
-    "test": "node --test tests/"
+    "test": "node --test tests/",
+    "glosses:check": "node scripts/glosses.mjs check"
   },
   "engines": {
     "node": ">=22.23.4"

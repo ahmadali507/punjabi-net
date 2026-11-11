@@ -1,0 +1,192 @@
+{
+  "poem": "sh-khchan-vale",
+  "status": "draft",
+  "words": {
+    "اسیں": {
+      "en": "we",
+      "pos": "pronoun",
+      "roman": "asīṅ"
+    },
+    "سکدے": {
+      "en": "long, yearn",
+      "pos": "verb",
+      "roman": "sikkde",
+      "base": "سکنا"
+    },
+    "تسیں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tusīṅ"
+    },
+    "ناہیں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nāhīṅ"
+    },
+    "اساں": {
+      "en": "we (agent)",
+      "pos": "pronoun",
+      "roman": "asāṅ"
+    },
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "eh"
+    },
+    "گل": {
+      "en": "matter, saying",
+      "pos": "noun",
+      "roman": "gall"
+    },
+    "سی": {
+      "en": "was",
+      "pos": "verb",
+      "roman": "sī",
+      "base": "ہونا"
+    },
+    "صحیح": {
+      "en": "true, right",
+      "pos": "adjective",
+      "roman": "sahīh"
+    },
+    "کیتی": {
+      "en": "held (to be)",
+      "pos": "verb",
+      "roman": "kītī",
+      "base": "کرنا",
+      "note": "sahīh karnā: to take as true."
+    },
+    "اک": {
+      "en": "one",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "دن": {
+      "en": "day",
+      "pos": "noun",
+      "roman": "din"
+    },
+    "سکدیاں": {
+      "en": "while longing",
+      "pos": "verb",
+      "roman": "sikkdiāṅ",
+      "base": "سکنا"
+    },
+    "لڑ": {
+      "en": "hem (of garment)",
+      "pos": "noun",
+      "roman": "laṛ",
+      "note": "Holding the hem: seeking refuge."
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "تیرا"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "چھوہ": {
+      "en": "touch",
+      "pos": "noun",
+      "roman": "chhoh"
+    },
+    "جو": {
+      "en": "when; which",
+      "pos": "conjunction",
+      "roman": "jo"
+    },
+    "پراپت": {
+      "en": "obtained",
+      "pos": "adjective",
+      "roman": "prāpat",
+      "note": "prāpat karnā: to attain."
+    },
+    "سکن": {
+      "en": "longing",
+      "pos": "noun",
+      "roman": "sikkaṇ"
+    },
+    "ساڈا": {
+      "en": "our",
+      "pos": "pronoun",
+      "roman": "sāḍā"
+    },
+    "کھچ": {
+      "en": "pull, attraction",
+      "pos": "noun",
+      "roman": "khicch"
+    },
+    "تساڈی": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tusāḍī",
+      "base": "تساڈا"
+    },
+    "سانوں": {
+      "en": "to us",
+      "pos": "pronoun",
+      "roman": "sānūṅ"
+    },
+    "نظریں": {
+      "en": "in sight",
+      "pos": "noun",
+      "roman": "nazrīṅ",
+      "base": "نظر",
+      "note": "nazrīṅ āuṇā: to become clear, be seen."
+    },
+    "آئی": {
+      "en": "came",
+      "pos": "verb",
+      "roman": "āī",
+      "base": "آنا"
+    },
+    "چمبک": {
+      "en": "magnet",
+      "pos": "noun",
+      "roman": "chumbak"
+    },
+    "شہہ": {
+      "en": "king, master",
+      "pos": "noun",
+      "roman": "shah"
+    },
+    "کھچاں": {
+      "en": "attractions, pulls",
+      "pos": "noun",
+      "roman": "khicchāṅ",
+      "base": "کھچ"
+    },
+    "والے": {
+      "en": "possessing, of",
+      "pos": "adjective",
+      "roman": "vāle",
+      "base": "والا"
+    },
+    "تساں": {
+      "en": "you (agent)",
+      "pos": "pronoun",
+      "roman": "tusāṅ"
+    },
+    "سک": {
+      "en": "longing",
+      "pos": "noun",
+      "roman": "sikk"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "سیتی": {
+      "en": "stitched (into)",
+      "pos": "verb",
+      "roman": "sītī",
+      "base": "سینا",
+      "note": "Uncertain: read as sītī 'stitched'; could be archaic setī 'with'."
+    }
+  }
+}

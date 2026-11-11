@@ -1,0 +1,77 @@
+{
+  "poem": "roti-miri-kath-di",
+  "status": "draft",
+  "words": {
+    "روٹی": {
+      "en": "bread",
+      "pos": "noun",
+      "roman": "roṭī"
+    },
+    "میری": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merī",
+      "base": "میرا"
+    },
+    "کاٹھ": {
+      "en": "wood",
+      "pos": "noun",
+      "roman": "kāṭh",
+      "note": "Bread 'of wood': dry, simple fare."
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "لاون": {
+      "en": "relish; curry",
+      "pos": "noun",
+      "roman": "lāvaṇ"
+    },
+    "بکھ": {
+      "en": "hunger",
+      "pos": "noun",
+      "roman": "bhukkh"
+    },
+    "جنہاں": {
+      "en": "those who",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "کھادی": {
+      "en": "ate",
+      "pos": "verb",
+      "roman": "khādī",
+      "base": "کھانا"
+    },
+    "چوپڑی": {
+      "en": "buttered (bread)",
+      "pos": "adjective",
+      "roman": "choparī",
+      "base": "چوپڑنا"
+    },
+    "گھنے": {
+      "en": "many; great",
+      "pos": "adjective",
+      "roman": "ghaṇe",
+      "base": "گھنا"
+    },
+    "سہن": {
+      "en": "bear; endure",
+      "pos": "verb",
+      "roman": "sahan",
+      "base": "سہنا"
+    },
+    "گے": {
+      "en": "will (future marker)",
+      "pos": "particle",
+      "roman": "ge"
+    },
+    "دکھ": {
+      "en": "sufferings",
+      "pos": "noun",
+      "roman": "dukkh"
+    }
+  }
+}

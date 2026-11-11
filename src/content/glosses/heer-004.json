@@ -1,0 +1,209 @@
+{
+  "poem": "heer-004",
+  "status": "draft",
+  "words": {
+    "مدح": {
+      "en": "praise",
+      "pos": "noun",
+      "roman": "madh"
+    },
+    "پیر": {
+      "en": "spiritual master",
+      "pos": "noun",
+      "roman": "pīr"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "حب": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "hubb"
+    },
+    "دے": {
+      "en": "of",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "کیجے": {
+      "en": "should be made; let us make",
+      "pos": "verb",
+      "roman": "kījai",
+      "base": "کرنا"
+    },
+    "جیں": {
+      "en": "whose",
+      "pos": "pronoun",
+      "roman": "jaiṅ"
+    },
+    "خادماں": {
+      "en": "servants",
+      "pos": "noun",
+      "roman": "xādimāṅ",
+      "base": "خادم"
+    },
+    "وچ": {
+      "en": "in; among",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "پیریاں": {
+      "en": "sainthood; spiritual mastery",
+      "pos": "noun",
+      "roman": "pīriyāṅ",
+      "note": "پیریاں میریاں = spiritual and worldly leadership"
+    },
+    "نی": {
+      "en": "are",
+      "pos": "verb",
+      "roman": "nī",
+      "base": "ہونا",
+      "note": "rhyme form of نیں"
+    },
+    "باجھ": {
+      "en": "without; apart from",
+      "pos": "postposition",
+      "roman": "bājh"
+    },
+    "ایس": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "es"
+    },
+    "جناب": {
+      "en": "court; threshold (honorific)",
+      "pos": "noun",
+      "roman": "janāb"
+    },
+    "بار": {
+      "en": "door",
+      "pos": "noun",
+      "roman": "bār"
+    },
+    "ناہیں": {
+      "en": "there is no; not",
+      "pos": "particle",
+      "roman": "nāhīṅ"
+    },
+    "لکھ": {
+      "en": "hundreds of thousands",
+      "pos": "numeral",
+      "roman": "lakkh"
+    },
+    "ڈھونڈدے": {
+      "en": "searching",
+      "pos": "verb",
+      "roman": "ḍhūṇḍde",
+      "base": "ڈھونڈنا"
+    },
+    "پھرن": {
+      "en": "wander",
+      "pos": "verb",
+      "roman": "phiran",
+      "base": "پھرنا"
+    },
+    "فقیریاں": {
+      "en": "dervishhood",
+      "pos": "noun",
+      "roman": "faqīriyāṅ",
+      "base": "فقیری",
+      "note": "Uncertain: either \"dervishhood (that they seek)\" or simply \"faqirs\""
+    },
+    "جیہڑے": {
+      "en": "who; whichever",
+      "pos": "pronoun",
+      "roman": "jehṛe"
+    },
+    "مہر": {
+      "en": "grace; kindness",
+      "pos": "noun",
+      "roman": "mihar"
+    },
+    "منظور": {
+      "en": "accepted; granted",
+      "pos": "adjective",
+      "roman": "manzūr"
+    },
+    "ہوئے": {
+      "en": "became",
+      "pos": "verb",
+      "roman": "hoe",
+      "base": "ہونا"
+    },
+    "گھر": {
+      "en": "house",
+      "pos": "noun",
+      "roman": "ghar"
+    },
+    "تنہاں": {
+      "en": "their",
+      "pos": "pronoun",
+      "roman": "tinhāṅ"
+    },
+    "میریاں": {
+      "en": "lordship; leadership",
+      "pos": "noun",
+      "roman": "mīriyāṅ",
+      "base": "میری",
+      "note": "پیریاں میریاں = spiritual and worldly leadership"
+    },
+    "روز": {
+      "en": "day",
+      "pos": "noun",
+      "roman": "roz"
+    },
+    "حشر": {
+      "en": "Resurrection (the Gathering)",
+      "pos": "noun",
+      "roman": "hashr"
+    },
+    "طالباں": {
+      "en": "seekers; disciples",
+      "pos": "noun",
+      "roman": "tālibāṅ",
+      "base": "طالب"
+    },
+    "نوں": {
+      "en": "to",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "ہتھ": {
+      "en": "hand",
+      "pos": "noun",
+      "roman": "hatth"
+    },
+    "سجڑے": {
+      "en": "right (hand)",
+      "pos": "adjective",
+      "roman": "sajjaṛe",
+      "base": "سجا",
+      "note": "records of deeds given in the right hand mean salvation"
+    },
+    "ملن": {
+      "en": "will receive",
+      "pos": "verb",
+      "roman": "milaṇ",
+      "base": "ملنا"
+    },
+    "گیاں": {
+      "en": "will (future, fem. pl.)",
+      "pos": "particle",
+      "roman": "gīāṅ"
+    },
+    "چیریاں": {
+      "en": "scrolls (of deeds)",
+      "pos": "noun",
+      "roman": "chīriyāṅ",
+      "base": "چیری",
+      "note": "Uncertain: چیری = a written chit or warrant; here the record of deeds"
+    }
+  }
+}

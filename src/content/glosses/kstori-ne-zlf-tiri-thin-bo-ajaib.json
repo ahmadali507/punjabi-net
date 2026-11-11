@@ -1,0 +1,156 @@
+{
+  "poem": "kstori-ne-zlf-tiri-thin-bo-ajaib",
+  "status": "draft",
+  "words": {
+    "کستوری": {
+      "en": "musk",
+      "pos": "noun",
+      "roman": "kastūrī"
+    },
+    "نے": {
+      "en": "(agent marker)",
+      "pos": "postposition",
+      "roman": "ne"
+    },
+    "زلف": {
+      "en": "tresses; curls",
+      "pos": "noun",
+      "roman": "zulf"
+    },
+    "تیری": {
+      "en": "your (fem.)",
+      "pos": "pronoun",
+      "roman": "terī",
+      "base": "توں"
+    },
+    "تھیں": {
+      "en": "from",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "بو": {
+      "en": "scent",
+      "pos": "noun",
+      "roman": "bo"
+    },
+    "اجائب": {
+      "en": "wondrous",
+      "pos": "adjective",
+      "roman": "ajāib"
+    },
+    "پائی": {
+      "en": "got; obtained",
+      "pos": "verb",
+      "roman": "pāī",
+      "base": "پاؤنا"
+    },
+    "منہ": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "muṅh"
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "توں"
+    },
+    "پھل": {
+      "en": "flower",
+      "pos": "noun",
+      "roman": "phull"
+    },
+    "گلاباں": {
+      "en": "roses",
+      "pos": "noun",
+      "roman": "gulābāṅ",
+      "base": "گلاب"
+    },
+    "لدھا": {
+      "en": "found",
+      "pos": "verb",
+      "roman": "laddhā",
+      "base": "لبھنا"
+    },
+    "رنگ": {
+      "en": "colour",
+      "pos": "noun",
+      "roman": "rang"
+    },
+    "صفائی": {
+      "en": "purity; freshness",
+      "pos": "noun",
+      "roman": "safāī"
+    },
+    "مہر": {
+      "en": "love; (2nd) the sun",
+      "pos": "noun",
+      "roman": "mihr",
+      "note": "Pun: \"mihr\" is both kindness/love and the sun (Persian)."
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "گرمی": {
+      "en": "heat; warmth",
+      "pos": "noun",
+      "roman": "garmī"
+    },
+    "کولوں": {
+      "en": "from; because of",
+      "pos": "postposition",
+      "roman": "koloṅ"
+    },
+    "تریلی": {
+      "en": "dew; sweat",
+      "pos": "noun",
+      "roman": "trelī",
+      "note": "The sun broke into a sweat (dew)."
+    },
+    "آئی": {
+      "en": "came",
+      "pos": "verb",
+      "roman": "āī",
+      "base": "آؤنا"
+    },
+    "لسا": {
+      "en": "pale; wan",
+      "pos": "adjective",
+      "roman": "lissā"
+    },
+    "ہویا": {
+      "en": "became",
+      "pos": "verb",
+      "roman": "hoiā",
+      "base": "ہونا"
+    },
+    "چن": {
+      "en": "moon",
+      "pos": "noun",
+      "roman": "chann"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "حسن": {
+      "en": "beauty",
+      "pos": "noun",
+      "roman": "husan"
+    },
+    "محبت": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "muhabbat"
+    },
+    "لائی": {
+      "en": "attached; fell in (love)",
+      "pos": "verb",
+      "roman": "lāī",
+      "base": "لانا"
+    }
+  }
+}

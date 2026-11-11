@@ -1,0 +1,167 @@
+{
+  "poem": "dl-dria-smndron-donghe",
+  "status": "draft",
+  "words": {
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "دریا": {
+      "en": "rivers",
+      "pos": "noun",
+      "roman": "dariyā"
+    },
+    "سمندروں": {
+      "en": "than oceans",
+      "pos": "noun",
+      "roman": "samundaroṅ",
+      "base": "سمندر"
+    },
+    "ڈونگھے": {
+      "en": "deep",
+      "pos": "adjective",
+      "roman": "ḍūṅghe",
+      "base": "ڈونگھا"
+    },
+    "کون": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kaun"
+    },
+    "دلاں": {
+      "en": "hearts",
+      "pos": "noun",
+      "roman": "dilāṅ",
+      "base": "دل"
+    },
+    "دیاں": {
+      "en": "of (fem. pl.): the things of",
+      "pos": "postposition",
+      "roman": "diāṅ",
+      "note": "dilāṅ diāṅ: 'the secrets of hearts'."
+    },
+    "جانے": {
+      "en": "knows",
+      "pos": "verb",
+      "roman": "jāne",
+      "base": "جاننا"
+    },
+    "ہو": {
+      "en": "Hu (He: God)",
+      "pos": "pronoun",
+      "roman": "hū",
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+    },
+    "وچے": {
+      "en": "within (it)",
+      "pos": "adverb",
+      "roman": "vichche",
+      "base": "وچ"
+    },
+    "بیڑے": {
+      "en": "boats",
+      "pos": "noun",
+      "roman": "beṛe",
+      "base": "بیڑا"
+    },
+    "جھیڑے": {
+      "en": "quarrels; storms",
+      "pos": "noun",
+      "roman": "jhaṛe",
+      "base": "جھیڑا",
+      "note": "Literally 'disputes'; the heart holds turmoil too."
+    },
+    "ونجھ": {
+      "en": "punt-poles; oars",
+      "pos": "noun",
+      "roman": "vanjh"
+    },
+    "مہانے": {
+      "en": "boatmen",
+      "pos": "noun",
+      "roman": "muhāne",
+      "base": "مہانا"
+    },
+    "چوداں": {
+      "en": "fourteen",
+      "pos": "numeral",
+      "roman": "chaudāṅ"
+    },
+    "طبق": {
+      "en": "realms; layers (of creation)",
+      "pos": "noun",
+      "roman": "tabaq",
+      "note": "The fourteen tabaqs: seven heavens and seven earths."
+    },
+    "دلے": {
+      "en": "of the heart",
+      "pos": "noun",
+      "roman": "dile",
+      "base": "دل"
+    },
+    "دے": {
+      "en": "of (masc. obl.)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "اندر": {
+      "en": "inside",
+      "pos": "postposition",
+      "roman": "andar"
+    },
+    "تنبو": {
+      "en": "tent",
+      "pos": "noun",
+      "roman": "tambū"
+    },
+    "وانگن": {
+      "en": "like",
+      "pos": "postposition",
+      "roman": "vāṅgan"
+    },
+    "تانے": {
+      "en": "stretched (out)",
+      "pos": "verb",
+      "roman": "tāne",
+      "base": "تاننا"
+    },
+    "جوئی": {
+      "en": "whoever",
+      "pos": "pronoun",
+      "roman": "joī"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "محرم": {
+      "en": "confidant; one who knows the secret",
+      "pos": "noun",
+      "roman": "mahram"
+    },
+    "ہووے": {
+      "en": "is; becomes",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "سوئی": {
+      "en": "he alone",
+      "pos": "pronoun",
+      "roman": "soī"
+    },
+    "رب": {
+      "en": "Lord; God",
+      "pos": "noun",
+      "roman": "rabb"
+    },
+    "پچھانے": {
+      "en": "recognises",
+      "pos": "verb",
+      "roman": "pachhāne",
+      "base": "پچھاننا"
+    }
+  }
+}

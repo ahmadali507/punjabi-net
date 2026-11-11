@@ -1,0 +1,186 @@
+{
+  "poem": "sahb-hsn-dthe-sb-khote",
+  "status": "draft",
+  "words": {
+    "صاحب": {
+      "en": "masters; possessors",
+      "pos": "noun",
+      "roman": "sāhib",
+      "note": "\"Sahib-e-husn\": those endowed with beauty."
+    },
+    "حسن": {
+      "en": "beauty",
+      "pos": "noun",
+      "roman": "husan"
+    },
+    "ڈٹھے": {
+      "en": "I have seen",
+      "pos": "verb",
+      "roman": "ḍiṭhe",
+      "base": "ویکھنا"
+    },
+    "سب": {
+      "en": "all",
+      "pos": "adjective",
+      "roman": "sabh"
+    },
+    "کھوٹے": {
+      "en": "false; counterfeit",
+      "pos": "adjective",
+      "roman": "khoṭe",
+      "base": "کھوٹا"
+    },
+    "اتے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "ate"
+    },
+    "کھوٹ": {
+      "en": "falseness; fraud",
+      "pos": "noun",
+      "roman": "khoṭ"
+    },
+    "کماون": {
+      "en": "earn; make",
+      "pos": "verb",
+      "roman": "kamāvan",
+      "base": "کمانا"
+    },
+    "پیسہ": {
+      "en": "money",
+      "pos": "noun",
+      "roman": "paisā"
+    },
+    "نہ": {
+      "en": "not; neither",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "کچھ": {
+      "en": "anything; at all",
+      "pos": "pronoun",
+      "roman": "kujh"
+    },
+    "اوچ": {
+      "en": "high",
+      "pos": "adjective",
+      "roman": "ūch"
+    },
+    "نیچ": {
+      "en": "low",
+      "pos": "adjective",
+      "roman": "nīch",
+      "note": "\"Uch nich\": high and low, right and wrong."
+    },
+    "پچھانن": {
+      "en": "recognise; discern",
+      "pos": "verb",
+      "roman": "pachhāṇan",
+      "base": "پچھاننا"
+    },
+    "پریم": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "prem"
+    },
+    "جانن": {
+      "en": "know",
+      "pos": "verb",
+      "roman": "jāṇan",
+      "base": "جاننا"
+    },
+    "کیسا": {
+      "en": "what (sort of thing) it is",
+      "pos": "pronoun",
+      "roman": "kaisā"
+    },
+    "شالا": {
+      "en": "may God grant (that)",
+      "pos": "interjection",
+      "roman": "shālā",
+      "note": "A wish or imprecation, \"inshallah\"."
+    },
+    "نج": {
+      "en": "perish; be damned",
+      "pos": "interjection",
+      "roman": "nijj",
+      "note": "Uncertain: curse word, \"may (such cleverness) be ruined\"."
+    },
+    "ہووے": {
+      "en": "be; may be",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "چترائی": {
+      "en": "cleverness; cunning",
+      "pos": "noun",
+      "roman": "chatrāī"
+    },
+    "سانوں": {
+      "en": "us",
+      "pos": "pronoun",
+      "roman": "sānūṅ"
+    },
+    "خوار": {
+      "en": "wretched; disgraced",
+      "pos": "adjective",
+      "roman": "xvār"
+    },
+    "کیتا": {
+      "en": "made; did",
+      "pos": "verb",
+      "roman": "kītā",
+      "base": "کرنا"
+    },
+    "تدھ": {
+      "en": "you (thou, agent)",
+      "pos": "pronoun",
+      "roman": "tudh",
+      "base": "توں"
+    },
+    "ایسا": {
+      "en": "so; such",
+      "pos": "adjective",
+      "roman": "aisā"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "کاٹ": {
+      "en": "cut; wound",
+      "pos": "noun",
+      "roman": "kāṭ",
+      "note": "Love cuts deep only into one who has awareness."
+    },
+    "کریندا": {
+      "en": "makes; does",
+      "pos": "verb",
+      "roman": "karendā",
+      "base": "کرنا"
+    },
+    "جس": {
+      "en": "whom; in whom",
+      "pos": "pronoun",
+      "roman": "jis"
+    },
+    "ہوش": {
+      "en": "awareness; sense",
+      "pos": "noun",
+      "roman": "hosh"
+    },
+    "وچ": {
+      "en": "in; within",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā",
+      "note": "Uncertain: \"vich dā\" may be a transcription slip for \"vich dil dā\" (in the heart)."
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "poem": "ashq-hoin-tan-shq-kmaoin",
+  "status": "draft",
+  "words": {
+    "عاشق": {
+      "en": "a lover",
+      "pos": "noun",
+      "roman": "āshiq"
+    },
+    "ہوویں": {
+      "en": "you be",
+      "pos": "verb",
+      "roman": "hoveṅ",
+      "base": "ہونا"
+    },
+    "تاں": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq",
+      "note": "Sufi term: consuming love for God"
+    },
+    "کماویں": {
+      "en": "practise (lit. earn)",
+      "pos": "verb",
+      "roman": "kamāveṅ",
+      "base": "کماونا"
+    },
+    "راہ": {
+      "en": "path, way",
+      "pos": "noun",
+      "roman": "rāh"
+    },
+    "سوئی": {
+      "en": "needle",
+      "pos": "noun",
+      "roman": "sūī"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "نکا": {
+      "en": "eye (of a needle)",
+      "pos": "noun",
+      "roman": "nakkā"
+    },
+    "دھاگا": {
+      "en": "thread",
+      "pos": "noun",
+      "roman": "dhāgā",
+      "note": "Only one made thin as a thread can pass"
+    },
+    "جاویں": {
+      "en": "you may pass through",
+      "pos": "verb",
+      "roman": "jāveṅ",
+      "base": "جانا"
+    },
+    "باہر": {
+      "en": "outside",
+      "pos": "adverb",
+      "roman": "bāhar"
+    },
+    "پاک": {
+      "en": "pure",
+      "pos": "adjective",
+      "roman": "pāk"
+    },
+    "اندر": {
+      "en": "inside",
+      "pos": "adverb",
+      "roman": "andar"
+    },
+    "آلودہ": {
+      "en": "defiled",
+      "pos": "adjective",
+      "roman": "ālūdā"
+    },
+    "کیا": {
+      "en": "why (rhetorical)",
+      "pos": "pronoun",
+      "roman": "kiā"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "شیخ": {
+      "en": "shaikh, religious elder",
+      "pos": "noun",
+      "roman": "shaix"
+    },
+    "کہاویں": {
+      "en": "get yourself called",
+      "pos": "verb",
+      "roman": "kahāveṅ",
+      "base": "کہاونا"
+    },
+    "کہے": {
+      "en": "says",
+      "pos": "verb",
+      "roman": "kahe",
+      "base": "کہنا"
+    },
+    "حسین": {
+      "en": "Hussain (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Husain",
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+    },
+    "جے": {
+      "en": "if",
+      "pos": "conjunction",
+      "roman": "je"
+    },
+    "فارغ": {
+      "en": "free (of self and world)",
+      "pos": "adjective",
+      "roman": "fāriġ"
+    },
+    "تھیویں": {
+      "en": "you become",
+      "pos": "verb",
+      "roman": "thīveṅ",
+      "base": "تھیونا"
+    },
+    "خاص": {
+      "en": "true, special",
+      "pos": "adjective",
+      "roman": "xās"
+    },
+    "مراقبہ": {
+      "en": "contemplation (muraqaba)",
+      "pos": "noun",
+      "roman": "murāqabā",
+      "note": "Sufi term: meditative watchfulness of the heart"
+    },
+    "پاویں": {
+      "en": "you attain",
+      "pos": "verb",
+      "roman": "pāveṅ",
+      "base": "پانا"
+    }
+  }
+}

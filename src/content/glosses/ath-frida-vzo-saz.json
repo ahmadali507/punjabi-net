@@ -1,0 +1,89 @@
+{
+  "poem": "ath-frida-vzo-saz",
+  "status": "draft",
+  "words": {
+    "اٹھ": {
+      "en": "rise; get up",
+      "pos": "verb",
+      "roman": "uṭṭh",
+      "base": "اٹھنا"
+    },
+    "فریدا": {
+      "en": "O Farid (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Farīdā",
+      "base": "فرید",
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+    },
+    "وضو": {
+      "en": "ritual ablution",
+      "pos": "noun",
+      "roman": "vuzū"
+    },
+    "ساز": {
+      "en": "make; perform",
+      "pos": "verb",
+      "roman": "sāz",
+      "note": "Persian sāz, 'make': vuzū sāz, 'perform ablution'."
+    },
+    "صبح": {
+      "en": "morning; dawn",
+      "pos": "noun",
+      "roman": "subah"
+    },
+    "نماز": {
+      "en": "ritual prayer",
+      "pos": "noun",
+      "roman": "namāz"
+    },
+    "گزار": {
+      "en": "offer; perform",
+      "pos": "verb",
+      "roman": "guzār",
+      "base": "گزارنا"
+    },
+    "جو": {
+      "en": "which; the (head) that",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "سر": {
+      "en": "head",
+      "pos": "noun",
+      "roman": "sir"
+    },
+    "سائیں": {
+      "en": "the Lord",
+      "pos": "noun",
+      "roman": "sāīṅ"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "نوے": {
+      "en": "bows",
+      "pos": "verb",
+      "roman": "nive",
+      "base": "نونا"
+    },
+    "سو": {
+      "en": "that",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "کپ": {
+      "en": "cut",
+      "pos": "verb",
+      "roman": "kapp",
+      "base": "کپنا"
+    },
+    "اتار": {
+      "en": "take off; remove",
+      "pos": "verb",
+      "roman": "utār",
+      "base": "اتارنا"
+    }
+  }
+}

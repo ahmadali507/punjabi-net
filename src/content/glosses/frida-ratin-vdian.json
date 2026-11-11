@@ -1,0 +1,79 @@
+{
+  "poem": "frida-ratin-vdian",
+  "status": "draft",
+  "words": {
+    "فریدا": {
+      "en": "O Farid (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Farīdā",
+      "base": "فرید",
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+    },
+    "راتیں": {
+      "en": "nights",
+      "pos": "noun",
+      "roman": "rātīṅ",
+      "base": "رات"
+    },
+    "وڈیاں": {
+      "en": "long",
+      "pos": "adjective",
+      "roman": "vaḍḍiāṅ",
+      "base": "وڈا"
+    },
+    "دھکھ": {
+      "en": "aching; smouldering",
+      "pos": "verb",
+      "roman": "dhukh",
+      "base": "دھکھنا",
+      "note": "dhukh dhukh: 'ache and ache', like slow-burning embers."
+    },
+    "اٹھن": {
+      "en": "rise (up) (ache)",
+      "pos": "verb",
+      "roman": "uṭṭhan",
+      "base": "اٹھنا"
+    },
+    "پاس": {
+      "en": "sides (of the body)",
+      "pos": "noun",
+      "roman": "pās"
+    },
+    "دھرگ": {
+      "en": "cursed; shame on",
+      "pos": "interjection",
+      "roman": "dhrig"
+    },
+    "تنھاں": {
+      "en": "those",
+      "pos": "pronoun",
+      "roman": "tinhāṅ"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "جیویا": {
+      "en": "living; life",
+      "pos": "noun",
+      "roman": "jīviā",
+      "base": "جینا"
+    },
+    "جنھاں": {
+      "en": "who (whose)",
+      "pos": "pronoun",
+      "roman": "jinhāṅ"
+    },
+    "وڈانی": {
+      "en": "another's; alien",
+      "pos": "adjective",
+      "roman": "viḍāṇī"
+    },
+    "آس": {
+      "en": "hope; reliance",
+      "pos": "noun",
+      "roman": "ās"
+    }
+  }
+}

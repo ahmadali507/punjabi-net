@@ -1,0 +1,184 @@
+{
+  "poem": "a-sjna-mnh-ds-kdain-jan-tire",
+  "status": "draft",
+  "words": {
+    "آ": {
+      "en": "come",
+      "pos": "verb",
+      "roman": "ā",
+      "base": "آؤنا"
+    },
+    "سجنا": {
+      "en": "O beloved",
+      "pos": "noun",
+      "roman": "sajjaṇā",
+      "base": "سجن"
+    },
+    "منہ": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "muṅh"
+    },
+    "دس": {
+      "en": "show",
+      "pos": "verb",
+      "roman": "dass",
+      "base": "دسنا"
+    },
+    "کدائیں": {
+      "en": "sometime; ever",
+      "pos": "adverb",
+      "roman": "kadāīṅ"
+    },
+    "جان": {
+      "en": "life; soul",
+      "pos": "noun",
+      "roman": "jān"
+    },
+    "تیرے": {
+      "en": "you (oblique)",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "توں"
+    },
+    "توں": {
+      "en": "from; (sacrificed) to",
+      "pos": "postposition",
+      "roman": "toṅ",
+      "note": "\"Tere toṅ vārī\": my life is a sacrifice for you."
+    },
+    "واری": {
+      "en": "sacrificed; offered up",
+      "pos": "adjective",
+      "roman": "vārī",
+      "base": "وارنا"
+    },
+    "تونہیں": {
+      "en": "you alone; you indeed",
+      "pos": "pronoun",
+      "roman": "tūṅhīṅ",
+      "base": "توں"
+    },
+    "ایمان": {
+      "en": "faith",
+      "pos": "noun",
+      "roman": "īmān"
+    },
+    "دلے": {
+      "en": "heart (oblique)",
+      "pos": "noun",
+      "roman": "dile",
+      "base": "دل"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "تدھ": {
+      "en": "you (oblique)",
+      "pos": "pronoun",
+      "roman": "tudh",
+      "base": "توں"
+    },
+    "بن": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bin"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "کس": {
+      "en": "what; of what",
+      "pos": "pronoun",
+      "roman": "kis",
+      "note": "\"Kis kārī\": of what use."
+    },
+    "کاری": {
+      "en": "use; worth",
+      "pos": "noun",
+      "roman": "kārī"
+    },
+    "حوراں": {
+      "en": "houris (maidens of paradise)",
+      "pos": "noun",
+      "roman": "hūrāṅ",
+      "base": "حور"
+    },
+    "تے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "گلمان": {
+      "en": "ghilman (youths of paradise)",
+      "pos": "noun",
+      "roman": "ġilmān",
+      "note": "Quranic attendants of paradise."
+    },
+    "بہشتی": {
+      "en": "of paradise",
+      "pos": "adjective",
+      "roman": "bahishtī",
+      "base": "بہشت"
+    },
+    "چاہے": {
+      "en": "desires; wants",
+      "pos": "verb",
+      "roman": "chāhe",
+      "base": "چاہنا"
+    },
+    "خلقت": {
+      "en": "creation; all people",
+      "pos": "noun",
+      "roman": "xalqat"
+    },
+    "ساری": {
+      "en": "all; whole (fem.)",
+      "pos": "adjective",
+      "roman": "sārī",
+      "base": "سارا"
+    },
+    "باجھ": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bājh"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad",
+      "note": "Mian Muhammad Bakhsh (1830–1907), author of Saif ul Malook."
+    },
+    "مینوں": {
+      "en": "to me",
+      "pos": "pronoun",
+      "roman": "mainūṅ",
+      "base": "میں"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "کوئی": {
+      "en": "any",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "چیز": {
+      "en": "thing",
+      "pos": "noun",
+      "roman": "chīz"
+    },
+    "پیاری": {
+      "en": "dear; beloved (fem.)",
+      "pos": "adjective",
+      "roman": "piārī",
+      "base": "پیارا"
+    }
+  }
+}

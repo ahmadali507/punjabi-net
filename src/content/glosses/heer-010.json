@@ -1,0 +1,239 @@
+{
+  "poem": "heer-010",
+  "status": "draft",
+  "words": {
+    "باپ": {
+      "en": "father",
+      "pos": "noun",
+      "roman": "bāp"
+    },
+    "کرے": {
+      "en": "shows; does",
+      "pos": "verb",
+      "roman": "kare",
+      "base": "کرنا"
+    },
+    "پیار": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "piār"
+    },
+    "تے": {
+      "en": "but; and",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "ویر": {
+      "en": "brothers",
+      "pos": "noun",
+      "roman": "vīr"
+    },
+    "بھائی": {
+      "en": "brothers",
+      "pos": "noun",
+      "roman": "bhāī",
+      "note": "ویر بھائی = brothers"
+    },
+    "ڈر": {
+      "en": "fear",
+      "pos": "noun",
+      "roman": "ḍar"
+    },
+    "دے": {
+      "en": "of",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "تھیں": {
+      "en": "from; out of",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "پئے": {
+      "en": "keep (continuous)",
+      "pos": "particle",
+      "roman": "pae"
+    },
+    "سنگدے": {
+      "en": "hold back",
+      "pos": "verb",
+      "roman": "sangde",
+      "base": "سنگنا",
+      "note": "lit. feel shy or restrained"
+    },
+    "نیں": {
+      "en": "are",
+      "pos": "verb",
+      "roman": "naiṅ"
+    },
+    "گجھے": {
+      "en": "hidden; veiled",
+      "pos": "adjective",
+      "roman": "gujjhe"
+    },
+    "مہنے": {
+      "en": "taunts",
+      "pos": "noun",
+      "roman": "mehṇe",
+      "base": "مہنا"
+    },
+    "مار": {
+      "en": "striking; hurling",
+      "pos": "verb",
+      "roman": "mār",
+      "base": "مارنا"
+    },
+    "کے": {
+      "en": "having (conjunctive)",
+      "pos": "particle",
+      "roman": "ke"
+    },
+    "سپ": {
+      "en": "snake",
+      "pos": "noun",
+      "roman": "sapp"
+    },
+    "وانگوں": {
+      "en": "like",
+      "pos": "postposition",
+      "roman": "vāṅgūṅ"
+    },
+    "اس": {
+      "en": "his",
+      "pos": "pronoun",
+      "roman": "us"
+    },
+    "کالجے": {
+      "en": "heart (lit. liver)",
+      "pos": "noun",
+      "roman": "kalje",
+      "base": "کلیجا",
+      "note": "the liver is the seat of feeling"
+    },
+    "نوں": {
+      "en": "(object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "ڈنگدے": {
+      "en": "sting",
+      "pos": "verb",
+      "roman": "ḍaṅgde",
+      "base": "ڈنگنا"
+    },
+    "کوئی": {
+      "en": "any",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "وس": {
+      "en": "power; control",
+      "pos": "noun",
+      "roman": "vas"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na"
+    },
+    "چلنیں": {
+      "en": "works; avails",
+      "pos": "verb",
+      "roman": "chalnīṅ",
+      "base": "چلنا"
+    },
+    "کڈھ": {
+      "en": "throwing out",
+      "pos": "verb",
+      "roman": "kaḍḍh",
+      "base": "کڈھنا"
+    },
+    "چھڈن": {
+      "en": "cast (him) out",
+      "pos": "verb",
+      "roman": "chhaḍḍaṇ",
+      "base": "چھڈنا",
+      "note": "کڈھ چھڈن = to throw out"
+    },
+    "دیندے": {
+      "en": "give",
+      "pos": "verb",
+      "roman": "dende",
+      "base": "دینا"
+    },
+    "میہنے": {
+      "en": "taunts",
+      "pos": "noun",
+      "roman": "mehṇe",
+      "base": "مہنا"
+    },
+    "رنگ": {
+      "en": "kind; sort",
+      "pos": "noun",
+      "roman": "rang"
+    },
+    "برنگ": {
+      "en": "various",
+      "pos": "adjective",
+      "roman": "barang",
+      "note": "رنگ برنگ = of every kind"
+    },
+    "وارث": {
+      "en": "Waris (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Vāris"
+    },
+    "شاہ": {
+      "en": "Shah (Waris Shah, the poet)",
+      "pos": "proper noun",
+      "roman": "Shāh"
+    },
+    "ایہہ": {
+      "en": "this",
+      "pos": "pronoun",
+      "roman": "eh"
+    },
+    "غرض": {
+      "en": "self-interest",
+      "pos": "noun",
+      "roman": "ġaraz"
+    },
+    "ہے": {
+      "en": "is",
+      "pos": "verb",
+      "roman": "hai",
+      "base": "ہونا"
+    },
+    "بہت": {
+      "en": "very",
+      "pos": "adverb",
+      "roman": "bahut"
+    },
+    "پیاری": {
+      "en": "dear",
+      "pos": "adjective",
+      "roman": "piārī"
+    },
+    "ہور": {
+      "en": "otherwise; else",
+      "pos": "adverb",
+      "roman": "hor"
+    },
+    "ساک": {
+      "en": "relation; kinship",
+      "pos": "noun",
+      "roman": "sāk"
+    },
+    "سین": {
+      "en": "kinsman; close tie",
+      "pos": "noun",
+      "roman": "sain",
+      "note": "Uncertain: سین, a close relation or friend"
+    },
+    "انگ": {
+      "en": "own blood (lit. limb)",
+      "pos": "noun",
+      "roman": "aṅg"
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "poem": "asan-tlb-sain-de-nam-di",
+  "status": "draft",
+  "words": {
+    "چور": {
+      "en": "thieves",
+      "pos": "noun",
+      "roman": "chor"
+    },
+    "کرن": {
+      "en": "commit, do",
+      "pos": "verb",
+      "roman": "karan",
+      "base": "کرنا"
+    },
+    "نت": {
+      "en": "always, daily",
+      "pos": "adverb",
+      "roman": "nit"
+    },
+    "چوریاں": {
+      "en": "thefts",
+      "pos": "noun",
+      "roman": "choriyāṅ",
+      "base": "چوری"
+    },
+    "عملی": {
+      "en": "the addict",
+      "pos": "noun",
+      "roman": "amalī",
+      "note": "One addicted to opium or another intoxicant (amal)"
+    },
+    "نوں": {
+      "en": "to; for (object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "عملاں": {
+      "en": "intoxicants (his habit)",
+      "pos": "noun",
+      "roman": "amlāṅ",
+      "base": "عمل"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "گھوڑیاں": {
+      "en": "cravings",
+      "pos": "noun",
+      "roman": "ghoṛiyāṅ",
+      "note": "Uncertain: context needs 'cravings, needs'; possibly a variant of لوڑیاں 'needs'"
+    },
+    "کامی": {
+      "en": "the lustful man",
+      "pos": "noun",
+      "roman": "kāmī"
+    },
+    "چنتا": {
+      "en": "worry, preoccupation",
+      "pos": "noun",
+      "roman": "chintā"
+    },
+    "کام": {
+      "en": "lust, desire",
+      "pos": "noun",
+      "roman": "kām"
+    },
+    "اساں": {
+      "en": "we; for us",
+      "pos": "pronoun",
+      "roman": "asāṅ"
+    },
+    "طلب": {
+      "en": "longing, quest",
+      "pos": "noun",
+      "roman": "ṭalab"
+    },
+    "سائیں": {
+      "en": "the Lord (Master)",
+      "pos": "noun",
+      "roman": "sāīṅ"
+    },
+    "دے": {
+      "en": "of (masc. oblique)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "نام": {
+      "en": "name; the Name (of God)",
+      "pos": "noun",
+      "roman": "nām"
+    },
+    "پاتشاہاں": {
+      "en": "kings",
+      "pos": "noun",
+      "roman": "pātshāhāṅ",
+      "base": "پاتشاہ"
+    },
+    "پاتشاہیاں": {
+      "en": "kingdoms, sovereignty",
+      "pos": "noun",
+      "roman": "pātshāhiyāṅ",
+      "base": "پاتشاہی"
+    },
+    "شاہاں": {
+      "en": "the rich, the nobles",
+      "pos": "noun",
+      "roman": "shāhāṅ",
+      "base": "شاہ"
+    },
+    "اگراہیاں": {
+      "en": "collection of dues",
+      "pos": "noun",
+      "roman": "ugrāhiyāṅ",
+      "base": "اگراہی",
+      "note": "Collecting revenue or debts owed"
+    },
+    "مہر": {
+      "en": "the village headman",
+      "pos": "noun",
+      "roman": "mehr",
+      "note": "Rural chief or landholder"
+    },
+    "پنڈ": {
+      "en": "village",
+      "pos": "noun",
+      "roman": "piṇḍ"
+    },
+    "گراؤں": {
+      "en": "hamlet, village",
+      "pos": "noun",
+      "roman": "grāoṅ"
+    },
+    "اک": {
+      "en": "one; a",
+      "pos": "numeral",
+      "roman": "ik"
+    },
+    "بازی": {
+      "en": "game, play",
+      "pos": "noun",
+      "roman": "bāzī"
+    },
+    "پائیاں": {
+      "en": "has set up",
+      "pos": "verb",
+      "roman": "pāiyāṅ",
+      "base": "پانا"
+    },
+    "سائیاں": {
+      "en": "O Lord; the Lord",
+      "pos": "noun",
+      "roman": "sāīāṅ",
+      "base": "سائیں"
+    },
+    "اچرج": {
+      "en": "wondrous",
+      "pos": "adjective",
+      "roman": "acharaj"
+    },
+    "کھیل": {
+      "en": "play, show",
+      "pos": "noun",
+      "roman": "khel"
+    },
+    "نباہیاں": {
+      "en": "carried through",
+      "pos": "verb",
+      "roman": "nibāhiyāṅ",
+      "base": "نباہنا"
+    },
+    "سبھ": {
+      "en": "all; everyone",
+      "pos": "pronoun",
+      "roman": "sabh"
+    },
+    "کھیڈ": {
+      "en": "having played",
+      "pos": "verb",
+      "roman": "kheḍ",
+      "base": "کھیڈنا",
+      "note": "کھیڈ کھیڈ: after playing and playing"
+    },
+    "گھر": {
+      "en": "home, house",
+      "pos": "noun",
+      "roman": "ghar"
+    },
+    "آؤندی": {
+      "en": "comes",
+      "pos": "verb",
+      "roman": "āuṅdī",
+      "base": "آؤنا"
+    },
+    "لوک": {
+      "en": "people",
+      "pos": "noun",
+      "roman": "lok"
+    },
+    "لڑائیاں": {
+      "en": "quarrels, fights",
+      "pos": "noun",
+      "roman": "laṛāiyāṅ",
+      "base": "لڑائی"
+    },
+    "شرم": {
+      "en": "honour",
+      "pos": "noun",
+      "roman": "sharm",
+      "note": "شرم رکھنا: to keep someone's honour"
+    },
+    "رکھیں": {
+      "en": "keep, preserve",
+      "pos": "verb",
+      "roman": "rakkhīṅ",
+      "base": "رکھنا"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "مر": {
+      "en": "dying",
+      "pos": "verb",
+      "roman": "mar",
+      "base": "مرنا",
+      "note": "مر مر: dying one after another"
+    },
+    "خاک": {
+      "en": "dust",
+      "pos": "noun",
+      "roman": "xāk"
+    },
+    "سماؤندی": {
+      "en": "merges into, is absorbed",
+      "pos": "verb",
+      "roman": "samāuṅdī",
+      "base": "سماؤنا"
+    },
+    "شاہ": {
+      "en": "Shah (part of the poet's name)",
+      "pos": "proper noun",
+      "roman": "Shāh"
+    },
+    "حسین": {
+      "en": "Hussain (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Husain",
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+    },
+    "فقیر": {
+      "en": "faqir, mendicant",
+      "pos": "noun",
+      "roman": "faqīr",
+      "note": "Sufi term: one poor before God"
+    },
+    "ہے": {
+      "en": "is",
+      "pos": "verb",
+      "roman": "hai",
+      "base": "ہونا"
+    },
+    "تسیں": {
+      "en": "you (pl.)",
+      "pos": "pronoun",
+      "roman": "tusīṅ"
+    },
+    "نہ": {
+      "en": "not; don't",
+      "pos": "particle",
+      "roman": "nah"
+    },
+    "کوئی": {
+      "en": "any (of you)",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "آکھو": {
+      "en": "say",
+      "pos": "verb",
+      "roman": "ākho",
+      "base": "آکھنا"
+    },
+    "پیر": {
+      "en": "pir, spiritual master",
+      "pos": "noun",
+      "roman": "pīr"
+    },
+    "کوڑی": {
+      "en": "false",
+      "pos": "adjective",
+      "roman": "kūṛī",
+      "base": "کوڑا"
+    },
+    "گل": {
+      "en": "talk, word",
+      "pos": "noun",
+      "roman": "gall"
+    },
+    "بھاؤندی": {
+      "en": "pleases",
+      "pos": "verb",
+      "roman": "bhāuṅdī",
+      "base": "بھاؤنا"
+    }
+  }
+}

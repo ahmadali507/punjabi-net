@@ -1,0 +1,177 @@
+{
+  "poem": "nor-chmkda-mtha",
+  "status": "draft",
+  "words": {
+    "عرشی": {
+      "en": "heavenly",
+      "pos": "adjective",
+      "roman": "arshī"
+    },
+    "چھوہ": {
+      "en": "touch",
+      "pos": "noun",
+      "roman": "chhoh"
+    },
+    "تیری": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "terī",
+      "base": "تیرا"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de",
+      "base": "دا"
+    },
+    "سوالی": {
+      "en": "supplicants, beggars",
+      "pos": "noun",
+      "roman": "savālī"
+    },
+    "اسیں": {
+      "en": "we",
+      "pos": "pronoun",
+      "roman": "asīṅ"
+    },
+    "در": {
+      "en": "door",
+      "pos": "noun",
+      "roman": "dar"
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "تیرا"
+    },
+    "تے": {
+      "en": "at, on",
+      "pos": "postposition",
+      "roman": "te"
+    },
+    "آئے": {
+      "en": "came; appeared",
+      "pos": "verb",
+      "roman": "āe",
+      "base": "آنا"
+    },
+    "ڈردے": {
+      "en": "fearing",
+      "pos": "verb",
+      "roman": "ḍarde",
+      "base": "ڈرنا"
+    },
+    "کمبدے": {
+      "en": "trembling",
+      "pos": "verb",
+      "roman": "kambde",
+      "base": "کمبنا"
+    },
+    "اساں": {
+      "en": "we (agent)",
+      "pos": "pronoun",
+      "roman": "asāṅ"
+    },
+    "گن": {
+      "en": "counting",
+      "pos": "verb",
+      "roman": "gin",
+      "base": "گننا"
+    },
+    "قدم": {
+      "en": "steps",
+      "pos": "noun",
+      "roman": "qadam"
+    },
+    "رکھائے": {
+      "en": "placed, took",
+      "pos": "verb",
+      "roman": "rakhāe",
+      "base": "رکھنا"
+    },
+    "ایپر": {
+      "en": "but",
+      "pos": "conjunction",
+      "roman": "aipar"
+    },
+    "نور": {
+      "en": "light, radiance",
+      "pos": "noun",
+      "roman": "nūr"
+    },
+    "چمکدا": {
+      "en": "shining",
+      "pos": "verb",
+      "roman": "chamakdā",
+      "base": "چمکنا"
+    },
+    "متھا": {
+      "en": "forehead",
+      "pos": "noun",
+      "roman": "matthā"
+    },
+    "جدوں": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jadoṅ"
+    },
+    "تدھے": {
+      "en": "you (of you)",
+      "pos": "pronoun",
+      "roman": "tudhe",
+      "base": "تدھ",
+      "note": "Odd spelling: tudh 'you' (old/Gurbani form); tudhe dā = your."
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "ڈٹھا": {
+      "en": "saw",
+      "pos": "verb",
+      "roman": "ḍiṭṭhā",
+      "base": "ویکھنا"
+    },
+    "بخشن": {
+      "en": "to bestow",
+      "pos": "verb",
+      "roman": "baxshaṇ",
+      "base": "بخشنا"
+    },
+    "شوق": {
+      "en": "eagerness",
+      "pos": "noun",
+      "roman": "shauq"
+    },
+    "تساں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tusāṅ"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "سانوں": {
+      "en": "to us",
+      "pos": "pronoun",
+      "roman": "sānūṅ"
+    },
+    "ڈلھدا": {
+      "en": "spilling over",
+      "pos": "verb",
+      "roman": "ḍulhdā",
+      "base": "ڈلھنا"
+    },
+    "نظریں": {
+      "en": "in sight",
+      "pos": "noun",
+      "roman": "nazrīṅ",
+      "base": "نظر",
+      "note": "nazrīṅ āuṇā: to be seen, appear."
+    }
+  }
+}

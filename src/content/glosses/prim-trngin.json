@@ -1,0 +1,180 @@
+{
+  "poem": "prim-trngin",
+  "status": "draft",
+  "words": {
+    "پنیاں": {
+      "en": "full-moon nights",
+      "pos": "noun",
+      "roman": "puṇiāṅ",
+      "base": "پونیا",
+      "note": "Odd spelling for پونیاں."
+    },
+    "نوں": {
+      "en": "on (time)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "شہہ": {
+      "en": "great, king",
+      "pos": "adjective",
+      "roman": "shah"
+    },
+    "ساگر": {
+      "en": "ocean",
+      "pos": "noun",
+      "roman": "sāgar"
+    },
+    "اچھلے": {
+      "en": "surges up",
+      "pos": "verb",
+      "roman": "uchhle",
+      "base": "اچھلنا"
+    },
+    "تانگھ": {
+      "en": "yearning",
+      "pos": "noun",
+      "roman": "tāṅgh"
+    },
+    "عرش": {
+      "en": "sky, heaven",
+      "pos": "noun",
+      "roman": "arsh"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "کردا": {
+      "en": "does, makes",
+      "pos": "verb",
+      "roman": "kardā",
+      "base": "کرنا"
+    },
+    "دور": {
+      "en": "far",
+      "pos": "adverb",
+      "roman": "dūr"
+    },
+    "وسیندے": {
+      "en": "dwelling",
+      "pos": "verb",
+      "roman": "vasīnde",
+      "base": "وسنا"
+    },
+    "سوہنے": {
+      "en": "beautiful one",
+      "pos": "noun",
+      "roman": "sohṇe",
+      "base": "سوہنا"
+    },
+    "ولے": {
+      "en": "towards",
+      "pos": "postposition",
+      "roman": "vale",
+      "base": "ول"
+    },
+    "امل": {
+      "en": "welling up",
+      "pos": "verb",
+      "roman": "umal",
+      "base": "املنا"
+    },
+    "جی": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "jī"
+    },
+    "بھردا": {
+      "en": "fills",
+      "pos": "verb",
+      "roman": "bhardā",
+      "base": "بھرنا"
+    },
+    "جیوں": {
+      "en": "as (the more)",
+      "pos": "conjunction",
+      "roman": "jiuṅ"
+    },
+    "پر": {
+      "en": "but",
+      "pos": "conjunction",
+      "roman": "par"
+    },
+    "اس": {
+      "en": "it",
+      "pos": "pronoun",
+      "roman": "us"
+    },
+    "لگے": {
+      "en": "touches, falls",
+      "pos": "verb",
+      "roman": "lagge",
+      "base": "لگنا"
+    },
+    "چاندنی": {
+      "en": "moonlight",
+      "pos": "noun",
+      "roman": "chāndnī"
+    },
+    "تؤں": {
+      "en": "so (the more)",
+      "pos": "adverb",
+      "roman": "tiuṅ",
+      "note": "Odd spelling for تیوں, correlative of جیوں."
+    },
+    "کی": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "kī"
+    },
+    "اوہ": {
+      "en": "it, he",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "دیکھے": {
+      "en": "sees",
+      "pos": "verb",
+      "roman": "dekhe",
+      "base": "دیکھنا"
+    },
+    "پریتم": {
+      "en": "beloved",
+      "pos": "noun",
+      "roman": "prītam"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "پریم": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "prem"
+    },
+    "ترنگیں": {
+      "en": "in waves",
+      "pos": "noun",
+      "roman": "taraṅgīṅ",
+      "base": "ترنگ"
+    },
+    "دان": {
+      "en": "gift",
+      "pos": "noun",
+      "roman": "dān"
+    },
+    "اچھالے": {
+      "en": "surges",
+      "pos": "noun",
+      "roman": "uchhāle",
+      "base": "اچھالا"
+    }
+  }
+}

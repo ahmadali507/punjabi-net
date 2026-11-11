@@ -1,0 +1,210 @@
+{
+  "poem": "heer-008",
+  "status": "draft",
+  "words": {
+    "اک": {
+      "en": "one; a",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "تخت": {
+      "en": "Takht (Takht Hazara)",
+      "pos": "proper noun",
+      "roman": "Taxt",
+      "note": "Takht Hazara, Ranjha's village by the Chenab"
+    },
+    "ہزاریوں": {
+      "en": "from Hazara",
+      "pos": "proper noun",
+      "roman": "Hazāriyoṅ",
+      "base": "ہزارا"
+    },
+    "گل": {
+      "en": "account; talk",
+      "pos": "noun",
+      "roman": "gall"
+    },
+    "کیجے": {
+      "en": "let us give",
+      "pos": "verb",
+      "roman": "kījai",
+      "base": "کرنا"
+    },
+    "جتھے": {
+      "en": "where",
+      "pos": "adverb",
+      "roman": "jitthe"
+    },
+    "رانجھیاں": {
+      "en": "the Ranjhas (Ranjha's clan)",
+      "pos": "proper noun",
+      "roman": "Rāñjhiāṅ",
+      "base": "رانجھا",
+      "note": "the Ranjha clan of Jats"
+    },
+    "رنگ": {
+      "en": "revelry",
+      "pos": "noun",
+      "roman": "rang",
+      "note": "lit. colour; رنگ مچانا = make merry"
+    },
+    "مچایا": {
+      "en": "stirred up",
+      "pos": "verb",
+      "roman": "machāiā",
+      "base": "مچانا"
+    },
+    "اے": {
+      "en": "has (auxiliary)",
+      "pos": "verb",
+      "roman": "e"
+    },
+    "چھیل": {
+      "en": "dashing; handsome",
+      "pos": "adjective",
+      "roman": "chhail"
+    },
+    "گھبرو": {
+      "en": "young men",
+      "pos": "noun",
+      "roman": "ghabrū"
+    },
+    "مست": {
+      "en": "carefree; intoxicated",
+      "pos": "adjective",
+      "roman": "mast"
+    },
+    "اربیلڑے": {
+      "en": "spirited; proud",
+      "pos": "adjective",
+      "roman": "arbelaṛe",
+      "base": "البیلا",
+      "note": "diminutive of albela, carefree and charming"
+    },
+    "نیں": {
+      "en": "are",
+      "pos": "verb",
+      "roman": "naiṅ"
+    },
+    "سندر": {
+      "en": "handsome",
+      "pos": "adjective",
+      "roman": "sundar"
+    },
+    "تھیں": {
+      "en": "than",
+      "pos": "postposition",
+      "roman": "thīṅ"
+    },
+    "سویا": {
+      "en": "surpassing",
+      "pos": "adjective",
+      "roman": "savāiā",
+      "note": "lit. one-and-a-quarter times; اک تھیں اک سوایا = each finer than the other"
+    },
+    "والے": {
+      "en": "earrings (hoops)",
+      "pos": "noun",
+      "roman": "vāle",
+      "base": "والا"
+    },
+    "کوکلے": {
+      "en": "ornaments",
+      "pos": "noun",
+      "roman": "kokle",
+      "note": "Uncertain: an ornament, probably worn at the neck or ear"
+    },
+    "مندرے": {
+      "en": "earrings",
+      "pos": "noun",
+      "roman": "mundre",
+      "base": "مندرا"
+    },
+    "مجھ": {
+      "en": "(kind of lungi)",
+      "pos": "noun",
+      "roman": "majh",
+      "note": "Uncertain: sense unclear; possibly a pattern or colour of lungi"
+    },
+    "لنگی": {
+      "en": "lungi (waist-cloth)",
+      "pos": "noun",
+      "roman": "laṅgī"
+    },
+    "نواں": {
+      "en": "new",
+      "pos": "adjective",
+      "roman": "navāṅ"
+    },
+    "ٹھاٹھ": {
+      "en": "finery; pomp",
+      "pos": "noun",
+      "roman": "ṭhāṭh"
+    },
+    "تے": {
+      "en": "on; upon",
+      "pos": "postposition",
+      "roman": "te"
+    },
+    "چڑھایا": {
+      "en": "put on; heaped",
+      "pos": "verb",
+      "roman": "chaṛhāiā",
+      "base": "چڑھانا"
+    },
+    "کی": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "kī"
+    },
+    "صفت": {
+      "en": "praise",
+      "pos": "noun",
+      "roman": "sifat"
+    },
+    "ہزارے": {
+      "en": "Hazara (Ranjha's village)",
+      "pos": "proper noun",
+      "roman": "Hazāre",
+      "base": "ہزارا"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "آکھ": {
+      "en": "tell",
+      "pos": "verb",
+      "roman": "ākh",
+      "base": "آکھنا"
+    },
+    "سکاں": {
+      "en": "I can",
+      "pos": "verb",
+      "roman": "sakāṅ",
+      "base": "سکنا"
+    },
+    "گویا": {
+      "en": "as if",
+      "pos": "conjunction",
+      "roman": "goyā"
+    },
+    "بہشت": {
+      "en": "paradise",
+      "pos": "noun",
+      "roman": "bahisht"
+    },
+    "زمین": {
+      "en": "earth",
+      "pos": "noun",
+      "roman": "zamīn"
+    },
+    "آیا": {
+      "en": "came",
+      "pos": "verb",
+      "roman": "āiā",
+      "base": "آنا"
+    }
+  }
+}

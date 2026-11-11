@@ -1,0 +1,188 @@
+{
+  "poem": "tsbih-bht-bhoaon-ksbi",
+  "status": "draft",
+  "words": {
+    "تسبیح": {
+      "en": "rosary (prayer beads)",
+      "pos": "noun",
+      "roman": "tasbīh"
+    },
+    "بہت": {
+      "en": "much; a lot",
+      "pos": "adverb",
+      "roman": "bahut"
+    },
+    "بھواون": {
+      "en": "turn; tell (beads)",
+      "pos": "verb",
+      "roman": "bhavāvan",
+      "base": "بھوانا"
+    },
+    "کسبی": {
+      "en": "professionals; traders in piety",
+      "pos": "noun",
+      "roman": "kasbī",
+      "note": "Literally those who ply a trade; also a word for harlots."
+    },
+    "جنہاں": {
+      "en": "who; those who",
+      "pos": "pronoun",
+      "roman": "jinhāṅ",
+      "base": "جو"
+    },
+    "دام": {
+      "en": "net; snare",
+      "pos": "noun",
+      "roman": "dām"
+    },
+    "فریب": {
+      "en": "deceit",
+      "pos": "noun",
+      "roman": "fareb"
+    },
+    "بچھایا": {
+      "en": "have spread",
+      "pos": "verb",
+      "roman": "bichhāiā",
+      "base": "بچھانا"
+    },
+    "کر": {
+      "en": "making; (again and again)",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا",
+      "note": "\"Kar kar\": doing over and over."
+    },
+    "گیان": {
+      "en": "wisdom; spiritual knowledge",
+      "pos": "noun",
+      "roman": "giān"
+    },
+    "سناون": {
+      "en": "recite; preach",
+      "pos": "verb",
+      "roman": "suṇāvan",
+      "base": "سنانا"
+    },
+    "سیانیں": {
+      "en": "the clever ones",
+      "pos": "noun",
+      "roman": "siāṇeṅ",
+      "base": "سیانا"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "ات": {
+      "en": "end; limit",
+      "pos": "noun",
+      "roman": "at",
+      "note": "Uncertain: \"na at budh\": without end of wit, or \"with no real wisdom\"."
+    },
+    "بدھ": {
+      "en": "wisdom; understanding",
+      "pos": "noun",
+      "roman": "budh"
+    },
+    "شیخ": {
+      "en": "shaikh (religious elder)",
+      "pos": "noun",
+      "roman": "shaix"
+    },
+    "کہایا": {
+      "en": "had (themselves) called",
+      "pos": "verb",
+      "roman": "kahāiā",
+      "base": "کہانا"
+    },
+    "مطلب": {
+      "en": "meaning; purpose",
+      "pos": "noun",
+      "roman": "matlab"
+    },
+    "جو": {
+      "en": "which; that",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "اسرار": {
+      "en": "secrets; mysteries",
+      "pos": "noun",
+      "roman": "asrār"
+    },
+    "الہی": {
+      "en": "divine",
+      "pos": "adjective",
+      "roman": "ilāhī",
+      "note": "\"Asrar-e-ilahi\": the mysteries of God."
+    },
+    "اوہناں": {
+      "en": "they",
+      "pos": "pronoun",
+      "roman": "ohnāṅ",
+      "base": "اوہ"
+    },
+    "ہرگز": {
+      "en": "ever; by any means",
+      "pos": "adverb",
+      "roman": "hargiz"
+    },
+    "مول": {
+      "en": "at all",
+      "pos": "adverb",
+      "roman": "mūl"
+    },
+    "پایا": {
+      "en": "found; attained",
+      "pos": "verb",
+      "roman": "pāiā",
+      "base": "پاؤنا"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "سمجھ": {
+      "en": "understanding; who understand",
+      "pos": "noun",
+      "roman": "samajh"
+    },
+    "رسائین": {
+      "en": "alchemy",
+      "pos": "noun",
+      "roman": "rasāin",
+      "note": "Alchemy as the hidden art of turning base into gold: true mystic knowledge."
+    },
+    "والے": {
+      "en": "those with; possessors of",
+      "pos": "particle",
+      "roman": "vāle",
+      "base": "والا"
+    },
+    "کدی": {
+      "en": "ever; when",
+      "pos": "adverb",
+      "roman": "kadī"
+    },
+    "اپنا": {
+      "en": "own",
+      "pos": "pronoun",
+      "roman": "apṇā"
+    },
+    "آپ": {
+      "en": "self",
+      "pos": "pronoun",
+      "roman": "āp",
+      "note": "\"Apna ap likhaya\": put themselves on record, made a show of themselves."
+    },
+    "لکھایا": {
+      "en": "had written; made known",
+      "pos": "verb",
+      "roman": "likhāiā",
+      "base": "لکھانا"
+    }
+  }
+}

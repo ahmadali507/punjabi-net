@@ -1,0 +1,178 @@
+{
+  "poem": "rba-ks-non-phol-snaoan-drd-dle",
+  "status": "draft",
+  "words": {
+    "ربا": {
+      "en": "O Lord",
+      "pos": "noun",
+      "roman": "rabbā",
+      "base": "رب"
+    },
+    "کس": {
+      "en": "whom",
+      "pos": "pronoun",
+      "roman": "kis"
+    },
+    "نوں": {
+      "en": "to",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "پھول": {
+      "en": "unfolding; opening out",
+      "pos": "verb",
+      "roman": "phol",
+      "base": "پھولنا"
+    },
+    "سناواں": {
+      "en": "shall I tell",
+      "pos": "verb",
+      "roman": "suṇāvāṅ",
+      "base": "سنانا"
+    },
+    "درد": {
+      "en": "pain",
+      "pos": "noun",
+      "roman": "dard"
+    },
+    "دلے": {
+      "en": "heart (oblique)",
+      "pos": "noun",
+      "roman": "dile",
+      "base": "دل"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "سارا": {
+      "en": "whole; all",
+      "pos": "adjective",
+      "roman": "sārā"
+    },
+    "کون": {
+      "en": "who",
+      "pos": "pronoun",
+      "roman": "kauṇ"
+    },
+    "ہووے": {
+      "en": "would be",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "اج": {
+      "en": "today",
+      "pos": "adverb",
+      "roman": "ajj"
+    },
+    "ساتھی": {
+      "en": "companion",
+      "pos": "noun",
+      "roman": "sāthī"
+    },
+    "میرا": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merā",
+      "base": "میں"
+    },
+    "دکھ": {
+      "en": "sorrow; pain",
+      "pos": "noun",
+      "roman": "dukh"
+    },
+    "ونڈاونہاراون": {
+      "en": "sharer (one who shares)",
+      "pos": "noun",
+      "roman": "vanḍāvaṇhārā",
+      "note": "Uncertain: text reads \"-hārāon\"; likely \"vandavan-hara\", one who shares."
+    },
+    "جس": {
+      "en": "whom",
+      "pos": "pronoun",
+      "roman": "jis"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "نال": {
+      "en": "with",
+      "pos": "postposition",
+      "roman": "nāl"
+    },
+    "محبت": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "muhabbat"
+    },
+    "لائی": {
+      "en": "attached; formed",
+      "pos": "verb",
+      "roman": "lāī",
+      "base": "لانا"
+    },
+    "چا": {
+      "en": "took up (intensive)",
+      "pos": "verb",
+      "roman": "chā",
+      "base": "چانا"
+    },
+    "لیا": {
+      "en": "took on",
+      "pos": "verb",
+      "roman": "liā",
+      "base": "لینا"
+    },
+    "غمکھارا": {
+      "en": "bitter grief",
+      "pos": "noun",
+      "roman": "ġam khārā",
+      "note": "Uncertain: \"gham\" + \"khara\" (salty, bitter); possibly \"gham-khwar\"."
+    },
+    "سو": {
+      "en": "that one",
+      "pos": "pronoun",
+      "roman": "so"
+    },
+    "منہ": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "muṅh"
+    },
+    "دسدا": {
+      "en": "shows",
+      "pos": "verb",
+      "roman": "dasdā",
+      "base": "دسنا"
+    },
+    "نہیں": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "کی": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "kī"
+    },
+    "ہن": {
+      "en": "now",
+      "pos": "adverb",
+      "roman": "huṇ"
+    },
+    "چارہ": {
+      "en": "remedy; recourse",
+      "pos": "noun",
+      "roman": "chārā"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "poem": "sro-brabr-kd-tire-de-mol-khlo",
+  "status": "draft",
+  "words": {
+    "سرو": {
+      "en": "cypress",
+      "pos": "noun",
+      "roman": "sarv",
+      "note": "The cypress: classic image of a tall, graceful figure."
+    },
+    "برابر": {
+      "en": "level; equal",
+      "pos": "adjective",
+      "roman": "barābar"
+    },
+    "کد": {
+      "en": "stature; height",
+      "pos": "noun",
+      "roman": "qadd"
+    },
+    "تیرے": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "tere",
+      "base": "توں"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de"
+    },
+    "مول": {
+      "en": "at all; ever",
+      "pos": "adverb",
+      "roman": "mūl"
+    },
+    "کھلو": {
+      "en": "stand",
+      "pos": "verb",
+      "roman": "khalo",
+      "base": "کھلونا"
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "سکدا": {
+      "en": "can",
+      "pos": "verb",
+      "roman": "sakdā",
+      "base": "سکنا"
+    },
+    "پھل": {
+      "en": "flower",
+      "pos": "noun",
+      "roman": "phull"
+    },
+    "گلاب": {
+      "en": "rose",
+      "pos": "noun",
+      "roman": "gulāb"
+    },
+    "تے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "te"
+    },
+    "باغارم": {
+      "en": "the Garden of Iram",
+      "pos": "proper noun",
+      "roman": "bāġ-e-iram",
+      "note": "Legendary paradise-like garden of King Shaddad."
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "صورت": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "sūrat"
+    },
+    "تک": {
+      "en": "seeing; gazing",
+      "pos": "verb",
+      "roman": "takk",
+      "base": "تکنا",
+      "note": "\"Tak tak\": gazing again and again."
+    },
+    "جھکدا": {
+      "en": "bows down",
+      "pos": "verb",
+      "roman": "jhukdā",
+      "base": "جھکنا"
+    },
+    "یاسمین": {
+      "en": "jasmine",
+      "pos": "noun",
+      "roman": "yāsmīn"
+    },
+    "ہووے": {
+      "en": "becomes",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "شرمندہ": {
+      "en": "ashamed",
+      "pos": "adjective",
+      "roman": "sharminda"
+    },
+    "بدنصفائی": {
+      "en": "the fairness of (your) body",
+      "pos": "noun",
+      "roman": "badan-safāī",
+      "note": "\"Badan\": body; \"safai\": purity, clearness."
+    },
+    "تکدا": {
+      "en": "seeing; looking at",
+      "pos": "verb",
+      "roman": "takdā",
+      "base": "تکنا"
+    },
+    "ارغوان": {
+      "en": "Judas tree (red blossom)",
+      "pos": "noun",
+      "roman": "arġavān",
+      "note": "Its red flowers: as if drowned in blood from envy."
+    },
+    "ڈبا": {
+      "en": "drowned; sunk",
+      "pos": "verb",
+      "roman": "ḍubbā",
+      "base": "ڈبنا"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "لہو": {
+      "en": "blood",
+      "pos": "noun",
+      "roman": "lahū"
+    },
+    "چہرہ": {
+      "en": "face",
+      "pos": "noun",
+      "roman": "chehrā"
+    },
+    "ویکھ": {
+      "en": "seeing",
+      "pos": "verb",
+      "roman": "vekh",
+      "base": "ویکھنا"
+    },
+    "چمکدا": {
+      "en": "shining",
+      "pos": "adjective",
+      "roman": "chamakdā",
+      "base": "چمکنا"
+    }
+  }
+}

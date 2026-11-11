@@ -1,0 +1,181 @@
+{
+  "poem": "adaro-pritm-non-athro",
+  "status": "draft",
+  "words": {
+    "نیناں": {
+      "en": "eyes",
+      "pos": "noun",
+      "roman": "naināṅ",
+      "base": "نین"
+    },
+    "دے": {
+      "en": "of (oblique)",
+      "pos": "postposition",
+      "roman": "de",
+      "base": "دا"
+    },
+    "وچ": {
+      "en": "in",
+      "pos": "postposition",
+      "roman": "vich"
+    },
+    "روں": {
+      "en": "to stay, dwell",
+      "pos": "verb",
+      "roman": "rahuṇ",
+      "base": "رہنا",
+      "note": "Odd spelling: transliterated form standing for رہن (rahuṇ)."
+    },
+    "ن": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "na",
+      "note": "Odd spelling for نہ."
+    },
+    "سکھاوے": {
+      "en": "pleases, suits (you)",
+      "pos": "verb",
+      "roman": "sukhāve",
+      "base": "سکھاونا",
+      "note": "Here: staying in the eyes does not please you."
+    },
+    "اسیں": {
+      "en": "we (the tears)",
+      "pos": "pronoun",
+      "roman": "asīṅ",
+      "note": "The speakers are the tears of the title."
+    },
+    "واس": {
+      "en": "dwelling, abode",
+      "pos": "noun",
+      "roman": "vās"
+    },
+    "وسائے": {
+      "en": "settled, made (you) dwell",
+      "pos": "verb",
+      "roman": "vasāe",
+      "base": "وسانا"
+    },
+    "تسیں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tusīṅ"
+    },
+    "سکھائے": {
+      "en": "were made comfortable, cherished",
+      "pos": "verb",
+      "roman": "sukhāe",
+      "base": "سکھاونا",
+      "note": "Uncertain: sense is 'you were made more at ease than we ourselves'."
+    },
+    "ساتھوں": {
+      "en": "than us",
+      "pos": "pronoun",
+      "roman": "sāthoṅ"
+    },
+    "بہتے": {
+      "en": "more, much",
+      "pos": "adverb",
+      "roman": "bahute"
+    },
+    "اکھپتلی": {
+      "en": "pupil of the eye",
+      "pos": "noun",
+      "roman": "akh-putlī"
+    },
+    "نے": {
+      "en": "(agent marker)",
+      "pos": "postposition",
+      "roman": "ne"
+    },
+    "انک": {
+      "en": "many, countless (images)",
+      "pos": "adjective",
+      "roman": "anek",
+      "note": "Odd spelling for انیک (anek)."
+    },
+    "سمائے": {
+      "en": "held, contained",
+      "pos": "verb",
+      "roman": "samāe",
+      "base": "سمانا"
+    },
+    "اڈار": {
+      "en": "flier, one who flies off",
+      "pos": "noun",
+      "roman": "uḍār",
+      "note": "Addresses the beloved who would not stay."
+    },
+    "ٹک": {
+      "en": "steadily, still",
+      "pos": "adverb",
+      "roman": "ṭik"
+    },
+    "بہو": {
+      "en": "sit, stay",
+      "pos": "verb",
+      "roman": "baho",
+      "base": "بہنا"
+    },
+    "پتلی": {
+      "en": "pupil of the eye",
+      "pos": "noun",
+      "roman": "putlī"
+    },
+    "جیوں": {
+      "en": "as, like",
+      "pos": "conjunction",
+      "roman": "jiuṅ"
+    },
+    "پنچھی": {
+      "en": "bird",
+      "pos": "noun",
+      "roman": "panchhī"
+    },
+    "آلھنیوں": {
+      "en": "from the nest",
+      "pos": "noun",
+      "roman": "ālhaṇioṅ",
+      "base": "آلھنا"
+    },
+    "اڈے": {
+      "en": "flies away",
+      "pos": "verb",
+      "roman": "uḍḍe",
+      "base": "اڈنا"
+    },
+    "مگر": {
+      "en": "after, behind",
+      "pos": "postposition",
+      "roman": "magar"
+    },
+    "تساڈے": {
+      "en": "you (oblique: after you)",
+      "pos": "pronoun",
+      "roman": "tusāḍe",
+      "base": "تساڈا"
+    },
+    "ہن": {
+      "en": "now",
+      "pos": "adverb",
+      "roman": "hun"
+    },
+    "ڈھونڈن": {
+      "en": "to search",
+      "pos": "verb",
+      "roman": "ḍhūṇḍaṇ",
+      "base": "ڈھونڈنا"
+    },
+    "باہر": {
+      "en": "out, outside",
+      "pos": "adverb",
+      "roman": "bāhar"
+    },
+    "گھلائے": {
+      "en": "sent (out)",
+      "pos": "verb",
+      "roman": "ghalāe",
+      "base": "گھلنا"
+    }
+  }
+}

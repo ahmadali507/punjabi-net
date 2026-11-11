@@ -238,4 +238,37 @@ const proverbs = defineCollection({
   }),
 });
 
-export const collections = { poets, poems, forms, dictionary, proverbs };
+/* ---------- Word glosses (one file per poem) ---------- */
+
+/** Parts of speech for glosses: the dictionary's list plus proper names. */
+export const GLOSS_POS = [...POS, 'proper noun'] as const;
+
+/**
+ * Contextual meanings for every word of one poem, keyed by the word as it is
+ * written in the poem with vowel marks and punctuation removed (see
+ * normalise() in src/lib/content.ts). status "draft" = editorial gloss, not yet
+ * reviewed by a person; the reader shows that on every card.
+ */
+const glosses = defineCollection({
+  loader: files('glosses', 'json'),
+  schema: z.object({
+    poem: reference('poems'),
+    status: z.enum(['draft', 'reviewed']).default('draft'),
+    words: z.record(
+      z.string().min(1),
+      z.object({
+        /** Meaning of the word in this poem, in English (short). */
+        en: z.string().trim().min(1),
+        pos: z.enum(GLOSS_POS).optional(),
+        /** Romanised pronunciation. */
+        roman: z.string().trim().optional(),
+        /** Base (dictionary) form in Shahmukhi when the word is inflected. */
+        base: pa.optional(),
+        /** Optional extra note: idiom, allusion, grammar. */
+        note: z.string().trim().optional(),
+      }),
+    ),
+  }),
+});
+
+export const collections = { poets, poems, forms, dictionary, proverbs, glosses };

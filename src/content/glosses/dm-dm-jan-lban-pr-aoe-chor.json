@@ -1,0 +1,177 @@
+{
+  "poem": "dm-dm-jan-lban-pr-aoe-chor",
+  "status": "draft",
+  "words": {
+    "دم": {
+      "en": "breath; every moment",
+      "pos": "noun",
+      "roman": "dam",
+      "note": "\"Dam dam\": with every breath."
+    },
+    "جان": {
+      "en": "life; soul",
+      "pos": "noun",
+      "roman": "jān"
+    },
+    "لباں": {
+      "en": "lips",
+      "pos": "noun",
+      "roman": "labāṅ",
+      "base": "لب",
+      "note": "Life comes to the lips: one is at death's door."
+    },
+    "پر": {
+      "en": "on; to",
+      "pos": "postposition",
+      "roman": "par"
+    },
+    "آوے": {
+      "en": "comes",
+      "pos": "verb",
+      "roman": "āve",
+      "base": "آؤنا"
+    },
+    "چھوڑ": {
+      "en": "leaving",
+      "pos": "verb",
+      "roman": "chhoṛ",
+      "base": "چھوڑنا"
+    },
+    "حویلی": {
+      "en": "mansion",
+      "pos": "noun",
+      "roman": "havelī",
+      "note": "The body as the soul's mansion."
+    },
+    "تن": {
+      "en": "body",
+      "pos": "noun",
+      "roman": "tan"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "کھلی": {
+      "en": "standing (fem.)",
+      "pos": "verb",
+      "roman": "khalī",
+      "base": "کھلونا"
+    },
+    "اڈیکے": {
+      "en": "waits; watches for",
+      "pos": "verb",
+      "roman": "uḍīke",
+      "base": "اڈیکنا"
+    },
+    "مت": {
+      "en": "perhaps; lest",
+      "pos": "conjunction",
+      "roman": "mat"
+    },
+    "ہن": {
+      "en": "now",
+      "pos": "adverb",
+      "roman": "huṇ"
+    },
+    "کدھروں": {
+      "en": "from somewhere",
+      "pos": "adverb",
+      "roman": "kidharoṅ"
+    },
+    "وا": {
+      "en": "breeze; wind",
+      "pos": "noun",
+      "roman": "vā"
+    },
+    "سجن": {
+      "en": "the beloved",
+      "pos": "noun",
+      "roman": "sajjaṇ"
+    },
+    "آویں": {
+      "en": "come (you)",
+      "pos": "verb",
+      "roman": "āveṅ",
+      "base": "آؤنا"
+    },
+    "نہ": {
+      "en": "don't",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "چر": {
+      "en": "delay; long time",
+      "pos": "noun",
+      "roman": "chir"
+    },
+    "لاویں": {
+      "en": "make; put",
+      "pos": "verb",
+      "roman": "lāveṅ",
+      "base": "لانا",
+      "note": "\"Chir lana\": to delay."
+    },
+    "دسیں": {
+      "en": "show",
+      "pos": "verb",
+      "roman": "dasseṅ",
+      "base": "دسنا"
+    },
+    "جھات": {
+      "en": "glimpse",
+      "pos": "noun",
+      "roman": "jhāt"
+    },
+    "حسن": {
+      "en": "beauty",
+      "pos": "noun",
+      "roman": "husan"
+    },
+    "آئے": {
+      "en": "have come",
+      "pos": "verb",
+      "roman": "āe",
+      "base": "آؤنا"
+    },
+    "بھور": {
+      "en": "black bees",
+      "pos": "noun",
+      "roman": "bhaur",
+      "note": "The bumblebee: the lover drawn to the flower."
+    },
+    "محمد": {
+      "en": "Muhammad (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Muhammad"
+    },
+    "بخشا": {
+      "en": "Bakhsh (O Muhammad Bakhsh)",
+      "pos": "proper noun",
+      "roman": "Baxshā"
+    },
+    "کر": {
+      "en": "having made",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "کے": {
+      "en": "(having) …-ed",
+      "pos": "particle",
+      "roman": "ke",
+      "note": "\"Kar ke\": having done."
+    },
+    "آس": {
+      "en": "hope",
+      "pos": "noun",
+      "roman": "ās"
+    },
+    "چمن": {
+      "en": "garden; flower bed",
+      "pos": "noun",
+      "roman": "chaman"
+    }
+  }
+}

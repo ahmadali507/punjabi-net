@@ -618,6 +618,30 @@ export const ui = {
     en: 'The home of Punjabi poetry',
     pa: 'پنجابی شاعری دا گھر',
   },
+  'reader.meanings': {
+    en: 'Word meanings',
+    pa: 'لفظاں دے معنی',
+  },
+  'gloss.label': {
+    en: 'Word meaning',
+    pa: 'لفظ دے معنی',
+  },
+  'gloss.base': {
+    en: 'from',
+    pa: 'اصل لفظ',
+  },
+  'gloss.fromDict': {
+    en: 'In the dictionary',
+    pa: 'لغت وچ',
+  },
+  'gloss.draft': {
+    en: 'Editorial gloss, not yet reviewed.',
+    pa: 'سمپادکی معنی، حالے جانچے نہیں گئے۔',
+  },
+  'pos.proper': {
+    en: 'proper noun',
+    pa: 'خاص ناں',
+  },
 } as const satisfies Record<string, { en: string; pa: string }>;
 
 export type UIKey = keyof typeof ui;

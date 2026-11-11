@@ -1,0 +1,205 @@
+{
+  "poem": "nh-kr-hor-laj-tbiba",
+  "status": "draft",
+  "words": {
+    "نہ": {
+      "en": "don't; not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "کر": {
+      "en": "do; make",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "ہور": {
+      "en": "more; other",
+      "pos": "adjective",
+      "roman": "hor"
+    },
+    "علاج": {
+      "en": "treatment; cure",
+      "pos": "noun",
+      "roman": "ilāj"
+    },
+    "طبیبا": {
+      "en": "O physician",
+      "pos": "noun",
+      "roman": "tabībā",
+      "base": "طبیب"
+    },
+    "مینوں": {
+      "en": "to me; for me",
+      "pos": "pronoun",
+      "roman": "mainūṅ",
+      "base": "میں"
+    },
+    "فرق": {
+      "en": "difference; relief",
+      "pos": "noun",
+      "roman": "faraq"
+    },
+    "نہیں": {
+      "en": "not; there is no",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "اک": {
+      "en": "one",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "تل": {
+      "en": "sesame seed (a tiny bit)",
+      "pos": "noun",
+      "roman": "til",
+      "note": "\"Ikk til dā\": not the least bit."
+    },
+    "دا": {
+      "en": "of; (verb ending in \"mil dā\", \"hil dā\")",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "دارو": {
+      "en": "medicine",
+      "pos": "noun",
+      "roman": "dārū"
+    },
+    "سیک": {
+      "en": "heat; scorching",
+      "pos": "noun",
+      "roman": "sek"
+    },
+    "لگے": {
+      "en": "touches; strikes",
+      "pos": "verb",
+      "roman": "lagge",
+      "base": "لگنا"
+    },
+    "جل": {
+      "en": "burn",
+      "pos": "verb",
+      "roman": "jal",
+      "base": "جلنا"
+    },
+    "جائے": {
+      "en": "goes; (burns) away",
+      "pos": "verb",
+      "roman": "jāe",
+      "base": "جانا"
+    },
+    "جد": {
+      "en": "when",
+      "pos": "conjunction",
+      "roman": "jad"
+    },
+    "بھڑک": {
+      "en": "flare; blaze",
+      "pos": "verb",
+      "roman": "bhaṛak",
+      "base": "بھڑکنا"
+    },
+    "اٹھے": {
+      "en": "rises; (flares) up",
+      "pos": "verb",
+      "roman": "uṭhe",
+      "base": "اٹھنا"
+    },
+    "دکھ": {
+      "en": "pain; ache",
+      "pos": "noun",
+      "roman": "dukh"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "مائے": {
+      "en": "O mother",
+      "pos": "noun",
+      "roman": "māe",
+      "base": "ماں"
+    },
+    "مگر": {
+      "en": "after; pursuing",
+      "pos": "postposition",
+      "roman": "magar",
+      "note": "Love is after me (hounding me) on every side."
+    },
+    "ہر": {
+      "en": "every",
+      "pos": "adjective",
+      "roman": "har"
+    },
+    "ول": {
+      "en": "side; direction",
+      "pos": "noun",
+      "roman": "val"
+    },
+    "عشق": {
+      "en": "love",
+      "pos": "noun",
+      "roman": "ishq"
+    },
+    "پلک": {
+      "en": "eyelid; blink (an instant)",
+      "pos": "noun",
+      "roman": "palak"
+    },
+    "ٹکاو": {
+      "en": "rest; steadiness",
+      "pos": "noun",
+      "roman": "ṭikāo"
+    },
+    "مل": {
+      "en": "is found",
+      "pos": "verb",
+      "roman": "mil",
+      "base": "ملنا"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "شوق": {
+      "en": "longing; desire",
+      "pos": "noun",
+      "roman": "shauq"
+    },
+    "بتیرا": {
+      "en": "plenty; much",
+      "pos": "adjective",
+      "roman": "batherā"
+    },
+    "نوں": {
+      "en": "to (dative); has",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "پر": {
+      "en": "but",
+      "pos": "conjunction",
+      "roman": "par"
+    },
+    "ہرگز": {
+      "en": "ever; in any way",
+      "pos": "adverb",
+      "roman": "hargiz"
+    },
+    "رزق": {
+      "en": "fated portion; sustenance",
+      "pos": "noun",
+      "roman": "rizq",
+      "note": "What God has apportioned; longing cannot shift it."
+    },
+    "ہل": {
+      "en": "move; budge",
+      "pos": "verb",
+      "roman": "hil",
+      "base": "ہلنا"
+    }
+  }
+}

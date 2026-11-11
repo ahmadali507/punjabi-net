@@ -1,0 +1,180 @@
+{
+  "poem": "qabl-qdr-mshoq-je-hoe",
+  "status": "draft",
+  "words": {
+    "قابل": {
+      "en": "worthy; capable",
+      "pos": "adjective",
+      "roman": "qābil"
+    },
+    "قدر": {
+      "en": "value; esteem",
+      "pos": "noun",
+      "roman": "qadar",
+      "note": "\"Qabil-e-qadar\": one who appreciates worth."
+    },
+    "معشوق": {
+      "en": "the beloved",
+      "pos": "noun",
+      "roman": "māshūq"
+    },
+    "جے": {
+      "en": "if",
+      "pos": "conjunction",
+      "roman": "je"
+    },
+    "ہووے": {
+      "en": "is; should be",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "تاں": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "دلبر": {
+      "en": "beloved; heart-stealer",
+      "pos": "noun",
+      "roman": "dilbar"
+    },
+    "نوں": {
+      "en": "(object marker)",
+      "pos": "postposition",
+      "roman": "nūṅ"
+    },
+    "لے": {
+      "en": "taking (along)",
+      "pos": "verb",
+      "roman": "lai",
+      "base": "لینا"
+    },
+    "تردا": {
+      "en": "swims across; crosses over",
+      "pos": "verb",
+      "roman": "tardā",
+      "base": "ترنا",
+      "note": "Uncertain: likely the lover crosses the river of love with the beloved, as in Sohni's story."
+    },
+    "ثابت": {
+      "en": "steady; constant",
+      "pos": "adjective",
+      "roman": "sābit"
+    },
+    "چشم": {
+      "en": "eye; gaze",
+      "pos": "noun",
+      "roman": "chashm",
+      "note": "\"Sabit chashm\": a faithful, unwavering gaze."
+    },
+    "رہے": {
+      "en": "remains",
+      "pos": "verb",
+      "roman": "rahe",
+      "base": "رہنا"
+    },
+    "دی": {
+      "en": "of (fem.)",
+      "pos": "postposition",
+      "roman": "dī"
+    },
+    "ویکھو": {
+      "en": "see; behold",
+      "pos": "verb",
+      "roman": "vekho",
+      "base": "ویکھنا"
+    },
+    "عاشق": {
+      "en": "lover",
+      "pos": "noun",
+      "roman": "āshiq"
+    },
+    "مردا": {
+      "en": "dies (for him)",
+      "pos": "verb",
+      "roman": "mardā",
+      "base": "مرنا"
+    },
+    "اک": {
+      "en": "one",
+      "pos": "numeral",
+      "roman": "ikk"
+    },
+    "چاہے": {
+      "en": "loves; desires",
+      "pos": "verb",
+      "roman": "chāhe",
+      "base": "چاہنا"
+    },
+    "مول": {
+      "en": "at all",
+      "pos": "adverb",
+      "roman": "mūl",
+      "note": "\"Mul na\": not at all; never."
+    },
+    "نہ": {
+      "en": "not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "اوہ": {
+      "en": "that",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "ہرگز": {
+      "en": "ever; by any means",
+      "pos": "adverb",
+      "roman": "hargiz"
+    },
+    "نہیوں": {
+      "en": "never; not",
+      "pos": "particle",
+      "roman": "nahīoṅ"
+    },
+    "سردا": {
+      "en": "works; succeeds",
+      "pos": "verb",
+      "roman": "sardā",
+      "base": "سرنا"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "مرے": {
+      "en": "dies",
+      "pos": "verb",
+      "roman": "mare",
+      "base": "مرنا"
+    },
+    "سپاہی": {
+      "en": "soldier",
+      "pos": "noun",
+      "roman": "sipāhī"
+    },
+    "جتھے": {
+      "en": "where",
+      "pos": "adverb",
+      "roman": "jitthe"
+    },
+    "نہیں": {
+      "en": "not; no",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "کوئی": {
+      "en": "anyone",
+      "pos": "pronoun",
+      "roman": "koī"
+    },
+    "کردا": {
+      "en": "does; shows",
+      "pos": "verb",
+      "roman": "kardā",
+      "base": "کرنا"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "poem": "chnda-chmk-vkhal-nh-sanon",
+  "status": "draft",
+  "words": {
+    "چندا": {
+      "en": "O moon",
+      "pos": "noun",
+      "roman": "chandā",
+      "base": "چن"
+    },
+    "چمک": {
+      "en": "shine; glitter",
+      "pos": "noun",
+      "roman": "chamak"
+    },
+    "وکھال": {
+      "en": "show",
+      "pos": "verb",
+      "roman": "vakhāl",
+      "base": "وکھالنا"
+    },
+    "نہ": {
+      "en": "don't; not",
+      "pos": "particle",
+      "roman": "nā"
+    },
+    "سانوں": {
+      "en": "us; to us",
+      "pos": "pronoun",
+      "roman": "sānūṅ"
+    },
+    "اتے": {
+      "en": "and",
+      "pos": "conjunction",
+      "roman": "ate"
+    },
+    "کر": {
+      "en": "make; do",
+      "pos": "verb",
+      "roman": "kar",
+      "base": "کرنا"
+    },
+    "مان": {
+      "en": "pride",
+      "pos": "noun",
+      "roman": "māṇ"
+    },
+    "ودھیرا": {
+      "en": "excessive; much",
+      "pos": "adjective",
+      "roman": "vadherā"
+    },
+    "تیں": {
+      "en": "you (thou)",
+      "pos": "pronoun",
+      "roman": "taiṅ"
+    },
+    "جیہے": {
+      "en": "like",
+      "pos": "adjective",
+      "roman": "jehe",
+      "base": "جیہا"
+    },
+    "لکھ": {
+      "en": "hundreds of thousands (lakhs)",
+      "pos": "numeral",
+      "roman": "lakkh"
+    },
+    "چڑھن": {
+      "en": "rise",
+      "pos": "verb",
+      "roman": "chaṛhan",
+      "base": "چڑھنا"
+    },
+    "اسانوں": {
+      "en": "for us; over us",
+      "pos": "pronoun",
+      "roman": "asānūṅ"
+    },
+    "پر": {
+      "en": "but",
+      "pos": "conjunction",
+      "roman": "par"
+    },
+    "سجناں": {
+      "en": "the beloved",
+      "pos": "noun",
+      "roman": "sajjaṇāṅ",
+      "base": "سجن"
+    },
+    "باجھ": {
+      "en": "without",
+      "pos": "postposition",
+      "roman": "bājh"
+    },
+    "اندھیرا": {
+      "en": "darkness",
+      "pos": "noun",
+      "roman": "anhērā"
+    },
+    "جس": {
+      "en": "whom; which",
+      "pos": "pronoun",
+      "roman": "jis"
+    },
+    "ڈٹھیاں": {
+      "en": "on seeing",
+      "pos": "verb",
+      "roman": "ḍiṭhiāṅ",
+      "base": "ویکھنا"
+    },
+    "دل": {
+      "en": "heart",
+      "pos": "noun",
+      "roman": "dil"
+    },
+    "روشن": {
+      "en": "bright; illumined",
+      "pos": "adjective",
+      "roman": "raushan"
+    },
+    "ہووے": {
+      "en": "becomes",
+      "pos": "verb",
+      "roman": "hove",
+      "base": "ہونا"
+    },
+    "اوہ": {
+      "en": "that",
+      "pos": "pronoun",
+      "roman": "oh"
+    },
+    "حسن": {
+      "en": "beauty",
+      "pos": "noun",
+      "roman": "husan"
+    },
+    "نہیں": {
+      "en": "is not",
+      "pos": "particle",
+      "roman": "nahīṅ"
+    },
+    "اج": {
+      "en": "today",
+      "pos": "adverb",
+      "roman": "ajj"
+    },
+    "تیرا": {
+      "en": "your",
+      "pos": "pronoun",
+      "roman": "terā",
+      "base": "توں"
+    },
+    "ہاشم": {
+      "en": "Hashim (the poet names himself)",
+      "pos": "proper noun",
+      "roman": "Hāshim"
+    },
+    "تساں": {
+      "en": "you (plural, respectful)",
+      "pos": "pronoun",
+      "roman": "tusāṅ"
+    },
+    "دکھ": {
+      "en": "pain; sorrow",
+      "pos": "noun",
+      "roman": "dukh"
+    },
+    "پایا": {
+      "en": "have found; suffered",
+      "pos": "verb",
+      "roman": "pāiā",
+      "base": "پاؤنا"
+    },
+    "جھب": {
+      "en": "quickly",
+      "pos": "adverb",
+      "roman": "jhab"
+    },
+    "آ": {
+      "en": "come",
+      "pos": "verb",
+      "roman": "ā",
+      "base": "آؤنا"
+    },
+    "مل": {
+      "en": "meet",
+      "pos": "verb",
+      "roman": "mil",
+      "base": "ملنا"
+    },
+    "ساجن": {
+      "en": "beloved",
+      "pos": "noun",
+      "roman": "sājan"
+    },
+    "میرا": {
+      "en": "my",
+      "pos": "pronoun",
+      "roman": "merā",
+      "base": "میں"
+    }
+  }
+}

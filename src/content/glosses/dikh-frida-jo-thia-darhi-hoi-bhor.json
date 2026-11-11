@@ -1,0 +1,78 @@
+{
+  "poem": "dikh-frida-jo-thia-darhi-hoi-bhor",
+  "status": "draft",
+  "words": {
+    "دیکھ": {
+      "en": "see; look",
+      "pos": "verb",
+      "roman": "dekh",
+      "base": "دیکھنا"
+    },
+    "فریدا": {
+      "en": "O Farid (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Farīdā",
+      "base": "فرید",
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+    },
+    "جو": {
+      "en": "what",
+      "pos": "pronoun",
+      "roman": "jo"
+    },
+    "تھیا": {
+      "en": "has happened",
+      "pos": "verb",
+      "roman": "thiā",
+      "base": "تھیونا"
+    },
+    "داڑھی": {
+      "en": "beard",
+      "pos": "noun",
+      "roman": "dāṛhī"
+    },
+    "ہوئی": {
+      "en": "has become",
+      "pos": "verb",
+      "roman": "hoī",
+      "base": "ہونا"
+    },
+    "بھور": {
+      "en": "grey",
+      "pos": "adjective",
+      "roman": "bhūr"
+    },
+    "اگا": {
+      "en": "what lies ahead (death)",
+      "pos": "noun",
+      "roman": "aggā"
+    },
+    "نیہڑے": {
+      "en": "near",
+      "pos": "adverb",
+      "roman": "neṛe"
+    },
+    "آئیا": {
+      "en": "has come",
+      "pos": "verb",
+      "roman": "āiā",
+      "base": "آنا"
+    },
+    "پچھا": {
+      "en": "what lies behind (the past)",
+      "pos": "noun",
+      "roman": "pichhā"
+    },
+    "رہئیا": {
+      "en": "has remained; is left",
+      "pos": "verb",
+      "roman": "rahiā",
+      "base": "رہنا"
+    },
+    "دور": {
+      "en": "far",
+      "pos": "adverb",
+      "roman": "dūr"
+    }
+  }
+}

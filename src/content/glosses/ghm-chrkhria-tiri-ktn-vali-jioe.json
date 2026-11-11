@@ -1,0 +1,232 @@
+{
+  "poem": "ghm-chrkhria-tiri-ktn-vali-jioe",
+  "status": "draft",
+  "words": {
+    "گھم": {
+      "en": "turn, spin",
+      "pos": "verb",
+      "roman": "ghumm",
+      "base": "گھمنا"
+    },
+    "چرخڑیا": {
+      "en": "O little spinning wheel",
+      "pos": "noun",
+      "roman": "charxaṛiā",
+      "base": "چرخہ",
+      "note": "Diminutive vocative; the wheel is the body and life"
+    },
+    "تیری": {
+      "en": "your (fem.)",
+      "pos": "pronoun",
+      "roman": "terī"
+    },
+    "کتن": {
+      "en": "spinning",
+      "pos": "verb",
+      "roman": "kattaṇ",
+      "base": "کتنا"
+    },
+    "والی": {
+      "en": "the one who (fem.)",
+      "pos": "particle",
+      "roman": "vālī"
+    },
+    "جیوے": {
+      "en": "may she live long",
+      "pos": "verb",
+      "roman": "jīve",
+      "base": "جینا"
+    },
+    "نلیاں": {
+      "en": "bobbins",
+      "pos": "noun",
+      "roman": "naliyāṅ",
+      "base": "نلی",
+      "note": "Reed spools onto which spun thread is wound"
+    },
+    "وٹن": {
+      "en": "twisting",
+      "pos": "verb",
+      "roman": "vaṭṭaṇ",
+      "base": "وٹنا"
+    },
+    "بڈھا": {
+      "en": "old",
+      "pos": "adjective",
+      "roman": "buḍḍhā"
+    },
+    "ہویوں": {
+      "en": "you have become",
+      "pos": "verb",
+      "roman": "hoyoṅ",
+      "base": "ہونا"
+    },
+    "شاہ": {
+      "en": "Shah (part of the poet's name)",
+      "pos": "proper noun",
+      "roman": "Shāh"
+    },
+    "حسینا": {
+      "en": "O Hussain (the poet addresses himself)",
+      "pos": "proper noun",
+      "roman": "Husainā",
+      "base": "حسین"
+    },
+    "دندیں": {
+      "en": "in (your) teeth",
+      "pos": "noun",
+      "roman": "dandīṅ",
+      "base": "دند"
+    },
+    "جھمیراں": {
+      "en": "gaps",
+      "pos": "noun",
+      "roman": "jhamīrāṅ",
+      "note": "Uncertain: gaps or loosening of the teeth in old age"
+    },
+    "پیاں": {
+      "en": "have appeared",
+      "pos": "verb",
+      "roman": "paiāṅ",
+      "base": "پینا",
+      "note": "Lit. have fallen"
+    },
+    "اٹھ": {
+      "en": "having risen, getting up",
+      "pos": "verb",
+      "roman": "uṭṭh",
+      "base": "اٹھنا"
+    },
+    "سویرے": {
+      "en": "early in the morning",
+      "pos": "adverb",
+      "roman": "savere"
+    },
+    "ڈھونڈن": {
+      "en": "to search",
+      "pos": "verb",
+      "roman": "ḍhūṇḍaṇ",
+      "base": "ڈھونڈنا"
+    },
+    "لگوں": {
+      "en": "you began",
+      "pos": "verb",
+      "roman": "lagoṅ",
+      "base": "لگنا"
+    },
+    "سنجھ": {
+      "en": "evening",
+      "pos": "noun",
+      "roman": "sañjh",
+      "note": "The evening of life"
+    },
+    "دیاں": {
+      "en": "of (fem. pl.)",
+      "pos": "postposition",
+      "roman": "dīāṅ"
+    },
+    "جوگیاں": {
+      "en": "provisions fit for",
+      "pos": "adjective",
+      "roman": "jogiāṅ",
+      "base": "جوگا",
+      "note": "Uncertain: 'what suffices for' (the evening)"
+    },
+    "ہر": {
+      "en": "every",
+      "pos": "adjective",
+      "roman": "har"
+    },
+    "دم": {
+      "en": "breath; moment",
+      "pos": "noun",
+      "roman": "dam"
+    },
+    "نام": {
+      "en": "name; the Name (of God)",
+      "pos": "noun",
+      "roman": "nām"
+    },
+    "سنبھال": {
+      "en": "keep, cherish",
+      "pos": "verb",
+      "roman": "sambhāl",
+      "base": "سنبھالنا"
+    },
+    "سائیں": {
+      "en": "the Lord (Master)",
+      "pos": "noun",
+      "roman": "sāīṅ"
+    },
+    "دا": {
+      "en": "of (masc.)",
+      "pos": "postposition",
+      "roman": "dā"
+    },
+    "تاں": {
+      "en": "then",
+      "pos": "conjunction",
+      "roman": "tāṅ"
+    },
+    "توں": {
+      "en": "you",
+      "pos": "pronoun",
+      "roman": "tūṅ"
+    },
+    "استھر": {
+      "en": "steady, stable",
+      "pos": "adjective",
+      "roman": "asthir"
+    },
+    "تھیویں": {
+      "en": "you become",
+      "pos": "verb",
+      "roman": "thīveṅ",
+      "base": "تھیونا"
+    },
+    "چرخہ": {
+      "en": "spinning wheel",
+      "pos": "noun",
+      "roman": "charxā"
+    },
+    "بولے": {
+      "en": "says, speaks",
+      "pos": "verb",
+      "roman": "bole",
+      "base": "بولنا"
+    },
+    "بائیر": {
+      "en": "the spindle",
+      "pos": "noun",
+      "roman": "bāīr",
+      "note": "Uncertain: a part of the spinning wheel answering it"
+    },
+    "کہے": {
+      "en": "says",
+      "pos": "verb",
+      "roman": "kahe",
+      "base": "کہنا"
+    },
+    "فقیر": {
+      "en": "faqir, mendicant",
+      "pos": "noun",
+      "roman": "faqīr",
+      "note": "Sufi term: one poor before God"
+    },
+    "میں": {
+      "en": "I",
+      "pos": "pronoun",
+      "roman": "maiṅ"
+    },
+    "ناہیں": {
+      "en": "am not; am nothing",
+      "pos": "verb",
+      "roman": "nāhīṅ"
+    },
+    "سبھ": {
+      "en": "all; everyone",
+      "pos": "pronoun",
+      "roman": "sabh"
+    }
+  }
+}
