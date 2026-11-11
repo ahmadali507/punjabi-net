@@ -5,7 +5,7 @@ import Header from '~/components/Header.astro';
 import Footer from '~/components/Footer.astro';
 import { SITE } from '~/site.config';
 import T from '~/components/T.astro';
-import { asLocale, alternatePath, PA_LANG } from '~/i18n';
+import { asLocale, alternatePath, cleanPath, PA_LANG } from '~/i18n';
 
 interface Props {
   title?: string;
@@ -23,7 +23,7 @@ interface Props {
 const { title, description = SITE.description, image = '/og/default.png', type = 'website', noindex = false, jsonLd, preloadNastaliq } = Astro.props;
 const locale = asLocale(Astro.currentLocale);
 const fullTitle = title ? `${title} · ${SITE.name}` : SITE.name;
-const path = Astro.url.pathname.replace(/\.html$/, '');
+const path = cleanPath(Astro.url.pathname);
 const canonical = new URL(path, Astro.site).href;
 const alt = {
   en: new URL(alternatePath(path, 'en'), Astro.site).href,

@@ -88,7 +88,7 @@ export async function initSearch() {
         }
         const a = document.createElement('a');
         a.className = 'result__title';
-        a.href = d.url.replace(/\.html$/, '');
+        a.href = d.url.replace(/\.html$/, '').replace(/\/index$/, '') || '/';
         a.textContent = d.meta.title ?? d.url;
         head.append(a);
         const p = document.createElement('p');

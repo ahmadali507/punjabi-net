@@ -28,6 +28,16 @@ export function tf(locale: Locale, key: UIKey, vars: Record<string, string | num
   });
 }
 
+/**
+ * The public path of a page: no ".html", and no trailing "/index"
+ * ("/index.html" -> "/", "/pa/index.html" -> "/pa", "/poems/heer.html" -> "/poems/heer").
+ * With build.format "file", Astro.url.pathname is the file path, so pages must use this.
+ */
+export function cleanPath(pathname: string): string {
+  const p = pathname.replace(/\.html$/, '').replace(/\/index$/, '').replace(/\/+$/, '');
+  return p === '' ? '/' : p;
+}
+
 /** Strip any locale prefix: "/pa/poems/x" -> "/poems/x". */
 export function stripLocale(pathname: string): string {
   const p = pathname.replace(/^\/pa(?=\/|$)/, '');
@@ -43,5 +53,7 @@ export function localePath(locale: Locale, path: string): string {
 
 /** The same page in the other locale. */
 export function alternatePath(pathname: string, to: Locale): string {
-  return localePath(to, stripLocale(pathname.replace(/\.html$/, '')));
+  const path = stripLocale(cleanPath(pathname));
+  // The 404 page has no counterpart: send the reader to the other language's home.
+  return localePath(to, path === '/404' ? '/' : path);
 }

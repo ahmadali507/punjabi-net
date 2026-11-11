@@ -7,11 +7,11 @@
  */
 import T from './T.astro';
 import { SITE } from '~/site.config';
-import { asLocale, localePath, alternatePath, stripLocale, t } from '~/i18n';
+import { asLocale, localePath, alternatePath, stripLocale, cleanPath, t } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
 
 const locale = asLocale(Astro.currentLocale);
-const here = stripLocale(Astro.url.pathname.replace(/\.html$/, ''));
+const here = stripLocale(cleanPath(Astro.url.pathname));
 const nav: { key: UIKey; path: string }[] = [
   { key: 'nav.poets', path: '/poets' },
   { key: 'nav.poems', path: '/poems' },
