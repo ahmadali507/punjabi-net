@@ -1,0 +1,28 @@
+---
+/**
+ * Shahmukhi · Gurmukhi · Roman. Every script is already in the HTML; this only
+ * changes html[data-script] and remembers the choice (localStorage "pn-script").
+ * Without JavaScript the page shows Shahmukhi and the switch is hidden.
+ */
+import T from './T.astro';
+import { SCRIPTS, SCRIPT_ATTRS } from '~/i18n';
+import { SCRIPT_NAMES } from '~/i18n/ui';
+---
+<div class="script-switch" role="group" aria-labelledby="script-switch-label" data-script-switch hidden>
+  <span id="script-switch-label" class="script-switch__label"><T k="script.label" /></span>
+  {SCRIPTS.map((s) => (
+    <button
+      type="button"
+      data-set-script={s}
+      aria-pressed={s === 'sm' ? 'true' : 'false'}
+      lang={SCRIPT_ATTRS[s].lang}
+      dir={SCRIPT_ATTRS[s].dir}
+      title={SCRIPT_NAMES[s].en}
+    >{SCRIPT_NAMES[s].self}</button>
+  ))}
+</div>
+
+<script>
+  import { initScriptSwitch } from '~/scripts/script-switch';
+  initScriptSwitch();
+</script>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://punjabi.net/sitemap-index.xml

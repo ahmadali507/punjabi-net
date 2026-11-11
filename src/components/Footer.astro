@@ -1,0 +1,24 @@
+---
+import T from './T.astro';
+import { SITE } from '~/site.config';
+import { asLocale, localePath } from '~/i18n';
+
+const locale = asLocale(Astro.currentLocale);
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <slot name="couplet" />
+    <p class="site-footer__tagline"><T k="site.tagline" /></p>
+    <ul class="site-footer__links">
+      <li><a href={localePath(locale, '/about')}><T k="nav.about" /></a></li>
+      <li><a href={localePath(locale, '/about#contribute')}><T k="nav.contribute" /></a></li>
+      <li><a href={localePath(locale, '/forms')}><T k="nav.forms" /></a></li>
+      {SITE.instagram && (
+        <li><a href={`https://www.instagram.com/${SITE.instagram}`} rel="me noopener"><T k="footer.instagram" /></a></li>
+      )}
+    </ul>
+    <p class="site-footer__fine"><T k="footer.noncommercial" /> <T k="footer.source" /></p>
+    <p class="site-footer__fine" dir="ltr" lang="en">© {year} {SITE.name}</p>
+  </div>
+</footer>

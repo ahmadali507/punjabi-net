@@ -1,0 +1,309 @@
+/* =========================================================================
+   punjabi.net: global styles
+   Two neutrals (paper, ink) + one muted accent (sarson / mustard ochre).
+   Everything else is mixed from those three.
+   ========================================================================= */
+
+:root {
+  --paper: #f6f3ec;
+  --ink: #23211d;
+  --accent: #855c00;
+
+  --muted: color-mix(in oklab, var(--ink) 68%, var(--paper));
+  --rule: color-mix(in oklab, var(--ink) 15%, var(--paper));
+  --wash: color-mix(in oklab, var(--ink) 4%, var(--paper));
+  --accent-wash: color-mix(in oklab, var(--accent) 12%, var(--paper));
+
+  --font-serif: 'PN Serif', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'PN Sans', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-sm: 'PN Nastaliq', 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+  --font-gm: 'PN Gurmukhi', 'Noto Serif Gurmukhi', 'Raavi', serif;
+
+  --reading-scale: 1;
+  --measure: 40rem;
+  --wide: 68rem;
+  --gutter: 1rem;
+  --radius: 4px;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #171614;
+    --ink: #e9e4d8;
+    --accent: #d8a93b;
+  }
+}
+
+/* ---------- Reset-ish ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+main { flex: 1; outline: none; }
+img, svg { max-width: 100%; height: auto; display: block; }
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+  text-wrap: balance;
+}
+h1 { font-size: clamp(1.9rem, 1.4rem + 2.2vw, 2.75rem); letter-spacing: -0.01em; }
+h2 { font-size: clamp(1.35rem, 1.2rem + 0.8vw, 1.7rem); }
+h3 { font-size: 1.2rem; }
+p { margin: 0 0 1em; }
+a { color: inherit; text-decoration-color: color-mix(in oklab, var(--accent) 70%, transparent); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+a:hover { color: var(--accent); text-decoration-thickness: 2px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+/* ---------- Focus & a11y ---------- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: absolute;
+  inset-inline-start: 0.75rem;
+  top: 0.75rem;
+  z-index: 10;
+  transform: translateY(-200%);
+  padding: 0.5rem 0.9rem;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+.skip-link:focus { transform: none; color: var(--paper); }
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+/* =========================================================================
+   Scripts. All three are in the HTML; only the active one is displayed.
+   html[data-script] is set before first paint (Base.astro).
+   ========================================================================= */
+[data-s] { display: none; }
+html[data-script='sm'] [data-s='sm'],
+html[data-script='gm'] [data-s='gm'],
+html[data-script='ro'] [data-s='ro'] { display: revert; }
+
+:lang(pnb) {
+  font-family: var(--font-sm);
+  font-weight: 400;          /* Nastaliq is not set bold */
+  line-height: 2.4;
+  font-size: 1.08em;         /* Nastaliq reads small at the same nominal size */
+  letter-spacing: 0;
+  word-spacing: 0.05em;
+}
+/* :lang(pa) also matches pa-Latn, so Gurmukhi rules exclude Roman explicitly. */
+:lang(pa):not(:lang(pa-Latn)) { font-family: var(--font-gm); line-height: 1.85; }
+:lang(pa-Latn) { font-family: var(--font-serif); line-height: 1.6; }
+/* Keep nested spans from compounding the Nastaliq size bump. */
+:lang(pnb) :lang(pnb) { font-size: 1em; }
+/* On /pa the whole document is Punjabi: headings follow the script, not the English serif. */
+html[lang='pnb'] h1, html[lang='pnb'] h2, html[lang='pnb'] h3 { font-family: var(--font-sm); font-weight: 400; line-height: 2; }
+html[lang='pa'] h1, html[lang='pa'] h2, html[lang='pa'] h3 { font-family: var(--font-gm); line-height: 1.5; }
+html[lang='pnb'] body { font-family: var(--font-sm); }
+html[lang='pa'] body { font-family: var(--font-gm); }
+.line { display: block; }
+
+/* ---------- Layout ---------- */
+.wrap { width: 100%; max-width: var(--wide); margin-inline: auto; padding-inline: var(--gutter); }
+.column { width: 100%; max-width: var(--measure); margin-inline: auto; padding-inline: var(--gutter); }
+.section { padding-block: clamp(2rem, 1.5rem + 3vw, 4rem); }
+.muted { color: var(--muted); }
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+.eyebrow :lang(pnb), .eyebrow :lang(pa):not(:lang(pa-Latn)) { text-transform: none; letter-spacing: 0; font-size: 1rem; }
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-height: 2.75rem;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  background: transparent;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button:hover { color: var(--paper); background: var(--ink); }
+.button--primary { background: var(--ink); color: var(--paper); }
+.button--primary:hover { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+.button-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+/* ---------- Header ---------- */
+.site-header { border-bottom: 1px solid var(--rule); }
+.site-header__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.5rem;
+  padding-block: 0.9rem 0.4rem;
+}
+.wordmark {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  margin-inline-end: auto;
+  direction: ltr;           /* the Latin wordmark stays LTR on RTL pages */
+}
+.wordmark:hover { color: inherit; }
+.site-nav { order: 3; flex-basis: 100%; }
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1.1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
+}
+.nav a {
+  display: inline-block;
+  padding-block: 0.35rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.nav a[aria-current='page'] { border-bottom-color: var(--accent); }
+.nav :lang(pnb) { line-height: 2; }
+
+.lang { display: flex; gap: 0.25rem; font-size: 0.9rem; }
+.lang a {
+  padding: 0.25rem 0.5rem;
+  min-height: 2rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--muted);
+}
+.lang a[aria-current='true'] { color: var(--ink); background: var(--wash); box-shadow: inset 0 0 0 1px var(--rule); }
+.lang a:lang(pnb) { font-size: 1rem; line-height: 1.6; }
+
+.site-header__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding-block: 0.25rem 0.75rem;
+}
+
+.search { display: flex; flex: 1 1 14rem; min-width: 0; max-width: 22rem; }
+.search input {
+  flex: 1;
+  min-width: 0;
+  min-height: 2.5rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-inline-end: 0;
+  border-start-start-radius: var(--radius);
+  border-end-start-radius: var(--radius);
+  background: var(--paper);
+}
+.search input::placeholder { color: var(--muted); opacity: 1; }
+.search button {
+  min-height: 2.5rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--rule);
+  border-start-end-radius: var(--radius);
+  border-end-end-radius: var(--radius);
+  background: var(--wash);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.search button :lang(pnb) { line-height: 1.6; }
+
+.script-switch { display: flex; align-items: center; gap: 0.25rem; font-size: 0.9rem; }
+.script-switch[hidden] { display: none; }
+.script-switch__label { color: var(--muted); margin-inline-end: 0.35rem; }
+.script-switch__label :lang(pnb) { line-height: 1.6; }
+.script-switch button {
+  min-height: 2.5rem;
+  min-width: 2.75rem;
+  padding: 0.1rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+}
+.script-switch button:lang(pnb) { font-size: 1rem; line-height: 1.5; }
+.script-switch button:lang(pa):not(:lang(pa-Latn)) { line-height: 1.4; }
+.script-switch button[aria-pressed='true'] {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+
+@media (min-width: 56rem) {
+  .site-nav { order: 0; flex-basis: auto; }
+  .wordmark { margin-inline-end: 0; }
+  .site-header__bar { padding-block: 1rem 0.25rem; }
+  .lang { margin-inline-start: auto; }
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  margin-top: 4rem;
+  border-top: 1px solid var(--rule);
+  padding-block: 2.5rem 3rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.site-footer a { color: var(--ink); }
+.site-footer__tagline { color: var(--ink); font-family: var(--font-serif); font-size: 1.05rem; }
+.site-footer__links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; list-style: none; padding: 0; margin: 0 0 1.25rem; }
+.site-footer__fine { margin: 0 0 0.35rem; max-width: var(--measure); }
+.couplet {
+  margin: 0 0 2rem;
+  padding-block-end: 2rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/* ---------- Print ---------- */
+@media print {
+  :root { --paper: #fff; --ink: #000; --accent: #000; }
+  .site-header, .site-footer, .skip-link, .no-print, .script-switch { display: none !important; }
+  body { font-size: 11pt; }
+  a { text-decoration: none; }
+  main { padding: 0; }
+  .wrap, .column { max-width: none; padding: 0; }
+}

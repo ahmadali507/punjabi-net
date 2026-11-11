@@ -1,0 +1,50 @@
+---
+import T from './T.astro';
+import ScriptSwitch from './ScriptSwitch.astro';
+import { SITE } from '~/site.config';
+import { asLocale, localePath, alternatePath, i18nAttr, stripLocale } from '~/i18n';
+import type { UIKey } from '~/i18n/ui';
+
+const locale = asLocale(Astro.currentLocale);
+const here = stripLocale(Astro.url.pathname.replace(/\.html$/, ''));
+const nav: { key: UIKey; path: string }[] = [
+  { key: 'nav.poets', path: '/poets' },
+  { key: 'nav.poems', path: '/poems' },
+  { key: 'nav.dictionary', path: '/dictionary' },
+  { key: 'nav.proverbs', path: '/proverbs' },
+  { key: 'nav.forms', path: '/forms' },
+  { key: 'nav.contribute', path: '/about#contribute' },
+];
+const isCurrent = (path: string) => path !== '/' && !path.includes('#') && (here === path || here.startsWith(`${path}/`));
+---
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="wordmark" href={localePath(locale, '/')}>{SITE.name}</a>
+
+    <nav class="site-nav" {...i18nAttr(locale, 'nav.label', 'aria-label')}>
+      <ul class="nav">
+        {nav.map((item) => (
+          <li>
+            <a href={localePath(locale, item.path)} aria-current={isCurrent(item.path) ? 'page' : undefined}>
+              <T k={item.key} />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="lang" role="group" {...i18nAttr(locale, 'lang.label', 'aria-label')}>
+      <a href={alternatePath(Astro.url.pathname, 'en')} hreflang="en" lang="en" aria-current={locale === 'en' ? 'true' : undefined}>EN</a>
+      <a href={alternatePath(Astro.url.pathname, 'pa')} hreflang="pnb" lang="pnb" dir="rtl" aria-current={locale === 'pa' ? 'true' : undefined}>پنجابی</a>
+    </div>
+  </div>
+
+  <div class="wrap site-header__tools">
+    <form class="search" role="search" action={localePath(locale, '/search')} method="get">
+      <label class="visually-hidden" for="site-search"><T k="search.label" /></label>
+      <input id="site-search" name="q" type="search" autocomplete="off" {...i18nAttr(locale, 'search.placeholder', 'placeholder')} />
+      <button type="submit"><T k="search.label" /></button>
+    </form>
+    <ScriptSwitch />
+  </div>
+</header>

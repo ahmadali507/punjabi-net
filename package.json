@@ -1,0 +1,28 @@
+{
+  "name": "punjabi-net",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A non-commercial digital archive of Punjabi poetry, poets, proverbs and vocabulary.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check",
+    "fonts": "node scripts/subset-fonts.mjs",
+    "gurmukhi:draft": "node scripts/shahmukhi-to-gurmukhi.mjs"
+  },
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.10"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "pagefind": "^1.6.0",
+    "subset-font": "^2.9.0",
+    "typescript": "^6.0.3"
+  }
+}

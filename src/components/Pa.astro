@@ -1,0 +1,25 @@
+---
+/**
+ * Renders one piece of Punjabi text in all three scripts. CSS shows only the
+ * active script (html[data-script]). Each script comes from the content file;
+ * nothing is converted here.
+ *
+ * <Pa t={poem.title} />                       → three inline spans
+ * <Pa t={verse} as="p" lines />               → three paragraphs, "\n" → line spans
+ */
+import type { ScriptText } from '~/i18n/ui';
+import { SCRIPTS, SCRIPT_ATTRS } from '~/i18n';
+
+interface Props {
+  t: ScriptText;
+  as?: 'span' | 'p' | 'div' | 'li';
+  lines?: boolean;
+  class?: string;
+}
+const { t, as: Tag = 'span', lines = false, class: className } = Astro.props;
+---
+{SCRIPTS.map((s) => (
+  <Tag data-s={s} lang={SCRIPT_ATTRS[s].lang} dir={SCRIPT_ATTRS[s].dir} class={className}>
+    {lines ? t[s].split('\n').map((line) => <span class="line">{line}</span>) : t[s]}
+  </Tag>
+))}

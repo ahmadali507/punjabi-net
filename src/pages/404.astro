@@ -1,0 +1,13 @@
+---
+import Base from '~/layouts/Base.astro';
+import T from '~/components/T.astro';
+import { tAttr, asLocale, localePath } from '~/i18n';
+const locale = asLocale(Astro.currentLocale);
+---
+<Base title={tAttr(locale, 'notfound.title')} noindex>
+  <section class="column section">
+    <h1><T k="notfound.title" /></h1>
+    <p><T k="notfound.body" /></p>
+    <p><a class="button" href={localePath(locale, '/')}><T k="nav.home" /></a></p>
+  </section>
+</Base>

@@ -1,0 +1,85 @@
+---
+import '~/styles/fonts.css';
+import '~/styles/global.css';
+import Header from '~/components/Header.astro';
+import Footer from '~/components/Footer.astro';
+import { SITE } from '~/site.config';
+import T from '~/components/T.astro';
+import { asLocale, alternatePath } from '~/i18n';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Absolute or root-relative OG image (phase 5 generates one per page). */
+  image?: string;
+  type?: 'website' | 'article' | 'profile';
+  noindex?: boolean;
+}
+
+const { title, description = SITE.description, image = '/og/default.png', type = 'website', noindex = false } = Astro.props;
+const locale = asLocale(Astro.currentLocale);
+const fullTitle = title ? `${title} · ${SITE.name}` : SITE.name;
+const path = Astro.url.pathname.replace(/\.html$/, '');
+const canonical = new URL(path, Astro.site).href;
+const alt = {
+  en: new URL(alternatePath(path, 'en'), Astro.site).href,
+  pa: new URL(alternatePath(path, 'pa'), Astro.site).href,
+};
+const ogImage = new URL(image, Astro.site).href;
+
+// /pa pages are Punjabi throughout, so the document starts in Shahmukhi (RTL);
+// the head snippet below switches lang/dir before paint if another script is stored.
+const htmlLang = locale === 'pa' ? 'pnb' : 'en';
+const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
+---
+<!doctype html>
+<html lang={htmlLang} dir={htmlDir} data-locale={locale} data-script="sm">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      (function () {
+        var d = document.documentElement, s = 'sm', z;
+        try { s = localStorage.getItem('pn-script') || 'sm'; z = localStorage.getItem('pn-size'); } catch (e) {}
+        if (s !== 'gm' && s !== 'ro') s = 'sm';
+        d.dataset.script = s;
+        if (z && /^(0\.8|0\.9|1|1\.1|1\.2|1\.35|1\.5)$/.test(z)) d.style.setProperty('--reading-scale', z);
+        if (d.dataset.locale === 'pa' && s !== 'sm') { d.lang = s === 'gm' ? 'pa' : 'pa-Latn'; d.dir = 'ltr'; }
+      })();
+    </script>
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={alt.en} />
+    <link rel="alternate" hreflang="pnb" href={alt.pa} />
+    <link rel="alternate" hreflang="x-default" href={alt.en} />
+    {noindex && <meta name="robots" content="noindex" />}
+
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title ?? SITE.name} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={locale === 'pa' ? 'pa_PK' : 'en_GB'} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#171614" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <link rel="preload" href="/fonts/nastaliq-core.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/sans-core.woff2" as="font" type="font/woff2" crossorigin />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main"><T k="skip" /></a>
+    <Header />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer><slot name="couplet" slot="couplet" /></Footer>
+  </body>
+</html>
