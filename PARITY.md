@@ -27,8 +27,8 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 | G8 | Footer Instagram link | brief | 1 (config slot, hidden until set) | ◐ |
 | G9 | Skip link, visible focus states | brief design rules | 1 | ☑ |
 | G10 | Light + dark theme (follows OS; no toggle, keeping the JS budget) | brief design rules | 1 | ☑ |
-| G11 | SEO meta, canonical, hreflang en/pa | brief | 1 (base) / 5 (OG images) | ◐ |
-| G12 | Print stylesheet | brief | 1 (base) / 5 (poem on one page) | ◐ |
+| G11 | SEO meta, canonical, hreflang en/pa | brief | 1 (base) / 5 (OG images) | ☑ |
+| G12 | Print stylesheet | brief | 1 (base) / 5 (poem on one page) | ☑ |
 | G13 | 404 page | inferred (unverified) | 1 | ☑ |
 
 ## 2. Home `/` (pushto `/`)
@@ -122,17 +122,17 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| A1 | Mission | 5 | ☐ |
-| A2 | Sources policy | 5 | ☐ |
-| A3 | FAQ | 5 | ☐ |
-| A4 | Contribution form: message, contact, optional website, optional photo ≤ 3.5 MB | 5 | ☐ |
-| A5 | Form posts to Cloudflare Pages Function (Formspree as fallback) | 5 | ☐ |
+| A1 | Mission | 5 | ☑ |
+| A2 | Sources policy | 5 | ☑ |
+| A3 | FAQ | 5 | ☑ |
+| A4 | Contribution form: message, contact, optional website, optional photo ≤ 3.5 MB | 5 | ☑ |
+| A5 | Form posts to Cloudflare Pages Function (Formspree as fallback) | 5 | ☑ |
 
 ## 9. Native-language UI `/pa` (pushto `/ps`)
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| N1 | Every page mirrored under `/pa/…` with Punjabi UI strings | 1 (chrome) / each phase | ◐ (all pages so far; dictionary and About to come) |
+| N1 | Every page mirrored under `/pa/…` with Punjabi UI strings | 1 (chrome) / each phase | ☑ |
 | N2 | `/pa` is Shahmukhi, right-to-left throughout | 1 | ☑ |
 | N3 | UI strings in Shahmukhi | 1 | ☑ (needs native review) |
 

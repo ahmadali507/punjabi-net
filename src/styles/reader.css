@@ -191,22 +191,31 @@
 .biblio li { margin-block-end: 0.5rem; }
 .biblio__note { margin: 0.15rem 0 0; font-size: 0.9rem; }
 
-/* ---------- Print: one poem on one page ---------- */
+/* ---------- Print: one poem on one page ----------
+   Short and medium poems (about 12 stanzas with translation, 20 without) fit one A4 page;
+   long poems (more than 6 stanzas) are set in two columns, as in printed collections.
+   Long qissas run to many pages by nature. */
 @media print {
-  @page { margin: 14mm 16mm; }
+  @page { size: A4; margin: 12mm 14mm; }
+  html[lang='pnb'] body { font-size: 10pt; }
   .poem { padding: 0; }
-  .poem__head { margin-block-end: 6mm; }
-  .verses { --verse-size: 13pt; max-width: none; padding: 0; }
-  .verse { padding-block: 2.5mm; break-inside: avoid; }
+  .poem__head { margin-block-end: 4mm; }
+  .poem__head .eyebrow { margin-block-end: 1mm; }
+  .poem__title { font-size: 14pt; }
+  .poem__title :lang(pnb), html[lang='pnb'] .poem__title { line-height: 1.7; }
+  .poem__title-en, .poem__poet { font-size: 10pt; margin: 0; }
+  .verses { --verse-size: 12pt; max-width: none; padding: 0; }
+  .verses--long { columns: 2; column-gap: 10mm; column-rule: 0.5pt solid #bbb; }
+  html[lang] .verse { padding-block: 1mm; break-inside: avoid; line-height: 1.2; }
   .verse + .verse { border-top: 0; }
-  .verse__text:lang(pnb) { line-height: 2; }
-  .verse__en { font-size: 9.5pt; margin-top: 1mm; }
+  html[lang] .verse__n { display: inline; font-size: 7pt; line-height: 1; margin: 0; }
+  .verse__text:lang(pnb) { line-height: 1.7; font-size: var(--verse-size); }
+  html[lang] .verse__en { font-size: 8pt; line-height: 1.25; margin-top: 0; }
   .w { text-decoration: none; }
-  .gloss, .poem__hint, .notice { display: none !important; }
-  .poem__after { margin-block-start: 6mm; }
-  .poem__meta { margin: 0; font-size: 8.5pt; }
-  .poem__meta div { grid-template-columns: 6rem 1fr; }
+  .gloss, .poem__hint, .notice, .poem__notes { display: none !important; }
+  .poem__after { margin-block-start: 4mm; padding: 0; }
+  .poem__translator { font-size: 8pt; margin: 0 0 1mm; }
+  .poem__meta { margin: 0; font-size: 8pt; gap: 1mm; }
+  .poem__meta div { grid-template-columns: 22mm 1fr; }
+  .poem__meta dt, .poem__meta dd { line-height: 1.4; }
 }
-
-.poet-card__pa { margin-left: 0.5rem; }
-.poem-list .muted:lang(en) { display: block; font-size: 0.9rem; line-height: 1.4; }

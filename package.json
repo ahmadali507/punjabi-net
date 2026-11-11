@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "check": "astro check",
     "fonts": "node scripts/subset-fonts.mjs",
-    "preview:build": "PN_FIXTURES=1 PN_OUT=dist-preview astro build && pagefind --site dist-preview"
+    "preview:build": "PN_FIXTURES=1 PN_OUT=dist-preview astro build && pagefind --site dist-preview",
+    "test": "node --test tests/"
   },
   "engines": {
     "node": ">=22.23.4"
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "@resvg/resvg-js": "^2.6.2",
     "pagefind": "^1.6.0",
     "subset-font": "^2.9.0",
     "typescript": "^6.0.3"

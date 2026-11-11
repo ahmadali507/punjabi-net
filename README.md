@@ -10,10 +10,12 @@ Git history as the editorial record.
 npm install
 npm run dev        # http://localhost:4321
 npm run build      # astro check + build + Pagefind index
-npm run fonts      # re-subset the self-hosted fonts
+npm run fonts      # re-subset the self-hosted fonts (and OG image fonts)
+npm test           # contribution Function tests
 PN_FIXTURES=1 npm run dev   # also load src/content/_fixtures (layout placeholders, never built)
 ```
 
+- `DEPLOY.md`: Cloudflare Pages setup, contribution form storage
 - `PARITY.md`: pushto.net feature parity checklist
 - `CHANGELOG.md`: what each phase built and what is left
 - `src/content.config.ts`: content schemas

@@ -21,7 +21,7 @@ const poetById = new Map((await getPoets()).map((p) => [p.id, p]));
 const forms = (['plural', 'feminine', 'oblique'] as const).filter((k) => d.forms[k]);
 const tr = (['ur', 'hi', 'en'] as const).filter((k) => d.translations[k].length);
 ---
-<Base title={`${d.headword} (${d.romanized})`} description={`${d.headword} (${d.romanized}): ${d.senses.join('; ')}`} type="article">
+<Base title={`${d.headword} (${d.romanized})`} description={`${d.headword} (${d.romanized}): ${d.senses.join('; ')}`} type="article" image={`/og/dictionary/${entry.id}.png`}>
   <article class="column section entry" data-pagefind-body data-pagefind-filter="type:word" data-pagefind-meta={`title:${d.headword} · ${d.romanized}`}>
     <p class="eyebrow" data-pagefind-ignore>
       <a href={localePath(locale, '/dictionary')}><T k="nav.dictionary" /></a> · <a href={localePath(locale, `/dictionary/letter/${letter}`)} lang="pnb">{letter}</a>

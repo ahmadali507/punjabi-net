@@ -1,0 +1,13 @@
+---
+import Base from '~/layouts/Base.astro';
+import T from '~/components/T.astro';
+import { asLocale, localePath, t } from '~/i18n';
+const locale = asLocale(Astro.currentLocale);
+---
+<Base title={t(locale, 'contrib.error.title')} noindex>
+  <section class="column section" style="text-align:center">
+    <h1><T k="contrib.error.title" /></h1>
+    <p class="muted"><T k="contrib.error.body" /></p>
+    <p><a class="button" href={localePath(locale, '/about#contribute')}><T k="contrib.back" /></a></p>
+  </section>
+</Base>

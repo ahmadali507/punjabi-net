@@ -1,5 +1,42 @@
 # Changelog
 
+## Phase 5: About, contribute, SEO, OG images, print, Lighthouse (2026-11-11)
+
+### Built
+- **About** `/about` (+ `/pa/about`): mission, sources policy, FAQ (`<details>`, no JS), and the
+  **contribution form**: message, contact, optional website, optional photo or scan up to 3.5 MB,
+  a honeypot against spam. It is a plain form post, so it works without JavaScript.
+- **Cloudflare Pages Function** `functions/api/contribute.ts`: validates (empty message, bad URL,
+  file over 3.5 MB or of the wrong type), stores in Workers KV (photos in R2 if bound, else KV),
+  or forwards to Formspree when `FORMSPREE_ENDPOINT` is set instead; redirects to
+  `/contribute/thanks` or `/contribute/error` in the right language. Setup in `DEPLOY.md`.
+- **OG images**: 1200×630 PNGs built for the site and every poem, poet, form, proverb and dictionary
+  entry (resvg; Shahmukhi in Noto Naskh, since resvg cannot shape Nastaliq). Plus `og:image`
+  size/alt meta, and JSON-LD (WebSite, CreativeWork for poems, Person for poets).
+- **Print**: a poem prints on one A4 page up to about 12 stanzas with translation; poems over 6
+  stanzas are set in two right-to-left columns. Notes, tools and links are dropped from print.
+- `public/_headers`: immutable caching for fonts and hashed assets; basic security headers.
+
+### Fixed
+- Verse text had shrunk to body size on English pages since phase 3 (a size rule for Punjabi
+  snippets was more specific than the reader's). Now zero-specificity via `:where()`.
+- The honeypot field caused horizontal scroll on `/pa/about` (RTL); hidden with clipping instead.
+
+### Verified
+- `npm run build`: 0 errors / 0 warnings / 0 hints. `npm test`: 10/10 Function tests (storage,
+  redirects per language, empty message, bad URL, photo exactly 3.5 MB accepted, 3.5 MB + 1 byte
+  rejected, wrong type, honeypot, not configured, Formspree forwarding).
+- **Lighthouse (mobile)**: home 97/100/100/100, poem 98/100/100/100, `/pa` poet 97/100/100/100,
+  dictionary entry 96/100/100/100, About 97/100/100/100 (performance/accessibility/best
+  practices/SEO). `/search` scores SEO 66 because it is deliberately `noindex`.
+- Print: 4- and 12-stanza poems are one A4 page in both languages (PDF page count).
+- All 47 browser checks from phases 2–4 pass again; no horizontal scroll on any page tested.
+
+### Left / open
+- Deploy: create the Pages project and a KV namespace (see `DEPLOY.md`). Not done: it needs your
+  Cloudflare account.
+- The Function was tested with Node's test runner against an in-memory KV, not on Cloudflare itself.
+
 ## Phase 4: dictionary (2026-11-11)
 
 ### Built

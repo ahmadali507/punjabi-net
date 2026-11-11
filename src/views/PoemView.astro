@@ -28,13 +28,22 @@ const { items: gloss, lookup } = await resolveGlossary(poem, (id) => localePath(
 const hasText = d.verses.length > 0;
 const dates = lifespan(poet.data);
 
+const jsonLd = {
+  '@type': 'CreativeWork',
+  name: d.title,
+  alternateName: d.title_en,
+  inLanguage: 'pnb',
+  genre: form.data.name.en,
+  author: { '@type': 'Person', name: poet.data.name.en, alternateName: poet.data.name.pa },
+  isBasedOn: { '@type': 'Book', name: d.source.book, editor: d.source.editor, publisher: d.source.publisher },
+};
 const num = (n: number) => (en ? String(n) : paDigits(n));
 const pageTitle = `${d.title_en ?? d.title} · ${poet.data.name.en}`;
 const description = hasText
   ? `${form.data.name.en} by ${poet.data.name.en}, in Shahmukhi${d.translation ? ' with an English translation' : ''}.`
   : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
 ---
-<Base title={pageTitle} description={description} type="article">
+<Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd}>
   <article class="poem" data-pagefind-body data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
     <header class="column poem__head">
       <p class="eyebrow">
@@ -63,7 +72,7 @@ const description = hasText
 
         {gloss.length > 0 && <p class="column poem__hint muted no-print"><T k="reader.glossHint" /></p>}
 
-        <ol class="verses" data-verses data-title={d.title} data-poet={en ? poet.data.name.en : poet.data.name.pa}>
+        <ol class:list={['verses', { 'verses--long': d.verses.length > 6 }]} data-verses data-title={d.title} data-poet={en ? poet.data.name.en : poet.data.name.pa}>
           {d.verses.map((v, i) => (
             <li class:list={['verse', { 'verse--refrain': v.refrain }]}>
               <span class="verse__n">

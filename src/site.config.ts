@@ -8,6 +8,12 @@ export const SITE = {
   instagram: null as string | null,
   /** Closing couplet in the footer: a poem slug + verse index, shown only if that verse exists. */
   footerCouplet: null as { poem: string; verse: number } | null,
+  /**
+   * Where the contribution form posts. '/api/contribute' is the Cloudflare Pages
+   * Function in functions/api/contribute.ts. To use Formspree instead, put the
+   * Formspree form URL here (https://formspree.io/f/…).
+   */
+  contributeAction: '/api/contribute',
   description:
     'A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, in Shahmukhi, Gurmukhi and Roman script.',
 };

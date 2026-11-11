@@ -530,6 +530,74 @@ export const ui = {
     en: 'feminine',
     pa: 'مؤنث',
   },
+  'about.title': {
+    en: 'About',
+    pa: 'ساڈے بارے',
+  },
+  'about.mission': {
+    en: 'Mission',
+    pa: 'مقصد',
+  },
+  'about.sources': {
+    en: 'Sources policy',
+    pa: 'حوالیاں دی پالیسی',
+  },
+  'about.faq': {
+    en: 'Questions',
+    pa: 'سوال',
+  },
+  'contrib.title': {
+    en: 'Contribute',
+    pa: 'حصہ پاؤ',
+  },
+  'contrib.intro': {
+    en: 'Send corrections, scans or photos of printed sources, translations, or a poem we are missing. Please name the book and page.',
+    pa: 'درستیاں، چھپیاں کتاباں دے سکین یا فوٹو، ترجمے، یا کوئی کلام جو ایتھے نہیں، گھلو۔ کتاب تے صفحے دا ناں ضرور لکھو۔',
+  },
+  'contrib.message': {
+    en: 'Message',
+    pa: 'سنیہا',
+  },
+  'contrib.contact': {
+    en: 'Email or phone, so we can reply',
+    pa: 'ای میل یا فون، تاں جو اسیں جواب دے سکیے',
+  },
+  'contrib.website': {
+    en: 'Website (optional)',
+    pa: 'ویب سائٹ (جے ہووے)',
+  },
+  'contrib.photo': {
+    en: 'Photo or scan (optional, up to 3.5 MB)',
+    pa: 'فوٹو یا سکین (جے ہووے، ۳٫۵ ایم بی تیکر)',
+  },
+  'contrib.send': {
+    en: 'Send',
+    pa: 'گھلو',
+  },
+  'contrib.privacy': {
+    en: 'We use your contact only to reply about this message. No account, no newsletter.',
+    pa: 'تہاڈا رابطہ صرف ایس سنیہے دے جواب لئی ورتیا جاوے گا۔ نہ کھاتہ، نہ نیوز لیٹر۔',
+  },
+  'contrib.thanks.title': {
+    en: 'Thank you',
+    pa: 'شکریہ',
+  },
+  'contrib.thanks.body': {
+    en: 'Your message has arrived. We read everything, and reply when we can.',
+    pa: 'تہاڈا سنیہا اپڑ گیا اے۔ اسیں سب کجھ پڑھدے آں، تے جدوں ہو سکے جواب دیندے آں۔',
+  },
+  'contrib.error.title': {
+    en: 'Message not sent',
+    pa: 'سنیہا نہیں گیا',
+  },
+  'contrib.error.body': {
+    en: 'Something went wrong: the message may be empty, the photo larger than 3.5 MB, or the service unavailable. Please go back and try again.',
+    pa: 'کجھ غلط ہو گیا: سنیہا خالی ہووے، فوٹو ۳٫۵ ایم بی توں وڈی ہووے، یا سروس بند ہووے۔ واپس جا کے فیر کوشش کرو۔',
+  },
+  'contrib.back': {
+    en: 'Back to the form',
+    pa: 'فارم ول واپس',
+  },
 } as const satisfies Record<string, { en: string; pa: string }>;
 
 export type UIKey = keyof typeof ui;

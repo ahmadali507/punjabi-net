@@ -21,7 +21,7 @@ const [poems, poets, forms] = await Promise.all([getPoems(), getPoets(), getForm
 const poetById = new Map(poets.map((p) => [p.id, p]));
 const inForm = poems.filter((p) => p.data.form.id === form.id);
 ---
-<Base title={`${d.name.en} (${d.name.pa})`} description={d.description} type="article">
+<Base title={`${d.name.en} (${d.name.pa})`} description={d.description} type="article" image={`/og/forms/${form.id}.png`}>
   <article class="column section" data-pagefind-body data-pagefind-filter="type:form" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <p class="eyebrow"><a href={localePath(locale, '/forms')}><T k="nav.forms" /></a></p>
     <header class="form-head">

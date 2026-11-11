@@ -41,7 +41,7 @@ if (SITE.footerCouplet) {
   }
 }
 ---
-<Base>
+<Base jsonLd={{ '@type': 'WebSite', name: SITE.name, url: Astro.site?.href, inLanguage: ['en', 'pnb'], description: SITE.description }}>
   <section class="column section home-hero">
     <h1 class="home-hero__thesis">
       <Pa t={thesis.pa} />

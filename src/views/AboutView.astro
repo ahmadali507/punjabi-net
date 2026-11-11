@@ -1,0 +1,111 @@
+---
+/** /about: mission, sources policy, FAQ (<details>, no JS) and the contribution form. */
+import Base from '~/layouts/Base.astro';
+import T from '~/components/T.astro';
+import { asLocale, t } from '~/i18n';
+import { SITE } from '~/site.config';
+import '~/styles/lists.css';
+import '~/styles/about.css';
+
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+
+// Prose for this page. Punjabi drafted for review by a native speaker.
+const copy = {
+  mission: {
+    en: [
+      `${SITE.name} is a non-commercial archive of Punjabi poetry, poets, proverbs and words, written in Shahmukhi. It aims to give every poem as it appears in a reliable printed edition, with the source named, so that readers, singers and students can trust what they read and check it themselves.`,
+      'There are no ads, no accounts and no tracking. The site is static, fast on slow connections, and works without JavaScript except for search and a few reading tools.',
+    ],
+    pa: [
+      `${SITE.name} پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دا غیر تجارتی ذخیرہ اے، شاہ مکھی وچ۔ ایہدا مقصد ہر کلام نوں اوسے طرح دینا اے جیویں اوہ کسے بھروسے یوگ چھپی کتاب وچ اے، کتاب دے ناں نال، تاں جو پڑھن والے، گاؤن والے تے طالب علم اوہدے تے بھروسا کر سکن تے آپ جانچ سکن۔`,
+      'ایتھے نہ اشتہار نیں، نہ کھاتے، نہ ٹریکنگ۔ سائٹ ہلکی اے، ہولی انٹرنیٹ تے وی چھیتی کھلدی اے۔',
+    ],
+  },
+  sources: {
+    en: [
+      'Every poem, proverb and dictionary entry records the printed book it comes from, with editor, publisher, year and page where known.',
+      'Nothing is typed from memory or "reconstructed". Where a text has not yet been checked against print, the page says "Text not yet entered" and shows no verses.',
+      "Only public-domain texts are reproduced. Poets whose work is still in copyright (among them Amrita Pritam, Shiv Kumar Batalvi, Ustad Daman, Munir Niazi and Surjit Patar) have a biography and a list of their books, but no poems.",
+      "The dictionary is built on Bhai Maya Singh's The Panjabi Dictionary (1895). No copyrighted modern dictionary is used.",
+    ],
+    pa: [
+      'ہر کلام، اکھان تے لغت دے لفظ نال اوس چھپی کتاب دا ناں اے جتھوں اوہ لیا گیا، ایڈیٹر، چھاپن والے، سال تے صفحے سمیت۔',
+      'کجھ وی یادداشت توں نہیں لکھیا جاندا۔ جیہڑی لکھت حالے کتاب نال نہیں ملائی گئی، اوہدے صفحے تے لکھیا اے کہ لکھت حالے نہیں چاڑھی گئی۔',
+      'صرف پبلک ڈومین لکھتاں دتیاں جاندیاں نیں۔ جنہاں شاعراں دیاں لکھتاں حالے کاپی رائٹ ہیٹھ نیں، اوہناں دی جیونی تے کتاباں دی لسٹ اے، کلام نہیں۔',
+      'لغت دی بنیاد بھائی مایا سنگھ دی دی پنجابی ڈکشنری (۱۸۹۵) اے۔',
+    ],
+  },
+  faq: {
+    en: [
+      ['Why only Shahmukhi?', 'The archive keeps one careful text of each poem rather than three machine-converted ones. Shahmukhi is the script most of these poets wrote in.'],
+      ['Why do some poems have no text?', 'Their text has not yet been checked against a printed edition. We would rather show nothing than show something unreliable.'],
+      ['Why are there no poems by Amrita Pritam or Shiv Kumar Batalvi?', 'Their work is still in copyright. We list their books so you can find them.'],
+      ['Can I reuse the texts?', 'The poems themselves are in the public domain. Please name the printed source given on each page.'],
+      ['I found a mistake. What do I do?', 'Use the form below. Tell us the page, the correction, and the book and page number you are reading from.'],
+    ],
+    pa: [
+      ['صرف شاہ مکھی کیوں؟', 'ایہہ ذخیرہ ہر کلام دی اک دھیان نال جانچی لکھت رکھدا اے، مشین نال بدلیاں تن لکھتاں نہیں۔'],
+      ['کجھ کلاماں دی لکھت کیوں نہیں؟', 'اوہناں دی لکھت حالے کسے چھپی کتاب نال نہیں ملائی گئی۔ غلط لکھت وکھاؤن نالوں کجھ نہ وکھاؤنا چنگا اے۔'],
+      ['امرتا پریتم یا شو کمار بٹالوی دا کلام کیوں نہیں؟', 'اوہناں دیاں لکھتاں حالے کاپی رائٹ ہیٹھ نیں۔ اسیں اوہناں دیاں کتاباں دی لسٹ دیندے آں۔'],
+      ['کی میں لکھتاں ورت سکدا آں؟', 'کلام آپ پبلک ڈومین وچ اے۔ ہر صفحے تے دتی چھپی کتاب دا حوالہ ضرور دیو۔'],
+      ['مینوں غلطی لبھی اے، کی کراں؟', 'ہیٹھلا فارم ورتو۔ صفحہ، درستی، تے کتاب تے صفحے دا ناں لکھو۔'],
+    ],
+  },
+};
+const L = en ? 'en' : 'pa';
+---
+<Base title={t(locale, 'about.title')} description={copy.mission.en[0]}>
+  <article class="column section about">
+    <h1><T k="about.title" /></h1>
+
+    <section class="section-block" aria-labelledby="mission">
+      <h2 id="mission"><T k="about.mission" /></h2>
+      {copy.mission[L].map((p) => <p>{p}</p>)}
+    </section>
+
+    <section class="section-block" aria-labelledby="sources">
+      <h2 id="sources"><T k="about.sources" /></h2>
+      <ul class="about__list">{copy.sources[L].map((p) => <li>{p}</li>)}</ul>
+    </section>
+
+    <section class="section-block" aria-labelledby="faq">
+      <h2 id="faq"><T k="about.faq" /></h2>
+      {copy.faq[L].map(([q, a]) => (
+        <details class="faq">
+          <summary>{q}</summary>
+          <p>{a}</p>
+        </details>
+      ))}
+    </section>
+
+    <section class="section-block contribute" id="contribute" aria-labelledby="contribute-h">
+      <h2 id="contribute-h"><T k="contrib.title" /></h2>
+      <p class="muted"><T k="contrib.intro" /></p>
+      <form class="contrib-form" action={SITE.contributeAction} method="post" enctype="multipart/form-data">
+        <input type="hidden" name="lang" value={locale} />
+        <div class="hp" aria-hidden="true">
+          <label>Leave this empty <input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
+        </div>
+        <label class="contrib-field">
+          <span><T k="contrib.message" /></span>
+          <textarea name="message" rows="7" required maxlength="10000"></textarea>
+        </label>
+        <label class="contrib-field">
+          <span><T k="contrib.contact" /></span>
+          <input type="text" name="contact" required maxlength="200" autocomplete="email" dir="ltr" />
+        </label>
+        <label class="contrib-field">
+          <span><T k="contrib.website" /></span>
+          <input type="url" name="website" maxlength="300" placeholder="https://" dir="ltr" />
+        </label>
+        <label class="contrib-field">
+          <span><T k="contrib.photo" /></span>
+          <input type="file" name="photo" accept="image/jpeg,image/png,image/webp,image/heic,application/pdf" />
+        </label>
+        <p class="muted contrib-privacy"><T k="contrib.privacy" /></p>
+        <button class="button button--primary" type="submit"><T k="contrib.send" /></button>
+      </form>
+    </section>
+  </article>
+</Base>

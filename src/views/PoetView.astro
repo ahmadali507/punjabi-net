@@ -19,12 +19,13 @@ const poems = await poemsByPoet(poet.id);
 const { Content } = await render(poet);
 const inCopyright = d.copyright_status === 'in_copyright';
 const dates = lifespan(d);
+const jsonLd = { '@type': 'Person', name: d.name.en, alternateName: d.name.pa, description: d.bio_short, homeLocation: d.region };
 
 const en = locale === 'en';
 // First letter of the Shahmukhi name, for the no-portrait tile.
 const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
 ---
-<Base title={d.name.en} description={d.bio_short} type="profile">
+<Base title={d.name.en} description={d.bio_short} type="profile" image={`/og/poets/${poet.id}.png`} jsonLd={jsonLd}>
   <article class="column poet" data-pagefind-body data-pagefind-filter="type:poet" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <header class="poet__head">
       <figure class="portrait" data-pagefind-ignore>

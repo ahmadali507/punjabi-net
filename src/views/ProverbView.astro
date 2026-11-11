@@ -18,7 +18,7 @@ const i = all.findIndex((p) => p.id === proverb.id);
 const prev = all[i - 1];
 const next = all[i + 1];
 ---
-<Base title={d.literal_en} description={d.meaning_en} type="article">
+<Base title={d.literal_en} description={d.meaning_en} type="article" image={`/og/proverbs/${proverb.id}.png`}>
   <article class="column section proverb" data-pagefind-body data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
     <p class="eyebrow">
       <a href={localePath(locale, '/proverbs')}><T k="nav.proverbs" /></a> · <span data-pagefind-ignore>{tf(locale, 'proverbs.position', { i: i + 1, n: all.length })}</span>
