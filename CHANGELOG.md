@@ -1,5 +1,26 @@
 # Changelog
 
+## Phase 4: dictionary (2026-11-11)
+
+### Built
+- **Dictionary home** `/dictionary`: search (goes to `/search?type=word`), a right-to-left letter grid
+  (letters with no words yet are dashed), common words (`common: true`), the Maya Singh credit.
+- **Letter pages** `/dictionary/letter/{x}` for all 36 letters (آ files under ا): every headword with
+  part of speech, gender and first sense, and a letter strip to move between letters.
+- **Entry pages** `/dictionary/{slug}`: headword; romanisation, IPA, part of speech and gender (labels
+  translated on `/pa`); dialect tags; numbered senses; Punjabi definition; plural/feminine/oblique
+  forms; phrases; examples with sources; Urdu/Hindi/English translations; **Appears in poems**
+  (the reverse of each poem's glossary, so the link runs both ways); source and page.
+- Search indexes entries as type `word`.
+
+### Verified
+- `npm run build`: 0 errors / 0 warnings / 0 hints. 20 screenshots, no overflow. Browser checks: poem
+  word → entry → back to the poem; dictionary search returns words only; letter grid → letter page.
+
+### Left / open
+- **No real entries yet.** Meanings are not to be invented: entries need typing in from Bhai Maya
+  Singh's *The Panjabi Dictionary* (1895). The schema, pages and cross-links are ready for them.
+
 ## Phase 3: lists, home, forms, proverbs, search (2026-11-11)
 
 ### Built

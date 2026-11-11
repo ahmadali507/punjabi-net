@@ -87,7 +87,7 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 | R14 | Poem text is the largest element on the page | 2 | ☑ |
 | R15 | Optional English translation under each verse, never replacing it (addition) | 2 | ☑ |
 | R16 | ~~`gurmukhi_status: auto` notice~~ — removed with Gurmukhi (Shahmukhi only) | — | ✗ deliberate |
-| R17 | Glossed words link to dictionary entries (addition) | 2/4 | ◐ (links in place; entry pages in phase 4) |
+| R17 | Glossed words link to dictionary entries (addition) | 2/4 | ☑ |
 
 ## 6. Proverbs `/proverbs` (pushto `/proverbs`)
 
@@ -104,19 +104,19 @@ Legend — Phase: the build phase that delivers it · Status: ☐ todo · ◐ pa
 
 | # | Feature | Phase | Status |
 |---|---------|-------|--------|
-| D1 | Search | 4 | ☐ |
-| D2 | Browse by letter `/dictionary/letter/{x}` | 4 | ☐ |
-| D3 | Common words list | 4 | ☐ |
-| D4 | Entry: headword (Shahmukhi) | 4 | ☐ |
-| D5 | Pronunciation: romanized + IPA (romanisation is a pronunciation aid only) | 4 | ☐ |
-| D6 | Numbered senses | 4 | ☐ |
-| D7 | Forms: plural, feminine, oblique | 4 | ☐ |
-| D8 | Phrases | 4 | ☐ |
-| D9 | Example sentences | 4 | ☐ |
-| D10 | Translations (Urdu, Hindi, English) | 4 | ☐ |
-| D11 | Dialect tags: Majhi, Doabi, Malwai, Pothohari (addition) | 4 | ☐ |
-| D12 | "Appears in poems" backlinks, two-way with poem glossary (addition) | 4 | ☐ |
-| D13 | Source (Maya Singh 1895, page) per entry | 4 | ☐ |
+| D1 | Search | 4 | ☑ |
+| D2 | Browse by letter `/dictionary/letter/{x}` | 4 | ☑ |
+| D3 | Common words list | 4 | ☑ |
+| D4 | Entry: headword (Shahmukhi) | 4 | ☑ |
+| D5 | Pronunciation: romanized + IPA (romanisation is a pronunciation aid only) | 4 | ☑ |
+| D6 | Numbered senses | 4 | ☑ |
+| D7 | Forms: plural, feminine, oblique | 4 | ☑ |
+| D8 | Phrases | 4 | ☑ |
+| D9 | Example sentences | 4 | ☑ |
+| D10 | Translations (Urdu, Hindi, English) | 4 | ☑ |
+| D11 | Dialect tags: Majhi, Doabi, Malwai, Pothohari (addition) | 4 | ☑ |
+| D12 | "Appears in poems" backlinks, two-way with poem glossary (addition) | 4 | ☑ |
+| D13 | Source (Maya Singh 1895, page) per entry | 4 | ☑ |
 
 ## 8. About `/about` (pushto `/about`)
 

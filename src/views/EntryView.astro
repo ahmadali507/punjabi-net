@@ -1,0 +1,98 @@
+---
+/** /dictionary/{slug}: one entry, with the poems that gloss it (two-way link). */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import Source from '~/components/Source.astro';
+import PoemRow from '~/components/PoemRow.astro';
+import { asLocale, localePath, t } from '~/i18n';
+import { firstLetter, getPoets, poemsUsingEntry, type Entry } from '~/lib/content';
+import type { UIKey } from '~/i18n/ui';
+import '~/styles/lists.css';
+import '~/styles/dictionary.css';
+
+interface Props { entry: Entry }
+const { entry } = Astro.props;
+const d = entry.data;
+const locale = asLocale(Astro.currentLocale);
+const letter = firstLetter(d.headword);
+const poems = await poemsUsingEntry(entry.id);
+const poetById = new Map((await getPoets()).map((p) => [p.id, p]));
+const forms = (['plural', 'feminine', 'oblique'] as const).filter((k) => d.forms[k]);
+const tr = (['ur', 'hi', 'en'] as const).filter((k) => d.translations[k].length);
+---
+<Base title={`${d.headword} (${d.romanized})`} description={`${d.headword} (${d.romanized}): ${d.senses.join('; ')}`} type="article">
+  <article class="column section entry" data-pagefind-body data-pagefind-filter="type:word" data-pagefind-meta={`title:${d.headword} · ${d.romanized}`}>
+    <p class="eyebrow" data-pagefind-ignore>
+      <a href={localePath(locale, '/dictionary')}><T k="nav.dictionary" /></a> · <a href={localePath(locale, `/dictionary/letter/${letter}`)} lang="pnb">{letter}</a>
+    </p>
+    <header class="entry__head">
+      <h1 class="entry__hw"><Pa t={d.headword} /></h1>
+      <p class="entry__pron" dir="ltr">
+        <i lang="pa-Latn">{d.romanized}</i>
+        {d.ipa && <span lang="und-fonipa"> · /{d.ipa}/</span>}
+        <span> · <T k={`pos.${d.pos}` as UIKey} />{d.gender && <>, <T k={`gender.${d.gender}` as UIKey} /></>}</span>
+      </p>
+      {d.dialects.length > 0 && (
+        <p class="entry__tags" aria-label={t(locale, 'dict.dialects')}>{d.dialects.map((x) => <span class="tag" lang="en" dir="ltr">{x}</span>)}</p>
+      )}
+    </header>
+
+    <section class="entry__block">
+      <h2><T k="dict.senses" /></h2>
+      <ol class="senses" lang="en" dir="ltr">{d.senses.map((s) => <li>{s}</li>)}</ol>
+      {d.definition_pa && <p class="entry__def"><span class="muted"><T k="dict.inPunjabi" />: </span><Pa t={d.definition_pa} /></p>}
+    </section>
+
+    {forms.length > 0 && (
+      <section class="entry__block">
+        <h2><T k="dict.forms" /></h2>
+        <dl class="entry__forms">{forms.map((k) => <div><dt><T k={`dict.${k}` as UIKey} /></dt><dd><Pa t={d.forms[k]!} /></dd></div>)}</dl>
+      </section>
+    )}
+
+    {d.phrases.length > 0 && (
+      <section class="entry__block">
+        <h2><T k="dict.phrases" /></h2>
+        <ul class="usages">{d.phrases.map((x) => <li><Pa t={x.text} class="usages__pa" /><span class="muted" lang="en" dir="ltr">{x.en}</span></li>)}</ul>
+      </section>
+    )}
+
+    {d.examples.length > 0 && (
+      <section class="entry__block">
+        <h2><T k="dict.examples" /></h2>
+        <ul class="usages">
+          {d.examples.map((x) => (
+            <li>
+              <Pa t={x.text} class="usages__pa" />
+              <span class="muted" lang="en" dir="ltr"><i>{x.en}</i>{x.source && <> — <Source source={x.source} /></>}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {tr.length > 0 && (
+      <section class="entry__block">
+        <h2><T k="dict.translations" /></h2>
+        <dl class="entry__forms">
+          {tr.map((k) => (
+            <div>
+              <dt><T k={`dict.${k}` as UIKey} /></dt>
+              <dd lang={k} dir={k === 'ur' ? 'rtl' : 'ltr'} class={`tr tr--${k}`}>{d.translations[k].join(k === 'ur' ? '، ' : ', ')}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    {poems.length > 0 && (
+      <section class="entry__block entry__poems" data-pagefind-ignore>
+        <h2><T k="dict.appears" /></h2>
+        <ul class="poem-rows">{poems.map((p) => <PoemRow poem={p} poet={poetById.get(p.data.poet.id)} />)}</ul>
+      </section>
+    )}
+
+    <p class="entry__source muted"><T k="poem.source" />: <Source source={d.source} /></p>
+  </article>
+</Base>

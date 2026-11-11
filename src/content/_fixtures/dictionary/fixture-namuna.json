@@ -1,8 +1,16 @@
 {
   "headword": "نمونہ",
   "romanized": "namūnā",
+  "ipa": "nəmuːnaː",
   "pos": "noun",
   "gender": "masculine",
-  "senses": ["(fixture entry) sample, specimen"],
+  "senses": ["(fixture entry) sample, specimen", "(fixture entry) model, pattern"],
+  "definition_pa": "(نمونہ اندراج) کسے شے دا اک حصہ جو پوری شے دا پتہ دیوے",
+  "forms": { "plural": "نمونے", "oblique": "نمونے" },
+  "phrases": [{ "text": "نمونہ ویکھو", "en": "(fixture) look at the sample" }],
+  "examples": [{ "text": "ایہہ اک نمونہ اے", "en": "(fixture) This is a sample." }],
+  "translations": { "ur": ["نمونہ"], "hi": ["नमूना"], "en": ["sample", "specimen"] },
+  "dialects": ["Majhi", "Doabi"],
+  "common": true,
   "source": { "book": "None (layout fixture)" }
 }

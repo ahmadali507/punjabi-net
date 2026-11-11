@@ -1,0 +1,9 @@
+---
+import LetterView from '~/views/LetterView.astro';
+import { ALPHABET } from '~/lib/content';
+
+export function getStaticPaths() {
+  return ALPHABET.map((letter) => ({ params: { letter }, props: { letter } }));
+}
+---
+<LetterView letter={Astro.props.letter} />

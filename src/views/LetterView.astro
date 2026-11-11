@@ -1,0 +1,48 @@
+---
+/** /dictionary/letter/{x}: every headword under one letter. */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import { asLocale, localePath, t, tf } from '~/i18n';
+import { ALPHABET, firstLetter, getEntries } from '~/lib/content';
+import type { UIKey } from '~/i18n/ui';
+import '~/styles/lists.css';
+import '~/styles/dictionary.css';
+
+interface Props { letter: string }
+const { letter } = Astro.props;
+const locale = asLocale(Astro.currentLocale);
+const entries = (await getEntries()).filter((e) => firstLetter(e.data.headword) === letter);
+---
+<Base title={`${t(locale, 'nav.dictionary')}: ${letter}`} description={`Punjabi words beginning with ${letter}.`}>
+  <section class="column section">
+    <p class="eyebrow"><a href={localePath(locale, '/dictionary')}><T k="nav.dictionary" /></a></p>
+    <header class="letter-head">
+      <div>
+        <h1 class="visually-hidden"><T k="dict.letter" /> {letter}</h1>
+        <p class="muted">{tf(locale, 'dict.words', { n: entries.length })}</p>
+      </div>
+      <span class="letter-head__big" lang="pnb" dir="rtl" aria-hidden="true">{letter}</span>
+    </header>
+    <nav aria-label={t(locale, 'dict.browse')}>
+      <ul class="letters letters--strip" lang="pnb" dir="rtl">
+        {ALPHABET.map((l) => (
+          <li><a class="letter" href={localePath(locale, `/dictionary/letter/${l}`)} aria-current={l === letter ? 'page' : undefined}>{l}</a></li>
+        ))}
+      </ul>
+    </nav>
+    {entries.length === 0 ? (
+      <p class="empty"><T k="dict.letterEmpty" /></p>
+    ) : (
+      <ul class="entry-list">
+        {entries.map((e) => (
+          <li>
+            <a class="entry-list__hw" href={localePath(locale, `/dictionary/${e.id}`)}><Pa t={e.data.headword} /></a>
+            <span class="entry-list__pos muted"><T k={`pos.${e.data.pos}` as UIKey} />{e.data.gender && <>, <T k={`gender.${e.data.gender}` as UIKey} /></>}</span>
+            <span class="entry-list__sense" lang="en" dir="ltr">{e.data.senses[0]}</span>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</Base>

@@ -1,0 +1,9 @@
+---
+import EntryView from '~/views/EntryView.astro';
+import { getEntries } from '~/lib/content';
+
+export async function getStaticPaths() {
+  return (await getEntries()).map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+---
+<EntryView entry={Astro.props.entry} />

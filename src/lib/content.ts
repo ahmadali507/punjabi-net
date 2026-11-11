@@ -60,6 +60,25 @@ export async function getProverbs(): Promise<Proverb[]> {
   return (await getCollection('proverbs')).sort((a, b) => a.data.text.localeCompare(b.data.text, 'pnb') || a.id.localeCompare(b.id));
 }
 
+/* ---------- Dictionary ---------- */
+
+/** Shahmukhi alphabet for browsing. Words starting with آ file under ا. */
+export const ALPHABET = ['ا', 'ب', 'پ', 'ت', 'ٹ', 'ث', 'ج', 'چ', 'ح', 'خ', 'د', 'ڈ', 'ذ', 'ر', 'ڑ', 'ز', 'ژ', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 'ق', 'ک', 'گ', 'ل', 'م', 'ن', 'ݨ', 'و', 'ہ', 'ی'] as const;
+const LETTER_ALIASES: Record<string, string> = { 'آ': 'ا', 'أ': 'ا', 'إ': 'ا', 'ك': 'ک', 'ي': 'ی', 'ى': 'ی', 'ه': 'ہ', 'ۃ': 'ہ', 'ڻ': 'ݨ' };
+export function firstLetter(word: string): string {
+  const c = [...normalise(word)][0] ?? '';
+  return LETTER_ALIASES[c] ?? c;
+}
+
+export async function getEntries(): Promise<Entry[]> {
+  return (await getCollection('dictionary')).sort((a, b) => a.data.headword.localeCompare(b.data.headword, 'pnb'));
+}
+
+/** Poems whose glossary points at this entry (the dictionary → poem half of the two-way link). */
+export async function poemsUsingEntry(id: string): Promise<Poem[]> {
+  return (await getPoems()).filter((p) => p.data.glossary.some((g) => ('entry' in g ? g.entry.id : g.id) === id));
+}
+
 const byTitle = (a: Poem, b: Poem) => a.data.title.localeCompare(b.data.title, 'pnb');
 
 /** "c. 1680 – 1757", "– 1757", "c. 1680 –", or "" */

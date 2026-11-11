@@ -1,0 +1,65 @@
+/* Dictionary: letter grid, word chips, entry page. */
+.letters { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; margin: 0; padding: 0; }
+.letter {
+  display: grid; place-items: center;
+  width: 2.75rem; height: 2.9rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font-size: 1.35rem; line-height: 1;
+  text-decoration: none;
+}
+.letter:hover { border-color: var(--accent); color: var(--accent); }
+.letter[aria-current='page'] { border-color: var(--accent); background: var(--accent-wash); }
+.letter--empty { color: var(--muted); border-style: dashed; }
+.letters--strip { gap: 0.25rem; margin-block: 1rem 2rem; }
+.letters--strip .letter { width: 2.25rem; height: 2.4rem; font-size: 1.1rem; }
+
+.word-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; margin: 0; padding: 0; }
+.word-chips a {
+  display: inline-flex; align-items: baseline; gap: 0.5rem;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  text-decoration: none;
+}
+.word-chips a:hover { border-color: var(--accent); }
+.word-chips :lang(pnb) { font-size: 1.15rem; line-height: 1.9; }
+.word-chips .muted { font-size: 0.8rem; }
+
+.letter-head { display: flex; align-items: end; justify-content: space-between; gap: 1rem; }
+.letter-head__big { font-size: 4.5rem; line-height: 1.4; }
+.entry-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); gap: 0 2rem; }
+.entry-list li { display: grid; grid-template-columns: 1fr auto; gap: 0 1rem; align-items: baseline; padding-block: 0.6rem; border-bottom: 1px solid var(--rule); }
+.entry-list__hw { grid-column: 2; grid-row: 1 / span 2; font-size: 1.4rem; text-decoration: none; text-align: end; }
+html[lang='pnb'] .entry-list__hw { text-align: start; }
+.entry-list__hw:hover { color: var(--accent); }
+.entry-list__hw :lang(pnb) { line-height: 2; }
+.entry-list__pos { font-size: 0.8rem; }
+.entry-list__sense { font-size: 0.95rem; }
+
+.entry__head { margin-block-end: 1.5rem; }
+.entry__hw { font-size: clamp(2.4rem, 2rem + 2vw, 3.2rem); font-weight: 400; margin: 0; text-align: end; }
+html[lang='pnb'] .entry__hw { text-align: start; }
+.entry__hw :lang(pnb) { line-height: 1.9; }
+.entry__pron { margin: 0.25rem 0 0.5rem; font-size: 1.05rem; }
+html[lang='pnb'] .entry__pron { text-align: end; }
+.entry__tags { display: flex; gap: 0.35rem; flex-wrap: wrap; margin: 0; }
+.entry__block { margin-block: 1.75rem; }
+.entry__block h2 { font-size: 1.2rem; margin-block-end: 0.5rem; }
+.senses { margin: 0; padding-inline-start: 1.4rem; }
+.senses li { margin-block-end: 0.35rem; }
+.entry__def { margin-block-start: 0.75rem; }
+.entry__forms { display: grid; gap: 0.35rem; margin: 0; }
+.entry__forms div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; align-items: baseline; }
+.entry__forms dt { color: var(--muted); }
+.entry__forms dd { margin: 0; font-size: 1.15rem; }
+.tr--ur { font-family: var(--font-sm); line-height: 2; }
+.usages { list-style: none; margin: 0; padding: 0; }
+.usages li { display: flex; flex-direction: column; gap: 0.1rem; padding-block: 0.5rem; border-bottom: 1px solid var(--rule); }
+.usages__pa { font-size: 1.25rem; text-align: end; }
+html[lang='pnb'] .usages__pa { text-align: start; }
+.entry__poems { padding: 1rem 1.25rem; border: 1px solid color-mix(in oklab, var(--accent) 50%, transparent); border-radius: var(--radius); }
+.entry__source { margin-block-start: 2rem; font-size: 0.9rem; }
+/* Values line up at the start of the row whatever their script. */
+html:not([lang='pnb']) .entry__forms dd { text-align: left; }
+html[lang='pnb'] .entry__forms dd { text-align: right; }

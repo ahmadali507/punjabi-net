@@ -1,0 +1,56 @@
+---
+/** /dictionary: search (into /search?type=word), browse by letter, common words. */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import { asLocale, localePath, t, tf } from '~/i18n';
+import { ALPHABET, firstLetter, getEntries } from '~/lib/content';
+import '~/styles/lists.css';
+import '~/styles/dictionary.css';
+
+const locale = asLocale(Astro.currentLocale);
+const entries = await getEntries();
+const counts = new Map<string, number>();
+for (const e of entries) counts.set(firstLetter(e.data.headword), (counts.get(firstLetter(e.data.headword)) ?? 0) + 1);
+const common = entries.filter((e) => e.data.common).slice(0, 30);
+---
+<Base title={t(locale, 'nav.dictionary')} description="A Punjabi–English dictionary in Shahmukhi, built on Bhai Maya Singh's Panjabi Dictionary (1895).">
+  <section class="column section">
+    <header class="list-head">
+      <div>
+        <h1><T k="nav.dictionary" /></h1>
+        <p class="muted"><T k="dict.backbone" /> · {tf(locale, 'dict.words', { n: entries.length })}</p>
+      </div>
+    </header>
+    <form class="search-form" role="search" action={localePath(locale, '/search')} method="get">
+      <input type="hidden" name="type" value="word" />
+      <label class="visually-hidden" for="dict-q"><T k="search.label" /></label>
+      <input class="field" id="dict-q" name="q" type="search" autocomplete="off" placeholder={t(locale, 'dict.search')} />
+      <button class="button button--primary" type="submit"><T k="search.label" /></button>
+    </form>
+
+    {entries.length === 0 && <p class="empty"><T k="dict.empty" /></p>}
+
+    <section class="section-block" aria-labelledby="browse">
+      <h2 id="browse"><T k="dict.browse" /></h2>
+      <ul class="letters" lang="pnb" dir="rtl">
+        {ALPHABET.map((l) => (
+          <li>
+            <a class:list={['letter', { 'letter--empty': !counts.get(l) }]} href={localePath(locale, `/dictionary/letter/${l}`)}>{l}</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {common.length > 0 && (
+      <section class="section-block" aria-labelledby="common">
+        <h2 id="common"><T k="dict.common" /></h2>
+        <ul class="word-chips">
+          {common.map((e) => (
+            <li><a href={localePath(locale, `/dictionary/${e.id}`)}><Pa t={e.data.headword} /><span class="muted" lang="en" dir="ltr">{e.data.senses[0]}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </section>
+</Base>

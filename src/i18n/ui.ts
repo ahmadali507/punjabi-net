@@ -390,6 +390,146 @@ export const ui = {
     en: 'Forms',
     pa: 'صنفاں',
   },
+  'dict.backbone': {
+    en: 'Backbone: Bhai Maya Singh, The Panjabi Dictionary (1895)',
+    pa: 'بنیاد: بھائی مایا سنگھ، دی پنجابی ڈکشنری (۱۸۹۵)',
+  },
+  'dict.search': {
+    en: 'Search a word in Shahmukhi, romanised or English…',
+    pa: 'کوئی لفظ لبھو، شاہ مکھی، رومن یا انگریزی وچ…',
+  },
+  'dict.browse': {
+    en: 'Browse by letter',
+    pa: 'اکھر نال ویکھو',
+  },
+  'dict.common': {
+    en: 'Common words',
+    pa: 'عام لفظ',
+  },
+  'dict.words': {
+    en: '{n} words',
+    pa: '{n} لفظ',
+  },
+  'dict.senses': {
+    en: 'Senses',
+    pa: 'معنی',
+  },
+  'dict.inPunjabi': {
+    en: 'In Punjabi',
+    pa: 'پنجابی وچ',
+  },
+  'dict.forms': {
+    en: 'Forms',
+    pa: 'روپ',
+  },
+  'dict.plural': {
+    en: 'plural',
+    pa: 'جمع',
+  },
+  'dict.feminine': {
+    en: 'feminine',
+    pa: 'مؤنث',
+  },
+  'dict.oblique': {
+    en: 'oblique',
+    pa: 'ترچھی حالت',
+  },
+  'dict.phrases': {
+    en: 'Phrases',
+    pa: 'محاورے',
+  },
+  'dict.examples': {
+    en: 'Examples',
+    pa: 'مثالاں',
+  },
+  'dict.translations': {
+    en: 'Translations',
+    pa: 'ترجمے',
+  },
+  'dict.ur': {
+    en: 'Urdu',
+    pa: 'اردو',
+  },
+  'dict.hi': {
+    en: 'Hindi',
+    pa: 'ہندی',
+  },
+  'dict.en': {
+    en: 'English',
+    pa: 'انگریزی',
+  },
+  'dict.dialects': {
+    en: 'Dialects',
+    pa: 'لہجے',
+  },
+  'dict.appears': {
+    en: 'Appears in poems',
+    pa: 'ایہناں کلاماں وچ آؤندا اے',
+  },
+  'dict.empty': {
+    en: 'Entries from Bhai Maya Singh’s dictionary are being entered. None are published yet.',
+    pa: 'بھائی مایا سنگھ دی ڈکشنری دے لفظ چاڑھے جا رہے نیں۔ حالے کوئی نہیں چھپیا۔',
+  },
+  'dict.letterEmpty': {
+    en: 'No words under this letter yet.',
+    pa: 'ایس اکھر ہیٹھ حالے کوئی لفظ نہیں۔',
+  },
+  'dict.letter': {
+    en: 'Letter',
+    pa: 'اکھر',
+  },
+  'pos.noun': {
+    en: 'noun',
+    pa: 'اسم',
+  },
+  'pos.verb': {
+    en: 'verb',
+    pa: 'فعل',
+  },
+  'pos.adjective': {
+    en: 'adjective',
+    pa: 'صفت',
+  },
+  'pos.adverb': {
+    en: 'adverb',
+    pa: 'متعلق فعل',
+  },
+  'pos.pronoun': {
+    en: 'pronoun',
+    pa: 'ضمیر',
+  },
+  'pos.postposition': {
+    en: 'postposition',
+    pa: 'حرف جار',
+  },
+  'pos.conjunction': {
+    en: 'conjunction',
+    pa: 'حرف عطف',
+  },
+  'pos.interjection': {
+    en: 'interjection',
+    pa: 'حرف ندا',
+  },
+  'pos.particle': {
+    en: 'particle',
+    pa: 'حرف',
+  },
+  'pos.numeral': {
+    en: 'numeral',
+    pa: 'عدد',
+  },
+  'pos.phrase': {
+    en: 'phrase',
+    pa: 'فقرہ',
+  },
+  'gender.masculine': {
+    en: 'masculine',
+    pa: 'مذکر',
+  },
+  'gender.feminine': {
+    en: 'feminine',
+    pa: 'مؤنث',
+  },
 } as const satisfies Record<string, { en: string; pa: string }>;
 
 export type UIKey = keyof typeof ui;
