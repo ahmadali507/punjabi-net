@@ -6,6 +6,7 @@
  * On /pa the document is dir="rtl", so the bar mirrors on its own.
  */
 import T from './T.astro';
+import Logo from './Logo.astro';
 import { SITE } from '~/site.config';
 import { asLocale, localePath, alternatePath, stripLocale, cleanPath, t } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
@@ -25,7 +26,7 @@ const contributeHref = localePath(locale, '/about#contribute');
 ---
 <header class="site-header" data-header>
   <div class="wrap bar">
-    <a class="wordmark" href={localePath(locale, '/')} lang="en" dir="ltr">{SITE.name}</a>
+    <a class="wordmark" href={localePath(locale, '/')} lang="en" dir="ltr"><Logo size={30} /><span>{SITE.name}</span></a>
 
     <nav class="site-nav" aria-label={t(locale, 'nav.label')}>
       <ul class="nav">

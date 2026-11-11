@@ -1,0 +1,29 @@
+---
+/**
+ * The "five rivers" mark: Punjab means "five waters". Inline SVG coloured from
+ * the site tokens, so it follows light and dark mode. Decorative: the wordmark
+ * next to it carries the name.
+ */
+interface Props { size?: number; class?: string }
+const { size = 30, class: className } = Astro.props;
+// Five waves, longest in the middle (same geometry as public/favicon.svg).
+const waves = [17, 24.5, 32, 39.5, 47].map((y, i) => {
+  const k = Math.abs(2 - i);
+  const step = 10 - k * 2;
+  return `M${12 + k * 3} ${y} q ${step / 2} -4.5 ${step} 0 t ${step} 0 t ${step} 0 t ${step} 0`;
+});
+---
+<svg class:list={['logo', className]} viewBox="0 0 64 64" width={size} height={size} aria-hidden="true" focusable="false">
+  <circle cx="32" cy="32" r="31" class="logo__disc" />
+  <g class="logo__waves" fill="none" stroke-width="3.2" stroke-linecap="round">
+    {waves.map((d) => <path d={d} />)}
+  </g>
+</svg>
+
+<style>
+  .logo { flex: none; display: block; }
+  .logo__disc { fill: var(--ink); }
+  /* Same colours as public/favicon.svg: gold on the dark disc, deep mustard on the light one. */
+  .logo__waves { stroke: #c9962a; }
+  @media (prefers-color-scheme: dark) { .logo__waves { stroke: #855c00; } }
+</style>
