@@ -5,152 +5,182 @@
     "کستوری": {
       "en": "musk",
       "pos": "noun",
-      "roman": "kastūrī"
+      "roman": "kastūrī",
+      "pa": "کستوری، مشک"
     },
     "نے": {
       "en": "(agent marker)",
       "pos": "postposition",
-      "roman": "ne"
+      "roman": "ne",
+      "pa": "کرن والے دا نشان"
     },
     "زلف": {
       "en": "tresses; curls",
       "pos": "noun",
-      "roman": "zulf"
+      "roman": "zulf",
+      "pa": "زلف، والاں دی لٹ"
     },
     "تیری": {
       "en": "your (fem.)",
       "pos": "pronoun",
       "roman": "terī",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیری (مؤنث)"
     },
     "تھیں": {
       "en": "from",
       "pos": "postposition",
-      "roman": "thīṅ"
+      "roman": "thīṅ",
+      "pa": "توں"
     },
     "بو": {
       "en": "scent",
       "pos": "noun",
-      "roman": "bo"
+      "roman": "bo",
+      "pa": "خوشبو، مہک"
     },
     "اجائب": {
       "en": "wondrous",
       "pos": "adjective",
-      "roman": "ajāib"
+      "roman": "ajāib",
+      "pa": "عجیب، انوکھی"
     },
     "پائی": {
       "en": "got; obtained",
       "pos": "verb",
       "roman": "pāī",
-      "base": "پاؤنا"
+      "base": "پاؤنا",
+      "pa": "لئی، پائی"
     },
     "منہ": {
       "en": "face",
       "pos": "noun",
-      "roman": "muṅh"
+      "roman": "muṅh",
+      "pa": "منہ، مکھڑا"
     },
     "تیرے": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیرے"
     },
     "پھل": {
       "en": "flower",
       "pos": "noun",
-      "roman": "phull"
+      "roman": "phull",
+      "pa": "پھل، پھُل"
     },
     "گلاباں": {
       "en": "roses",
       "pos": "noun",
       "roman": "gulābāṅ",
-      "base": "گلاب"
+      "base": "گلاب",
+      "pa": "گلاب"
     },
     "لدھا": {
       "en": "found",
       "pos": "verb",
       "roman": "laddhā",
-      "base": "لبھنا"
+      "base": "لبھنا",
+      "pa": "لبھا"
     },
     "رنگ": {
       "en": "colour",
       "pos": "noun",
-      "roman": "rang"
+      "roman": "rang",
+      "pa": "رنگ"
     },
     "صفائی": {
       "en": "purity; freshness",
       "pos": "noun",
-      "roman": "safāī"
+      "roman": "safāī",
+      "pa": "صفائی، نکھار"
     },
     "مہر": {
       "en": "love; (2nd) the sun",
       "pos": "noun",
       "roman": "mihr",
-      "note": "Pun: \"mihr\" is both kindness/love and the sun (Persian)."
+      "note": "Pun: \"mihr\" is both kindness/love and the sun (Persian).",
+      "pa": "پیار؛ سورج",
+      "note_pa": "دو معنی: \"مہر\" مہربانی تے پیار وی اے تے فارسی وچ سورج وی"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "گرمی": {
       "en": "heat; warmth",
       "pos": "noun",
-      "roman": "garmī"
+      "roman": "garmī",
+      "pa": "گرمی، تپش"
     },
     "کولوں": {
       "en": "from; because of",
       "pos": "postposition",
-      "roman": "koloṅ"
+      "roman": "koloṅ",
+      "pa": "توں، کارن"
     },
     "تریلی": {
       "en": "dew; sweat",
       "pos": "noun",
       "roman": "trelī",
-      "note": "The sun broke into a sweat (dew)."
+      "note": "The sun broke into a sweat (dew).",
+      "pa": "تریل، مڑھکا",
+      "note_pa": "سورج نوں مڑھکا (تریل) آ گیا"
     },
     "آئی": {
       "en": "came",
       "pos": "verb",
       "roman": "āī",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آئی"
     },
     "لسا": {
       "en": "pale; wan",
       "pos": "adjective",
-      "roman": "lissā"
+      "roman": "lissā",
+      "pa": "پھکا، ماڑا"
     },
     "ہویا": {
       "en": "became",
       "pos": "verb",
       "roman": "hoiā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گیا"
     },
     "چن": {
       "en": "moon",
       "pos": "noun",
-      "roman": "chann"
+      "roman": "chann",
+      "pa": "چن"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "محمد، شاعر دا اپنا ناں"
     },
     "حسن": {
       "en": "beauty",
       "pos": "noun",
-      "roman": "husan"
+      "roman": "husan",
+      "pa": "حسن، سوہنپ"
     },
     "محبت": {
       "en": "love",
       "pos": "noun",
-      "roman": "muhabbat"
+      "roman": "muhabbat",
+      "pa": "محبت، پیار"
     },
     "لائی": {
       "en": "attached; fell in (love)",
       "pos": "verb",
       "roman": "lāī",
-      "base": "لانا"
+      "base": "لانا",
+      "pa": "لائی، لگ گئی"
     }
   }
 }

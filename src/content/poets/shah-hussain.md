@@ -29,6 +29,15 @@ bio_sources:
     editor: Lajwanti Rama Krishna
     publisher: Oxford University Press
     year: 1938
+bio_short_pa: "لہور دے صوفی شاعر تے پنجابی کافی دی نیہہ رکھن والے۔ میلہ چراغاں اوہناں دے دربار اُتے لگدا اے۔"
+region_pa: "لہور، پنجاب"
+portrait_caption_pa: "مصوری، ۱۷۷۰ دے نیڑے: مگروں بنائی گئی تصویر۔"
+bio_pa: |
+  شاہ حسین ۱۵۳۸ وچ لہور دے اندرون شہر وچ، ٹکسالی دروازے دے نیڑے، جمے تے ۱۵۹۹ وچ فوت ہوئے؛ اک تحقیق ایہدی تھاں ۱۵۳۹ توں ۱۵۹۳ دسدی اے۔ اوہناں دے پیو، شیخ عثمان، ڈھڈھا برادری دے جلاہے سن، تے حسین کدی کدی اپنے آپ نوں فقیر حسین جلاہا آکھدے سن۔ اوہ قادری سلسلے دے شیخ بہلول دریائی دے شاگرد سن۔
+
+  اوہناں نوں مادھو لال حسین وی آکھیا جاندا اے، کیوں جے اوہ شاہدرے دے اک برہمن منڈے مادھو لال نال بہت پیار کردے سن، جو اوہناں دا مرید بنیا۔ دوویں باغبانپورہ وچ، شالامار باغ دے نال، اک دوجے دے برابر دفن نیں۔ مہاراجہ رنجیت سنگھ نے بزرگ دے عرس نوں اوتھے لگن والے بہار دے میلے نال جوڑ دتا، تے ایہہ رلیا ملیا میلہ، میلہ چراغاں یعنی دیویاں دا میلہ، اکھواندا اے۔
+
+  اوہناں دیاں نکیاں کافیاں، جو اک ٹیک اُتے بنیاں نیں، اوہ نمونہ بنیاں جس اُتے مگروں آن والے صوفی شاعر ٹرے۔
 ---
 
 Shah Hussain was born in 1538 in the walled city of Lahore, near the Taksali Gate, and died in 1599; one study gives 1539 to 1593 instead. His father, Sheikh Usman, was a weaver of the Dhudha clan, and Hussain sometimes called himself Faqir Hussain Julaha, Hussain the weaver. He was a student of Shaikh Bahlol Daryai of the Qadiri order.

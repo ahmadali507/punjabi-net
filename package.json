@@ -12,7 +12,8 @@
     "fonts": "node scripts/subset-fonts.mjs",
     "preview:build": "PN_OUT=dist-preview astro build && pagefind --site dist-preview",
     "test": "node --test tests/",
-    "glosses:check": "node scripts/glosses.mjs check"
+    "glosses:check": "node scripts/glosses.mjs check",
+    "pa:check": "node scripts/pa-latin.mjs"
   },
   "engines": {
     "node": ">=22.23.4"

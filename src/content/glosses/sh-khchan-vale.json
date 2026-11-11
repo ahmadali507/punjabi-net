@@ -5,188 +5,227 @@
     "اسیں": {
       "en": "we",
       "pos": "pronoun",
-      "roman": "asīṅ"
+      "roman": "asīṅ",
+      "pa": "اسیں"
     },
     "سکدے": {
       "en": "long, yearn",
       "pos": "verb",
       "roman": "sikkde",
-      "base": "سکنا"
+      "base": "سکنا",
+      "pa": "سِکدے، تانگھدے"
     },
     "تسیں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tusīṅ"
+      "roman": "tusīṅ",
+      "pa": "تسیں"
     },
     "ناہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nāhīṅ"
+      "roman": "nāhīṅ",
+      "pa": "نہیں"
     },
     "اساں": {
       "en": "we (agent)",
       "pos": "pronoun",
-      "roman": "asāṅ"
+      "roman": "asāṅ",
+      "pa": "اساں، اسیں"
     },
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "گل": {
       "en": "matter, saying",
       "pos": "noun",
-      "roman": "gall"
+      "roman": "gall",
+      "pa": "گل"
     },
     "سی": {
       "en": "was",
       "pos": "verb",
       "roman": "sī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "سی"
     },
     "صحیح": {
       "en": "true, right",
       "pos": "adjective",
-      "roman": "sahīh"
+      "roman": "sahīh",
+      "pa": "سچ، ٹھیک"
     },
     "کیتی": {
       "en": "held (to be)",
       "pos": "verb",
       "roman": "kītī",
       "base": "کرنا",
-      "note": "sahīh karnā: to take as true."
+      "note": "sahīh karnā: to take as true.",
+      "pa": "کیتی، منی",
+      "note_pa": "صحیح کرنا یعنی سچ من لینا"
     },
     "اک": {
       "en": "one",
       "pos": "numeral",
-      "roman": "ikk"
+      "roman": "ikk",
+      "pa": "اک"
     },
     "دن": {
       "en": "day",
       "pos": "noun",
-      "roman": "din"
+      "roman": "din",
+      "pa": "دن"
     },
     "سکدیاں": {
       "en": "while longing",
       "pos": "verb",
       "roman": "sikkdiāṅ",
-      "base": "سکنا"
+      "base": "سکنا",
+      "pa": "سِکدیاں، تانگھدیاں"
     },
     "لڑ": {
       "en": "hem (of garment)",
       "pos": "noun",
       "roman": "laṛ",
-      "note": "Holding the hem: seeking refuge."
+      "note": "Holding the hem: seeking refuge.",
+      "pa": "پلا، لڑ",
+      "note_pa": "لڑ پھڑنا یعنی پناہ لبھنا"
     },
     "تیرے": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیرے"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "چھوہ": {
       "en": "touch",
       "pos": "noun",
-      "roman": "chhoh"
+      "roman": "chhoh",
+      "pa": "چھوہ"
     },
     "جو": {
       "en": "when; which",
       "pos": "conjunction",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جدوں، جیہڑی"
     },
     "پراپت": {
       "en": "obtained",
       "pos": "adjective",
       "roman": "prāpat",
-      "note": "prāpat karnā: to attain."
+      "note": "prāpat karnā: to attain.",
+      "pa": "حاصل",
+      "note_pa": "پراپت کرنا یعنی حاصل کرنا"
     },
     "سکن": {
       "en": "longing",
       "pos": "noun",
-      "roman": "sikkaṇ"
+      "roman": "sikkaṇ",
+      "pa": "سِک، تانگھ"
     },
     "ساڈا": {
       "en": "our",
       "pos": "pronoun",
-      "roman": "sāḍā"
+      "roman": "sāḍā",
+      "pa": "ساڈا"
     },
     "کھچ": {
       "en": "pull, attraction",
       "pos": "noun",
-      "roman": "khicch"
+      "roman": "khicch",
+      "pa": "کھچ، کشش"
     },
     "تساڈی": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tusāḍī",
-      "base": "تساڈا"
+      "base": "تساڈا",
+      "pa": "تہاڈی"
     },
     "سانوں": {
       "en": "to us",
       "pos": "pronoun",
-      "roman": "sānūṅ"
+      "roman": "sānūṅ",
+      "pa": "سانوں"
     },
     "نظریں": {
       "en": "in sight",
       "pos": "noun",
       "roman": "nazrīṅ",
       "base": "نظر",
-      "note": "nazrīṅ āuṇā: to become clear, be seen."
+      "note": "nazrīṅ āuṇā: to become clear, be seen.",
+      "pa": "نظر وچ",
+      "note_pa": "نظریں آونا یعنی صاف دسنا"
     },
     "آئی": {
       "en": "came",
       "pos": "verb",
       "roman": "āī",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آئی"
     },
     "چمبک": {
       "en": "magnet",
       "pos": "noun",
-      "roman": "chumbak"
+      "roman": "chumbak",
+      "pa": "مقناطیس"
     },
     "شہہ": {
       "en": "king, master",
       "pos": "noun",
-      "roman": "shah"
+      "roman": "shah",
+      "pa": "شاہ، مالک"
     },
     "کھچاں": {
       "en": "attractions, pulls",
       "pos": "noun",
       "roman": "khicchāṅ",
-      "base": "کھچ"
+      "base": "کھچ",
+      "pa": "کھچاں، کششاں"
     },
     "والے": {
       "en": "possessing, of",
       "pos": "adjective",
       "roman": "vāle",
-      "base": "والا"
+      "base": "والا",
+      "pa": "والے"
     },
     "تساں": {
       "en": "you (agent)",
       "pos": "pronoun",
-      "roman": "tusāṅ"
+      "roman": "tusāṅ",
+      "pa": "تسیں"
     },
     "سک": {
       "en": "longing",
       "pos": "noun",
-      "roman": "sikk"
+      "roman": "sikk",
+      "pa": "سِک، تانگھ"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "سیتی": {
       "en": "stitched (into)",
       "pos": "verb",
       "roman": "sītī",
       "base": "سینا",
-      "note": "Uncertain: read as sītī 'stitched'; could be archaic setī 'with'."
+      "note": "Uncertain: read as sītī 'stitched'; could be archaic setī 'with'.",
+      "pa": "سیتی، سی دتی",
+      "note_pa": "پکا نہیں: سیتی یعنی سیتی گئی؛ پرانا لفظ سیتی یعنی نال وی ہو سکدا اے"
     }
   }
 }

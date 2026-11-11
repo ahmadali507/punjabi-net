@@ -19,19 +19,23 @@ bibliography:
   - title: "Kafis"
     title_pa: کافیاں
     note: "His main body of work."
+    note_pa: "اوہناں دی شاعری دا وڈا حصہ۔"
   - title: "Dohre"
     title_pa: دوہڑے
   - title: "Baran Maah"
     title_pa: بارانماہ
     note: "A poem on the twelve months."
+    note_pa: "بارہ مہینیاں بارے نظم۔"
   - title: "Athwara"
     title_pa: اٹھوارا
     note: "A poem on the days of the week."
+    note_pa: "ہفتے دے دناں بارے نظم۔"
   - title: "Gandhan"
     title_pa: گنڈھاں
   - title: "Siharfis"
     title_pa: سیہرفیاں
     note: "Acrostic poems on the letters of the alphabet."
+    note_pa: "ابجد دے حرفاں دی ترتیب نال لکھیاں نظماں۔"
 bio_sources:
   - book: "Wikipedia: Bulleh Shah"
     url: "https://en.wikipedia.org/wiki/Bulleh_Shah"
@@ -43,6 +47,15 @@ bio_sources:
     editor: Lajwanti Rama Krishna
     publisher: Oxford University Press
     year: 1938
+bio_short_pa: "قصور دے صوفی شاعر تے لہور دے شاہ عنایت قادری دے مرید، جنہاں دیاں کافیاں ذات پات، رسماں تے مذہبی اختیار اُتے سوال چُکدیاں نیں۔"
+region_pa: "اُچ؛ مگروں قصور، پنجاب"
+portrait_caption_pa: "لتھو چھاپ، انیہویں صدی دا اخیر: مگروں بنائی گئی تصویر، جیوندے جی دی نئیں۔"
+bio_pa: |
+  بلھے شاہ، جنہاں دا اصل ناں عام طور تے عبداللہ شاہ لکھیا جاندا اے، ۱۶۸۰ دے نیڑے تیڑے اُچ وچ اک سید ٹبر وچ جمے۔ اوہناں دے پیو، شاہ محمد درویش، مگروں ٹبر نوں قصور دے نیڑے پانڈوکے لے گئے۔ قصور اوہ تھاں اے جتھے بلھے شاہ نے اپنی حیاتی دا بہتا حصہ گزاریا تے جتھے اوہناں دا دربار اے۔ بہتے ذریعے اوہناں دی وفات ۱۷۵۷ دسدے نیں؛ کرسٹوفر شیکل ۱۷۵۸ دسدا اے۔
+
+  اوہ لہور دے شاہ عنایت قادری دے مرید بنے، جو ارائیں ذات دے سن۔ اپنے سید ٹبر توں نیویں ذات منے جان والے بندے نوں استاد بنان اُتے اوہناں دے رشتے دار ناراض ہو گئے، تے ایہہ واقعہ اوہناں دی شاعری وچ تھاں تھاں ملدا اے۔ آکھیا جاندا اے پئی مقامی مولویاں نے اوہناں نوں شہر دے اندر دفن نہ ہون دتا، تے مگروں قصور اوہناں دی قبر دے آلے دوالے وسدا گیا۔
+
+  اوہناں دیاں کافیاں اک ٹیک اُتے بنے نکے گائے جان والے گیت نیں۔ ایہہ رسماں، کتابی علم تے مولویاں دے اختیار دا مخول اڈاندیاں نیں، تے مڑ مڑ آپے دے سوال ول پرتدیاں نیں۔ اوہناں دوہڑے، اک بارانماہ، اک اٹھوارا، گنڈھاں تے سیہرفیاں وی چھڈیاں۔
 ---
 
 Bulleh Shah, whose given name is usually recorded as Abdullah Shah, was born around 1680 at Uch into a Sayyid family. His father, Shah Muhammad Darwaish, later moved the family to Pandoke, near Kasur. Kasur is where Bulleh Shah spent most of his life and where his shrine stands. Most sources give his death as 1757; Christopher Shackle gives 1758.

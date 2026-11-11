@@ -6,193 +6,229 @@
       "en": "friends",
       "pos": "noun",
       "roman": "yārāṅ",
-      "base": "یار"
+      "base": "یار",
+      "pa": "یاراں، سجناں"
     },
     "اساں": {
       "en": "us; me",
       "pos": "pronoun",
-      "roman": "asāṅ"
+      "roman": "asāṅ",
+      "pa": "سانوں، مینوں"
     },
     "نوں": {
       "en": "to",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "نوں، کرم دا نشان"
     },
     "آن": {
       "en": "came and",
       "pos": "verb",
       "roman": "ān",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آ کے"
     },
     "سوال": {
       "en": "request",
       "pos": "noun",
-      "roman": "savāl"
+      "roman": "savāl",
+      "pa": "عرض، فرمائش"
     },
     "کیتا": {
       "en": "made",
       "pos": "verb",
       "roman": "kītā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کیتا"
     },
     "عشق": {
       "en": "love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق، پیار"
     },
     "ہیر": {
       "en": "Heer, heroine of the qissa",
       "pos": "proper noun",
-      "roman": "Hīr"
+      "roman": "Hīr",
+      "pa": "ہیر، قصے دی نائکا"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "نواں": {
       "en": "new; anew",
       "pos": "adjective",
-      "roman": "navāṅ"
+      "roman": "navāṅ",
+      "pa": "نواں، نویں سرے"
     },
     "بنائے": {
       "en": "compose",
       "pos": "verb",
       "roman": "banāe",
-      "base": "بنانا"
+      "base": "بنانا",
+      "pa": "بنائیے، جوڑئیے"
     },
     "جی": {
       "en": "indeed (respectful)",
       "pos": "particle",
-      "roman": "jī"
+      "roman": "jī",
+      "pa": "جی (ادب دا بول)"
     },
     "ایس": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "es"
+      "roman": "es",
+      "pa": "ایس، اس"
     },
     "پریم": {
       "en": "love",
       "pos": "noun",
-      "roman": "prem"
+      "roman": "prem",
+      "pa": "پریم، پیار"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "جھوک": {
       "en": "abode; herders' settlement",
       "pos": "noun",
-      "roman": "jhok"
+      "roman": "jhok",
+      "pa": "جھوک، ڈیرا، واہن"
     },
     "سبھ": {
       "en": "whole; all",
       "pos": "adjective",
-      "roman": "sabh"
+      "roman": "sabh",
+      "pa": "سارا"
     },
     "قصہ": {
       "en": "tale",
       "pos": "noun",
-      "roman": "qissā"
+      "roman": "qissā",
+      "pa": "قصہ، کہانی"
     },
     "ڈھب": {
       "en": "manner; style",
       "pos": "noun",
-      "roman": "ḍhab"
+      "roman": "ḍhab",
+      "pa": "ڈھنگ، طریقہ"
     },
     "سوہنے": {
       "en": "beautiful",
       "pos": "adjective",
       "roman": "sohṇe",
-      "base": "سوہنا"
+      "base": "سوہنا",
+      "pa": "سوہنے"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "سنائیے": {
       "en": "let us tell",
       "pos": "verb",
       "roman": "suṇāīe",
-      "base": "سنانا"
+      "base": "سنانا",
+      "pa": "سنائیے"
     },
     "عجب": {
       "en": "wondrous",
       "pos": "adjective",
-      "roman": "ajab"
+      "roman": "ajab",
+      "pa": "عجیب، نرالا"
     },
     "بہار": {
       "en": "splendour (lit. spring)",
       "pos": "noun",
-      "roman": "bahār"
+      "roman": "bahār",
+      "pa": "رونق، بہار"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دے (سمبندھ دا نشان)"
     },
     "شعر": {
       "en": "verses",
       "pos": "noun",
-      "roman": "shiar"
+      "roman": "shiar",
+      "pa": "شعر"
     },
     "کرکے": {
       "en": "composing",
       "pos": "verb",
       "roman": "karke",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کہہ کے، جوڑ کے"
     },
     "رانجھے": {
       "en": "Ranjha, hero of the qissa",
       "pos": "proper noun",
       "roman": "Rāñjhe",
-      "base": "رانجھا"
+      "base": "رانجھا",
+      "pa": "رانجھا، قصے دا نائک"
     },
     "میل": {
       "en": "union",
       "pos": "noun",
-      "roman": "mel"
+      "roman": "mel",
+      "pa": "میل، ملاپ"
     },
     "ملائیے": {
       "en": "let us bring about",
       "pos": "verb",
       "roman": "milāīe",
-      "base": "ملانا"
+      "base": "ملانا",
+      "pa": "کرائیے، ملائیے"
     },
     "مجالساں": {
       "en": "gatherings",
       "pos": "noun",
       "roman": "majlisāṅ",
-      "base": "مجلس"
+      "base": "مجلس",
+      "pa": "مجلساں، بیٹھکاں"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "بہہ": {
       "en": "sitting",
       "pos": "verb",
       "roman": "bahi",
-      "base": "بہنا"
+      "base": "بہنا",
+      "pa": "بہہ کے"
     },
     "کے": {
       "en": "having (conjunctive)",
       "pos": "particle",
-      "roman": "ke"
+      "roman": "ke",
+      "pa": "کر کے (پچھلا کم)"
     },
     "مزا": {
       "en": "delight; relish",
       "pos": "noun",
-      "roman": "mazā"
+      "roman": "mazā",
+      "pa": "مزا، سواد"
     },
     "پائیے": {
       "en": "let us enjoy",
       "pos": "verb",
       "roman": "pāīe",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پائیے، مانئیے"
     }
   }
 }

@@ -6,75 +6,89 @@
       "en": "dry; plain",
       "pos": "adjective",
       "roman": "rukkhī",
-      "base": "رکھا"
+      "base": "رکھا",
+      "pa": "رُکھی، بنا گھیو"
     },
     "سکھی": {
       "en": "dry; simple",
       "pos": "adjective",
       "roman": "sukkhī",
       "base": "سکا",
-      "note": "rukkhī sukkhī: plain, unbuttered bread."
+      "note": "rukkhī sukkhī: plain, unbuttered bread.",
+      "pa": "سُکی، سادی",
+      "note_pa": "رکھی سکھی: سادی، بنا گھیو روٹی"
     },
     "کھا": {
       "en": "eat",
       "pos": "verb",
       "roman": "khā",
-      "base": "کھانا"
+      "base": "کھانا",
+      "pa": "کھا"
     },
     "کے": {
       "en": "having (done)",
       "pos": "particle",
-      "roman": "ke"
+      "roman": "ke",
+      "pa": "کے، کر کے"
     },
     "ٹھنڈا": {
       "en": "cold",
       "pos": "adjective",
-      "roman": "ṭhanḍā"
+      "roman": "ṭhanḍā",
+      "pa": "ٹھنڈا"
     },
     "پانی": {
       "en": "water",
       "pos": "noun",
-      "roman": "pāṇī"
+      "roman": "pāṇī",
+      "pa": "پانی"
     },
     "پی": {
       "en": "drink",
       "pos": "verb",
       "roman": "pī",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پی"
     },
     "دیکھ": {
       "en": "seeing",
       "pos": "verb",
       "roman": "dekh",
-      "base": "دیکھنا"
+      "base": "دیکھنا",
+      "pa": "ویکھ کے"
     },
     "پرائی": {
       "en": "another's",
       "pos": "adjective",
       "roman": "parāī",
-      "base": "پرایا"
+      "base": "پرایا",
+      "pa": "پرائی، دوجے دی"
     },
     "چوپڑی": {
       "en": "buttered (bread)",
       "pos": "adjective",
       "roman": "choparī",
-      "base": "چوپڑنا"
+      "base": "چوپڑنا",
+      "pa": "چوپڑی، گھیو لگی روٹی"
     },
     "نہ": {
       "en": "don't",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ"
     },
     "ترسائیں": {
       "en": "make (it) crave",
       "pos": "verb",
       "roman": "tarsāīṅ",
-      "base": "ترساونا"
+      "base": "ترساونا",
+      "pa": "ترساویں، للچاویں"
     },
     "جی": {
       "en": "heart; soul",
       "pos": "noun",
-      "roman": "jī"
+      "roman": "jī",
+      "pa": "جی، دل"
     }
   }
 }

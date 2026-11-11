@@ -5,148 +5,179 @@
     "عاشق": {
       "en": "a lover",
       "pos": "noun",
-      "roman": "āshiq"
+      "roman": "āshiq",
+      "pa": "عاشق، پریمی"
     },
     "ہوویں": {
       "en": "you be",
       "pos": "verb",
       "roman": "hoveṅ",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہوویں، بنیں"
     },
     "تاں": {
       "en": "then",
       "pos": "conjunction",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، تد"
     },
     "عشق": {
       "en": "love",
       "pos": "noun",
       "roman": "ishq",
-      "note": "Sufi term: consuming love for God"
+      "note": "Sufi term: consuming love for God",
+      "pa": "عشق، پیار",
+      "note_pa": "صوفی لفظ: رب لئی ساڑ دین والا عشق"
     },
     "کماویں": {
       "en": "practise (lit. earn)",
       "pos": "verb",
       "roman": "kamāveṅ",
-      "base": "کماونا"
+      "base": "کماونا",
+      "pa": "کماویں، کریں"
     },
     "راہ": {
       "en": "path, way",
       "pos": "noun",
-      "roman": "rāh"
+      "roman": "rāh",
+      "pa": "راہ، رستہ"
     },
     "سوئی": {
       "en": "needle",
       "pos": "noun",
-      "roman": "sūī"
+      "roman": "sūī",
+      "pa": "سوئی"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "نکا": {
       "en": "eye (of a needle)",
       "pos": "noun",
-      "roman": "nakkā"
+      "roman": "nakkā",
+      "pa": "نکا، سوئی دی موری"
     },
     "دھاگا": {
       "en": "thread",
       "pos": "noun",
       "roman": "dhāgā",
-      "note": "Only one made thin as a thread can pass"
+      "note": "Only one made thin as a thread can pass",
+      "pa": "دھاگا، دھاگہ",
+      "note_pa": "جیہڑا دھاگے وانگ پتلا ہووے اوہی لنگھ سکدا اے"
     },
     "جاویں": {
       "en": "you may pass through",
       "pos": "verb",
       "roman": "jāveṅ",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "لنگھ سکیں"
     },
     "باہر": {
       "en": "outside",
       "pos": "adverb",
-      "roman": "bāhar"
+      "roman": "bāhar",
+      "pa": "باہروں"
     },
     "پاک": {
       "en": "pure",
       "pos": "adjective",
-      "roman": "pāk"
+      "roman": "pāk",
+      "pa": "پاک، صاف"
     },
     "اندر": {
       "en": "inside",
       "pos": "adverb",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندروں"
     },
     "آلودہ": {
       "en": "defiled",
       "pos": "adjective",
-      "roman": "ālūdā"
+      "roman": "ālūdā",
+      "pa": "گندا، میلا"
     },
     "کیا": {
       "en": "why (rhetorical)",
       "pos": "pronoun",
-      "roman": "kiā"
+      "roman": "kiā",
+      "pa": "کیوں، کیہ"
     },
     "توں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tūṅ"
+      "roman": "tūṅ",
+      "pa": "توں"
     },
     "شیخ": {
       "en": "shaikh, religious elder",
       "pos": "noun",
-      "roman": "shaix"
+      "roman": "shaix",
+      "pa": "شیخ، مذہبی وڈا"
     },
     "کہاویں": {
       "en": "get yourself called",
       "pos": "verb",
       "roman": "kahāveṅ",
-      "base": "کہاونا"
+      "base": "کہاونا",
+      "pa": "اکھواؤندا ایں"
     },
     "کہے": {
       "en": "says",
       "pos": "verb",
       "roman": "kahe",
-      "base": "کہنا"
+      "base": "کہنا",
+      "pa": "آکھے، کہندا اے"
     },
     "حسین": {
       "en": "Hussain (the poet names himself)",
       "pos": "proper noun",
       "roman": "Husain",
-      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore",
+      "pa": "حسین، شاعر دا اپنا ناں",
+      "note_pa": "شاہ حسین (۱۵۳۸–۱۵۹۹)، لاہور دا صوفی شاعر"
     },
     "جے": {
       "en": "if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، اگر"
     },
     "فارغ": {
       "en": "free (of self and world)",
       "pos": "adjective",
-      "roman": "fāriġ"
+      "roman": "fāriġ",
+      "pa": "آزاد، ویہلا (آپے تے جگ توں)"
     },
     "تھیویں": {
       "en": "you become",
       "pos": "verb",
       "roman": "thīveṅ",
-      "base": "تھیونا"
+      "base": "تھیونا",
+      "pa": "ہو جاویں"
     },
     "خاص": {
       "en": "true, special",
       "pos": "adjective",
-      "roman": "xās"
+      "roman": "xās",
+      "pa": "خاص، سچا"
     },
     "مراقبہ": {
       "en": "contemplation (muraqaba)",
       "pos": "noun",
       "roman": "murāqabā",
-      "note": "Sufi term: meditative watchfulness of the heart"
+      "note": "Sufi term: meditative watchfulness of the heart",
+      "pa": "مراقبہ، دھیان",
+      "note_pa": "صوفی لفظ: دل دی دھیان والی نگہبانی"
     },
     "پاویں": {
       "en": "you attain",
       "pos": "verb",
       "roman": "pāveṅ",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پا لویں"
     }
   }
 }

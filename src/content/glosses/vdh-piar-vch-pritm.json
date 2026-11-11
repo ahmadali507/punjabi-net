@@ -6,162 +6,193 @@
       "en": "longing",
       "pos": "verb",
       "roman": "sikkdā",
-      "base": "سکنا"
+      "base": "سکنا",
+      "pa": "سکدا، تانگھدا"
     },
     "وچھا": {
       "en": "calf",
       "pos": "noun",
-      "roman": "vacchhā"
+      "roman": "vacchhā",
+      "pa": "وچھا، گاں دا بچہ"
     },
     "چھٹیا": {
       "en": "broke loose",
       "pos": "verb",
       "roman": "chhuṭṭiā",
-      "base": "چھٹنا"
+      "base": "چھٹنا",
+      "pa": "چھٹ گیا، کھل گیا"
     },
     "دھا": {
       "en": "running, rushing",
       "pos": "verb",
       "roman": "dhā",
-      "base": "دھانا"
+      "base": "دھانا",
+      "pa": "دوڑ کے"
     },
     "امی": {
       "en": "mother",
       "pos": "noun",
-      "roman": "ammī"
+      "roman": "ammī",
+      "pa": "ماں"
     },
     "ول": {
       "en": "towards",
       "pos": "postposition",
-      "roman": "val"
+      "roman": "val",
+      "pa": "ول، پاسے"
     },
     "آیا": {
       "en": "came",
       "pos": "verb",
       "roman": "āiā",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آیا"
     },
     "امیں": {
       "en": "the mother (agent)",
       "pos": "noun",
       "roman": "ammīṅ",
-      "base": "امی"
+      "base": "امی",
+      "pa": "ماں نے"
     },
     "اس": {
       "en": "it, him",
       "pos": "pronoun",
-      "roman": "us"
+      "roman": "us",
+      "pa": "اوہ، اوہنوں"
     },
     "توں": {
       "en": "than",
       "pos": "postposition",
-      "roman": "toṅ"
+      "roman": "toṅ",
+      "pa": "توں"
     },
     "ودھ": {
       "en": "more",
       "pos": "adverb",
-      "roman": "vadh"
+      "roman": "vadh",
+      "pa": "ودھ، زیادہ"
     },
     "پیارے": {
       "en": "in love; loving",
       "pos": "noun",
       "roman": "piāre",
-      "base": "پیار"
+      "base": "پیار",
+      "pa": "پیار وچ"
     },
     "ترٹھ": {
       "en": "delighted, gracious",
       "pos": "adjective",
       "roman": "truṭṭh",
-      "base": "ترٹھنا"
+      "base": "ترٹھنا",
+      "pa": "خوش ہو کے، تروٹھ کے"
     },
     "لاڈ": {
       "en": "fondling, affection",
       "pos": "noun",
-      "roman": "lāḍ"
+      "roman": "lāḍ",
+      "pa": "لاڈ، پیار"
     },
     "لڈایا": {
       "en": "lavished (fondled)",
       "pos": "verb",
       "roman": "laḍāiā",
-      "base": "لڈانا"
+      "base": "لڈانا",
+      "pa": "لڈایا، پیار کیتا"
     },
     "سکدی": {
       "en": "longing",
       "pos": "verb",
       "roman": "sikkdī",
-      "base": "سکنا"
+      "base": "سکنا",
+      "pa": "سکدی، تانگھدی"
     },
     "ندی": {
       "en": "river",
       "pos": "noun",
-      "roman": "nadī"
+      "roman": "nadī",
+      "pa": "ندی، دریا"
     },
     "جال": {
       "en": "enduring",
       "pos": "verb",
       "roman": "jāl",
       "base": "جالنا",
-      "note": "jafar jālnā: to endure hardships."
+      "note": "jafar jālnā: to endure hardships.",
+      "pa": "جال کے، جھل کے",
+      "note_pa": "جفر جالنا: اوکھیاں جھلنا"
     },
     "جپھراں": {
       "en": "hardships",
       "pos": "noun",
       "roman": "jafrāṅ",
       "base": "جفر",
-      "note": "Odd spelling for جفراں."
+      "note": "Odd spelling for جفراں.",
+      "pa": "جفر، اوکھیاں",
+      "note_pa": "جفراں دا وکھرا جوڑ"
     },
     "جد": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jad"
+      "roman": "jad",
+      "pa": "جدوں"
     },
     "شہہ": {
       "en": "great, king",
       "pos": "adjective",
-      "roman": "shah"
+      "roman": "shah",
+      "pa": "وڈا، شاہ"
     },
     "ساگر": {
       "en": "ocean",
       "pos": "noun",
-      "roman": "sāgar"
+      "roman": "sāgar",
+      "pa": "سمندر"
     },
     "پہنچی": {
       "en": "reached",
       "pos": "verb",
       "roman": "pahuṅchī",
-      "base": "پہنچنا"
+      "base": "پہنچنا",
+      "pa": "اپڑی، پہنچی"
     },
     "پیار": {
       "en": "love",
       "pos": "noun",
-      "roman": "piār"
+      "roman": "piār",
+      "pa": "پیار"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "پریتم": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "prītam"
+      "roman": "prītam",
+      "pa": "پریتم، محبوب"
     },
     "ملن": {
       "en": "to meet",
       "pos": "verb",
       "roman": "milaṇ",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملن"
     },
     "اگاہاں": {
       "en": "forward",
       "pos": "adverb",
-      "roman": "agāhāṅ"
+      "roman": "agāhāṅ",
+      "pa": "اگانہہ، اگے"
     },
     "دھایا": {
       "en": "rushed",
       "pos": "verb",
       "roman": "dhāiā",
-      "base": "دھانا"
+      "base": "دھانا",
+      "pa": "دوڑیا"
     }
   }
 }

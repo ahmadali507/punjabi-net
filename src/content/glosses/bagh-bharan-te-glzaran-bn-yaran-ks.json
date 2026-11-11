@@ -5,168 +5,202 @@
     "باغ": {
       "en": "gardens",
       "pos": "noun",
-      "roman": "bāġ"
+      "roman": "bāġ",
+      "pa": "باغ"
     },
     "بہاراں": {
       "en": "springtimes; blossoms",
       "pos": "noun",
       "roman": "bahārāṅ",
-      "base": "بہار"
+      "base": "بہار",
+      "pa": "بہاراں، کھڑے پھل"
     },
     "تے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "گلزاراں": {
       "en": "rose gardens; flower beds",
       "pos": "noun",
       "roman": "gulzārāṅ",
-      "base": "گلزار"
+      "base": "گلزار",
+      "pa": "گلزار، پھلاں دے باغ"
     },
     "بن": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bin"
+      "roman": "bin",
+      "pa": "بنا، بغیر"
     },
     "یاراں": {
       "en": "friends; the beloved",
       "pos": "noun",
       "roman": "yārāṅ",
-      "base": "یار"
+      "base": "یار",
+      "pa": "یاراں، محبوب"
     },
     "کس": {
       "en": "what; of what",
       "pos": "pronoun",
-      "roman": "kis"
+      "roman": "kis",
+      "pa": "کس، کیہڑے"
     },
     "کاری": {
       "en": "use; worth",
       "pos": "noun",
       "roman": "kārī",
-      "note": "\"Kis kari\": of what use?"
+      "note": "\"Kis kari\": of what use?",
+      "pa": "کم، فیدے",
+      "note_pa": "\"کس کاری\": کیہڑے کم دے؟"
     },
     "یار": {
       "en": "the beloved; friend",
       "pos": "noun",
-      "roman": "yār"
+      "roman": "yār",
+      "pa": "یار، محبوب"
     },
     "ملے": {
       "en": "should meet; if (he) meets",
       "pos": "verb",
       "roman": "mile",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملے، جے مل جائے"
     },
     "دکھ": {
       "en": "sorrows",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ"
     },
     "جان": {
       "en": "go (away)",
       "pos": "verb",
       "roman": "jāṇ",
       "base": "جانا",
-      "note": "Thousands of sorrows would leave."
+      "note": "Thousands of sorrows would leave.",
+      "pa": "جان، مک جان",
+      "note_pa": "ہزاراں دکھ مک جان"
     },
     "ہزاراں": {
       "en": "thousands",
       "pos": "numeral",
       "roman": "hazārāṅ",
-      "base": "ہزار"
+      "base": "ہزار",
+      "pa": "ہزاراں"
     },
     "شکر": {
       "en": "thanks",
       "pos": "noun",
-      "roman": "shukar"
+      "roman": "shukar",
+      "pa": "شکر"
     },
     "کہاں": {
       "en": "I would say",
       "pos": "verb",
       "roman": "kahāṅ",
-      "base": "کہنا"
+      "base": "کہنا",
+      "pa": "آکھاں"
     },
     "لکھ": {
       "en": "a hundred thousand",
       "pos": "numeral",
-      "roman": "lakkh"
+      "roman": "lakkh",
+      "pa": "لکھ"
     },
     "واری": {
       "en": "times",
       "pos": "noun",
-      "roman": "vārī"
+      "roman": "vārī",
+      "pa": "وار، واری"
     },
     "اچی": {
       "en": "high",
       "pos": "adjective",
       "roman": "uchchī",
-      "base": "اچا"
+      "base": "اچا",
+      "pa": "اچی"
     },
     "جائی": {
       "en": "place",
       "pos": "noun",
       "roman": "jāī",
       "base": "جا",
-      "note": "\"Uchi jai\": in too high a place, above one's station."
+      "note": "\"Uchi jai\": in too high a place, above one's station.",
+      "pa": "جگہ، تھاں",
+      "note_pa": "\"اچی جائی\": اپنی تھاں توں بہت اچی جگہ"
     },
     "نینہں": {
       "en": "love",
       "pos": "noun",
-      "roman": "nehuṅ"
+      "roman": "nehuṅ",
+      "pa": "نیہہ، پیار"
     },
     "لگایا": {
       "en": "I attached; fell in",
       "pos": "verb",
       "roman": "lagāiā",
-      "base": "لگانا"
+      "base": "لگانا",
+      "pa": "لایا"
     },
     "بنی": {
       "en": "came upon; befell",
       "pos": "verb",
       "roman": "baṇī",
-      "base": "بننا"
+      "base": "بننا",
+      "pa": "بنی، آ پئی"
     },
     "مصیبت": {
       "en": "calamity; hardship",
       "pos": "noun",
-      "roman": "musībat"
+      "roman": "musībat",
+      "pa": "مصیبت، اوکھ"
     },
     "بھاری": {
       "en": "heavy",
       "pos": "adjective",
-      "roman": "bhārī"
+      "roman": "bhārī",
+      "pa": "بھاری"
     },
     "باجھ": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bājh"
+      "roman": "bājh",
+      "pa": "بنا، بغیر"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "میاں محمد، شاعر آپ"
     },
     "بخشا": {
       "en": "Bakhsh (O Muhammad Bakhsh)",
       "pos": "proper noun",
       "roman": "Baxshā",
-      "note": "Vocative of the poet's name, Mian Muhammad Bakhsh."
+      "note": "Vocative of the poet's name, Mian Muhammad Bakhsh.",
+      "pa": "او محمد بخشا",
+      "note_pa": "شاعر دے ناں دا سد والا روپ، میاں محمد بخش"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کون"
     },
     "کرے": {
       "en": "will do; would show",
       "pos": "verb",
       "roman": "kare",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کرے"
     },
     "غمخاری": {
       "en": "sympathy; consolation",
       "pos": "noun",
-      "roman": "ġamxārī"
+      "roman": "ġamxārī",
+      "pa": "غمخواری، دلاسا"
     }
   }
 }

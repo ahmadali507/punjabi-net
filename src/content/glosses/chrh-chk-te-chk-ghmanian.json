@@ -6,334 +6,400 @@
       "en": "climbing, mounting",
       "pos": "verb",
       "roman": "chaṛh",
-      "base": "چڑھنا"
+      "base": "چڑھنا",
+      "pa": "چڑھ کے"
     },
     "چک": {
       "en": "wheel, whirling circle",
       "pos": "noun",
       "roman": "chakk",
-      "note": "Uncertain: wheel (as a potter's or spinning wheel); the speaker whirls in a dance."
+      "note": "Uncertain: wheel (as a potter's or spinning wheel); the speaker whirls in a dance.",
+      "pa": "چک، گھمدا پہیا",
+      "note_pa": "پکا نہیں: چک (گھمار دا یا چرخے دا پہیا)؛ بولن والی نچدیاں گھمدی اے"
     },
     "تے": {
       "en": "on; and",
       "pos": "postposition",
-      "roman": "te"
+      "roman": "te",
+      "pa": "اتے؛ تے"
     },
     "گھمانیاں": {
       "en": "I spin",
       "pos": "verb",
       "roman": "ghumānīāṅ",
-      "base": "گھمانا"
+      "base": "گھمانا",
+      "pa": "گھماندی آں"
     },
     "مہینوال": {
       "en": "Mahinwal, Sohni's lover",
       "pos": "proper noun",
       "roman": "Mahīṅvāl",
-      "note": "Hero of Sohni Mahinwal; here a figure for the beloved."
+      "note": "Hero of Sohni Mahinwal; here a figure for the beloved.",
+      "pa": "مہینوال، سوہنی دا عاشق",
+      "note_pa": "سوہنی مہینوال دا نائک؛ ایتھے محبوب دا روپ"
     },
     "توں": {
       "en": "to; for (sacrifice)",
       "pos": "postposition",
-      "roman": "toṅ"
+      "roman": "toṅ",
+      "pa": "توں، اتوں (قربان)"
     },
     "صدقے": {
       "en": "sacrificed (devoted)",
       "pos": "noun",
       "roman": "sadqe",
-      "base": "صدقہ"
+      "base": "صدقہ",
+      "pa": "قربان، واری"
     },
     "پئی": {
       "en": "(continuous: am being)",
       "pos": "verb",
       "roman": "paī",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پئی (جاری کم دا نشان)"
     },
     "جانیاں": {
       "en": "I go; I am (being)",
       "pos": "verb",
       "roman": "jānīāṅ",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جاندی آں"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "تاں": {
       "en": "indeed",
       "pos": "particle",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، تے سہی"
     },
     "بدلاں": {
       "en": "clouds",
       "pos": "noun",
       "roman": "baddlāṅ",
-      "base": "بدل"
+      "base": "بدل",
+      "pa": "بدلاں، بادلاں"
     },
     "نوں": {
       "en": "(object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "فرش": {
       "en": "floor",
       "pos": "noun",
-      "roman": "farsh"
+      "roman": "farsh",
+      "pa": "فرش، تھلا"
     },
     "بنانیاں": {
       "en": "I make",
       "pos": "verb",
       "roman": "banānīāṅ",
-      "base": "بنانا"
+      "base": "بنانا",
+      "pa": "بناندی آں"
     },
     "اتے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "ate"
+      "roman": "ate",
+      "pa": "اتے، تے"
     },
     "ناچ": {
       "en": "dance",
       "pos": "noun",
-      "roman": "nāch"
+      "roman": "nāch",
+      "pa": "نچ"
     },
     "رنگیلڑے": {
       "en": "colourful, gay",
       "pos": "adjective",
       "roman": "raṅgīlṛe",
-      "base": "رنگیلا"
+      "base": "رنگیلا",
+      "pa": "رنگیلے، رنگاں بھرے"
     },
     "پانیاں": {
       "en": "I perform (dance)",
       "pos": "verb",
       "roman": "pānīāṅ",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پاندی آں، کردی آں"
     },
     "باجی": {
       "en": "play, music",
       "pos": "noun",
       "roman": "bājī",
-      "note": "Uncertain: music or a game played with the lightning."
+      "note": "Uncertain: music or a game played with the lightning.",
+      "pa": "بازی، کھیڈ؛ واجا",
+      "note_pa": "پکا نہیں: بجلی نال وجایا واجا یا کھیڈی کھیڈ"
     },
     "بجلی": {
       "en": "lightning",
       "pos": "noun",
-      "roman": "bijlī"
+      "roman": "bijlī",
+      "pa": "اسمانی بجلی"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
       "roman": "de",
-      "base": "دا"
+      "base": "دا",
+      "pa": "دے (سمبندھ دا نشان)"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "لگانیاں": {
       "en": "I set up, play",
       "pos": "verb",
       "roman": "lagānīāṅ",
-      "base": "لگانا"
+      "base": "لگانا",
+      "pa": "لاندی آں"
     },
     "کھڑ": {
       "en": "blooming (merrily)",
       "pos": "adverb",
       "roman": "khiṛ",
-      "note": "khiṛ khiṛ hassṇā: to laugh heartily."
+      "note": "khiṛ khiṛ hassṇā: to laugh heartily.",
+      "pa": "کھڑ کھڑ، کھل کے",
+      "note_pa": "کھڑ کھڑ ہسنا: کھل کے ہسنا"
     },
     "ہسنیاں": {
       "en": "I laugh",
       "pos": "verb",
       "roman": "hassnīāṅ",
-      "base": "ہسنا"
+      "base": "ہسنا",
+      "pa": "ہسدی آں"
     },
     "اونوں": {
       "en": "him",
       "pos": "pronoun",
       "roman": "ūnūṅ",
-      "note": "Odd spelling for اوہنوں / اس نوں."
+      "note": "Odd spelling for اوہنوں / اس نوں.",
+      "pa": "اوہنوں",
+      "note_pa": "اوہنوں / اس نوں دا وکھرا جوڑ"
     },
     "شرمانیاں": {
       "en": "I make shy",
       "pos": "verb",
       "roman": "sharmānīāṅ",
-      "base": "شرمانا"
+      "base": "شرمانا",
+      "pa": "شرماندی آں"
     },
     "تارے": {
       "en": "stars",
       "pos": "noun",
       "roman": "tāre",
-      "base": "تارا"
+      "base": "تارا",
+      "pa": "تارے"
     },
     "کیساں": {
       "en": "tresses, hair",
       "pos": "noun",
       "roman": "kesāṅ",
-      "base": "کیس"
+      "base": "کیس",
+      "pa": "وال، کیس"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "گندانیاں": {
       "en": "I braid, thread",
       "pos": "verb",
       "roman": "gundānīāṅ",
-      "base": "گندنا"
+      "base": "گندنا",
+      "pa": "گندی آں، پروندی آں"
     },
     "چند": {
       "en": "moon",
       "pos": "noun",
-      "roman": "chann"
+      "roman": "chann",
+      "pa": "چن"
     },
     "متھے": {
       "en": "forehead",
       "pos": "noun",
       "roman": "matthe",
-      "base": "متھا"
+      "base": "متھا",
+      "pa": "متھے"
     },
     "چا": {
       "en": "lifting, up",
       "pos": "verb",
       "roman": "chā",
-      "base": "چانا"
+      "base": "چانا",
+      "pa": "چک کے"
     },
     "لٹکانیاں": {
       "en": "I hang",
       "pos": "verb",
       "roman": "laṭkānīāṅ",
-      "base": "لٹکانا"
+      "base": "لٹکانا",
+      "pa": "لٹکاندی آں"
     },
     "نیلے": {
       "en": "blue",
       "pos": "adjective",
       "roman": "nīle",
-      "base": "نیلا"
+      "base": "نیلا",
+      "pa": "نیلے"
     },
     "عرشاں": {
       "en": "skies, heavens",
       "pos": "noun",
       "roman": "arshāṅ",
-      "base": "عرش"
+      "base": "عرش",
+      "pa": "اسماناں"
     },
     "ٹھمکدی": {
       "en": "strutting gracefully",
       "pos": "verb",
       "roman": "ṭhumakdī",
-      "base": "ٹھمکنا"
+      "base": "ٹھمکنا",
+      "pa": "ٹھمک ٹھمک ٹردی"
     },
     "مینہہ": {
       "en": "rain",
       "pos": "noun",
-      "roman": "mīṅh"
+      "roman": "mīṅh",
+      "pa": "مینہ، بارش"
     },
     "کرناں": {
       "en": "rays",
       "pos": "noun",
       "roman": "kirnāṅ",
-      "base": "کرن"
+      "base": "کرن",
+      "pa": "کرناں، شعاعواں"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "وسانیاں": {
       "en": "I shower, rain",
       "pos": "verb",
       "roman": "vasānīāṅ",
-      "base": "وسانا"
+      "base": "وسانا",
+      "pa": "وساندی آں"
     },
     "جندکنیاں": {
       "en": "drops of life",
       "pos": "noun",
-      "roman": "jind-kaṇīāṅ"
+      "roman": "jind-kaṇīāṅ",
+      "pa": "جند دیاں کنیاں، بونداں"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "لٹ": {
       "en": "plunder (freely given)",
       "pos": "noun",
-      "roman": "luṭṭ"
+      "roman": "luṭṭ",
+      "pa": "لٹ، کھلا ونڈنا"
     },
     "لٹانیاں": {
       "en": "I lavish, give away",
       "pos": "verb",
       "roman": "luṭānīāṅ",
-      "base": "لٹانا"
+      "base": "لٹانا",
+      "pa": "لٹاندی آں، ونڈدی آں"
     },
     "عرشیپینگھ": {
       "en": "rainbow",
       "pos": "noun",
       "roman": "arshī-pīṅgh",
-      "note": "Literally 'heavenly swing'."
+      "note": "Literally 'heavenly swing'.",
+      "pa": "پینگھ، ست رنگی",
+      "note_pa": "لفظی معنی \"اسمانی پینگھ\""
     },
     "کمان": {
       "en": "bow",
       "pos": "noun",
-      "roman": "kamān"
+      "roman": "kamān",
+      "pa": "کمان"
     },
     "رنگ": {
       "en": "colour",
       "pos": "noun",
-      "roman": "raṅg"
+      "roman": "raṅg",
+      "pa": "رنگ"
     },
     "روپ": {
       "en": "beauty, form",
       "pos": "noun",
-      "roman": "rūp"
+      "roman": "rūp",
+      "pa": "روپ، سوہپن"
     },
     "تیر": {
       "en": "arrows",
       "pos": "noun",
-      "roman": "tīr"
+      "roman": "tīr",
+      "pa": "تیر"
     },
     "نور": {
       "en": "light, radiance",
       "pos": "noun",
-      "roman": "nūr"
+      "roman": "nūr",
+      "pa": "نور، چانن"
     },
     "اکھیاں": {
       "en": "eyes",
       "pos": "noun",
       "roman": "akkhīāṅ",
-      "base": "اکھ"
+      "base": "اکھ",
+      "pa": "اکھاں"
     },
     "سمانیاں": {
       "en": "I pour in, absorb",
       "pos": "verb",
       "roman": "samānīāṅ",
-      "base": "سمانا"
+      "base": "سمانا",
+      "pa": "سماندی آں، سما لیندی آں"
     },
     "نورو": {
       "en": "light (upon light)",
       "pos": "noun",
       "roman": "nūro",
       "base": "نور",
-      "note": "nūro nūr: wholly light."
+      "note": "nūro nūr: wholly light.",
+      "pa": "نور ای نور",
+      "note_pa": "نورو نور: سارا نور ای نور"
     },
     "ہوندڑی": {
       "en": "becoming",
       "pos": "verb",
       "roman": "hondṛī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہوندی"
     },
     "نوریاں": {
       "en": "luminous ones",
       "pos": "noun",
       "roman": "nūrīāṅ",
-      "base": "نوری"
+      "base": "نوری",
+      "pa": "نوری، چانن والے"
     },
     "لانیاں": {
       "en": "I give, apply",
       "pos": "verb",
       "roman": "lānīāṅ",
-      "base": "لانا"
+      "base": "لانا",
+      "pa": "لاندی آں"
     }
   }
 }

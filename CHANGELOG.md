@@ -1,5 +1,21 @@
 # Changelog
 
+## Punjabi pages fully in Punjabi (2026-11-11)
+
+- **/pa now shows no English and no romanisation.** Before, proverb meanings, dictionary senses, poet bios, form
+  descriptions, sources, verification notes and the word-meaning cards were English on the Punjabi pages, and
+  the Punjabi search index (and its result snippets) mixed English and romanised text with Shahmukhi.
+- **New Punjabi content (editorial drafts, for native-speaker review):** a Punjabi meaning (`pa`, `note_pa`) for
+  all 4,996 glossed poem-words; `definition_pa` for all 553 dictionary entries; `meaning_pa` for all 159
+  proverbs; `bio_short_pa`, `bio_pa`, `region_pa`, `portrait_caption_pa` and bibliography `note_pa`/`title_pa`
+  for the 13 poets; `description_pa` and `body_pa` for the 10 forms.
+- **Fixed vocabularies** (styles, eras, proverb topics, dialects, dates such as "c. 1680" → «لگ بھگ ۱۶۸۰»,
+  source citations, portrait credits, verification notes) are rendered in Punjabi by `src/lib/pa.ts`.
+- **Search:** Punjabi pages index Shahmukhi only; field labels and the copy/share buttons are kept out of snippets.
+- **Meta:** Punjabi page titles and descriptions are Punjabi; the footer year uses Punjabi digits.
+- **Check:** `npm run pa:check [dist]` lists any built /pa page with English text (the site name and the "EN"
+  switch are allowed). Today: 863 pages, 0 with English.
+
 ## Word meanings for every word (2026-11-11)
 
 - **Every word of all 82 poems is now tappable** (4,996 distinct poem-words), like pushto.net. Each poem has a

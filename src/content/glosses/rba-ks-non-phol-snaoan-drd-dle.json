@@ -6,173 +6,207 @@
       "en": "O Lord",
       "pos": "noun",
       "roman": "rabbā",
-      "base": "رب"
+      "base": "رب",
+      "pa": "اے رب"
     },
     "کس": {
       "en": "whom",
       "pos": "pronoun",
-      "roman": "kis"
+      "roman": "kis",
+      "pa": "کس"
     },
     "نوں": {
       "en": "to",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "پھول": {
       "en": "unfolding; opening out",
       "pos": "verb",
       "roman": "phol",
-      "base": "پھولنا"
+      "base": "پھولنا",
+      "pa": "پھرول کے، کھول کے"
     },
     "سناواں": {
       "en": "shall I tell",
       "pos": "verb",
       "roman": "suṇāvāṅ",
-      "base": "سنانا"
+      "base": "سنانا",
+      "pa": "سناواں"
     },
     "درد": {
       "en": "pain",
       "pos": "noun",
-      "roman": "dard"
+      "roman": "dard",
+      "pa": "درد، پیڑ"
     },
     "دلے": {
       "en": "heart (oblique)",
       "pos": "noun",
       "roman": "dile",
-      "base": "دل"
+      "base": "دل",
+      "pa": "دل"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "سارا": {
       "en": "whole; all",
       "pos": "adjective",
-      "roman": "sārā"
+      "roman": "sārā",
+      "pa": "سارا"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کون"
     },
     "ہووے": {
       "en": "would be",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہووے"
     },
     "اج": {
       "en": "today",
       "pos": "adverb",
-      "roman": "ajj"
+      "roman": "ajj",
+      "pa": "اج"
     },
     "ساتھی": {
       "en": "companion",
       "pos": "noun",
-      "roman": "sāthī"
+      "roman": "sāthī",
+      "pa": "ساتھی، سنگی"
     },
     "میرا": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merā",
-      "base": "میں"
+      "base": "میں",
+      "pa": "میرا"
     },
     "دکھ": {
       "en": "sorrow; pain",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ، درد"
     },
     "ونڈاونہاراون": {
       "en": "sharer (one who shares)",
       "pos": "noun",
       "roman": "vanḍāvaṇhārā",
-      "note": "Uncertain: text reads \"-hārāon\"; likely \"vandavan-hara\", one who shares."
+      "note": "Uncertain: text reads \"-hārāon\"; likely \"vandavan-hara\", one who shares.",
+      "pa": "دکھ ونڈاون والا",
+      "note_pa": "پکا نہیں: متن وچ ہاراون لکھیا اے؛ شاید ونڈاونہارا، یعنی دکھ ونڈن والا"
     },
     "جس": {
       "en": "whom",
       "pos": "pronoun",
-      "roman": "jis"
+      "roman": "jis",
+      "pa": "جس"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "محبت": {
       "en": "love",
       "pos": "noun",
-      "roman": "muhabbat"
+      "roman": "muhabbat",
+      "pa": "محبت، پیار"
     },
     "لائی": {
       "en": "attached; formed",
       "pos": "verb",
       "roman": "lāī",
-      "base": "لانا"
+      "base": "لانا",
+      "pa": "لائی، پائی"
     },
     "چا": {
       "en": "took up (intensive)",
       "pos": "verb",
       "roman": "chā",
-      "base": "چانا"
+      "base": "چانا",
+      "pa": "چا، چک"
     },
     "لیا": {
       "en": "took on",
       "pos": "verb",
       "roman": "liā",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لیا"
     },
     "غمکھارا": {
       "en": "bitter grief",
       "pos": "noun",
       "roman": "ġam khārā",
-      "note": "Uncertain: \"gham\" + \"khara\" (salty, bitter); possibly \"gham-khwar\"."
+      "note": "Uncertain: \"gham\" + \"khara\" (salty, bitter); possibly \"gham-khwar\".",
+      "pa": "کوڑا غم",
+      "note_pa": "پکا نہیں: غم تے کھارا (لُونا، کوڑا)؛ شاید غم خوار"
     },
     "سو": {
       "en": "that one",
       "pos": "pronoun",
-      "roman": "so"
+      "roman": "so",
+      "pa": "اوہ"
     },
     "منہ": {
       "en": "face",
       "pos": "noun",
-      "roman": "muṅh"
+      "roman": "muṅh",
+      "pa": "منہ، مکھڑا"
     },
     "دسدا": {
       "en": "shows",
       "pos": "verb",
       "roman": "dasdā",
-      "base": "دسنا"
+      "base": "دسنا",
+      "pa": "وکھاندا"
     },
     "نہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "محمد، شاعر اپنا ناں لیندا اے"
     },
     "کی": {
       "en": "what",
       "pos": "pronoun",
-      "roman": "kī"
+      "roman": "kī",
+      "pa": "کی، کیہ"
     },
     "ہن": {
       "en": "now",
       "pos": "adverb",
-      "roman": "huṇ"
+      "roman": "huṇ",
+      "pa": "ہن"
     },
     "چارہ": {
       "en": "remedy; recourse",
       "pos": "noun",
-      "roman": "chārā"
+      "roman": "chārā",
+      "pa": "چارہ، علاج"
     }
   }
 }

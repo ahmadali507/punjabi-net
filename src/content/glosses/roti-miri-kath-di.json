@@ -5,73 +5,87 @@
     "روٹی": {
       "en": "bread",
       "pos": "noun",
-      "roman": "roṭī"
+      "roman": "roṭī",
+      "pa": "روٹی"
     },
     "میری": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merī",
-      "base": "میرا"
+      "base": "میرا",
+      "pa": "میری"
     },
     "کاٹھ": {
       "en": "wood",
       "pos": "noun",
       "roman": "kāṭh",
-      "note": "Bread 'of wood': dry, simple fare."
+      "note": "Bread 'of wood': dry, simple fare.",
+      "pa": "لکڑ",
+      "note_pa": "لکڑ دی روٹی یعنی سُکی سادی روٹی"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "لاون": {
       "en": "relish; curry",
       "pos": "noun",
-      "roman": "lāvaṇ"
+      "roman": "lāvaṇ",
+      "pa": "سالن"
     },
     "بکھ": {
       "en": "hunger",
       "pos": "noun",
-      "roman": "bhukkh"
+      "roman": "bhukkh",
+      "pa": "بھکھ"
     },
     "جنہاں": {
       "en": "those who",
       "pos": "pronoun",
-      "roman": "jinhāṅ"
+      "roman": "jinhāṅ",
+      "pa": "جنہاں"
     },
     "کھادی": {
       "en": "ate",
       "pos": "verb",
       "roman": "khādī",
-      "base": "کھانا"
+      "base": "کھانا",
+      "pa": "کھادی"
     },
     "چوپڑی": {
       "en": "buttered (bread)",
       "pos": "adjective",
       "roman": "choparī",
-      "base": "چوپڑنا"
+      "base": "چوپڑنا",
+      "pa": "گھیو لگی روٹی"
     },
     "گھنے": {
       "en": "many; great",
       "pos": "adjective",
       "roman": "ghaṇe",
-      "base": "گھنا"
+      "base": "گھنا",
+      "pa": "بہت، ڈاہڈے"
     },
     "سہن": {
       "en": "bear; endure",
       "pos": "verb",
       "roman": "sahan",
-      "base": "سہنا"
+      "base": "سہنا",
+      "pa": "سہن، جرن"
     },
     "گے": {
       "en": "will (future marker)",
       "pos": "particle",
-      "roman": "ge"
+      "roman": "ge",
+      "pa": "مستقبل دا نشان"
     },
     "دکھ": {
       "en": "sufferings",
       "pos": "noun",
-      "roman": "dukkh"
+      "roman": "dukkh",
+      "pa": "دکھ"
     }
   }
 }

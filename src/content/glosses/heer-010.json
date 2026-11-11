@@ -5,235 +5,284 @@
     "باپ": {
       "en": "father",
       "pos": "noun",
-      "roman": "bāp"
+      "roman": "bāp",
+      "pa": "پیو"
     },
     "کرے": {
       "en": "shows; does",
       "pos": "verb",
       "roman": "kare",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کردا اے"
     },
     "پیار": {
       "en": "love",
       "pos": "noun",
-      "roman": "piār"
+      "roman": "piār",
+      "pa": "پیار"
     },
     "تے": {
       "en": "but; and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "پر، تے"
     },
     "ویر": {
       "en": "brothers",
       "pos": "noun",
-      "roman": "vīr"
+      "roman": "vīr",
+      "pa": "بھرا"
     },
     "بھائی": {
       "en": "brothers",
       "pos": "noun",
       "roman": "bhāī",
-      "note": "ویر بھائی = brothers"
+      "note": "ویر بھائی = brothers",
+      "pa": "بھرا",
+      "note_pa": "ویر بھائی: بھرا"
     },
     "ڈر": {
       "en": "fear",
       "pos": "noun",
-      "roman": "ḍar"
+      "roman": "ḍar",
+      "pa": "ڈر، خوف"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "سمبندھ دا نشان"
     },
     "تھیں": {
       "en": "from; out of",
       "pos": "postposition",
-      "roman": "thīṅ"
+      "roman": "thīṅ",
+      "pa": "توں، کارن"
     },
     "پئے": {
       "en": "keep (continuous)",
       "pos": "particle",
-      "roman": "pae"
+      "roman": "pae",
+      "pa": "پئے (لگاتار)"
     },
     "سنگدے": {
       "en": "hold back",
       "pos": "verb",
       "roman": "sangde",
       "base": "سنگنا",
-      "note": "lit. feel shy or restrained"
+      "note": "lit. feel shy or restrained",
+      "pa": "جھکدے، رکدے",
+      "note_pa": "لفظی: شرماندے یا جھکدے"
     },
     "نیں": {
       "en": "are",
       "pos": "verb",
-      "roman": "naiṅ"
+      "roman": "naiṅ",
+      "pa": "نیں، ہن"
     },
     "گجھے": {
       "en": "hidden; veiled",
       "pos": "adjective",
-      "roman": "gujjhe"
+      "roman": "gujjhe",
+      "pa": "لکے ہوئے، اندروں"
     },
     "مہنے": {
       "en": "taunts",
       "pos": "noun",
       "roman": "mehṇe",
-      "base": "مہنا"
+      "base": "مہنا",
+      "pa": "میہنے، طعنے"
     },
     "مار": {
       "en": "striking; hurling",
       "pos": "verb",
       "roman": "mār",
-      "base": "مارنا"
+      "base": "مارنا",
+      "pa": "مار کے"
     },
     "کے": {
       "en": "having (conjunctive)",
       "pos": "particle",
-      "roman": "ke"
+      "roman": "ke",
+      "pa": "کے (کر کے)"
     },
     "سپ": {
       "en": "snake",
       "pos": "noun",
-      "roman": "sapp"
+      "roman": "sapp",
+      "pa": "سپ"
     },
     "وانگوں": {
       "en": "like",
       "pos": "postposition",
-      "roman": "vāṅgūṅ"
+      "roman": "vāṅgūṅ",
+      "pa": "وانگ، ورگا"
     },
     "اس": {
       "en": "his",
       "pos": "pronoun",
-      "roman": "us"
+      "roman": "us",
+      "pa": "اوہدے"
     },
     "کالجے": {
       "en": "heart (lit. liver)",
       "pos": "noun",
       "roman": "kalje",
       "base": "کلیجا",
-      "note": "the liver is the seat of feeling"
+      "note": "the liver is the seat of feeling",
+      "pa": "کلیجے، دل",
+      "note_pa": "کلیجہ جذبیاں دی تھاں منیا جاندا اے"
     },
     "نوں": {
       "en": "(object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "ڈنگدے": {
       "en": "sting",
       "pos": "verb",
       "roman": "ḍaṅgde",
-      "base": "ڈنگنا"
+      "base": "ڈنگنا",
+      "pa": "ڈنگ ماردے"
     },
     "کوئی": {
       "en": "any",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "وس": {
       "en": "power; control",
       "pos": "noun",
-      "roman": "vas"
+      "roman": "vas",
+      "pa": "وس، زور"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ"
     },
     "چلنیں": {
       "en": "works; avails",
       "pos": "verb",
       "roman": "chalnīṅ",
-      "base": "چلنا"
+      "base": "چلنا",
+      "pa": "چلدا"
     },
     "کڈھ": {
       "en": "throwing out",
       "pos": "verb",
       "roman": "kaḍḍh",
-      "base": "کڈھنا"
+      "base": "کڈھنا",
+      "pa": "کڈھ کے"
     },
     "چھڈن": {
       "en": "cast (him) out",
       "pos": "verb",
       "roman": "chhaḍḍaṇ",
       "base": "چھڈنا",
-      "note": "کڈھ چھڈن = to throw out"
+      "note": "کڈھ چھڈن = to throw out",
+      "pa": "کڈھ چھڈن، باہر کرن",
+      "note_pa": "کڈھ چھڈن: باہر کڈھ دینا"
     },
     "دیندے": {
       "en": "give",
       "pos": "verb",
       "roman": "dende",
-      "base": "دینا"
+      "base": "دینا",
+      "pa": "دیندے نیں"
     },
     "میہنے": {
       "en": "taunts",
       "pos": "noun",
       "roman": "mehṇe",
-      "base": "مہنا"
+      "base": "مہنا",
+      "pa": "طعنے"
     },
     "رنگ": {
       "en": "kind; sort",
       "pos": "noun",
-      "roman": "rang"
+      "roman": "rang",
+      "pa": "رنگ، قسم"
     },
     "برنگ": {
       "en": "various",
       "pos": "adjective",
       "roman": "barang",
-      "note": "رنگ برنگ = of every kind"
+      "note": "رنگ برنگ = of every kind",
+      "pa": "وکھرے وکھرے",
+      "note_pa": "رنگ برنگ: ہر قسم دے"
     },
     "وارث": {
       "en": "Waris (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Vāris"
+      "roman": "Vāris",
+      "pa": "وارث، شاعر آپ"
     },
     "شاہ": {
       "en": "Shah (Waris Shah, the poet)",
       "pos": "proper noun",
-      "roman": "Shāh"
+      "roman": "Shāh",
+      "pa": "شاہ (وارث شاہ، شاعر)"
     },
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "غرض": {
       "en": "self-interest",
       "pos": "noun",
-      "roman": "ġaraz"
+      "roman": "ġaraz",
+      "pa": "غرض، اپنا مطلب"
     },
     "ہے": {
       "en": "is",
       "pos": "verb",
       "roman": "hai",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہے، اے"
     },
     "بہت": {
       "en": "very",
       "pos": "adverb",
-      "roman": "bahut"
+      "roman": "bahut",
+      "pa": "بہت"
     },
     "پیاری": {
       "en": "dear",
       "pos": "adjective",
-      "roman": "piārī"
+      "roman": "piārī",
+      "pa": "پیاری"
     },
     "ہور": {
       "en": "otherwise; else",
       "pos": "adverb",
-      "roman": "hor"
+      "roman": "hor",
+      "pa": "ہور، نہیں تے"
     },
     "ساک": {
       "en": "relation; kinship",
       "pos": "noun",
-      "roman": "sāk"
+      "roman": "sāk",
+      "pa": "ساک، رشتہ"
     },
     "سین": {
       "en": "kinsman; close tie",
       "pos": "noun",
       "roman": "sain",
-      "note": "Uncertain: سین, a close relation or friend"
+      "note": "Uncertain: سین, a close relation or friend",
+      "pa": "سکا، نیڑے دا رشتہ",
+      "note_pa": "پکا نہیں: سین، نیڑے دا رشتےدار یا یار"
     },
     "انگ": {
       "en": "own blood (lit. limb)",
       "pos": "noun",
-      "roman": "aṅg"
+      "roman": "aṅg",
+      "pa": "انگ، اپنا لہو"
     }
   }
 }

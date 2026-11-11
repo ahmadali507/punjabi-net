@@ -6,6 +6,7 @@ import T from '~/components/T.astro';
 import Source from '~/components/Source.astro';
 import { asLocale, localePath, t, tf } from '~/i18n';
 import { getProverbs, type Proverb } from '~/lib/content';
+import { TOPIC_PA } from '~/lib/pa';
 import '~/styles/lists.css';
 import '~/styles/reader.css';
 
@@ -17,16 +18,20 @@ const all = await getProverbs();
 const i = all.findIndex((p) => p.id === proverb.id);
 const prev = all[i - 1];
 const next = all[i + 1];
+const en = locale === 'en';
+// Punjabi pages: the proverb, its Punjabi explanation and the source, nothing in English.
+const title = en ? d.literal_en : d.text;
+const description = en ? (d.meaning_en ?? d.literal_en) : (d.meaning_pa ?? d.text);
 ---
-<Base title={d.literal_en} description={d.meaning_en ?? d.literal_en} type="article" image={`/og/proverbs/${proverb.id}.png`} preloadNastaliq>
+<Base title={title} description={description} type="article" image={`/og/proverbs/${proverb.id}.png`} preloadNastaliq>
   <article class="column section proverb" data-pagefind-body data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
     <p class="eyebrow">
       <a href={localePath(locale, '/proverbs')}><T k="nav.proverbs" /></a> · <span data-pagefind-ignore>{tf(locale, 'proverbs.position', { i: i + 1, n: all.length })}</span>
     </p>
     <h1 class="proverb__text"><Pa t={d.text} /></h1>
-    {d.romanized && <p class="muted proverb__roman" lang="pa-Latn" dir="ltr"><i>{d.romanized.split('\n').map((l) => <span class="line">{l}</span>)}</i></p>}
+    {en && d.romanized && <p class="muted proverb__roman" lang="pa-Latn" dir="ltr"><i>{d.romanized.split('\n').map((l) => <span class="line">{l}</span>)}</i></p>}
 
-    <div class="reader-tools no-print" data-share-tools data-copy-text={`${d.text}\n${d.literal_en}`} hidden>
+    <div class="reader-tools no-print" data-pagefind-ignore data-share-tools data-copy-text={en ? `${d.text}\n${d.literal_en}` : `${d.text}\n${d.meaning_pa ?? ''}`.trim()} hidden>
       <div class="reader-tools__group">
         <button type="button" class="tool" data-copy><T k="reader.copy" /></button>
         <button type="button" class="tool" data-share><T k="reader.share" /></button>
@@ -34,13 +39,22 @@ const next = all[i + 1];
       <span class="reader-tools__status" role="status" aria-live="polite" data-copied={t(locale, 'reader.copied')} data-link-copied={t(locale, 'reader.linkCopied')}></span>
     </div>
 
-    <dl class="proverb-meta">
-      <div><dt><T k="proverbs.literal" /></dt><dd lang="en" dir="ltr">{d.literal_en}</dd></div>
-      {d.meaning_en && <div><dt><T k="proverbs.meaning" /></dt><dd lang="en" dir="ltr">{d.meaning_en}</dd></div>}
-      {d.usage_note && <div><dt><T k="proverbs.usage" /></dt><dd lang="en" dir="ltr">{d.usage_note}</dd></div>}
-      {d.topic && <div><dt><T k="proverbs.topic" /></dt><dd lang="en" dir="ltr">{d.topic}</dd></div>}
-      <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
-    </dl>
+    {en ? (
+      <dl class="proverb-meta">
+        <div><dt data-pagefind-ignore><T k="proverbs.literal" /></dt><dd lang="en" dir="ltr">{d.literal_en}</dd></div>
+        {d.meaning_en && <div><dt data-pagefind-ignore><T k="proverbs.meaning" /></dt><dd lang="en" dir="ltr">{d.meaning_en}</dd></div>}
+        {d.usage_note && <div><dt data-pagefind-ignore><T k="proverbs.usage" /></dt><dd lang="en" dir="ltr">{d.usage_note}</dd></div>}
+        {d.topic && <div><dt data-pagefind-ignore><T k="proverbs.topic" /></dt><dd lang="en" dir="ltr">{d.topic}</dd></div>}
+        <div data-pagefind-ignore><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
+      </dl>
+    ) : (
+      <dl class="proverb-meta">
+        {d.meaning_pa && <div><dt data-pagefind-ignore><T k="proverbs.meaning" /></dt><dd>{d.meaning_pa}</dd></div>}
+        {d.usage_pa && <div><dt data-pagefind-ignore><T k="proverbs.usage" /></dt><dd>{d.usage_pa}</dd></div>}
+        {d.topic && TOPIC_PA[d.topic] && <div><dt data-pagefind-ignore><T k="proverbs.topic" /></dt><dd>{TOPIC_PA[d.topic]}</dd></div>}
+        <div data-pagefind-ignore><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
+      </dl>
+    )}
 
     {d.transliterated && <p class="notice" style="text-align:start"><T k="proverbs.translit" /></p>}
 

@@ -5,184 +5,223 @@
     "تسبیح": {
       "en": "rosary (prayer beads)",
       "pos": "noun",
-      "roman": "tasbīh"
+      "roman": "tasbīh",
+      "pa": "تسبیح، منکیاں دی مالا"
     },
     "بہت": {
       "en": "much; a lot",
       "pos": "adverb",
-      "roman": "bahut"
+      "roman": "bahut",
+      "pa": "بہت"
     },
     "بھواون": {
       "en": "turn; tell (beads)",
       "pos": "verb",
       "roman": "bhavāvan",
-      "base": "بھوانا"
+      "base": "بھوانا",
+      "pa": "پھیردے نیں"
     },
     "کسبی": {
       "en": "professionals; traders in piety",
       "pos": "noun",
       "roman": "kasbī",
-      "note": "Literally those who ply a trade; also a word for harlots."
+      "note": "Literally those who ply a trade; also a word for harlots.",
+      "pa": "کسب کرن والے، دین دے وپاری",
+      "note_pa": "لفظی مطلب کسب یا دھندا کرن والے؛ کنجریاں لئی وی ورتیا جاندا اے"
     },
     "جنہاں": {
       "en": "who; those who",
       "pos": "pronoun",
       "roman": "jinhāṅ",
-      "base": "جو"
+      "base": "جو",
+      "pa": "جنہاں"
     },
     "دام": {
       "en": "net; snare",
       "pos": "noun",
-      "roman": "dām"
+      "roman": "dām",
+      "pa": "جال، پھاہی"
     },
     "فریب": {
       "en": "deceit",
       "pos": "noun",
-      "roman": "fareb"
+      "roman": "fareb",
+      "pa": "دھوکا"
     },
     "بچھایا": {
       "en": "have spread",
       "pos": "verb",
       "roman": "bichhāiā",
-      "base": "بچھانا"
+      "base": "بچھانا",
+      "pa": "وچھایا"
     },
     "کر": {
       "en": "making; (again and again)",
       "pos": "verb",
       "roman": "kar",
       "base": "کرنا",
-      "note": "\"Kar kar\": doing over and over."
+      "note": "\"Kar kar\": doing over and over.",
+      "pa": "کر کے",
+      "note_pa": "کر کر یعنی مڑ مڑ کر کے"
     },
     "گیان": {
       "en": "wisdom; spiritual knowledge",
       "pos": "noun",
-      "roman": "giān"
+      "roman": "giān",
+      "pa": "گیان، روحانی علم"
     },
     "سناون": {
       "en": "recite; preach",
       "pos": "verb",
       "roman": "suṇāvan",
-      "base": "سنانا"
+      "base": "سنانا",
+      "pa": "سناندے نیں"
     },
     "سیانیں": {
       "en": "the clever ones",
       "pos": "noun",
       "roman": "siāṇeṅ",
-      "base": "سیانا"
+      "base": "سیانا",
+      "pa": "سیانے، چلاک"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "ات": {
       "en": "end; limit",
       "pos": "noun",
       "roman": "at",
-      "note": "Uncertain: \"na at budh\": without end of wit, or \"with no real wisdom\"."
+      "note": "Uncertain: \"na at budh\": without end of wit, or \"with no real wisdom\".",
+      "pa": "انت، حد",
+      "note_pa": "پکا نہیں: نہ ات بدھ یعنی بے حد سیانپ، یا اصلی سیانپ کوئی نہیں"
     },
     "بدھ": {
       "en": "wisdom; understanding",
       "pos": "noun",
-      "roman": "budh"
+      "roman": "budh",
+      "pa": "سمجھ، عقل"
     },
     "شیخ": {
       "en": "shaikh (religious elder)",
       "pos": "noun",
-      "roman": "shaix"
+      "roman": "shaix",
+      "pa": "شیخ، دین دا بزرگ"
     },
     "کہایا": {
       "en": "had (themselves) called",
       "pos": "verb",
       "roman": "kahāiā",
-      "base": "کہانا"
+      "base": "کہانا",
+      "pa": "اکھوایا"
     },
     "مطلب": {
       "en": "meaning; purpose",
       "pos": "noun",
-      "roman": "matlab"
+      "roman": "matlab",
+      "pa": "مطلب، مقصد"
     },
     "جو": {
       "en": "which; that",
       "pos": "pronoun",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جیہڑا"
     },
     "اسرار": {
       "en": "secrets; mysteries",
       "pos": "noun",
-      "roman": "asrār"
+      "roman": "asrār",
+      "pa": "بھیت"
     },
     "الہی": {
       "en": "divine",
       "pos": "adjective",
       "roman": "ilāhī",
-      "note": "\"Asrar-e-ilahi\": the mysteries of God."
+      "note": "\"Asrar-e-ilahi\": the mysteries of God.",
+      "pa": "رب دے",
+      "note_pa": "اسرار الہی یعنی رب دے بھیت"
     },
     "اوہناں": {
       "en": "they",
       "pos": "pronoun",
       "roman": "ohnāṅ",
-      "base": "اوہ"
+      "base": "اوہ",
+      "pa": "اوہناں"
     },
     "ہرگز": {
       "en": "ever; by any means",
       "pos": "adverb",
-      "roman": "hargiz"
+      "roman": "hargiz",
+      "pa": "ہرگز، کدی وی"
     },
     "مول": {
       "en": "at all",
       "pos": "adverb",
-      "roman": "mūl"
+      "roman": "mūl",
+      "pa": "بالکل"
     },
     "پایا": {
       "en": "found; attained",
       "pos": "verb",
       "roman": "pāiā",
-      "base": "پاؤنا"
+      "base": "پاؤنا",
+      "pa": "پایا، لبھیا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر آپ"
     },
     "سمجھ": {
       "en": "understanding; who understand",
       "pos": "noun",
-      "roman": "samajh"
+      "roman": "samajh",
+      "pa": "سمجھ، سمجھن والے"
     },
     "رسائین": {
       "en": "alchemy",
       "pos": "noun",
       "roman": "rasāin",
-      "note": "Alchemy as the hidden art of turning base into gold: true mystic knowledge."
+      "note": "Alchemy as the hidden art of turning base into gold: true mystic knowledge.",
+      "pa": "کیمیا",
+      "note_pa": "کیمیا یعنی کھوٹے نوں سونا بنان دا لُکیا ہنر: سچا روحانی علم"
     },
     "والے": {
       "en": "those with; possessors of",
       "pos": "particle",
       "roman": "vāle",
-      "base": "والا"
+      "base": "والا",
+      "pa": "والے"
     },
     "کدی": {
       "en": "ever; when",
       "pos": "adverb",
-      "roman": "kadī"
+      "roman": "kadī",
+      "pa": "کدی"
     },
     "اپنا": {
       "en": "own",
       "pos": "pronoun",
-      "roman": "apṇā"
+      "roman": "apṇā",
+      "pa": "اپنا"
     },
     "آپ": {
       "en": "self",
       "pos": "pronoun",
       "roman": "āp",
-      "note": "\"Apna ap likhaya\": put themselves on record, made a show of themselves."
+      "note": "\"Apna ap likhaya\": put themselves on record, made a show of themselves.",
+      "pa": "آپ",
+      "note_pa": "اپنا آپ لکھایا یعنی اپنا ناں لکھوایا، اپنی وڈیائی دسی"
     },
     "لکھایا": {
       "en": "had written; made known",
       "pos": "verb",
       "roman": "likhāiā",
-      "base": "لکھانا"
+      "base": "لکھانا",
+      "pa": "لکھوایا، دسیا"
     }
   }
 }

@@ -5,160 +5,195 @@
     "اندر": {
       "en": "inside; within",
       "pos": "adverb",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Hū, 'He', a Sufi name of God; here both subject of the poem and the refrain."
+      "note": "Hū, 'He', a Sufi name of God; here both subject of the poem and the refrain.",
+      "pa": "ہو، اوہ رب",
+      "note_pa": "ہو یعنی اوہ، رب دا صوفی ناں؛ ایتھے نظم دا موضوع وی تے تکرار وی"
     },
     "تے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "باہر": {
       "en": "outside",
       "pos": "adverb",
-      "roman": "bāhar"
+      "roman": "bāhar",
+      "pa": "باہر"
     },
     "وت": {
       "en": "then",
       "pos": "adverb",
-      "roman": "vat"
+      "roman": "vat",
+      "pa": "فیر"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر آپ",
+      "note_pa": "سلطان باہو، قادری سلسلے دا صوفی"
     },
     "کتھ": {
       "en": "where",
       "pos": "adverb",
-      "roman": "kitth"
+      "roman": "kitth",
+      "pa": "کتھے"
     },
     "لبھیندا": {
       "en": "is found",
       "pos": "verb",
       "roman": "labbhīndā",
-      "base": "لبھنا"
+      "base": "لبھنا",
+      "pa": "لبھدا اے"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "داغ": {
       "en": "brand; burn-mark",
       "pos": "noun",
-      "roman": "dāġ"
+      "roman": "dāġ",
+      "pa": "داغ، سڑن دا نشان"
     },
     "محبت": {
       "en": "love",
       "pos": "noun",
-      "roman": "muhabbat"
+      "roman": "muhabbat",
+      "pa": "محبت"
     },
     "والا": {
       "en": "of; belonging to",
       "pos": "particle",
-      "roman": "vālā"
+      "roman": "vālā",
+      "pa": "والا"
     },
     "ہر": {
       "en": "every",
       "pos": "adjective",
-      "roman": "har"
+      "roman": "har",
+      "pa": "ہر"
     },
     "دم": {
       "en": "breath; moment",
       "pos": "noun",
       "roman": "dam",
-      "note": "har dam: 'every moment, constantly'."
+      "note": "har dam: 'every moment, constantly'.",
+      "pa": "ساہ، گھڑی",
+      "note_pa": "ہر دم یعنی ہر ویلے"
     },
     "پیا": {
       "en": "keeps (on)",
       "pos": "particle",
       "roman": "piā",
       "base": "پینا",
-      "note": "Marks continuous action: piā saṛīndā, 'keeps burning'."
+      "note": "Marks continuous action: piā saṛīndā, 'keeps burning'.",
+      "pa": "پیا، لگاتار",
+      "note_pa": "لگاتار کم دا نشان: پیا سڑیندا یعنی سڑدا رہندا اے"
     },
     "سڑیندا": {
       "en": "burning",
       "pos": "verb",
       "roman": "saṛīndā",
-      "base": "سڑنا"
+      "base": "سڑنا",
+      "pa": "سڑدا"
     },
     "جتھے": {
       "en": "where",
       "pos": "adverb",
-      "roman": "jitthe"
+      "roman": "jitthe",
+      "pa": "جتھے"
     },
     "کرے": {
       "en": "makes; does",
       "pos": "verb",
       "roman": "kare",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کرے"
     },
     "رشنائی": {
       "en": "light; radiance",
       "pos": "noun",
-      "roman": "rushnāī"
+      "roman": "rushnāī",
+      "pa": "روشنی، چانن"
     },
     "چھوڑ": {
       "en": "leaving",
       "pos": "verb",
       "roman": "chhoṛ",
-      "base": "چھوڑنا"
+      "base": "چھوڑنا",
+      "pa": "چھڈ کے"
     },
     "اندھیرا": {
       "en": "darkness",
       "pos": "noun",
-      "roman": "andherā"
+      "roman": "andherā",
+      "pa": "ہنیرا"
     },
     "ویندا": {
       "en": "goes (away)",
       "pos": "verb",
       "roman": "vendā",
-      "base": "ونجنا"
+      "base": "ونجنا",
+      "pa": "جاندا"
     },
     "دوئیں": {
       "en": "both",
       "pos": "numeral",
-      "roman": "doīṅ"
+      "roman": "doīṅ",
+      "pa": "دوویں"
     },
     "جہان": {
       "en": "worlds",
       "pos": "noun",
       "roman": "jahān",
-      "note": "This world and the next."
+      "note": "This world and the next.",
+      "pa": "جہان",
+      "note_pa": "ایہہ دنیا تے اگلا جہان"
     },
     "غلام": {
       "en": "slaves; servants",
       "pos": "noun",
-      "roman": "ġulām"
+      "roman": "ġulām",
+      "pa": "غلام، نوکر"
     },
     "اس": {
       "en": "of him; his",
       "pos": "pronoun",
-      "roman": "us"
+      "roman": "us",
+      "pa": "اوہدے"
     },
     "جو": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جیہڑا"
     },
     "صحی": {
       "en": "truly; rightly",
       "pos": "adverb",
-      "roman": "sahī"
+      "roman": "sahī",
+      "pa": "سچی، ٹھیک طرحاں"
     },
     "کریندا": {
       "en": "does (practises)",
       "pos": "verb",
       "roman": "karīndā",
       "base": "کرنا",
-      "note": "Hū sahī karīndā: who rightly practises the remembrance of Hu."
+      "note": "Hū sahī karīndā: who rightly practises the remembrance of Hu.",
+      "pa": "کردا",
+      "note_pa": "ہو صحی کریندا یعنی جیہڑا ہو دا ذکر ٹھیک طرحاں کردا اے"
     }
   }
 }

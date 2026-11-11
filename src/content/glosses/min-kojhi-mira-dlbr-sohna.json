@@ -5,185 +5,223 @@
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "کوجھی": {
       "en": "ugly; plain (fem.)",
       "pos": "adjective",
       "roman": "kojhī",
-      "base": "کوجھا"
+      "base": "کوجھا",
+      "pa": "کوجھی، بدصورت"
     },
     "میرا": {
       "en": "my",
       "pos": "pronoun",
-      "roman": "merā"
+      "roman": "merā",
+      "pa": "میرا"
     },
     "دلبر": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "dilbar"
+      "roman": "dilbar",
+      "pa": "دلبر، محبوب"
     },
     "سوہنا": {
       "en": "beautiful",
       "pos": "adjective",
-      "roman": "sohṇā"
+      "roman": "sohṇā",
+      "pa": "سوہنا، خوبصورت"
     },
     "کیونکر": {
       "en": "how",
       "pos": "adverb",
-      "roman": "kiuṅkar"
+      "roman": "kiuṅkar",
+      "pa": "کیویں"
     },
     "اس": {
       "en": "him",
       "pos": "pronoun",
-      "roman": "us"
+      "roman": "us",
+      "pa": "اوہ"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "بھاواں": {
       "en": "(may) I please",
       "pos": "verb",
       "roman": "bhāvāṅ",
-      "base": "بھاونا"
+      "base": "بھاونا",
+      "pa": "چنگی لگاں"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہو (اوہ: رب)",
+      "note_pa": "باہو دا ٹیک بول: ہو، یعنی اوہ، رب دا صوفی ناں، ہر سطر دے انت تے"
     },
     "ویہڑے": {
       "en": "courtyard",
       "pos": "noun",
       "roman": "vehṛe",
-      "base": "ویہڑا"
+      "base": "ویہڑا",
+      "pa": "ویہڑے"
     },
     "ساڈے": {
       "en": "our",
       "pos": "pronoun",
       "roman": "sāḍe",
-      "base": "ساڈا"
+      "base": "ساڈا",
+      "pa": "ساڈے"
     },
     "وڑدا": {
       "en": "enters",
       "pos": "verb",
       "roman": "vaṛdā",
-      "base": "وڑنا"
+      "base": "وڑنا",
+      "pa": "وڑدا، آؤندا"
     },
     "ناہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nāhīṅ"
+      "roman": "nāhīṅ",
+      "pa": "نہیں"
     },
     "پئی": {
       "en": "(I) keep (on)",
       "pos": "particle",
       "roman": "paī",
-      "note": "Continuous marker (fem.): paī ... pāvāṅ, 'I keep trying'."
+      "note": "Continuous marker (fem.): paī ... pāvāṅ, 'I keep trying'.",
+      "pa": "پئی (لگاتار)",
+      "note_pa": "لگاتار دا نشان (مونث): پئی پاواں، کوشش کری جاندی آں"
     },
     "لکھ": {
       "en": "a hundred thousand; countless",
       "pos": "numeral",
-      "roman": "lakkh"
+      "roman": "lakkh",
+      "pa": "لکھاں، بے شمار"
     },
     "وسیلے": {
       "en": "means; intercessions",
       "pos": "noun",
       "roman": "vasīle",
-      "base": "وسیلہ"
+      "base": "وسیلہ",
+      "pa": "وسیلے، حیلے"
     },
     "پاواں": {
       "en": "(I) employ; put",
       "pos": "verb",
       "roman": "pāvāṅ",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پاواں، کراں"
     },
     "نہ": {
       "en": "neither; nor",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ"
     },
     "سوہنی": {
       "en": "beautiful (fem.)",
       "pos": "adjective",
       "roman": "sohṇī",
-      "base": "سوہنا"
+      "base": "سوہنا",
+      "pa": "سوہنی"
     },
     "دولت": {
       "en": "wealth",
       "pos": "noun",
-      "roman": "daulat"
+      "roman": "daulat",
+      "pa": "دولت، مال"
     },
     "پلے": {
       "en": "in (my) possession",
       "pos": "noun",
       "roman": "palle",
       "base": "پلا",
-      "note": "Literally 'in the hem of my garment'."
+      "note": "Literally 'in the hem of my garment'.",
+      "pa": "پلے، کول",
+      "note_pa": "لفظی: میرے لڑ نال بنھیا"
     },
     "یار": {
       "en": "beloved; friend",
       "pos": "noun",
-      "roman": "yār"
+      "roman": "yār",
+      "pa": "یار، محبوب"
     },
     "مناواں": {
       "en": "(may I) win over",
       "pos": "verb",
       "roman": "manāvāṅ",
-      "base": "منانا"
+      "base": "منانا",
+      "pa": "مناواں، راضی کراں"
     },
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "ih"
+      "roman": "ih",
+      "pa": "ایہہ"
     },
     "دکھ": {
       "en": "grief; sorrow",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ، غم"
     },
     "ہر": {
       "en": "every",
       "pos": "adjective",
-      "roman": "har"
+      "roman": "har",
+      "pa": "ہر"
     },
     "دم": {
       "en": "moment; breath",
       "pos": "noun",
       "roman": "dam",
-      "note": "har dam: 'always'."
+      "note": "har dam: 'always'.",
+      "pa": "دم، ساہ، گھڑی",
+      "note_pa": "ہر دم: ہمیشہ"
     },
     "رہسی": {
       "en": "will remain",
       "pos": "verb",
       "roman": "rahsī",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہے گا"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر آپ",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دے صوفی"
     },
     "روندڑی": {
       "en": "weeping (fem.)",
       "pos": "adjective",
       "roman": "rondaṛī",
-      "base": "رونا"
+      "base": "رونا",
+      "pa": "روندی ہوئی"
     },
     "ہی": {
       "en": "just; only",
       "pos": "particle",
-      "roman": "hī"
+      "roman": "hī",
+      "pa": "ای، ہی"
     },
     "مرجاواں": {
       "en": "I shall die",
       "pos": "verb",
       "roman": "mar jāvāṅ",
-      "base": "مرجانا"
+      "base": "مرجانا",
+      "pa": "مر جاواں گی"
     }
   }
 }

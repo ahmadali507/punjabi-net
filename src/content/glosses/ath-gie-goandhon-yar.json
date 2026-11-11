@@ -6,164 +6,196 @@
       "en": "depart (lit. rise)",
       "pos": "verb",
       "roman": "uṭh",
-      "base": "اٹھنا"
+      "base": "اٹھنا",
+      "pa": "اٹھ کے ٹر"
     },
     "گئے": {
       "en": "went",
       "pos": "verb",
       "roman": "gae",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "گئے"
     },
     "گوانڈھوں": {
       "en": "from the neighbourhood",
       "pos": "noun",
       "roman": "gavāṇḍhoṅ",
-      "base": "گوانڈھ"
+      "base": "گوانڈھ",
+      "pa": "گوانڈھ توں"
     },
     "یار": {
       "en": "friend, beloved",
       "pos": "noun",
-      "roman": "yār"
+      "roman": "yār",
+      "pa": "یار، محبوب"
     },
     "ربا": {
       "en": "O God",
       "pos": "noun",
       "roman": "rabbā",
-      "base": "رب"
+      "base": "رب",
+      "pa": "اے رب"
     },
     "ہن": {
       "en": "now",
       "pos": "adverb",
-      "roman": "hun"
+      "roman": "hun",
+      "pa": "ہن"
     },
     "کیہ": {
       "en": "what",
       "pos": "pronoun",
-      "roman": "kih"
+      "roman": "kih",
+      "pa": "کیہ"
     },
     "کریے": {
       "en": "should we do",
       "pos": "verb",
       "roman": "kariye",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کریے"
     },
     "چلے": {
       "en": "departed",
       "pos": "verb",
       "roman": "challe",
-      "base": "چلنا"
+      "base": "چلنا",
+      "pa": "ٹر گئے"
     },
     "رہندے": {
       "en": "stay",
       "pos": "verb",
       "roman": "rahinde",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہندے"
     },
     "ناہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nāhīṅ"
+      "roman": "nāhīṅ",
+      "pa": "نہیں"
     },
     "ہویا": {
       "en": "has become",
       "pos": "verb",
       "roman": "hoyā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گیا"
     },
     "ساتھ": {
       "en": "caravan, travelling party",
       "pos": "noun",
-      "roman": "sāth"
+      "roman": "sāth",
+      "pa": "قافلہ، ساتھ"
     },
     "تیار": {
       "en": "ready",
       "pos": "adjective",
-      "roman": "tiyār"
+      "roman": "tiyār",
+      "pa": "تیار"
     },
     "ڈاڈھ": {
       "en": "fierce burning pain",
       "pos": "noun",
-      "roman": "ḍāḍh"
+      "roman": "ḍāḍh",
+      "pa": "ساڑ، تکھی جلن"
     },
     "کلیجے": {
       "en": "heart (lit. liver)",
       "pos": "noun",
       "roman": "kaleje",
-      "base": "کلیجہ"
+      "base": "کلیجہ",
+      "pa": "کلیجا، دل"
     },
     "بل": {
       "en": "burning",
       "pos": "verb",
       "roman": "bal",
       "base": "بلنا",
-      "note": "بل بل: burning and burning"
+      "note": "بل بل: burning and burning",
+      "pa": "بل، سڑ",
+      "note_pa": "بل بل: سڑ سڑ کے"
     },
     "اٹھے": {
       "en": "rises",
       "pos": "verb",
       "roman": "uṭṭhe",
-      "base": "اٹھنا"
+      "base": "اٹھنا",
+      "pa": "اٹھدی اے"
     },
     "بھڑکے": {
       "en": "blazes up",
       "pos": "verb",
       "roman": "bhaṛke",
-      "base": "بھڑکنا"
+      "base": "بھڑکنا",
+      "pa": "بھڑکدی اے"
     },
     "برہوں": {
       "en": "of separation",
       "pos": "noun",
       "roman": "birhoṅ",
-      "base": "برہا"
+      "base": "برہا",
+      "pa": "برہوں، وچھوڑے دی"
     },
     "نار": {
       "en": "fire",
       "pos": "noun",
-      "roman": "nār"
+      "roman": "nār",
+      "pa": "اگ"
     },
     "بلھا": {
       "en": "Bulleh (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Bullhā"
+      "roman": "Bullhā",
+      "pa": "بلھا، شاعر اپنا ناں لیندا اے"
     },
     "شوہ": {
       "en": "the Beloved, the Lord",
       "pos": "noun",
       "roman": "shauh",
-      "note": "lit. husband; Bulleh Shah's name for God or his master"
+      "note": "lit. husband; Bulleh Shah's name for God or his master",
+      "pa": "شوہ، محبوب، رب",
+      "note_pa": "لفظی معنی خاوند؛ بلھے شاہ دا رب یاں اپنے مرشد لئی ناں"
     },
     "پیارے": {
       "en": "beloved",
       "pos": "adjective",
       "roman": "piāre",
-      "base": "پیارا"
+      "base": "پیارا",
+      "pa": "پیارے"
     },
     "باجھوں": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bājhoṅ"
+      "roman": "bājhoṅ",
+      "pa": "بِنا، باجھوں"
     },
     "رہے": {
       "en": "remained",
       "pos": "verb",
       "roman": "rahe",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہے"
     },
     "ارار": {
       "en": "this bank (of the river)",
       "pos": "noun",
-      "roman": "urār"
+      "roman": "urār",
+      "pa": "اروار، ایس کنارے"
     },
     "نہ": {
       "en": "neither, not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ"
     },
     "پار": {
       "en": "the far bank",
       "pos": "noun",
       "roman": "pār",
-      "note": "ارار نہ پار: neither here nor there"
+      "note": "ارار نہ پار: neither here nor there",
+      "pa": "پار، پرلا کنارا",
+      "note_pa": "ارار نہ پار: نہ ایس پاسے نہ اوس پاسے"
     }
   }
 }

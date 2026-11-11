@@ -6,285 +6,343 @@
       "en": "O mother",
       "pos": "noun",
       "roman": "māīṅ",
-      "base": "ماں"
+      "base": "ماں",
+      "pa": "او ماں"
     },
     "نی": {
       "en": "O (to a woman; vocative)",
       "pos": "interjection",
-      "roman": "nī"
+      "roman": "nī",
+      "pa": "نی (زنانی نوں سد)"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "کیہنوں": {
       "en": "to whom",
       "pos": "pronoun",
-      "roman": "kihnūṅ"
+      "roman": "kihnūṅ",
+      "pa": "کس نوں"
     },
     "آکھاں": {
       "en": "should I say, tell",
       "pos": "verb",
       "roman": "ākhāṅ",
-      "base": "آکھنا"
+      "base": "آکھنا",
+      "pa": "آکھاں، دساں"
     },
     "درد": {
       "en": "pain",
       "pos": "noun",
-      "roman": "dard"
+      "roman": "dard",
+      "pa": "درد، پیڑ"
     },
     "وچھوڑے": {
       "en": "separation",
       "pos": "noun",
       "roman": "vichhoṛe",
-      "base": "وچھوڑا"
+      "base": "وچھوڑا",
+      "pa": "وچھوڑا، جدائی"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "حال": {
       "en": "state, condition",
       "pos": "noun",
-      "roman": "hāl"
+      "roman": "hāl",
+      "pa": "حال، حالت"
     },
     "دھواں": {
       "en": "smoke",
       "pos": "noun",
-      "roman": "dhūāṅ"
+      "roman": "dhūāṅ",
+      "pa": "دھواں"
     },
     "دھکے": {
       "en": "smoulders",
       "pos": "verb",
       "roman": "dhukhe",
-      "base": "دھکھنا"
+      "base": "دھکھنا",
+      "pa": "دھکھدا اے، سلگدا اے"
     },
     "میرے": {
       "en": "my",
       "pos": "pronoun",
-      "roman": "mere"
+      "roman": "mere",
+      "pa": "میرے"
     },
     "مرشد": {
       "en": "spiritual guide",
       "pos": "noun",
       "roman": "murshid",
-      "note": "Sufi term: the master who guides the seeker"
+      "note": "Sufi term: the master who guides the seeker",
+      "pa": "مرشد، پیر",
+      "note_pa": "صوفی اصطلاح: سالک نوں راہ دسن والا پیر"
     },
     "والا": {
       "en": "of, belonging to",
       "pos": "particle",
-      "roman": "vālā"
+      "roman": "vālā",
+      "pa": "والا، دا"
     },
     "جاں": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jāṅ"
+      "roman": "jāṅ",
+      "pa": "جدوں"
     },
     "پھولاں": {
       "en": "I stir (the embers)",
       "pos": "verb",
       "roman": "pholāṅ",
-      "base": "پھولنا"
+      "base": "پھولنا",
+      "pa": "پھولاں، پھرولاں"
     },
     "تاں": {
       "en": "then",
       "pos": "conjunction",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، فیر"
     },
     "لال": {
       "en": "glowing red; the Beloved",
       "pos": "noun",
       "roman": "lāl",
-      "note": "Lit. ruby; first the red embers, then the lost Beloved"
+      "note": "Lit. ruby; first the red embers, then the lost Beloved",
+      "pa": "لال انگیارے؛ محبوب",
+      "note_pa": "لفظی معنی لعل؛ پہلاں لال انگیارے، فیر گواچا محبوب"
     },
     "سولاں": {
       "en": "piercing pains (lit. thorns)",
       "pos": "noun",
       "roman": "sūlāṅ",
-      "base": "سول"
+      "base": "سول",
+      "pa": "سولاں، چبھویں پیڑاں"
     },
     "مار": {
       "en": "striking",
       "pos": "verb",
       "roman": "mār",
-      "base": "مارنا"
+      "base": "مارنا",
+      "pa": "مار کے"
     },
     "دیوانی": {
       "en": "mad (fem.)",
       "pos": "adjective",
-      "roman": "dīvānī"
+      "roman": "dīvānī",
+      "pa": "جھلی، کملی"
     },
     "کیتی": {
       "en": "made",
       "pos": "verb",
       "roman": "kītī",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کیتی، بنا دتی"
     },
     "برہوں": {
       "en": "the pain of separation",
       "pos": "noun",
       "roman": "birhoṅ",
-      "base": "برہا"
+      "base": "برہا",
+      "pa": "برہا، وچھوڑے دی پیڑ"
     },
     "پیا": {
       "en": "has fallen upon",
       "pos": "verb",
       "roman": "piā",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پے گیا"
     },
     "ساڈے": {
       "en": "my (lit. our)",
       "pos": "pronoun",
-      "roman": "sāḍe"
+      "roman": "sāḍe",
+      "pa": "ساڈے، میرے"
     },
     "خیال": {
       "en": "thoughts, mind",
       "pos": "noun",
-      "roman": "xiāl"
+      "roman": "xiāl",
+      "pa": "خیال، سوچاں"
     },
     "دکھاں": {
       "en": "sorrows",
       "pos": "noun",
       "roman": "dukkhāṅ",
-      "base": "دکھ"
+      "base": "دکھ",
+      "pa": "دکھاں"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "روٹی": {
       "en": "bread",
       "pos": "noun",
-      "roman": "roṭī"
+      "roman": "roṭī",
+      "pa": "روٹی"
     },
     "سالن": {
       "en": "curry",
       "pos": "noun",
-      "roman": "sālan"
+      "roman": "sālan",
+      "pa": "سالن، ترکاری"
     },
     "آہیں": {
       "en": "sighs",
       "pos": "noun",
       "roman": "āhīṅ",
-      "base": "آہ"
+      "base": "آہ",
+      "pa": "آہاں، ہوکے"
     },
     "بالن": {
       "en": "firewood",
       "pos": "noun",
-      "roman": "bālaṇ"
+      "roman": "bālaṇ",
+      "pa": "بالن، لکڑاں"
     },
     "بال": {
       "en": "burning",
       "pos": "verb",
       "roman": "bāl",
-      "base": "بالنا"
+      "base": "بالنا",
+      "pa": "بال کے"
     },
     "جنگل": {
       "en": "forests",
       "pos": "noun",
-      "roman": "jangal"
+      "roman": "jangal",
+      "pa": "جنگل"
     },
     "بیلے": {
       "en": "riverside thickets",
       "pos": "noun",
       "roman": "bele",
       "base": "بیلا",
-      "note": "Where Ranjha grazed the buffaloes"
+      "note": "Where Ranjha grazed the buffaloes",
+      "pa": "بیلے، دریا کنڈھے جھاڑیاں",
+      "note_pa": "جتھے رانجھا مجھیاں چاردا سی"
     },
     "پھرے": {
       "en": "wandered",
       "pos": "verb",
       "roman": "phire",
-      "base": "پھرنا"
+      "base": "پھرنا",
+      "pa": "پھری، بھوندی رہی"
     },
     "ڈھونڈیندی": {
       "en": "searching (fem.)",
       "pos": "verb",
       "roman": "ḍhūṇḍendī",
-      "base": "ڈھونڈنا"
+      "base": "ڈھونڈنا",
+      "pa": "لبھدی ہوئی"
     },
     "اجے": {
       "en": "yet, still",
       "pos": "adverb",
-      "roman": "aje"
+      "roman": "aje",
+      "pa": "اجے، ہن تیک"
     },
     "نہ": {
       "en": "not; don't",
       "pos": "particle",
-      "roman": "nah"
+      "roman": "nah",
+      "pa": "نہ، نہیں"
     },
     "پایو": {
       "en": "found",
       "pos": "verb",
       "roman": "pāyo",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "لبھیا، پایا"
     },
     "رانجھن": {
       "en": "Ranjha, Heer's beloved",
       "pos": "proper noun",
       "roman": "Rāñjhaṇ",
       "base": "رانجھا",
-      "note": "Hero of Heer Ranjha; for Sufis an image of the divine Beloved"
+      "note": "Hero of Heer Ranjha; for Sufis an image of the divine Beloved",
+      "pa": "رانجھا، ہیر دا محبوب",
+      "note_pa": "ہیر رانجھا دا نائک؛ صوفیاں لئی ربی محبوب دا روپ"
     },
     "پھراں": {
       "en": "I wander",
       "pos": "verb",
       "roman": "phirāṅ",
-      "base": "پھرنا"
+      "base": "پھرنا",
+      "pa": "پھراں، بھواں"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "کہے": {
       "en": "says",
       "pos": "verb",
       "roman": "kahe",
-      "base": "کہنا"
+      "base": "کہنا",
+      "pa": "آکھے، کہندا اے"
     },
     "فقیر": {
       "en": "faqir, mendicant",
       "pos": "noun",
       "roman": "faqīr",
-      "note": "Sufi term: one poor before God"
+      "note": "Sufi term: one poor before God",
+      "pa": "فقیر، درویش",
+      "note_pa": "صوفی اصطلاح: رب اگے محتاج"
     },
     "حسین": {
       "en": "Hussain (the poet names himself)",
       "pos": "proper noun",
       "roman": "Husain",
-      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore",
+      "pa": "شاہ حسین، شاعر آپ",
+      "note_pa": "شاہ حسین (۱۵۳۸–۱۵۹۹)، لاہور دا صوفی شاعر"
     },
     "نمانا": {
       "en": "humble, lowly",
       "pos": "adjective",
-      "roman": "nimāṇā"
+      "roman": "nimāṇā",
+      "pa": "نمانا، عاجز"
     },
     "شوہ": {
       "en": "the Beloved (Lord)",
       "pos": "noun",
       "roman": "shauh",
-      "note": "Lit. husband; Sufi term for God as the Beloved"
+      "note": "Lit. husband; Sufi term for God as the Beloved",
+      "pa": "شوہ، محبوب، رب",
+      "note_pa": "لفظی معنی خاوند؛ صوفی اصطلاح وچ محبوب رب"
     },
     "ملے": {
       "en": "meets (me)",
       "pos": "verb",
       "roman": "mile",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملے"
     },
     "تھیواں": {
       "en": "I become",
       "pos": "verb",
       "roman": "thīvāṅ",
-      "base": "تھیونا"
+      "base": "تھیونا",
+      "pa": "ہو جاواں"
     },
     "نہال": {
       "en": "fulfilled, blissful",
       "pos": "adjective",
-      "roman": "nihāl"
+      "roman": "nihāl",
+      "pa": "نہال، نہایت خوش"
     }
   }
 }

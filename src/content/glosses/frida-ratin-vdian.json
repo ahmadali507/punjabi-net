@@ -7,73 +7,88 @@
       "pos": "proper noun",
       "roman": "Farīdā",
       "base": "فرید",
-      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi.",
+      "pa": "اے فرید (شاعر آپ نوں)",
+      "note_pa": "بابا فرید (شیخ فریدالدین گنج شکر)، تیرھویں صدی دے چشتی صوفی"
     },
     "راتیں": {
       "en": "nights",
       "pos": "noun",
       "roman": "rātīṅ",
-      "base": "رات"
+      "base": "رات",
+      "pa": "راتاں"
     },
     "وڈیاں": {
       "en": "long",
       "pos": "adjective",
       "roman": "vaḍḍiāṅ",
-      "base": "وڈا"
+      "base": "وڈا",
+      "pa": "لمیاں"
     },
     "دھکھ": {
       "en": "aching; smouldering",
       "pos": "verb",
       "roman": "dhukh",
       "base": "دھکھنا",
-      "note": "dhukh dhukh: 'ache and ache', like slow-burning embers."
+      "note": "dhukh dhukh: 'ache and ache', like slow-burning embers.",
+      "pa": "دھکھ کے، سلگ کے",
+      "note_pa": "دھکھ دھکھ: ہولی ہولی سلگدے کولیاں وانگ پیڑ"
     },
     "اٹھن": {
       "en": "rise (up) (ache)",
       "pos": "verb",
       "roman": "uṭṭhan",
-      "base": "اٹھنا"
+      "base": "اٹھنا",
+      "pa": "اٹھدے نیں"
     },
     "پاس": {
       "en": "sides (of the body)",
       "pos": "noun",
-      "roman": "pās"
+      "roman": "pās",
+      "pa": "پاسے، وکھیاں"
     },
     "دھرگ": {
       "en": "cursed; shame on",
       "pos": "interjection",
-      "roman": "dhrig"
+      "roman": "dhrig",
+      "pa": "لعنت، پھٹکار"
     },
     "تنھاں": {
       "en": "those",
       "pos": "pronoun",
-      "roman": "tinhāṅ"
+      "roman": "tinhāṅ",
+      "pa": "اوہناں"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "جیویا": {
       "en": "living; life",
       "pos": "noun",
       "roman": "jīviā",
-      "base": "جینا"
+      "base": "جینا",
+      "pa": "جیونا، حیاتی"
     },
     "جنھاں": {
       "en": "who (whose)",
       "pos": "pronoun",
-      "roman": "jinhāṅ"
+      "roman": "jinhāṅ",
+      "pa": "جنہاں"
     },
     "وڈانی": {
       "en": "another's; alien",
       "pos": "adjective",
-      "roman": "viḍāṇī"
+      "roman": "viḍāṇī",
+      "pa": "پرائی، بیگانی"
     },
     "آس": {
       "en": "hope; reliance",
       "pos": "noun",
-      "roman": "ās"
+      "roman": "ās",
+      "pa": "آس، آسرا"
     }
   }
 }

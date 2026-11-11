@@ -5,129 +5,155 @@
     "جے": {
       "en": "if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، اگر"
     },
     "رب": {
       "en": "Lord; God",
       "pos": "noun",
-      "roman": "rabb"
+      "roman": "rabb",
+      "pa": "رب"
     },
     "نہاتیاں": {
       "en": "by bathing",
       "pos": "verb",
       "roman": "nhātiāṅ",
-      "base": "نہاونا"
+      "base": "نہاونا",
+      "pa": "نہاتیاں، نہا کے"
     },
     "دھوتیاں": {
       "en": "by washing",
       "pos": "verb",
       "roman": "dhotiāṅ",
-      "base": "دھونا"
+      "base": "دھونا",
+      "pa": "دھوتیاں، دھو کے"
     },
     "ملدا": {
       "en": "were found; would be found",
       "pos": "verb",
       "roman": "mildā",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملدا"
     },
     "ڈڈواں": {
       "en": "frogs",
       "pos": "noun",
       "roman": "ḍaḍḍuāṅ",
-      "base": "ڈڈو"
+      "base": "ڈڈو",
+      "pa": "ڈڈو"
     },
     "مچھیاں": {
       "en": "fish",
       "pos": "noun",
       "roman": "machhiāṅ",
-      "base": "مچھی"
+      "base": "مچھی",
+      "pa": "مچھیاں"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہو، اوہ (رب)",
+      "note_pa": "باہو دا ٹیک: \"ہو\"، یعنی اوہ، رب دا صوفی ناں، ہر سطر دے انت وچ"
     },
     "مون": {
       "en": "head-shaving; tonsure",
       "pos": "noun",
-      "roman": "mūn"
+      "roman": "mūn",
+      "pa": "سر منانا"
     },
     "منایاں": {
       "en": "by having (it) shaved",
       "pos": "verb",
       "roman": "munāiāṅ",
       "base": "منانا",
-      "note": "mūn munāiāṅ: by shaving the head, as ascetics do."
+      "note": "mūn munāiāṅ: by shaving the head, as ascetics do.",
+      "pa": "منایاں، منوا کے",
+      "note_pa": "\"مون منایاں\": سر منوا کے، جویں جوگی کردے"
     },
     "بھیڈاں": {
       "en": "sheep",
       "pos": "noun",
       "roman": "bheḍāṅ",
-      "base": "بھیڈ"
+      "base": "بھیڈ",
+      "pa": "بھیڈاں"
     },
     "سسیاں": {
       "en": "lambs; hares",
       "pos": "noun",
       "roman": "sassiāṅ",
-      "note": "Uncertain: read as small shorn animals (lambs or hares)."
+      "note": "Uncertain: read as small shorn animals (lambs or hares).",
+      "pa": "لیلے؛ سہے",
+      "note_pa": "پکا نہیں: نکے منے ہوئے جانور (لیلے یا سہے) سمجھیا گیا"
     },
     "جتیاں": {
       "en": "by celibacy",
       "pos": "noun",
       "roman": "jatiāṅ",
-      "base": "جت"
+      "base": "جت",
+      "pa": "جت، کنوارپن نال"
     },
     "ستیاں": {
       "en": "by chastity",
       "pos": "noun",
       "roman": "satiāṅ",
-      "base": "ست"
+      "base": "ست",
+      "pa": "ست، پاکدامنی نال"
     },
     "ڈانڈاں": {
       "en": "bullocks",
       "pos": "noun",
       "roman": "ḍāṅḍāṅ",
-      "base": "ڈانڈ"
+      "base": "ڈانڈ",
+      "pa": "ڈانڈ، بلد"
     },
     "خصیاں": {
       "en": "castrated",
       "pos": "adjective",
       "roman": "xassiāṅ",
-      "base": "خصی"
+      "base": "خصی",
+      "pa": "خصی"
     },
     "اوہناں": {
       "en": "those; them",
       "pos": "pronoun",
-      "roman": "ohnāṅ"
+      "roman": "ohnāṅ",
+      "pa": "اوہناں"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "سلطان باہو، شاعر آپ",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دے صوفی"
     },
     "نیتاں": {
       "en": "intentions",
       "pos": "noun",
       "roman": "nīyatāṅ",
-      "base": "نیت"
+      "base": "نیت",
+      "pa": "نیتاں"
     },
     "جنہاں": {
       "en": "whose",
       "pos": "pronoun",
-      "roman": "jinhāṅ"
+      "roman": "jinhāṅ",
+      "pa": "جنہاں دیاں"
     },
     "اچھیاں": {
       "en": "good; pure",
       "pos": "adjective",
       "roman": "achchhiāṅ",
-      "base": "اچھا"
+      "base": "اچھا",
+      "pa": "چنگیاں، صاف"
     }
   }
 }

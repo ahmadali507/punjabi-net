@@ -6,73 +6,87 @@
       "en": "see; look",
       "pos": "verb",
       "roman": "dekh",
-      "base": "دیکھنا"
+      "base": "دیکھنا",
+      "pa": "ویکھ"
     },
     "فریدا": {
       "en": "O Farid (the poet addresses himself)",
       "pos": "proper noun",
       "roman": "Farīdā",
       "base": "فرید",
-      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi.",
+      "pa": "اے فرید، شاعر آپ نوں آکھدا اے",
+      "note_pa": "بابا فرید، شیخ فرید الدین گنج شکر، چشتی صوفی"
     },
     "جو": {
       "en": "what",
       "pos": "pronoun",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جو، جیہڑا"
     },
     "تھیا": {
       "en": "has happened",
       "pos": "verb",
       "roman": "thiā",
-      "base": "تھیونا"
+      "base": "تھیونا",
+      "pa": "ہویا"
     },
     "داڑھی": {
       "en": "beard",
       "pos": "noun",
-      "roman": "dāṛhī"
+      "roman": "dāṛhī",
+      "pa": "داڑھی"
     },
     "ہوئی": {
       "en": "has become",
       "pos": "verb",
       "roman": "hoī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گئی"
     },
     "بھور": {
       "en": "grey",
       "pos": "adjective",
-      "roman": "bhūr"
+      "roman": "bhūr",
+      "pa": "بھوری، چِٹی"
     },
     "اگا": {
       "en": "what lies ahead (death)",
       "pos": "noun",
-      "roman": "aggā"
+      "roman": "aggā",
+      "pa": "اگا، اگلا ویلا (موت)"
     },
     "نیہڑے": {
       "en": "near",
       "pos": "adverb",
-      "roman": "neṛe"
+      "roman": "neṛe",
+      "pa": "نیڑے"
     },
     "آئیا": {
       "en": "has come",
       "pos": "verb",
       "roman": "āiā",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آ گیا"
     },
     "پچھا": {
       "en": "what lies behind (the past)",
       "pos": "noun",
-      "roman": "pichhā"
+      "roman": "pichhā",
+      "pa": "پچھا، لنگھیا ویلا"
     },
     "رہئیا": {
       "en": "has remained; is left",
       "pos": "verb",
       "roman": "rahiā",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہ گیا"
     },
     "دور": {
       "en": "far",
       "pos": "adverb",
-      "roman": "dūr"
+      "roman": "dūr",
+      "pa": "دور"
     }
   }
 }

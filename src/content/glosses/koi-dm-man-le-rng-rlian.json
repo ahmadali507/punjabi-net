@@ -5,238 +5,287 @@
     "کوئی": {
       "en": "a few",
       "pos": "adjective",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کجھ، تھوڑے"
     },
     "دم": {
       "en": "breath; moment",
       "pos": "noun",
-      "roman": "dam"
+      "roman": "dam",
+      "pa": "ساہ، گھڑی"
     },
     "مان": {
       "en": "enjoy; pride",
       "pos": "verb",
       "roman": "māṇ",
       "base": "ماننا",
-      "note": "Line 1: verb 'enjoy'; line 2: noun 'pride' (مان کرنا, to be proud)"
+      "note": "Line 1: verb 'enjoy'; line 2: noun 'pride' (مان کرنا, to be proud)",
+      "pa": "مان لے (موج)، غرور",
+      "note_pa": "پہلی سطر: فعل، مانن (موج کرنی)؛ دوجی سطر: ناں، غرور (مان کرنا)"
     },
     "لے": {
       "en": "take (completes 'enjoy')",
       "pos": "verb",
       "roman": "le",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لے (مانن دا پورا کرن)"
     },
     "رنگ": {
       "en": "colours; joys",
       "pos": "noun",
-      "roman": "rang"
+      "roman": "rang",
+      "pa": "رنگ، خوشیاں"
     },
     "رلیاں": {
       "en": "merriments",
       "pos": "noun",
       "roman": "raliāṅ",
       "base": "رلی",
-      "note": "رنگ رلیاں: merrymaking"
+      "note": "رنگ رلیاں: merrymaking",
+      "pa": "رلیاں، موجاں",
+      "note_pa": "رنگ رلیاں: موج میلہ"
     },
     "دھن": {
       "en": "wealth",
       "pos": "noun",
-      "roman": "dhan"
+      "roman": "dhan",
+      "pa": "دولت"
     },
     "جوبن": {
       "en": "youth, bloom of youth",
       "pos": "noun",
-      "roman": "joban"
+      "roman": "joban",
+      "pa": "جوانی، جوبن"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "نہ": {
       "en": "not; don't",
       "pos": "particle",
-      "roman": "nah"
+      "roman": "nah",
+      "pa": "نہ"
     },
     "کرئیے": {
       "en": "one should do",
       "pos": "verb",
       "roman": "karīe",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کریے"
     },
     "بہت": {
       "en": "many",
       "pos": "adjective",
-      "roman": "bahut"
+      "roman": "bahut",
+      "pa": "بہتیاں"
     },
     "سیانیاں": {
       "en": "wise women",
       "pos": "adjective",
       "roman": "siāṇiāṅ",
-      "base": "سیانا"
+      "base": "سیانا",
+      "pa": "سیانیاں عورتاں"
     },
     "چھلاں": {
       "en": "were beguiled",
       "pos": "verb",
       "roman": "chhallāṅ",
       "base": "چھلنا",
-      "note": "Uncertain: 'deceived (by pride)'"
+      "note": "Uncertain: 'deceived (by pride)'",
+      "pa": "چھلیاں گئیاں، دھوکھا کھا گئیاں",
+      "note_pa": "پکا نہیں: (غرور ہتھوں) دھوکھا کھا گئیاں"
     },
     "جیہناں": {
       "en": "those whose; those (with) whom",
       "pos": "pronoun",
-      "roman": "jihnāṅ"
+      "roman": "jihnāṅ",
+      "pa": "جنہاں"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "بال": {
       "en": "child",
       "pos": "noun",
-      "roman": "bāl"
+      "roman": "bāl",
+      "pa": "بال، بچہ"
     },
     "پن": {
       "en": "-hood (بال پن: childhood)",
       "pos": "noun",
-      "roman": "paṇ"
+      "roman": "paṇ",
+      "pa": "پن (بال پن: بچپن)"
     },
     "کھیڈیا": {
       "en": "played",
       "pos": "verb",
       "roman": "kheḍiā",
-      "base": "کھیڈنا"
+      "base": "کھیڈنا",
+      "pa": "کھیڈیا"
     },
     "سے": {
       "en": "they, those",
       "pos": "pronoun",
-      "roman": "se"
+      "roman": "se",
+      "pa": "اوہ"
     },
     "سئیاں": {
       "en": "girlfriends",
       "pos": "noun",
       "roman": "saīāṅ",
-      "base": "سئی"
+      "base": "سئی",
+      "pa": "سہیلیاں"
     },
     "اٹھ": {
       "en": "having risen, getting up",
       "pos": "verb",
       "roman": "uṭṭh",
-      "base": "اٹھنا"
+      "base": "اٹھنا",
+      "pa": "اٹھ کے"
     },
     "چلیاں": {
       "en": "have departed",
       "pos": "verb",
       "roman": "challiāṅ",
-      "base": "چلنا"
+      "base": "چلنا",
+      "pa": "ٹر گئیاں"
     },
     "بابل": {
       "en": "father",
       "pos": "noun",
       "roman": "bābul",
-      "note": "The father's house: maidenhood, i.e. this world"
+      "note": "The father's house: maidenhood, i.e. this world",
+      "pa": "پیو، بابل",
+      "note_pa": "بابل دا گھر: کنوار پن، یعنی ایہہ دنیا"
     },
     "آنگن": {
       "en": "courtyard",
       "pos": "noun",
-      "roman": "āṅgan"
+      "roman": "āṅgan",
+      "pa": "ویہڑا"
     },
     "چھڈ": {
       "en": "leaving",
       "pos": "verb",
       "roman": "chhaḍ",
-      "base": "چھڈنا"
+      "base": "چھڈنا",
+      "pa": "چھڈ کے"
     },
     "گئیاں": {
       "en": "went",
       "pos": "verb",
       "roman": "gaīāṅ",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "گئیاں"
     },
     "ساہورڑے": {
       "en": "in-laws'",
       "pos": "noun",
       "roman": "sāhurṛe",
       "base": "ساہورا",
-      "note": "The in-laws' home: the hereafter"
+      "note": "The in-laws' home: the hereafter",
+      "pa": "سوہریاں دے",
+      "note_pa": "سوہریاں دا گھر: اگلا جہان"
     },
     "گھر": {
       "en": "home, house",
       "pos": "noun",
-      "roman": "ghar"
+      "roman": "ghar",
+      "pa": "گھر"
     },
     "ایہہ": {
       "en": "these",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "گلیاں": {
       "en": "lanes",
       "pos": "noun",
       "roman": "galiāṅ",
-      "base": "گلی"
+      "base": "گلی",
+      "pa": "گلیاں"
     },
     "تینوں": {
       "en": "to you",
       "pos": "pronoun",
-      "roman": "tainūṅ"
+      "roman": "tainūṅ",
+      "pa": "تینوں"
     },
     "سپنا": {
       "en": "a dream",
       "pos": "noun",
-      "roman": "supnā"
+      "roman": "supnā",
+      "pa": "سپنا، خواب"
     },
     "تھیسن": {
       "en": "will become",
       "pos": "verb",
       "roman": "thīsan",
-      "base": "تھیونا"
+      "base": "تھیونا",
+      "pa": "ہو جاسن"
     },
     "والیاں": {
       "en": "of, belonging to (fem. pl.)",
       "pos": "particle",
-      "roman": "vāliāṅ"
+      "roman": "vāliāṅ",
+      "pa": "والیاں"
     },
     "کہے": {
       "en": "says",
       "pos": "verb",
       "roman": "kahe",
-      "base": "کہنا"
+      "base": "کہنا",
+      "pa": "آکھے"
     },
     "حسین": {
       "en": "Hussain (the poet names himself)",
       "pos": "proper noun",
       "roman": "Husain",
-      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore",
+      "pa": "حسین، شاعر آپ",
+      "note_pa": "شاہ حسین (۱۵۳۸–۱۵۹۹)، لاہور دے صوفی شاعر"
     },
     "فقیر": {
       "en": "faqir, mendicant",
       "pos": "noun",
       "roman": "faqīr",
-      "note": "Sufi term: one poor before God"
+      "note": "Sufi term: one poor before God",
+      "pa": "فقیر، درویش",
+      "note_pa": "صوفی لفظ: رب اگے محتاج"
     },
     "سائیں": {
       "en": "the Lord (Master)",
       "pos": "noun",
-      "roman": "sāīṅ"
+      "roman": "sāīṅ",
+      "pa": "سائیں، مالک رب"
     },
     "کرلے": {
       "en": "do",
       "pos": "verb",
       "roman": "kar le",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر لے"
     },
     "گلاں": {
       "en": "deeds (lit. words)",
       "pos": "noun",
       "roman": "gallāṅ",
-      "base": "گل"
+      "base": "گل",
+      "pa": "کم (لفظی: گلاں)"
     },
     "بھلیاں": {
       "en": "good",
       "pos": "adjective",
       "roman": "bhaliāṅ",
-      "base": "بھلا"
+      "base": "بھلا",
+      "pa": "چنگیاں"
     }
   }
 }

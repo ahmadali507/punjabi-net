@@ -5,201 +5,241 @@
     "نہ": {
       "en": "don't; not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ، نہیں"
     },
     "کر": {
       "en": "do; make",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر"
     },
     "ہور": {
       "en": "more; other",
       "pos": "adjective",
-      "roman": "hor"
+      "roman": "hor",
+      "pa": "ہور، دوجا"
     },
     "علاج": {
       "en": "treatment; cure",
       "pos": "noun",
-      "roman": "ilāj"
+      "roman": "ilāj",
+      "pa": "علاج، دوا دارو"
     },
     "طبیبا": {
       "en": "O physician",
       "pos": "noun",
       "roman": "tabībā",
-      "base": "طبیب"
+      "base": "طبیب",
+      "pa": "اے طبیب، اے حکیم"
     },
     "مینوں": {
       "en": "to me; for me",
       "pos": "pronoun",
       "roman": "mainūṅ",
-      "base": "میں"
+      "base": "میں",
+      "pa": "مینوں، میرے لئی"
     },
     "فرق": {
       "en": "difference; relief",
       "pos": "noun",
-      "roman": "faraq"
+      "roman": "faraq",
+      "pa": "فرق، آرام"
     },
     "نہیں": {
       "en": "not; there is no",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "اک": {
       "en": "one",
       "pos": "numeral",
-      "roman": "ikk"
+      "roman": "ikk",
+      "pa": "اک"
     },
     "تل": {
       "en": "sesame seed (a tiny bit)",
       "pos": "noun",
       "roman": "til",
-      "note": "\"Ikk til dā\": not the least bit."
+      "note": "\"Ikk til dā\": not the least bit.",
+      "pa": "تل (رتا جنا)",
+      "note_pa": "اک تل دا: رتا وی نہیں"
     },
     "دا": {
       "en": "of; (verb ending in \"mil dā\", \"hil dā\")",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان؛ فعل دا انت (ملدا، ہلدا)"
     },
     "دارو": {
       "en": "medicine",
       "pos": "noun",
-      "roman": "dārū"
+      "roman": "dārū",
+      "pa": "دوا"
     },
     "سیک": {
       "en": "heat; scorching",
       "pos": "noun",
-      "roman": "sek"
+      "roman": "sek",
+      "pa": "سیک، تپش"
     },
     "لگے": {
       "en": "touches; strikes",
       "pos": "verb",
       "roman": "lagge",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگدا اے"
     },
     "جل": {
       "en": "burn",
       "pos": "verb",
       "roman": "jal",
-      "base": "جلنا"
+      "base": "جلنا",
+      "pa": "سڑ"
     },
     "جائے": {
       "en": "goes; (burns) away",
       "pos": "verb",
       "roman": "jāe",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جاندا اے (سڑ جاندا)"
     },
     "جد": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jad"
+      "roman": "jad",
+      "pa": "جدوں"
     },
     "بھڑک": {
       "en": "flare; blaze",
       "pos": "verb",
       "roman": "bhaṛak",
-      "base": "بھڑکنا"
+      "base": "بھڑکنا",
+      "pa": "بھڑک، بل"
     },
     "اٹھے": {
       "en": "rises; (flares) up",
       "pos": "verb",
       "roman": "uṭhe",
-      "base": "اٹھنا"
+      "base": "اٹھنا",
+      "pa": "اٹھدا اے"
     },
     "دکھ": {
       "en": "pain; ache",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ، پیڑ"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "مائے": {
       "en": "O mother",
       "pos": "noun",
       "roman": "māe",
-      "base": "ماں"
+      "base": "ماں",
+      "pa": "اے ماں"
     },
     "مگر": {
       "en": "after; pursuing",
       "pos": "postposition",
       "roman": "magar",
-      "note": "Love is after me (hounding me) on every side."
+      "note": "Love is after me (hounding me) on every side.",
+      "pa": "پچھے، مگر",
+      "note_pa": "عشق ہر پاسیوں میرے مگر پیا اے"
     },
     "ہر": {
       "en": "every",
       "pos": "adjective",
-      "roman": "har"
+      "roman": "har",
+      "pa": "ہر"
     },
     "ول": {
       "en": "side; direction",
       "pos": "noun",
-      "roman": "val"
+      "roman": "val",
+      "pa": "پاسا، طرف"
     },
     "عشق": {
       "en": "love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق، پیار"
     },
     "پلک": {
       "en": "eyelid; blink (an instant)",
       "pos": "noun",
-      "roman": "palak"
+      "roman": "palak",
+      "pa": "پلک، اک گھڑی"
     },
     "ٹکاو": {
       "en": "rest; steadiness",
       "pos": "noun",
-      "roman": "ṭikāo"
+      "roman": "ṭikāo",
+      "pa": "ٹکاؤ، سکون"
     },
     "مل": {
       "en": "is found",
       "pos": "verb",
       "roman": "mil",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملدا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر آپ"
     },
     "شوق": {
       "en": "longing; desire",
       "pos": "noun",
-      "roman": "shauq"
+      "roman": "shauq",
+      "pa": "شوق، تانگھ"
     },
     "بتیرا": {
       "en": "plenty; much",
       "pos": "adjective",
-      "roman": "batherā"
+      "roman": "batherā",
+      "pa": "بتیرا، بہت"
     },
     "نوں": {
       "en": "to (dative); has",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "نوں (دل نوں اے)"
     },
     "پر": {
       "en": "but",
       "pos": "conjunction",
-      "roman": "par"
+      "roman": "par",
+      "pa": "پر، پرنتو"
     },
     "ہرگز": {
       "en": "ever; in any way",
       "pos": "adverb",
-      "roman": "hargiz"
+      "roman": "hargiz",
+      "pa": "ہرگز، کدی وی"
     },
     "رزق": {
       "en": "fated portion; sustenance",
       "pos": "noun",
       "roman": "rizq",
-      "note": "What God has apportioned; longing cannot shift it."
+      "note": "What God has apportioned; longing cannot shift it.",
+      "pa": "رزق، لکھیا حصہ",
+      "note_pa": "جو رب نے ونڈیا اے؛ شوق اوہنوں ہلا نہیں سکدا"
     },
     "ہل": {
       "en": "move; budge",
       "pos": "verb",
       "roman": "hil",
-      "base": "ہلنا"
+      "base": "ہلنا",
+      "pa": "ہلدا، ٹلدا"
     }
   }
 }

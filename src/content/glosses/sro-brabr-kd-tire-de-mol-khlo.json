@@ -6,161 +6,195 @@
       "en": "cypress",
       "pos": "noun",
       "roman": "sarv",
-      "note": "The cypress: classic image of a tall, graceful figure."
+      "note": "The cypress: classic image of a tall, graceful figure.",
+      "pa": "سرو دا رکھ",
+      "note_pa": "سرو: اچے سوہنے قد دی پرانی تشبیہ"
     },
     "برابر": {
       "en": "level; equal",
       "pos": "adjective",
-      "roman": "barābar"
+      "roman": "barābar",
+      "pa": "برابر، اکو جیہا"
     },
     "کد": {
       "en": "stature; height",
       "pos": "noun",
-      "roman": "qadd"
+      "roman": "qadd",
+      "pa": "قد، اچائی"
     },
     "تیرے": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیرے"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "سمبندھ دا نشان"
     },
     "مول": {
       "en": "at all; ever",
       "pos": "adverb",
-      "roman": "mūl"
+      "roman": "mūl",
+      "pa": "مول، اکا"
     },
     "کھلو": {
       "en": "stand",
       "pos": "verb",
       "roman": "khalo",
-      "base": "کھلونا"
+      "base": "کھلونا",
+      "pa": "کھلو"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "سکدا": {
       "en": "can",
       "pos": "verb",
       "roman": "sakdā",
-      "base": "سکنا"
+      "base": "سکنا",
+      "pa": "سکدا"
     },
     "پھل": {
       "en": "flower",
       "pos": "noun",
-      "roman": "phull"
+      "roman": "phull",
+      "pa": "پھل"
     },
     "گلاب": {
       "en": "rose",
       "pos": "noun",
-      "roman": "gulāb"
+      "roman": "gulāb",
+      "pa": "گلاب"
     },
     "تے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "باغارم": {
       "en": "the Garden of Iram",
       "pos": "proper noun",
       "roman": "bāġ-e-iram",
-      "note": "Legendary paradise-like garden of King Shaddad."
+      "note": "Legendary paradise-like garden of King Shaddad.",
+      "pa": "باغ ارم",
+      "note_pa": "بادشاہ شداد دا جنت ورگا قصیاں والا باغ"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "صورت": {
       "en": "face",
       "pos": "noun",
-      "roman": "sūrat"
+      "roman": "sūrat",
+      "pa": "صورت، مکھڑا"
     },
     "تک": {
       "en": "seeing; gazing",
       "pos": "verb",
       "roman": "takk",
       "base": "تکنا",
-      "note": "\"Tak tak\": gazing again and again."
+      "note": "\"Tak tak\": gazing again and again.",
+      "pa": "تک کے، ویکھ کے",
+      "note_pa": "تک تک: مڑ مڑ ویکھ کے"
     },
     "جھکدا": {
       "en": "bows down",
       "pos": "verb",
       "roman": "jhukdā",
-      "base": "جھکنا"
+      "base": "جھکنا",
+      "pa": "جھکدا اے"
     },
     "یاسمین": {
       "en": "jasmine",
       "pos": "noun",
-      "roman": "yāsmīn"
+      "roman": "yāsmīn",
+      "pa": "چنبیلی"
     },
     "ہووے": {
       "en": "becomes",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہوندا اے"
     },
     "شرمندہ": {
       "en": "ashamed",
       "pos": "adjective",
-      "roman": "sharminda"
+      "roman": "sharminda",
+      "pa": "شرمندہ"
     },
     "بدنصفائی": {
       "en": "the fairness of (your) body",
       "pos": "noun",
       "roman": "badan-safāī",
-      "note": "\"Badan\": body; \"safai\": purity, clearness."
+      "note": "\"Badan\": body; \"safai\": purity, clearness.",
+      "pa": "جسم دا نکھار",
+      "note_pa": "بدن: جسم؛ صفائی: پاکیزگی، نکھار"
     },
     "تکدا": {
       "en": "seeing; looking at",
       "pos": "verb",
       "roman": "takdā",
-      "base": "تکنا"
+      "base": "تکنا",
+      "pa": "تکدا، ویکھدا"
     },
     "ارغوان": {
       "en": "Judas tree (red blossom)",
       "pos": "noun",
       "roman": "arġavān",
-      "note": "Its red flowers: as if drowned in blood from envy."
+      "note": "Its red flowers: as if drowned in blood from envy.",
+      "pa": "ارغوان دا رکھ (لال پھل)",
+      "note_pa": "ایہدے لال پھل: جیویں سڑ کے لہو وچ ڈبے ہوون"
     },
     "ڈبا": {
       "en": "drowned; sunk",
       "pos": "verb",
       "roman": "ḍubbā",
-      "base": "ڈبنا"
+      "base": "ڈبنا",
+      "pa": "ڈبا ہویا"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "لہو": {
       "en": "blood",
       "pos": "noun",
-      "roman": "lahū"
+      "roman": "lahū",
+      "pa": "لہو، رت"
     },
     "چہرہ": {
       "en": "face",
       "pos": "noun",
-      "roman": "chehrā"
+      "roman": "chehrā",
+      "pa": "چہرہ، مکھ"
     },
     "ویکھ": {
       "en": "seeing",
       "pos": "verb",
       "roman": "vekh",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ویکھ کے"
     },
     "چمکدا": {
       "en": "shining",
       "pos": "adjective",
       "roman": "chamakdā",
-      "base": "چمکنا"
+      "base": "چمکنا",
+      "pa": "چمکدا"
     }
   }
 }

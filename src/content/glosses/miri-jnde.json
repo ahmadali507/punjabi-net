@@ -5,179 +5,213 @@
     "تیرا": {
       "en": "your",
       "pos": "pronoun",
-      "roman": "terā"
+      "roman": "terā",
+      "pa": "تیرا"
     },
     "تھاؤں": {
       "en": "place",
       "pos": "noun",
-      "roman": "thāuṅ"
+      "roman": "thāuṅ",
+      "pa": "تھاں، جگہ"
     },
     "کسے": {
       "en": "some",
       "pos": "pronoun",
       "roman": "kise",
-      "base": "کوئی"
+      "base": "کوئی",
+      "pa": "کسے"
     },
     "ندی": {
       "en": "river",
       "pos": "noun",
-      "roman": "nadī"
+      "roman": "nadī",
+      "pa": "ندی، دریا"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
       "roman": "de",
-      "base": "دا"
+      "base": "دا",
+      "pa": "سمبندھ دا نشان"
     },
     "کنارے": {
       "en": "bank",
       "pos": "noun",
       "roman": "kināre",
-      "base": "کنارا"
+      "base": "کنارا",
+      "pa": "کنارے، کنڈھے"
     },
     "جنگل": {
       "en": "forest",
       "pos": "noun",
-      "roman": "jangal"
+      "roman": "jangal",
+      "pa": "جنگل"
     },
     "بیلے": {
       "en": "riverside thicket",
       "pos": "noun",
       "roman": "bele",
-      "base": "بیلا"
+      "base": "بیلا",
+      "pa": "بیلا، دریا کنڈھے دا جھاڑ"
     },
     "تیرے": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیرے"
     },
     "بھاگاں": {
       "en": "fortune, lot",
       "pos": "noun",
       "roman": "bhāgāṅ",
-      "base": "بھاگ"
+      "base": "بھاگ",
+      "pa": "بھاگ، قسمت"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "عرشاں": {
       "en": "skies, heavens",
       "pos": "noun",
       "roman": "arshāṅ",
-      "base": "عرش"
+      "base": "عرش",
+      "pa": "اسمان"
     },
     "تے": {
       "en": "on; and",
       "pos": "postposition",
-      "roman": "te"
+      "roman": "te",
+      "pa": "اتے؛ تے"
     },
     "اڈنا": {
       "en": "to fly",
       "pos": "verb",
-      "roman": "uḍḍaṇā"
+      "roman": "uḍḍaṇā",
+      "pa": "اڈنا"
     },
     "گاندیاں": {
       "en": "singing",
       "pos": "verb",
       "roman": "gāndīāṅ",
-      "base": "گانا"
+      "base": "گانا",
+      "pa": "گاندیاں ہوئیاں"
     },
     "پھرن": {
       "en": "to roam",
       "pos": "verb",
       "roman": "phiraṇ",
-      "base": "پھرنا"
+      "base": "پھرنا",
+      "pa": "پھرنا، گھمنا"
     },
     "اکیلے": {
       "en": "alone",
       "pos": "adjective",
       "roman": "ikalle",
-      "base": "اکیلا"
+      "base": "اکیلا",
+      "pa": "اکلے"
     },
     "جیون": {
       "en": "life",
       "pos": "noun",
-      "roman": "jīvan"
+      "roman": "jīvan",
+      "pa": "جیون، حیاتی"
     },
     "صیغہ": {
       "en": "manner, mode",
       "pos": "noun",
       "roman": "sīġā",
-      "note": "Uncertain: Arabic ṣīġa 'form'; here 'your way of life'."
+      "note": "Uncertain: Arabic ṣīġa 'form'; here 'your way of life'.",
+      "pa": "ڈھنگ، طور",
+      "note_pa": "پکا نہیں: عربی صیغہ، روپ؛ ایتھے تیرا جیون دا ڈھنگ"
     },
     "ہی": {
       "en": "only",
       "pos": "particle",
-      "roman": "hī"
+      "roman": "hī",
+      "pa": "ای"
     },
     "جوگا": {
       "en": "fit for",
       "pos": "adjective",
-      "roman": "jogā"
+      "roman": "jogā",
+      "pa": "جوگا، لائق"
     },
     "توں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tūṅ"
+      "roman": "tūṅ",
+      "pa": "توں"
     },
     "آپے": {
       "en": "yourself; your own self",
       "pos": "pronoun",
-      "roman": "āpe"
+      "roman": "āpe",
+      "pa": "آپ، اپنا آپ"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "کھیلیں": {
       "en": "you play",
       "pos": "verb",
       "roman": "khelēṅ",
-      "base": "کھیلنا"
+      "base": "کھیلنا",
+      "pa": "کھیڈیں"
     },
     "کویں": {
       "en": "how",
       "pos": "adverb",
-      "roman": "kiveṅ"
+      "roman": "kiveṅ",
+      "pa": "کیویں"
     },
     "رولیاں": {
       "en": "din, tumult",
       "pos": "noun",
       "roman": "rauliāṅ",
-      "base": "رولا"
+      "base": "رولا",
+      "pa": "رولے، شور"
     },
     "آ": {
       "en": "having come",
       "pos": "verb",
       "roman": "ā",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آ کے"
     },
     "کھلوتی": {
       "en": "stood",
       "pos": "verb",
       "roman": "khalotī",
-      "base": "کھلونا"
+      "base": "کھلونا",
+      "pa": "کھلو گئی"
     },
     "چار": {
       "en": "four",
       "pos": "numeral",
-      "roman": "chār"
+      "roman": "chār",
+      "pa": "چار"
     },
     "چپھیرے": {
       "en": "all around",
       "pos": "adverb",
       "roman": "chuphere",
-      "note": "chār chuphere: on all sides."
+      "note": "chār chuphere: on all sides.",
+      "pa": "چوفیرے، آلے دوالے",
+      "note_pa": "چار چپھیرے: ہر پاسے"
     },
     "جھمیلے": {
       "en": "entanglements, troubles",
       "pos": "noun",
       "roman": "jhamele",
-      "base": "جھمیلا"
+      "base": "جھمیلا",
+      "pa": "جھمیلے، بکھیڑے"
     }
   }
 }

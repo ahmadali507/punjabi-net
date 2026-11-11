@@ -21,19 +21,23 @@ const [poems, poets, forms] = await Promise.all([getPoems(), getPoets(), getForm
 const poetById = new Map(poets.map((p) => [p.id, p]));
 const inForm = poems.filter((p) => p.data.form.id === form.id);
 ---
-<Base title={`${d.name.en} (${d.name.pa})`} description={d.description} type="article" image={`/og/forms/${form.id}.png`}>
+<Base title={en ? `${d.name.en} (${d.name.pa})` : d.name.pa} description={en ? d.description : d.description_pa} type="article" image={`/og/forms/${form.id}.png`}>
   <article class="column section" data-pagefind-body data-pagefind-filter="type:form" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <p class="eyebrow"><a href={localePath(locale, '/forms')}><T k="nav.forms" /></a></p>
     <header class="form-head">
       {en ? <h1>{d.name.en}</h1> : <h1>{d.name.pa}</h1>}
-      {en ? <Pa t={d.name.pa} class="form-head__pa" /> : <span class="muted" lang="en" dir="ltr">{d.name.en}</span>}
+      {en && <Pa t={d.name.pa} class="form-head__pa" />}
     </header>
-    <p class="lede" lang="en" dir="ltr">{d.description}</p>
+    {en ? <p class="lede" lang="en" dir="ltr">{d.description}</p> : d.description_pa && <p class="lede">{d.description_pa}</p>}
 
     <section class="section-block">
       <h2><T k="forms.history" /></h2>
-      <div class="prose" lang="en" dir="ltr"><Content /></div>
-      {d.sources.length > 0 && <ul class="biblio">{d.sources.map((s) => <li><Source source={s} /></li>)}</ul>}
+      {en ? (
+        <div class="prose" lang="en" dir="ltr"><Content /></div>
+      ) : (
+        d.body_pa && <div class="prose">{d.body_pa.split(/\n\s*\n/).map((para) => <p>{para.trim()}</p>)}</div>
+      )}
+      {d.sources.length > 0 && <ul class="biblio" data-pagefind-ignore>{d.sources.map((s) => <li><Source source={s} /></li>)}</ul>}
     </section>
 
     <section class="section-block" data-pagefind-ignore>

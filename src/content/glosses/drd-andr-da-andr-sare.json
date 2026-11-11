@@ -5,186 +5,224 @@
     "درد": {
       "en": "pain",
       "pos": "noun",
-      "roman": "dard"
+      "roman": "dard",
+      "pa": "درد، پیڑ"
     },
     "اندر": {
       "en": "inside; within",
       "pos": "adverb",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر، وچ"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "ساڑے": {
       "en": "burns",
       "pos": "verb",
       "roman": "sāṛe",
-      "base": "ساڑنا"
+      "base": "ساڑنا",
+      "pa": "ساڑدا اے"
     },
     "باہر": {
       "en": "outside; out",
       "pos": "adverb",
-      "roman": "bāhar"
+      "roman": "bāhar",
+      "pa": "باہر"
     },
     "کراں": {
       "en": "(if) I do (bring)",
       "pos": "verb",
       "roman": "karāṅ",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کراں، کڈھاں"
     },
     "تاں": {
       "en": "then",
       "pos": "conjunction",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، تد"
     },
     "گھائل": {
       "en": "wounded",
       "pos": "adjective",
-      "roman": "ghāil"
+      "roman": "ghāil",
+      "pa": "زخمی، گھائل"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہُو، رب",
+      "note_pa": "ہو: باہو دی ٹیک، \"ہُو\" یعنی \"اوہ\"، رب دا صوفی ناں، ہر سطر دے انت تے"
     },
     "حال": {
       "en": "state; condition",
       "pos": "noun",
-      "roman": "hāl"
+      "roman": "hāl",
+      "pa": "حال، حالت"
     },
     "اساڈا": {
       "en": "our",
       "pos": "pronoun",
-      "roman": "asāḍā"
+      "roman": "asāḍā",
+      "pa": "ساڈا"
     },
     "کویں": {
       "en": "how",
       "pos": "adverb",
-      "roman": "kiveṅ"
+      "roman": "kiveṅ",
+      "pa": "کیویں، کس طرحاں"
     },
     "اوہ": {
       "en": "they",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "جانن": {
       "en": "(can) know",
       "pos": "verb",
       "roman": "jānan",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جان سکن"
     },
     "جو": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جیہڑے"
     },
     "دنیا": {
       "en": "the world",
       "pos": "noun",
-      "roman": "duniyā"
+      "roman": "duniyā",
+      "pa": "دنیا، جگ"
     },
     "تے": {
       "en": "on; towards",
       "pos": "postposition",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، ول"
     },
     "مائل": {
       "en": "inclined; attached",
       "pos": "adjective",
-      "roman": "māil"
+      "roman": "māil",
+      "pa": "جھکے ہوئے، لگے ہوئے"
     },
     "بحر": {
       "en": "sea",
       "pos": "noun",
-      "roman": "bahr"
+      "roman": "bahr",
+      "pa": "سمندر، دریا"
     },
     "سمندر": {
       "en": "ocean",
       "pos": "noun",
-      "roman": "samundar"
+      "roman": "samundar",
+      "pa": "سمندر"
     },
     "عشقے": {
       "en": "of love",
       "pos": "noun",
       "roman": "ishqe",
-      "base": "عشق"
+      "base": "عشق",
+      "pa": "عشق دا"
     },
     "والا": {
       "en": "of; belonging to",
       "pos": "particle",
-      "roman": "vālā"
+      "roman": "vālā",
+      "pa": "والا"
     },
     "ہر": {
       "en": "every",
       "pos": "adjective",
-      "roman": "har"
+      "roman": "har",
+      "pa": "ہر"
     },
     "دم": {
       "en": "moment; breath",
       "pos": "noun",
       "roman": "dam",
-      "note": "har dam: 'constantly'."
+      "note": "har dam: 'constantly'.",
+      "pa": "ساہ، پل",
+      "note_pa": "ہر دم: ہر ویلے، سدا"
     },
     "ویہندا": {
       "en": "flowing",
       "pos": "verb",
       "roman": "vahindā",
-      "base": "وہنا"
+      "base": "وہنا",
+      "pa": "وگدا"
     },
     "حائل": {
       "en": "barring the way; in between",
       "pos": "adjective",
-      "roman": "hāil"
+      "roman": "hāil",
+      "pa": "رستہ روکن والا، وچکار"
     },
     "پہنچ": {
       "en": "reaching; access",
       "pos": "noun",
-      "roman": "pahuṅch"
+      "roman": "pahuṅch",
+      "pa": "پہنچ، رسائی"
     },
     "حضور": {
       "en": "the (divine) Presence",
       "pos": "noun",
-      "roman": "huzūr"
+      "roman": "huzūr",
+      "pa": "رب دی حضوری"
     },
     "آسان": {
       "en": "easy",
       "pos": "adjective",
-      "roman": "āsān"
+      "roman": "āsān",
+      "pa": "سوکھا، آسان"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر دا اپنا ناں",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دا صوفی"
     },
     "نام": {
       "en": "name",
       "pos": "noun",
-      "roman": "nām"
+      "roman": "nām",
+      "pa": "ناں"
     },
     "تیرے": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیرے"
     },
     "دے": {
       "en": "of (masc. pl.)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان (مذکر جمع)"
     },
     "سائل": {
       "en": "beggars; supplicants",
       "pos": "noun",
-      "roman": "sāil"
+      "roman": "sāil",
+      "pa": "منگتے، سوالی"
     }
   }
 }

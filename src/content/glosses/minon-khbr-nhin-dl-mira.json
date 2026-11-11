@@ -6,197 +6,236 @@
       "en": "I; to me",
       "pos": "pronoun",
       "roman": "mainūṅ",
-      "base": "میں"
+      "base": "میں",
+      "pa": "مینوں"
     },
     "خبر": {
       "en": "knowledge; awareness",
       "pos": "noun",
-      "roman": "xabar"
+      "roman": "xabar",
+      "pa": "خبر، پتہ"
     },
     "نہیں": {
       "en": "not; there is no",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "میرا": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merā",
-      "base": "میں"
+      "base": "میں",
+      "pa": "میرا"
     },
     "ایس": {
       "en": "this (oblique)",
       "pos": "pronoun",
       "roman": "is",
-      "base": "ایہہ"
+      "base": "ایہہ",
+      "pa": "ایس، ایہہ"
     },
     "جاگھ": {
       "en": "place",
       "pos": "noun",
       "roman": "jāgh",
-      "base": "جگہ"
+      "base": "جگہ",
+      "pa": "جگہ، تھاں"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "وس": {
       "en": "dwell; (line 3) power, control",
       "pos": "verb",
       "roman": "vas",
       "base": "وسنا",
-      "note": "\"Vas dā\": dwells. In \"vas dī\" (line 3) it is the noun \"control, reach\"."
+      "note": "\"Vas dā\": dwells. In \"vas dī\" (line 3) it is the noun \"control, reach\".",
+      "pa": "وسنا؛ وس، قابو",
+      "note_pa": "وس دا: وسدا اے۔ تیجی سطر وچ وس دی وچ ایہہ اسم اے: قابو، وس"
     },
     "دا": {
       "en": "(verb ending, written apart); of",
       "pos": "particle",
       "roman": "dā",
-      "note": "Here it completes present participles: \"vas dā\" (dwells), \"das dā\", \"phas dā\", \"nas dā\"."
+      "note": "Here it completes present participles: \"vas dā\" (dwells), \"das dā\", \"phas dā\", \"nas dā\".",
+      "pa": "فعل دا حصہ؛ سمبندھ دا نشان",
+      "note_pa": "ایتھے ایہہ فعل پورا کردا اے: وس دا (وسدا)، دس دا، پھس دا، نس دا"
     },
     "اچرج": {
       "en": "wonder; marvel",
       "pos": "noun",
-      "roman": "acharaj"
+      "roman": "acharaj",
+      "pa": "حیرانی، اچنبھا"
     },
     "دیکھ": {
       "en": "look at; see",
       "pos": "verb",
       "roman": "dekh",
-      "base": "دیکھنا"
+      "base": "دیکھنا",
+      "pa": "ویکھ"
     },
     "عشق": {
       "en": "love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق، پیار"
     },
     "نوں": {
       "en": "(object marker); at",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان؛ ول"
     },
     "یارو": {
       "en": "O friends",
       "pos": "noun",
       "roman": "yāro",
-      "base": "یار"
+      "base": "یار",
+      "pa": "او یارو"
     },
     "بھلا": {
       "en": "indeed; pray",
       "pos": "particle",
-      "roman": "bhalā"
+      "roman": "bhalā",
+      "pa": "بھلا، بھلا دسو"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کون"
     },
     "کوئی": {
       "en": "anyone",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "جا": {
       "en": "going; (and)",
       "pos": "verb",
       "roman": "jā",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جا کے"
     },
     "دس": {
       "en": "tell",
       "pos": "verb",
       "roman": "das",
-      "base": "دسنا"
+      "base": "دسنا",
+      "pa": "دس"
     },
     "نہ": {
       "en": "nor; not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "اوہ": {
       "en": "that",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "دام": {
       "en": "net; snare",
       "pos": "noun",
-      "roman": "dām"
+      "roman": "dām",
+      "pa": "جال، پھاہی"
     },
     "وچھائی": {
       "en": "spread out",
       "pos": "verb",
       "roman": "vichhāī",
-      "base": "وچھانا"
+      "base": "وچھانا",
+      "pa": "وچھائی، پھیلائی"
     },
     "دی": {
       "en": "of (fem.); (verb ending)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)؛ فعل دا حصہ"
     },
     "جت": {
       "en": "where",
       "pos": "adverb",
-      "roman": "jit"
+      "roman": "jit",
+      "pa": "جتھے"
     },
     "پھس": {
       "en": "be caught; get trapped",
       "pos": "verb",
       "roman": "phas",
-      "base": "پھسنا"
+      "base": "پھسنا",
+      "pa": "پھس، پھاتھا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر اپنا ناں لیندا اے"
     },
     "بہت": {
       "en": "much; a lot",
       "pos": "adverb",
-      "roman": "bahut"
+      "roman": "bahut",
+      "pa": "بہت"
     },
     "دیوے": {
       "en": "gives",
       "pos": "verb",
       "roman": "deve",
-      "base": "دینا"
+      "base": "دینا",
+      "pa": "دیندا اے"
     },
     "دکھ": {
       "en": "pain; sorrow",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ، درد"
     },
     "پیارا": {
       "en": "the beloved",
       "pos": "noun",
-      "roman": "piārā"
+      "roman": "piārā",
+      "pa": "پیارا، محبوب"
     },
     "پھیر": {
       "en": "again; still",
       "pos": "adverb",
-      "roman": "pher"
+      "roman": "pher",
+      "pa": "فیر، پھیر وی"
     },
     "اتے": {
       "en": "that (oblique)",
       "pos": "pronoun",
       "roman": "ute",
-      "note": "\"Ute val\": toward that very one. Uncertain: may also be read \"upon\"."
+      "note": "\"Ute val\": toward that very one. Uncertain: may also be read \"upon\".",
+      "pa": "اوسے",
+      "note_pa": "اتے ول: اوسے ول۔ پکا نہیں: ایہنوں اُتے وی پڑھیا جا سکدا اے"
     },
     "ول": {
       "en": "toward; in the direction of",
       "pos": "postposition",
-      "roman": "val"
+      "roman": "val",
+      "pa": "ول، پاسے"
     },
     "نس": {
       "en": "run",
       "pos": "verb",
       "roman": "nass",
-      "base": "نسنا"
+      "base": "نسنا",
+      "pa": "نس، دوڑ"
     }
   }
 }

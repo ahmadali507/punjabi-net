@@ -5,401 +5,478 @@
     "بس": {
       "en": "enough",
       "pos": "adverb",
-      "roman": "bas"
+      "roman": "bas",
+      "pa": "بس، کافی اے"
     },
     "کر": {
       "en": "do (stop)",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر (ہن بند کر)"
     },
     "جی": {
       "en": "dear (respectful address)",
       "pos": "particle",
-      "roman": "jī"
+      "roman": "jī",
+      "pa": "جی، عزت نال سد"
     },
     "ہن": {
       "en": "now",
       "pos": "adverb",
-      "roman": "hun"
+      "roman": "hun",
+      "pa": "ہن، ایس ویلے"
     },
     "اک": {
       "en": "one",
       "pos": "numeral",
-      "roman": "ik"
+      "roman": "ik",
+      "pa": "اک"
     },
     "بات": {
       "en": "word, talk",
       "pos": "noun",
-      "roman": "bāt"
+      "roman": "bāt",
+      "pa": "گل، بات"
     },
     "اساں": {
       "en": "us",
       "pos": "pronoun",
-      "roman": "asāṅ"
+      "roman": "asāṅ",
+      "pa": "ساڈے، اسیں"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "ہس": {
       "en": "laughing",
       "pos": "verb",
       "roman": "hass",
-      "base": "ہسنا"
+      "base": "ہسنا",
+      "pa": "ہس کے"
     },
     "تسی": {
       "en": "you (respectful)",
       "pos": "pronoun",
-      "roman": "tusīṅ"
+      "roman": "tusīṅ",
+      "pa": "تسیں (عزت نال)"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "میرے": {
       "en": "my",
       "pos": "pronoun",
       "roman": "mere",
-      "base": "میرا"
+      "base": "میرا",
+      "pa": "میرے"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ، اندر"
     },
     "وسدے": {
       "en": "dwell",
       "pos": "verb",
       "roman": "vasde",
-      "base": "وسنا"
+      "base": "وسنا",
+      "pa": "وسدے، رہندے"
     },
     "ہو": {
       "en": "are",
       "pos": "verb",
       "roman": "ho",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو"
     },
     "اینویں": {
       "en": "needlessly",
       "pos": "adverb",
-      "roman": "aiveṅ"
+      "roman": "aiveṅ",
+      "pa": "اینویں، بے وجہ"
     },
     "ساتھوں": {
       "en": "from us",
       "pos": "pronoun",
-      "roman": "sāthoṅ"
+      "roman": "sāthoṅ",
+      "pa": "ساڈے توں"
     },
     "دور": {
       "en": "far",
       "pos": "adverb",
-      "roman": "dūr"
+      "roman": "dūr",
+      "pa": "دور"
     },
     "کیوں": {
       "en": "why",
       "pos": "adverb",
-      "roman": "kiyoṅ"
+      "roman": "kiyoṅ",
+      "pa": "کیوں، کاہنوں"
     },
     "نسدے": {
       "en": "run",
       "pos": "verb",
       "roman": "nassde",
-      "base": "نسنا"
+      "base": "نسنا",
+      "pa": "نسدے، بھجدے"
     },
     "نالے": {
       "en": "and also",
       "pos": "conjunction",
-      "roman": "nāle"
+      "roman": "nāle",
+      "pa": "نالے، اتے"
     },
     "گھت": {
       "en": "casting",
       "pos": "verb",
       "roman": "ghatt",
-      "base": "گھتنا"
+      "base": "گھتنا",
+      "pa": "پا کے، سٹ کے"
     },
     "جادو": {
       "en": "spell, magic",
       "pos": "noun",
-      "roman": "jādū"
+      "roman": "jādū",
+      "pa": "جادو، ٹونا"
     },
     "کھسدے": {
       "en": "snatch",
       "pos": "verb",
       "roman": "khasde",
-      "base": "کھسنا"
+      "base": "کھسنا",
+      "pa": "کھوہ لیندے"
     },
     "کت": {
       "en": "which",
       "pos": "pronoun",
-      "roman": "kit"
+      "roman": "kit",
+      "pa": "کیہڑی، کس"
     },
     "ول": {
       "en": "towards",
       "pos": "postposition",
-      "roman": "val"
+      "roman": "val",
+      "pa": "ول، پاسے"
     },
     "جاسو": {
       "en": "will you go",
       "pos": "verb",
       "roman": "jāso",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جاؤ گے"
     },
     "نس": {
       "en": "running",
       "pos": "verb",
       "roman": "nass",
-      "base": "نسنا"
+      "base": "نسنا",
+      "pa": "نس کے، بھج کے"
     },
     "مویاں": {
       "en": "the dead",
       "pos": "adjective",
       "roman": "moiāṅ",
-      "base": "مویا"
+      "base": "مویا",
+      "pa": "مویاں، مردیاں"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "مار": {
       "en": "killing",
       "pos": "verb",
       "roman": "mār",
-      "base": "مارنا"
+      "base": "مارنا",
+      "pa": "مار، مارنا"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "کھٹدے": {
       "en": "tire, give up",
       "pos": "verb",
       "roman": "khuṭṭde",
-      "base": "کھٹنا"
+      "base": "کھٹنا",
+      "pa": "تھکدے، ہٹدے"
     },
     "سی": {
       "en": "were",
       "pos": "verb",
       "roman": "sī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "سی، سن"
     },
     "کھدو": {
       "en": "ball",
       "pos": "noun",
       "roman": "khiddū",
-      "note": "a rag ball struck with a stick in a street game"
+      "note": "a rag ball struck with a stick in a street game",
+      "pa": "کھدو، لیراں دی گیند",
+      "note_pa": "لیراں دی گیند جیہنوں گلی دی کھیڈ وچ کھونڈی نال مارن"
     },
     "وانگ": {
       "en": "like",
       "pos": "postposition",
-      "roman": "vāṅg"
+      "roman": "vāṅg",
+      "pa": "وانگوں، ورگا"
     },
     "کھونڈی": {
       "en": "stick (club)",
       "pos": "noun",
-      "roman": "khūṇḍī"
+      "roman": "khūṇḍī",
+      "pa": "کھونڈی، ڈنڈا"
     },
     "نت": {
       "en": "always",
       "pos": "adverb",
-      "roman": "nit"
+      "roman": "nit",
+      "pa": "ہر روز، سدا"
     },
     "کٹدے": {
       "en": "beat",
       "pos": "verb",
       "roman": "kuṭṭde",
-      "base": "کٹنا"
+      "base": "کٹنا",
+      "pa": "کٹدے، ماردے"
     },
     "گل": {
       "en": "talk; throat",
       "pos": "noun",
       "roman": "gall",
-      "note": "pun: گل کردیاں (those talking) and گل گھٹدے (strangle)"
+      "note": "pun: گل کردیاں (those talking) and گل گھٹدے (strangle)",
+      "pa": "گل بات؛ گلا",
+      "note_pa": "دو معنی: گل کردیاں (گلاں کرن والے) تے گل گھٹدے (گلا گھٹدے)"
     },
     "کردیاں": {
       "en": "of those doing",
       "pos": "verb",
       "roman": "kardiāṅ",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کردیاں دا"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "گھٹدے": {
       "en": "squeeze",
       "pos": "verb",
       "roman": "ghuṭṭde",
-      "base": "گھٹنا"
+      "base": "گھٹنا",
+      "pa": "گھٹدے، دبدے"
     },
     "تیر": {
       "en": "arrow",
       "pos": "noun",
-      "roman": "tīr"
+      "roman": "tīr",
+      "pa": "تیر"
     },
     "لگاﺅ": {
       "en": "strike, shoot",
       "pos": "verb",
       "roman": "lagāo",
-      "base": "لگانا"
+      "base": "لگانا",
+      "pa": "مارو، چلاؤ"
     },
     "کس": {
       "en": "drawing (the bow) tight",
       "pos": "verb",
       "roman": "kass",
-      "base": "کسنا"
+      "base": "کسنا",
+      "pa": "کس کے، کھچ کے"
     },
     "چھپدے": {
       "en": "hide",
       "pos": "verb",
       "roman": "chhupde",
-      "base": "چھپنا"
+      "base": "چھپنا",
+      "pa": "لکدے"
     },
     "پکڑے": {
       "en": "caught",
       "pos": "verb",
       "roman": "pakṛe",
-      "base": "پکڑنا"
+      "base": "پکڑنا",
+      "pa": "پھڑے ہوئے"
     },
     "زلف": {
       "en": "tresses",
       "pos": "noun",
-      "roman": "zulf"
+      "roman": "zulf",
+      "pa": "زلف، والاں دی لٹ"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان (جمع)"
     },
     "جکڑے": {
       "en": "bound",
       "pos": "verb",
       "roman": "jakṛe",
-      "base": "جکڑنا"
+      "base": "جکڑنا",
+      "pa": "بنھے ہوئے"
     },
     "جے": {
       "en": "if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، اگر"
     },
     "چھپن": {
       "en": "hiding",
       "pos": "noun",
       "roman": "chhupaṇ",
-      "base": "چھپنا"
+      "base": "چھپنا",
+      "pa": "لکن، چھپن"
     },
     "تکڑے": {
       "en": "skilful, strong",
       "pos": "adjective",
       "roman": "takṛe",
-      "base": "تکڑا"
+      "base": "تکڑا",
+      "pa": "تکڑے، ہوشیار"
     },
     "جان": {
       "en": "to go (escape)",
       "pos": "verb",
       "roman": "jāṇ",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جان، نکل جان"
     },
     "ملدا": {
       "en": "is allowed",
       "pos": "verb",
       "roman": "mildā",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملدا، اجازت ہوندی"
     },
     "بلھا": {
       "en": "Bulleh (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Bullhā"
+      "roman": "Bullhā",
+      "pa": "بلھا، شاعر دا اپنا ناں"
     },
     "شوہ": {
       "en": "the Beloved, the Lord",
       "pos": "noun",
       "roman": "shauh",
-      "note": "lit. husband; Bulleh Shah's name for God or his master"
+      "note": "lit. husband; Bulleh Shah's name for God or his master",
+      "pa": "خاوند، رب یا مرشد",
+      "note_pa": "لفظی معنی خاوند؛ بلھے شاہ رب یا اپنے مرشد نوں ایہہ ناں دیندا اے"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "تیری": {
       "en": "your",
       "pos": "pronoun",
       "roman": "terī",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیری"
     },
     "بردی": {
       "en": "slave girl",
       "pos": "noun",
-      "roman": "bardī"
+      "roman": "bardī",
+      "pa": "باندی، کنیز"
     },
     "ہاں": {
       "en": "am",
       "pos": "verb",
       "roman": "hāṅ",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہاں، آں"
     },
     "تیرا": {
       "en": "your",
       "pos": "pronoun",
-      "roman": "terā"
+      "roman": "terā",
+      "pa": "تیرا"
     },
     "مکھ": {
       "en": "face",
       "pos": "noun",
-      "roman": "mukh"
+      "roman": "mukh",
+      "pa": "مکھڑا، چہرہ"
     },
     "ویکھن": {
       "en": "to see",
       "pos": "verb",
       "roman": "vekhaṇ",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ویکھن نوں"
     },
     "مردی": {
       "en": "dying",
       "pos": "verb",
       "roman": "mardī",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مردی، تانگھدی"
     },
     "سو": {
       "en": "hundred",
       "pos": "numeral",
-      "roman": "sau"
+      "roman": "sau",
+      "pa": "سو"
     },
     "منتاں": {
       "en": "entreaties",
       "pos": "noun",
       "roman": "minnatāṅ",
-      "base": "منت"
+      "base": "منت",
+      "pa": "منتاں، ترلے"
     },
     "دی": {
       "en": "(I) do (with کر, written apart)",
       "pos": "verb",
       "roman": "dī",
       "base": "کرنا",
-      "note": "split spelling of کردی"
+      "note": "split spelling of کردی",
+      "pa": "کردی (کر نال)",
+      "note_pa": "کردی نوں وکھ کر کے لکھیا"
     },
     "بیٹھ": {
       "en": "sit",
       "pos": "verb",
       "roman": "baiṭh",
-      "base": "بیٹھنا"
+      "base": "بیٹھنا",
+      "pa": "بیٹھ، بہہ"
     },
     "پنجر": {
       "en": "cage of the body",
       "pos": "noun",
       "roman": "pinjar",
-      "note": "lit. skeleton, ribcage"
+      "note": "lit. skeleton, ribcage",
+      "pa": "پنجر، جسم دا ڈھانچا",
+      "note_pa": "لفظی معنی ہڈیاں دا ڈھانچا، پسلیاں"
     },
     "دھس": {
       "en": "sink in, enter",
       "pos": "verb",
       "roman": "dhass",
-      "base": "دھسنا"
+      "base": "دھسنا",
+      "pa": "دھس، وڑ"
     }
   }
 }

@@ -1,13 +1,23 @@
 ---
-/** A printed source: "Book, ed. Editor (Publisher, 1938), p. 12". Book titles stay as recorded. */
+/**
+ * A printed source. English pages: "Book, ed. Editor (Publisher, 1938), p. 12", titles as recorded.
+ * Punjabi pages: the same citation in Shahmukhi (see sourcePa), linked when there is a URL.
+ */
 import T from './T.astro';
+import { asLocale, PA_LANG } from '~/i18n';
+import { sourcePa } from '~/lib/pa';
+import type { Source } from '~/content.config';
 
-interface Props {
-  source: { book: string; editor?: string; publisher?: string; year?: string | number; page?: string | number; url?: string };
-}
-const { book, editor, publisher, year, page, url } = Astro.props.source;
+interface Props { source: Source }
+const { source } = Astro.props;
+const { book, editor, publisher, year, page, url } = source;
 const pub = [publisher, year].filter(Boolean).join(', ');
+const pa = asLocale(Astro.currentLocale) === 'pa' ? sourcePa(source) : undefined;
 ---
-<span class="source" lang="en" dir="ltr">
-  {url ? <a href={url} rel="noopener"><cite>{book}</cite></a> : <cite>{book}</cite>}{editor && <>, ed. {editor}</>}{pub && <> ({pub})</>}{page !== undefined && <>, <T k="source.page" /> {page}</>}
-</span>
+{pa ? (
+  <span class="source" lang={PA_LANG} dir="rtl">{pa.url ? <a href={pa.url} rel="noopener">{pa.text}</a> : pa.text}</span>
+) : (
+  <span class="source" lang="en" dir="ltr">
+    {url ? <a href={url} rel="noopener"><cite>{book}</cite></a> : <cite>{book}</cite>}{editor && <>, ed. {editor}</>}{pub && <> ({pub})</>}{page !== undefined && <>, <T k="source.page" /> {page}</>}
+  </span>
+)}

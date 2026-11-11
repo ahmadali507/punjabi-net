@@ -5,6 +5,7 @@ import Pa from './Pa.astro';
 import T from './T.astro';
 import { asLocale, localePath } from '~/i18n';
 import { lifespan, type Poet } from '~/lib/content';
+import { lifespanPa, STYLE_PA } from '~/lib/pa';
 import type { UIKey } from '~/i18n/ui';
 
 /** priority: the card is in the first row, so its image loads eagerly (it is often the LCP). */
@@ -14,9 +15,9 @@ const d = poet.data;
 const locale = asLocale(Astro.currentLocale);
 const en = locale === 'en';
 const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
-const dates = lifespan(d);
+const dates = en ? lifespan(d) : lifespanPa(d);
 ---
-<article class="poet-tile" data-filter-item data-era={d.era} data-filter-text={`${d.name.en} ${d.name.pa}`.toLowerCase()}>
+<article class="poet-tile" data-filter-item data-era={d.era} data-filter-text={(en ? `${d.name.en} ${d.name.pa}` : d.name.pa).toLowerCase()}>
   <a class="poet-tile__link" href={localePath(locale, `/poets/${poet.id}`)}>
     {d.portrait ? (
       <Image src={d.portrait} alt="" widths={[200, 320, 420]} sizes="(min-width: 56rem) 15rem, 45vw" class="poet-tile__img" quality={50} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'} />
@@ -26,17 +27,17 @@ const dates = lifespan(d);
     <span class="poet-tile__pa"><Pa t={d.name.pa} /></span>
     {en && <span class="poet-tile__en">{d.name.en}</span>}
   </a>
-  {dates && <p class="poet-tile__dates muted"><bdi dir="ltr">{dates}</bdi></p>}
+  {dates && <p class="poet-tile__dates muted">{en ? <bdi dir="ltr">{dates}</bdi> : <bdi>{dates}</bdi>}</p>}
   {!compact && (
     <>
       <p class="poet-tile__caption muted">
-        {d.portrait ? <bdi lang="en">{d.portrait_caption}</bdi> : <T k="poet.noPortrait" />}
+        {d.portrait ? (en ? <bdi lang="en">{d.portrait_caption}</bdi> : <bdi>{d.portrait_caption_pa}</bdi>) : <T k="poet.noPortrait" />}
       </p>
       <p class="poet-tile__tags">
         <span class="tag tag--accent"><T k={`era.${d.era}` as UIKey} /></span>
-        {d.styles.filter((s) => s.toLowerCase() !== d.era).slice(0, 2).map((s) => <span class="tag" lang="en" dir="ltr">{s}</span>)}
+        {d.styles.filter((s) => s.toLowerCase() !== d.era).slice(0, 2).map((s) => (en ? <span class="tag" lang="en" dir="ltr">{s}</span> : <span class="tag">{STYLE_PA[s] ?? s}</span>))}
       </p>
-      <p class="poet-tile__bio" lang="en" dir="ltr">{d.bio_short}</p>
+      {en ? <p class="poet-tile__bio" lang="en" dir="ltr">{d.bio_short}</p> : d.bio_short_pa && <p class="poet-tile__bio">{d.bio_short_pa}</p>}
     </>
   )}
 </article>

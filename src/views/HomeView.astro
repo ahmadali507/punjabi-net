@@ -87,7 +87,7 @@ if (SITE.footerCouplet) {
       <div class="home-proverb">
         <h2 id="h-proverb" class="eyebrow"><T k="home.proverb" /></h2>
         <a class="home-proverb__text" href={localePath(locale, `/proverbs/${proverb.id}`)}><Pa t={proverb.data.text} /></a>
-        <p class="muted" lang="en" dir="ltr">{proverb.data.meaning_en ?? proverb.data.literal_en.replace(/\n/g, ' ')}</p>
+        {en ? <p class="muted" lang="en" dir="ltr">{proverb.data.meaning_en ?? proverb.data.literal_en.replace(/\n/g, ' ')}</p> : proverb.data.meaning_pa && <p class="muted">{proverb.data.meaning_pa}</p>}
       </div>
     </section>
   )}

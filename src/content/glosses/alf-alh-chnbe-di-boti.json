@@ -6,165 +6,200 @@
       "en": "Alif (first letter)",
       "pos": "noun",
       "roman": "alif",
-      "note": "Acrostic: the first letter, also the first letter of 'Allah'."
+      "note": "Acrostic: the first letter, also the first letter of 'Allah'.",
+      "pa": "الف، پہلا اکھر",
+      "note_pa": "اکھراں والی نظم: پہلا اکھر، اللہ دا وی پہلا اکھر"
     },
     "اللہ": {
       "en": "Allah; God",
       "pos": "proper noun",
-      "roman": "Allāh"
+      "roman": "Allāh",
+      "pa": "اللہ، رب"
     },
     "چنبے": {
       "en": "of the jasmine",
       "pos": "noun",
       "roman": "chambe",
       "base": "چنبا",
-      "note": "Chamba: a fragrant jasmine-like flowering plant."
+      "note": "Chamba: a fragrant jasmine-like flowering plant.",
+      "pa": "چنبے دی، چنبیلی ورگے پھل دی",
+      "note_pa": "چنبا: خوشبو والا چنبیلی ورگا پھلدار بوٹا"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "بوٹی": {
       "en": "plant; herb",
       "pos": "noun",
-      "roman": "būṭī"
+      "roman": "būṭī",
+      "pa": "بوٹا، بوٹی"
     },
     "مرشد": {
       "en": "spiritual guide",
       "pos": "noun",
-      "roman": "murshid"
+      "roman": "murshid",
+      "pa": "مرشد، رہبر"
     },
     "من": {
       "en": "heart; mind",
       "pos": "noun",
-      "roman": "man"
+      "roman": "man",
+      "pa": "من، دل"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "لائی": {
       "en": "planted",
       "pos": "verb",
       "roman": "lāī",
-      "base": "لانا"
+      "base": "لانا",
+      "pa": "لائی، بیجی"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہو (اوہ: رب)",
+      "note_pa": "باہو دا ٹیک بول: ہو، یعنی اوہ، رب دا صوفی ناں، ہر سطر دے انت تے"
     },
     "نفی": {
       "en": "negation",
       "pos": "noun",
       "roman": "nafī",
-      "note": "nafī-isbāt: the formula lā ilāha (negation) illā Allāh (affirmation)."
+      "note": "nafī-isbāt: the formula lā ilāha (negation) illā Allāh (affirmation).",
+      "pa": "نفی، انکار",
+      "note_pa": "نفی اثبات: لا الہ (نفی) الا اللہ (اثبات)"
     },
     "اثبات": {
       "en": "affirmation",
       "pos": "noun",
-      "roman": "isbāt"
+      "roman": "isbāt",
+      "pa": "اثبات، اقرار"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "پانی": {
       "en": "water",
       "pos": "noun",
-      "roman": "pānī"
+      "roman": "pānī",
+      "pa": "پانی"
     },
     "ملیس": {
       "en": "it was given (it received)",
       "pos": "verb",
       "roman": "miliyus",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "اوہنوں ملیا"
     },
     "ہر": {
       "en": "every",
       "pos": "adjective",
-      "roman": "har"
+      "roman": "har",
+      "pa": "ہر"
     },
     "رگے": {
       "en": "vein (in every vein)",
       "pos": "noun",
       "roman": "rage",
-      "base": "رگ"
+      "base": "رگ",
+      "pa": "رگ (ہر رگ وچ)"
     },
     "جائی": {
       "en": "place (everywhere)",
       "pos": "noun",
       "roman": "jāī",
-      "base": "جا"
+      "base": "جا",
+      "pa": "جگہ (ہر تھاں)"
     },
     "اندر": {
       "en": "inside; within",
       "pos": "adverb",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر"
     },
     "مشک": {
       "en": "musk; fragrance",
       "pos": "noun",
-      "roman": "mushk"
+      "roman": "mushk",
+      "pa": "مشک، خوشبو"
     },
     "مچایا": {
       "en": "spread; raised",
       "pos": "verb",
       "roman": "machāiā",
-      "base": "مچانا"
+      "base": "مچانا",
+      "pa": "کھلاریا، مچایا"
     },
     "جاں": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jāṅ"
+      "roman": "jāṅ",
+      "pa": "جدوں"
     },
     "پھلاں": {
       "en": "flowers",
       "pos": "noun",
       "roman": "phullāṅ",
-      "base": "پھل"
+      "base": "پھل",
+      "pa": "پھلاں"
     },
     "تے": {
       "en": "on; to",
       "pos": "postposition",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "آئی": {
       "en": "came (into flower)",
       "pos": "verb",
       "roman": "āī",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آئی (پھلاں تے)"
     },
     "جیوے": {
       "en": "long live",
       "pos": "verb",
       "roman": "jīve",
-      "base": "جینا"
+      "base": "جینا",
+      "pa": "جیوندا رہے"
     },
     "کامل": {
       "en": "perfect",
       "pos": "adjective",
-      "roman": "kāmil"
+      "roman": "kāmil",
+      "pa": "کامل، پورا"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر آپ",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دے صوفی"
     },
     "جیں": {
       "en": "who (did it)",
       "pos": "pronoun",
-      "roman": "jeṅ"
+      "roman": "jeṅ",
+      "pa": "جیہنے"
     },
     "ایہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "ih"
+      "roman": "ih",
+      "pa": "ایہہ"
     }
   }
 }

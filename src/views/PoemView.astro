@@ -12,6 +12,7 @@ import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
+import { lifespanPa, verificationPa } from '~/lib/pa';
 import { lifespan, paDigits, poemsByPoet, segmentLine, wordMeanings, type Poem } from '~/lib/content';
 import { POS } from '~/content.config';
 import '~/styles/reader.css';
@@ -27,11 +28,11 @@ const form = (await getEntry(d.form))!;
 const more = (await poemsByPoet(poet.id)).filter((p) => p.id !== poem.id).slice(0, 6);
 const { Content } = await render(poem);
 const hasNotes = Boolean(poem.body?.trim());
-const { items: gloss, lookup } = await wordMeanings(poem, (id) => localePath(locale, `/dictionary/${id}`));
+const { items: gloss, lookup } = await wordMeanings(poem, (id) => localePath(locale, `/dictionary/${id}`), locale);
 // Part-of-speech labels in the page's language, for the meaning card.
 const posLabels = Object.fromEntries([...POS.map((p) => [p, t(locale, `pos.${p}` as UIKey)]), ['proper noun', t(locale, 'pos.proper')]]);
 const hasText = d.verses.length > 0;
-const dates = lifespan(poet.data);
+const dates = en ? lifespan(poet.data) : lifespanPa(poet.data);
 
 const jsonLd = {
   '@type': 'CreativeWork',
@@ -45,8 +46,10 @@ const jsonLd = {
 // Stanza numbers skip refrain repeats: a kafi's refrain is labelled, not counted.
 const stanzaNo = d.verses.map((v, i) => (v.refrain ? 0 : d.verses.slice(0, i + 1).filter((x) => !x.refrain).length));
 const num = (n: number) => (en ? String(n) : paDigits(n));
-const pageTitle = `${d.title_en ?? d.title} · ${poet.data.name.en}`;
-const description = hasText
+const pageTitle = en ? `${d.title_en ?? d.title} · ${poet.data.name.en}` : `${d.title} · ${poet.data.name.pa}`;
+const description = !en
+  ? `${form.data.name.pa}، ${poet.data.name.pa}${hasText ? '' : '۔ متن حالے چڑھایا نہیں گیا'}۔`
+  : hasText
   ? `${form.data.name.en} by ${poet.data.name.en}, in Shahmukhi${d.translation ? ' with an English translation' : ''}.`
   : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
 ---
@@ -60,7 +63,7 @@ const description = hasText
       {en && d.title_en && <p class="poem__title-en">{d.title_en}</p>}
       <p class="poem__poet">
         <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
-        {dates && <span class="muted"> · <bdi dir="ltr">{dates}</bdi></span>}
+        {dates && <span class="muted"> · {en ? <bdi dir="ltr">{dates}</bdi> : <bdi>{dates}</bdi>}</span>}
       </p>
     </header>
 
@@ -75,8 +78,8 @@ const description = hasText
               </button>
             )}
             {gloss.length > 0 && <span class="tools-sep" aria-hidden="true"></span>}
-            <button type="button" class="tool" data-size="-1" aria-label={t(locale, 'reader.smaller')} lang="en" dir="ltr">A−</button>
-            <button type="button" class="tool" data-size="1" aria-label={t(locale, 'reader.larger')} lang="en" dir="ltr">A+</button>
+            <button type="button" class="tool" data-size="-1" aria-label={t(locale, 'reader.smaller')}>{en ? 'A−' : 'ا−'}</button>
+            <button type="button" class="tool" data-size="1" aria-label={t(locale, 'reader.larger')}>{en ? 'A+' : 'ا+'}</button>
             <button type="button" class="tool" data-copy><T k="reader.copy" /></button>
             <button type="button" class="tool" data-print><T k="reader.print" /></button>
             <button type="button" class="tool" data-share><T k="reader.share" /></button>
@@ -105,7 +108,7 @@ const description = hasText
                   </span>
                 ))}
               </p>
-              {v.en && (
+              {en && v.en && (
                 <p class="verse__en" lang="en" dir="ltr">
                   {v.en.split('\n').map((line) => <span class="line">{line}</span>)}
                 </p>
@@ -126,12 +129,22 @@ const description = hasText
               <p class="gloss__hw" id="gloss-word" lang={PA_LANG} dir="rtl" data-hw></p>
               <span class="gloss__pos" data-pos></span>
             </div>
-            <p class="gloss__pron" lang="en" dir="ltr" data-pron></p>
-            <p class="gloss__en" lang="en" dir="ltr" data-en></p>
-            <p class="gloss__note" lang="en" dir="ltr" data-note></p>
+            {en ? (
+              <>
+                <p class="gloss__pron" lang="en" dir="ltr" data-pron></p>
+                <p class="gloss__en" lang="en" dir="ltr" data-en></p>
+                <p class="gloss__note" lang="en" dir="ltr" data-note></p>
+              </>
+            ) : (
+              <>
+                <p class="gloss__pron" data-pron></p>
+                <p class="gloss__en gloss__en--pa" data-en></p>
+                <p class="gloss__note" data-note></p>
+              </>
+            )}
             <div class="gloss__dict" data-dict hidden>
-              <p class="gloss__dict-head"><T k="gloss.fromDict" /> · <span lang="en" dir="ltr" data-dict-source></span></p>
-              <ol class="gloss__senses" lang="en" dir="ltr" data-senses></ol>
+              <p class="gloss__dict-head"><T k="gloss.fromDict" /> · {en ? <span lang="en" dir="ltr" data-dict-source></span> : <span data-dict-source></span>}</p>
+              {en ? <ol class="gloss__senses" lang="en" dir="ltr" data-senses></ol> : <ol class="gloss__senses" data-senses></ol>}
               <a class="gloss__link" data-gloss-link href="#"><T k="gloss.dictionary" /> →</a>
             </div>
             <p class="gloss__draft" data-draft hidden><T k="gloss.draft" /></p>
@@ -148,14 +161,14 @@ const description = hasText
     )}
 
     <div class="column poem__after">
-      {d.translation && (
+      {en && d.translation && (
         <p class="muted poem__translator">
           <T k="poem.translation" />: <bdi lang="en">{d.translation.translator}</bdi>
           {d.translation.source && <>, <Source source={d.translation.source} /></>}
         </p>
       )}
 
-      {hasNotes && (
+      {en && hasNotes && (
         <section class="poem__notes">
           <h2><T k="poem.notes" /></h2>
           <div class="prose" lang="en" dir="ltr"><Content /></div>
@@ -164,7 +177,11 @@ const description = hasText
 
       <dl class="poem__meta" data-pagefind-ignore>
         <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
-        <div><dt><T k="poem.verification" /></dt><dd lang="en" dir="ltr">{d.verification_note}</dd></div>
+        {en ? (
+          <div><dt><T k="poem.verification" /></dt><dd lang="en" dir="ltr">{d.verification_note}</dd></div>
+        ) : (
+          <div><dt><T k="poem.verification" /></dt><dd>{verificationPa(d.verification_note)}</dd></div>
+        )}
       </dl>
 
       <aside class="poet-card no-print" aria-labelledby="about-poet" data-pagefind-ignore>
@@ -173,9 +190,9 @@ const description = hasText
         <p class="poet-card__name">
           <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
           {en && <>{' '}<Pa t={poet.data.name.pa} class="poet-card__pa" /></>}
-          {dates && <span class="muted"> · <bdi dir="ltr">{dates}</bdi></span>}
+          {dates && <span class="muted"> · {en ? <bdi dir="ltr">{dates}</bdi> : <bdi>{dates}</bdi>}</span>}
         </p>
-        <p lang="en" dir="ltr">{poet.data.bio_short}</p>
+        {en ? <p lang="en" dir="ltr">{poet.data.bio_short}</p> : poet.data.bio_short_pa && <p>{poet.data.bio_short_pa}</p>}
       </aside>
 
       {more.length > 0 && (

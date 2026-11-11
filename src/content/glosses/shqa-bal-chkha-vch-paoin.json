@@ -6,170 +6,205 @@
       "en": "O love",
       "pos": "noun",
       "roman": "ishqā",
-      "base": "عشق"
+      "base": "عشق",
+      "pa": "اے عشق"
     },
     "بال": {
       "en": "kindle; light",
       "pos": "verb",
       "roman": "bāl",
-      "base": "بالنا"
+      "base": "بالنا",
+      "pa": "بال، اگ لا"
     },
     "چخا": {
       "en": "funeral pyre",
       "pos": "noun",
-      "roman": "chikhā"
+      "roman": "chikhā",
+      "pa": "چِتا، سڑن والی چکھا"
     },
     "وچ": {
       "en": "in; into",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "پاویں": {
       "en": "you put (me)",
       "pos": "verb",
       "roman": "pāveṅ",
-      "base": "پاؤنا"
+      "base": "پاؤنا",
+      "pa": "پاویں، سٹیں"
     },
     "تاں": {
       "en": "then; even so",
       "pos": "conjunction",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں وی"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "انگ": {
       "en": "limb; body",
       "pos": "noun",
-      "roman": "ang"
+      "roman": "ang",
+      "pa": "انگ، جسم"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "موڑاں": {
       "en": "I would turn (away)",
       "pos": "verb",
       "roman": "moṛāṅ",
-      "base": "موڑنا"
+      "base": "موڑنا",
+      "pa": "موڑاں"
     },
     "ذرا": {
       "en": "even a little",
       "pos": "adverb",
-      "roman": "zarā"
+      "roman": "zarā",
+      "pa": "رتا وی"
     },
     "مکھ": {
       "en": "face",
       "pos": "noun",
       "roman": "mukh",
-      "note": "\"Mukh moṛna\": to turn the face away, retreat."
+      "note": "\"Mukh moṛna\": to turn the face away, retreat.",
+      "pa": "مکھ، منہ",
+      "note_pa": "مکھ موڑنا: منہ پھیرنا، پچھاں ہٹنا"
     },
     "کافر": {
       "en": "infidel",
       "pos": "noun",
-      "roman": "kāfir"
+      "roman": "kāfir",
+      "pa": "کافر"
     },
     "تھیواں": {
       "en": "may I become",
       "pos": "verb",
       "roman": "thīvāṅ",
-      "base": "تھیونا"
+      "base": "تھیونا",
+      "pa": "ہو جاواں"
     },
     "جے": {
       "en": "if; even if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، بھاویں"
     },
     "سیس": {
       "en": "head",
       "pos": "noun",
-      "roman": "sīs"
+      "roman": "sīs",
+      "pa": "سر"
     },
     "دھراویں": {
       "en": "you place",
       "pos": "verb",
       "roman": "dharāveṅ",
-      "base": "دھرنا"
+      "base": "دھرنا",
+      "pa": "دھریں، رکھیں"
     },
     "ارا": {
       "en": "saw",
       "pos": "noun",
       "roman": "ārā",
-      "note": "A saw on the head: martyrdom, as in the tale of the prophet Zakariya sawn in a tree."
+      "note": "A saw on the head: martyrdom, as in the tale of the prophet Zakariya sawn in a tree.",
+      "pa": "آرا",
+      "note_pa": "سر تے آرا: شہادت، جیویں زکریا نبی دا قصہ جنہاں نوں رکھ وچ آرے نال چیریا گیا"
     },
     "شوق": {
       "en": "longing; ardour",
       "pos": "noun",
-      "roman": "shauq"
+      "roman": "shauq",
+      "pa": "شوق، تانگھ"
     },
     "شراب": {
       "en": "wine",
       "pos": "noun",
       "roman": "sharāb",
-      "note": "Sufi wine: divine love."
+      "note": "Sufi wine: divine love.",
+      "pa": "شراب",
+      "note_pa": "صوفی شراب: رب دا عشق"
     },
     "پلائیو": {
       "en": "you made (me) drink",
       "pos": "verb",
       "roman": "pilāio",
-      "base": "پلانا"
+      "base": "پلانا",
+      "pa": "پلائی"
     },
     "مینوں": {
       "en": "me",
       "pos": "pronoun",
       "roman": "mainūṅ",
-      "base": "میں"
+      "base": "میں",
+      "pa": "مینوں"
     },
     "ہن": {
       "en": "now",
       "pos": "adverb",
-      "roman": "huṇ"
+      "roman": "huṇ",
+      "pa": "ہن"
     },
     "ہویا": {
       "en": "have become",
       "pos": "verb",
       "roman": "hoiā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گیا"
     },
     "مست": {
       "en": "intoxicated; ecstatic",
       "pos": "adjective",
-      "roman": "mast"
+      "roman": "mast",
+      "pa": "مست، بے خود"
     },
     "مقرا": {
       "en": "utterly; for certain",
       "pos": "adjective",
       "roman": "muqarrā",
-      "note": "Uncertain: probably from \"muqarrar\", fixed, confirmed."
+      "note": "Uncertain: probably from \"muqarrar\", fixed, confirmed.",
+      "pa": "پکا، بالکل",
+      "note_pa": "پکا نہیں: شاید مقرر توں، یعنی پکا، طے"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر اپنا ناں لیندا اے"
     },
     "نہیں": {
       "en": "is no more; not",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں رہیا"
     },
     "رہو": {
       "en": "remain",
       "pos": "verb",
       "roman": "raho",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہو، رہے"
     },
     "توں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tūṅ"
+      "roman": "tūṅ",
+      "pa": "توں"
     },
     "ہی": {
       "en": "alone; only",
       "pos": "particle",
-      "roman": "hī"
+      "roman": "hī",
+      "pa": "ای، صرف"
     }
   }
 }

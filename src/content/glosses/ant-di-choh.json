@@ -5,177 +5,212 @@
     "ہے": {
       "en": "O (vocative)",
       "pos": "interjection",
-      "roman": "he"
+      "roman": "he",
+      "pa": "اے، او (پکار)"
     },
     "اننت": {
       "en": "Infinite One (God)",
       "pos": "noun",
-      "roman": "anant"
+      "roman": "anant",
+      "pa": "بے انت، رب"
     },
     "اک": {
       "en": "one, a single",
       "pos": "numeral",
-      "roman": "ikk"
+      "roman": "ikk",
+      "pa": "اک"
     },
     "چھوہ": {
       "en": "touch",
       "pos": "noun",
       "roman": "chhoh",
-      "note": "Bhai Vir Singh's key image: the Divine touch."
+      "note": "Bhai Vir Singh's key image: the Divine touch.",
+      "pa": "چھوہ، چھوہن",
+      "note_pa": "بھائی ویر سنگھ دا خاص نشان: رب دی چھوہ"
     },
     "تہاڈی": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tuhāḍī",
-      "base": "تہاڈا"
+      "base": "تہاڈا",
+      "pa": "تہاڈی"
     },
     "نوں": {
       "en": "for; to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "منگدا": {
       "en": "begs, asks for",
       "pos": "verb",
       "roman": "maṅgdā",
-      "base": "منگنا"
+      "base": "منگنا",
+      "pa": "منگدا"
     },
     "نہں": {
       "en": "not",
       "pos": "particle",
       "roman": "nahīṅ",
-      "note": "Odd spelling for نہیں."
+      "note": "Odd spelling for نہیں.",
+      "pa": "نہیں",
+      "note_pa": "نہیں دا انوکھا لکھیا روپ"
     },
     "رجدا": {
       "en": "is sated",
       "pos": "verb",
       "roman": "rajjdā",
-      "base": "رجنا"
+      "base": "رجنا",
+      "pa": "رجدا"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "قہر": {
       "en": "fury, calamity",
       "pos": "noun",
-      "roman": "qahar"
+      "roman": "qahar",
+      "pa": "قہر، آفت"
     },
     "وچھوڑا": {
       "en": "separation",
       "pos": "noun",
-      "roman": "vichhoṛā"
+      "roman": "vichhoṛā",
+      "pa": "وچھوڑا، جدائی"
     },
     "سیلے": {
       "en": "spear, lance",
       "pos": "noun",
       "roman": "sele",
-      "base": "سیل"
+      "base": "سیل",
+      "pa": "سیلا، برچھا"
     },
     "وانگو": {
       "en": "like",
       "pos": "postposition",
-      "roman": "vāṅgū"
+      "roman": "vāṅgū",
+      "pa": "وانگ، ورگا"
     },
     "وجدا": {
       "en": "strikes, pierces",
       "pos": "verb",
       "roman": "vajjdā",
-      "base": "وجنا"
+      "base": "وجنا",
+      "pa": "وجدا، چبھدا"
     },
     "چشمیں": {
       "en": "springs (of water)",
       "pos": "noun",
       "roman": "chashmīṅ",
-      "base": "چشمہ"
+      "base": "چشمہ",
+      "pa": "چشمے، سوتے"
     },
     "جیوں": {
       "en": "as, just as",
       "pos": "conjunction",
-      "roman": "jiuṅ"
+      "roman": "jiuṅ",
+      "pa": "جیویں"
     },
     "غیب": {
       "en": "the Unseen",
       "pos": "noun",
-      "roman": "ġaib"
+      "roman": "ġaib",
+      "pa": "غیب، ان دسدا جہان"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "ملی": {
       "en": "was received",
       "pos": "verb",
       "roman": "milī",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملی"
     },
     "پیا": {
       "en": "keeps on (continuous)",
       "pos": "verb",
       "roman": "piā",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پیا، لگا رہندا"
     },
     "نت": {
       "en": "always, ever",
       "pos": "adverb",
-      "roman": "nit"
+      "roman": "nit",
+      "pa": "ہمیشہ، روز"
     },
     "کھیڈے": {
       "en": "plays",
       "pos": "verb",
       "roman": "kheḍe",
-      "base": "کھیڈنا"
+      "base": "کھیڈنا",
+      "pa": "کھیڈے، کھیڈدا اے"
     },
     "اپنی": {
       "en": "your own",
       "pos": "pronoun",
       "roman": "apṇī",
-      "base": "اپنا"
+      "base": "اپنا",
+      "pa": "اپنی"
     },
     "گود": {
       "en": "lap",
       "pos": "noun",
-      "roman": "god"
+      "roman": "god",
+      "pa": "گود، جھولی"
     },
     "کھڈا": {
       "en": "having played (us), dandled",
       "pos": "verb",
       "roman": "khaḍā",
-      "base": "کھڈاونا"
+      "base": "کھڈاونا",
+      "pa": "کھڈا کے، لاڈ لڈا کے"
     },
     "تؤں": {
       "en": "so, likewise",
       "pos": "adverb",
       "roman": "tiuṅ",
-      "note": "Odd spelling for تیوں (tiuṅ), correlative of جیوں."
+      "note": "Odd spelling for تیوں (tiuṅ), correlative of جیوں.",
+      "pa": "تیویں، اوسے طرح",
+      "note_pa": "تیوں دا انوکھا لکھیا روپ، جیوں دا جوڑ"
     },
     "ماں": {
       "en": "mother",
       "pos": "noun",
-      "roman": "māṅ"
+      "roman": "māṅ",
+      "pa": "ماں"
     },
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "کچھ": {
       "en": "something; (all) this",
       "pos": "pronoun",
-      "roman": "kujh"
+      "roman": "kujh",
+      "pa": "کجھ، سبھ ایہہ"
     },
     "پھبدا": {
       "en": "befits, becomes",
       "pos": "verb",
       "roman": "phabbdā",
-      "base": "پھبنا"
+      "base": "پھبنا",
+      "pa": "پھبدا، سجدا"
     }
   }
 }

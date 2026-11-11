@@ -7,73 +7,87 @@
       "pos": "proper noun",
       "roman": "Farīdā",
       "base": "فرید",
-      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi.",
+      "pa": "او فریدا، شاعر آپ",
+      "note_pa": "بابا فرید (شیخ فرید الدین گنج شکر)، تیرھویں صدی دے چشتی صوفی"
     },
     "خاک": {
       "en": "dust",
       "pos": "noun",
-      "roman": "xāk"
+      "roman": "xāk",
+      "pa": "مٹی، خاک"
     },
     "نہ": {
       "en": "not; nothing",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ، نہیں"
     },
     "نندیے": {
       "en": "(one should) slander",
       "pos": "verb",
       "roman": "nindīe",
-      "base": "نندنا"
+      "base": "نندنا",
+      "pa": "نندیے، برا آکھیے"
     },
     "خاکو": {
       "en": "(than) dust",
       "pos": "noun",
       "roman": "xākū",
-      "base": "خاک"
+      "base": "خاک",
+      "pa": "خاک توں"
     },
     "جیڈ": {
       "en": "as great as",
       "pos": "adjective",
-      "roman": "jeḍ"
+      "roman": "jeḍ",
+      "pa": "جیڈا، جنا وڈا"
     },
     "کوء": {
       "en": "anyone; anything",
       "pos": "pronoun",
-      "roman": "koe"
+      "roman": "koe",
+      "pa": "کوئی"
     },
     "جیوندیاں": {
       "en": "while living",
       "pos": "adjective",
       "roman": "jīvandiāṅ",
-      "base": "جیوندا"
+      "base": "جیوندا",
+      "pa": "جیوندیاں"
     },
     "پیراں": {
       "en": "feet",
       "pos": "noun",
       "roman": "pairāṅ",
-      "base": "پیر"
+      "base": "پیر",
+      "pa": "پیراں"
     },
     "تلے": {
       "en": "under",
       "pos": "postposition",
-      "roman": "tale"
+      "roman": "tale",
+      "pa": "تھلے"
     },
     "مویاں": {
       "en": "when dead",
       "pos": "adjective",
       "roman": "moiāṅ",
-      "base": "موا"
+      "base": "موا",
+      "pa": "مویاں، مرے پچھوں"
     },
     "اپر": {
       "en": "above; over",
       "pos": "postposition",
-      "roman": "upar"
+      "roman": "upar",
+      "pa": "اتے، اوپر"
     },
     "ہوء": {
       "en": "is; will be",
       "pos": "verb",
       "roman": "hoe",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہوندی اے"
     }
   }
 }

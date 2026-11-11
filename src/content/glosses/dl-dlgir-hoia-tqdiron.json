@@ -5,186 +5,224 @@
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "دلگیر": {
       "en": "grieving; dejected",
       "pos": "adjective",
-      "roman": "dilgīr"
+      "roman": "dilgīr",
+      "pa": "اداس، دکھی"
     },
     "ہویا": {
       "en": "has become",
       "pos": "verb",
       "roman": "hoiā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گیا"
     },
     "تقدیروں": {
       "en": "by fate",
       "pos": "noun",
       "roman": "taqdīroṅ",
-      "base": "تقدیر"
+      "base": "تقدیر",
+      "pa": "تقدیر توں، قسمت ہتھوں"
     },
     "تینوں": {
       "en": "you; to you",
       "pos": "pronoun",
       "roman": "tainūṅ",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تینوں"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کون"
     },
     "دیوے": {
       "en": "would give",
       "pos": "verb",
       "roman": "deve",
-      "base": "دینا"
+      "base": "دینا",
+      "pa": "دیوے"
     },
     "دم": {
       "en": "breath; moment",
       "pos": "noun",
       "roman": "dam",
-      "note": "\"Dam sukh dā\": a moment's ease; later \"dam dukh dā\": the breath (heat) of pain."
+      "note": "\"Dam sukh dā\": a moment's ease; later \"dam dukh dā\": the breath (heat) of pain.",
+      "pa": "دم، ساہ، پل",
+      "note_pa": "دم سکھ دا: اک پل دا سکھ؛ اگے دم دکھ دا: دکھ دا ساہ یاں تپش"
     },
     "سکھ": {
       "en": "comfort; ease",
       "pos": "noun",
-      "roman": "sukh"
+      "roman": "sukh",
+      "pa": "سکھ، چین"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "بہتے": {
       "en": "most; many",
       "pos": "adjective",
       "roman": "bahute",
-      "base": "بہتا"
+      "base": "بہتا",
+      "pa": "بہتے، بہت سارے"
     },
     "یار": {
       "en": "friends",
       "pos": "noun",
-      "roman": "yār"
+      "roman": "yār",
+      "pa": "یار، سجن"
     },
     "بیدرد": {
       "en": "heartless; without feeling",
       "pos": "adjective",
-      "roman": "bedard"
+      "roman": "bedard",
+      "pa": "بے درد، بے ترس"
     },
     "لباسی": {
       "en": "hypocritical; all outward show",
       "pos": "adjective",
       "roman": "libāsī",
-      "note": "Literally \"of the garment\": pious only in dress."
+      "note": "Literally \"of the garment\": pious only in dress.",
+      "pa": "وکھاوے والے، منافق",
+      "note_pa": "لفظی معنی لباس والا: صرف کپڑیاں توں نیک"
     },
     "کر": {
       "en": "making; (they) make",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر کے"
     },
     "گیان": {
       "en": "wisdom; spiritual knowledge",
       "pos": "noun",
-      "roman": "giān"
+      "roman": "giān",
+      "pa": "گیان، سمجھ"
     },
     "سناون": {
       "en": "recite; tell",
       "pos": "verb",
       "roman": "suṇāvan",
-      "base": "سنانا"
+      "base": "سنانا",
+      "pa": "سناندے نیں"
     },
     "مکھ": {
       "en": "mouth; lips",
       "pos": "noun",
       "roman": "mukh",
-      "note": "\"Mukh dā giān\": wisdom from the lips only."
+      "note": "\"Mukh dā giān\": wisdom from the lips only.",
+      "pa": "منہ، بُلھ",
+      "note_pa": "مکھ دا گیان: صرف زبانی گیان"
     },
     "دردی": {
       "en": "those who feel; sympathisers",
       "pos": "noun",
-      "roman": "dardī"
+      "roman": "dardī",
+      "pa": "دردی، دکھ ونڈن والے"
     },
     "درد": {
       "en": "pain",
       "pos": "noun",
-      "roman": "dard"
+      "roman": "dard",
+      "pa": "درد، پیڑ"
     },
     "ونڈایا": {
       "en": "shared out",
       "pos": "verb",
       "roman": "vanḍāiā",
-      "base": "ونڈانا"
+      "base": "ونڈانا",
+      "pa": "ونڈایا"
     },
     "لوڑن": {
       "en": "want; seek",
       "pos": "verb",
       "roman": "loṛan",
-      "base": "لوڑنا"
+      "base": "لوڑنا",
+      "pa": "لوڑدے، چاہندے"
     },
     "ہتھوں": {
       "en": "directly; at first hand",
       "pos": "adverb",
       "roman": "hatthoṅ",
       "base": "ہتھ",
-      "note": "Literally \"from the hand\"."
+      "note": "Literally \"from the hand\".",
+      "pa": "سدھا، اپنے ہتھیں",
+      "note_pa": "لفظی معنی ہتھ توں"
     },
     "آن": {
       "en": "coming",
       "pos": "verb",
       "roman": "āṇ",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آ کے"
     },
     "دکھاون": {
       "en": "show",
       "pos": "verb",
       "roman": "dikhāvan",
-      "base": "دکھانا"
+      "base": "دکھانا",
+      "pa": "وکھاندے"
     },
     "دکھ": {
       "en": "pain; sorrow",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ، درد"
     },
     "کامل": {
       "en": "perfect; complete",
       "pos": "adjective",
       "roman": "kāmil",
-      "note": "A \"kamil\" is a perfected spiritual guide."
+      "note": "A \"kamil\" is a perfected spiritual guide.",
+      "pa": "کامل، پورا",
+      "note_pa": "کامل اوہ مرشد جیہڑا روحانی طور تے پورا ہووے"
     },
     "ملے": {
       "en": "meets; should meet",
       "pos": "verb",
       "roman": "mile",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملے"
     },
     "کوئی": {
       "en": "some; any",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر اپنا ناں لیندا اے"
     },
     "تاں": {
       "en": "then",
       "pos": "conjunction",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں"
     },
     "سرد": {
       "en": "cool",
       "pos": "adjective",
-      "roman": "sard"
+      "roman": "sard",
+      "pa": "ٹھنڈا"
     },
     "ہووے": {
       "en": "would become",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو جاوے"
     }
   }
 }

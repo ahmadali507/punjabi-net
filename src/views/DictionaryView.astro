@@ -47,7 +47,7 @@ const common = entries.filter((e) => e.data.common).slice(0, 30);
         <h2 id="common"><T k="dict.common" /></h2>
         <ul class="word-chips">
           {common.map((e) => (
-            <li><a href={localePath(locale, `/dictionary/${e.id}`)}><Pa t={e.data.headword} /><span class="muted" lang="en" dir="ltr">{e.data.senses[0]}</span></a></li>
+            <li><a href={localePath(locale, `/dictionary/${e.id}`)}><Pa t={e.data.headword} />{locale === 'en' ? <span class="muted" lang="en" dir="ltr">{e.data.senses[0]}</span> : <span class="muted">{e.data.definition_pa?.split('؛')[0]}</span>}</a></li>
           ))}
         </ul>
       </section>

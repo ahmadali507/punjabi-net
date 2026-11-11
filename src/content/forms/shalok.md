@@ -7,6 +7,9 @@ order: 9
 sources:
   - book: "Wikisource (Punjabi): Author page, فرید الدین مسعود"
     url: "https://wikisource.org/wiki/Author:%D9%81%D8%B1%DB%8C%D8%AF_%D8%A7%D9%84%D8%AF%DB%8C%D9%86_%D9%85%D8%B3%D8%B9%D9%88%D8%AF"
+description_pa: "اخلاقی تے روحانی سکھیا دا اک نکا شعر یا چو سطرا بند؛ ایسے صنف وچ بابا فرید دا کلام بچیا اے۔"
+body_pa: |
+  بابا فرید دے شلوک، جو عام طور تے دو سطراں دے ہوندے نیں تے اکثر اپنے آپ نوں مخاطب ہوندے نیں («فریدا…»)، گورو گرنتھ صاحب وچ اوہناں دے چار شبداں دے نال سانبھے ہوئے نیں۔ ایہہ پنڈ دی حیاتی وچوں لئیاں تشبیہاں نال موت، عاجزی تے صبر دیاں گلاں کردے نیں۔
 ---
 
 <!-- EDITORIAL: drafted from general reference; check against a printed source. -->

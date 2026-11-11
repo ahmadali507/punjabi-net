@@ -1,7 +1,7 @@
 ---
 import T from './T.astro';
 import { SITE } from '~/site.config';
-import { asLocale, localePath } from '~/i18n';
+import { asLocale, localePath, num } from '~/i18n';
 
 const locale = asLocale(Astro.currentLocale);
 const year = new Date().getFullYear();
@@ -19,6 +19,6 @@ const year = new Date().getFullYear();
       )}
     </ul>
     <p class="site-footer__fine"><T k="footer.noncommercial" /> <T k="footer.source" /></p>
-    <p class="site-footer__fine"><bdi dir="ltr" lang="en">© {year} {SITE.name}</bdi></p>
+    <p class="site-footer__fine"><bdi dir="ltr">© {num(asLocale(Astro.currentLocale), year)} <span lang="en">{SITE.name}</span></bdi></p>
   </div>
 </footer>

@@ -7,167 +7,200 @@
       "pos": "verb",
       "roman": "paṛh",
       "base": "پڑھنا",
-      "note": "paṛh paṛh: 'reading and reading'."
+      "note": "paṛh paṛh: 'reading and reading'.",
+      "pa": "پڑھ کے",
+      "note_pa": "پڑھ پڑھ: پڑھ پڑھ کے"
     },
     "علم": {
       "en": "learning; knowledge",
       "pos": "noun",
-      "roman": "ilm"
+      "roman": "ilm",
+      "pa": "علم، گیان"
     },
     "ہزار": {
       "en": "a thousand",
       "pos": "numeral",
-      "roman": "hazār"
+      "roman": "hazār",
+      "pa": "ہزار"
     },
     "کتاباں": {
       "en": "books",
       "pos": "noun",
       "roman": "kitābāṅ",
-      "base": "کتاب"
+      "base": "کتاب",
+      "pa": "کتاباں"
     },
     "عالم": {
       "en": "scholars",
       "pos": "noun",
-      "roman": "ālim"
+      "roman": "ālim",
+      "pa": "عالم، پڑھے لکھے"
     },
     "ہووے": {
       "en": "(they) become",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو جاندے"
     },
     "بھارے": {
       "en": "great; eminent",
       "pos": "adjective",
       "roman": "bhāre",
-      "base": "بھارا"
+      "base": "بھارا",
+      "pa": "وڈے، بھارے"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہُو، رب",
+      "note_pa": "ہو: باہو دی ٹیک، \"ہُو\" یعنی \"اوہ\"، رب دا صوفی ناں، ہر سطر دے انت تے"
     },
     "حرف": {
       "en": "letter",
       "pos": "noun",
-      "roman": "harf"
+      "roman": "harf",
+      "pa": "اکھر، حرف"
     },
     "عشق": {
       "en": "(divine) love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق (رب دا)"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "جانن": {
       "en": "know (how to)",
       "pos": "verb",
       "roman": "jānan",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جاندے"
     },
     "بھلے": {
       "en": "lost; gone astray",
       "pos": "adjective",
       "roman": "bhulle",
-      "base": "بھلنا"
+      "base": "بھلنا",
+      "pa": "بھٹکے ہوئے"
     },
     "پھرن": {
       "en": "wander",
       "pos": "verb",
       "roman": "phiran",
-      "base": "پھرنا"
+      "base": "پھرنا",
+      "pa": "پھردے نیں"
     },
     "بچارے": {
       "en": "wretched; poor souls",
       "pos": "adjective",
       "roman": "bichāre",
-      "base": "بچارا"
+      "base": "بچارا",
+      "pa": "وچارے، بے چارے"
     },
     "عقل": {
       "en": "reason; intellect",
       "pos": "noun",
-      "roman": "aql"
+      "roman": "aql",
+      "pa": "عقل، سمجھ"
     },
     "وچ": {
       "en": "between",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچکار"
     },
     "منزل": {
       "en": "stage; journey",
       "pos": "noun",
-      "roman": "manzil"
+      "roman": "manzil",
+      "pa": "منزل، پندھ"
     },
     "بھاری": {
       "en": "heavy; vast",
       "pos": "adjective",
-      "roman": "bhārī"
+      "roman": "bhārī",
+      "pa": "لما، بھارا"
     },
     "سئیاں": {
       "en": "hundreds",
       "pos": "numeral",
       "roman": "saiāṅ",
-      "base": "سو"
+      "base": "سو",
+      "pa": "سینکڑے"
     },
     "کوہاں": {
       "en": "kos (about two miles each)",
       "pos": "noun",
       "roman": "kohāṅ",
-      "base": "کوہ"
+      "base": "کوہ",
+      "pa": "کوہاں (پندھ دا ناپ)"
     },
     "دے": {
       "en": "of (masc. pl.)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان (مذکر جمع)"
     },
     "پاڑے": {
       "en": "gaps; distances",
       "pos": "noun",
       "roman": "pāṛe",
-      "base": "پاڑا"
+      "base": "پاڑا",
+      "pa": "وتھاں، فاصلے"
     },
     "جنہاں": {
       "en": "(those) who",
       "pos": "pronoun",
-      "roman": "jinhāṅ"
+      "roman": "jinhāṅ",
+      "pa": "جنہاں نے"
     },
     "خرید": {
       "en": "bought",
       "pos": "verb",
       "roman": "xarīd",
-      "base": "خریدنا"
+      "base": "خریدنا",
+      "pa": "خریدیا"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر دا اپنا ناں",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دا صوفی"
     },
     "دوہیں": {
       "en": "both",
       "pos": "numeral",
-      "roman": "dohīṅ"
+      "roman": "dohīṅ",
+      "pa": "دوویں"
     },
     "جہانیں": {
       "en": "in the worlds",
       "pos": "noun",
       "roman": "jahānīṅ",
-      "base": "جہان"
+      "base": "جہان",
+      "pa": "جہاناں وچ"
     },
     "مارے": {
       "en": "ruined; struck down",
       "pos": "verb",
       "roman": "māre",
-      "base": "مارنا"
+      "base": "مارنا",
+      "pa": "برباد، مارے گئے"
     }
   }
 }

@@ -5,151 +5,181 @@
     "سدا": {
       "en": "forever; always",
       "pos": "adverb",
-      "roman": "sadā"
+      "roman": "sadā",
+      "pa": "ہمیشہ"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "روپ": {
       "en": "beauty; bloom",
       "pos": "noun",
-      "roman": "rūp"
+      "roman": "rūp",
+      "pa": "روپ، سندرتا"
     },
     "گلاباں": {
       "en": "roses",
       "pos": "noun",
       "roman": "gulābāṅ",
-      "base": "گلاب"
+      "base": "گلاب",
+      "pa": "گلاب دے پھلاں"
     },
     "اتے": {
       "en": "on; upon",
       "pos": "postposition",
-      "roman": "utte"
+      "roman": "utte",
+      "pa": "اتے، اُتے"
     },
     "باغ": {
       "en": "garden",
       "pos": "noun",
-      "roman": "bāġ"
+      "roman": "bāġ",
+      "pa": "باغ"
     },
     "بہاراں": {
       "en": "springtimes",
       "pos": "noun",
       "roman": "bahārāṅ",
-      "base": "بہار"
+      "base": "بہار",
+      "pa": "بہاراں"
     },
     "بھج": {
       "en": "running",
       "pos": "verb",
       "roman": "bhajj",
       "base": "بھجنا",
-      "note": "\"Bhaj bhaj\": running again and again."
+      "note": "\"Bhaj bhaj\": running again and again.",
+      "pa": "بھج کے، دوڑ کے",
+      "note_pa": "بھج بھج یعنی مڑ مڑ دوڑ کے"
     },
     "پھیرے": {
       "en": "rounds; visits",
       "pos": "noun",
       "roman": "phere",
-      "base": "پھیرا"
+      "base": "پھیرا",
+      "pa": "پھیرے، چکر"
     },
     "کرسن": {
       "en": "will make",
       "pos": "verb",
       "roman": "karsan",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کرن گے"
     },
     "طوطے": {
       "en": "parrots",
       "pos": "noun",
       "roman": "tote",
-      "base": "طوطا"
+      "base": "طوطا",
+      "pa": "طوطے"
     },
     "بھور": {
       "en": "black bees",
       "pos": "noun",
-      "roman": "bhaur"
+      "roman": "bhaur",
+      "pa": "بھورے، کالے بھنور"
     },
     "ہزاراں": {
       "en": "thousands",
       "pos": "numeral",
       "roman": "hazārāṅ",
       "base": "ہزار",
-      "note": "Possibly also \"hazar\", nightingale."
+      "note": "Possibly also \"hazar\", nightingale.",
+      "pa": "ہزاراں",
+      "note_pa": "شاید ہزار یعنی بلبل وی"
     },
     "چار": {
       "en": "four",
       "pos": "numeral",
-      "roman": "chār"
+      "roman": "chār",
+      "pa": "چار"
     },
     "دہاڑے": {
       "en": "days",
       "pos": "noun",
       "roman": "dihāṛe",
       "base": "دہاڑا",
-      "note": "\"Char dihare\": a brief while."
+      "note": "\"Char dihare\": a brief while.",
+      "pa": "دیہاڑے، دن",
+      "note_pa": "چار دیہاڑے یعنی تھوڑا چر"
     },
     "حسن": {
       "en": "beauty",
       "pos": "noun",
-      "roman": "husan"
+      "roman": "husan",
+      "pa": "حسن، سوہنپ"
     },
     "جوانی": {
       "en": "youth",
       "pos": "noun",
-      "roman": "javānī"
+      "roman": "javānī",
+      "pa": "جوانی"
     },
     "مان": {
       "en": "pride",
       "pos": "noun",
-      "roman": "māṇ"
+      "roman": "māṇ",
+      "pa": "مان، غرور"
     },
     "کیا": {
       "en": "what (is the)",
       "pos": "pronoun",
-      "roman": "kiā"
+      "roman": "kiā",
+      "pa": "کیہ"
     },
     "دلداراں": {
       "en": "O beloveds",
       "pos": "noun",
       "roman": "dildārāṅ",
-      "base": "دلدار"
+      "base": "دلدار",
+      "pa": "اے دلدارو"
     },
     "سکدے": {
       "en": "longing; pining",
       "pos": "verb",
       "roman": "sikde",
-      "base": "سکنا"
+      "base": "سکنا",
+      "pa": "سِکدے، تانگھدے"
     },
     "اسیں": {
       "en": "we",
       "pos": "pronoun",
-      "roman": "asīṅ"
+      "roman": "asīṅ",
+      "pa": "اسیں"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "محمد، شاعر آپ"
     },
     "بخشا": {
       "en": "Bakhsh (O Muhammad Bakhsh)",
       "pos": "proper noun",
-      "roman": "Baxshā"
+      "roman": "Baxshā",
+      "pa": "اے محمد بخش، شاعر آپ"
     },
     "کیوں": {
       "en": "why",
       "pos": "adverb",
-      "roman": "kiūṅ"
+      "roman": "kiūṅ",
+      "pa": "کیوں"
     },
     "پرواہ": {
       "en": "care; concern",
       "pos": "noun",
-      "roman": "parvāh"
+      "roman": "parvāh",
+      "pa": "پرواہ، فکر"
     },
     "یاراں": {
       "en": "the friends; beloveds",
       "pos": "noun",
       "roman": "yārāṅ",
-      "base": "یار"
+      "base": "یار",
+      "pa": "یاراں، سجناں"
     }
   }
 }

@@ -5,199 +5,241 @@
     "چارے": {
       "en": "all four",
       "pos": "numeral",
-      "roman": "chāre"
+      "roman": "chāre",
+      "pa": "چاروں"
     },
     "یار": {
       "en": "companions",
       "pos": "noun",
       "roman": "yār",
-      "note": "the four Rightly Guided Caliphs"
+      "note": "the four Rightly Guided Caliphs",
+      "pa": "یار، صحابی",
+      "note_pa": "چار خلفائے راشدین"
     },
     "رسول": {
       "en": "the Prophet",
       "pos": "noun",
-      "roman": "rasūl"
+      "roman": "rasūl",
+      "pa": "رسول پاک"
     },
     "دے": {
       "en": "of (pl.)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دے (سمبندھ دا نشان)"
     },
     "چار": {
       "en": "four",
       "pos": "numeral",
-      "roman": "chār"
+      "roman": "chār",
+      "pa": "چار"
     },
     "گوہر": {
       "en": "jewels; pearls",
       "pos": "noun",
-      "roman": "gauhar"
+      "roman": "gauhar",
+      "pa": "موتی، ہیرے"
     },
     "سبھے": {
       "en": "all",
       "pos": "pronoun",
-      "roman": "sabhe"
+      "roman": "sabhe",
+      "pa": "سارے"
     },
     "اک": {
       "en": "one",
       "pos": "numeral",
       "roman": "ikk",
-      "note": "اک تھیں اک = each greater than the other"
+      "note": "اک تھیں اک = each greater than the other",
+      "pa": "اک",
+      "note_pa": "اک تھیں اک: اک توں اک ودھ"
     },
     "تھیں": {
       "en": "than",
       "pos": "postposition",
-      "roman": "thīṅ"
+      "roman": "thīṅ",
+      "pa": "توں"
     },
     "چڑھندڑے": {
       "en": "surpassing; higher",
       "pos": "adjective",
       "roman": "chaṛhandaṛe",
-      "base": "چڑھنا"
+      "base": "چڑھنا",
+      "pa": "ودھ کے، اچے"
     },
     "نے": {
       "en": "are",
       "pos": "verb",
-      "roman": "ne"
+      "roman": "ne",
+      "pa": "نیں، ہن"
     },
     "ابو": {
       "en": "Abu (in Abu Bakr)",
       "pos": "proper noun",
-      "roman": "abū"
+      "roman": "abū",
+      "pa": "ابو (ابو بکر وچ)"
     },
     "بکر": {
       "en": "Bakr: Abu Bakr, the first caliph",
       "pos": "proper noun",
-      "roman": "Bakr"
+      "roman": "Bakr",
+      "pa": "ابو بکر، پہلے خلیفہ"
     },
     "تے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "عمر": {
       "en": "Umar, the second caliph",
       "pos": "proper noun",
-      "roman": "Umar"
+      "roman": "Umar",
+      "pa": "حضرت عمر، دوجے خلیفہ"
     },
     "عثمان": {
       "en": "Usman, the third caliph",
       "pos": "proper noun",
-      "roman": "Usmān"
+      "roman": "Usmān",
+      "pa": "حضرت عثمان، تیجے خلیفہ"
     },
     "علی": {
       "en": "Ali, the fourth caliph",
       "pos": "proper noun",
-      "roman": "Alī"
+      "roman": "Alī",
+      "pa": "حضرت علی، چوتھے خلیفہ"
     },
     "آپو": {
       "en": "each (their own)",
       "pos": "pronoun",
       "roman": "āpo",
-      "note": "آپو اپنے = each in his own"
+      "note": "آپو اپنے = each in his own",
+      "pa": "آپو، ہر کوئی",
+      "note_pa": "آپو اپنے: ہر کوئی اپنے اپنے"
     },
     "اپنے": {
       "en": "own",
       "pos": "pronoun",
-      "roman": "apne"
+      "roman": "apne",
+      "pa": "اپنے"
     },
     "گنیں": {
       "en": "in virtues",
       "pos": "noun",
       "roman": "guṇīṅ",
-      "base": "گن"
+      "base": "گن",
+      "pa": "گناں وچ، خوبیاں وچ"
     },
     "سوہندڑے": {
       "en": "adorned; graceful",
       "pos": "adjective",
       "roman": "sohandaṛe",
-      "base": "سوہنا"
+      "base": "سوہنا",
+      "pa": "سجدے، سوہنے لگدے"
     },
     "جیہناں": {
       "en": "who (those who)",
       "pos": "pronoun",
-      "roman": "jinhāṅ"
+      "roman": "jinhāṅ",
+      "pa": "جنہاں"
     },
     "صدق": {
       "en": "sincerity; truthfulness",
       "pos": "noun",
-      "roman": "sidq"
+      "roman": "sidq",
+      "pa": "سچائی، خلوص"
     },
     "یقین": {
       "en": "certainty; faith",
       "pos": "noun",
-      "roman": "yaqīn"
+      "roman": "yaqīn",
+      "pa": "یقین، ایمان"
     },
     "تحقیق": {
       "en": "realisation of truth",
       "pos": "noun",
-      "roman": "tahqīq"
+      "roman": "tahqīq",
+      "pa": "سچ نوں پچھاننا"
     },
     "کیتا": {
       "en": "practised",
       "pos": "verb",
       "roman": "kītā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کیتا، کمایا"
     },
     "راه": {
       "en": "path; way",
       "pos": "noun",
-      "roman": "rāh"
+      "roman": "rāh",
+      "pa": "راہ"
     },
     "رب": {
       "en": "God",
       "pos": "noun",
-      "roman": "rabb"
+      "roman": "rabb",
+      "pa": "رب"
     },
     "سیس": {
       "en": "heads",
       "pos": "noun",
-      "roman": "sīs"
+      "roman": "sīs",
+      "pa": "سر"
     },
     "وکندڑے": {
       "en": "selling (their heads)",
       "pos": "verb",
       "roman": "vikandaṛe",
       "base": "وکنا",
-      "note": "idiom: gave their lives on God's path"
+      "note": "idiom: gave their lives on God's path",
+      "pa": "وکدے، وار دیندے",
+      "note_pa": "محاورہ: رب دی راہ وچ جان دے دتی"
     },
     "ذوق": {
       "en": "pleasures",
       "pos": "noun",
-      "roman": "zauq"
+      "roman": "zauq",
+      "pa": "سواد، عیش"
     },
     "چھڈ": {
       "en": "leaving",
       "pos": "verb",
       "roman": "chhaḍḍ",
-      "base": "چھڈنا"
+      "base": "چھڈنا",
+      "pa": "چھڈ کے"
     },
     "کے": {
       "en": "having (conjunctive)",
       "pos": "particle",
-      "roman": "ke"
+      "roman": "ke",
+      "pa": "کر کے (پچھلا کم)"
     },
     "زہد": {
       "en": "asceticism",
       "pos": "noun",
-      "roman": "zuhd"
+      "roman": "zuhd",
+      "pa": "زہد، دنیا توں پرہیز"
     },
     "واه": {
       "en": "bravo; how wonderful",
       "pos": "interjection",
-      "roman": "vāh"
+      "roman": "vāh",
+      "pa": "واہ، شاباش"
     },
     "اوه": {
       "en": "they; those",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "بندڑے": {
       "en": "servants (dear)",
       "pos": "noun",
       "roman": "bandaṛe",
       "base": "بندہ",
-      "note": "affectionate diminutive"
+      "note": "affectionate diminutive",
+      "pa": "پیارے بندے",
+      "note_pa": "پیار والا چھوٹا روپ"
     }
   }
 }

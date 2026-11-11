@@ -6,181 +6,220 @@
       "en": "masters; possessors",
       "pos": "noun",
       "roman": "sāhib",
-      "note": "\"Sahib-e-husn\": those endowed with beauty."
+      "note": "\"Sahib-e-husn\": those endowed with beauty.",
+      "pa": "والے، مالک",
+      "note_pa": "صاحب حسن: جنہاں نوں حسن ملیا"
     },
     "حسن": {
       "en": "beauty",
       "pos": "noun",
-      "roman": "husan"
+      "roman": "husan",
+      "pa": "حسن، سوہنپ"
     },
     "ڈٹھے": {
       "en": "I have seen",
       "pos": "verb",
       "roman": "ḍiṭhe",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ویکھے"
     },
     "سب": {
       "en": "all",
       "pos": "adjective",
-      "roman": "sabh"
+      "roman": "sabh",
+      "pa": "سارے"
     },
     "کھوٹے": {
       "en": "false; counterfeit",
       "pos": "adjective",
       "roman": "khoṭe",
-      "base": "کھوٹا"
+      "base": "کھوٹا",
+      "pa": "کھوٹے، جھوٹے"
     },
     "اتے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "ate"
+      "roman": "ate",
+      "pa": "اتے، تے"
     },
     "کھوٹ": {
       "en": "falseness; fraud",
       "pos": "noun",
-      "roman": "khoṭ"
+      "roman": "khoṭ",
+      "pa": "کھوٹ، دھوکا"
     },
     "کماون": {
       "en": "earn; make",
       "pos": "verb",
       "roman": "kamāvan",
-      "base": "کمانا"
+      "base": "کمانا",
+      "pa": "کماؤندے نیں"
     },
     "پیسہ": {
       "en": "money",
       "pos": "noun",
-      "roman": "paisā"
+      "roman": "paisā",
+      "pa": "پیسہ"
     },
     "نہ": {
       "en": "not; neither",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ، نہیں"
     },
     "کچھ": {
       "en": "anything; at all",
       "pos": "pronoun",
-      "roman": "kujh"
+      "roman": "kujh",
+      "pa": "کجھ وی"
     },
     "اوچ": {
       "en": "high",
       "pos": "adjective",
-      "roman": "ūch"
+      "roman": "ūch",
+      "pa": "اچا"
     },
     "نیچ": {
       "en": "low",
       "pos": "adjective",
       "roman": "nīch",
-      "note": "\"Uch nich\": high and low, right and wrong."
+      "note": "\"Uch nich\": high and low, right and wrong.",
+      "pa": "نیواں",
+      "note_pa": "اوچ نیچ: اچا نیواں، چنگا مندا"
     },
     "پچھانن": {
       "en": "recognise; discern",
       "pos": "verb",
       "roman": "pachhāṇan",
-      "base": "پچھاننا"
+      "base": "پچھاننا",
+      "pa": "پچھاندے نیں"
     },
     "پریم": {
       "en": "love",
       "pos": "noun",
-      "roman": "prem"
+      "roman": "prem",
+      "pa": "پیار، پریم"
     },
     "جانن": {
       "en": "know",
       "pos": "verb",
       "roman": "jāṇan",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جاندے نیں"
     },
     "کیسا": {
       "en": "what (sort of thing) it is",
       "pos": "pronoun",
-      "roman": "kaisā"
+      "roman": "kaisā",
+      "pa": "کیہو جیہا"
     },
     "شالا": {
       "en": "may God grant (that)",
       "pos": "interjection",
       "roman": "shālā",
-      "note": "A wish or imprecation, \"inshallah\"."
+      "note": "A wish or imprecation, \"inshallah\".",
+      "pa": "رب کرے",
+      "note_pa": "دعا یا بددعا، \"ان شاء اللہ\""
     },
     "نج": {
       "en": "perish; be damned",
       "pos": "interjection",
       "roman": "nijj",
-      "note": "Uncertain: curse word, \"may (such cleverness) be ruined\"."
+      "note": "Uncertain: curse word, \"may (such cleverness) be ruined\".",
+      "pa": "برباد ہووے",
+      "note_pa": "پکا نہیں: بددعا، \"(ایسی چترائی) برباد ہووے\""
     },
     "ہووے": {
       "en": "be; may be",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہووے"
     },
     "چترائی": {
       "en": "cleverness; cunning",
       "pos": "noun",
-      "roman": "chatrāī"
+      "roman": "chatrāī",
+      "pa": "چلاکی، چترائی"
     },
     "سانوں": {
       "en": "us",
       "pos": "pronoun",
-      "roman": "sānūṅ"
+      "roman": "sānūṅ",
+      "pa": "سانوں"
     },
     "خوار": {
       "en": "wretched; disgraced",
       "pos": "adjective",
-      "roman": "xvār"
+      "roman": "xvār",
+      "pa": "خوار، ذلیل"
     },
     "کیتا": {
       "en": "made; did",
       "pos": "verb",
       "roman": "kītā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کیتا، بنایا"
     },
     "تدھ": {
       "en": "you (thou, agent)",
       "pos": "pronoun",
       "roman": "tudh",
-      "base": "توں"
+      "base": "توں",
+      "pa": "توں"
     },
     "ایسا": {
       "en": "so; such",
       "pos": "adjective",
-      "roman": "aisā"
+      "roman": "aisā",
+      "pa": "اجیہا، ایسا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر دا اپنا ناں"
     },
     "کاٹ": {
       "en": "cut; wound",
       "pos": "noun",
       "roman": "kāṭ",
-      "note": "Love cuts deep only into one who has awareness."
+      "note": "Love cuts deep only into one who has awareness.",
+      "pa": "کٹ، زخم",
+      "note_pa": "پریم اوسے نوں ڈونگھا کٹدا اے جیہنوں ہوش ہووے"
     },
     "کریندا": {
       "en": "makes; does",
       "pos": "verb",
       "roman": "karendā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کردا اے"
     },
     "جس": {
       "en": "whom; in whom",
       "pos": "pronoun",
-      "roman": "jis"
+      "roman": "jis",
+      "pa": "جیہنوں، جس وچ"
     },
     "ہوش": {
       "en": "awareness; sense",
       "pos": "noun",
-      "roman": "hosh"
+      "roman": "hosh",
+      "pa": "ہوش، سمجھ"
     },
     "وچ": {
       "en": "in; within",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ، اندر"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
       "roman": "dā",
-      "note": "Uncertain: \"vich dā\" may be a transcription slip for \"vich dil dā\" (in the heart)."
+      "note": "Uncertain: \"vich dā\" may be a transcription slip for \"vich dil dā\" (in the heart).",
+      "pa": "سمبندھ دا نشان (مذکر)",
+      "note_pa": "پکا نہیں: \"وچ دا\" شاید \"وچ دل دا\" لکھدیاں غلطی اے"
     }
   }
 }

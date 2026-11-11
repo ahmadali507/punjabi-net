@@ -6,63 +6,74 @@
       "en": "sweet",
       "pos": "adjective",
       "roman": "miṭṭhe",
-      "base": "مٹھا"
+      "base": "مٹھا",
+      "pa": "مٹھے"
     },
     "تاں": {
       "en": "indeed",
       "pos": "particle",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، تے سہی"
     },
     "لگدے": {
       "en": "seem",
       "pos": "verb",
       "roman": "lagde",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگدے"
     },
     "مینوں": {
       "en": "to me",
       "pos": "pronoun",
-      "roman": "mainūṅ"
+      "roman": "mainūṅ",
+      "pa": "مینوں"
     },
     "پھلاں": {
       "en": "flowers",
       "pos": "noun",
       "roman": "phullāṅ",
-      "base": "پھل"
+      "base": "پھل",
+      "pa": "پھلاں"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
       "roman": "de",
-      "base": "دا"
+      "base": "دا",
+      "pa": "دے (سمبندھ دا نشان)"
     },
     "ہلارے": {
       "en": "swaying",
       "pos": "noun",
       "roman": "hulāre",
-      "base": "ہلارا"
+      "base": "ہلارا",
+      "pa": "ہلارے، جھولے"
     },
     "جان": {
       "en": "life, soul",
       "pos": "noun",
-      "roman": "jān"
+      "roman": "jān",
+      "pa": "جان، جند"
     },
     "میری": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merī",
-      "base": "میرا"
+      "base": "میرا",
+      "pa": "میری"
     },
     "پر": {
       "en": "but",
       "pos": "conjunction",
-      "roman": "par"
+      "roman": "par",
+      "pa": "پر، لیکن"
     },
     "کسدی": {
       "en": "aches, is wrung",
       "pos": "verb",
       "roman": "kasdī",
-      "base": "کسنا"
+      "base": "کسنا",
+      "pa": "کسدی، پیڑ کردی"
     }
   }
 }

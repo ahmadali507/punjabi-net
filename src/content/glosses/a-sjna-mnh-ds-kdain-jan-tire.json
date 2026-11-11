@@ -6,179 +6,215 @@
       "en": "come",
       "pos": "verb",
       "roman": "ā",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آ، آجا"
     },
     "سجنا": {
       "en": "O beloved",
       "pos": "noun",
       "roman": "sajjaṇā",
-      "base": "سجن"
+      "base": "سجن",
+      "pa": "او سجنا، او محبوبا"
     },
     "منہ": {
       "en": "face",
       "pos": "noun",
-      "roman": "muṅh"
+      "roman": "muṅh",
+      "pa": "منہ، مکھڑا"
     },
     "دس": {
       "en": "show",
       "pos": "verb",
       "roman": "dass",
-      "base": "دسنا"
+      "base": "دسنا",
+      "pa": "دکھا"
     },
     "کدائیں": {
       "en": "sometime; ever",
       "pos": "adverb",
-      "roman": "kadāīṅ"
+      "roman": "kadāīṅ",
+      "pa": "کدی، کسے ویلے"
     },
     "جان": {
       "en": "life; soul",
       "pos": "noun",
-      "roman": "jān"
+      "roman": "jān",
+      "pa": "جان، جند"
     },
     "تیرے": {
       "en": "you (oblique)",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیرے"
     },
     "توں": {
       "en": "from; (sacrificed) to",
       "pos": "postposition",
       "roman": "toṅ",
-      "note": "\"Tere toṅ vārī\": my life is a sacrifice for you."
+      "note": "\"Tere toṅ vārī\": my life is a sacrifice for you.",
+      "pa": "توں (قربان)",
+      "note_pa": "\"تیرے توں واری\": میری جان تیرے توں قربان"
     },
     "واری": {
       "en": "sacrificed; offered up",
       "pos": "adjective",
       "roman": "vārī",
-      "base": "وارنا"
+      "base": "وارنا",
+      "pa": "واری، قربان"
     },
     "تونہیں": {
       "en": "you alone; you indeed",
       "pos": "pronoun",
       "roman": "tūṅhīṅ",
-      "base": "توں"
+      "base": "توں",
+      "pa": "توں ای"
     },
     "ایمان": {
       "en": "faith",
       "pos": "noun",
-      "roman": "īmān"
+      "roman": "īmān",
+      "pa": "ایمان"
     },
     "دلے": {
       "en": "heart (oblique)",
       "pos": "noun",
       "roman": "dile",
-      "base": "دل"
+      "base": "دل",
+      "pa": "دل"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "تدھ": {
       "en": "you (oblique)",
       "pos": "pronoun",
       "roman": "tudh",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیرے، تینوں"
     },
     "بن": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bin"
+      "roman": "bin",
+      "pa": "بنا، بغیر"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "کس": {
       "en": "what; of what",
       "pos": "pronoun",
       "roman": "kis",
-      "note": "\"Kis kārī\": of what use."
+      "note": "\"Kis kārī\": of what use.",
+      "pa": "کس، کیہڑے",
+      "note_pa": "\"کس کاری\": کیہڑے کم دی"
     },
     "کاری": {
       "en": "use; worth",
       "pos": "noun",
-      "roman": "kārī"
+      "roman": "kārī",
+      "pa": "کم، فیدے"
     },
     "حوراں": {
       "en": "houris (maidens of paradise)",
       "pos": "noun",
       "roman": "hūrāṅ",
-      "base": "حور"
+      "base": "حور",
+      "pa": "حوراں، جنت دیاں پریاں"
     },
     "تے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "گلمان": {
       "en": "ghilman (youths of paradise)",
       "pos": "noun",
       "roman": "ġilmān",
-      "note": "Quranic attendants of paradise."
+      "note": "Quranic attendants of paradise.",
+      "pa": "غلمان، جنت دے سیوک",
+      "note_pa": "قرآن وچ جنت دے سیوک"
     },
     "بہشتی": {
       "en": "of paradise",
       "pos": "adjective",
       "roman": "bahishtī",
-      "base": "بہشت"
+      "base": "بہشت",
+      "pa": "بہشت دے، جنتی"
     },
     "چاہے": {
       "en": "desires; wants",
       "pos": "verb",
       "roman": "chāhe",
-      "base": "چاہنا"
+      "base": "چاہنا",
+      "pa": "چاہوے، منگے"
     },
     "خلقت": {
       "en": "creation; all people",
       "pos": "noun",
-      "roman": "xalqat"
+      "roman": "xalqat",
+      "pa": "خلقت، سارے لوک"
     },
     "ساری": {
       "en": "all; whole (fem.)",
       "pos": "adjective",
       "roman": "sārī",
-      "base": "سارا"
+      "base": "سارا",
+      "pa": "ساری"
     },
     "باجھ": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bājh"
+      "roman": "bājh",
+      "pa": "بنا، بغیر"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
       "roman": "Muhammad",
-      "note": "Mian Muhammad Bakhsh (1830–1907), author of Saif ul Malook."
+      "note": "Mian Muhammad Bakhsh (1830–1907), author of Saif ul Malook.",
+      "pa": "میاں محمد بخش، شاعر آپ",
+      "note_pa": "میاں محمد بخش (۱۸۳۰–۱۹۰۷)، سیف الملوک دے لکھاری"
     },
     "مینوں": {
       "en": "to me",
       "pos": "pronoun",
       "roman": "mainūṅ",
-      "base": "میں"
+      "base": "میں",
+      "pa": "مینوں"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ، نہیں"
     },
     "کوئی": {
       "en": "any",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "چیز": {
       "en": "thing",
       "pos": "noun",
-      "roman": "chīz"
+      "roman": "chīz",
+      "pa": "شے، چیز"
     },
     "پیاری": {
       "en": "dear; beloved (fem.)",
       "pos": "adjective",
       "roman": "piārī",
-      "base": "پیارا"
+      "base": "پیارا",
+      "pa": "پیاری"
     }
   }
 }

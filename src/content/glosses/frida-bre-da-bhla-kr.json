@@ -7,95 +7,115 @@
       "pos": "proper noun",
       "roman": "Farīdā",
       "base": "فرید",
-      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi.",
+      "pa": "اے فرید (شاعر آپ نوں آکھدا اے)",
+      "note_pa": "بابا فرید (شیخ فرید الدین گنج شکر)، تیرہویں صدی دا چشتی صوفی"
     },
     "برے": {
       "en": "the bad (one); wrongdoer",
       "pos": "noun",
       "roman": "bure",
-      "base": "برا"
+      "base": "برا",
+      "pa": "بُرا بندہ"
     },
     "دا": {
       "en": "of (masc.); to",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان؛ نال"
     },
     "بھلا": {
       "en": "good",
       "pos": "noun",
-      "roman": "bhalā"
+      "roman": "bhalā",
+      "pa": "بھلا، چنگا"
     },
     "کر": {
       "en": "do",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر"
     },
     "غصہ": {
       "en": "anger",
       "pos": "noun",
-      "roman": "ġussā"
+      "roman": "ġussā",
+      "pa": "غصہ"
     },
     "من": {
       "en": "mind; heart",
       "pos": "noun",
-      "roman": "man"
+      "roman": "man",
+      "pa": "من، دل"
     },
     "نہ": {
       "en": "not; don't",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ"
     },
     "ہنڈھاء": {
       "en": "harbour; let (it) dwell",
       "pos": "verb",
       "roman": "hanḍhāe",
-      "base": "ہنڈھانا"
+      "base": "ہنڈھانا",
+      "pa": "ہنڈا، دل وچ رکھ"
     },
     "دیہی": {
       "en": "body",
       "pos": "noun",
-      "roman": "dehī"
+      "roman": "dehī",
+      "pa": "جسم، دیہہ"
     },
     "روگ": {
       "en": "disease",
       "pos": "noun",
-      "roman": "rog"
+      "roman": "rog",
+      "pa": "روگ، بیماری"
     },
     "لگ": {
       "en": "strike; attach",
       "pos": "verb",
       "roman": "lag",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگ"
     },
     "ای": {
       "en": "(verb ending: will)",
       "pos": "particle",
       "roman": "ī",
-      "note": "Uncertain: lag ī corresponds to Gurmukhi lagaī, 'will strike'."
+      "note": "Uncertain: lag ī corresponds to Gurmukhi lagaī, 'will strike'.",
+      "pa": "فعل دا پچھیتر (لگے گا)",
+      "note_pa": "پکا نہیں: لگ ای گورمکھی لگئی نال رلدا اے، یعنی لگے گا"
     },
     "پلے": {
       "en": "in (your) lap; possession",
       "pos": "noun",
       "roman": "palle",
-      "base": "پلا"
+      "base": "پلا",
+      "pa": "پلے، جھولی وچ"
     },
     "سبھ": {
       "en": "all",
       "pos": "adjective",
-      "roman": "sabh"
+      "roman": "sabh",
+      "pa": "سبھ"
     },
     "کجھ": {
       "en": "something (everything)",
       "pos": "pronoun",
       "roman": "kujh",
-      "note": "sabh kujh: 'everything'."
+      "note": "sabh kujh: 'everything'.",
+      "pa": "کجھ (سبھ کجھ: سارا کجھ)",
+      "note_pa": "سبھ کجھ: سارا کجھ"
     },
     "پاء": {
       "en": "obtain; receive",
       "pos": "verb",
       "roman": "pāe",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پا، لبھ"
     }
   }
 }

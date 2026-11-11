@@ -6,172 +6,209 @@
       "en": "breath; every moment",
       "pos": "noun",
       "roman": "dam",
-      "note": "\"Dam dam\": with every breath."
+      "note": "\"Dam dam\": with every breath.",
+      "pa": "دم، ہر ساہ",
+      "note_pa": "\"دم دم\": ہر ساہ نال"
     },
     "جان": {
       "en": "life; soul",
       "pos": "noun",
-      "roman": "jān"
+      "roman": "jān",
+      "pa": "جان، جند"
     },
     "لباں": {
       "en": "lips",
       "pos": "noun",
       "roman": "labāṅ",
       "base": "لب",
-      "note": "Life comes to the lips: one is at death's door."
+      "note": "Life comes to the lips: one is at death's door.",
+      "pa": "بلھاں، ہونٹھاں",
+      "note_pa": "جان بلھاں تے آنا: مرن کنڈھے ہونا"
     },
     "پر": {
       "en": "on; to",
       "pos": "postposition",
-      "roman": "par"
+      "roman": "par",
+      "pa": "تے، اتے"
     },
     "آوے": {
       "en": "comes",
       "pos": "verb",
       "roman": "āve",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آوے، آندی اے"
     },
     "چھوڑ": {
       "en": "leaving",
       "pos": "verb",
       "roman": "chhoṛ",
-      "base": "چھوڑنا"
+      "base": "چھوڑنا",
+      "pa": "چھڈ کے"
     },
     "حویلی": {
       "en": "mansion",
       "pos": "noun",
       "roman": "havelī",
-      "note": "The body as the soul's mansion."
+      "note": "The body as the soul's mansion.",
+      "pa": "حویلی، وڈا گھر",
+      "note_pa": "جسم، روح دی حویلی"
     },
     "تن": {
       "en": "body",
       "pos": "noun",
-      "roman": "tan"
+      "roman": "tan",
+      "pa": "تن، جسم"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "کھلی": {
       "en": "standing (fem.)",
       "pos": "verb",
       "roman": "khalī",
-      "base": "کھلونا"
+      "base": "کھلونا",
+      "pa": "کھلوتی"
     },
     "اڈیکے": {
       "en": "waits; watches for",
       "pos": "verb",
       "roman": "uḍīke",
-      "base": "اڈیکنا"
+      "base": "اڈیکنا",
+      "pa": "اڈیکدی اے، راہ ویکھدی اے"
     },
     "مت": {
       "en": "perhaps; lest",
       "pos": "conjunction",
-      "roman": "mat"
+      "roman": "mat",
+      "pa": "شاید"
     },
     "ہن": {
       "en": "now",
       "pos": "adverb",
-      "roman": "huṇ"
+      "roman": "huṇ",
+      "pa": "ہن"
     },
     "کدھروں": {
       "en": "from somewhere",
       "pos": "adverb",
-      "roman": "kidharoṅ"
+      "roman": "kidharoṅ",
+      "pa": "کتوں، کسے پاسیوں"
     },
     "وا": {
       "en": "breeze; wind",
       "pos": "noun",
-      "roman": "vā"
+      "roman": "vā",
+      "pa": "ہوا"
     },
     "سجن": {
       "en": "the beloved",
       "pos": "noun",
-      "roman": "sajjaṇ"
+      "roman": "sajjaṇ",
+      "pa": "سجن، محبوب"
     },
     "آویں": {
       "en": "come (you)",
       "pos": "verb",
       "roman": "āveṅ",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آویں، آجا"
     },
     "نہ": {
       "en": "don't",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "چر": {
       "en": "delay; long time",
       "pos": "noun",
-      "roman": "chir"
+      "roman": "chir",
+      "pa": "چر، دیر"
     },
     "لاویں": {
       "en": "make; put",
       "pos": "verb",
       "roman": "lāveṅ",
       "base": "لانا",
-      "note": "\"Chir lana\": to delay."
+      "note": "\"Chir lana\": to delay.",
+      "pa": "لاویں",
+      "note_pa": "\"چر لانا\": دیر کرنا"
     },
     "دسیں": {
       "en": "show",
       "pos": "verb",
       "roman": "dasseṅ",
-      "base": "دسنا"
+      "base": "دسنا",
+      "pa": "دکھاویں"
     },
     "جھات": {
       "en": "glimpse",
       "pos": "noun",
-      "roman": "jhāt"
+      "roman": "jhāt",
+      "pa": "جھات، جھلک"
     },
     "حسن": {
       "en": "beauty",
       "pos": "noun",
-      "roman": "husan"
+      "roman": "husan",
+      "pa": "حسن، سوہپن"
     },
     "آئے": {
       "en": "have come",
       "pos": "verb",
       "roman": "āe",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آئے نیں"
     },
     "بھور": {
       "en": "black bees",
       "pos": "noun",
       "roman": "bhaur",
-      "note": "The bumblebee: the lover drawn to the flower."
+      "note": "The bumblebee: the lover drawn to the flower.",
+      "pa": "بھورے، کالیاں مکھیاں",
+      "note_pa": "بھورا: پھل ول کھچیا عاشق"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "میاں محمد، شاعر آپ"
     },
     "بخشا": {
       "en": "Bakhsh (O Muhammad Bakhsh)",
       "pos": "proper noun",
-      "roman": "Baxshā"
+      "roman": "Baxshā",
+      "pa": "او محمد بخشا"
     },
     "کر": {
       "en": "having made",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر"
     },
     "کے": {
       "en": "(having) …-ed",
       "pos": "particle",
       "roman": "ke",
-      "note": "\"Kar ke\": having done."
+      "note": "\"Kar ke\": having done.",
+      "pa": "کے (کر کے)",
+      "note_pa": "\"کر کے\": کر کے، کیتیاں"
     },
     "آس": {
       "en": "hope",
       "pos": "noun",
-      "roman": "ās"
+      "roman": "ās",
+      "pa": "آس، امید"
     },
     "چمن": {
       "en": "garden; flower bed",
       "pos": "noun",
-      "roman": "chaman"
+      "roman": "chaman",
+      "pa": "چمن، پھلاں دا باغ"
     }
   }
 }

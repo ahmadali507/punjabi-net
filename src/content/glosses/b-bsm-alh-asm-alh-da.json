@@ -6,181 +6,221 @@
       "en": "Be (second letter)",
       "pos": "noun",
       "roman": "be",
-      "note": "Acrostic: the letter of 'Bismillah'."
+      "note": "Acrostic: the letter of 'Bismillah'.",
+      "pa": "ب، دوجا اکھر",
+      "note_pa": "حرفی: بسم اللہ دا اکھر"
     },
     "بسم": {
       "en": "in the name of",
       "pos": "phrase",
       "roman": "bism",
-      "note": "Bismillah: 'In the name of God', opening formula."
+      "note": "Bismillah: 'In the name of God', opening formula.",
+      "pa": "دے ناں نال",
+      "note_pa": "بسم اللہ: اللہ دے ناں نال، شروع دا کلمہ"
     },
     "اللہ": {
       "en": "Allah; God",
       "pos": "proper noun",
-      "roman": "Allāh"
+      "roman": "Allāh",
+      "pa": "اللہ، رب"
     },
     "اسم": {
       "en": "name",
       "pos": "noun",
-      "roman": "ism"
+      "roman": "ism",
+      "pa": "ناں"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "ih"
+      "roman": "ih",
+      "pa": "ایہہ"
     },
     "بھی": {
       "en": "also; too",
       "pos": "particle",
-      "roman": "bhī"
+      "roman": "bhī",
+      "pa": "وی"
     },
     "گہنا": {
       "en": "jewel; ornament",
       "pos": "noun",
-      "roman": "gahṇā"
+      "roman": "gahṇā",
+      "pa": "گہنا، زیور"
     },
     "بھارا": {
       "en": "heavy; precious",
       "pos": "adjective",
-      "roman": "bhārā"
+      "roman": "bhārā",
+      "pa": "بھارا، قیمتی"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہو، اوہ (رب)",
+      "note_pa": "باہو دا ٹیپ دا لفظ: ہو، یعنی اوہ، رب دا صوفی ناں، ہر سطر دے اخیر"
     },
     "نال": {
       "en": "with; through",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال، راہیں"
     },
     "شفاعت": {
       "en": "intercession",
       "pos": "noun",
-      "roman": "shafā'at"
+      "roman": "shafā'at",
+      "pa": "سفارش، بخشش دی سفارش"
     },
     "سرور": {
       "en": "chief; lord",
       "pos": "noun",
-      "roman": "sarvar"
+      "roman": "sarvar",
+      "pa": "سردار"
     },
     "عالمﷺ": {
       "en": "of the worlds (peace be upon him)",
       "pos": "phrase",
       "roman": "ālam ṣallallāhu alaihi wa sallam",
       "base": "عالم",
-      "note": "sarvar-e ālam: 'chief of the worlds', the Prophet Muhammad; ﷺ is the blessing formula."
+      "note": "sarvar-e ālam: 'chief of the worlds', the Prophet Muhammad; ﷺ is the blessing formula.",
+      "pa": "عالماں دا (نبی پاک ﷺ)",
+      "note_pa": "سرور عالم: جہاناں دا سردار، یعنی نبی پاک؛ ﷺ درود دا نشان اے"
     },
     "چھٹسی": {
       "en": "will be set free; saved",
       "pos": "verb",
       "roman": "chhuṭsī",
-      "base": "چھٹنا"
+      "base": "چھٹنا",
+      "pa": "چھٹ جائے گا، بچ جائے گا"
     },
     "عالم": {
       "en": "world",
       "pos": "noun",
-      "roman": "ālam"
+      "roman": "ālam",
+      "pa": "جہان، دنیا"
     },
     "سارا": {
       "en": "whole; entire",
       "pos": "adjective",
-      "roman": "sārā"
+      "roman": "sārā",
+      "pa": "سارا"
     },
     "حدوں": {
       "en": "beyond (all) limits",
       "pos": "noun",
       "roman": "hadduṅ",
       "base": "حد",
-      "note": "haddoṅ be-hadd: 'beyond measure'."
+      "note": "haddoṅ be-hadd: 'beyond measure'.",
+      "pa": "حد توں",
+      "note_pa": "حدوں بے حد: بے انت، حساب توں باہر"
     },
     "بے": {
       "en": "without",
       "pos": "particle",
-      "roman": "be"
+      "roman": "be",
+      "pa": "بِنا، بے"
     },
     "حد": {
       "en": "limit",
       "pos": "noun",
-      "roman": "hadd"
+      "roman": "hadd",
+      "pa": "حد"
     },
     "درود": {
       "en": "blessings (on the Prophet)",
       "pos": "noun",
-      "roman": "darūd"
+      "roman": "darūd",
+      "pa": "درود، دعا"
     },
     "نبی": {
       "en": "the Prophet",
       "pos": "noun",
-      "roman": "nabī"
+      "roman": "nabī",
+      "pa": "نبی پاک"
     },
     "ﷺ": {
       "en": "peace and blessings be upon him",
       "pos": "phrase",
-      "roman": "ṣallallāhu alaihi wa sallam"
+      "roman": "ṣallallāhu alaihi wa sallam",
+      "pa": "صلی اللہ علیہ وسلم"
     },
     "نوں": {
       "en": "to; upon",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "نوں، اتے"
     },
     "جیدا": {
       "en": "whose",
       "pos": "pronoun",
-      "roman": "jedā"
+      "roman": "jedā",
+      "pa": "جس دا"
     },
     "ایڈ": {
       "en": "so great",
       "pos": "adjective",
-      "roman": "eḍ"
+      "roman": "eḍ",
+      "pa": "اینا وڈا"
     },
     "پسارا": {
       "en": "expanse; reach",
       "pos": "noun",
-      "roman": "pasārā"
+      "roman": "pasārā",
+      "pa": "پسار، پھیلاؤ"
     },
     "قربان": {
       "en": "(I am) a sacrifice",
       "pos": "adjective",
-      "roman": "qurbān"
+      "roman": "qurbān",
+      "pa": "قربان، صدقے"
     },
     "تنہاں": {
       "en": "those",
       "pos": "pronoun",
-      "roman": "tinhāṅ"
+      "roman": "tinhāṅ",
+      "pa": "اوہناں"
     },
     "توں": {
       "en": "to; for",
       "pos": "postposition",
-      "roman": "tūṅ"
+      "roman": "tūṅ",
+      "pa": "توں، اتوں"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر اپنا ناں لیندا اے",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دا صوفی"
     },
     "جنہاں": {
       "en": "who; to whom",
       "pos": "pronoun",
-      "roman": "jinhāṅ"
+      "roman": "jinhāṅ",
+      "pa": "جنہاں"
     },
     "ملیا": {
       "en": "was given; obtained",
       "pos": "verb",
       "roman": "miliā",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملیا"
     },
     "سہارا": {
       "en": "support; refuge",
       "pos": "noun",
-      "roman": "sahārā"
+      "roman": "sahārā",
+      "pa": "سہارا، آسرا"
     }
   }
 }

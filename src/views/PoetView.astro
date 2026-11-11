@@ -8,6 +8,7 @@ import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import { asLocale, localePath } from '~/i18n';
 import { lifespan, poemsByPoet, type Poet } from '~/lib/content';
+import { creditPa, lifespanPa, paNum, STYLE_PA } from '~/lib/pa';
 import type { UIKey } from '~/i18n/ui';
 import '~/styles/reader.css';
 
@@ -18,21 +19,21 @@ const locale = asLocale(Astro.currentLocale);
 const poems = await poemsByPoet(poet.id);
 const { Content } = await render(poet);
 const inCopyright = d.copyright_status === 'in_copyright';
-const dates = lifespan(d);
+const en = locale === 'en';
+const dates = en ? lifespan(d) : lifespanPa(d);
 // Don't repeat the era as a style ("Modern · Modern").
 const styles = d.styles.filter((s) => s.toLowerCase() !== d.era);
 const jsonLd = { '@type': 'Person', name: d.name.en, alternateName: d.name.pa, description: d.bio_short, homeLocation: d.region };
 
-const en = locale === 'en';
 // First letter of the Shahmukhi name, for the no-portrait tile.
 const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
 ---
-<Base title={d.name.en} description={d.bio_short} type="profile" image={`/og/poets/${poet.id}.png`} jsonLd={jsonLd}>
+<Base title={en ? d.name.en : d.name.pa} description={en ? d.bio_short : d.bio_short_pa} type="profile" image={`/og/poets/${poet.id}.png`} jsonLd={jsonLd}>
   <article class="column poet" data-pagefind-body data-pagefind-filter="type:poet" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <header class="poet__head">
       <figure class="portrait" data-pagefind-ignore>
         {d.portrait ? (
-          <Image src={d.portrait} alt={d.portrait_authentic ? `Photograph of ${d.name.en}` : `${d.name.en}: ${d.portrait_caption}`} width={360} quality={70} class="portrait__img" loading="eager" fetchpriority="high" />
+          <Image src={d.portrait} alt={en ? (d.portrait_authentic ? `Photograph of ${d.name.en}` : `${d.name.en}: ${d.portrait_caption}`) : `${d.name.pa}: ${d.portrait_caption_pa ?? ''}`} width={360} quality={70} class="portrait__img" loading="eager" fetchpriority="high" />
         ) : (
           <div class="portrait__none" aria-hidden="true">
             <span lang="pnb">{initial}</span>
@@ -41,12 +42,16 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
         <figcaption class="portrait__caption">
           {d.portrait ? (
             <>
-              <span lang="en" dir="ltr">{d.portrait_caption}</span>
-              {d.portrait_credit && (
+              {en ? <span lang="en" dir="ltr">{d.portrait_caption}</span> : <span>{d.portrait_caption_pa}</span>}
+              {d.portrait_credit && (en ? (
                 <span class="portrait__credit" lang="en" dir="ltr">
                   {d.portrait_url ? <a href={d.portrait_url} rel="noopener">{d.portrait_credit}</a> : d.portrait_credit}
                 </span>
-              )}
+              ) : (
+                <span class="portrait__credit">
+                  {d.portrait_url ? <a href={d.portrait_url} rel="noopener">{creditPa(d.portrait_credit)}</a> : creditPa(d.portrait_credit)}
+                </span>
+              ))}
             </>
           ) : (
             <T k="poet.noPortrait" />
@@ -57,7 +62,7 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
       <div class="poet__intro">
         <p class="eyebrow">
           <T k={`era.${d.era}` as UIKey} />
-          {styles.length > 0 && <span lang="en" dir="ltr"> · {styles.join(' · ')}</span>}
+          {styles.length > 0 && (en ? <span lang="en" dir="ltr"> · {styles.join(' · ')}</span> : <span> · {styles.map((s) => STYLE_PA[s] ?? s).join(' · ')}</span>)}
         </p>
         <h1 class="poet__name">
           {en ? (
@@ -66,18 +71,28 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
               <span class="poet__name-pa"><Pa t={d.name.pa} /></span>
             </>
           ) : (
-            <>
-              <span>{d.name.pa}</span>
-              <span class="poet__name-pa" lang="en" dir="ltr">{d.name.en}</span>
-            </>
+            <span>{d.name.pa}</span>
           )}
         </h1>
-        <p class="poet__dates muted" lang="en" dir="ltr">{[dates, d.region].filter(Boolean).join(' · ')}</p>
-        <p class="poet__lede" lang="en" dir="ltr">{d.bio_short}</p>
+        {en ? (
+          <>
+            <p class="poet__dates muted" lang="en" dir="ltr">{[dates, d.region].filter(Boolean).join(' · ')}</p>
+            <p class="poet__lede" lang="en" dir="ltr">{d.bio_short}</p>
+          </>
+        ) : (
+          <>
+            <p class="poet__dates muted">{[dates, d.region_pa].filter(Boolean).join(' · ')}</p>
+            {d.bio_short_pa && <p class="poet__lede">{d.bio_short_pa}</p>}
+          </>
+        )}
       </div>
     </header>
 
-    <div class="prose" lang="en" dir="ltr"><Content /></div>
+    {en ? (
+      <div class="prose" lang="en" dir="ltr"><Content /></div>
+    ) : (
+      d.bio_pa && <div class="prose">{d.bio_pa.split(/\n\s*\n/).map((para) => <p>{para.trim()}</p>)}</div>
+    )}
 
     <section class="section-block" aria-labelledby="poet-poems">
       <h2 id="poet-poems"><T k="nav.poems" /></h2>
@@ -103,12 +118,20 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
         <h2 id="poet-works"><T k="poet.works" /></h2>
         <ul class="biblio">
           {d.bibliography.map((b) => (
-            <li>
-              <span lang="en" dir="ltr"><cite>{b.title}</cite></span>
-              {b.title_pa && <> · <Pa t={b.title_pa} /></>}
-              {(b.publisher || b.year) && <span class="muted" lang="en" dir="ltr"> ({[b.publisher, b.year].filter(Boolean).join(', ')})</span>}
-              {b.note && <p class="biblio__note muted" lang="en" dir="ltr">{b.note}</p>}
-            </li>
+            en ? (
+              <li>
+                <span lang="en" dir="ltr"><cite>{b.title}</cite></span>
+                {b.title_pa && <> · <Pa t={b.title_pa} /></>}
+                {(b.publisher || b.year) && <span class="muted" lang="en" dir="ltr"> ({[b.publisher, b.year].filter(Boolean).join(', ')})</span>}
+                {b.note && <p class="biblio__note muted" lang="en" dir="ltr">{b.note}</p>}
+              </li>
+            ) : (
+              <li>
+                {b.title_pa ? <cite>{b.title_pa}</cite> : b.note_pa}
+                {b.year && <span class="muted"> ({paNum(b.year)})</span>}
+                {b.title_pa && b.note_pa && <p class="biblio__note muted">{b.note_pa}</p>}
+              </li>
+            )
           ))}
         </ul>
       </section>

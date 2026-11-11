@@ -5,211 +5,256 @@
     "دوئی": {
       "en": "second",
       "pos": "numeral",
-      "roman": "dūī"
+      "roman": "dūī",
+      "pa": "دوجی"
     },
     "نعت": {
       "en": "praise of the Prophet",
       "pos": "noun",
-      "roman": "nāt"
+      "roman": "nāt",
+      "pa": "نبی پاک دی تعریف"
     },
     "رسول": {
       "en": "the Messenger (the Prophet)",
       "pos": "noun",
-      "roman": "rasūl"
+      "roman": "rasūl",
+      "pa": "رسول پاک"
     },
     "مقبول": {
       "en": "accepted; beloved (of God)",
       "pos": "adjective",
-      "roman": "maqbūl"
+      "roman": "maqbūl",
+      "pa": "منظور، رب دا پیارا"
     },
     "والی": {
       "en": "of; belonging to (fem.)",
       "pos": "postposition",
-      "roman": "vālī"
+      "roman": "vālī",
+      "pa": "والی، دی"
     },
     "جیں": {
       "en": "whom; whose",
       "pos": "pronoun",
-      "roman": "jaiṅ"
+      "roman": "jaiṅ",
+      "pa": "جس، جیہدے"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دے (سمبندھ دا نشان)"
     },
     "حق": {
       "en": "in favour of; for (whose sake)",
       "pos": "noun",
       "roman": "haqq",
-      "note": "lit. right; truth"
+      "note": "lit. right; truth",
+      "pa": "حق وچ، خاطر",
+      "note_pa": "لفظی معنی حق؛ سچ"
     },
     "نزول": {
       "en": "sending down; revelation",
       "pos": "noun",
-      "roman": "nuzūl"
+      "roman": "nuzūl",
+      "pa": "اترنا، وحی"
     },
     "لولاک": {
       "en": "\"Laulak\" (but for you)",
       "pos": "noun",
       "roman": "laulāk",
-      "note": "alludes to the saying \"Laulaka lama khalaqtu al-aflak\": but for you I would not have made the heavens"
+      "note": "alludes to the saying \"Laulaka lama khalaqtu al-aflak\": but for you I would not have made the heavens",
+      "pa": "لولاک، \"جے توں نہ ہوندا\"",
+      "note_pa": "اس قول ول اشارہ: \"جے توں نہ ہوندا تاں میں اسمان نہ بناندا\""
     },
     "کیتا": {
       "en": "made; did",
       "pos": "verb",
       "roman": "kītā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کیتا"
     },
     "خاکی": {
       "en": "of dust; earthly",
       "pos": "adjective",
       "roman": "xākī",
-      "note": "the Prophet is called \"of dust\", i.e. human and humble"
+      "note": "the Prophet is called \"of dust\", i.e. human and humble",
+      "pa": "مٹی دا، انسان",
+      "note_pa": "نبی پاک نوں \"خاکی\" آکھیا، یعنی انسان تے عاجز"
     },
     "آکھ": {
       "en": "calling",
       "pos": "verb",
       "roman": "ākh",
-      "base": "آکھنا"
+      "base": "آکھنا",
+      "pa": "آکھ کے"
     },
     "کے": {
       "en": "having (conjunctive)",
       "pos": "particle",
-      "roman": "ke"
+      "roman": "ke",
+      "pa": "کر کے (پچھلا کم)"
     },
     "مرتبہ": {
       "en": "rank; station",
       "pos": "noun",
-      "roman": "martabā"
+      "roman": "martabā",
+      "pa": "مرتبہ، درجہ"
     },
     "بدا": {
       "en": "great; exalted",
       "pos": "adjective",
       "roman": "baddā",
-      "note": "Uncertain: probably a form of وڈا 'great'"
+      "note": "Uncertain: probably a form of وڈا 'great'",
+      "pa": "وڈا، اچا",
+      "note_pa": "پکا نہیں: شاید \"وڈا\" دی اک شکل"
     },
     "دتا": {
       "en": "gave",
       "pos": "verb",
       "roman": "dittā",
-      "base": "دینا"
+      "base": "دینا",
+      "pa": "دتا"
     },
     "سب": {
       "en": "all",
       "pos": "adjective",
-      "roman": "sab"
+      "roman": "sab",
+      "pa": "سارا، سب"
     },
     "خلق": {
       "en": "creation; people",
       "pos": "noun",
-      "roman": "xalq"
+      "roman": "xalq",
+      "pa": "مخلوق، لوک"
     },
     "عیب": {
       "en": "faults",
       "pos": "noun",
-      "roman": "aib"
+      "roman": "aib",
+      "pa": "عیب، نقص"
     },
     "تھیں": {
       "en": "from",
       "pos": "postposition",
-      "roman": "thīṅ"
+      "roman": "thīṅ",
+      "pa": "توں"
     },
     "پاک": {
       "en": "pure; free",
       "pos": "adjective",
-      "roman": "pāk"
+      "roman": "pāk",
+      "pa": "پاک، صاف"
     },
     "سرور": {
       "en": "chief; leader",
       "pos": "noun",
-      "roman": "sarvar"
+      "roman": "sarvar",
+      "pa": "سردار"
     },
     "ہو": {
       "en": "being",
       "pos": "verb",
       "roman": "ho",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو کے"
     },
     "اولیاں": {
       "en": "saints",
       "pos": "noun",
       "roman": "auliyāṅ",
-      "base": "ولی"
+      "base": "ولی",
+      "pa": "ولیاں"
     },
     "انبیاں": {
       "en": "prophets",
       "pos": "noun",
       "roman": "ambiyāṅ",
-      "base": "نبی"
+      "base": "نبی",
+      "pa": "نبیاں"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "اگے": {
       "en": "before",
       "pos": "postposition",
-      "roman": "agge"
+      "roman": "agge",
+      "pa": "اگے، سامنے"
     },
     "آپ": {
       "en": "himself",
       "pos": "pronoun",
-      "roman": "āp"
+      "roman": "āp",
+      "pa": "آپ، اپنا آپ"
     },
     "نوں": {
       "en": "(object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "خاک": {
       "en": "dust",
       "pos": "noun",
       "roman": "xāk",
-      "note": "made himself dust = humbled himself"
+      "note": "made himself dust = humbled himself",
+      "pa": "مٹی، دھوڑ",
+      "note_pa": "آپ نوں خاک کیتا: عاجزی کیتی"
     },
     "کرے": {
       "en": "keeps saying",
       "pos": "verb",
       "roman": "kare",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کرے، آکھدا رہوے"
     },
     "امتی": {
       "en": "\"my community!\"",
       "pos": "noun",
       "roman": "ummatī",
-      "note": "on Judgment Day the Prophet intercedes crying \"ummati, ummati\""
+      "note": "on Judgment Day the Prophet intercedes crying \"ummati, ummati\"",
+      "pa": "\"میری امت!\"",
+      "note_pa": "قیامت دے دن نبی پاک \"امتی، امتی\" آکھ کے شفاعت کرن گے"
     },
     "روز": {
       "en": "day",
       "pos": "noun",
-      "roman": "roz"
+      "roman": "roz",
+      "pa": "دیہاڑ، دن"
     },
     "قیامت": {
       "en": "Resurrection; Judgment",
       "pos": "noun",
-      "roman": "qiyāmat"
+      "roman": "qiyāmat",
+      "pa": "قیامت، حشر"
     },
     "خوشی": {
       "en": "joy",
       "pos": "noun",
-      "roman": "xushī"
+      "roman": "xushī",
+      "pa": "خوشی"
     },
     "چھڈ": {
       "en": "leaving",
       "pos": "verb",
       "roman": "chhaḍḍ",
-      "base": "چھڈنا"
+      "base": "چھڈنا",
+      "pa": "چھڈ کے"
     },
     "جیو": {
       "en": "heart; soul",
       "pos": "noun",
-      "roman": "jīo"
+      "roman": "jīo",
+      "pa": "جی، دل"
     },
     "غمناک": {
       "en": "sorrowful",
       "pos": "adjective",
-      "roman": "ġamnāk"
+      "roman": "ġamnāk",
+      "pa": "غم والا، اداس"
     }
   }
 }

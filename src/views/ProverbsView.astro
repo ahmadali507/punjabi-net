@@ -9,8 +9,9 @@ import '~/styles/lists.css';
 
 const locale = asLocale(Astro.currentLocale);
 const proverbs = await getProverbs();
+const en = locale === 'en';
 ---
-<Base title={t(locale, 'nav.proverbs')} description="Punjabi proverbs in Shahmukhi, with literal and idiomatic English meanings.">
+<Base title={t(locale, 'nav.proverbs')} description={en ? 'Punjabi proverbs in Shahmukhi, with literal and idiomatic English meanings.' : 'شاہ مکھی وچ پنجابی اکھان، اوہناں دے مطلب نال۔'}>
   <section class="column section" data-filter>
     <header class="list-head">
       <div>
@@ -27,12 +28,18 @@ const proverbs = await getProverbs();
         </div>
         <ol class="proverb-list">
           {proverbs.map((p, i) => (
-            <li class="proverb-item" data-filter-item data-filter-text={`${p.data.text} ${p.data.romanized ?? ''} ${p.data.literal_en} ${p.data.meaning_en ?? ''}`.toLowerCase()}>
+            <li class="proverb-item" data-filter-item data-filter-text={(en ? `${p.data.text} ${p.data.romanized ?? ''} ${p.data.literal_en} ${p.data.meaning_en ?? ''}` : `${p.data.text} ${p.data.meaning_pa ?? ''}`).toLowerCase()}>
               <span class="proverb-item__n">{num(locale, i + 1)}</span>
               <div>
                 <a class="proverb-item__text" href={localePath(locale, `/proverbs/${p.id}`)}><Pa t={p.data.text} /></a>
-                <p class="proverb-item__literal" lang="en" dir="ltr">{p.data.literal_en.replace(/\n/g, ' ')}</p>
-                {p.data.meaning_en && <p class="proverb-item__meaning" lang="en" dir="ltr">{p.data.meaning_en}</p>}
+                {en ? (
+                  <>
+                    <p class="proverb-item__literal" lang="en" dir="ltr">{p.data.literal_en.replace(/\n/g, ' ')}</p>
+                    {p.data.meaning_en && <p class="proverb-item__meaning" lang="en" dir="ltr">{p.data.meaning_en}</p>}
+                  </>
+                ) : (
+                  p.data.meaning_pa && <p class="proverb-item__meaning">{p.data.meaning_pa}</p>
+                )}
               </div>
             </li>
           ))}

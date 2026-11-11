@@ -5,219 +5,263 @@
     "موجو": {
       "en": "Mauju, Ranjha's father",
       "pos": "proper noun",
-      "roman": "Maujū"
+      "roman": "Maujū",
+      "pa": "موجو، رانجھے دا پیو"
     },
     "چودھری": {
       "en": "headman; chief",
       "pos": "noun",
-      "roman": "chaudharī"
+      "roman": "chaudharī",
+      "pa": "چودھری، سردار"
     },
     "پنڈ": {
       "en": "village",
       "pos": "noun",
-      "roman": "piṇḍ"
+      "roman": "piṇḍ",
+      "pa": "پنڈ، گراں"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "پانڈ": {
       "en": "charge; standing",
       "pos": "noun",
       "roman": "pāṇḍ",
-      "note": "Uncertain: lit. a load; here the village's responsibility or honour"
+      "note": "Uncertain: lit. a load; here the village's responsibility or honour",
+      "pa": "ذمہ، عزت",
+      "note_pa": "پکا نہیں: لفظی معنی بھار؛ ایتھے پنڈ دی ذمہ داری یاں عزت"
     },
     "والا": {
       "en": "holder; one who has",
       "pos": "postposition",
-      "roman": "vālā"
+      "roman": "vālā",
+      "pa": "والا"
     },
     "چنگا": {
       "en": "good; fine",
       "pos": "adjective",
-      "roman": "changā"
+      "roman": "changā",
+      "pa": "چنگا، بھلا"
     },
     "بھائیاں": {
       "en": "kinsmen; brothers",
       "pos": "noun",
       "roman": "bhāīāṅ",
-      "base": "بھائی"
+      "base": "بھائی",
+      "pa": "بھراواں، شریکاں"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "سردار": {
       "en": "leader",
       "pos": "noun",
-      "roman": "sardār"
+      "roman": "sardār",
+      "pa": "سردار، آگو"
     },
     "آہا": {
       "en": "was",
       "pos": "verb",
-      "roman": "āhā"
+      "roman": "āhā",
+      "pa": "سی"
     },
     "اٹھ": {
       "en": "eight",
       "pos": "numeral",
-      "roman": "aṭṭh"
+      "roman": "aṭṭh",
+      "pa": "اٹھ (گنتی)"
     },
     "پتر": {
       "en": "sons",
       "pos": "noun",
-      "roman": "puttar"
+      "roman": "puttar",
+      "pa": "پتر"
     },
     "دو": {
       "en": "two",
       "pos": "numeral",
-      "roman": "do"
+      "roman": "do",
+      "pa": "دو"
     },
     "بیٹیاں": {
       "en": "daughters",
       "pos": "noun",
       "roman": "beṭīāṅ",
-      "base": "بیٹی"
+      "base": "بیٹی",
+      "pa": "دھیاں"
     },
     "تس": {
       "en": "his (of him)",
       "pos": "pronoun",
-      "roman": "tis"
+      "roman": "tis",
+      "pa": "اوہدے"
     },
     "دیاں": {
       "en": "of (fem. pl.)",
       "pos": "postposition",
-      "roman": "diāṅ"
+      "roman": "diāṅ",
+      "pa": "سمبندھ دا نشان (مونث جمع)"
     },
     "سن": {
       "en": "were",
       "pos": "verb",
-      "roman": "san"
+      "roman": "san",
+      "pa": "سن"
     },
     "وڈا": {
       "en": "big",
       "pos": "adjective",
-      "roman": "vaḍḍā"
+      "roman": "vaḍḍā",
+      "pa": "وڈا"
     },
     "ٹبر": {
       "en": "family",
       "pos": "noun",
-      "roman": "ṭabbar"
+      "roman": "ṭabbar",
+      "pa": "ٹبر، کٹمب"
     },
     "اتے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "atte"
+      "roman": "atte",
+      "pa": "اتے، تے"
     },
     "پروار": {
       "en": "household; kin",
       "pos": "noun",
-      "roman": "parvār"
+      "roman": "parvār",
+      "pa": "پروار، ٹبر"
     },
     "بھلی": {
       "en": "good",
       "pos": "adjective",
-      "roman": "bhalī"
+      "roman": "bhalī",
+      "pa": "چنگی"
     },
     "وچ": {
       "en": "among",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "پرتیت": {
       "en": "trust; esteem",
       "pos": "noun",
-      "roman": "partīt"
+      "roman": "partīt",
+      "pa": "بھروسا، عزت"
     },
     "اس": {
       "en": "his",
       "pos": "pronoun",
-      "roman": "us"
+      "roman": "us",
+      "pa": "اوہدی"
     },
     "منیاں": {
       "en": "acknowledged; respected",
       "pos": "adjective",
       "roman": "manniāṅ",
-      "base": "منّنا"
+      "base": "منّنا",
+      "pa": "منیا جاندا، عزت والا"
     },
     "چوترے": {
       "en": "village platform (council seat)",
       "pos": "noun",
       "roman": "chautre",
       "base": "چوترا",
-      "note": "the raised platform where village disputes were settled"
+      "note": "the raised platform where village disputes were settled",
+      "pa": "چوترا، پنچائت دا تھڑا",
+      "note_pa": "اُچا تھڑا جتھے پنڈ دے جھگڑے نبیڑے جاندے سن"
     },
     "تے": {
       "en": "on; at",
       "pos": "postposition",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "سرکار": {
       "en": "authority",
       "pos": "noun",
-      "roman": "sarkār"
+      "roman": "sarkār",
+      "pa": "حکم، سرداری"
     },
     "وارث": {
       "en": "Waris (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Vāris"
+      "roman": "Vāris",
+      "pa": "وارث، شاعر اپنا ناں لیندا اے"
     },
     "شاہ": {
       "en": "Shah (Waris Shah, the poet)",
       "pos": "proper noun",
-      "roman": "Shāh"
+      "roman": "Shāh",
+      "pa": "شاہ (وارث شاہ، شاعر)"
     },
     "ایہہ": {
       "en": "these",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "قدرتاں": {
       "en": "wonders; workings",
       "pos": "noun",
       "roman": "qudratāṅ",
-      "base": "قدرت"
+      "base": "قدرت",
+      "pa": "قدرتاں، رب دے کم"
     },
     "رب": {
       "en": "God",
       "pos": "noun",
-      "roman": "rabb"
+      "roman": "rabb",
+      "pa": "رب، اللہ"
     },
     "نیں": {
       "en": "are",
       "pos": "verb",
-      "roman": "naiṅ"
+      "roman": "naiṅ",
+      "pa": "نیں، ہن"
     },
     "دھیدو": {
       "en": "Dhido, Ranjha's given name",
       "pos": "proper noun",
-      "roman": "Dhīdo"
+      "roman": "Dhīdo",
+      "pa": "دھیدو، رانجھے دا ناں"
     },
     "نال": {
       "en": "with; for",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "اوس": {
       "en": "him",
       "pos": "pronoun",
-      "roman": "os"
+      "roman": "os",
+      "pa": "اوہ"
     },
     "نوں": {
       "en": "to",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "بہت": {
       "en": "much; great",
       "pos": "adverb",
-      "roman": "bahut"
+      "roman": "bahut",
+      "pa": "بہت"
     },
     "پیار": {
       "en": "love",
       "pos": "noun",
-      "roman": "piār"
+      "roman": "piār",
+      "pa": "پیار، محبت"
     }
   }
 }

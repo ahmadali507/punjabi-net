@@ -5,176 +5,212 @@
     "قابل": {
       "en": "worthy; capable",
       "pos": "adjective",
-      "roman": "qābil"
+      "roman": "qābil",
+      "pa": "لائق، جوگا"
     },
     "قدر": {
       "en": "value; esteem",
       "pos": "noun",
       "roman": "qadar",
-      "note": "\"Qabil-e-qadar\": one who appreciates worth."
+      "note": "\"Qabil-e-qadar\": one who appreciates worth.",
+      "pa": "قدر، عزت",
+      "note_pa": "قابل قدر یعنی قدر پچھانن والا"
     },
     "معشوق": {
       "en": "the beloved",
       "pos": "noun",
-      "roman": "māshūq"
+      "roman": "māshūq",
+      "pa": "محبوب"
     },
     "جے": {
       "en": "if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، اگر"
     },
     "ہووے": {
       "en": "is; should be",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہووے"
     },
     "تاں": {
       "en": "then",
       "pos": "conjunction",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، فیر"
     },
     "دلبر": {
       "en": "beloved; heart-stealer",
       "pos": "noun",
-      "roman": "dilbar"
+      "roman": "dilbar",
+      "pa": "دلبر، محبوب"
     },
     "نوں": {
       "en": "(object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "لے": {
       "en": "taking (along)",
       "pos": "verb",
       "roman": "lai",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لے کے"
     },
     "تردا": {
       "en": "swims across; crosses over",
       "pos": "verb",
       "roman": "tardā",
       "base": "ترنا",
-      "note": "Uncertain: likely the lover crosses the river of love with the beloved, as in Sohni's story."
+      "note": "Uncertain: likely the lover crosses the river of love with the beloved, as in Sohni's story.",
+      "pa": "تر کے پار لنگھدا",
+      "note_pa": "پکا نہیں: شاید عاشق محبوب نوں نال لے کے عشق دا دریا پار کردا اے، جیویں سوہنی دے قصے وچ"
     },
     "ثابت": {
       "en": "steady; constant",
       "pos": "adjective",
-      "roman": "sābit"
+      "roman": "sābit",
+      "pa": "ٹکی ہوئی، پکی"
     },
     "چشم": {
       "en": "eye; gaze",
       "pos": "noun",
       "roman": "chashm",
-      "note": "\"Sabit chashm\": a faithful, unwavering gaze."
+      "note": "\"Sabit chashm\": a faithful, unwavering gaze.",
+      "pa": "اکھ، نظر",
+      "note_pa": "ثابت چشم یعنی وفادار، نہ ڈولن والی نظر"
     },
     "رہے": {
       "en": "remains",
       "pos": "verb",
       "roman": "rahe",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہوے"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "ویکھو": {
       "en": "see; behold",
       "pos": "verb",
       "roman": "vekho",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ویکھو"
     },
     "عاشق": {
       "en": "lover",
       "pos": "noun",
-      "roman": "āshiq"
+      "roman": "āshiq",
+      "pa": "عاشق، پریمی"
     },
     "مردا": {
       "en": "dies (for him)",
       "pos": "verb",
       "roman": "mardā",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مردا اے، جان دیندا اے"
     },
     "اک": {
       "en": "one",
       "pos": "numeral",
-      "roman": "ikk"
+      "roman": "ikk",
+      "pa": "اک"
     },
     "چاہے": {
       "en": "loves; desires",
       "pos": "verb",
       "roman": "chāhe",
-      "base": "چاہنا"
+      "base": "چاہنا",
+      "pa": "چاہوے، پیار کرے"
     },
     "مول": {
       "en": "at all",
       "pos": "adverb",
       "roman": "mūl",
-      "note": "\"Mul na\": not at all; never."
+      "note": "\"Mul na\": not at all; never.",
+      "pa": "بالکل",
+      "note_pa": "مول نہ یعنی بالکل نہیں، کدی نہیں"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ"
     },
     "اوہ": {
       "en": "that",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "ہرگز": {
       "en": "ever; by any means",
       "pos": "adverb",
-      "roman": "hargiz"
+      "roman": "hargiz",
+      "pa": "ہرگز، کسے طرحاں"
     },
     "نہیوں": {
       "en": "never; not",
       "pos": "particle",
-      "roman": "nahīoṅ"
+      "roman": "nahīoṅ",
+      "pa": "نہیں"
     },
     "سردا": {
       "en": "works; succeeds",
       "pos": "verb",
       "roman": "sardā",
-      "base": "سرنا"
+      "base": "سرنا",
+      "pa": "سردا، کم چلدا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر آپ"
     },
     "مرے": {
       "en": "dies",
       "pos": "verb",
       "roman": "mare",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مرے"
     },
     "سپاہی": {
       "en": "soldier",
       "pos": "noun",
-      "roman": "sipāhī"
+      "roman": "sipāhī",
+      "pa": "سپاہی"
     },
     "جتھے": {
       "en": "where",
       "pos": "adverb",
-      "roman": "jitthe"
+      "roman": "jitthe",
+      "pa": "جتھے"
     },
     "نہیں": {
       "en": "not; no",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "کوئی": {
       "en": "anyone",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "کردا": {
       "en": "does; shows",
       "pos": "verb",
       "roman": "kardā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کردا"
     }
   }
 }

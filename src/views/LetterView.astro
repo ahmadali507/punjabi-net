@@ -39,7 +39,7 @@ const entries = (await getEntries()).filter((e) => firstLetter(e.data.headword) 
           <li>
             <a class="entry-list__hw" href={localePath(locale, `/dictionary/${e.id}`)}><Pa t={e.data.headword} /></a>
             <span class="entry-list__pos muted"><T k={`pos.${e.data.pos}` as UIKey} />{e.data.gender && <>, <T k={`gender.${e.data.gender}` as UIKey} /></>}</span>
-            <span class="entry-list__sense" lang="en" dir="ltr">{e.data.senses[0]}</span>
+            {locale === 'en' ? <span class="entry-list__sense" lang="en" dir="ltr">{e.data.senses[0]}</span> : <span class="entry-list__sense">{e.data.definition_pa?.split('؛')[0]}</span>}
           </li>
         ))}
       </ul>

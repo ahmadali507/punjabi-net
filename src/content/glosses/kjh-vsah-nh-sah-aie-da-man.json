@@ -5,195 +5,237 @@
     "کجھ": {
       "en": "any; at all",
       "pos": "pronoun",
-      "roman": "kujh"
+      "roman": "kujh",
+      "pa": "کجھ وی"
     },
     "وساہ": {
       "en": "trust; certainty",
       "pos": "noun",
-      "roman": "visāh"
+      "roman": "visāh",
+      "pa": "وساہ، بھروسا"
     },
     "نہ": {
       "en": "no; not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ، نہیں"
     },
     "ساہ": {
       "en": "breath",
       "pos": "noun",
-      "roman": "sāh"
+      "roman": "sāh",
+      "pa": "ساہ"
     },
     "آئے": {
       "en": "coming (next)",
       "pos": "verb",
       "roman": "āe",
       "base": "آؤنا",
-      "note": "\"Sah aye da\": of the breath that is to come."
+      "note": "\"Sah aye da\": of the breath that is to come.",
+      "pa": "آون والا",
+      "note_pa": "\"ساہ آئے دا\": اگلے آون والے ساہ دا"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "مان": {
       "en": "pride",
       "pos": "noun",
-      "roman": "māṇ"
+      "roman": "māṇ",
+      "pa": "مان، فخر"
     },
     "کیہا": {
       "en": "what (kind of)",
       "pos": "pronoun",
-      "roman": "kehā"
+      "roman": "kehā",
+      "pa": "کیہا، کاہدا"
     },
     "پھر": {
       "en": "then",
       "pos": "adverb",
-      "roman": "phir"
+      "roman": "phir",
+      "pa": "فیر"
     },
     "کرنا": {
       "en": "to make; take",
       "pos": "verb",
-      "roman": "karnā"
+      "roman": "karnā",
+      "pa": "کرنا"
     },
     "جس": {
       "en": "which; the one",
       "pos": "pronoun",
-      "roman": "jis"
+      "roman": "jis",
+      "pa": "جس، جیہڑے"
     },
     "جسے": {
       "en": "body",
       "pos": "noun",
       "roman": "jusse",
-      "base": "جثہ"
+      "base": "جثہ",
+      "pa": "جسم، بدن"
     },
     "نوں": {
       "en": "(object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "چھنڈ": {
       "en": "shaking clean; dusting",
       "pos": "verb",
       "roman": "chhaṇḍ",
       "base": "چھنڈنا",
-      "note": "\"Chhand chhand\": dusting off again and again."
+      "note": "\"Chhand chhand\": dusting off again and again.",
+      "pa": "چھنڈ کے، جھاڑ کے",
+      "note_pa": "\"چھنڈ چھنڈ\": مڑ مڑ جھاڑ کے"
     },
     "رکھیں": {
       "en": "you keep",
       "pos": "verb",
       "roman": "rakkheṅ",
-      "base": "رکھنا"
+      "base": "رکھنا",
+      "pa": "رکھیں"
     },
     "خاک": {
       "en": "dust; earth",
       "pos": "noun",
-      "roman": "xāk"
+      "roman": "xāk",
+      "pa": "مٹی، خاک"
     },
     "اندر": {
       "en": "in; inside",
       "pos": "postposition",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر، وچ"
     },
     "وننج": {
       "en": "going",
       "pos": "verb",
       "roman": "vanj",
       "base": "وننجنا",
-      "note": "Western Punjabi for \"going\"."
+      "note": "Western Punjabi for \"going\".",
+      "pa": "جا کے",
+      "note_pa": "لہندی پنجابی وچ \"جا کے\""
     },
     "دھرنا": {
       "en": "to be laid",
       "pos": "verb",
-      "roman": "dharnā"
+      "roman": "dharnā",
+      "pa": "دھریا جانا، رکھنا"
     },
     "لوئ": {
       "en": "light (of day)",
       "pos": "noun",
       "roman": "loe",
-      "note": "\"Loe loe\": while daylight lasts."
+      "note": "\"Loe loe\": while daylight lasts.",
+      "pa": "لو، دن دا چانن",
+      "note_pa": "\"لوئ لوئ\": جد تیک دن دا چانن اے"
     },
     "بھر": {
       "en": "fill",
       "pos": "verb",
       "roman": "bhar",
-      "base": "بھرنا"
+      "base": "بھرنا",
+      "pa": "بھر"
     },
     "لے": {
       "en": "(for yourself)",
       "pos": "verb",
       "roman": "lai",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لے"
     },
     "کڑیئے": {
       "en": "O girl",
       "pos": "noun",
       "roman": "kuṛīe",
       "base": "کڑی",
-      "note": "The soul as a village girl fetching water."
+      "note": "The soul as a village girl fetching water.",
+      "pa": "او کڑیے",
+      "note_pa": "روح، پانی بھرن جاندی پنڈ دی کڑی دے روپ وچ"
     },
     "جے": {
       "en": "if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، اگر"
     },
     "تدھ": {
       "en": "you",
       "pos": "pronoun",
       "roman": "tudh",
-      "base": "توں"
+      "base": "توں",
+      "pa": "توں، تینوں"
     },
     "بھانڈا": {
       "en": "pitcher; pot",
       "pos": "noun",
-      "roman": "bhāṇḍā"
+      "roman": "bhāṇḍā",
+      "pa": "بھانڈا، گھڑا"
     },
     "بھرنا": {
       "en": "to fill; must fill",
       "pos": "verb",
-      "roman": "bharnā"
+      "roman": "bharnā",
+      "pa": "بھرنا (ضروری)"
     },
     "شام": {
       "en": "evening; (2nd) Shaam, the dark beloved",
       "pos": "noun",
       "roman": "shām",
-      "note": "Pun: evening has fallen without Shyam (the dark beloved, Krishna as lover)."
+      "note": "Pun: evening has fallen without Shyam (the dark beloved, Krishna as lover).",
+      "pa": "شام ویلا؛ شام، سانولا محبوب",
+      "note_pa": "دو معنی: شام پے گئی، تے شام (سانولا محبوب، کرشن عاشق دے روپ وچ) بنا"
     },
     "پئی": {
       "en": "has fallen",
       "pos": "verb",
       "roman": "paī",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پے گئی"
     },
     "بن": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bin"
+      "roman": "bin",
+      "pa": "بنا، بغیر"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "میاں محمد، شاعر آپ"
     },
     "گھر": {
       "en": "home",
       "pos": "noun",
-      "roman": "ghar"
+      "roman": "ghar",
+      "pa": "گھر"
     },
     "جاندی": {
       "en": "going (fem.)",
       "pos": "verb",
       "roman": "jāndī",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جاندی"
     },
     "نے": {
       "en": "(she) will have to",
       "pos": "particle",
       "roman": "ne",
-      "note": "\"Jandi ne darna\": she must be afraid going home."
+      "note": "\"Jandi ne darna\": she must be afraid going home.",
+      "pa": "نوں، (اوہنے) پینا",
+      "note_pa": "\"جاندی نے ڈرنا\": گھر جاندیاں اوہنوں ڈرنا پئے گا"
     },
     "ڈرنا": {
       "en": "fear; be afraid",
       "pos": "verb",
-      "roman": "ḍarnā"
+      "roman": "ḍarnā",
+      "pa": "ڈرنا"
     }
   }
 }

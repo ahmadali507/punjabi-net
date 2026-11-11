@@ -6,517 +6,622 @@
       "en": "my",
       "pos": "pronoun",
       "roman": "merī",
-      "base": "میرا"
+      "base": "میرا",
+      "pa": "میری، میرے کول دی"
     },
     "بکل": {
       "en": "fold of the shawl (bosom)",
       "pos": "noun",
       "roman": "bukkal",
-      "note": "the thief is hidden in one's own wrap, i.e. within oneself"
+      "note": "the thief is hidden in one's own wrap, i.e. within oneself",
+      "pa": "چادر دی لپیٹ، جھولی",
+      "note_pa": "چور اپنی ای بکل وچ لکیا اے، یعنی اپنے اندر"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "سمبندھ دا نشان"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "اندر"
     },
     "چور": {
       "en": "thief",
       "pos": "noun",
       "roman": "chor",
-      "note": "the hidden Beloved within the self"
+      "note": "the hidden Beloved within the self",
+      "pa": "چور، لکیا محبوب",
+      "note_pa": "اپنے اندر لکیا ہویا محبوب"
     },
     "نی": {
       "en": "O (friend; said to a woman)",
       "pos": "interjection",
-      "roman": "nī"
+      "roman": "nī",
+      "pa": "سہیلی نوں سدن دا بول"
     },
     "سادھو": {
       "en": "O holy man",
       "pos": "noun",
-      "roman": "sādhū"
+      "roman": "sādhū",
+      "pa": "اے سادھو، اے فقیر"
     },
     "کس": {
       "en": "whom",
       "pos": "pronoun",
-      "roman": "kis"
+      "roman": "kis",
+      "pa": "کیہنوں"
     },
     "نوں": {
       "en": "to",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "کوک": {
       "en": "cry, complaint",
       "pos": "noun",
-      "roman": "kūk"
+      "roman": "kūk",
+      "pa": "فریاد، دہائی"
     },
     "سناویں": {
       "en": "should (I) tell",
       "pos": "verb",
       "roman": "sunāveṅ",
-      "base": "سنانا"
+      "base": "سنانا",
+      "pa": "سناواں، دساں"
     },
     "چوری": {
       "en": "stealthily",
       "pos": "adverb",
       "roman": "chorī",
-      "note": "چوری چوری: secretly"
+      "note": "چوری چوری: secretly",
+      "pa": "چوری، لک کے",
+      "note_pa": "چوری چوری: لک چھپ کے"
     },
     "نکل": {
       "en": "slipped out",
       "pos": "verb",
       "roman": "nikal",
-      "base": "نکلنا"
+      "base": "نکلنا",
+      "pa": "نکل گیا، کھسک گیا"
     },
     "گیا": {
       "en": "went",
       "pos": "verb",
       "roman": "giā",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "گیا"
     },
     "تے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، اتے"
     },
     "جگ": {
       "en": "world",
       "pos": "noun",
-      "roman": "jag"
+      "roman": "jag",
+      "pa": "جگ، دنیا"
     },
     "پے": {
       "en": "arose (lit. fell)",
       "pos": "verb",
       "roman": "pai",
       "base": "پینا",
-      "note": "شور پے گیا: an uproar broke out"
+      "note": "شور پے گیا: an uproar broke out",
+      "pa": "پے گیا، اٹھیا",
+      "note_pa": "شور پے گیا: رولا مچ گیا"
     },
     "شور": {
       "en": "uproar",
       "pos": "noun",
-      "roman": "shor"
+      "roman": "shor",
+      "pa": "شور، رولا"
     },
     "مسلمان": {
       "en": "Muslims",
       "pos": "noun",
-      "roman": "musalmān"
+      "roman": "musalmān",
+      "pa": "مسلمان لوک"
     },
     "سویاں": {
       "en": "cremation pyre",
       "pos": "noun",
       "roman": "siviāṅ",
-      "note": "Uncertain: read as the burning ground, which Muslims fear as Hindus fear the grave"
+      "note": "Uncertain: read as the burning ground, which Muslims fear as Hindus fear the grave",
+      "pa": "سویاں، مڑھیاں (سڑن دی تھاں)",
+      "note_pa": "پکا نہیں: سڑن دی تھاں سمجھیا گیا، جیویں ہندو قبر توں ڈردے نیں انج مسلمان اوس توں ڈردے نیں"
     },
     "توں": {
       "en": "of (fear of)",
       "pos": "postposition",
-      "roman": "toṅ"
+      "roman": "toṅ",
+      "pa": "توں (ڈر دا)"
     },
     "ڈردے": {
       "en": "fear",
       "pos": "verb",
       "roman": "ḍarde",
-      "base": "ڈرنا"
+      "base": "ڈرنا",
+      "pa": "ڈردے نیں"
     },
     "ہندو": {
       "en": "Hindus",
       "pos": "noun",
-      "roman": "hindū"
+      "roman": "hindū",
+      "pa": "ہندو لوک"
     },
     "گور": {
       "en": "grave",
       "pos": "noun",
-      "roman": "gor"
+      "roman": "gor",
+      "pa": "قبر"
     },
     "دوویں": {
       "en": "both",
       "pos": "pronoun",
-      "roman": "doveṅ"
+      "roman": "doveṅ",
+      "pa": "دونویں، دوہیں"
     },
     "ایسے": {
       "en": "this very (feud)",
       "pos": "pronoun",
-      "roman": "ese"
+      "roman": "ese",
+      "pa": "ایسے، ایسے ای (جھگڑے)"
     },
     "مردے": {
       "en": "die",
       "pos": "verb",
       "roman": "marde",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مردے نیں"
     },
     "ایہو": {
       "en": "this very",
       "pos": "pronoun",
-      "roman": "eho"
+      "roman": "eho",
+      "pa": "ایہو ای"
     },
     "دوہاں": {
       "en": "of both",
       "pos": "pronoun",
-      "roman": "dohāṅ"
+      "roman": "dohāṅ",
+      "pa": "دوہاں دی، دونواں دی"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "کھور": {
       "en": "enmity, grudge",
       "pos": "noun",
-      "roman": "khor"
+      "roman": "khor",
+      "pa": "ویر، کینہ"
     },
     "کتے": {
       "en": "somewhere",
       "pos": "adverb",
-      "roman": "kite"
+      "roman": "kite",
+      "pa": "کدھرے، کسے تھاں"
     },
     "رام": {
       "en": "Ram (in Ram Das)",
       "pos": "proper noun",
-      "roman": "Rām"
+      "roman": "Rām",
+      "pa": "رام (رام داس ناں وچ)"
     },
     "داس": {
       "en": "Das (Ram Das, a Hindu name)",
       "pos": "proper noun",
-      "roman": "Dās"
+      "roman": "Dās",
+      "pa": "داس (رام داس، ہندو ناں)"
     },
     "فتح": {
       "en": "Fateh (in Fateh Muhammad)",
       "pos": "proper noun",
-      "roman": "Fateh"
+      "roman": "Fateh",
+      "pa": "فتح (فتح محمد ناں وچ)"
     },
     "محمد": {
       "en": "Muhammad (Fateh Muhammad, a Muslim name)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "محمد (فتح محمد، مسلمان ناں)"
     },
     "قدیمی": {
       "en": "age-old",
       "pos": "adjective",
-      "roman": "qadīmī"
+      "roman": "qadīmī",
+      "pa": "پرانا، مڈھ قدیم دا"
     },
     "مٹ": {
       "en": "was erased",
       "pos": "verb",
       "roman": "miṭ",
-      "base": "مٹنا"
+      "base": "مٹنا",
+      "pa": "مٹ گیا، مک گیا"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "جھگڑا": {
       "en": "quarrel",
       "pos": "noun",
-      "roman": "jhagṛā"
+      "roman": "jhagṛā",
+      "pa": "جھگڑا، لڑائی"
     },
     "پیا": {
       "en": "came (out)",
       "pos": "verb",
       "roman": "piā",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پیا، آ نکلیا"
     },
     "کوئی": {
       "en": "someone",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "ہور": {
       "en": "else",
       "pos": "adjective",
-      "roman": "hor"
+      "roman": "hor",
+      "pa": "ہور، دوجا"
     },
     "عرش": {
       "en": "the divine Throne (highest heaven)",
       "pos": "noun",
-      "roman": "arsh"
+      "roman": "arsh",
+      "pa": "عرش، سب توں اچا اسمان"
     },
     "منور": {
       "en": "luminous",
       "pos": "adjective",
-      "roman": "munavvar"
+      "roman": "munavvar",
+      "pa": "روشن، چانن والا"
     },
     "بانگاں": {
       "en": "calls to prayer",
       "pos": "noun",
       "roman": "bāṅgāṅ",
-      "base": "بانگ"
+      "base": "بانگ",
+      "pa": "اذاناں"
     },
     "ملیاں": {
       "en": "were sounded",
       "pos": "verb",
       "roman": "miliāṅ",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "دتیاں گئیاں"
     },
     "سنیاں": {
       "en": "were heard",
       "pos": "verb",
       "roman": "suniāṅ",
-      "base": "سننا"
+      "base": "سننا",
+      "pa": "سنیاں گئیاں"
     },
     "تخت": {
       "en": "throne (seat of)",
       "pos": "noun",
-      "roman": "taxt"
+      "roman": "taxt",
+      "pa": "تخت، گدی"
     },
     "لاہور": {
       "en": "Lahore",
       "pos": "proper noun",
-      "roman": "Lāhaur"
+      "roman": "Lāhaur",
+      "pa": "لاہور شہر"
     },
     "شاہ": {
       "en": "Shah (in Shah Inayat)",
       "pos": "proper noun",
-      "roman": "Shāh"
+      "roman": "Shāh",
+      "pa": "شاہ (شاہ عنایت ناں وچ)"
     },
     "عنایت": {
       "en": "Inayat, Bulleh Shah's master",
       "pos": "proper noun",
       "roman": "Ināyat",
-      "note": "Shah Inayat Qadiri of Lahore"
+      "note": "Shah Inayat Qadiri of Lahore",
+      "pa": "شاہ عنایت، بلھے شاہ دا مرشد",
+      "note_pa": "لاہور دے شاہ عنایت قادری"
     },
     "کنڈیاں": {
       "en": "hooks",
       "pos": "noun",
       "roman": "kunḍiāṅ",
-      "base": "کنڈی"
+      "base": "کنڈی",
+      "pa": "کنڈیاں، ہک"
     },
     "پایاں": {
       "en": "cast",
       "pos": "verb",
       "roman": "pāiāṅ",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پائیاں، سٹیاں"
     },
     "لک": {
       "en": "hiding",
       "pos": "verb",
       "roman": "luk",
       "base": "لکنا",
-      "note": "لک چھپ: in secret"
+      "note": "لک چھپ: in secret",
+      "pa": "لک کے",
+      "note_pa": "لک چھپ: چوری چوری"
     },
     "چھپ": {
       "en": "concealed",
       "pos": "verb",
       "roman": "chhup",
-      "base": "چھپنا"
+      "base": "چھپنا",
+      "pa": "چھپ کے"
     },
     "کھچدا": {
       "en": "pulls",
       "pos": "verb",
       "roman": "khichdā",
-      "base": "کھچنا"
+      "base": "کھچنا",
+      "pa": "کھچدا اے"
     },
     "ڈور": {
       "en": "string (of a kite)",
       "pos": "noun",
-      "roman": "ḍor"
+      "roman": "ḍor",
+      "pa": "گڈی دی ڈور"
     },
     "جس": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "jis"
+      "roman": "jis",
+      "pa": "جیہنے"
     },
     "ڈھنڈیا": {
       "en": "searched",
       "pos": "verb",
       "roman": "ḍhūṇḍiā",
-      "base": "ڈھونڈنا"
+      "base": "ڈھونڈنا",
+      "pa": "لبھیا، ڈھونڈیا"
     },
     "تس": {
       "en": "he",
       "pos": "pronoun",
-      "roman": "tis"
+      "roman": "tis",
+      "pa": "اوہنے"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ، نہیں"
     },
     "پایا": {
       "en": "found",
       "pos": "verb",
       "roman": "pāyā",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "لبھیا"
     },
     "جھر": {
       "en": "pining",
       "pos": "verb",
       "roman": "jhur",
       "base": "جھرنا",
-      "note": "Uncertain: جھر جھر read as \"pining away\"; the line is obscure"
+      "note": "Uncertain: جھر جھر read as \"pining away\"; the line is obscure",
+      "pa": "جھر جھر، جھردا (ہجر وچ)",
+      "note_pa": "پکا نہیں: جھر جھر نوں جھرنا (ہجر وچ گھلنا) سمجھیا گیا؛ سطر اوکھی اے"
     },
     "ہویا": {
       "en": "became",
       "pos": "verb",
       "roman": "hoyā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گیا"
     },
     "مور": {
       "en": "peacock",
       "pos": "noun",
-      "roman": "mor"
+      "roman": "mor",
+      "pa": "مور پنچھی"
     },
     "جیہڑا": {
       "en": "whatever",
       "pos": "pronoun",
-      "roman": "jehṛā"
+      "roman": "jehṛā",
+      "pa": "جیہڑا"
     },
     "لیکھ": {
       "en": "fate, destiny",
       "pos": "noun",
-      "roman": "lekh"
+      "roman": "lekh",
+      "pa": "لیکھ، قسمت"
     },
     "متھے": {
       "en": "forehead",
       "pos": "noun",
       "roman": "matthe",
-      "base": "متھا"
+      "base": "متھا",
+      "pa": "متھے تے"
     },
     "لکھیا": {
       "en": "written",
       "pos": "verb",
       "roman": "likhiā",
-      "base": "لکھنا"
+      "base": "لکھنا",
+      "pa": "لکھیا ہویا"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کیہڑا"
     },
     "کرے": {
       "en": "can do",
       "pos": "verb",
       "roman": "kare",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر سکے"
     },
     "بھن": {
       "en": "breaking",
       "pos": "verb",
       "roman": "bhann",
-      "base": "بھننا"
+      "base": "بھننا",
+      "pa": "بھن، بھنن"
     },
     "توڑ": {
       "en": "undoing (lit. breaking)",
       "pos": "noun",
       "roman": "toṛ",
-      "note": "بھن توڑ: to undo"
+      "note": "بھن توڑ: to undo",
+      "pa": "توڑ، توڑنا",
+      "note_pa": "بھن توڑ: مٹانا، الٹانا"
     },
     "پیر": {
       "en": "saint",
       "pos": "noun",
-      "roman": "pīr"
+      "roman": "pīr",
+      "pa": "پیر، ولی"
     },
     "پیراں": {
       "en": "of saints",
       "pos": "noun",
       "roman": "pīrāṅ",
       "base": "پیر",
-      "note": "پیر پیراں: saint of saints, Abdul Qadir Jilani of Baghdad"
+      "note": "پیر پیراں: saint of saints, Abdul Qadir Jilani of Baghdad",
+      "pa": "پیراں دا",
+      "note_pa": "پیر پیراں: پیراں دا پیر، بغداد والے شیخ عبدالقادر جیلانی"
     },
     "بغداد": {
       "en": "Baghdad",
       "pos": "proper noun",
-      "roman": "Baġdād"
+      "roman": "Baġdād",
+      "pa": "بغداد شہر"
     },
     "اساڈا": {
       "en": "our",
       "pos": "pronoun",
-      "roman": "asāḍā"
+      "roman": "asāḍā",
+      "pa": "ساڈا"
     },
     "مرشد": {
       "en": "spiritual guide",
       "pos": "noun",
-      "roman": "murshid"
+      "roman": "murshid",
+      "pa": "مرشد، رہبر"
     },
     "اوہ": {
       "en": "he",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "اسیں": {
       "en": "we",
       "pos": "pronoun",
-      "roman": "asīṅ"
+      "roman": "asīṅ",
+      "pa": "اسیں، اسی"
     },
     "سبھ": {
       "en": "all",
       "pos": "pronoun",
-      "roman": "sabh"
+      "roman": "sabh",
+      "pa": "سارے"
     },
     "اکو": {
       "en": "one and the same",
       "pos": "adjective",
-      "roman": "ikko"
+      "roman": "ikko",
+      "pa": "اکو ای، اک ای"
     },
     "اوہو": {
       "en": "the very same",
       "pos": "pronoun",
-      "roman": "oho"
+      "roman": "oho",
+      "pa": "اوہو ای"
     },
     "گڈی": {
       "en": "kite",
       "pos": "noun",
-      "roman": "guḍḍī"
+      "roman": "guḍḍī",
+      "pa": "گڈی، پتنگ"
     },
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "تسی": {
       "en": "you (pl.)",
       "pos": "pronoun",
-      "roman": "tusīṅ"
+      "roman": "tusīṅ",
+      "pa": "تسیں"
     },
     "وی": {
       "en": "too",
       "pos": "particle",
-      "roman": "vī"
+      "roman": "vī",
+      "pa": "وی، بھی"
     },
     "آکھو": {
       "en": "say",
       "pos": "verb",
       "roman": "ākho",
-      "base": "آکھنا"
+      "base": "آکھنا",
+      "pa": "آکھو، کہو"
     },
     "سارے": {
       "en": "all",
       "pos": "pronoun",
-      "roman": "sāre"
+      "roman": "sāre",
+      "pa": "سارے، سبھ"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "دسناں": {
       "en": "tell, point out",
       "pos": "verb",
       "roman": "dasnāṅ",
-      "base": "دسنا"
+      "base": "دسنا",
+      "pa": "دسنا آں، دس پانا آں"
     },
     "پگڑ": {
       "en": "seize",
       "pos": "verb",
       "roman": "pagaṛ",
-      "base": "پکڑنا"
+      "base": "پکڑنا",
+      "pa": "پھڑ"
     },
     "لیاو": {
       "en": "bring",
       "pos": "verb",
       "roman": "liāo",
-      "base": "لیانا"
+      "base": "لیانا",
+      "pa": "لیاؤ"
     },
     "بلھے": {
       "en": "Bulleh (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bullhe",
-      "base": "بلھا"
+      "base": "بلھا",
+      "pa": "بلھا، شاعر آپ"
     }
   }
 }

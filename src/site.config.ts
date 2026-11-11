@@ -14,6 +14,6 @@ export const SITE = {
    * Formspree form URL here (https://formspree.io/f/…).
    */
   contributeAction: '/api/contribute',
-  description:
-    'A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, in Shahmukhi, Gurmukhi and Roman script.',
+  description: 'A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, in Shahmukhi.',
+  descriptionPa: 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دا غیر تجارتی ذخیرہ، شاہ مکھی وچ۔',
 };

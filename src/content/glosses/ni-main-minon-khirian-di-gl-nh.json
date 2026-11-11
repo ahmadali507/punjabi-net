@@ -5,174 +5,210 @@
     "نی": {
       "en": "O (to a woman; vocative)",
       "pos": "interjection",
-      "roman": "nī"
+      "roman": "nī",
+      "pa": "نی (زنانی نوں سد)"
     },
     "مائیں": {
       "en": "O mother",
       "pos": "noun",
       "roman": "māīṅ",
-      "base": "ماں"
+      "base": "ماں",
+      "pa": "اے ماں"
     },
     "مینوں": {
       "en": "to me",
       "pos": "pronoun",
-      "roman": "mainūṅ"
+      "roman": "mainūṅ",
+      "pa": "مینوں"
     },
     "کھیڑیاں": {
       "en": "the Kheras",
       "pos": "proper noun",
       "roman": "Kheṛiāṅ",
       "base": "کھیڑا",
-      "note": "Family of Saida Khera, to whom Heer was married against her will"
+      "note": "Family of Saida Khera, to whom Heer was married against her will",
+      "pa": "کھیڑے، سیدے کھیڑے دا ٹبر",
+      "note_pa": "سیدے کھیڑے دا ٹبر، جیہدے نال ہیر نوں اوہدی مرضی دے الٹ ویاہیا گیا"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "گل": {
       "en": "talk, word",
       "pos": "noun",
-      "roman": "gall"
+      "roman": "gall",
+      "pa": "گل، بات"
     },
     "نہ": {
       "en": "not; don't",
       "pos": "particle",
-      "roman": "nah"
+      "roman": "nah",
+      "pa": "نہ، نہیں"
     },
     "آکھ": {
       "en": "say",
       "pos": "verb",
       "roman": "ākh",
-      "base": "آکھنا"
+      "base": "آکھنا",
+      "pa": "آکھ، کہہ"
     },
     "رانجھن": {
       "en": "Ranjha, Heer's beloved",
       "pos": "proper noun",
       "roman": "Rāñjhaṇ",
       "base": "رانجھا",
-      "note": "Hero of Heer Ranjha; for Sufis an image of the divine Beloved"
+      "note": "Hero of Heer Ranjha; for Sufis an image of the divine Beloved",
+      "pa": "رانجھا، ہیر دا محبوب",
+      "note_pa": "ہیر رانجھا قصے دا ہیرو؛ صوفیاں لئی رب محبوب دی مثال"
     },
     "میرا": {
       "en": "my",
       "pos": "pronoun",
-      "roman": "merā"
+      "roman": "merā",
+      "pa": "میرا"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "رانجھے": {
       "en": "Ranjha's",
       "pos": "proper noun",
       "roman": "Rāñjhe",
-      "base": "رانجھا"
+      "base": "رانجھا",
+      "pa": "رانجھے دی"
     },
     "نوں": {
       "en": "to; for (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "نوں، لئی (کرم دا نشان)"
     },
     "کوڑی": {
       "en": "false",
       "pos": "adjective",
       "roman": "kūṛī",
-      "base": "کوڑا"
+      "base": "کوڑا",
+      "pa": "جھوٹی"
     },
     "جھاک": {
       "en": "hope, expectation",
       "pos": "noun",
-      "roman": "jhāk"
+      "roman": "jhāk",
+      "pa": "آس، امید"
     },
     "لوک": {
       "en": "people",
       "pos": "noun",
-      "roman": "lok"
+      "roman": "lok",
+      "pa": "لوک"
     },
     "جانیں": {
       "en": "think",
       "pos": "verb",
       "roman": "jāṇīṅ",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "سمجھدے نیں"
     },
     "ہیر": {
       "en": "Heer, heroine of the qissa",
       "pos": "proper noun",
-      "roman": "Hīr"
+      "roman": "Hīr",
+      "pa": "ہیر، قصے دی نائکا"
     },
     "کملی": {
       "en": "mad (fem.)",
       "pos": "adjective",
       "roman": "kamlī",
-      "base": "کملا"
+      "base": "کملا",
+      "pa": "کملی، جھلی"
     },
     "ہوئی": {
       "en": "has become",
       "pos": "verb",
       "roman": "hoī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گئی اے"
     },
     "ہیرے": {
       "en": "Heer's",
       "pos": "proper noun",
       "roman": "Hīre",
-      "base": "ہیر"
+      "base": "ہیر",
+      "pa": "ہیر دا"
     },
     "دا": {
       "en": "of (masc.); with جان: knows",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "دا (مذکر)؛ جان نال: جاندا"
     },
     "ور": {
       "en": "groom, husband",
       "pos": "noun",
-      "roman": "var"
+      "roman": "var",
+      "pa": "ور، خاوند"
     },
     "چاک": {
       "en": "herdsman (Ranjha)",
       "pos": "noun",
       "roman": "chāk",
-      "note": "Ranjha served Heer's father as buffalo herder"
+      "note": "Ranjha served Heer's father as buffalo herder",
+      "pa": "چاک، مجھیاں چارن والا (رانجھا)",
+      "note_pa": "رانجھا ہیر دے پیو دیاں مجھیاں چاردا سی"
     },
     "کہے": {
       "en": "says",
       "pos": "verb",
       "roman": "kahe",
-      "base": "کہنا"
+      "base": "کہنا",
+      "pa": "آکھے، کہندا اے"
     },
     "حسین": {
       "en": "Hussain (the poet names himself)",
       "pos": "proper noun",
       "roman": "Husain",
-      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore",
+      "pa": "حسین، شاعر دا اپنا ناں",
+      "note_pa": "شاہ حسین (۱۵۳۸–۱۵۹۹)، لاہور دا صوفی شاعر"
     },
     "فقیر": {
       "en": "faqir, mendicant",
       "pos": "noun",
       "roman": "faqīr",
-      "note": "Sufi term: one poor before God"
+      "note": "Sufi term: one poor before God",
+      "pa": "فقیر، درویش",
+      "note_pa": "صوفی لفظ: رب اگے غریب"
     },
     "سائیں": {
       "en": "the Lord (Master)",
       "pos": "noun",
-      "roman": "sāīṅ"
+      "roman": "sāīṅ",
+      "pa": "سائیں، رب"
     },
     "جان": {
       "en": "knows (جان دا = جاندا)",
       "pos": "verb",
       "roman": "jāṇ",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جاندا (جان دا = جاندا)"
     },
     "مولی": {
       "en": "the Lord",
       "pos": "noun",
-      "roman": "Maulā"
+      "roman": "Maulā",
+      "pa": "مولا، رب"
     },
     "پاک": {
       "en": "pure",
       "pos": "adjective",
-      "roman": "pāk"
+      "roman": "pāk",
+      "pa": "پاک، پوتر"
     }
   }
 }

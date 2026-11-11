@@ -18,6 +18,7 @@ bibliography:
   - title: "Daman de Moti"
     title_pa: دامن دے موتی
     note: "Collection of his poetry, compiled and published after his death by the Ustad Daman Academy."
+    note_pa: "اوہناں دی شاعری دا مجموعہ، جو اوہناں دی موت مگروں استاد دامن اکیڈمی نے اکٹھا کر کے چھاپیا۔"
 bio_sources:
   - book: "Wikipedia: Ustad Daman"
     url: "https://en.wikipedia.org/wiki/Ustad_Daman"
@@ -27,6 +28,15 @@ bio_sources:
     url: "https://www.dawn.com/news/1876568"
   - book: "Dawn (via APNA): Harking Back: Voices of sanity missing from Lahore's streets"
     url: "https://apnaorg.com/columns/majid/2016/col23.html"
+bio_short_pa: "لہور دے درزی تے لوکاں دے شاعر، جنہاں دی سیاسی شاعری، جو جلسیاں وچ پڑھی جاندی سی، اک توں مگروں اک حاکماں دا غصہ سہیڑدی رہی۔"
+region_pa: "لہور، پنجاب"
+portrait_caption_pa: "لہور وچ شاہ حسین دا دربار، جتھے استاد دامن دفن نیں (اوہناں دی کوئی کھلے لائسنس والی فوٹو نئیں ملدی)۔"
+bio_pa: |
+  استاد دامن، جنہاں دا اصل ناں چراغ دین سی، ستمبر ۱۹۱۱ وچ لہور وچ جمے تے پیشے ولوں درزی سن۔ اوہناں آزادی توں پہلاں سیاسی جلسیاں وچ اپنی شاعری پڑھنی شروع کیتی، تے جواہر لعل نہرو نے کانگریس دے اک اکٹھ وچ اوہناں نوں سن کے اوہناں نوں آزادی دا شاعر آکھیا۔ اوہ ۳ دسمبر ۱۹۸۴ نوں لہور وچ فوت ہوئے تے باغبانپورہ وچ شاہ حسین دے دربار دے ویہڑے وچ دفن نیں۔
+
+  اوہ اپنے ویلے دے حاکماں دا مخول اڈاندے سن تے ایہدی قیمت وی تاری۔ ایوب خان دے ویلے اوہ جیل گئے، تے ذوالفقار علی بھٹو دے ویلے اوہناں اُتے بارود رکھن دا جھوٹا مقدمہ بنایا گیا، جو استاد دامن بم کیس دے ناں نال مشہور ہویا۔ ۱۹۴۷ توں مگروں اوہ اپنی شاعری لکھدے نئیں سن؛ اوہناں دی موت توں ورھیاں مگروں استاد دامن اکیڈمی نے ایہہ اکٹھی کر کے «دامن دے موتی» دے ناں نال چھاپی۔
+
+  اوہناں دی لکھت اُتے حقِ اشاعت لاگو اے، ایس لئی ایہہ ذخیرہ اوہناں دیاں کتاباں دی لسٹ تے دیندا اے پر اوہناں دیاں نظماں نئیں چھاپدا۔
 ---
 
 Ustad Daman, born Chiragh Din in Lahore in September 1911, was a tailor by trade. He began reciting his verse at political meetings before Independence, and Jawaharlal Nehru, hearing him at a Congress gathering, called him the poet of freedom. He died in Lahore on 3 December 1984 and is buried in the courtyard of Shah Hussain's shrine at Baghbanpura.

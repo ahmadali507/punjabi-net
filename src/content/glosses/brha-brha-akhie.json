@@ -6,66 +6,79 @@
       "en": "pain of separation",
       "pos": "noun",
       "roman": "birhā",
-      "note": "Birha: longing in separation from the Beloved."
+      "note": "Birha: longing in separation from the Beloved.",
+      "pa": "وچھوڑے دا درد",
+      "note_pa": "برہا: محبوب توں وچھڑ کے تانگھ"
     },
     "آکھیے": {
       "en": "one says; is called",
       "pos": "verb",
       "roman": "ākhīe",
-      "base": "آکھنا"
+      "base": "آکھنا",
+      "pa": "آکھیے، کہیئے"
     },
     "توں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tūṅ"
+      "roman": "tūṅ",
+      "pa": "توں"
     },
     "سلطان": {
       "en": "king; sovereign",
       "pos": "noun",
-      "roman": "sultān"
+      "roman": "sultān",
+      "pa": "بادشاہ، سلطان"
     },
     "جت": {
       "en": "in which",
       "pos": "pronoun",
-      "roman": "jit"
+      "roman": "jit",
+      "pa": "جس وچ"
     },
     "تن": {
       "en": "body",
       "pos": "noun",
-      "roman": "tan"
+      "roman": "tan",
+      "pa": "تن، جسم"
     },
     "برہوں": {
       "en": "pain of separation",
       "pos": "noun",
       "roman": "birhoṅ",
-      "base": "برہا"
+      "base": "برہا",
+      "pa": "وچھوڑے دا درد"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "اپجے": {
       "en": "arises; springs up",
       "pos": "verb",
       "roman": "upje",
-      "base": "اپجنا"
+      "base": "اپجنا",
+      "pa": "اگے، پیدا ہووے"
     },
     "سو": {
       "en": "that",
       "pos": "pronoun",
-      "roman": "so"
+      "roman": "so",
+      "pa": "اوہ"
     },
     "جان": {
       "en": "know; consider",
       "pos": "verb",
       "roman": "jāṇ",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جان، سمجھ"
     },
     "مسان": {
       "en": "cremation ground",
       "pos": "noun",
-      "roman": "masāṇ"
+      "roman": "masāṇ",
+      "pa": "مسان، مڑیاں دی تھاں"
     }
   }
 }

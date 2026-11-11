@@ -5,192 +5,229 @@
     "طلب": {
       "en": "seeking; quest",
       "pos": "noun",
-      "roman": "talab"
+      "roman": "talab",
+      "pa": "طلب، چاہ، لبھت"
     },
     "تیری": {
       "en": "your (fem.)",
       "pos": "pronoun",
       "roman": "terī",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیری"
     },
     "تھیں": {
       "en": "from",
       "pos": "postposition",
-      "roman": "thīṅ"
+      "roman": "thīṅ",
+      "pa": "توں"
     },
     "مڑساں": {
       "en": "I will turn back",
       "pos": "verb",
       "roman": "muṛsāṅ",
-      "base": "مڑنا"
+      "base": "مڑنا",
+      "pa": "مڑاں گا"
     },
     "ناہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nāhīṅ"
+      "roman": "nāhīṅ",
+      "pa": "نہیں"
     },
     "جب": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jab"
+      "roman": "jab",
+      "pa": "جد، جدوں"
     },
     "لگ": {
       "en": "until",
       "pos": "postposition",
       "roman": "lag",
-      "note": "\"Jab lag\": as long as."
+      "note": "\"Jab lag\": as long as.",
+      "pa": "تیک، تک",
+      "note_pa": "\"جب لگ\": جد تیک"
     },
     "مطلب": {
       "en": "aim; purpose",
       "pos": "noun",
-      "roman": "matlab"
+      "roman": "matlab",
+      "pa": "مقصد، مراد"
     },
     "ہوندا": {
       "en": "is (fulfilled)",
       "pos": "verb",
       "roman": "hondā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہوندا، پورا ہوندا"
     },
     "یا": {
       "en": "either; or",
       "pos": "conjunction",
-      "roman": "yā"
+      "roman": "yā",
+      "pa": "یا، جاں"
     },
     "تن": {
       "en": "body",
       "pos": "noun",
-      "roman": "tan"
+      "roman": "tan",
+      "pa": "تن، جسم"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "تساڈے": {
       "en": "you (plural, respectful)",
       "pos": "pronoun",
       "roman": "tusāḍe",
-      "base": "تسیں"
+      "base": "تسیں",
+      "pa": "تہاڈے"
     },
     "ملسی": {
       "en": "will meet",
       "pos": "verb",
       "roman": "milsī",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملے گا"
     },
     "روح": {
       "en": "soul",
       "pos": "noun",
-      "roman": "rūh"
+      "roman": "rūh",
+      "pa": "روح، جند"
     },
     "ٹرسی": {
       "en": "will depart",
       "pos": "verb",
       "roman": "ṭursī",
-      "base": "ٹرنا"
+      "base": "ٹرنا",
+      "pa": "ٹر جائے گی"
     },
     "روندا": {
       "en": "weeping",
       "pos": "verb",
       "roman": "rondā",
-      "base": "رونا"
+      "base": "رونا",
+      "pa": "روندا ہویا"
     },
     "قبر": {
       "en": "grave",
       "pos": "noun",
-      "roman": "qabar"
+      "roman": "qabar",
+      "pa": "قبر"
     },
     "میری": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merī",
-      "base": "میں"
+      "base": "میں",
+      "pa": "میری"
     },
     "پٹ": {
       "en": "dig open",
       "pos": "verb",
       "roman": "puṭṭ",
-      "base": "پٹنا"
+      "base": "پٹنا",
+      "pa": "پٹ کے، کھول کے"
     },
     "دیکھیں": {
       "en": "see; look",
       "pos": "verb",
       "roman": "dekheṅ",
-      "base": "دیکھنا"
+      "base": "دیکھنا",
+      "pa": "ویکھیں"
     },
     "سجنا": {
       "en": "O beloved",
       "pos": "noun",
       "roman": "sajjaṇā",
-      "base": "سجن"
+      "base": "سجن",
+      "pa": "او سجنا، او محبوبا"
     },
     "جاں": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jāṅ"
+      "roman": "jāṅ",
+      "pa": "جدوں"
     },
     "مر": {
       "en": "die",
       "pos": "verb",
       "roman": "mar",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مر"
     },
     "چکو": {
       "en": "(have) finished",
       "pos": "verb",
       "roman": "chukko",
       "base": "چکنا",
-      "note": "Uncertain: \"mar chukko\": when I have died."
+      "note": "Uncertain: \"mar chukko\": when I have died.",
+      "pa": "چکاں، مک جاواں",
+      "note_pa": "پکا نہیں: \"مر چکو\": جدوں میں مر جاواں"
     },
     "سو": {
       "en": "it; that (one)",
       "pos": "pronoun",
-      "roman": "so"
+      "roman": "so",
+      "pa": "اوہ، اوہو"
     },
     "بھوندا": {
       "en": "whirling; turning",
       "pos": "verb",
       "roman": "bhaundā",
       "base": "بھونا",
-      "note": "Uncertain: the soul still circling (around you)."
+      "note": "Uncertain: the soul still circling (around you).",
+      "pa": "بھوندا، گھمدا",
+      "note_pa": "پکا نہیں: روح اجے وی (تیرے دوالے) بھوندی"
     },
     "کولے": {
       "en": "embers; coals",
       "pos": "noun",
       "roman": "kole",
-      "base": "کولا"
+      "base": "کولا",
+      "pa": "کولے، انگیارے"
     },
     "ہوسی": {
       "en": "will be",
       "pos": "verb",
       "roman": "hosī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہووے گا"
     },
     "کفن": {
       "en": "shroud",
       "pos": "noun",
-      "roman": "kafan"
+      "roman": "kafan",
+      "pa": "کفن"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "میاں محمد، شاعر آپ"
     },
     "عشق": {
       "en": "love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق، پیار"
     },
     "اگ": {
       "en": "fire",
       "pos": "noun",
-      "roman": "agg"
+      "roman": "agg",
+      "pa": "اگ"
     },
     "ڈھوندا": {
       "en": "carrying; bearing",
       "pos": "verb",
       "roman": "ḍhondā",
-      "base": "ڈھونا"
+      "base": "ڈھونا",
+      "pa": "ڈھوندا، چکی پھردا"
     }
   }
 }

@@ -6,183 +6,220 @@
       "en": "the living",
       "pos": "noun",
       "roman": "jīvande",
-      "base": "جیوندا"
+      "base": "جیوندا",
+      "pa": "جیوندے لوک"
     },
     "کیہ": {
       "en": "what",
       "pos": "pronoun",
-      "roman": "kih"
+      "roman": "kih",
+      "pa": "کیہ"
     },
     "جانن": {
       "en": "(do they) know",
       "pos": "verb",
       "roman": "jānan",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جانن، سمجھن"
     },
     "سار": {
       "en": "state; inner knowledge",
       "pos": "noun",
-      "roman": "sār"
+      "roman": "sār",
+      "pa": "حال، اندر دی خبر"
     },
     "مویاں": {
       "en": "of the dead",
       "pos": "noun",
       "roman": "moiāṅ",
-      "base": "موا"
+      "base": "موا",
+      "pa": "مویاں دی، مردیاں دی"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "سو": {
       "en": "he (alone)",
       "pos": "pronoun",
-      "roman": "so"
+      "roman": "so",
+      "pa": "اوہی"
     },
     "جانے": {
       "en": "knows",
       "pos": "verb",
       "roman": "jāne",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جاندا اے"
     },
     "جو": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جیہڑا"
     },
     "مردا": {
       "en": "dies",
       "pos": "verb",
       "roman": "mardā",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مردا اے"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہُو، رب",
+      "note_pa": "ہو: باہو دی ٹیک، \"ہُو\" یعنی \"اوہ\"، رب دا صوفی ناں، ہر سطر دے انت تے"
     },
     "قبراں": {
       "en": "graves",
       "pos": "noun",
       "roman": "qabrāṅ",
-      "base": "قبر"
+      "base": "قبر",
+      "pa": "قبراں"
     },
     "دے": {
       "en": "of (masc. obl.)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان (مذکر ترچھا)"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "ان": {
       "en": "grain; food",
       "pos": "noun",
-      "roman": "ann"
+      "roman": "ann",
+      "pa": "اناج، روٹی"
     },
     "نہ": {
       "en": "not; nor",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ، نہیں"
     },
     "پانی": {
       "en": "water",
       "pos": "noun",
-      "roman": "pānī"
+      "roman": "pānī",
+      "pa": "پانی"
     },
     "خرچ": {
       "en": "provisions; expenses",
       "pos": "noun",
-      "roman": "xarch"
+      "roman": "xarch",
+      "pa": "توشہ، خرچ"
     },
     "لوڑیندا": {
       "en": "is needed",
       "pos": "verb",
       "roman": "loṛīndā",
-      "base": "لوڑنا"
+      "base": "لوڑنا",
+      "pa": "لوڑیدا اے"
     },
     "گھر": {
       "en": "home",
       "pos": "noun",
       "roman": "ghar",
-      "note": "Provisions 'from home': good deeds sent ahead from this life."
+      "note": "Provisions 'from home': good deeds sent ahead from this life.",
+      "pa": "گھر",
+      "note_pa": "گھروں توشہ: ایس حیاتی وچ اگے گھلے چنگے عمل"
     },
     "دا": {
       "en": "of; from (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "دا، توں (مذکر)"
     },
     "اک": {
       "en": "one (first)",
       "pos": "numeral",
-      "roman": "ikk"
+      "roman": "ikk",
+      "pa": "اک، پہلا"
     },
     "وچھوڑا": {
       "en": "separation",
       "pos": "noun",
-      "roman": "vichhoṛā"
+      "roman": "vichhoṛā",
+      "pa": "جدائی، وچھوڑا"
     },
     "ماں": {
       "en": "mother",
       "pos": "noun",
-      "roman": "māṅ"
+      "roman": "māṅ",
+      "pa": "ماں"
     },
     "پیو": {
       "en": "father",
       "pos": "noun",
-      "roman": "pio"
+      "roman": "pio",
+      "pa": "پیو"
     },
     "بھائیاں": {
       "en": "brothers",
       "pos": "noun",
       "roman": "bhāiāṅ",
-      "base": "بھائی"
+      "base": "بھائی",
+      "pa": "بھراواں"
     },
     "بیا": {
       "en": "second; another",
       "pos": "adjective",
-      "roman": "biā"
+      "roman": "biā",
+      "pa": "دوجا، ہور"
     },
     "عذاب": {
       "en": "torment",
       "pos": "noun",
-      "roman": "azāb"
+      "roman": "azāb",
+      "pa": "عذاب، سزا"
     },
     "قبر": {
       "en": "grave",
       "pos": "noun",
-      "roman": "qabar"
+      "roman": "qabar",
+      "pa": "قبر"
     },
     "واہ": {
       "en": "blessed; how fine",
       "pos": "interjection",
-      "roman": "vāh"
+      "roman": "vāh",
+      "pa": "واہ، دھن"
     },
     "نصیبا": {
       "en": "fate; fortune",
       "pos": "noun",
       "roman": "nasībā",
-      "base": "نصیب"
+      "base": "نصیب",
+      "pa": "نصیب، قسمت"
     },
     "باہو": {
       "en": "Bahu (the poet names himself)",
       "pos": "proper noun",
       "roman": "Bāhū",
-      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order."
+      "note": "Sultan Bahu (d. 1691), Sufi of the Qadiri order.",
+      "pa": "باہو، شاعر دا اپنا ناں",
+      "note_pa": "سلطان باہو (وفات ۱۶۹۱)، قادری سلسلے دا صوفی"
     },
     "جیہڑا": {
       "en": "who; the one who",
       "pos": "pronoun",
-      "roman": "jehṛā"
+      "roman": "jehṛā",
+      "pa": "جیہڑا"
     },
     "حیاتی": {
       "en": "life",
       "pos": "noun",
-      "roman": "hayātī"
+      "roman": "hayātī",
+      "pa": "زندگی، حیاتی"
     }
   }
 }

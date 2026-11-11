@@ -6,199 +6,236 @@
       "en": "O moon",
       "pos": "noun",
       "roman": "chandā",
-      "base": "چن"
+      "base": "چن",
+      "pa": "اے چن"
     },
     "چمک": {
       "en": "shine; glitter",
       "pos": "noun",
-      "roman": "chamak"
+      "roman": "chamak",
+      "pa": "چمک، لشک"
     },
     "وکھال": {
       "en": "show",
       "pos": "verb",
       "roman": "vakhāl",
-      "base": "وکھالنا"
+      "base": "وکھالنا",
+      "pa": "وکھا"
     },
     "نہ": {
       "en": "don't; not",
       "pos": "particle",
-      "roman": "nā"
+      "roman": "nā",
+      "pa": "نہ، نہیں"
     },
     "سانوں": {
       "en": "us; to us",
       "pos": "pronoun",
-      "roman": "sānūṅ"
+      "roman": "sānūṅ",
+      "pa": "سانوں"
     },
     "اتے": {
       "en": "and",
       "pos": "conjunction",
-      "roman": "ate"
+      "roman": "ate",
+      "pa": "اتے، تے"
     },
     "کر": {
       "en": "make; do",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر"
     },
     "مان": {
       "en": "pride",
       "pos": "noun",
-      "roman": "māṇ"
+      "roman": "māṇ",
+      "pa": "مان، غرور"
     },
     "ودھیرا": {
       "en": "excessive; much",
       "pos": "adjective",
-      "roman": "vadherā"
+      "roman": "vadherā",
+      "pa": "بہتا، زیادہ"
     },
     "تیں": {
       "en": "you (thou)",
       "pos": "pronoun",
-      "roman": "taiṅ"
+      "roman": "taiṅ",
+      "pa": "توں"
     },
     "جیہے": {
       "en": "like",
       "pos": "adjective",
       "roman": "jehe",
-      "base": "جیہا"
+      "base": "جیہا",
+      "pa": "ورگے"
     },
     "لکھ": {
       "en": "hundreds of thousands (lakhs)",
       "pos": "numeral",
-      "roman": "lakkh"
+      "roman": "lakkh",
+      "pa": "لکھاں"
     },
     "چڑھن": {
       "en": "rise",
       "pos": "verb",
       "roman": "chaṛhan",
-      "base": "چڑھنا"
+      "base": "چڑھنا",
+      "pa": "چڑھن"
     },
     "اسانوں": {
       "en": "for us; over us",
       "pos": "pronoun",
-      "roman": "asānūṅ"
+      "roman": "asānūṅ",
+      "pa": "ساڈے لئی"
     },
     "پر": {
       "en": "but",
       "pos": "conjunction",
-      "roman": "par"
+      "roman": "par",
+      "pa": "پر، لیکن"
     },
     "سجناں": {
       "en": "the beloved",
       "pos": "noun",
       "roman": "sajjaṇāṅ",
-      "base": "سجن"
+      "base": "سجن",
+      "pa": "محبوب"
     },
     "باجھ": {
       "en": "without",
       "pos": "postposition",
-      "roman": "bājh"
+      "roman": "bājh",
+      "pa": "بنا، بغیر"
     },
     "اندھیرا": {
       "en": "darkness",
       "pos": "noun",
-      "roman": "anhērā"
+      "roman": "anhērā",
+      "pa": "ہنیرا"
     },
     "جس": {
       "en": "whom; which",
       "pos": "pronoun",
-      "roman": "jis"
+      "roman": "jis",
+      "pa": "جیہنوں، جس"
     },
     "ڈٹھیاں": {
       "en": "on seeing",
       "pos": "verb",
       "roman": "ḍiṭhiāṅ",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ویکھیاں"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "روشن": {
       "en": "bright; illumined",
       "pos": "adjective",
-      "roman": "raushan"
+      "roman": "raushan",
+      "pa": "روشن، چانن"
     },
     "ہووے": {
       "en": "becomes",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو جاوے"
     },
     "اوہ": {
       "en": "that",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "حسن": {
       "en": "beauty",
       "pos": "noun",
-      "roman": "husan"
+      "roman": "husan",
+      "pa": "حسن، سوہنپ"
     },
     "نہیں": {
       "en": "is not",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "اج": {
       "en": "today",
       "pos": "adverb",
-      "roman": "ajj"
+      "roman": "ajj",
+      "pa": "اج"
     },
     "تیرا": {
       "en": "your",
       "pos": "pronoun",
       "roman": "terā",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیرا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Hāshim"
+      "roman": "Hāshim",
+      "pa": "ہاشم، شاعر دا اپنا ناں"
     },
     "تساں": {
       "en": "you (plural, respectful)",
       "pos": "pronoun",
-      "roman": "tusāṅ"
+      "roman": "tusāṅ",
+      "pa": "تہاڈے (عزت نال)"
     },
     "دکھ": {
       "en": "pain; sorrow",
       "pos": "noun",
-      "roman": "dukh"
+      "roman": "dukh",
+      "pa": "دکھ"
     },
     "پایا": {
       "en": "have found; suffered",
       "pos": "verb",
       "roman": "pāiā",
-      "base": "پاؤنا"
+      "base": "پاؤنا",
+      "pa": "پایا، جھلیا"
     },
     "جھب": {
       "en": "quickly",
       "pos": "adverb",
-      "roman": "jhab"
+      "roman": "jhab",
+      "pa": "چھیتی، جلدی"
     },
     "آ": {
       "en": "come",
       "pos": "verb",
       "roman": "ā",
-      "base": "آؤنا"
+      "base": "آؤنا",
+      "pa": "آ، آجا"
     },
     "مل": {
       "en": "meet",
       "pos": "verb",
       "roman": "mil",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "مل"
     },
     "ساجن": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "sājan"
+      "roman": "sājan",
+      "pa": "محبوب، سجن"
     },
     "میرا": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merā",
-      "base": "میں"
+      "base": "میں",
+      "pa": "میرا"
     }
   }
 }

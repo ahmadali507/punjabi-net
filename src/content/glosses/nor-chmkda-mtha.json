@@ -5,173 +5,206 @@
     "عرشی": {
       "en": "heavenly",
       "pos": "adjective",
-      "roman": "arshī"
+      "roman": "arshī",
+      "pa": "عرش دی، اسمانی"
     },
     "چھوہ": {
       "en": "touch",
       "pos": "noun",
-      "roman": "chhoh"
+      "roman": "chhoh",
+      "pa": "چھوہ"
     },
     "تیری": {
       "en": "your",
       "pos": "pronoun",
       "roman": "terī",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیری"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
       "roman": "de",
-      "base": "دا"
+      "base": "دا",
+      "pa": "سمبندھ دا نشان (ترچھا روپ)"
     },
     "سوالی": {
       "en": "supplicants, beggars",
       "pos": "noun",
-      "roman": "savālī"
+      "roman": "savālī",
+      "pa": "منگتے، سوالی"
     },
     "اسیں": {
       "en": "we",
       "pos": "pronoun",
-      "roman": "asīṅ"
+      "roman": "asīṅ",
+      "pa": "اسیں"
     },
     "در": {
       "en": "door",
       "pos": "noun",
-      "roman": "dar"
+      "roman": "dar",
+      "pa": "بوہا، در"
     },
     "تیرے": {
       "en": "your",
       "pos": "pronoun",
       "roman": "tere",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیرے"
     },
     "تے": {
       "en": "at, on",
       "pos": "postposition",
-      "roman": "te"
+      "roman": "te",
+      "pa": "اتے، تے"
     },
     "آئے": {
       "en": "came; appeared",
       "pos": "verb",
       "roman": "āe",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آئے"
     },
     "ڈردے": {
       "en": "fearing",
       "pos": "verb",
       "roman": "ḍarde",
-      "base": "ڈرنا"
+      "base": "ڈرنا",
+      "pa": "ڈردے"
     },
     "کمبدے": {
       "en": "trembling",
       "pos": "verb",
       "roman": "kambde",
-      "base": "کمبنا"
+      "base": "کمبنا",
+      "pa": "کمبدے"
     },
     "اساں": {
       "en": "we (agent)",
       "pos": "pronoun",
-      "roman": "asāṅ"
+      "roman": "asāṅ",
+      "pa": "اساں، اسیں"
     },
     "گن": {
       "en": "counting",
       "pos": "verb",
       "roman": "gin",
-      "base": "گننا"
+      "base": "گننا",
+      "pa": "گن کے"
     },
     "قدم": {
       "en": "steps",
       "pos": "noun",
-      "roman": "qadam"
+      "roman": "qadam",
+      "pa": "قدم"
     },
     "رکھائے": {
       "en": "placed, took",
       "pos": "verb",
       "roman": "rakhāe",
-      "base": "رکھنا"
+      "base": "رکھنا",
+      "pa": "رکھے، پٹے"
     },
     "ایپر": {
       "en": "but",
       "pos": "conjunction",
-      "roman": "aipar"
+      "roman": "aipar",
+      "pa": "پر"
     },
     "نور": {
       "en": "light, radiance",
       "pos": "noun",
-      "roman": "nūr"
+      "roman": "nūr",
+      "pa": "نور، چانن"
     },
     "چمکدا": {
       "en": "shining",
       "pos": "verb",
       "roman": "chamakdā",
-      "base": "چمکنا"
+      "base": "چمکنا",
+      "pa": "چمکدا"
     },
     "متھا": {
       "en": "forehead",
       "pos": "noun",
-      "roman": "matthā"
+      "roman": "matthā",
+      "pa": "متھا"
     },
     "جدوں": {
       "en": "when",
       "pos": "conjunction",
-      "roman": "jadoṅ"
+      "roman": "jadoṅ",
+      "pa": "جدوں"
     },
     "تدھے": {
       "en": "you (of you)",
       "pos": "pronoun",
       "roman": "tudhe",
       "base": "تدھ",
-      "note": "Odd spelling: tudh 'you' (old/Gurbani form); tudhe dā = your."
+      "note": "Odd spelling: tudh 'you' (old/Gurbani form); tudhe dā = your.",
+      "pa": "تیرا، تدھ",
+      "note_pa": "انوکھا جوڑ: تدھ یعنی توں، پرانا روپ؛ تدھے دا یعنی تیرا"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "ڈٹھا": {
       "en": "saw",
       "pos": "verb",
       "roman": "ḍiṭṭhā",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ڈٹھا، ویکھیا"
     },
     "بخشن": {
       "en": "to bestow",
       "pos": "verb",
       "roman": "baxshaṇ",
-      "base": "بخشنا"
+      "base": "بخشنا",
+      "pa": "بخشنا، دینا"
     },
     "شوق": {
       "en": "eagerness",
       "pos": "noun",
-      "roman": "shauq"
+      "roman": "shauq",
+      "pa": "چاہ، تانگھ"
     },
     "تساں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tusāṅ"
+      "roman": "tusāṅ",
+      "pa": "تسیں"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "سانوں": {
       "en": "to us",
       "pos": "pronoun",
-      "roman": "sānūṅ"
+      "roman": "sānūṅ",
+      "pa": "سانوں"
     },
     "ڈلھدا": {
       "en": "spilling over",
       "pos": "verb",
       "roman": "ḍulhdā",
-      "base": "ڈلھنا"
+      "base": "ڈلھنا",
+      "pa": "ڈلھدا، چھلکدا"
     },
     "نظریں": {
       "en": "in sight",
       "pos": "noun",
       "roman": "nazrīṅ",
       "base": "نظر",
-      "note": "nazrīṅ āuṇā: to be seen, appear."
+      "note": "nazrīṅ āuṇā: to be seen, appear.",
+      "pa": "نظر وچ",
+      "note_pa": "نظریں آونا یعنی دسنا، نظر آونا"
     }
   }
 }

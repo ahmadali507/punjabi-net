@@ -5,85 +5,102 @@
     "تن": {
       "en": "body",
       "pos": "noun",
-      "roman": "tan"
+      "roman": "tan",
+      "pa": "تن، جسم"
     },
     "تپے": {
       "en": "burns; heats",
       "pos": "verb",
       "roman": "tappe",
-      "base": "تپنا"
+      "base": "تپنا",
+      "pa": "تپدا اے، سڑدا اے"
     },
     "تنور": {
       "en": "oven",
       "pos": "noun",
-      "roman": "tannūr"
+      "roman": "tannūr",
+      "pa": "تندور"
     },
     "جئیوں": {
       "en": "like",
       "pos": "postposition",
-      "roman": "jiuṅ"
+      "roman": "jiuṅ",
+      "pa": "جیویں"
     },
     "بالن": {
       "en": "firewood",
       "pos": "noun",
-      "roman": "bālaṇ"
+      "roman": "bālaṇ",
+      "pa": "بالن، لکڑاں"
     },
     "ہڈ": {
       "en": "bones",
       "pos": "noun",
-      "roman": "haḍḍ"
+      "roman": "haḍḍ",
+      "pa": "ہڈیاں"
     },
     "بلن": {
       "en": "burn",
       "pos": "verb",
       "roman": "balan",
-      "base": "بلنا"
+      "base": "بلنا",
+      "pa": "بلدیاں نیں"
     },
     "پیریں": {
       "en": "(if) on (my) feet",
       "pos": "noun",
       "roman": "pairīṅ",
-      "base": "پیر"
+      "base": "پیر",
+      "pa": "پیراں نال"
     },
     "تھکاں": {
       "en": "I grow tired",
       "pos": "verb",
       "roman": "thakkāṅ",
-      "base": "تھکنا"
+      "base": "تھکنا",
+      "pa": "تھک جاواں"
     },
     "سرے": {
       "en": "on (my) head",
       "pos": "noun",
       "roman": "sire",
-      "base": "سر"
+      "base": "سر",
+      "pa": "سر دے بھار"
     },
     "جلاں": {
       "en": "I would walk",
       "pos": "verb",
       "roman": "jullāṅ",
-      "note": "Old Lahnda jullaṇ, to walk, go."
+      "note": "Old Lahnda jullaṇ, to walk, go.",
+      "pa": "ٹراں، چلاں",
+      "note_pa": "پرانی لہندی: جلن، یعنی ٹرنا، جانا"
     },
     "جے": {
       "en": "if",
       "pos": "conjunction",
-      "roman": "je"
+      "roman": "je",
+      "pa": "جے، اگر"
     },
     "مو": {
       "en": "me; to me",
       "pos": "pronoun",
-      "roman": "mū"
+      "roman": "mū",
+      "pa": "مینوں"
     },
     "پری": {
       "en": "beloved",
       "pos": "noun",
       "roman": "pirī",
-      "note": "pirī: the Beloved, i.e. God."
+      "note": "pirī: the Beloved, i.e. God.",
+      "pa": "پریتم، محبوب",
+      "note_pa": "پری: محبوب، یعنی رب"
     },
     "ملن": {
       "en": "(would) meet",
       "pos": "verb",
       "roman": "milan",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "مل جاوے"
     }
   }
 }

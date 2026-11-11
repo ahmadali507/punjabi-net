@@ -4,6 +4,7 @@
  * plus a small JSON blob for word meanings.
  */
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
+import { sourcePa } from './pa';
 
 export type Poet = CollectionEntry<'poets'>;
 export type Poem = CollectionEntry<'poems'>;
@@ -152,7 +153,8 @@ export interface WordMeaning {
  * first, then any unambiguous headword match). Returns card data and a lookup
  * from normalised spelling to card index, for segmentLine().
  */
-export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => string) {
+export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => string, locale: 'en' | 'pa' = 'en') {
+  const pa = locale === 'pa';
   const gloss = await getEntry('glosses', poem.id);
   const entries = await getCollection('dictionary');
   // Unambiguous headwords (and their listed forms) -> entry.
@@ -176,13 +178,15 @@ export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => s
     const e = explicit.get(k) ?? byWord.get(k) ?? undefined;
     if (!e) return undefined;
     const s = e.data.source;
+    // Punjabi pages: the dictionary's Punjabi definition, no romanisation; skip entries without one.
+    if (pa && !e.data.definition_pa) return undefined;
     return {
       hw: e.data.headword,
-      romanized: e.data.romanized,
+      romanized: pa ? '' : e.data.romanized,
       pos: e.data.pos,
-      senses: e.data.senses,
+      senses: pa ? e.data.definition_pa!.split('؛').map((x) => x.trim()).filter(Boolean) : e.data.senses,
       href: dictionaryHref(e.id),
-      source: [s.editor, s.year].filter(Boolean).join(', ') || s.book,
+      source: pa ? sourcePa({ ...s, page: undefined }).text.replace(/ \(.*$/, '') : [s.editor, s.year].filter(Boolean).join(', ') || s.book,
     };
   };
 
@@ -191,7 +195,12 @@ export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => s
   const words = gloss?.data.words ?? {};
   for (const [k, w] of Object.entries(words)) {
     lookup.set(k, items.length);
-    items.push({ ...w, draft: gloss!.data.status === 'draft', dict: dictFor(k) });
+    const draft = gloss!.data.status === 'draft';
+    items.push(
+      pa
+        ? { en: w.pa, pos: w.pos, base: w.base, note: w.note_pa, draft, dict: dictFor(k) }
+        : { en: w.en, pos: w.pos, roman: w.roman, base: w.base, note: w.note, draft, dict: dictFor(k) },
+    );
   }
   // Words with a sourced entry but no gloss yet still get a card.
   for (const k of new Set([...explicit.keys()])) {

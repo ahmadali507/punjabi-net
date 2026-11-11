@@ -7,77 +7,92 @@
       "pos": "proper noun",
       "roman": "Farīdā",
       "base": "فرید",
-      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi."
+      "note": "Baba Farid (Shaikh Farid ud-Din Ganj-i Shakar), 13th-c. Chishti Sufi.",
+      "pa": "اے فرید (شاعر اپنے آپ نوں)",
+      "note_pa": "بابا فرید (شیخ فرید الدین گنج شکر)، تیرھویں صدی دا چشتی صوفی"
     },
     "من": {
       "en": "mind; heart",
       "pos": "noun",
-      "roman": "man"
+      "roman": "man",
+      "pa": "من، دل"
     },
     "میدان": {
       "en": "level field; plain",
       "pos": "noun",
-      "roman": "maidān"
+      "roman": "maidān",
+      "pa": "پدھرا میدان"
     },
     "کر": {
       "en": "make",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر"
     },
     "ٹوئے": {
       "en": "pits; hollows",
       "pos": "noun",
       "roman": "ṭoe",
-      "base": "ٹویا"
+      "base": "ٹویا",
+      "pa": "ٹوئے، کھڈے"
     },
     "ٹبے": {
       "en": "mounds; hillocks",
       "pos": "noun",
       "roman": "ṭibbe",
-      "base": "ٹبا"
+      "base": "ٹبا",
+      "pa": "ٹبے، ٹیلے"
     },
     "لاہ": {
       "en": "level off; remove",
       "pos": "verb",
       "roman": "lāh",
-      "base": "لاہنا"
+      "base": "لاہنا",
+      "pa": "لاہ دے، پدھرے کر"
     },
     "اگے": {
       "en": "hereafter; ahead",
       "pos": "adverb",
-      "roman": "agge"
+      "roman": "agge",
+      "pa": "اگے، آخرت وچ"
     },
     "مول": {
       "en": "at all",
       "pos": "adverb",
-      "roman": "mūl"
+      "roman": "mūl",
+      "pa": "بالکل، اکا"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "آوسی": {
       "en": "will come (near)",
       "pos": "verb",
       "roman": "āvsī",
-      "base": "آونا"
+      "base": "آونا",
+      "pa": "آوے گی"
     },
     "دوزخ": {
       "en": "hell",
       "pos": "noun",
-      "roman": "dozax"
+      "roman": "dozax",
+      "pa": "دوزخ، نرک"
     },
     "سندی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "sandī"
+      "roman": "sandī",
+      "pa": "دی (مؤنث)"
     },
     "بھاہ": {
       "en": "fire",
       "pos": "noun",
-      "roman": "bhāh"
+      "roman": "bhāh",
+      "pa": "اگ"
     }
   }
 }

@@ -6,455 +6,547 @@
       "en": "come",
       "pos": "verb",
       "roman": "ā",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آ، آجا"
     },
     "مل": {
       "en": "meet (me)",
       "pos": "verb",
       "roman": "mil",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "مل، ملاقات کر"
     },
     "یار": {
       "en": "friend, beloved",
       "pos": "noun",
-      "roman": "yār"
+      "roman": "yār",
+      "pa": "محبوب، پیارا"
     },
     "سار": {
       "en": "care, news of (me)",
       "pos": "noun",
       "roman": "sār",
-      "note": "سار لینا: to look after, ask after someone"
+      "note": "سار لینا: to look after, ask after someone",
+      "pa": "خبر، دھیان",
+      "note_pa": "سار لینا: کسے دی خبر لینا، خیال رکھنا"
     },
     "لے": {
       "en": "take",
       "pos": "verb",
       "roman": "lai",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لے (سار لینا)"
     },
     "میری": {
       "en": "my (fem.)",
       "pos": "pronoun",
       "roman": "merī",
-      "base": "میرا"
+      "base": "میرا",
+      "pa": "میری (مؤنث)"
     },
     "جان": {
       "en": "life, soul",
       "pos": "noun",
-      "roman": "jān"
+      "roman": "jān",
+      "pa": "جان، روح"
     },
     "دکھاں": {
       "en": "sorrows",
       "pos": "noun",
       "roman": "dukkhāṅ",
-      "base": "دکھ"
+      "base": "دکھ",
+      "pa": "دکھاں، غماں"
     },
     "نے": {
       "en": "(agent marker)",
       "pos": "postposition",
-      "roman": "ne"
+      "roman": "ne",
+      "pa": "کرن والے دا نشان"
     },
     "گھیری": {
       "en": "has surrounded",
       "pos": "verb",
       "roman": "gherī",
-      "base": "گھیرنا"
+      "base": "گھیرنا",
+      "pa": "گھیر لئی اے"
     },
     "اندر": {
       "en": "in, within",
       "pos": "postposition",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر، وچ"
     },
     "خواب": {
       "en": "sleep, dream",
       "pos": "noun",
       "roman": "xāb",
-      "note": "separation came while asleep, unawares"
+      "note": "separation came while asleep, unawares",
+      "pa": "نیندر، سفنا",
+      "note_pa": "جدائی نیندر وچ، بے خبری وچ آ گئی"
     },
     "وچھوڑا": {
       "en": "separation",
       "pos": "noun",
-      "roman": "vichhoṛā"
+      "roman": "vichhoṛā",
+      "pa": "جدائی، ہجر"
     },
     "ہویا": {
       "en": "happened",
       "pos": "verb",
       "roman": "hoyā",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہویا، پے گیا"
     },
     "خبر": {
       "en": "news, word",
       "pos": "noun",
-      "roman": "xabar"
+      "roman": "xabar",
+      "pa": "خبر، سنیہا"
     },
     "نہ": {
       "en": "not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "پیندی": {
       "en": "comes, reaches (me)",
       "pos": "verb",
       "roman": "paindī",
       "base": "پینا",
-      "note": "خبر نہ پیندی: no news comes"
+      "note": "خبر نہ پیندی: no news comes",
+      "pa": "پہنچدی، آؤندی",
+      "note_pa": "خبر نہ پیندی: کوئی خبر نہیں آؤندی"
     },
     "تیری": {
       "en": "your (fem.)",
       "pos": "pronoun",
       "roman": "terī",
-      "base": "تیرا"
+      "base": "تیرا",
+      "pa": "تیری (مؤنث)"
     },
     "سنجی": {
       "en": "desolate",
       "pos": "adjective",
       "roman": "sunjī",
-      "base": "سنجا"
+      "base": "سنجا",
+      "pa": "ویران، سنسان"
     },
     "بن": {
       "en": "forest, wilderness",
       "pos": "noun",
-      "roman": "ban"
+      "roman": "ban",
+      "pa": "جنگل، بیلا"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ، اندر"
     },
     "لٹی": {
       "en": "robbed, plundered",
       "pos": "verb",
       "roman": "luṭṭī",
-      "base": "لٹنا"
+      "base": "لٹنا",
+      "pa": "لٹی گئی"
     },
     "سائیاں": {
       "en": "O Lord, O master",
       "pos": "noun",
       "roman": "sāīāṅ",
-      "base": "سائیں"
+      "base": "سائیں",
+      "pa": "اے سائیں، اے مالک"
     },
     "سور": {
       "en": "wild boars",
       "pos": "noun",
-      "roman": "sūr"
+      "roman": "sūr",
+      "pa": "جنگلی سور"
     },
     "پلنگ": {
       "en": "leopards",
       "pos": "noun",
-      "roman": "palang"
+      "roman": "palang",
+      "pa": "چیتے، تیندوے"
     },
     "ملاں": {
       "en": "mullahs, clerics",
       "pos": "noun",
       "roman": "mullāṅ",
-      "base": "ملا"
+      "base": "ملا",
+      "pa": "مولوی، ملا"
     },
     "قاضی": {
       "en": "qazis (judges of Islamic law)",
       "pos": "noun",
-      "roman": "qāzī"
+      "roman": "qāzī",
+      "pa": "قاضی، شرعی جج"
     },
     "راہ": {
       "en": "the way, path",
       "pos": "noun",
-      "roman": "rāh"
+      "roman": "rāh",
+      "pa": "راہ، رستہ"
     },
     "بتاون": {
       "en": "show, point out",
       "pos": "verb",
       "roman": "batāvan",
-      "base": "بتانا"
+      "base": "بتانا",
+      "pa": "دسدے نیں"
     },
     "دین": {
       "en": "religion, faith",
       "pos": "noun",
-      "roman": "dīn"
+      "roman": "dīn",
+      "pa": "دین، مذہب"
     },
     "بھرم": {
       "en": "doubt, illusion",
       "pos": "noun",
-      "roman": "bharam"
+      "roman": "bharam",
+      "pa": "بھلیکھا، شک"
     },
     "دے": {
       "en": "of (pl.)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان (جمع)"
     },
     "پھیرے": {
       "en": "round of (going in circles)",
       "pos": "noun",
       "roman": "phere",
-      "base": "پھیرا"
+      "base": "پھیرا",
+      "pa": "چکر، گیڑے"
     },
     "ایہہ": {
       "en": "these",
       "pos": "pronoun",
-      "roman": "eh"
+      "roman": "eh",
+      "pa": "ایہہ"
     },
     "تاں": {
       "en": "indeed, but",
       "pos": "particle",
-      "roman": "tāṅ"
+      "roman": "tāṅ",
+      "pa": "تاں، پر"
     },
     "ٹھگ": {
       "en": "swindlers",
       "pos": "noun",
-      "roman": "ṭhag"
+      "roman": "ṭhag",
+      "pa": "ٹھگ، دھوکے باز"
     },
     "جگت": {
       "en": "world",
       "pos": "noun",
-      "roman": "jagat"
+      "roman": "jagat",
+      "pa": "جگ، دنیا"
     },
     "جھیور": {
       "en": "fishermen",
       "pos": "noun",
       "roman": "jhīvar",
-      "note": "they cast nets to catch people"
+      "note": "they cast nets to catch people",
+      "pa": "مچھیرے، ماچھی",
+      "note_pa": "اوہ لوکاں نوں پھڑن لئی جال سٹدے نیں"
     },
     "لاون": {
       "en": "lay, cast",
       "pos": "verb",
       "roman": "lāvan",
-      "base": "لانا"
+      "base": "لانا",
+      "pa": "لاؤندے، سٹدے"
     },
     "جال": {
       "en": "nets",
       "pos": "noun",
-      "roman": "jāl"
+      "roman": "jāl",
+      "pa": "جال"
     },
     "چوپھیرے": {
       "en": "all around",
       "pos": "adverb",
-      "roman": "chauphere"
+      "roman": "chauphere",
+      "pa": "چاروں پاسے"
     },
     "کرم": {
       "en": "ritual acts",
       "pos": "noun",
-      "roman": "karam"
+      "roman": "karam",
+      "pa": "رسماں، مذہبی کم"
     },
     "شرع": {
       "en": "sharia, religious law",
       "pos": "noun",
-      "roman": "sharaʻ"
+      "roman": "sharaʻ",
+      "pa": "شریعت"
     },
     "دھرم": {
       "en": "religious duty",
       "pos": "noun",
-      "roman": "dharam"
+      "roman": "dharam",
+      "pa": "دھرم، مذہبی فرض"
     },
     "سنگل": {
       "en": "chains",
       "pos": "noun",
-      "roman": "sangal"
+      "roman": "sangal",
+      "pa": "زنجیراں"
     },
     "پاون": {
       "en": "put",
       "pos": "verb",
       "roman": "pāvan",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پاؤندے نیں"
     },
     "پیریں": {
       "en": "on (my) feet",
       "pos": "noun",
       "roman": "pairīṅ",
-      "base": "پیر"
+      "base": "پیر",
+      "pa": "پیراں وچ"
     },
     "ذات": {
       "en": "caste",
       "pos": "noun",
-      "roman": "zāt"
+      "roman": "zāt",
+      "pa": "ذات، برادری"
     },
     "مذہب": {
       "en": "creed, religion",
       "pos": "noun",
-      "roman": "mazhab"
+      "roman": "mazhab",
+      "pa": "مذہب، عقیدہ"
     },
     "عشق": {
       "en": "love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق، پیار"
     },
     "پچھدا": {
       "en": "asks",
       "pos": "verb",
       "roman": "puchhdā",
-      "base": "پچھنا"
+      "base": "پچھنا",
+      "pa": "پچھدا اے"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "ویری": {
       "en": "enemy",
       "pos": "noun",
-      "roman": "vairī"
+      "roman": "vairī",
+      "pa": "دشمن، ویری"
     },
     "ندیوں": {
       "en": "the river (beyond the river)",
       "pos": "noun",
       "roman": "nadīoṅ",
       "base": "ندی",
-      "note": "ندیوں پار: across the river"
+      "note": "ندیوں پار: across the river",
+      "pa": "ندی، دریا",
+      "note_pa": "ندیوں پار: دریا دے اوس پاسے"
     },
     "پار": {
       "en": "across, beyond",
       "pos": "postposition",
-      "roman": "pār"
+      "roman": "pār",
+      "pa": "پار، اوس پاسے"
     },
     "ملک": {
       "en": "land, country",
       "pos": "noun",
-      "roman": "mulk"
+      "roman": "mulk",
+      "pa": "دیس، وطن"
     },
     "سجن": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "sajjan"
+      "roman": "sajjan",
+      "pa": "محبوب، پیارا"
     },
     "لہر": {
       "en": "wave",
       "pos": "noun",
-      "roman": "lahir"
+      "roman": "lahir",
+      "pa": "لہر، چھل"
     },
     "لوبھ": {
       "en": "greed",
       "pos": "noun",
-      "roman": "lobh"
+      "roman": "lobh",
+      "pa": "لالچ"
     },
     "ستگور": {
       "en": "the true guide (spiritual master)",
       "pos": "noun",
-      "roman": "satgur"
+      "roman": "satgur",
+      "pa": "سچا مرشد، گورو"
     },
     "بیڑی": {
       "en": "boat",
       "pos": "noun",
-      "roman": "beṛī"
+      "roman": "beṛī",
+      "pa": "کشتی، بیڑی"
     },
     "پھڑی": {
       "en": "holding",
       "pos": "verb",
       "roman": "phaṛī",
-      "base": "پھڑنا"
+      "base": "پھڑنا",
+      "pa": "پھڑ کے"
     },
     "کھلوتے": {
       "en": "stands (waiting)",
       "pos": "verb",
       "roman": "khalote",
-      "base": "کھلونا"
+      "base": "کھلونا",
+      "pa": "کھلوتا اے، اڈیکدا"
     },
     "تیں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "taiṅ"
+      "roman": "taiṅ",
+      "pa": "توں"
     },
     "کیوں": {
       "en": "why",
       "pos": "adverb",
-      "roman": "kiyoṅ"
+      "roman": "kiyoṅ",
+      "pa": "کیوں، کاہنوں"
     },
     "لائی": {
       "en": "made (delay)",
       "pos": "verb",
       "roman": "lāī",
-      "base": "لانا"
+      "base": "لانا",
+      "pa": "لائی، کیتی"
     },
     "دیری": {
       "en": "delay",
       "pos": "noun",
-      "roman": "derī"
+      "roman": "derī",
+      "pa": "دیر، چر"
     },
     "بلھا": {
       "en": "Bulleh (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Bullhā"
+      "roman": "Bullhā",
+      "pa": "بلھا، شاعر دا اپنا ناں"
     },
     "شاہ": {
       "en": "Shah (part of the poet's name)",
       "pos": "proper noun",
-      "roman": "Shāh"
+      "roman": "Shāh",
+      "pa": "شاہ، شاعر دے ناں دا حصہ"
     },
     "شوہ": {
       "en": "the Beloved, the Lord",
       "pos": "noun",
       "roman": "shauh",
-      "note": "lit. husband; Bulleh Shah's name for God or his master"
+      "note": "lit. husband; Bulleh Shah's name for God or his master",
+      "pa": "خاوند، رب یا مرشد",
+      "note_pa": "لفظی معنی خاوند؛ بلھے شاہ رب یا اپنے مرشد نوں ایہہ ناں دیندا اے"
     },
     "تینوں": {
       "en": "you (to you)",
       "pos": "pronoun",
-      "roman": "tainūṅ"
+      "roman": "tainūṅ",
+      "pa": "تینوں، تیرے نال"
     },
     "ملسی": {
       "en": "will meet",
       "pos": "verb",
       "roman": "milsī",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملے گا"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "دلیری": {
       "en": "courage",
       "pos": "noun",
-      "roman": "dalerī"
+      "roman": "dalerī",
+      "pa": "حوصلہ، جرات"
     },
     "پیتم": {
       "en": "beloved",
       "pos": "noun",
       "roman": "pītam",
-      "note": "variant of پریتم"
+      "note": "variant of پریتم",
+      "pa": "پریتم، محبوب",
+      "note_pa": "پریتم دی اک ہور شکل"
     },
     "پاس": {
       "en": "near, beside",
       "pos": "postposition",
-      "roman": "pās"
+      "roman": "pās",
+      "pa": "کول، نیڑے"
     },
     "تے": {
       "en": "and, so",
       "pos": "conjunction",
-      "roman": "te"
+      "roman": "te",
+      "pa": "تے، سو"
     },
     "ٹولنا": {
       "en": "to grope, search for",
       "pos": "verb",
-      "roman": "ṭolṇā"
+      "roman": "ṭolṇā",
+      "pa": "ٹٹولنا، لبھنا"
     },
     "کس": {
       "en": "whom",
       "pos": "pronoun",
-      "roman": "kis"
+      "roman": "kis",
+      "pa": "کس نوں، کیہنوں"
     },
     "بھل": {
       "en": "lost (your way)",
       "pos": "verb",
       "roman": "bhull",
-      "base": "بھلنا"
+      "base": "بھلنا",
+      "pa": "بھل، بھٹک"
     },
     "گیوں": {
       "en": "you went",
       "pos": "verb",
       "roman": "gayoṅ",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "گیا ایں"
     },
     "شکر": {
       "en": "full blaze (of noon)",
       "pos": "noun",
       "roman": "shikar",
-      "note": "شکر دوپہری: in broad daylight"
+      "note": "شکر دوپہری: in broad daylight",
+      "pa": "پوری دھپ، سکھر",
+      "note_pa": "شکر دوپہری: دن دیہاڑے، چٹے دن"
     },
     "دوپہری": {
       "en": "noon",
       "pos": "noun",
-      "roman": "dupahirī"
+      "roman": "dupahirī",
+      "pa": "دوپہر"
     }
   }
 }

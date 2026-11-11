@@ -6,192 +6,235 @@
       "en": "Maudud Chishti",
       "pos": "proper noun",
       "roman": "Maudūd",
-      "note": "Khwaja Qutbuddin Maudud Chishti, early master of the Chishti order"
+      "note": "Khwaja Qutbuddin Maudud Chishti, early master of the Chishti order",
+      "pa": "مودود چشتی، چشتی سلسلے دے بزرگ",
+      "note_pa": "خواجہ قطب الدین مودود چشتی، چشتی سلسلے دا مڈھلا بزرگ"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "لاڈلا": {
       "en": "darling; beloved",
       "pos": "adjective",
-      "roman": "lāḍlā"
+      "roman": "lāḍlā",
+      "pa": "لاڈلا، پیارا"
     },
     "پیر": {
       "en": "spiritual master",
       "pos": "noun",
-      "roman": "pīr"
+      "roman": "pīr",
+      "pa": "پیر، مرشد"
     },
     "چشتی": {
       "en": "of the Chishti order",
       "pos": "adjective",
-      "roman": "Chishtī"
+      "roman": "Chishtī",
+      "pa": "چشتی سلسلے والا"
     },
     "شکر": {
       "en": "Shakar (sugar)",
       "pos": "proper noun",
       "roman": "Shakar",
-      "note": "Ganj-e-Shakar, \"treasure of sugar\", title of Baba Farid"
+      "note": "Ganj-e-Shakar, \"treasure of sugar\", title of Baba Farid",
+      "pa": "شکر، بابا فرید دے لقب دا حصہ",
+      "note_pa": "گنج شکر، \"شکر دا خزانہ\"، بابا فرید دا لقب"
     },
     "گنج": {
       "en": "Ganj (treasure)",
       "pos": "proper noun",
       "roman": "Ganj",
-      "note": "part of Baba Farid's title Shakar Ganj"
+      "note": "part of Baba Farid's title Shakar Ganj",
+      "pa": "گنج، خزانہ",
+      "note_pa": "بابا فرید دے لقب شکر گنج دا حصہ"
     },
     "مسعود": {
       "en": "Masud: Baba Farid",
       "pos": "proper noun",
       "roman": "Masūd",
-      "note": "Fariduddin Masud Ganj-e-Shakar of Pakpattan"
+      "note": "Fariduddin Masud Ganj-e-Shakar of Pakpattan",
+      "pa": "مسعود: بابا فرید",
+      "note_pa": "فرید الدین مسعود گنج شکر، پاکپتن والے"
     },
     "بھرپور": {
       "en": "full; perfect",
       "pos": "adjective",
-      "roman": "bharpūr"
+      "roman": "bharpūr",
+      "pa": "پورا، کامل"
     },
     "ہے": {
       "en": "is",
       "pos": "verb",
       "roman": "hai",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "اے، ہے"
     },
     "جی": {
       "en": "indeed (respectful)",
       "pos": "particle",
-      "roman": "jī"
+      "roman": "jī",
+      "pa": "جی (عزت والا لفظ)"
     },
     "خاندان": {
       "en": "lineage",
       "pos": "noun",
-      "roman": "xāndān"
+      "roman": "xāndān",
+      "pa": "خاندان، سلسلہ"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "چشت": {
       "en": "Chisht, origin of the Chishti order",
       "pos": "proper noun",
       "roman": "Chisht",
-      "note": "a town near Herat"
+      "note": "a town near Herat",
+      "pa": "چشت، چشتی سلسلے دا مڈھ",
+      "note_pa": "ہرات دے نیڑے اک قصبہ"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان"
     },
     "کاملیت": {
       "en": "perfection",
       "pos": "noun",
-      "roman": "kāmiliyat"
+      "roman": "kāmiliyat",
+      "pa": "کمال، پورن پن"
     },
     "شہر": {
       "en": "city",
       "pos": "noun",
-      "roman": "shahar"
+      "roman": "shahar",
+      "pa": "شہر"
     },
     "فقر": {
       "en": "spiritual poverty",
       "pos": "noun",
-      "roman": "faqr"
+      "roman": "faqr",
+      "pa": "فقر، درویشی"
     },
     "پٹن": {
       "en": "Pattan (Pakpattan)",
       "pos": "proper noun",
       "roman": "Paṭṭan",
-      "note": "town of Baba Farid's shrine"
+      "note": "town of Baba Farid's shrine",
+      "pa": "پٹن، پاکپتن",
+      "note_pa": "بابا فرید دے دربار والا شہر"
     },
     "معمور": {
       "en": "thriving; filled",
       "pos": "adjective",
-      "roman": "māmūr"
+      "roman": "māmūr",
+      "pa": "آباد، بھریا"
     },
     "باہیاں": {
       "en": "twenty-two",
       "pos": "numeral",
-      "roman": "bāhīāṅ"
+      "roman": "bāhīāṅ",
+      "pa": "بائی"
     },
     "قطباں": {
       "en": "qutbs (axial saints)",
       "pos": "noun",
       "roman": "qutbāṅ",
-      "base": "قطب"
+      "base": "قطب",
+      "pa": "قطباں، وڈے ولیاں"
     },
     "کامل": {
       "en": "perfect",
       "pos": "adjective",
-      "roman": "kāmil"
+      "roman": "kāmil",
+      "pa": "پورا، کامل"
     },
     "جیں": {
       "en": "whose",
       "pos": "pronoun",
-      "roman": "jaiṅ"
+      "roman": "jaiṅ",
+      "pa": "جیہدی"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "عاجزی": {
       "en": "humility",
       "pos": "noun",
-      "roman": "ājizī"
+      "roman": "ājizī",
+      "pa": "عاجزی، نیویں"
     },
     "زہد": {
       "en": "asceticism",
       "pos": "noun",
-      "roman": "zuhd"
+      "roman": "zuhd",
+      "pa": "زہد، پرہیزگاری"
     },
     "منظور": {
       "en": "accepted (by God)",
       "pos": "adjective",
-      "roman": "manzūr"
+      "roman": "manzūr",
+      "pa": "قبول (رب ولوں)"
     },
     "نے": {
       "en": "(agent marker)",
       "pos": "postposition",
-      "roman": "ne"
+      "roman": "ne",
+      "pa": "کرن والے دا نشان"
     },
     "آن": {
       "en": "came and",
       "pos": "verb",
       "roman": "ān",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آ کے"
     },
     "مکان": {
       "en": "dwelling",
       "pos": "noun",
       "roman": "makān",
-      "note": "آن مکان کیتا = came and settled"
+      "note": "آن مکان کیتا = came and settled",
+      "pa": "ٹھکانا، ڈیرا",
+      "note_pa": "آن مکان کیتا = آ کے وس گیا"
     },
     "کیتا": {
       "en": "made",
       "pos": "verb",
       "roman": "kītā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کیتا، بنایا"
     },
     "دکھ": {
       "en": "suffering",
       "pos": "noun",
-      "roman": "dukkh"
+      "roman": "dukkh",
+      "pa": "دکھ"
     },
     "درد": {
       "en": "pain",
       "pos": "noun",
-      "roman": "dard"
+      "roman": "dard",
+      "pa": "درد، پیڑ"
     },
     "پنجاب": {
       "en": "Punjab",
       "pos": "proper noun",
-      "roman": "Panjāb"
+      "roman": "Panjāb",
+      "pa": "پنجاب"
     },
     "دور": {
       "en": "removed; gone",
       "pos": "adjective",
-      "roman": "dūr"
+      "roman": "dūr",
+      "pa": "دور، مک گیا"
     }
   }
 }

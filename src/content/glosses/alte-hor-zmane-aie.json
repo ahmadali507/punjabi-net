@@ -6,361 +6,426 @@
       "en": "upside-down",
       "pos": "adjective",
       "roman": "ulṭe",
-      "base": "الٹا"
+      "base": "الٹا",
+      "pa": "پٹھے، الٹ"
     },
     "ہور": {
       "en": "strange, other",
       "pos": "adjective",
-      "roman": "hor"
+      "roman": "hor",
+      "pa": "ہور ای طرحاں دے، عجیب"
     },
     "زمانے": {
       "en": "times",
       "pos": "noun",
       "roman": "zamāne",
-      "base": "زمانہ"
+      "base": "زمانہ",
+      "pa": "زمانے، ویلے"
     },
     "آئے": {
       "en": "have come",
       "pos": "verb",
       "roman": "āe",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آ گئے نیں"
     },
     "کاں": {
       "en": "crows",
       "pos": "noun",
-      "roman": "kāṅ"
+      "roman": "kāṅ",
+      "pa": "کاں"
     },
     "لگڑ": {
       "en": "falcons (lagger falcon)",
       "pos": "noun",
-      "roman": "lagaṛ"
+      "roman": "lagaṛ",
+      "pa": "لگڑ، باز"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "مارن": {
       "en": "kill",
       "pos": "verb",
       "roman": "māraṇ",
-      "base": "مارنا"
+      "base": "مارنا",
+      "pa": "مارن"
     },
     "لگے": {
       "en": "began",
       "pos": "verb",
       "roman": "lagge",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگ پئے"
     },
     "چڑیاں": {
       "en": "sparrows",
       "pos": "noun",
       "roman": "chiṛiāṅ",
-      "base": "چڑی"
+      "base": "چڑی",
+      "pa": "چڑیاں"
     },
     "جرے": {
       "en": "hawks",
       "pos": "noun",
       "roman": "jurre",
-      "base": "جرہ"
+      "base": "جرہ",
+      "pa": "جرے، باز"
     },
     "کھائے": {
       "en": "ate",
       "pos": "verb",
       "roman": "khāe",
-      "base": "کھانا"
+      "base": "کھانا",
+      "pa": "کھا لئے"
     },
     "عراقیاں": {
       "en": "Arab (Iraqi) horses",
       "pos": "noun",
       "roman": "irāqiāṅ",
-      "base": "عراقی"
+      "base": "عراقی",
+      "pa": "عراقی گھوڑے"
     },
     "پئی": {
       "en": "(they) are getting",
       "pos": "verb",
       "roman": "paī",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پئی، پے رہی اے"
     },
     "چابک": {
       "en": "whip",
       "pos": "noun",
-      "roman": "chābak"
+      "roman": "chābak",
+      "pa": "چھانٹا، کوڑا"
     },
     "پوندی": {
       "en": "falls (on them)",
       "pos": "verb",
       "roman": "paundī",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پیندی، وجدی"
     },
     "گدوں": {
       "en": "donkeys",
       "pos": "noun",
-      "roman": "gaddoṅ"
+      "roman": "gaddoṅ",
+      "pa": "کھوتیاں نوں"
     },
     "خود": {
       "en": "helmets (armour)",
       "pos": "noun",
-      "roman": "xod"
+      "roman": "xod",
+      "pa": "لوہے دے ٹوپ"
     },
     "پوائے": {
       "en": "made to wear",
       "pos": "verb",
       "roman": "pavāe",
-      "base": "پوانا"
+      "base": "پوانا",
+      "pa": "پوا دتے"
     },
     "اپنیاں": {
       "en": "one's own kin",
       "pos": "pronoun",
       "roman": "apṇiāṅ",
-      "base": "اپنا"
+      "base": "اپنا",
+      "pa": "اپنیاں، سکیاں"
     },
     "دے": {
       "en": "of",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دا نشان (جمع)"
     },
     "وچ": {
       "en": "among",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ، اندر"
     },
     "الفت": {
       "en": "affection",
       "pos": "noun",
-      "roman": "ulfat"
+      "roman": "ulfat",
+      "pa": "محبت، پیار"
     },
     "ناہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nāhīṅ"
+      "roman": "nāhīṅ",
+      "pa": "نہیں"
     },
     "کیا": {
       "en": "whether (... or)",
       "pos": "particle",
-      "roman": "kiā"
+      "roman": "kiā",
+      "pa": "کیہ، بھاویں"
     },
     "چاچے": {
       "en": "uncles (father's younger brothers)",
       "pos": "noun",
       "roman": "chāche",
-      "base": "چاچا"
+      "base": "چاچا",
+      "pa": "چاچے"
     },
     "تائے": {
       "en": "uncles (father's elder brothers)",
       "pos": "noun",
       "roman": "tāe",
-      "base": "تایا"
+      "base": "تایا",
+      "pa": "تائے"
     },
     "پیو": {
       "en": "fathers",
       "pos": "noun",
-      "roman": "pyo"
+      "roman": "pyo",
+      "pa": "پیو"
     },
     "پتراں": {
       "en": "sons",
       "pos": "noun",
       "roman": "puttrāṅ",
-      "base": "پتر"
+      "base": "پتر",
+      "pa": "پتراں"
     },
     "اتفاق": {
       "en": "harmony",
       "pos": "noun",
-      "roman": "ittifāq"
+      "roman": "ittifāq",
+      "pa": "اتفاق، میل جول"
     },
     "نہ": {
       "en": "no, not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہیں"
     },
     "کائی": {
       "en": "any",
       "pos": "pronoun",
-      "roman": "kāī"
+      "roman": "kāī",
+      "pa": "کوئی"
     },
     "دھیاں": {
       "en": "daughters",
       "pos": "noun",
       "roman": "dhīāṅ",
-      "base": "دھی"
+      "base": "دھی",
+      "pa": "دھیاں"
     },
     "نال": {
       "en": "with",
       "pos": "postposition",
-      "roman": "nāl"
+      "roman": "nāl",
+      "pa": "نال"
     },
     "مائیں": {
       "en": "mothers",
       "pos": "noun",
       "roman": "māīṅ",
-      "base": "ماں"
+      "base": "ماں",
+      "pa": "ماواں"
     },
     "سچیاں": {
       "en": "the truthful",
       "pos": "adjective",
       "roman": "sachchiāṅ",
-      "base": "سچا"
+      "base": "سچا",
+      "pa": "سچے لوک"
     },
     "پئے": {
       "en": "are (continually)",
       "pos": "verb",
       "roman": "pae",
-      "base": "پینا"
+      "base": "پینا",
+      "pa": "پئے، لگاتار"
     },
     "ملدے": {
       "en": "getting",
       "pos": "verb",
       "roman": "milde",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملدے"
     },
     "دھکے": {
       "en": "shoves",
       "pos": "noun",
       "roman": "dhakke",
-      "base": "دھکا"
+      "base": "دھکا",
+      "pa": "دھکے"
     },
     "جھوٹے": {
       "en": "liars",
       "pos": "adjective",
       "roman": "jhūṭhe",
-      "base": "جھوٹا"
+      "base": "جھوٹا",
+      "pa": "جھوٹے لوک"
     },
     "کول": {
       "en": "close by",
       "pos": "postposition",
-      "roman": "kol"
+      "roman": "kol",
+      "pa": "کول، نیڑے"
     },
     "بہائے": {
       "en": "seated",
       "pos": "verb",
       "roman": "bahāe",
-      "base": "بہانا"
+      "base": "بہانا",
+      "pa": "بٹھائے"
     },
     "اگلے": {
       "en": "the former ones",
       "pos": "adjective",
       "roman": "agle",
-      "base": "اگلا"
+      "base": "اگلا",
+      "pa": "پہلے لوک"
     },
     "جا": {
       "en": "going",
       "pos": "verb",
       "roman": "jā",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جا کے"
     },
     "بنگاہ": {
       "en": "humble shelter",
       "pos": "noun",
       "roman": "bangāh",
-      "note": "Uncertain: possibly \"lodging, quarters\""
+      "note": "Uncertain: possibly \"lodging, quarters\"",
+      "pa": "نکی جیہی تھاں، ٹھکانا",
+      "note_pa": "پکا نہیں: شاید \"ٹھکانا، ڈیرا\""
     },
     "لے": {
       "en": "took",
       "pos": "verb",
       "roman": "lai",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لے لئی"
     },
     "بیٹھے": {
       "en": "sat",
       "pos": "verb",
       "roman": "baiṭhe",
-      "base": "بیٹھنا"
+      "base": "بیٹھنا",
+      "pa": "بیٹھ گئے"
     },
     "پچھلیاں": {
       "en": "latecomers",
       "pos": "adjective",
       "roman": "pichhliāṅ",
-      "base": "پچھلا"
+      "base": "پچھلا",
+      "pa": "پچھوں آؤن والے"
     },
     "فرش": {
       "en": "carpets",
       "pos": "noun",
-      "roman": "farsh"
+      "roman": "farsh",
+      "pa": "فرش، دریاں"
     },
     "وچھائے": {
       "en": "spread out",
       "pos": "verb",
       "roman": "vichhāe",
-      "base": "وچھانا"
+      "base": "وچھانا",
+      "pa": "وچھا دتے"
     },
     "بھوریاں": {
       "en": "coarse blankets",
       "pos": "noun",
       "roman": "bhūriāṅ",
-      "base": "بھورا"
+      "base": "بھورا",
+      "pa": "موٹیاں کمبلیاں"
     },
     "والے": {
       "en": "those with (wearers of)",
       "pos": "postposition",
       "roman": "vāle",
-      "base": "والا"
+      "base": "والا",
+      "pa": "والے"
     },
     "راجے": {
       "en": "kings",
       "pos": "noun",
       "roman": "rāje",
-      "base": "راجا"
+      "base": "راجا",
+      "pa": "راجے، بادشاہ"
     },
     "کیتے": {
       "en": "made",
       "pos": "verb",
       "roman": "kīte",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "بنا دتے"
     },
     "راجیاں": {
       "en": "kings",
       "pos": "noun",
       "roman": "rājiāṅ",
-      "base": "راجا"
+      "base": "راجا",
+      "pa": "راجیاں نوں"
     },
     "بھیک": {
       "en": "alms",
       "pos": "noun",
-      "roman": "bhīkh"
+      "roman": "bhīkh",
+      "pa": "بھیک، خیرات"
     },
     "منگائے": {
       "en": "made to beg",
       "pos": "verb",
       "roman": "mangāe",
-      "base": "منگانا"
+      "base": "منگانا",
+      "pa": "منگن لا دتے"
     },
     "بلھا": {
       "en": "Bulleh (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Bullhā"
+      "roman": "Bullhā",
+      "pa": "بلھا، شاعر دا اپنا ناں"
     },
     "حکم": {
       "en": "command",
       "pos": "noun",
-      "roman": "hukam"
+      "roman": "hukam",
+      "pa": "حکم"
     },
     "حضوروں": {
       "en": "from the Presence (God)",
       "pos": "noun",
       "roman": "huzūroṅ",
-      "base": "حضور"
+      "base": "حضور",
+      "pa": "رب دی درگاہ توں"
     },
     "آیا": {
       "en": "came",
       "pos": "verb",
       "roman": "āyā",
-      "base": "آنا"
+      "base": "آنا",
+      "pa": "آیا"
     },
     "تس": {
       "en": "that",
       "pos": "pronoun",
-      "roman": "tis"
+      "roman": "tis",
+      "pa": "اوس، اوہ"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کون"
     },
     "ہٹائے": {
       "en": "can turn back",
       "pos": "verb",
       "roman": "haṭāe",
-      "base": "ہٹانا"
+      "base": "ہٹانا",
+      "pa": "موڑ سکے، ٹال سکے"
     }
   }
 }

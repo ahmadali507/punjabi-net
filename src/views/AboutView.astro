@@ -91,7 +91,7 @@ const L = en ? 'en' : 'pa';
       <form class="contrib-form" action={SITE.contributeAction} method="post" enctype="multipart/form-data">
         <input type="hidden" name="lang" value={locale} />
         <div class="hp" aria-hidden="true">
-          <label>Leave this empty <input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
+          <label>{locale === 'en' ? 'Leave this empty' : 'ایہہ خالی چھڈو'} <input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
         </div>
         <label class="contrib-field">
           <span><T k="contrib.message" /></span>

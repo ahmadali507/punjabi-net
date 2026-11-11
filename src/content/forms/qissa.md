@@ -4,6 +4,9 @@ name:
   en: Qissa
 description: "A long verse romance or legend, such as Heer Ranjha, Sassi Punnun or Saif ul Malook."
 order: 6
+description_pa: "اک لمی منظوم پیار کہانی یا لوک داستان، جیویں ہیر رانجھا، سسی پنوں یا سیف الملوک۔"
+body_pa: |
+  قصے لوکاں دے اکٹھ وچ پڑھے تے گائے جاندے سن۔ سبھ توں مشہور قصے کئی شاعراں نے اپنے اپنے ڈھنگ نال سنائے، تے ہر روپ اپنے شاعر دے ناں نال جانیا جاندا اے۔
 ---
 
 <!-- EDITORIAL: drafted from general reference; check against a printed source and add `sources`. -->

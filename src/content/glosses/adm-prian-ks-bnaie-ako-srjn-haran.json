@@ -5,148 +5,179 @@
     "آدم": {
       "en": "Adam; mankind",
       "pos": "proper noun",
-      "roman": "Ādam"
+      "roman": "Ādam",
+      "pa": "آدم، بندے"
     },
     "پریاں": {
       "en": "fairies",
       "pos": "noun",
       "roman": "parīāṅ",
       "base": "پری",
-      "note": "Saif ul Malook's story joins a human prince and a fairy princess."
+      "note": "Saif ul Malook's story joins a human prince and a fairy princess.",
+      "pa": "پریاں",
+      "note_pa": "سیف الملوک دا قصہ اک بندے شہزادے تے اک پری شہزادی نوں جوڑدا اے"
     },
     "کس": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kis"
+      "roman": "kis",
+      "pa": "کس"
     },
     "بنائے": {
       "en": "made; created",
       "pos": "verb",
       "roman": "baṇāe",
-      "base": "بنانا"
+      "base": "بنانا",
+      "pa": "بنائے"
     },
     "اکو": {
       "en": "the one; one and the same",
       "pos": "adjective",
       "roman": "ikko",
-      "base": "اک"
+      "base": "اک",
+      "pa": "اکو، اوہو اک"
     },
     "سرجنہاران": {
       "en": "the Creator",
       "pos": "noun",
       "roman": "sirjaṇhārā",
-      "note": "Uncertain: text reads \"-hāran\"; the word is \"sirjaṇhār\", Creator."
+      "note": "Uncertain: text reads \"-hāran\"; the word is \"sirjaṇhār\", Creator.",
+      "pa": "سرجنہار، بنان والا رب",
+      "note_pa": "پکا نہیں: متن وچ ہاران لکھیا اے؛ لفظ سرجنہار اے، یعنی بنان والا"
     },
     "حسن": {
       "en": "Beauty",
       "pos": "noun",
-      "roman": "husan"
+      "roman": "husan",
+      "pa": "حسن، سندرتا"
     },
     "عشق": {
       "en": "Love",
       "pos": "noun",
-      "roman": "ishq"
+      "roman": "ishq",
+      "pa": "عشق"
     },
     "دو": {
       "en": "two",
       "pos": "numeral",
-      "roman": "do"
+      "roman": "do",
+      "pa": "دو"
     },
     "نام": {
       "en": "names",
       "pos": "noun",
-      "roman": "nām"
+      "roman": "nām",
+      "pa": "ناں"
     },
     "رکھائیوس": {
       "en": "he had named; he gave",
       "pos": "verb",
       "roman": "rakhāiūs",
       "base": "رکھنا",
-      "note": "The suffix -us means \"by him\"."
+      "note": "The suffix -us means \"by him\".",
+      "pa": "اوس رکھے",
+      "note_pa": "اخیر دا وس مطلب: اوہدے ولوں"
     },
     "نور": {
       "en": "light (divine)",
       "pos": "noun",
-      "roman": "nūr"
+      "roman": "nūr",
+      "pa": "نور، رب دا چانن"
     },
     "منڈھ": {
       "en": "root; origin",
       "pos": "noun",
-      "roman": "muṇḍh"
+      "roman": "muṇḍh",
+      "pa": "مڈھ، جڑ"
     },
     "سارا": {
       "en": "all; entire",
       "pos": "adjective",
-      "roman": "sārā"
+      "roman": "sārā",
+      "pa": "سارا"
     },
     "مہبوباں": {
       "en": "the beloveds",
       "pos": "noun",
       "roman": "mahbūbāṅ",
-      "base": "محبوب"
+      "base": "محبوب",
+      "pa": "محبوباں"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "صورت": {
       "en": "face; form",
       "pos": "noun",
-      "roman": "sūrat"
+      "roman": "sūrat",
+      "pa": "صورت، مکھڑا"
     },
     "اتے": {
       "en": "on; upon",
       "pos": "postposition",
-      "roman": "utte"
+      "roman": "utte",
+      "pa": "اتے، اُتے"
     },
     "اسے": {
       "en": "that same (one)",
       "pos": "pronoun",
       "roman": "use",
-      "base": "اوہ"
+      "base": "اوہ",
+      "pa": "اوسے"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "چمکارا": {
       "en": "gleam; radiance",
       "pos": "noun",
-      "roman": "chamkārā"
+      "roman": "chamkārā",
+      "pa": "چمک، لشکارا"
     },
     "عاشق": {
       "en": "lover",
       "pos": "noun",
-      "roman": "āshiq"
+      "roman": "āshiq",
+      "pa": "عاشق"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "محمد": {
       "en": "Muhammad (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Muhammad"
+      "roman": "Muhammad",
+      "pa": "محمد، شاعر اپنا ناں لیندا اے"
     },
     "اوہو": {
       "en": "that very (one)",
       "pos": "pronoun",
       "roman": "oho",
-      "base": "اوہ"
+      "base": "اوہ",
+      "pa": "اوہو"
     },
     "سرنیارا": {
       "en": "the unique secret",
       "pos": "noun",
       "roman": "sirr niārā",
-      "note": "Sirr: Sufi term for the innermost secret; \"niara\", unique, apart. Uncertain reading."
+      "note": "Sirr: Sufi term for the innermost secret; \"niara\", unique, apart. Uncertain reading.",
+      "pa": "نیارا بھید",
+      "note_pa": "سِرّ: صوفی لفظ، اندرلا بھید؛ نیارا: انوکھا، وکھرا۔ پڑھت پکی نہیں"
     }
   }
 }

@@ -5,179 +5,213 @@
     "نی": {
       "en": "O (to a woman; vocative)",
       "pos": "interjection",
-      "roman": "nī"
+      "roman": "nī",
+      "pa": "نی (زنانی نوں سد)"
     },
     "سیو": {
       "en": "O friends (girls)",
       "pos": "noun",
       "roman": "saiyo",
-      "base": "سئی"
+      "base": "سئی",
+      "pa": "او سہیلیو"
     },
     "اسی": {
       "en": "we",
       "pos": "pronoun",
-      "roman": "asīṅ"
+      "roman": "asīṅ",
+      "pa": "اسیں"
     },
     "نیناں": {
       "en": "eyes",
       "pos": "noun",
       "roman": "naināṅ",
-      "base": "نین"
+      "base": "نین",
+      "pa": "اکھاں"
     },
     "دے": {
       "en": "of (masc. oblique)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "دے (سمبندھ دا نشان)"
     },
     "آکھے": {
       "en": "bidding",
       "pos": "noun",
       "roman": "ākhe",
       "base": "آکھا",
-      "note": "آکھے لگنا: to follow someone's bidding"
+      "note": "آکھے لگنا: to follow someone's bidding",
+      "pa": "آکھے، کہنے",
+      "note_pa": "آکھے لگنا: کسے دا آکھا منننا"
     },
     "لگے": {
       "en": "followed",
       "pos": "verb",
       "roman": "lagge",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگے، من لیا"
     },
     "جیہناں": {
       "en": "those whose; those (with) whom",
       "pos": "pronoun",
-      "roman": "jihnāṅ"
+      "roman": "jihnāṅ",
+      "pa": "جنہاں"
     },
     "پاک": {
       "en": "pure",
       "pos": "adjective",
-      "roman": "pāk"
+      "roman": "pāk",
+      "pa": "پاک، صاف"
     },
     "نگاہاں": {
       "en": "gazes",
       "pos": "noun",
       "roman": "nigāhāṅ",
-      "base": "نگاہ"
+      "base": "نگاہ",
+      "pa": "نظراں"
     },
     "ہوئیاں": {
       "en": "have become",
       "pos": "verb",
       "roman": "hoīāṅ",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہو گئیاں"
     },
     "سے": {
       "en": "they, those",
       "pos": "pronoun",
-      "roman": "se"
+      "roman": "se",
+      "pa": "اوہ"
     },
     "کہیں": {
       "en": "by anyone",
       "pos": "pronoun",
-      "roman": "kahīṅ"
+      "roman": "kahīṅ",
+      "pa": "کسے نے، کسے توں"
     },
     "نہیں": {
       "en": "not",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "جاندے": {
       "en": "are (passive)",
       "pos": "verb",
       "roman": "jānde",
-      "base": "جانا"
+      "base": "جانا",
+      "pa": "جاندے (کرم وچی)"
     },
     "ٹھگے": {
       "en": "cheated",
       "pos": "verb",
       "roman": "ṭhagge",
-      "base": "ٹھگنا"
+      "base": "ٹھگنا",
+      "pa": "ٹھگے، دھوکھا کھادے"
     },
     "کالے": {
       "en": "black",
       "pos": "adjective",
       "roman": "kāle",
-      "base": "کالا"
+      "base": "کالا",
+      "pa": "کالے"
     },
     "پٹ": {
       "en": "silk",
       "pos": "noun",
-      "roman": "paṭṭ"
+      "roman": "paṭṭ",
+      "pa": "ریشم، پٹ"
     },
     "نہ": {
       "en": "not; don't",
       "pos": "particle",
-      "roman": "nah"
+      "roman": "nah",
+      "pa": "نہ، نہیں"
     },
     "چڑھے": {
       "en": "takes (dye)",
       "pos": "verb",
       "roman": "chaṛhe",
-      "base": "چڑھنا"
+      "base": "چڑھنا",
+      "pa": "چڑھے، رنگ چڑھے"
     },
     "سفیدی": {
       "en": "whiteness",
       "pos": "noun",
-      "roman": "safedī"
+      "roman": "safedī",
+      "pa": "چٹا رنگ"
     },
     "کاگ": {
       "en": "crows",
       "pos": "noun",
-      "roman": "kāg"
+      "roman": "kāg",
+      "pa": "کاں"
     },
     "تھیندے": {
       "en": "become",
       "pos": "verb",
       "roman": "thīnde",
-      "base": "تھیونا"
+      "base": "تھیونا",
+      "pa": "ہوندے، بن دے"
     },
     "بگے": {
       "en": "white",
       "pos": "adjective",
       "roman": "bagge",
-      "base": "بگا"
+      "base": "بگا",
+      "pa": "چٹے"
     },
     "شاہ": {
       "en": "Shah (part of the poet's name)",
       "pos": "proper noun",
-      "roman": "Shāh"
+      "roman": "Shāh",
+      "pa": "شاہ (شاعر دے ناں دا حصہ)"
     },
     "حسین": {
       "en": "Hussain (the poet names himself)",
       "pos": "proper noun",
       "roman": "Husain",
-      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore"
+      "note": "Shah Hussain (1538–1599), Sufi poet of Lahore",
+      "pa": "شاہ حسین، شاعر آپ",
+      "note_pa": "شاہ حسین (۱۵۳۸–۱۵۹۹)، لاہور دا صوفی شاعر"
     },
     "شہادت": {
       "en": "martyrdom",
       "pos": "noun",
-      "roman": "shahādat"
+      "roman": "shahādat",
+      "pa": "شہادت"
     },
     "پائین": {
       "en": "attain",
       "pos": "verb",
       "roman": "pāin",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پاندے نیں"
     },
     "جو": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "jo"
+      "roman": "jo",
+      "pa": "جیہڑے"
     },
     "مرن": {
       "en": "die",
       "pos": "verb",
       "roman": "maran",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مرن"
     },
     "متراں": {
       "en": "friends (beloveds)",
       "pos": "noun",
       "roman": "mitrāṅ",
-      "base": "متر"
+      "base": "متر",
+      "pa": "متراں، پیاریاں"
     },
     "اگے": {
       "en": "before, in front of",
       "pos": "postposition",
-      "roman": "agge"
+      "roman": "agge",
+      "pa": "اگے، سامنے"
     }
   }
 }

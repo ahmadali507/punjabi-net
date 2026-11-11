@@ -5,163 +5,196 @@
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "دریا": {
       "en": "rivers",
       "pos": "noun",
-      "roman": "dariyā"
+      "roman": "dariyā",
+      "pa": "دریا"
     },
     "سمندروں": {
       "en": "than oceans",
       "pos": "noun",
       "roman": "samundaroṅ",
-      "base": "سمندر"
+      "base": "سمندر",
+      "pa": "سمندراں توں"
     },
     "ڈونگھے": {
       "en": "deep",
       "pos": "adjective",
       "roman": "ḍūṅghe",
-      "base": "ڈونگھا"
+      "base": "ڈونگھا",
+      "pa": "ڈونگھے"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kaun"
+      "roman": "kaun",
+      "pa": "کون"
     },
     "دلاں": {
       "en": "hearts",
       "pos": "noun",
       "roman": "dilāṅ",
-      "base": "دل"
+      "base": "دل",
+      "pa": "دلاں"
     },
     "دیاں": {
       "en": "of (fem. pl.): the things of",
       "pos": "postposition",
       "roman": "diāṅ",
-      "note": "dilāṅ diāṅ: 'the secrets of hearts'."
+      "note": "dilāṅ diāṅ: 'the secrets of hearts'.",
+      "pa": "سمبندھ دا نشان (مؤنث، جمع)",
+      "note_pa": "دلاں دیاں یعنی دلاں دے بھیت"
     },
     "جانے": {
       "en": "knows",
       "pos": "verb",
       "roman": "jāne",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جانے"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہو، اوہ رب",
+      "note_pa": "باہو دی تکرار: ہو یعنی اوہ، رب دا صوفی ناں، ہر مصرع دے اخیر وچ"
     },
     "وچے": {
       "en": "within (it)",
       "pos": "adverb",
       "roman": "vichche",
-      "base": "وچ"
+      "base": "وچ",
+      "pa": "وچے ای، اندر"
     },
     "بیڑے": {
       "en": "boats",
       "pos": "noun",
       "roman": "beṛe",
-      "base": "بیڑا"
+      "base": "بیڑا",
+      "pa": "بیڑیاں"
     },
     "جھیڑے": {
       "en": "quarrels; storms",
       "pos": "noun",
       "roman": "jhaṛe",
       "base": "جھیڑا",
-      "note": "Literally 'disputes'; the heart holds turmoil too."
+      "note": "Literally 'disputes'; the heart holds turmoil too.",
+      "pa": "جھگڑے، طوفان",
+      "note_pa": "لفظی مطلب جھگڑے؛ دل وچ ہلچل وی ہوندی اے"
     },
     "ونجھ": {
       "en": "punt-poles; oars",
       "pos": "noun",
-      "roman": "vanjh"
+      "roman": "vanjh",
+      "pa": "ونجھ، چپو"
     },
     "مہانے": {
       "en": "boatmen",
       "pos": "noun",
       "roman": "muhāne",
-      "base": "مہانا"
+      "base": "مہانا",
+      "pa": "ملاح"
     },
     "چوداں": {
       "en": "fourteen",
       "pos": "numeral",
-      "roman": "chaudāṅ"
+      "roman": "chaudāṅ",
+      "pa": "چوداں"
     },
     "طبق": {
       "en": "realms; layers (of creation)",
       "pos": "noun",
       "roman": "tabaq",
-      "note": "The fourteen tabaqs: seven heavens and seven earths."
+      "note": "The fourteen tabaqs: seven heavens and seven earths.",
+      "pa": "طبق، تہاں",
+      "note_pa": "چوداں طبق: ست اسمان تے ست زمیناں"
     },
     "دلے": {
       "en": "of the heart",
       "pos": "noun",
       "roman": "dile",
-      "base": "دل"
+      "base": "دل",
+      "pa": "دل"
     },
     "دے": {
       "en": "of (masc. obl.)",
       "pos": "postposition",
-      "roman": "de"
+      "roman": "de",
+      "pa": "سمبندھ دا نشان (مذکر، ترچھا)"
     },
     "اندر": {
       "en": "inside",
       "pos": "postposition",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر"
     },
     "تنبو": {
       "en": "tent",
       "pos": "noun",
-      "roman": "tambū"
+      "roman": "tambū",
+      "pa": "تنبو، خیمہ"
     },
     "وانگن": {
       "en": "like",
       "pos": "postposition",
-      "roman": "vāṅgan"
+      "roman": "vāṅgan",
+      "pa": "وانگ، ورگا"
     },
     "تانے": {
       "en": "stretched (out)",
       "pos": "verb",
       "roman": "tāne",
-      "base": "تاننا"
+      "base": "تاننا",
+      "pa": "تنے ہوئے"
     },
     "جوئی": {
       "en": "whoever",
       "pos": "pronoun",
-      "roman": "joī"
+      "roman": "joī",
+      "pa": "جیہڑا وی"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "محرم": {
       "en": "confidant; one who knows the secret",
       "pos": "noun",
-      "roman": "mahram"
+      "roman": "mahram",
+      "pa": "بھیتی، راز جانن والا"
     },
     "ہووے": {
       "en": "is; becomes",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہووے"
     },
     "سوئی": {
       "en": "he alone",
       "pos": "pronoun",
-      "roman": "soī"
+      "roman": "soī",
+      "pa": "اوہی"
     },
     "رب": {
       "en": "Lord; God",
       "pos": "noun",
-      "roman": "rabb"
+      "roman": "rabb",
+      "pa": "رب"
     },
     "پچھانے": {
       "en": "recognises",
       "pos": "verb",
       "roman": "pachhāne",
-      "base": "پچھاننا"
+      "base": "پچھاننا",
+      "pa": "پچھانے"
     }
   }
 }

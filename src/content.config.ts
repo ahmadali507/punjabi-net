@@ -76,6 +76,11 @@ const poets = defineCollection({
         styles: z.array(z.string().trim().min(1)).default([]),
         region: z.string().trim().min(1),
         bio_short: z.string().trim().min(1).max(200, 'Keep the one-line bio under 200 characters'),
+        /** Punjabi counterparts, shown on /pa (editorial drafts). */
+        bio_short_pa: pa.optional(),
+        bio_pa: pa.optional(),
+        region_pa: pa.optional(),
+        portrait_caption_pa: pa.optional(),
         portrait: image().optional(),
         portrait_caption: z.string().trim().optional(),
         portrait_authentic: z.boolean().default(false),
@@ -92,6 +97,7 @@ const poets = defineCollection({
               year: z.union([z.number().int(), z.string().trim()]).optional(),
               publisher: z.string().trim().optional(),
               note: z.string().trim().optional(),
+              note_pa: pa.optional(),
             }),
           )
           .default([]),
@@ -116,6 +122,8 @@ const forms = defineCollection({
   schema: z.object({
     name,
     description: z.string().trim().min(1),
+    description_pa: pa.optional(),
+    body_pa: pa.optional(),
     order: z.number().int().default(100),
     sources: z.array(source).default([]),
   }),
@@ -129,7 +137,7 @@ export const POS = [
   'conjunction', 'interjection', 'particle', 'numeral', 'phrase',
 ] as const;
 
-const usage = z.object({ text: pa, en: z.string().trim().min(1) });
+const usage = z.object({ text: pa, en: z.string().trim().min(1), pa: pa.optional() });
 
 const dictionary = defineCollection({
   loader: files('dictionary', 'json'),
@@ -232,6 +240,9 @@ const proverbs = defineCollection({
     /** The source's explanation of the sense, when it gives one. */
     meaning_en: z.string().trim().optional(),
     usage_note: z.string().trim().optional(),
+    /** Editorial Punjabi explanation, shown on /pa. */
+    meaning_pa: pa.optional(),
+    usage_pa: pa.optional(),
     /** The source's section heading (Soils, Cattle, Worldly wisdom…). */
     topic: z.string().trim().optional(),
     source,
@@ -266,6 +277,9 @@ const glosses = defineCollection({
         base: pa.optional(),
         /** Optional extra note: idiom, allusion, grammar. */
         note: z.string().trim().optional(),
+        /** The same meaning and note in Punjabi, shown on /pa. */
+        pa: pa.optional(),
+        note_pa: pa.optional(),
       }),
     ),
   }),

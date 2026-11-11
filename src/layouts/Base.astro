@@ -6,6 +6,7 @@ import Footer from '~/components/Footer.astro';
 import { SITE } from '~/site.config';
 import T from '~/components/T.astro';
 import { asLocale, alternatePath, cleanPath, PA_LANG } from '~/i18n';
+import { hasLatin } from '~/lib/pa';
 
 interface Props {
   title?: string;
@@ -20,8 +21,10 @@ interface Props {
   preloadNastaliq?: boolean;
 }
 
-const { title, description = SITE.description, image = '/og/default.png', type = 'website', noindex = false, jsonLd, preloadNastaliq } = Astro.props;
+const { title, description: desc, image = '/og/default.png', type = 'website', noindex = false, jsonLd, preloadNastaliq } = Astro.props;
 const locale = asLocale(Astro.currentLocale);
+// Punjabi pages never carry an English description: fall back to the site's Punjabi one.
+const description = locale === 'pa' ? (desc && !hasLatin(desc) ? desc : SITE.descriptionPa) : (desc ?? SITE.description);
 const fullTitle = title ? `${title} · ${SITE.name}` : SITE.name;
 const path = cleanPath(Astro.url.pathname);
 const canonical = new URL(path, Astro.site).href;

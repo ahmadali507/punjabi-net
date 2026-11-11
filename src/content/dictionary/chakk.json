@@ -10,7 +10,8 @@
   "phrases": [
     {
       "text": "چک مار",
-      "en": "bite"
+      "en": "bite",
+      "pa": "دنداں نال وڈھنا"
     }
   ],
   "common": false,
@@ -21,5 +22,6 @@
     "year": 1899,
     "page": "Dictionary, p. 8",
     "url": "https://archive.org/details/12034371bsb"
-  }
+  },
+  "definition_pa": "دنداں نال وڈھنا؛ چک"
 }

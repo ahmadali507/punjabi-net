@@ -5,198 +5,236 @@
     "سجن": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "sajjan"
+      "roman": "sajjan",
+      "pa": "سجن، محبوب"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
       "roman": "de",
-      "base": "دا"
+      "base": "دا",
+      "pa": "سمبندھ دا نشان (ترچھا روپ)"
     },
     "ہتھ": {
       "en": "hand",
       "pos": "noun",
-      "roman": "hatth"
+      "roman": "hatth",
+      "pa": "ہتھ"
     },
     "لگی": {
       "en": "applied",
       "pos": "verb",
       "roman": "laggī",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگی، لائی گئی"
     },
     "ہوئی": {
       "en": "(perfect: having been)",
       "pos": "verb",
       "roman": "hoī",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہوئی"
     },
     "آپے": {
       "en": "of his own accord",
       "pos": "adverb",
-      "roman": "āpe"
+      "roman": "āpe",
+      "pa": "آپ ای، اپنی مرضی نال"
     },
     "نی": {
       "en": "O (to a woman)",
       "pos": "interjection",
-      "roman": "nī"
+      "roman": "nī",
+      "pa": "نی، زنانی نوں سدن دا لفظ"
     },
     "اج": {
       "en": "today, tonight",
       "pos": "adverb",
-      "roman": "ajj"
+      "roman": "ajj",
+      "pa": "اج"
     },
     "رات": {
       "en": "night",
       "pos": "noun",
-      "roman": "rāt"
+      "roman": "rāt",
+      "pa": "رات"
     },
     "نے": {
       "en": "(agent marker)",
       "pos": "postposition",
-      "roman": "ne"
+      "roman": "ne",
+      "pa": "کرتا دا نشان"
     },
     "سانوں": {
       "en": "us (me, the henna)",
       "pos": "pronoun",
-      "roman": "sānūṅ"
+      "roman": "sānūṅ",
+      "pa": "سانوں، مینوں (مہندی نوں)"
     },
     "پھڑ": {
       "en": "having caught",
       "pos": "verb",
       "roman": "phaṛ",
-      "base": "پھڑنا"
+      "base": "پھڑنا",
+      "pa": "پھڑ کے"
     },
     "گھٹ": {
       "en": "tightly",
       "pos": "adverb",
-      "roman": "ghuṭṭ"
+      "roman": "ghuṭṭ",
+      "pa": "گھُٹ کے، کس کے"
     },
     "رکھیا": {
       "en": "held, kept",
       "pos": "verb",
       "roman": "rakkhiā",
-      "base": "رکھنا"
+      "base": "رکھنا",
+      "pa": "رکھیا"
     },
     "وصل": {
       "en": "union",
       "pos": "noun",
-      "roman": "vasl"
+      "roman": "vasl",
+      "pa": "میل، ملاپ"
     },
     "ماہی": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "māhī"
+      "roman": "māhī",
+      "pa": "ماہی، محبوب"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "مہر": {
       "en": "seal",
       "pos": "noun",
       "roman": "mohar",
-      "note": "Henna's mark on the hand as a seal; could also be read mehar 'grace'."
+      "note": "Henna's mark on the hand as a seal; could also be read mehar 'grace'.",
+      "pa": "مہر، ٹھپا",
+      "note_pa": "ہتھ اتے مہندی دا نشان مہر ورگا؛ مہر یعنی کرم وی پڑھیا جا سکدا اے"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "اساں": {
       "en": "we (agent)",
       "pos": "pronoun",
-      "roman": "asāṅ"
+      "roman": "asāṅ",
+      "pa": "اساں، اسیں"
     },
     "لکھیا": {
       "en": "written",
       "pos": "verb",
       "roman": "likhiā",
-      "base": "لکھنا"
+      "base": "لکھنا",
+      "pa": "لکھیا"
     },
     "جندڑی": {
       "en": "(dear) life",
       "pos": "noun",
       "roman": "jindṛī",
-      "base": "جند"
+      "base": "جند",
+      "pa": "جند، پیاری جان"
     },
     "ساڈی": {
       "en": "our",
       "pos": "pronoun",
       "roman": "sāḍī",
-      "base": "ساڈا"
+      "base": "ساڈا",
+      "pa": "ساڈی"
     },
     "انگ": {
       "en": "limbs, body",
       "pos": "noun",
-      "roman": "aṅg"
+      "roman": "aṅg",
+      "pa": "انگ، سریر"
     },
     "سما": {
       "en": "absorbed",
       "pos": "verb",
       "roman": "samā",
-      "base": "سمانا"
+      "base": "سمانا",
+      "pa": "سما، رچ"
     },
     "لئی": {
       "en": "took (in)",
       "pos": "verb",
       "roman": "laī",
-      "base": "لینا"
+      "base": "لینا",
+      "pa": "لئی"
     },
     "ویکھ": {
       "en": "seeing",
       "pos": "verb",
       "roman": "vekh",
-      "base": "ویکھنا"
+      "base": "ویکھنا",
+      "pa": "ویکھ کے"
     },
     "خوش": {
       "en": "happy",
       "pos": "adjective",
-      "roman": "xush"
+      "roman": "xush",
+      "pa": "خوش"
     },
     "ہووے": {
       "en": "is, becomes",
       "pos": "verb",
       "roman": "hove",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہووے، ہوندی اے"
     },
     "کیوں": {
       "en": "say, well (asking)",
       "pos": "adverb",
-      "roman": "kiuṅ"
+      "roman": "kiuṅ",
+      "pa": "کیوں، دسو"
     },
     "سہیو": {
       "en": "O friends",
       "pos": "noun",
       "roman": "sahīo",
-      "base": "سہیلی"
+      "base": "سہیلی",
+      "pa": "اے سہیلیو"
     },
     "کوئی": {
       "en": "any, some",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "سواد": {
       "en": "taste, relish",
       "pos": "noun",
-      "roman": "savād"
+      "roman": "savād",
+      "pa": "سواد، مزا"
     },
     "چھوہ": {
       "en": "touch",
       "pos": "noun",
-      "roman": "chhoh"
+      "roman": "chhoh",
+      "pa": "چھوہ، ہتھ لانا"
     },
     "بی": {
       "en": "also",
       "pos": "particle",
       "roman": "bhī",
-      "note": "Odd spelling for بھی."
+      "note": "Odd spelling for بھی.",
+      "pa": "وی",
+      "note_pa": "بھی دا انوکھا جوڑ"
     },
     "چکھیا": {
       "en": "tasted",
       "pos": "verb",
       "roman": "chakkhiā",
-      "base": "چکھنا"
+      "base": "چکھنا",
+      "pa": "چکھیا"
     }
   }
 }

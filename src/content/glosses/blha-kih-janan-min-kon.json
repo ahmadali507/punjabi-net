@@ -5,370 +5,442 @@
     "بلھا": {
       "en": "Bulleh (the poet names himself)",
       "pos": "proper noun",
-      "roman": "Bullhā"
+      "roman": "Bullhā",
+      "pa": "بلھا، شاعر آپ"
     },
     "کیہ": {
       "en": "what",
       "pos": "pronoun",
-      "roman": "kih"
+      "roman": "kih",
+      "pa": "کیہ"
     },
     "جاناں": {
       "en": "do I know",
       "pos": "verb",
       "roman": "jāṇāṅ",
-      "base": "جاننا"
+      "base": "جاننا",
+      "pa": "جاناں، جاندا ہاں"
     },
     "میں": {
       "en": "I",
       "pos": "pronoun",
-      "roman": "maiṅ"
+      "roman": "maiṅ",
+      "pa": "میں"
     },
     "کون": {
       "en": "who",
       "pos": "pronoun",
-      "roman": "kauṇ"
+      "roman": "kauṇ",
+      "pa": "کون"
     },
     "نہ": {
       "en": "neither, not",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ، نہیں"
     },
     "مومن": {
       "en": "believer",
       "pos": "noun",
-      "roman": "momin"
+      "roman": "momin",
+      "pa": "ایمان والا"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "مسیت": {
       "en": "mosque",
       "pos": "noun",
-      "roman": "masīt"
+      "roman": "masīt",
+      "pa": "مسجد"
     },
     "آں": {
       "en": "am",
       "pos": "verb",
       "roman": "āṅ",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "آں، ہاں"
     },
     "کفر": {
       "en": "unbelief",
       "pos": "noun",
-      "roman": "kufr"
+      "roman": "kufr",
+      "pa": "کفر، بے ایمانی"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مونث)"
     },
     "ریت": {
       "en": "rites, ways",
       "pos": "noun",
-      "roman": "rīt"
+      "roman": "rīt",
+      "pa": "رسماں، طریقے"
     },
     "پاکاں": {
       "en": "the pure",
       "pos": "noun",
       "roman": "pākāṅ",
-      "base": "پاک"
+      "base": "پاک",
+      "pa": "پاک لوکاں"
     },
     "پلیت": {
       "en": "impure",
       "pos": "adjective",
-      "roman": "palīt"
+      "roman": "palīt",
+      "pa": "ناپاک، گندا"
     },
     "موسی": {
       "en": "Moses (Musa)",
       "pos": "proper noun",
-      "roman": "Mūsā"
+      "roman": "Mūsā",
+      "pa": "حضرت موسی، نبی"
     },
     "فرعون": {
       "en": "Pharaoh",
       "pos": "proper noun",
-      "roman": "Firaun"
+      "roman": "Firaun",
+      "pa": "فرعون، مصر دا ظالم بادشاہ"
     },
     "اندر": {
       "en": "in",
       "pos": "postposition",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر، وچ"
     },
     "بید": {
       "en": "the Vedas",
       "pos": "proper noun",
-      "roman": "Bed"
+      "roman": "Bed",
+      "pa": "وید، ہندو دھرم دیاں کتاباں"
     },
     "کتاباں": {
       "en": "books (scriptures)",
       "pos": "noun",
       "roman": "kitābāṅ",
-      "base": "کتاب"
+      "base": "کتاب",
+      "pa": "کتاباں، صحیفے"
     },
     "بھنگاں": {
       "en": "bhang (cannabis)",
       "pos": "noun",
       "roman": "bhangāṅ",
-      "base": "بھنگ"
+      "base": "بھنگ",
+      "pa": "بھنگ، نشہ"
     },
     "شراباں": {
       "en": "wines",
       "pos": "noun",
       "roman": "sharābāṅ",
-      "base": "شراب"
+      "base": "شراب",
+      "pa": "شراب"
     },
     "رنداں": {
       "en": "libertines, drinkers",
       "pos": "noun",
       "roman": "rindāṅ",
-      "base": "رند"
+      "base": "رند",
+      "pa": "رند، شرابی، آزاد لوک"
     },
     "مست": {
       "en": "intoxicated",
       "pos": "adjective",
-      "roman": "mast"
+      "roman": "mast",
+      "pa": "مست، نشے وچ"
     },
     "خراباں": {
       "en": "ruined, dissolute",
       "pos": "adjective",
       "roman": "xarābāṅ",
-      "base": "خراب"
+      "base": "خراب",
+      "pa": "خراب، برباد"
     },
     "جاگن": {
       "en": "waking",
       "pos": "noun",
       "roman": "jāgaṇ",
-      "base": "جاگنا"
+      "base": "جاگنا",
+      "pa": "جاگنا"
     },
     "سون": {
       "en": "sleep",
       "pos": "noun",
-      "roman": "saun"
+      "roman": "saun",
+      "pa": "سونا، نیندر"
     },
     "شادی": {
       "en": "joy",
       "pos": "noun",
-      "roman": "shādī"
+      "roman": "shādī",
+      "pa": "خوشی"
     },
     "غمناکی": {
       "en": "sorrow",
       "pos": "noun",
-      "roman": "ġamnākī"
+      "roman": "ġamnākī",
+      "pa": "غم، دکھ"
     },
     "پلیتی": {
       "en": "impurity",
       "pos": "noun",
-      "roman": "palītī"
+      "roman": "palītī",
+      "pa": "ناپاکی"
     },
     "پاکی": {
       "en": "purity",
       "pos": "noun",
-      "roman": "pākī"
+      "roman": "pākī",
+      "pa": "پاکی، صفائی"
     },
     "آبی": {
       "en": "of water",
       "pos": "adjective",
-      "roman": "ābī"
+      "roman": "ābī",
+      "pa": "پانی دا بنیا"
     },
     "خاکی": {
       "en": "of earth",
       "pos": "adjective",
-      "roman": "xākī"
+      "roman": "xākī",
+      "pa": "مٹی دا بنیا"
     },
     "آتش": {
       "en": "fire",
       "pos": "noun",
-      "roman": "ātish"
+      "roman": "ātish",
+      "pa": "اگ"
     },
     "پون": {
       "en": "wind, air",
       "pos": "noun",
-      "roman": "paun"
+      "roman": "paun",
+      "pa": "ہوا"
     },
     "عربی": {
       "en": "Arab",
       "pos": "adjective",
-      "roman": "arabī"
+      "roman": "arabī",
+      "pa": "عرب دا"
     },
     "لاہوری": {
       "en": "of Lahore",
       "pos": "adjective",
-      "roman": "Lāhaurī"
+      "roman": "Lāhaurī",
+      "pa": "لاہور دا"
     },
     "ہندی": {
       "en": "Indian",
       "pos": "adjective",
-      "roman": "hindī"
+      "roman": "hindī",
+      "pa": "ہند دا"
     },
     "شہر": {
       "en": "city",
       "pos": "noun",
-      "roman": "shahir"
+      "roman": "shahir",
+      "pa": "شہر"
     },
     "نگوری": {
       "en": "of Nagaur",
       "pos": "adjective",
       "roman": "Nagaurī",
-      "note": "Uncertain: probably the town of Nagaur"
+      "note": "Uncertain: probably the town of Nagaur",
+      "pa": "ناگور دا",
+      "note_pa": "پکا نہیں: شاید ناگور شہر"
     },
     "ہندو": {
       "en": "Hindu",
       "pos": "noun",
-      "roman": "hindū"
+      "roman": "hindū",
+      "pa": "ہندو"
     },
     "ترک": {
       "en": "Turk",
       "pos": "noun",
-      "roman": "turk"
+      "roman": "turk",
+      "pa": "ترک، مسلمان"
     },
     "پشوری": {
       "en": "of Peshawar",
       "pos": "adjective",
-      "roman": "Pashaurī"
+      "roman": "Pashaurī",
+      "pa": "پشاور دا"
     },
     "رہندا": {
       "en": "live",
       "pos": "verb",
       "roman": "rahindā",
-      "base": "رہنا"
+      "base": "رہنا",
+      "pa": "رہندا"
     },
     "ندون": {
       "en": "Nadaun (a town)",
       "pos": "proper noun",
       "roman": "Nadauṇ",
-      "note": "Uncertain: probably Nadaun in the Kangra hills"
+      "note": "Uncertain: probably Nadaun in the Kangra hills",
+      "pa": "ندون، اک قصبہ",
+      "note_pa": "پکا نہیں: شاید کانگڑے دیاں پہاڑیاں دا قصبہ ندون"
     },
     "بھیت": {
       "en": "secret",
       "pos": "noun",
-      "roman": "bhet"
+      "roman": "bhet",
+      "pa": "بھید، راز"
     },
     "مذہب": {
       "en": "religion",
       "pos": "noun",
-      "roman": "mazhab"
+      "roman": "mazhab",
+      "pa": "مذہب، دین"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "پایا": {
       "en": "found",
       "pos": "verb",
       "roman": "pāyā",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پایا، لبھیا"
     },
     "آدم": {
       "en": "Adam",
       "pos": "proper noun",
-      "roman": "Ādam"
+      "roman": "Ādam",
+      "pa": "حضرت آدم"
     },
     "حوا": {
       "en": "Eve",
       "pos": "proper noun",
-      "roman": "Havvā"
+      "roman": "Havvā",
+      "pa": "اماں حوا"
     },
     "جایا": {
       "en": "born of",
       "pos": "verb",
-      "roman": "jāyā"
+      "roman": "jāyā",
+      "pa": "جمیا، اولاد"
     },
     "اپنا": {
       "en": "my own",
       "pos": "pronoun",
-      "roman": "apṇā"
+      "roman": "apṇā",
+      "pa": "اپنا"
     },
     "نام": {
       "en": "name",
       "pos": "noun",
-      "roman": "nām"
+      "roman": "nām",
+      "pa": "ناں"
     },
     "دھرایا": {
       "en": "had (myself) named",
       "pos": "verb",
       "roman": "dharāyā",
-      "base": "دھرانا"
+      "base": "دھرانا",
+      "pa": "رکھوایا"
     },
     "بیٹھن": {
       "en": "sitting still",
       "pos": "noun",
       "roman": "baiṭhaṇ",
-      "base": "بیٹھنا"
+      "base": "بیٹھنا",
+      "pa": "بیٹھنا، ٹک کے رہنا"
     },
     "بھون": {
       "en": "moving, wandering",
       "pos": "noun",
       "roman": "bhauṇ",
-      "base": "بھونا"
+      "base": "بھونا",
+      "pa": "پھرنا، بھوندے رہنا"
     },
     "اول": {
       "en": "first",
       "pos": "adjective",
-      "roman": "avval"
+      "roman": "avval",
+      "pa": "پہلا، شروع"
     },
     "آخر": {
       "en": "last",
       "pos": "adjective",
-      "roman": "āxir"
+      "roman": "āxir",
+      "pa": "آخری، انت"
     },
     "آپ": {
       "en": "self",
       "pos": "pronoun",
-      "roman": "āp"
+      "roman": "āp",
+      "pa": "آپ، اپنا آپ"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "کوئی": {
       "en": "any",
       "pos": "pronoun",
-      "roman": "koī"
+      "roman": "koī",
+      "pa": "کوئی"
     },
     "دوجا": {
       "en": "second, other",
       "pos": "adjective",
-      "roman": "dūjā"
+      "roman": "dūjā",
+      "pa": "دوجا، ہور"
     },
     "ہور": {
       "en": "else",
       "pos": "adjective",
-      "roman": "hor"
+      "roman": "hor",
+      "pa": "ہور"
     },
     "پچھاناں": {
       "en": "recognise",
       "pos": "verb",
       "roman": "pachhāṇāṅ",
-      "base": "پچھاننا"
+      "base": "پچھاننا",
+      "pa": "پچھاناں، سیاناں"
     },
     "میتھوں": {
       "en": "than me",
       "pos": "pronoun",
-      "roman": "maithoṅ"
+      "roman": "maithoṅ",
+      "pa": "میتھوں، میرے توں"
     },
     "سیانا": {
       "en": "wise",
       "pos": "adjective",
-      "roman": "siāṇā"
+      "roman": "siāṇā",
+      "pa": "سیانا، عقل والا"
     },
     "اوہ": {
       "en": "that",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "کھڑا": {
       "en": "standing",
       "pos": "adjective",
-      "roman": "khaṛā"
+      "roman": "khaṛā",
+      "pa": "کھلوتا"
     },
     "ہے": {
       "en": "is",
       "pos": "verb",
       "roman": "hai",
-      "base": "ہونا"
+      "base": "ہونا",
+      "pa": "ہے، اے"
     }
   }
 }

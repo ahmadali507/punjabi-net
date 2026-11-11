@@ -5,195 +5,236 @@
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "ih"
+      "roman": "ih",
+      "pa": "ایہہ"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "خوار": {
       "en": "disgraced; wretched",
       "pos": "adjective",
       "roman": "xvār",
-      "note": "\"Khwar karna\": to humiliate, bring to ruin."
+      "note": "\"Khwar karna\": to humiliate, bring to ruin.",
+      "pa": "خوار، ذلیل",
+      "note_pa": "خوار کرنا: ذلیل کرنا، برباد کرنا"
     },
     "کرے": {
       "en": "makes; does",
       "pos": "verb",
       "roman": "kare",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کردا اے"
     },
     "نت": {
       "en": "always; constantly",
       "pos": "adverb",
-      "roman": "nit"
+      "roman": "nit",
+      "pa": "نت، ہر ویلے"
     },
     "مینوں": {
       "en": "me; to me",
       "pos": "pronoun",
       "roman": "mainūṅ",
-      "base": "میں"
+      "base": "میں",
+      "pa": "مینوں"
     },
     "ایس": {
       "en": "it; this (one) (agent)",
       "pos": "pronoun",
       "roman": "is",
-      "base": "ایہہ"
+      "base": "ایہہ",
+      "pa": "ایس نے، ایہنے"
     },
     "ہوش": {
       "en": "senses; awareness",
       "pos": "noun",
-      "roman": "hosh"
+      "roman": "hosh",
+      "pa": "ہوش، سرت"
     },
     "گوایا": {
       "en": "has lost; made (me) lose",
       "pos": "verb",
       "roman": "gavāiā",
-      "base": "گوانا"
+      "base": "گوانا",
+      "pa": "گوا دتا"
     },
     "میرا": {
       "en": "my",
       "pos": "pronoun",
       "roman": "merā",
-      "base": "میں"
+      "base": "میں",
+      "pa": "میرا"
     },
     "جیوں": {
       "en": "like; just as",
       "pos": "conjunction",
-      "roman": "jiūṅ"
+      "roman": "jiūṅ",
+      "pa": "جیویں"
     },
     "دریا": {
       "en": "river",
       "pos": "noun",
-      "roman": "dariā"
+      "roman": "dariā",
+      "pa": "دریا"
     },
     "ہمیشہ": {
       "en": "always",
       "pos": "adverb",
-      "roman": "hameshā"
+      "roman": "hameshā",
+      "pa": "ہمیشہ، سدا"
     },
     "ڈھاوے": {
       "en": "erodes; tears down",
       "pos": "verb",
       "roman": "ḍhāve",
       "base": "ڈھاہنا",
-      "note": "A river cuts away its own banks."
+      "note": "A river cuts away its own banks.",
+      "pa": "ڈھاندا اے، کھوردا اے",
+      "note_pa": "دریا اپنے ای کنڈھے ڈھاندا اے"
     },
     "اپنا": {
       "en": "its own",
       "pos": "pronoun",
-      "roman": "apṇā"
+      "roman": "apṇā",
+      "pa": "اپنا"
     },
     "آپ": {
       "en": "self",
       "pos": "pronoun",
       "roman": "āp",
-      "note": "\"Apṇā āp\": its very self."
+      "note": "\"Apṇā āp\": its very self.",
+      "pa": "آپ",
+      "note_pa": "اپنا آپ: اپنا ای وجود"
     },
     "چوفیرا": {
       "en": "surroundings; all around",
       "pos": "noun",
-      "roman": "chaupherā"
+      "roman": "chaupherā",
+      "pa": "چوفیرا، آلا دوالا"
     },
     "اپنی": {
       "en": "its own (fem.)",
       "pos": "pronoun",
       "roman": "apṇī",
-      "base": "اپنا"
+      "base": "اپنا",
+      "pa": "اپنی"
     },
     "خبر": {
       "en": "awareness; news",
       "pos": "noun",
-      "roman": "xabar"
+      "roman": "xabar",
+      "pa": "خبر، سرت"
     },
     "نہیں": {
       "en": "not; there is no",
       "pos": "particle",
-      "roman": "nahīṅ"
+      "roman": "nahīṅ",
+      "pa": "نہیں"
     },
     "اس": {
       "en": "this (oblique)",
       "pos": "pronoun",
       "roman": "is",
-      "base": "ایہہ"
+      "base": "ایہہ",
+      "pa": "ایس"
     },
     "نوں": {
       "en": "to (object marker)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "کرم دا نشان"
     },
     "دیپک": {
       "en": "lamp",
       "pos": "noun",
-      "roman": "dīpak"
+      "roman": "dīpak",
+      "pa": "دیوا، چراغ"
     },
     "مگر": {
       "en": "behind; beneath",
       "pos": "postposition",
       "roman": "magar",
-      "note": "Proverb: darkness lies right under the lamp (the lamp cannot see itself)."
+      "note": "Proverb: darkness lies right under the lamp (the lamp cannot see itself).",
+      "pa": "تھلے، پچھے",
+      "note_pa": "اکھان: دیوے تھلے ہنیرا (دیوا اپنا آپ نہیں ویکھدا)"
     },
     "اندھیرا": {
       "en": "darkness",
       "pos": "noun",
-      "roman": "anhērā"
+      "roman": "anhērā",
+      "pa": "ہنیرا"
     },
     "ہاشم": {
       "en": "Hashim (the poet names himself)",
       "pos": "proper noun",
       "roman": "Hāshim",
-      "note": "Hashim Shah (c. 1735–1843), poet of Sassi Punnun and these dohras."
+      "note": "Hashim Shah (c. 1735–1843), poet of Sassi Punnun and these dohras.",
+      "pa": "ہاشم، شاعر آپ",
+      "note_pa": "ہاشم شاہ (لگ بھگ ۱۷۳۵–۱۸۴۳)، سسی پنوں تے ایہناں دوہڑیاں دا شاعر"
     },
     "یار": {
       "en": "friend; beloved",
       "pos": "noun",
-      "roman": "yār"
+      "roman": "yār",
+      "pa": "یار، محبوب"
     },
     "ملے": {
       "en": "meets; should meet",
       "pos": "verb",
       "roman": "mile",
-      "base": "ملنا"
+      "base": "ملنا",
+      "pa": "ملے"
     },
     "تد": {
       "en": "then",
       "pos": "adverb",
-      "roman": "tad"
+      "roman": "tad",
+      "pa": "تدوں، فیر"
     },
     "آکھاں": {
       "en": "I shall say",
       "pos": "verb",
       "roman": "ākhāṅ",
-      "base": "آکھنا"
+      "base": "آکھنا",
+      "pa": "آکھاں گا، کہاں گا"
     },
     "اساں": {
       "en": "we; I",
       "pos": "pronoun",
-      "roman": "asāṅ"
+      "roman": "asāṅ",
+      "pa": "اسیں، میں"
     },
     "خوب": {
       "en": "well; truly",
       "pos": "adverb",
-      "roman": "xūb"
+      "roman": "xūb",
+      "pa": "خوب، چنگی طرحاں"
     },
     "ڈٹھا": {
       "en": "have seen",
       "pos": "verb",
       "roman": "ḍiṭhā",
       "base": "ویکھنا",
-      "note": "Old Punjabi past of \"to see\"."
+      "note": "Old Punjabi past of \"to see\".",
+      "pa": "ویکھیا",
+      "note_pa": "ویکھنا دا پرانا پنجابی ماضی"
     },
     "سکھ": {
       "en": "comfort; happiness",
       "pos": "noun",
-      "roman": "sukh"
+      "roman": "sukh",
+      "pa": "سکھ، آرام"
     },
     "تیرا": {
       "en": "your",
       "pos": "pronoun",
       "roman": "terā",
-      "base": "توں"
+      "base": "توں",
+      "pa": "تیرا"
     }
   }
 }

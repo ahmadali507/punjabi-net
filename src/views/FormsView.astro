@@ -24,7 +24,7 @@ const [forms, poems] = await Promise.all([getForms(), getPoems()]);
         <a class="form-card" href={localePath(locale, `/forms/${f.id}`)}>
           <span class="form-card__pa"><Pa t={f.data.name.pa} /></span>
           {en && <span class="form-card__en">{f.data.name.en}</span>}
-          <span class="form-card__desc" lang="en" dir="ltr">{f.data.description}</span>
+          {en ? <span class="form-card__desc" lang="en" dir="ltr">{f.data.description}</span> : <span class="form-card__desc">{f.data.description_pa}</span>}
           <span class="form-card__count">{tf(locale, 'poems.count', { n: poems.filter((p) => p.data.form.id === f.id).length })}</span>
         </a>
       ))}

@@ -7,174 +7,208 @@
       "pos": "noun",
       "roman": "puṇiāṅ",
       "base": "پونیا",
-      "note": "Odd spelling for پونیاں."
+      "note": "Odd spelling for پونیاں.",
+      "pa": "پونیاں، چن دیاں پوریاں راتاں",
+      "note_pa": "پونیاں دی انوکھی لکھت"
     },
     "نوں": {
       "en": "on (time)",
       "pos": "postposition",
-      "roman": "nūṅ"
+      "roman": "nūṅ",
+      "pa": "نوں، ویلے"
     },
     "شہہ": {
       "en": "great, king",
       "pos": "adjective",
-      "roman": "shah"
+      "roman": "shah",
+      "pa": "وڈا، شاہ"
     },
     "ساگر": {
       "en": "ocean",
       "pos": "noun",
-      "roman": "sāgar"
+      "roman": "sāgar",
+      "pa": "سمندر"
     },
     "اچھلے": {
       "en": "surges up",
       "pos": "verb",
       "roman": "uchhle",
-      "base": "اچھلنا"
+      "base": "اچھلنا",
+      "pa": "اچھلدا اے"
     },
     "تانگھ": {
       "en": "yearning",
       "pos": "noun",
-      "roman": "tāṅgh"
+      "roman": "tāṅgh",
+      "pa": "تانگھ، چاہ"
     },
     "عرش": {
       "en": "sky, heaven",
       "pos": "noun",
-      "roman": "arsh"
+      "roman": "arsh",
+      "pa": "اسمان، عرش"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "کردا": {
       "en": "does, makes",
       "pos": "verb",
       "roman": "kardā",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کردا اے"
     },
     "دور": {
       "en": "far",
       "pos": "adverb",
-      "roman": "dūr"
+      "roman": "dūr",
+      "pa": "دور"
     },
     "وسیندے": {
       "en": "dwelling",
       "pos": "verb",
       "roman": "vasīnde",
-      "base": "وسنا"
+      "base": "وسنا",
+      "pa": "وسدے"
     },
     "سوہنے": {
       "en": "beautiful one",
       "pos": "noun",
       "roman": "sohṇe",
-      "base": "سوہنا"
+      "base": "سوہنا",
+      "pa": "سوہنے، محبوب"
     },
     "ولے": {
       "en": "towards",
       "pos": "postposition",
       "roman": "vale",
-      "base": "ول"
+      "base": "ول",
+      "pa": "ول، پاسے"
     },
     "امل": {
       "en": "welling up",
       "pos": "verb",
       "roman": "umal",
-      "base": "املنا"
+      "base": "املنا",
+      "pa": "امڈ کے، چھلک کے"
     },
     "جی": {
       "en": "heart",
       "pos": "noun",
-      "roman": "jī"
+      "roman": "jī",
+      "pa": "جی، دل"
     },
     "بھردا": {
       "en": "fills",
       "pos": "verb",
       "roman": "bhardā",
-      "base": "بھرنا"
+      "base": "بھرنا",
+      "pa": "بھردا اے"
     },
     "جیوں": {
       "en": "as (the more)",
       "pos": "conjunction",
-      "roman": "jiuṅ"
+      "roman": "jiuṅ",
+      "pa": "جیویں جیویں"
     },
     "پر": {
       "en": "but",
       "pos": "conjunction",
-      "roman": "par"
+      "roman": "par",
+      "pa": "پر"
     },
     "اس": {
       "en": "it",
       "pos": "pronoun",
-      "roman": "us"
+      "roman": "us",
+      "pa": "اوس نوں"
     },
     "لگے": {
       "en": "touches, falls",
       "pos": "verb",
       "roman": "lagge",
-      "base": "لگنا"
+      "base": "لگنا",
+      "pa": "لگدی، پیندی"
     },
     "چاندنی": {
       "en": "moonlight",
       "pos": "noun",
-      "roman": "chāndnī"
+      "roman": "chāndnī",
+      "pa": "چاننی"
     },
     "تؤں": {
       "en": "so (the more)",
       "pos": "adverb",
       "roman": "tiuṅ",
-      "note": "Odd spelling for تیوں, correlative of جیوں."
+      "note": "Odd spelling for تیوں, correlative of جیوں.",
+      "pa": "تیویں تیویں",
+      "note_pa": "تیوں دی انوکھی لکھت، جیوں دا جوڑ"
     },
     "کی": {
       "en": "what",
       "pos": "pronoun",
-      "roman": "kī"
+      "roman": "kī",
+      "pa": "کیہ"
     },
     "اوہ": {
       "en": "it, he",
       "pos": "pronoun",
-      "roman": "oh"
+      "roman": "oh",
+      "pa": "اوہ"
     },
     "دیکھے": {
       "en": "sees",
       "pos": "verb",
       "roman": "dekhe",
-      "base": "دیکھنا"
+      "base": "دیکھنا",
+      "pa": "ویکھدا اے"
     },
     "پریتم": {
       "en": "beloved",
       "pos": "noun",
-      "roman": "prītam"
+      "roman": "prītam",
+      "pa": "محبوب، پریتم"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "دل": {
       "en": "heart",
       "pos": "noun",
-      "roman": "dil"
+      "roman": "dil",
+      "pa": "دل"
     },
     "پریم": {
       "en": "love",
       "pos": "noun",
-      "roman": "prem"
+      "roman": "prem",
+      "pa": "پیار، پریم"
     },
     "ترنگیں": {
       "en": "in waves",
       "pos": "noun",
       "roman": "taraṅgīṅ",
-      "base": "ترنگ"
+      "base": "ترنگ",
+      "pa": "لہراں وچ"
     },
     "دان": {
       "en": "gift",
       "pos": "noun",
-      "roman": "dān"
+      "roman": "dān",
+      "pa": "دان، تحفہ"
     },
     "اچھالے": {
       "en": "surges",
       "pos": "noun",
       "roman": "uchhāle",
-      "base": "اچھالا"
+      "base": "اچھالا",
+      "pa": "اچھالدا اے"
     }
   }
 }

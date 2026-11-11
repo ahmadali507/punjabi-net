@@ -5,194 +5,238 @@
     "ایہہ": {
       "en": "this",
       "pos": "pronoun",
-      "roman": "ih"
+      "roman": "ih",
+      "pa": "ایہہ"
     },
     "تن": {
       "en": "body",
       "pos": "noun",
-      "roman": "tan"
+      "roman": "tan",
+      "pa": "سریر، جسم"
     },
     "رب": {
       "en": "Lord; God",
       "pos": "noun",
-      "roman": "rabb"
+      "roman": "rabb",
+      "pa": "رب، اللہ"
     },
     "سچے": {
       "en": "true",
       "pos": "adjective",
       "roman": "sachche",
-      "base": "سچا"
+      "base": "سچا",
+      "pa": "سچے"
     },
     "دا": {
       "en": "of (masc.)",
       "pos": "postposition",
-      "roman": "dā"
+      "roman": "dā",
+      "pa": "سمبندھ دا نشان (مذکر)"
     },
     "حجرہ": {
       "en": "chamber; cell",
       "pos": "noun",
       "roman": "hujrā",
-      "note": "A dervish's private cell for worship."
+      "note": "A dervish's private cell for worship.",
+      "pa": "حجرہ، کوٹھڑی",
+      "note_pa": "درویش دی عبادت والی نکی کوٹھڑی"
     },
     "پا": {
       "en": "cast (a glance)",
       "pos": "verb",
       "roman": "pā",
-      "base": "پانا"
+      "base": "پانا",
+      "pa": "پا"
     },
     "فقیرا": {
       "en": "O faqir (Sufi seeker)",
       "pos": "noun",
       "roman": "faqīrā",
-      "base": "فقیر"
+      "base": "فقیر",
+      "pa": "اے فقیر"
     },
     "جھاتی": {
       "en": "a peep; glance",
       "pos": "noun",
       "roman": "jhātī",
-      "note": "jhātī pā: 'take a look inside'."
+      "note": "jhātī pā: 'take a look inside'.",
+      "pa": "جھات، جھاتی",
+      "note_pa": "جھاتی پا یعنی اندر جھات مار"
     },
     "ہو": {
       "en": "Hu (He: God)",
       "pos": "pronoun",
       "roman": "hū",
-      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line."
+      "note": "Bahu's refrain: hū, 'He', a Sufi name of God, closing each line.",
+      "pa": "ہو، اوہ رب",
+      "note_pa": "باہو دی تکرار: ہو یعنی اوہ، رب دا صوفی ناں، ہر مصرع دے اخیر وچ"
     },
     "نہ": {
       "en": "not; don't",
       "pos": "particle",
-      "roman": "na"
+      "roman": "na",
+      "pa": "نہ"
     },
     "کر": {
       "en": "do; make",
       "pos": "verb",
       "roman": "kar",
-      "base": "کرنا"
+      "base": "کرنا",
+      "pa": "کر"
     },
     "منت": {
       "en": "entreaty; begging a favour",
       "pos": "noun",
-      "roman": "minnat"
+      "roman": "minnat",
+      "pa": "ترلا، منتاں"
     },
     "خواج": {
       "en": "Khwaja (title)",
       "pos": "noun",
       "roman": "khwāj",
-      "note": "Short for khwāja, 'master', title of Khizr."
+      "note": "Short for khwāja, 'master', title of Khizr.",
+      "pa": "خواجہ، لقب",
+      "note_pa": "خواجہ یعنی مالک، خضر دا لقب"
     },
     "خضر": {
       "en": "Khizr, immortal guide",
       "pos": "proper noun",
       "roman": "Khizar",
-      "note": "Khwaja Khizr, keeper of the water of life in Islamic lore."
+      "note": "Khwaja Khizr, keeper of the water of life in Islamic lore.",
+      "pa": "خضر، امر رہبر",
+      "note_pa": "خواجہ خضر، اسلامی روایت وچ آب حیات دا راکھا"
     },
     "دی": {
       "en": "of (fem.)",
       "pos": "postposition",
-      "roman": "dī"
+      "roman": "dī",
+      "pa": "سمبندھ دا نشان (مؤنث)"
     },
     "اندر": {
       "en": "inside; within",
       "pos": "adverb",
-      "roman": "andar"
+      "roman": "andar",
+      "pa": "اندر"
     },
     "آب": {
       "en": "water",
       "pos": "noun",
-      "roman": "āb"
+      "roman": "āb",
+      "pa": "پانی"
     },
     "حیاتی": {
       "en": "of life",
       "pos": "noun",
       "roman": "hayātī",
       "base": "حیات",
-      "note": "āb-e hayāt: the water of life, here found within oneself."
+      "note": "āb-e hayāt: the water of life, here found within oneself.",
+      "pa": "حیاتی، زندگی",
+      "note_pa": "آب حیات، ایتھے بندے دے اپنے اندر لبھدا اے"
     },
     "شوق": {
       "en": "longing; yearning",
       "pos": "noun",
-      "roman": "shauq"
+      "roman": "shauq",
+      "pa": "شوق، تانگھ"
     },
     "دیوا": {
       "en": "lamp",
       "pos": "noun",
-      "roman": "dīvā"
+      "roman": "dīvā",
+      "pa": "دیوا"
     },
     "بال": {
       "en": "light (it)",
       "pos": "verb",
       "roman": "bāl",
-      "base": "بالنا"
+      "base": "بالنا",
+      "pa": "بال"
     },
     "انھیرے": {
       "en": "in the darkness",
       "pos": "noun",
       "roman": "anhere",
-      "base": "انھیرا"
+      "base": "انھیرا",
+      "pa": "ہنیرے وچ"
     },
     "لبھی": {
       "en": "(will be) found",
       "pos": "verb",
       "roman": "labbhī",
-      "base": "لبھنا"
+      "base": "لبھنا",
+      "pa": "لبھ گئی"
     },
     "وست": {
       "en": "thing; object",
       "pos": "noun",
       "roman": "vast",
-      "note": "Figuratively, the hidden treasure: God within."
+      "note": "Figuratively, the hidden treasure: God within.",
+      "pa": "شے، چیز",
+      "note_pa": "مجازی مطلب: لُکیا خزانہ، اندر وسدا رب"
     },
     "کھڑاتی": {
       "en": "lost",
       "pos": "adjective",
       "roman": "khaṛātī",
-      "note": "Uncertain: read as 'lost, gone missing'; 'the lost thing is found'."
+      "note": "Uncertain: read as 'lost, gone missing'; 'the lost thing is found'.",
+      "pa": "گواچی ہوئی",
+      "note_pa": "پکا نہیں: گواچی ہوئی سمجھیا گیا؛ گواچی شے لبھ گئی"
     },
     "مرن": {
       "en": "dying; death",
       "pos": "noun",
       "roman": "maran",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مرنا، موت"
     },
     "تھیں": {
       "en": "than; from",
       "pos": "postposition",
-      "roman": "thīṅ"
+      "roman": "thīṅ",
+      "pa": "توں"
     },
     "اگے": {
       "en": "before",
       "pos": "adverb",
-      "roman": "agge"
+      "roman": "agge",
+      "pa": "پہلاں"
     },
     "مر": {
       "en": "died",
       "pos": "verb",
       "roman": "mar",
-      "base": "مرنا"
+      "base": "مرنا",
+      "pa": "مر"
     },
     "رہے": {
       "en": "(have) become (dead)",
       "pos": "verb",
       "roman": "rahe",
       "base": "رہنا",
-      "note": "mar rahe: 'died'. 'Die before you die', a Sufi saying."
+      "note": "mar rahe: 'died'. 'Die before you die', a Sufi saying.",
+      "pa": "گئے",
+      "note_pa": "مر رہے یعنی مر گئے؛ صوفی قول: مرن توں پہلاں مر جاؤ"
     },
     "باہوجنہاں": {
       "en": "Bahu; those who",
       "pos": "phrase",
       "roman": "Bāhū jinhāṅ",
-      "note": "Two words run together in the source: باہو + جنہاں."
+      "note": "Two words run together in the source: باہو + جنہاں.",
+      "pa": "باہو، جنہاں",
+      "note_pa": "اصل لکھت وچ دو لفظ جڑے ہوئے: باہو تے جنہاں"
     },
     "رمز": {
       "en": "secret; hidden meaning",
       "pos": "noun",
-      "roman": "ramz"
+      "roman": "ramz",
+      "pa": "بھیت، رمز"
     },
     "پچھاتی": {
       "en": "recognised; grasped",
       "pos": "verb",
       "roman": "pachhātī",
-      "base": "پچھاننا"
+      "base": "پچھاننا",
+      "pa": "پچھانی، سمجھی"
     }
   }
 }

@@ -6,176 +6,214 @@
       "en": "eyes",
       "pos": "noun",
       "roman": "naināṅ",
-      "base": "نین"
+      "base": "نین",
+      "pa": "اکھاں"
     },
     "دے": {
       "en": "of (oblique)",
       "pos": "postposition",
       "roman": "de",
-      "base": "دا"
+      "base": "دا",
+      "pa": "سمبندھ دا نشان"
     },
     "وچ": {
       "en": "in",
       "pos": "postposition",
-      "roman": "vich"
+      "roman": "vich",
+      "pa": "وچ"
     },
     "روں": {
       "en": "to stay, dwell",
       "pos": "verb",
       "roman": "rahuṇ",
       "base": "رہنا",
-      "note": "Odd spelling: transliterated form standing for رہن (rahuṇ)."
+      "note": "Odd spelling: transliterated form standing for رہن (rahuṇ).",
+      "pa": "رہن، وسنا",
+      "note_pa": "انوکھا جوڑ: رہن لئی لکھیا گیا"
     },
     "ن": {
       "en": "not",
       "pos": "particle",
       "roman": "na",
-      "note": "Odd spelling for نہ."
+      "note": "Odd spelling for نہ.",
+      "pa": "نہ",
+      "note_pa": "انوکھا جوڑ: نہ لئی"
     },
     "سکھاوے": {
       "en": "pleases, suits (you)",
       "pos": "verb",
       "roman": "sukhāve",
       "base": "سکھاونا",
-      "note": "Here: staying in the eyes does not please you."
+      "note": "Here: staying in the eyes does not please you.",
+      "pa": "بھاندا، چنگا لگدا",
+      "note_pa": "ایتھے: اکھاں وچ رہنا تینوں نہیں بھاندا"
     },
     "اسیں": {
       "en": "we (the tears)",
       "pos": "pronoun",
       "roman": "asīṅ",
-      "note": "The speakers are the tears of the title."
+      "note": "The speakers are the tears of the title.",
+      "pa": "اسیں (اتھرو)",
+      "note_pa": "بولن والے سرناویں والے اتھرو نیں"
     },
     "واس": {
       "en": "dwelling, abode",
       "pos": "noun",
-      "roman": "vās"
+      "roman": "vās",
+      "pa": "واس، ٹکانا"
     },
     "وسائے": {
       "en": "settled, made (you) dwell",
       "pos": "verb",
       "roman": "vasāe",
-      "base": "وسانا"
+      "base": "وسانا",
+      "pa": "وسائے، ٹکائے"
     },
     "تسیں": {
       "en": "you",
       "pos": "pronoun",
-      "roman": "tusīṅ"
+      "roman": "tusīṅ",
+      "pa": "تسیں"
     },
     "سکھائے": {
       "en": "were made comfortable, cherished",
       "pos": "verb",
       "roman": "sukhāe",
       "base": "سکھاونا",
-      "note": "Uncertain: sense is 'you were made more at ease than we ourselves'."
+      "note": "Uncertain: sense is 'you were made more at ease than we ourselves'.",
+      "pa": "سکھ دتے، لاڈ کیتے",
+      "note_pa": "پکا نہیں: مطلب اے کہ تہانوں ساتھوں ودھ سکھ دتا گیا"
     },
     "ساتھوں": {
       "en": "than us",
       "pos": "pronoun",
-      "roman": "sāthoṅ"
+      "roman": "sāthoṅ",
+      "pa": "ساتھوں ودھ"
     },
     "بہتے": {
       "en": "more, much",
       "pos": "adverb",
-      "roman": "bahute"
+      "roman": "bahute",
+      "pa": "بہتے، ودھ"
     },
     "اکھپتلی": {
       "en": "pupil of the eye",
       "pos": "noun",
-      "roman": "akh-putlī"
+      "roman": "akh-putlī",
+      "pa": "اکھ دی پتلی"
     },
     "نے": {
       "en": "(agent marker)",
       "pos": "postposition",
-      "roman": "ne"
+      "roman": "ne",
+      "pa": "کرتا دا نشان"
     },
     "انک": {
       "en": "many, countless (images)",
       "pos": "adjective",
       "roman": "anek",
-      "note": "Odd spelling for انیک (anek)."
+      "note": "Odd spelling for انیک (anek).",
+      "pa": "انیک، بے شمار",
+      "note_pa": "انوکھا جوڑ: انیک لئی"
     },
     "سمائے": {
       "en": "held, contained",
       "pos": "verb",
       "roman": "samāe",
-      "base": "سمانا"
+      "base": "سمانا",
+      "pa": "سمائے، اندر رکھے"
     },
     "اڈار": {
       "en": "flier, one who flies off",
       "pos": "noun",
       "roman": "uḍār",
-      "note": "Addresses the beloved who would not stay."
+      "note": "Addresses the beloved who would not stay.",
+      "pa": "اڈن والا، اڈاری مارن والا",
+      "note_pa": "اوس محبوب نوں سدیا اے جیہڑا ٹکیا نہیں"
     },
     "ٹک": {
       "en": "steadily, still",
       "pos": "adverb",
-      "roman": "ṭik"
+      "roman": "ṭik",
+      "pa": "ٹک کے، ٹکا نال"
     },
     "بہو": {
       "en": "sit, stay",
       "pos": "verb",
       "roman": "baho",
-      "base": "بہنا"
+      "base": "بہنا",
+      "pa": "بہو، ٹکو"
     },
     "پتلی": {
       "en": "pupil of the eye",
       "pos": "noun",
-      "roman": "putlī"
+      "roman": "putlī",
+      "pa": "اکھ دی پتلی"
     },
     "جیوں": {
       "en": "as, like",
       "pos": "conjunction",
-      "roman": "jiuṅ"
+      "roman": "jiuṅ",
+      "pa": "جیویں"
     },
     "پنچھی": {
       "en": "bird",
       "pos": "noun",
-      "roman": "panchhī"
+      "roman": "panchhī",
+      "pa": "پنچھی، پرندہ"
     },
     "آلھنیوں": {
       "en": "from the nest",
       "pos": "noun",
       "roman": "ālhaṇioṅ",
-      "base": "آلھنا"
+      "base": "آلھنا",
+      "pa": "آلھنے توں"
     },
     "اڈے": {
       "en": "flies away",
       "pos": "verb",
       "roman": "uḍḍe",
-      "base": "اڈنا"
+      "base": "اڈنا",
+      "pa": "اڈ جاندا اے"
     },
     "مگر": {
       "en": "after, behind",
       "pos": "postposition",
-      "roman": "magar"
+      "roman": "magar",
+      "pa": "مگر، پچھے"
     },
     "تساڈے": {
       "en": "you (oblique: after you)",
       "pos": "pronoun",
       "roman": "tusāḍe",
-      "base": "تساڈا"
+      "base": "تساڈا",
+      "pa": "تہاڈے"
     },
     "ہن": {
       "en": "now",
       "pos": "adverb",
-      "roman": "hun"
+      "roman": "hun",
+      "pa": "ہن"
     },
     "ڈھونڈن": {
       "en": "to search",
       "pos": "verb",
       "roman": "ḍhūṇḍaṇ",
-      "base": "ڈھونڈنا"
+      "base": "ڈھونڈنا",
+      "pa": "لبھن"
     },
     "باہر": {
       "en": "out, outside",
       "pos": "adverb",
-      "roman": "bāhar"
+      "roman": "bāhar",
+      "pa": "باہر"
     },
     "گھلائے": {
       "en": "sent (out)",
       "pos": "verb",
       "roman": "ghalāe",
-      "base": "گھلنا"
+      "base": "گھلنا",
+      "pa": "گھلے، بھیجے"
     }
   }
 }
