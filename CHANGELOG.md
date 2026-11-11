@@ -9,7 +9,9 @@
 - Classical poets have no portraits from life. They are shown with later depictions, captioned as such:
   Bulleh Shah (19th-century lithograph), Waris Shah (Lahore, about 1859), Baba Farid (Guler painting),
   Shah Hussain (painting, about 1770). Sultan Bahu and Mian Muhammad Bakhsh are shown by their shrines.
-  Hashim Shah and Ustad Daman have no free image and keep the letter tile.
+  Hashim Shah is shown by the cover of a printed Sassi Punnun (public domain); Ustad Daman by Shah Hussain's
+  shrine in Lahore, where he is buried (CC BY-SA 3.0). No portrait of either is freely licensed: Commons,
+  Wikidata, the en/ur/pnb/pa Wikipedias and Openverse were searched. All 13 poets now have an image.
 - Modern poets have photographs: Bhai Vir Singh, Amrita Pritam, Shiv Kumar Batalvi, Munir Niazi and Surjit Patar.
 - Portraits also appear on the poets grid, home page cards, and as a round thumbnail in each poem's
   "About the poet" box. Sources were resized to 640 px; Astro serves responsive WebP (200/320/420 px).

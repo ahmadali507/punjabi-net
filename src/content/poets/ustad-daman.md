@@ -8,6 +8,11 @@ era: modern
 styles: [Modern, Political]
 region: "Lahore, Punjab"
 bio_short: "Lahore tailor and people's poet whose political verse, recited at rallies, drew the anger of successive rulers."
+portrait: ../../assets/portraits/ustad-daman.jpg
+portrait_caption: "The shrine of Shah Hussain in Lahore, where Ustad Daman is buried (no freely licensed photograph of him is available)."
+portrait_authentic: false
+portrait_credit: "Musab Bin Noor · CC BY-SA 3.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:The_graves_of_Maddho_Lal_and_Shah_Hussein,_Lahore.JPG"
 copyright_status: in_copyright
 bibliography:
   - title: "Daman de Moti"

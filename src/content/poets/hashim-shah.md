@@ -8,6 +8,11 @@ era: classical
 styles: [Qissa, Dohra]
 region: "Jagdev Kalan, Amritsar district"
 bio_short: "Poet of Sassi Punnun and of dohras. A carpenter by trade, he turned to poetry under the patronage of Maharaja Ranjit Singh."
+portrait: ../../assets/portraits/hashim-shah.jpg
+portrait_caption: "Cover of a printed edition of his Sassi Punnun, in Gurmukhi script (no portrait of him is known)."
+portrait_authentic: false
+portrait_credit: "Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Sassi_Punnu_-_Hashim.pdf"
 copyright_status: public_domain
 bibliography:
   - title: "Sassi Punnun"
