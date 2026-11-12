@@ -1,0 +1,45 @@
+{
+  "carousels": [
+    {
+      "id": "c001-maan-boli",
+      "status": "draft",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "ماں بولی کدے نہ مُکے",
+          "sub": "صدیاں پرانے بول، اج وی ساڈے",
+          "en": "Verses centuries old, still ours. Four poets of Punjab, in their own words."
+        },
+        {
+          "kind": "verse",
+          "poem": "ranjha-ranjha-krdi-ni-min-ape-ranjha",
+          "verses": [0],
+          "gist": "Calling out “Ranjha, Ranjha”, I have become Ranjha myself. Call me Dhido Ranjha now; let no one call me Heer."
+        },
+        {
+          "kind": "verse",
+          "poem": "frida-khak-nh-ndie",
+          "verses": [0, 1],
+          "gist": "Farid, do not scorn the dust; nothing is as great as dust. While we live it lies beneath our feet; when we die, it lies over us."
+        },
+        {
+          "kind": "verse",
+          "poem": "dl-dria-smndron-donghe",
+          "verses": [0],
+          "gist": "Hearts are deeper than rivers and seas; who can know what a heart holds? Inside it are the boats, the storms, the oars and the boatmen."
+        },
+        {
+          "kind": "closing",
+          "poem": "sda-nh-rop-glaban-ate-sda-nh",
+          "verses": [0],
+          "gist": "Roses do not keep their bloom forever, nor gardens their spring; nor will the parrots and bees keep circling forever.",
+          "close": "ایہناں بولاں نوں اسیں سانبھ رہے آں"
+        }
+      ],
+      "caption_top": "ماں بولی کدے نہ مُکے 🤍\nMay our mother tongue never fall silent.\n\nFour verses that Punjab has carried for centuries: Bulleh Shah, Baba Farid, Sultan Bahu and Mian Muhammad Bakhsh.",
+      "caption_end": "These words were sung in our grandparents' courtyards. If we don't read them, who will?\nWe are building a home for Punjabi poetry in Shahmukhi, with the meaning of every word. Coming soon.\n\nSave this, and send it to someone who still speaks Punjabi at home.",
+      "tags": "#PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #MaaBoli #ماں_بولی #BullehShah #BabaFarid #SultanBahu #MianMuhammadBakhsh #SufiPoetry #Punjabi",
+      "music": null
+    }
+  ]
+}
