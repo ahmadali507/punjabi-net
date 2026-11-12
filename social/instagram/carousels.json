@@ -52,6 +52,111 @@
       "posted_at": "2026-11-12",
       "code": "Dfp9nmjkZb1",
       "posted_via": "web browser, no music"
+    },
+    {
+      "id": "c002-farid",
+      "status": "approved",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "فریدا",
+          "sub": "اٹھ سو ورھے پرانے بول، اج وی سچے",
+          "en": "Baba Farid wrote these lines eight centuries ago. They still hold."
+        },
+        {
+          "kind": "verse",
+          "poem": "roti-miri-kath-di",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "My bread is of wood; hunger is my relish. Those who eat buttered bread will suffer much pain."
+        },
+        {
+          "kind": "verse",
+          "poem": "frida-ratin-vdian",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "Farid, the nights are long; my sides ache and ache. Cursed is the life of those who set their hope on others."
+        },
+        {
+          "kind": "verse",
+          "poem": "tn-tpe-tnor-jion",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "My body burns like an oven, my bones like firewood. I would walk till my feet tire, then on my head, if I might meet my Beloved."
+        },
+        {
+          "kind": "closing",
+          "poem": "frida-mn-midan-kr",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "Farid, make your mind a level field; smooth its pits and mounds. Then the fire of hell will never come near you.",
+          "close": "ایہناں بولاں نوں اسیں سانبھ رہے آں"
+        }
+      ],
+      "caption_top": "فریدا 🤍\nFour shaloks of Baba Farid, the first great poet of Punjabi, written some eight hundred years ago.",
+      "caption_end": "Punjabi poetry did not begin yesterday. Read it, say it aloud, pass it on.\nWe are building a home for Punjabi poetry in Shahmukhi, with the meaning of every word. Coming soon.\n\nSave this for a quiet night.",
+      "tags": "#BabaFarid #بابا_فرید #Shalok #شلوک #PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #MaaBoli #ماں_بولی #SufiPoetry #Punjabi",
+      "music": null
+    },
+    {
+      "id": "c003-rab-kithe",
+      "status": "approved",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "رب کتھے لبھدا اے؟",
+          "sub": "صوفیاں دا جواب، اپنے اندر",
+          "en": "Where is God found? Three Sufi poets of Punjab answer."
+        },
+        {
+          "kind": "verse",
+          "poem": "je-rb-nhatian-dhotian-mlda",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "If God were found by bathing and washing, the frogs and fish would find Him. God is found, Bahu, by those whose intentions are pure."
+        },
+        {
+          "kind": "verse",
+          "poem": "rba-mire-hal-da-mhrm-ton",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "O Lord, You alone know my state. You are within, You are without, You are in every pore. Says humble Hussain: I am nothing, all is You."
+        },
+        {
+          "kind": "verse",
+          "poem": "ak-alf-prho-chtkara-ae",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "Read the one Alif and be free. From one Alif came two, three, four, then thousands beyond counting; the point of that one Alif stands apart."
+        },
+        {
+          "kind": "closing",
+          "poem": "aih-tn-rb-sche-da-hjrh",
+          "verses": [
+            0
+          ],
+          "gist": "This body is the chamber of the true Lord; look within, O faqir. Do not beg favours of Khwaja Khizr: the water of life is inside you.",
+          "close": "ایہناں بولاں نوں اسیں سانبھ رہے آں"
+        }
+      ],
+      "caption_top": "رب کتھے لبھدا اے؟ 🤍\nWhere is God found? Sultan Bahu, Shah Hussain and Bulleh Shah all point the same way: inward.",
+      "caption_end": "Our grandparents knew these lines by heart. Let's not be the generation that forgets them.\nWe are building a home for Punjabi poetry in Shahmukhi, with the meaning of every word. Coming soon.\n\nShare it with someone who needs it today.",
+      "tags": "#SultanBahu #ShahHussain #BullehShah #Sufism #تصوف #PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #MaaBoli #ماں_بولی #SufiPoetry #Punjabi",
+      "music": null
     }
   ]
 }

@@ -73,6 +73,75 @@
         "id": "2172333223164138",
         "query": "Mai Ni Main Kehnu Aakhan Abida Parveen"
       }
+    },
+    {
+      "id": "006-farid-rukhi",
+      "poem": "rkhi-skhi-kha-ke",
+      "verses": [
+        0,
+        1
+      ],
+      "status": "approved",
+      "kind": "reel",
+      "seed": 3,
+      "audio": "original score (music/compose.py)"
+    },
+    {
+      "id": "007-bahu-alif",
+      "poem": "alf-alh-chnbe-di-boti",
+      "verses": [
+        0
+      ],
+      "status": "approved",
+      "kind": "reel",
+      "seed": 4,
+      "audio": "original score (music/compose.py)"
+    },
+    {
+      "id": "008-hussain-mahram",
+      "poem": "rba-mire-hal-da-mhrm-ton",
+      "verses": [
+        0,
+        1
+      ],
+      "status": "approved",
+      "kind": "reel",
+      "seed": 5,
+      "audio": "original score (music/compose.py)"
+    },
+    {
+      "id": "009-farid-birha",
+      "poem": "brha-brha-akhie",
+      "verses": [
+        0,
+        1
+      ],
+      "status": "approved",
+      "kind": "reel",
+      "seed": 6,
+      "audio": "original score (music/compose.py)"
+    },
+    {
+      "id": "010-bahu-parh-parh",
+      "poem": "prh-prh-lm-hzar-ktaban",
+      "verses": [
+        0
+      ],
+      "status": "approved",
+      "kind": "reel",
+      "seed": 7,
+      "audio": "original score (music/compose.py)"
+    },
+    {
+      "id": "011-mian-sajna",
+      "poem": "a-sjna-mnh-ds-kdain-jan-tire",
+      "verses": [
+        0
+      ],
+      "status": "approved",
+      "kind": "reel",
+      "seed": 8,
+      "audio": "original score (music/compose.py)"
     }
   ]
 }
