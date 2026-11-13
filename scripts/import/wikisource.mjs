@@ -88,7 +88,9 @@ function clean(line) {
     .replace(/<[^>]+>/g, '')
     .replace(/&nbsp;/g, ' ')
     .replace(/\s+/g, ' ')
-    .trim();
+    .trim()
+    // Gurmukhi vowel carriers left as Latin letters by an earlier conversion (ੳ → "a", ੲ → "e"), only inside Shahmukhi words.
+    .replace(/(?<![\p{L}])a(?=[ء-ۿ])/gu, 'اُ').replace(/(?<=[ء-ۿ])a|a(?=[ء-ۿ])/g, 'ؤ').replace(/(?<=[ء-ۿ])e|e(?=[ء-ۿ])/g, 'ئ');
 }
 
 /** Body text of a page: its <poem> blocks, as stanzas (arrays of lines). */
@@ -227,7 +229,9 @@ function build(dry) {
       if ((parts.length === 1 && haveUrl.has(decodeURIComponent(url))) || haveFirst.has(opening(verses[0].text))) { r.skipped++; if (process.env.DEBUG) console.log("skip", poet.id, title, "|", first); continue; }
       if (process.env.DEBUG) (r.src ??= {})[title] = (r.src[title] ?? 0) + 1;
       haveFirst.add(opening(verses[0].text));
-      const t = (parts.length > 1 ? (part.heading || first) : title.includes('/') ? first : title).replace(/[\s،,۔.!؟?؛;:]+$/, '');
+      const t = (parts.length > 1 ? (part.heading || first) : title.includes('/') ? first : title).replace(/[\s،,۔.!؟?؛;:]+$/, '')
+        // Wikisource tells same-named pages apart with (I), (II): keep the distinction in Punjabi numerals.
+        .replace(/\((I{1,3})\)$/, (_, r) => `(${'۱۲۳'[r.length - 1]})`);
       const o = order[title];
       const p = {
         poet: poet.id, form, title: t,

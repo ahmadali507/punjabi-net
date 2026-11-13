@@ -1,7 +1,7 @@
 ---
 poet: waris-shah
 form: qissa
-title: "ہیر آکھیا رانجھنا بُرا کِیتو (I)"
+title: "ہیر آکھیا رانجھنا بُرا کِیتو (۱)"
 title_en: "Heer, section 85"
 verses:
   - text: "ہیر آکھیا رانجھنا بُرا کِیتو\nساڈا کم ہے نال ویرائیاں دے"

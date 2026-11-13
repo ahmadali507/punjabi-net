@@ -1,0 +1,11 @@
+---
+poet: baba-farid
+form: shalok
+title: "جسا سے راتیں وڈیاں ڈو ڈو گانڈھنیاں"
+verses:
+  - text: "جسا سے راتیں وڈیاں ڈو ڈو گانڈھنیاں ۔۔\nتم اک جالُ ن سنگھیا اساں سبھے جالنیاں ۔۔"
+source:
+  book: "Shaloks attributed to Baba Farid outside the Guru Granth Sahib (punjabi-kavita.com, Shahmukhi)"
+  url: "https://www.punjabi-kavita.com/ShlokBabaFaridShahmukhi.php"
+verification_note: "Attributed to Baba Farid; this shalok is not in the Guru Granth Sahib, and its authorship is uncertain. Shahmukhi text from punjabi-kavita.com, a transliteration of its Gurmukhi text. Not yet checked against a printed edition."
+---

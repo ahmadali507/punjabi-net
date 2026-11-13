@@ -1,5 +1,26 @@
 # Changelog
 
+## Content: punjabi-kavita gap fill, 1,036 → 1,822 poems (2026-11-13)
+
+Poems Wikisource lacks, from punjabi-kavita.com's Shahmukhi pages, by `scripts/import/punjabi-kavita.mjs`.
+
+| Poet | Before | Now | Added |
+|---|---|---|---|
+| Bulleh Shah | 80 | 209 | 129 kafis |
+| Sultan Bahu | 35 | 204 | 169 abyat |
+| Hashim Shah | 33 | 227 | 194 dohras |
+| Baba Farid | 133 | 307 | 173 shaloks attributed to him outside the Guru Granth Sahib (each says so), 1 shabad |
+| Shah Hussain | 20 | 139 | 119 kafis |
+| Waris Shah | 630 | 631 | Mehraj Nama (attribution disputed; the poem says so) |
+
+- punjabi-kavita's Shahmukhi is a transliteration of its Gurmukhi, so spelling is less standard than Wikisource's;
+  every poem says this. Where both sites have a poem, the Wikisource text is kept: poems are matched on their
+  opening words and letters with spelling differences folded together, and on refrains (kafis that open at the
+  refrain on one site and at the first stanza on the other).
+- Fixed in both sources: Gurmukhi vowel carriers left as Latin "a"/"e" by the converters (now اُ / ؤ / ئ), and
+  Wikisource's (I)/(II) page labels in titles (now (۱)/(۲)). No Latin letters remain in any poem text.
+- The Guru Granth Sahib shaloks on punjabi-kavita were not imported: Wikisource's 123 are better spelled.
+
 ## Content: Wikisource import, 83 → 1,036 poems (2026-11-13)
 
 All of the Punjabi (Shahmukhi) poetry on Wikisource by our seven classical poets, imported by
