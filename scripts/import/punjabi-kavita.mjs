@@ -29,6 +29,19 @@ const PAGES = [
     note: 'Attributed to Baba Farid; this shalok is not in the Guru Granth Sahib, and its authorship is uncertain. ' + PK_NOTE },
   { page: 'MihrajNamaWarisShahShahmukhi', poet: 'waris-shah', form: 'nazm', book: 'Mehraj Nama', whole: 'مہراج نامہ',
     note: 'Attributed to Waris Shah; scholars disagree on whether he wrote it. ' + PK_NOTE },
+  // Bhai Vir Singh (1872–1957): public domain. Sources name the book itself, as the earlier Matak Hulare poems do.
+  { page: 'MatakHulareBhaiVirSinghShahmukhi', poet: 'bhai-vir-singh', form: 'nazm', book: 'Matak Hulare', plainBook: true, year: 1922,
+    note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Matak Hulare, 1922). Not yet checked against a printed edition." },
+  { page: 'TrelTupkeBhaiVirSinghShahmukhi', poet: 'bhai-vir-singh', form: 'nazm', book: 'Trel Tupke', plainBook: true,
+    note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Trel Tupke). Not yet checked against a printed edition." },
+  { page: 'BijlianDeHarBhaiVirSinghShahmukhi', poet: 'bhai-vir-singh', form: 'nazm', book: 'Bijlian de Har', plainBook: true,
+    note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Bijlian de Har). Not yet checked against a printed edition." },
+  { page: 'DilTarangBhaiVirSinghShahmukhi', poet: 'bhai-vir-singh', form: 'nazm', book: 'Dil Tarang', plainBook: true,
+    note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Dil Tarang). Not yet checked against a printed edition." },
+  { page: 'KambdiKalaiBhaiVirSinghShahmukhi', poet: 'bhai-vir-singh', form: 'nazm', book: 'Kambdi Kalai', plainBook: true,
+    note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Kambdi Kalai). Not yet checked against a printed edition." },
+  { page: 'KantMaheliBhaiVirSinghShahmukhi', poet: 'bhai-vir-singh', form: 'baran-maah', book: 'Kant Maheli', plainBook: true,
+    note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Kant Maheli). Not yet checked against a printed edition." },
 ];
 
 async function fetchAll() {
@@ -62,7 +75,13 @@ function stanzas(body) {
 }
 
 /** The poem area of a page: from its <h1> to the end of <main> (the footer and menus are not poetry). */
-const mainContent = (html) => html.slice(html.indexOf('<h1'), html.indexOf('</main>') > 0 ? html.indexOf('</main>') : undefined);
+const mainContent = (html) => {
+  const end = [html.indexOf('</main>'), html.search(/Contact Us/i)].filter((i) => i > 0);
+  return html.slice(Math.max(0, html.indexOf('<h1')), end.length ? Math.min(...end) : undefined);
+};
+
+/** A stanza that is wholly in brackets is an editor's note ("this poem translates …"), not verse. */
+const isNote = (st) => /^\([\s\S]*\)$/.test(st.join('\n').trim());
 
 /** One entry per <h3> section: [anchor, heading, stanzas]. */
 function sections(html) {
@@ -71,7 +90,12 @@ function sections(html) {
     const [head, ...rest] = p.split(/<\/h3>/i);
     const anchor = head.match(/name="([^"]+)"/)?.[1] ?? null;
     const heading = text(head).trim().replace(/^[\d۰-۹]+\s*\.\s*/, '').split('\n')[0].trim();
-    return [anchor, heading, stanzas(rest.join(''))];
+    let sts = stanzas(rest.join(''));
+    // "(پاٹھ بھید)": everything after it is another reading of the whole poem; keep it as a note.
+    const v = sts.findIndex((st) => st.length === 1 && /^\(?پاٹھ بھید\)?$/.test(st[0]));
+    const variant = v >= 0 ? sts.slice(v + 1).map((st) => st.join(' / ')) : [];
+    if (v >= 0) sts = sts.slice(0, v);
+    return [anchor, heading, sts.filter((st) => !isNote(st)), sts.filter(isNote).map((st) => st.join(' ')), variant];
   });
 }
 
@@ -159,7 +183,7 @@ function build(dry) {
       const body = main.slice(main.indexOf('</h2>', main.indexOf('<h2')) + 5);
       items = [[null, cfg.whole, stanzas(body).filter((s) => !/^\(.*\)$/.test(s.join(' ')))]];
     } else items = sections(html);
-    for (const [anchor, heading, sts] of items) {
+    for (const [anchor, heading, sts, notes = [], variant = []] of items) {
       if (!sts.length) continue;
       r.found++;
       const lines = sts.flat();
@@ -177,8 +201,10 @@ function build(dry) {
       ids.add(id);
       const fm = ['---', `poet: ${cfg.poet}`, `form: ${cfg.form}`, `title: ${q(title)}`, 'verses:'];
       for (const v of verses) { fm.push(`  - text: ${q(v.text)}`); if (v.refrain) fm.push('    refrain: true'); }
-      fm.push('source:', `  book: ${q(`${cfg.book} (punjabi-kavita.com, Shahmukhi)`)}`, `  url: ${q(`${BASE}${cfg.page}.php${anchor ? '#' + anchor : ''}`)}`);
+      fm.push('source:', `  book: ${q(cfg.plainBook ? cfg.book : `${cfg.book} (punjabi-kavita.com, Shahmukhi)`)}`, ...(cfg.year ? [`  year: ${cfg.year}`] : []), `  url: ${q(`${BASE}${cfg.page}.php${anchor ? '#' + anchor : ''}`)}`);
       fm.push(`verification_note: ${q(cfg.note ?? PK_NOTE)}`, '---', '');
+      if (variant.length) fm.push('Another reading of this poem given by punjabi-kavita.com:', '', ...variant.map((l) => `> ${l}  `), '');
+      if (notes.length) fm.push("Editor's note on punjabi-kavita.com (in Punjabi):", '', ...notes.map((n) => `> ${n}`), '');
       if (!dry) writeFileSync(`${POEMS}/${id}.md`, fm.join('\n'));
       r.new++;
     }

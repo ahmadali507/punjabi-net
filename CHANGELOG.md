@@ -1,5 +1,14 @@
 # Changelog
 
+## Content: Bhai Vir Singh, 10 → 175 poems; editorial notes kept out of verse (2026-11-13)
+
+- Bhai Vir Singh (d. 1957, public domain): all of Matak Hulare (59), Trel Tupke (48), Bijlian de Har (42),
+  Kambdi Kalai (21), Dil Tarang (6) and the baran maah Kant Maheli, from punjabi-kavita.com's Shahmukhi.
+- Editors' remarks no longer appear as verse. Bracketed notes ("this poem translates a ghazal of Hafiz") and
+  "پاٹھ بھید" variant readings now go in the poem's notes: in Saif ul Malook a variant is quoted beside the couplet
+  it varies; on punjabi-kavita it is the whole alternative version. Page footers are cut off before parsing.
+- 1,987 poems in all.
+
 ## Content: punjabi-kavita gap fill, 1,036 → 1,822 poems (2026-11-13)
 
 Poems Wikisource lacks, from punjabi-kavita.com's Shahmukhi pages, by `scripts/import/punjabi-kavita.mjs`.

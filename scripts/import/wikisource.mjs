@@ -149,6 +149,19 @@ function pieces(sts, form) {
 /** Lines that are editorial labels rather than verse: "(...)" glosses and "۔۔۔ title ۔۔۔" banners. */
 const LABEL = /^\(.*\)$|^۔{2,}.*۔{2,}$/;
 
+/** "پاٹھ بھید" (variant reading) labels the next stanza as another reading of the one before it. */
+const VARIANT = /^\(?پاٹھ بھید\)?$/;
+function variants(sts) {
+  const keep = [], notes = [];
+  for (let i = 0; i < sts.length; i++) {
+    if (sts[i].length === 1 && VARIANT.test(sts[i][0])) {
+      if (sts[i + 1]) notes.push({ of: keep.at(-1)?.join(' / ') ?? '', text: sts[i + 1].join(' / ') });
+      i++;
+    } else keep.push(sts[i]);
+  }
+  return { keep, notes };
+}
+
 function toVerses(sts, form) {
   // A dohra is two couplets; store each couplet as its own verse, as the rest of the archive does.
   if (form === 'dohra') sts = sts.flatMap((s) => (s.length > 2 && s.length % 2 === 0 ? s.flatMap((_, i) => (i % 2 ? [] : [s.slice(i, i + 2)])) : [s]));
@@ -188,6 +201,7 @@ function frontmatter(p) {
   for (const v of p.verses) { lines.push(`  - text: ${q(v.text)}`); if (v.refrain) lines.push('    refrain: true'); }
   lines.push('source:', `  book: ${q(p.book)}`, `  url: ${q(p.url)}`);
   lines.push(`verification_note: ${q(p.note)}`, '---', '');
+  if (p.variants?.length) lines.push('Variant readings given in the source:', '', ...p.variants.flatMap((v) => [`- of «${v.of}»:`, `  «${v.text}»`]), '');
   if (p.rubrics?.length) lines.push('Chapter headings in the source (Persian, with a Punjabi gloss in brackets):', '', ...p.rubrics.map((r) => `- ${r}`), '');
   return lines.join('\n');
 }
@@ -222,7 +236,8 @@ function build(dry) {
     const url = `https://wikisource.org/wiki/${encodeURIComponent(title.replace(/ /g, '_'))}`;
     const parts = pieces(sts, form);
     for (const part of parts) {
-      const verses = toVerses(part.sts, form);
+      const { keep, notes: variantNotes } = variants(part.sts);
+      const verses = toVerses(keep, form);
       if (!verses.length) continue;
       // Title: the first line of verse, skipping siharfi letter labels such as "علف-".
       const first = verses.flatMap((v) => v.text.split('\n')).find((l) => !/^\S{1,6}\s*-$/.test(l)) ?? verses[0].text.split('\n')[0];
@@ -238,6 +253,7 @@ function build(dry) {
         title_en: o ? `${o.label}, section ${o.n}` : undefined,
         verses,
         rubrics: part.rubrics,
+        variants: variantNotes,
         book: `Wikisource (Punjabi), public-domain transcription: ${title}`,
         url,
         note: 'Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition.',
