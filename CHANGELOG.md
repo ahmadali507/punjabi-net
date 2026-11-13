@@ -1,5 +1,27 @@
 # Changelog
 
+## Content: Wikisource import, 83 → 1,036 poems (2026-11-13)
+
+All of the Punjabi (Shahmukhi) poetry on Wikisource by our seven classical poets, imported by
+`scripts/import/wikisource.mjs` (re-runnable: `fetch` caches the pages in .cache/, `build` skips poems already here).
+
+| Poet | Before | Now | What was added |
+|---|---|---|---|
+| Waris Shah | 10 | 630 | the whole of Heer, 620 more bands, numbered "Heer, section N" in Wikisource's order |
+| Baba Farid | 10 | 133 | every shalok on Wikisource, plus five longer pieces |
+| Mian Muhammad Bakhsh | 11 | 95 | Saif ul Malook in full (sections 2–65), 20 more dohras |
+| Bulleh Shah | 11 | 80 | 56 dohras, 3 siharfis, Baran Maah, Athwara, Gandhan, 7 kafis |
+| Sultan Bahu | 10 | 35 | 25 more abyat |
+| Hashim Shah | 11 | 33 | Sohni Mahiwal, Shirin Farhad and Heer Ranjha (each whole), 4 siharfis, 7 deodhs, 4 munajats |
+| Shah Hussain | 10 | 20 | 10 more kafis |
+
+- Text is verbatim from the `<poem>` blocks; only wiki markup is removed. Stanzas follow the source's blank lines;
+  dohras are stored couplet by couplet as before; numbered collections become one poem per number; a qissa stays
+  one poem. Saif ul Malook's Persian chapter rubrics are listed in each section's notes, not as verse.
+- Short poems are not truncated: a Farid shalok is two couplets and a Bahu bait four lines by form.
+- New poems have no word glosses yet (the reader works without them); every one says "Not yet checked against a
+  printed edition."
+
 ## Punjabi pages fully in Punjabi (2026-11-11)
 
 - **/pa now shows no English and no romanisation.** Before, proverb meanings, dictionary senses, poet bios, form
