@@ -55,7 +55,7 @@
     },
     {
       "id": "c002-farid",
-      "status": "approved",
+      "status": "posted",
       "slides": [
         {
           "kind": "cover",
@@ -104,7 +104,10 @@
       "caption_top": "فریدا 🤍\nFour shaloks of Baba Farid, the first great poet of Punjabi, written some eight hundred years ago.",
       "caption_end": "Punjabi poetry did not begin yesterday. Read it, say it aloud, pass it on.\nWe are building a home for Punjabi poetry in Shahmukhi, with the meaning of every word. Coming soon.\n\nSave this for a quiet night.",
       "tags": "#BabaFarid #بابا_فرید #Shalok #شلوک #PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #MaaBoli #ماں_بولی #SufiPoetry #Punjabi",
-      "music": null
+      "music": null,
+      "posted_at": "2026-11-13T10:07:01Z",
+      "code": "DfrYMpbESdN",
+      "posted_via": "web browser (T3 preview), no music"
     },
     {
       "id": "c003-rab-kithe",
