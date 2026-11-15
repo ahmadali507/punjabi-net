@@ -111,7 +111,7 @@
     },
     {
       "id": "c003-rab-kithe",
-      "status": "approved",
+      "status": "posted",
       "slides": [
         {
           "kind": "cover",
@@ -159,7 +159,9 @@
       "caption_top": "رب کتھے لبھدا اے؟ 🤍\nWhere is God found? Sultan Bahu, Shah Hussain and Bulleh Shah all point the same way: inward.",
       "caption_end": "Our grandparents knew these lines by heart. Let's not be the generation that forgets them.\nWe are building a home for Punjabi poetry in Shahmukhi, with the meaning of every word. Coming soon.\n\nShare it with someone who needs it today.",
       "tags": "#SultanBahu #ShahHussain #BullehShah #Sufism #تصوف #PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #MaaBoli #ماں_بولی #SufiPoetry #Punjabi",
-      "music": null
+      "music": null,
+      "posted_at": "2026-11-15T09:01:57Z",
+      "code": "DfwaWBAkbxU"
     }
   ]
 }
