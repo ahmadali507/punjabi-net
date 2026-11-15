@@ -5,6 +5,7 @@ app does it, so Instagram credits the artist and handles the licence.
 
     ~/.local/tts-venv/bin/python social/instagram/post_reel.py            # dry run: login check + what would post
     ~/.local/tts-venv/bin/python social/instagram/post_reel.py --publish  # post the next approved Reel (one per run)
+    … post_reel.py --id <id> [--publish]                         # a specific Reel the owner asked for
 """
 import json
 import logging
@@ -29,7 +30,9 @@ def main():
     print(f'Logged in as @{me.username}')
     if me.username != 'punjabidotnet':
         raise SystemExit('Wrong account: refusing to post.')
-    ready = [p for p in data['posts'] if p.get('status') == 'approved'][:1]
+    want = sys.argv[sys.argv.index('--id') + 1] if '--id' in sys.argv else None  # owner-requested post, by id
+    ready = [p for p in data['posts'] if p['id'] == want and p.get('status') != 'posted'] if want else \
+        [p for p in data['posts'] if p.get('status') == 'approved'][:1]
     if not ready:
         print('No approved posts waiting.')
         return
