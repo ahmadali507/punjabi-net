@@ -12,7 +12,7 @@ Three posts a day, posted from T3's browser (Instagram website, logged in as pun
 - Post only items with `"status": "approved"`; take the first one in file order. Only ONE post per run.
 - Reels posted from the web carry their own audio, so a reel must have NO `track` (original score from music/compose.py only). Never upload a commercial recording.
 - Verse text always comes from the poem files (`src/content/poems`). Never type or invent poem text.
-- Captions are short, real and organic: one or two lines a person would actually write (a feeling or a plain hint of what the verse says), the poet's name, and 2–3 hashtags. No pasted verses, no translations, no "coming soon" or website pitch, no calls to share/save, no credits block. Each item carries its caption in a `caption` field; the render scripts copy it to the caption file.
+- Captions are short, real and organic: one or two lines a person would actually write (a feeling or a plain hint of what the verse says), the poet's name, and 2–3 hashtags. No pasted verses, no translations, no "coming soon" or website pitch, no calls to share/save, no credits block. Audio credit: if a post ever uses a singer's voice or recording, name the singer in the caption (e.g. "🎵 Abida Parveen"); for our own score write "🎵 Original music". Never name a singer who isn't actually heard. Each item carries its caption in a `caption` field; the render scripts copy it to the caption file.
 - If Instagram shows a checkpoint ("Confirm you're human", "Suspicious login", a code request, "Try again later" or any block), STOP: do not retry, set nothing to posted, and write the problem to `out/schedule.log`. The owner handles it.
 - If not logged in, stop and log it (do not try to log in with a password).
 

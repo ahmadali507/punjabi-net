@@ -81,11 +81,13 @@
         0,
         1
       ],
-      "status": "approved",
+      "status": "posted",
       "kind": "reel",
       "seed": 3,
       "audio": "original score (music/compose.py)",
-      "caption": "Dry bread, cold water, and a content heart. 🤍\nBaba Farid\n\n#BabaFarid #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "Dry bread, cold water, and a content heart. 🤍\nBaba Farid\n🎵 Original music\n\n#BabaFarid #PunjabiPoetry #پنجابی_شاعری",
+      "posted_at": "2026-11-15T09:19:02Z",
+      "code": "DfwcN9oJtoz"
     },
     {
       "id": "007-bahu-alif",
