@@ -162,6 +162,59 @@
       "music": null,
       "posted_at": "2026-11-15T09:01:57Z",
       "code": "DfwaWBAkbxU"
+    },
+    {
+      "id": "c004-sada-na",
+      "status": "approved",
+      "slides": [
+        {
+          "kind": "cover",
+          "title": "سدا نہ",
+          "sub": "کجھ وی سدا نہیں رہندا",
+          "en": "Nothing stays forever. Four couplets of Mian Muhammad Bakhsh."
+        },
+        {
+          "kind": "verse",
+          "poem": "sda-nh-rst-bazarin-oksi-sda-nh-ronq",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "Markets will not always sell, nor cities always bustle, nor youth and rivers always surge; even the noon sun fades, for faithlessness, Muhammad, is the custom of this world."
+        },
+        {
+          "kind": "verse",
+          "poem": "sda-nh-lat-chraghan-oali-sda-nh-soz",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "The lamp’s flame and the moth’s burning do not last, nor cranes flying in rows; henna-red hands and jingling bangles fade, and the girls of the spinning circle, Muhammad, will not always sit together."
+        },
+        {
+          "kind": "verse",
+          "poem": "man-nh-kije-rop-ghne-da-oars-kon",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "Do not be proud of great beauty, for no one keeps it; branches will not stay green nor gardens bloom, the bees will not always circle nor peace always hold. Why, Muhammad, does the gardener not let us walk in the garden today?"
+        },
+        {
+          "kind": "closing",
+          "poem": "kjh-vsah-nh-sah-aie-da-man",
+          "verses": [
+            0,
+            1
+          ],
+          "gist": "There is no trusting even the next breath, so why be proud? The body you tend so carefully goes into the dust. Fill your pitcher while there is light, girl; when evening falls, Muhammad, the way home is frightening.",
+          "close": "ایہناں بولاں نوں اسیں سانبھ رہے آں"
+        }
+      ],
+      "caption_top": "سدا نہ 🤍\nNothing stays forever. Four couplets of Mian Muhammad Bakhsh on beauty, youth and time.",
+      "caption_end": "Punjab has sung these lines for generations. Say them aloud, pass them on.\nWe are building a home for Punjabi poetry in Shahmukhi, with the meaning of every word. Coming soon.\n\nSave this for the day you need it.",
+      "tags": "#MianMuhammadBakhsh #میاں_محمد_بخش #Sufism #تصوف #PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #MaaBoli #ماں_بولی #SufiPoetry #Punjabi",
+      "music": null
     }
   ]
 }
