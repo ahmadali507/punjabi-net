@@ -7,7 +7,7 @@ Posts are generated from the archive, approved by the owner, then published one 
 2. **Render** — `node social/instagram/render.mjs [id…]` writes `out/<id>.png` (preview), `out/<id>.jpg` (upload,
    1080×1350) and `out/<id>.txt` (caption). Needs `playwright-core` (`PLAYWRIGHT_CORE=/path/to/index.mjs`).
 3. **Reels** — `node social/instagram/video.mjs <id>` writes `out/<id>.mp4` (1080×1920, 30 fps) and
-   `out/<id>-reel.txt` (caption with the "coming soon" hook). A title card, then the verse revealed word by word,
+   `out/<id>-reel.txt` (the item's short hand-written `caption`). A title card, then the verse revealed word by word,
    each word entering on its own santoor note of an original score made for that post by `music/compose.py`
    (Raag Kafi: tanpura, strings, bass, santoor, chimes, all synthesised, so nothing to license; `seed` in
    posts.json changes the melody). Needs ffmpeg/ffprobe on PATH and a Python venv with numpy + scipy (PN_PY).

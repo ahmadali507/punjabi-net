@@ -84,7 +84,8 @@
       "status": "approved",
       "kind": "reel",
       "seed": 3,
-      "audio": "original score (music/compose.py)"
+      "audio": "original score (music/compose.py)",
+      "caption": "Dry bread, cold water, and a content heart. 🤍\nBaba Farid\n\n#BabaFarid #PunjabiPoetry #پنجابی_شاعری"
     },
     {
       "id": "007-bahu-alif",
@@ -95,7 +96,8 @@
       "status": "approved",
       "kind": "reel",
       "seed": 4,
-      "audio": "original score (music/compose.py)"
+      "audio": "original score (music/compose.py)",
+      "caption": "The jasmine a murshid plants in the heart. 🌼\nSultan Bahu\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری"
     },
     {
       "id": "008-hussain-mahram",
@@ -107,7 +109,8 @@
       "status": "approved",
       "kind": "reel",
       "seed": 5,
-      "audio": "original score (music/compose.py)"
+      "audio": "original score (music/compose.py)",
+      "caption": "Only He knows what is inside. 🤍\nShah Hussain\n\n#ShahHussain #PunjabiPoetry #پنجابی_شاعری"
     },
     {
       "id": "009-farid-birha",
@@ -119,7 +122,8 @@
       "status": "approved",
       "kind": "reel",
       "seed": 6,
-      "audio": "original score (music/compose.py)"
+      "audio": "original score (music/compose.py)",
+      "caption": "Farid called the pain of separation a king.\n\n#BabaFarid #PunjabiPoetry #پنجابی_شاعری"
     },
     {
       "id": "010-bahu-parh-parh",
@@ -130,7 +134,8 @@
       "status": "approved",
       "kind": "reel",
       "seed": 7,
-      "audio": "original score (music/compose.py)"
+      "audio": "original score (music/compose.py)",
+      "caption": "A thousand books read, and not one letter of love. 📖\nSultan Bahu\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری"
     },
     {
       "id": "011-mian-sajna",
@@ -141,7 +146,8 @@
       "status": "approved",
       "kind": "reel",
       "seed": 8,
-      "audio": "original score (music/compose.py)"
+      "audio": "original score (music/compose.py)",
+      "caption": "For someone who is far away. 🤍\nMian Muhammad Bakhsh\n\n#MianMuhammadBakhsh #PunjabiPoetry #پنجابی_شاعری"
     }
   ]
 }

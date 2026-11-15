@@ -103,8 +103,7 @@ for (const [i, { s, html }] of slides.entries()) {
 }
 await browser.close();
 
-// caption: the verses as text (from the poem files), credits, mission, tags
-const verses = slides.filter((x) => x.meta).map(({ meta, s }) => `${meta.stanzas.map((l) => l.join('\n')).join('\n')}\n— ${meta.poet.name.pa} · ${meta.poet.name.en}${s.gist ? `\n${s.gist}` : ''}`);
-const caption = [post.caption_top, '', ...verses.flatMap((v) => [v, '']), post.caption_end, '', post.tags].join('\n');
-writeFileSync(join(OUT, 'caption.txt'), caption.trim() + '\n');
+// caption: short and hand-written (the item's `caption` field). The slides already carry the verses.
+if (!post.caption) throw new Error(`${id}: add a short hand-written "caption" to carousels.json`);
+writeFileSync(join(OUT, 'caption.txt'), post.caption.trim() + '\n');
 console.log(`rendered ${total} slides → ${OUT}`);

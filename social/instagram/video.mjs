@@ -23,6 +23,7 @@ const { chromium } = await import(process.env.PLAYWRIGHT_CORE ?? 'playwright-cor
 const id = process.argv[2];
 if (!id) throw new Error('usage: node social/instagram/video.mjs <post-id>');
 const post = JSON.parse(readFileSync(join(HERE, 'posts.json'), 'utf8')).posts.find((p) => p.id === id);
+if (post && !post.caption) throw new Error(`${id}: add a short hand-written "caption" to posts.json`);
 const DIR = join(HERE, 'out', id);
 mkdirSync(DIR, { recursive: true });
 
@@ -200,18 +201,7 @@ execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(FPS), '
 execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', join(FR, `${String(Math.round((timing.end_card - 0.5) * FPS)).padStart(5, '0')}.jpg`), '-q:v', '3', join(DIR, 'cover.jpg')]);
 rmSync(FR, { recursive: true, force: true });
 
-/* ---------- caption ---------- */
-const TAGS = { 'bulleh-shah': '#BullehShah #بلھے_شاہ', 'baba-farid': '#BabaFarid #بابا_فرید', 'sultan-bahu': '#SultanBahu #سلطان_باہو',
-  'waris-shah': '#WarisShah #وارث_شاہ #HeerRanjha', 'shah-hussain': '#ShahHussain #شاہ_حسین' };
-const caption = [
-  poem.title, `— ${poet.name.pa} · ${poet.name.en}`, '',
-  stanzas.map((s) => s.lines.map((l) => l.join(' ')).join('\n')).join('\n\n'), '',
-  `${form.name.pa} · ${form.name.en}`, '',
-  'punjabi.net — پنجابی شاعری پڑھن وچ تہاڈا ساتھی۔ جلدی آ رہی اے۔',
-  'punjabi.net — to help you read Punjabi poetry. Coming soon.', '',
-  timing.track ? `Vocals: ${timing.track.artist} (“${timing.track.title}”). Poetry: ${poet.name.en}.` : 'Music: original.',
-  poem.source.book.startsWith('Wikisource') ? 'Text: public-domain transcription, Wikisource (Punjabi).' : `Text: ${poem.source.book}.`, '',
-  `#PunjabiPoetry #پنجابی_شاعری #Shahmukhi #شاہ_مکھی #PunjabiSufiPoetry ${TAGS[poem.poet] ?? ''}`.trim(),
-].join('\n');
+/* ---------- caption: short and hand-written (the item's `caption` field); the video already shows the verse ---------- */
+const caption = post.caption.trim();
 writeFileSync(join(HERE, 'out', `${id}-reel.txt`), caption + '\n');
 console.log(`${out}  (${timing.duration.toFixed(1)}s)`);
