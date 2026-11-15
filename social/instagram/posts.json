@@ -104,11 +104,13 @@
       "verses": [
         0
       ],
-      "status": "approved",
+      "status": "posted",
+      "posted_at": "2026-11-15T15:02:34Z",
+      "code": "DfxDkFnpMkf",
       "kind": "reel",
       "seed": 4,
       "audio": "original score (music/compose.py)",
-      "caption": "The jasmine a murshid plants in the heart. 🌼\nSultan Bahu\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "The jasmine a murshid plants in the heart. 🌼\nSultan Bahu\n🎵 Original music\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری"
     },
     {
       "id": "008-hussain-mahram",
