@@ -41,11 +41,12 @@ def main():
     timing = json.loads((out / post['id'] / 'timing.json').read_text())
     caption = (out / f"{post['id']}-reel.txt").read_text().strip()
     if '--publish' not in sys.argv:
-        print(f"Dry run. Would post {post['id']} ({timing['duration']:.0f}s)" + (f", music: {timing['track']['title']} — {timing['track']['artist']}" if timing.get('track') else ''))
+        print(f"Dry run. Would post {post['id']} ({timing['duration']:.0f}s, {'original audio' if post.get('style') == 'lyric' else 'music sticker'})" + (f", music: {timing['track']['title']} — {timing['track']['artist']}" if timing.get('track') else ''))
         return
 
     extra = {}
-    if timing.get('track'):
+    # lyric reels (pushto.net structure) carry the singer's recording in the video itself, as original audio
+    if timing.get('track') and post.get('style') != 'lyric':
         track = Track(**json.loads((out / 'tracks' / f"{timing['track']['id']}.json").read_text()))
         extra = cl.clip_music_extra_data(track, audio_asset_start_time=timing['track']['start_ms'],
                                          overlap_duration=timing['track']['duration_ms'], original_volume=0.0)
