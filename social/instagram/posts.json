@@ -28,7 +28,7 @@
         0,
         1
       ],
-      "status": "draft",
+      "status": "posted",
       "kind": "reel",
       "track": {
         "id": "359562841268112",
@@ -95,7 +95,11 @@
       ],
       "end_at": 173.9,
       "audio": "singer recording as original audio, each line once (cuts)",
-      "pad": 1.2
+      "pad": 1.2,
+      "posted_at": "2026-11-16T12:18:47+00:00",
+      "account": "punjabidotnet",
+      "media_id": "4031661083951566354_16922094236",
+      "code": "DfzVmUrsw4S"
     },
     {
       "id": "003-sultan-bahu",
