@@ -416,6 +416,77 @@
       "caption": "اک نکتے وچ گلّ مکدی اے | بلھے شاہ (Bulleh Shah), sung by Shubhangi Joshi\n\nThe whole kafi, all five stanzas.\n\nVocals: Shubhangi Joshi. Poetry: Bulleh Shah. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry",
       "audio": "singer recording as original audio, whole kafi, each line once (cuts)",
       "pad": 1.0
+    },
+    {
+      "id": "013-hussain-mahram-abida",
+      "poem": "rba-mire-hal-da-mhrm-ton",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "624458423380548",
+        "query": "Rabba Mere Haal Da Mehram Tu",
+        "listen": 900
+      },
+      "singer": "Abida Parveen",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "verses": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "014-farid-birha-ragi",
+      "poem": "brha-brha-akhie",
+      "status": "approved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1735052270217443",
+        "query": "Birha Birha Akhiyai",
+        "listen": 520
+      },
+      "singer": "Bhai Harjinder Singh",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "brha-brha-akhie",
+          "verses": [
+            0,
+            1
+          ],
+          "gists": [
+            "Separation, separation, we keep saying; separation, you are the king.",
+            "The body in which this longing never wakes, know that body to be a cremation ground."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 0.8,
+          "to": 16.0,
+          "lines": [
+            1.2,
+            9.7
+          ]
+        },
+        {
+          "from": 86.5,
+          "to": 96.2,
+          "lines": [
+            86.9,
+            92.0
+          ],
+          "end": 95.6
+        },
+        {
+          "from": 148.0,
+          "to": 162.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "caption": "بِرہا بِرہا آکھیے | بابا فرید (Baba Farid), sung by Bhai Harjinder Singh\n\nVocals: Bhai Harjinder Singh. Poetry: Baba Farid. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry"
     }
   ]
 }
