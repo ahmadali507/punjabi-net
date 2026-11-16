@@ -89,7 +89,7 @@ def transcribe(audio: Path, seconds: float) -> list[dict]:
 
 # ---------- alignment ----------
 
-def match_line(line: dict, units: list[dict], after: float, gurmukhi: bool):
+def match_line(line: dict, units: list[dict], after: float, gurmukhi: bool, until: float = 1e9):
     """Best window of sung words (start ≥ after) for one of our lines: (score, start, end, word starts)."""
     best = (0.0, None)
     ours = [w['gur'] if gurmukhi else w['text'] for w in line['words']]
@@ -99,6 +99,8 @@ def match_line(line: dict, units: list[dict], after: float, gurmukhi: bool):
         words = [w for w in u['words'] if w['start'] >= after - 0.01] or []
         n = len(words)
         for i in range(n):
+            if words[i]['start'] > until:  # the line must begin near its hand-set time
+                break
             for k in range(max(1, len(ours) - 3), len(ours) + 4):
                 win = words[i:i + k]
                 if not win:
@@ -147,9 +149,12 @@ def main():
             print(f"{u['start']:7.1f}-{u['end']:6.1f}  {u['text']}")
         return
 
-    after, placed = post['track'].get('from', 0.0), []
-    for l in picked:
-        s, m = match_line(l, units, after, gurmukhi)
+    # "lines_at": optional rough time (s) for each line, by hand from --show, when the transcription is too garbled
+    after, placed, at = post['track'].get('from', 0.0), [], post['track'].get('lines_at')
+    for i, l in enumerate(picked):
+        if at:
+            after = at[i] - 1.5
+        s, m = match_line(l, units, after, gurmukhi, at[i] + 2.0 if at else 1e9)
         print(f"{s:.2f}  {m['start'] if m else '-':>7}  {' '.join(w['text'] for w in l['words'])}")
         if not m or s < 0.35:
             raise SystemExit(f'Line not found in the recording (score {s:.2f}). Check with --show, or choose other lines.')

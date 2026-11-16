@@ -50,10 +50,11 @@ const timing = JSON.parse(readFileSync(join(DIR, 'timing.json'), 'utf8'));
 /* ---------- page ---------- */
 const LOGO = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#23211d"/><g fill="none" stroke="#c9962a" stroke-width="3.6" stroke-linecap="round"><path d="M18 17 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/><path d="M15 24.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M12 32 q 5 -4.5 10 0 t 10 0 t 10 0 t 10 0"/><path d="M15 39.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M18 47 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/></g></svg>`;
 let li = 0;
-const verseHtml = stanzas.map((s, si) => `${si ? '<div class="gap"></div>' : ''}${s.lines.map((words) => {
+// one page per stanza: a long reel shows each stanza on its own, in turn, as it is sung
+const verseHtml = stanzas.map((s, si) => `<div class="pg" data-p="${si}">${s.lines.map((words) => {
   const n = li++;
-  return `<p class="l${s.refrain ? ' r' : ''}" data-line="${n}">${words.map((w, wi) => `<span class="w" data-l="${n}" data-w="${wi}">${esc(w)}</span>`).join(' ')}</p>`;
-}).join('')}`).join('');
+  return `<p class="l${s.refrain ? ' r' : ''}" data-line="${n}" data-p="${si}">${words.map((w, wi) => `<span class="w" data-l="${n}" data-w="${wi}">${esc(w)}</span>`).join(' ')}</p>`;
+}).join('')}</div>`).join('');
 
 // Dust motes: fixed seeds so every render is identical.
 let seed = 11;
@@ -84,7 +85,7 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 .l{font-size:var(--fs);line-height:1.95;text-wrap:balance}
 .l.r{color:#855c00}
 .w{display:inline-block;will-change:opacity,filter,transform}
-.gap{height:40px}
+.pg{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center}
 .vfoot{position:absolute;bottom:170px;left:0;right:0;text-align:center}
 .vfoot .pname{font-size:52px;color:#855c00}
 .vfoot .pen{font-size:24px}
@@ -137,7 +138,7 @@ await page.evaluate((T) => {
   for (let fs = 104; fs >= 40; fs -= 2) {
     document.body.style.setProperty('--fs', `${fs}px`);
     const tall = [...v.querySelectorAll('.l')].some((l) => rows(l) > 2);
-    if (!tall && v.scrollHeight <= v.clientHeight) break;
+    if (!tall && [...v.querySelectorAll('.pg')].every((pg) => pg.scrollHeight <= pg.clientHeight)) break;
   }
 
   // ambient: drifting motes, the loop drawing itself
@@ -163,6 +164,15 @@ await page.evaluate((T) => {
     { opacity: 0, filter: 'blur(4px)', offset: (T.end_card + 0.7) / total }, { opacity: 0, filter: 'blur(4px)', offset: 1 }],
     { duration: ms(total), fill: 'both' });
   a(v, [{ transform: 'scale(1)' }, { transform: 'scale(1.035)' }], T.intro, T.end_card - T.intro, 'linear');
+  // pages: each stanza fades in as its first line is sung and out just before the next stanza starts
+  const pages = [...v.querySelectorAll('.pg')];
+  const firstLine = pages.map((pg) => Number(pg.querySelector('.l').dataset.line));
+  if (pages.length > 1) pages.forEach((pg, k) => {
+    const on = T.lines[firstLine[k]].start - 0.35, off = k + 1 < pages.length ? T.lines[firstLine[k + 1]].start - 0.45 : total;
+    const f = (t) => Math.min(1, Math.max(0, t / total));
+    pg.animate([{ opacity: 0, offset: 0 }, { opacity: 0, offset: f(on - 0.3) }, { opacity: 1, offset: f(on) },
+      { opacity: 1, offset: f(off - 0.5) }, { opacity: 0, offset: f(off) }, { opacity: 0, offset: 1 }], { duration: ms(total), fill: 'both' });
+  });
   T.lines.forEach((line, n) => {
     line.words.forEach((t, w) => {
       const el = document.querySelector(`.w[data-l="${n}"][data-w="${w}"]`);
@@ -170,7 +180,7 @@ await page.evaluate((T) => {
     });
     const next = T.lines[n + 1];
     const p = document.querySelector(`.l[data-line="${n}"]`);
-    if (next && p) a(p, [{ opacity: 1 }, { opacity: 0.5 }], next.start, 0.8, 'ease-out');
+    if (next && p && document.querySelector(`.l[data-line="${n + 1}"]`)?.dataset.p === p.dataset.p) a(p, [{ opacity: 1 }, { opacity: 0.5 }], next.start, 0.8, 'ease-out');
   });
 
   // end card

@@ -55,19 +55,24 @@
       "id": "004-bulleh-shah-ishq",
       "poem": "tire-shq-nchaia-kr-ke-thia-thia",
       "verses": [
-        0
+        0,
+        1
       ],
-      "status": "posted",
+      "status": "draft",
       "kind": "reel",
       "track": {
         "id": "1308872293122924",
-        "query": "Tere Ishq Nachaya"
+        "query": "Tere Ishq Nachaya",
+        "listen": 510,
+        "from": 205,
+        "lines_at": [
+          212.7,
+          255.3,
+          267.1,
+          285.9
+        ]
       },
-      "caption": "Kalam of Sufi poet: Bulleh Shah\nSung in the melodious voice of legendary artist: Abida Parveen 🎵\n\n#BullehShah #AbidaParveen #پنجابی_شاعری",
-      "posted_at": "2026-11-16T04:55:31+00:00",
-      "account": "punjabidotnet",
-      "media_id": "4031437969007086771_16922094236",
-      "code": "Dfyi3kssIyz"
+      "caption": "Kalam of Sufi poet: Bulleh Shah\nSung in the melodious voice of legendary artist: Abida Parveen 🎵\n\n#BullehShah #AbidaParveen #پنجابی_شاعری"
     },
     {
       "id": "005-shah-hussain",
