@@ -42,8 +42,9 @@ const stanzas = post.verses.map((vi) => {
 });
 
 /* ---------- score ---------- */
-// A sung recording from Instagram's music library when the post names one (song.py), else the original score.
-if (post.track) execFileSync(PY, [join(HERE, 'song.py'), id], { stdio: 'inherit' });
+// Our own sung track (sing.py), a sung recording from Instagram's music library (song.py), else the original score.
+if (post.voice) execFileSync(PY, [join(HERE, 'sing.py'), id], { stdio: 'inherit' }); // our own sung track (ACE-Step)
+else if (post.track) execFileSync(PY, [join(HERE, 'song.py'), id], { stdio: 'inherit' });
 else execFileSync(PY, [join(HERE, 'music/compose.py'), DIR, JSON.stringify(stanzas.map((s) => s.lines.map((l) => l.length))), '--seed', String(post.seed ?? 3)], { stdio: 'inherit' });
 const timing = JSON.parse(readFileSync(join(DIR, 'timing.json'), 'utf8'));
 

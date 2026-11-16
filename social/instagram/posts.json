@@ -56,23 +56,25 @@
       "poem": "tire-shq-nchaia-kr-ke-thia-thia",
       "verses": [
         0,
-        1
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10
       ],
       "status": "draft",
       "kind": "reel",
-      "track": {
-        "id": "1308872293122924",
-        "query": "Tere Ishq Nachaya",
-        "listen": 510,
-        "from": 205,
-        "lines_at": [
-          212.7,
-          255.3,
-          267.1,
-          285.9
-        ]
+      "caption": "Kalam of Sufi poet: Bulleh Shah\n🎵 Original music (AI vocals)\n\n#BullehShah #SufiPoetry #پنجابی_شاعری",
+      "voice": {
+        "style": "Sufi kafi, Punjabi devotional folk, slow and soulful, deep earthy female alto vocal with long melismatic phrases, harmonium, tabla, dholak, tanpura drone, live mehfil feel",
+        "seed": "7",
+        "lang": "ur",
+        "duration": 170
       },
-      "caption": "Kalam of Sufi poet: Bulleh Shah\nSung in the melodious voice of legendary artist: Abida Parveen 🎵\n\n#BullehShah #AbidaParveen #پنجابی_شاعری"
+      "audio": "own sung track (ACE-Step 1.5, sing.py)"
     },
     {
       "id": "005-shah-hussain",
