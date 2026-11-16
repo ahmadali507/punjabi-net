@@ -37,10 +37,65 @@
       },
       "caption": "فریدا بُرے دا بھلا کر | بابا فرید (Baba Farid), sung by Bhai Mohinder Jeet Singh\n\nVocals: Bhai Mohinder Jeet Singh. Poetry: Baba Farid. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry",
       "style": "lyric",
-      "gists": [
-        "Farid, repay evil with good; do not let anger take hold of your heart.",
-        "Then no sickness will touch your body, and you will gain everything."
-      ]
+      "parts": [
+        {
+          "poem": "frida-bre-da-bhla-kr",
+          "verses": [
+            0,
+            1
+          ],
+          "gists": [
+            "Farid, repay evil with good; do not let anger take hold of your heart.",
+            "Then no sickness will touch your body, and you will gain everything."
+          ]
+        },
+        {
+          "poem": "jo-tin-mar-mkian",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "Farid, those who strike you with their fists, do not strike them back. Go to your own home, and kiss their feet."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 0,
+          "to": 8.5,
+          "lines": [
+            0.5
+          ]
+        },
+        {
+          "from": 17.4,
+          "to": 25.2,
+          "lines": [
+            17.47
+          ]
+        },
+        {
+          "from": 60.2,
+          "to": 76.7,
+          "lines": [
+            60.84,
+            67.5
+          ]
+        },
+        {
+          "from": 156.4,
+          "to": 175.9,
+          "lines": [
+            156.61,
+            161,
+            167.2,
+            170.6
+          ]
+        }
+      ],
+      "end_at": 173.9,
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "pad": 1.2
     },
     {
       "id": "003-sultan-bahu",

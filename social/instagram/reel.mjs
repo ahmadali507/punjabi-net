@@ -27,26 +27,54 @@ if (!id) throw new Error('usage: node social/instagram/reel.mjs <post-id>');
 const post = JSON.parse(readFileSync(join(HERE, 'posts.json'), 'utf8')).posts.find((p) => p.id === id);
 if (!post) throw new Error(`${id}: not in posts.json`);
 if (!post.track) throw new Error(`${id}: a lyric reel needs a "track" (the singer's recording)`);
-if (!post.gists || post.gists.length !== post.verses.length) throw new Error(`${id}: add one English "gists" entry per verse`);
 const DIR = join(HERE, 'out', id);
 mkdirSync(DIR, { recursive: true });
 
 const front = (f) => parse(readFileSync(f, 'utf8').split(/^---$/m)[1]);
-const poem = front(join(ROOT, 'src/content/poems', `${post.poem}.md`));
-const poet = front(join(ROOT, 'src/content/poets', `${poem.poet}.md`));
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const font = (f) => `url(data:font/woff2;base64,${readFileSync(join(ROOT, 'public/fonts', f)).toString('base64')})`;
 
-/* ---------- lines straight from the poem file; each knows its verse (couplet) ---------- */
-const lines = [];
-post.verses.forEach((vi, k) => {
-  let ls = poem.verses[vi].text.split('\n');
-  if (post.lines) ls = ls.slice(post.lines[0], post.lines[1] + 1);
-  ls.forEach((text, j) => lines.push({ text, verse: k, first: j === 0 }));
+/* ---------- lines straight from the poem files; each knows its verse (couplet) ---------- */
+// One poem (post.poem/verses/gists) or several, in the order sung (post.parts: [{poem, verses, gists}]).
+const parts = post.parts ?? [{ poem: post.poem, verses: post.verses, gists: post.gists, lines: post.lines }];
+const poems = parts.map((pt) => front(join(ROOT, 'src/content/poems', `${pt.poem}.md`)));
+const poem = poems[0];
+const poet = front(join(ROOT, 'src/content/poets', `${poem.poet}.md`));
+const lines = [], gists = [];
+parts.forEach((pt, pi) => {
+  if (!pt.gists || pt.gists.length !== pt.verses.length) throw new Error(`${id}: ${pt.poem}: one English "gists" entry per verse`);
+  pt.verses.forEach((vi, k) => {
+    let ls = poems[pi].verses[vi].text.split('\n');
+    if (pt.lines) ls = ls.slice(pt.lines[0], pt.lines[1] + 1);
+    gists.push(pt.gists[k]);
+    ls.forEach((text, j) => lines.push({ text, verse: gists.length - 1, first: j % 2 === 0 })); // couplets: lines 1–2, 3–4, …
+  });
 });
 
-/* ---------- audio + line times (singer's recording, cut by song.py) ---------- */
-if (process.argv.includes('--new') || !existsSync(join(DIR, 'timing.json')) || !existsSync(join(DIR, 'music.wav')))
+/* ---------- audio + line times ---------- */
+const FFMPEG = process.env.FFMPEG ?? join(homedir(), '.local/tools/bin/ffmpeg');
+if (post.cuts) {
+  // Each line sung once: pieces of the singer's recording (track seconds) joined with short crossfades.
+  // cuts: [{from, to, lines: [track second where each of its lines starts]}]; post.end_at: track second the
+  // last piece's singing ends (closing card from there); post.pad: quiet seconds added after the fade.
+  const X = 0.3, src = join(HERE, 'out', 'tracks', `${post.track.id}.m4a`), meta = JSON.parse(readFileSync(join(HERE, 'out', 'tracks', `${post.track.id}.json`), 'utf8'));
+  let at = 0;
+  const T = { track: { id: post.track.id, title: meta.title, artist: meta.display_artist ?? meta.artist, cuts: post.cuts }, lines: [] };
+  post.cuts.forEach((c, k) => {
+    c.lines.forEach((t) => T.lines.push({ start: +(at + t - c.from).toFixed(3) }));
+    if (k === post.cuts.length - 1) { T.end_card = +(at + post.end_at - c.from).toFixed(3); T.duration = +(at + c.to - c.from + (post.pad ?? 0)).toFixed(3); }
+    at += c.to - c.from - X;
+  });
+  T.intro = T.lines[0].start;
+  const f = post.cuts.map((c, k) => `[0:a]atrim=${c.from}:${c.to},asetpts=PTS-STARTPTS${k === 0 ? ',afade=t=in:d=0.4' : ''}[a${k}]`);
+  let last = 'a0';
+  for (let k = 1; k < post.cuts.length; k++) { f.push(`[${last}][a${k}]acrossfade=d=${X}:c1=tri:c2=tri[x${k}]`); last = `x${k}`; }
+  // the last piece fades out at its end; `pad` seconds of quiet hold the closing card a little longer
+  const audioEnd = T.duration - (post.pad ?? 0);
+  f.push(`[${last}]afade=t=out:st=${(audioEnd - 1.8).toFixed(2)}:d=1.8,apad=whole_dur=${T.duration},aresample=44100[out]`);
+  execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', src, '-filter_complex', f.join(';'), '-map', '[out]', '-ac', '2', join(DIR, 'music.wav')]);
+  writeFileSync(join(DIR, 'timing.json'), JSON.stringify(T, null, 1));
+} else if (process.argv.includes('--new') || !existsSync(join(DIR, 'timing.json')) || !existsSync(join(DIR, 'music.wav')))
   execFileSync(PY, [join(HERE, 'song.py'), id], { stdio: 'inherit' });
 const T = JSON.parse(readFileSync(join(DIR, 'timing.json'), 'utf8'));
 if (T.lines.length !== lines.length) throw new Error(`${id}: timing has ${T.lines.length} lines, the post has ${lines.length}`);
@@ -60,7 +88,7 @@ const N = lines.length;
 const screens = lines.map((l, n) => `<section class="sc" data-n="${n}">
   <div class="stack">${!l.first ? `<p class="prev">${esc(lines[n - 1].text)}</p>` : ''}<p class="cur">${esc(l.text)}</p></div>
   <div class="rule"></div>
-  <p class="gist">${esc(post.gists[l.verse])}</p>
+  <p class="gist">${esc(gists[l.verse])}</p>
 </section>`).join('');
 
 let seed = 11;
@@ -81,7 +109,7 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 .brand{position:absolute;top:120px;left:104px;display:flex;align-items:center;gap:18px;font:700 34px S;color:#23211d}
 .sc{position:absolute;left:44px;right:44px;top:330px;height:900px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 70px;opacity:0}
 .stack{direction:rtl;font-family:N;display:flex;flex-direction:column;align-items:center}
-.prev{font-size:var(--pfs);line-height:1.9;color:rgba(133,92,0,.42)}
+.prev{font-size:var(--pfs);line-height:1.9;color:rgba(133,92,0,.42);margin-bottom:22px}
 .cur{font-size:var(--fs);line-height:1.9;color:#855c00;text-wrap:balance}
 .rule{width:96px;height:2px;background:rgba(133,92,0,.45);margin:40px auto 38px}
 .gist{direction:ltr;font:italic 400 40px/1.5 S;color:#4d4a44;max-width:820px;text-wrap:balance}
@@ -169,7 +197,6 @@ for (let fr = 0; fr < frames; fr++) {
 await browser.close();
 process.stdout.write('\n');
 
-const FFMPEG = process.env.FFMPEG ?? join(homedir(), '.local/tools/bin/ffmpeg');
 const out = join(HERE, 'out', `${id}.mp4`);
 execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', join(FR, '%05d.jpg'), '-i', join(DIR, 'music.wav'),
   '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k',
