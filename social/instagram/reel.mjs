@@ -55,14 +55,19 @@ parts.forEach((pt, pi) => {
 const FFMPEG = process.env.FFMPEG ?? join(homedir(), '.local/tools/bin/ffmpeg');
 if (post.cuts) {
   // Each line sung once: pieces of the singer's recording (track seconds) joined with short crossfades.
-  // cuts: [{from, to, lines: [track second where each of its lines starts]}]; post.end_at: track second the
-  // last piece's singing ends (closing card from there); post.pad: quiet seconds added after the fade.
+  // cuts: [{from, to, lines: [track second where each of its lines starts], end?}]; the closing card starts at
+  // the `end` of a cut (where the singing ends; a later cut with no lines can carry instrumental music under
+  // the card) or at post.end_at in the last cut; post.pad: quiet seconds added after the fade.
   const X = 0.3, src = join(HERE, 'out', 'tracks', `${post.track.id}.m4a`), meta = JSON.parse(readFileSync(join(HERE, 'out', 'tracks', `${post.track.id}.json`), 'utf8'));
   let at = 0;
   const T = { track: { id: post.track.id, title: meta.title, artist: meta.display_artist ?? meta.artist, cuts: post.cuts }, lines: [] };
   post.cuts.forEach((c, k) => {
     c.lines.forEach((t) => T.lines.push({ start: +(at + t - c.from).toFixed(3) }));
-    if (k === post.cuts.length - 1) { T.end_card = +(at + post.end_at - c.from).toFixed(3); T.duration = +(at + c.to - c.from + (post.pad ?? 0)).toFixed(3); }
+    if (c.end != null) T.end_card = +(at + c.end - c.from).toFixed(3); // a cut's `end`: where its singing ends
+    if (k === post.cuts.length - 1) {
+      if (T.end_card == null) T.end_card = +(at + (post.end_at ?? c.to - 2) - c.from).toFixed(3);
+      T.duration = +(at + c.to - c.from + (post.pad ?? 0)).toFixed(3);
+    }
     at += c.to - c.from - X;
   });
   T.intro = T.lines[0].start;

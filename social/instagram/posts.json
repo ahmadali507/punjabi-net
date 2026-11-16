@@ -104,16 +104,57 @@
     {
       "id": "003-sultan-bahu",
       "poem": "alf-alh-chnbe-di-boti",
-      "verses": [
-        0
-      ],
-      "status": "draft",
+      "status": "approved",
       "kind": "reel",
       "track": {
         "id": "721640021505178",
         "query": "Alif Allah Chambey Di Booti"
       },
-      "caption": "The jasmine in the heart. 🌼\nSultan Bahu\n🎵 Arif Lohar & Meesha Shafi\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "الف اللہ چنبے دی بُوٹی | سلطان باہو (Sultan Bahu), sung by Arif Lohar\n\nVocals: Arif Lohar. Poetry: Sultan Bahu. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry",
+      "style": "lyric",
+      "parts": [
+        {
+          "poem": "alf-alh-chnbe-di-boti",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "Alif: my master planted Allah in my heart like a jasmine plant. Watered with the creed, “no god but God”, it now lives in every vein."
+          ]
+        },
+        {
+          "poem": "alf-alh-chnbe-di-boti",
+          "verses": [
+            1
+          ],
+          "lines": [
+            1,
+            1
+          ],
+          "gists": [
+            "Long live my perfect master, Bahu, who planted this plant."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 17,
+          "to": 68.75,
+          "lines": [
+            21.6,
+            38.6,
+            56.8
+          ],
+          "end": 68.7
+        },
+        {
+          "from": 10.5,
+          "to": 15.5,
+          "lines": []
+        }
+      ],
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "singer": "Arif Lohar"
     },
     {
       "id": "004-bulleh-shah-ishq",
