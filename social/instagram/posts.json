@@ -420,7 +420,7 @@
     {
       "id": "013-hussain-mahram-abida",
       "poem": "rba-mire-hal-da-mhrm-ton",
-      "status": "draft",
+      "status": "approved",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -430,10 +430,81 @@
       },
       "singer": "Abida Parveen",
       "audio": "singer recording as original audio, each line once (cuts)",
-      "verses": [
-        0,
-        1
-      ]
+      "parts": [
+        {
+          "poem": "rba-mire-hal-da-mhrm-ton",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "O Lord, you alone know the state I am in."
+          ]
+        },
+        {
+          "poem": "rba-mire-hal-da-mhrm-ton",
+          "verses": [
+            1
+          ],
+          "lines": [
+            0,
+            1
+          ],
+          "gists": [
+            "You are within me and without, in every pore; you are the warp and the weft, everything I have is you."
+          ]
+        },
+        {
+          "poem": "rba-mire-hal-da-mhrm-ton",
+          "verses": [
+            1
+          ],
+          "lines": [
+            2,
+            2
+          ],
+          "gists": [
+            "Says Hussain, the humble faqir: I am nothing, all is you."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 41.5,
+          "to": 47.9,
+          "lines": [
+            41.8
+          ]
+        },
+        {
+          "from": 251.6,
+          "to": 262.4,
+          "lines": [
+            251.8
+          ]
+        },
+        {
+          "from": 596.8,
+          "to": 605.4,
+          "lines": [
+            597.0
+          ]
+        },
+        {
+          "from": 854.2,
+          "to": 863.2,
+          "lines": [
+            854.4
+          ],
+          "end": 862.8
+        },
+        {
+          "from": 19.5,
+          "to": 29.3,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "caption": "ربا میرے حال دا محرم توں | شاہ حسین (Shah Hussain), sung by Abida Parveen\n\nVocals: Abida Parveen. Poetry: Shah Hussain. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry"
     },
     {
       "id": "014-farid-birha-ragi",
