@@ -184,20 +184,98 @@
     {
       "id": "005-shah-hussain",
       "poem": "main-ni-min-kihnon-akhan",
-      "verses": [
-        0
-      ],
-      "lines": [
-        0,
-        0
-      ],
-      "status": "draft",
+      "status": "approved",
       "kind": "reel",
       "track": {
         "id": "2172333223164138",
         "query": "Mai Ni Main Kehnu Aakhan Abida Parveen"
       },
-      "caption": "Who do I tell, mother? 🤍\nShah Hussain\n🎵 Hamid Ali Bela\n\n#ShahHussain #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "مائیں نی میں کیہنوں آکھاں | شاہ حسین (Shah Hussain), sung by Hamid Ali Bela\n\nVocals: Hamid Ali Bela. Poetry: Shah Hussain. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry",
+      "style": "lyric",
+      "parts": [
+        {
+          "poem": "main-ni-min-kihnon-akhan",
+          "verses": [
+            0
+          ],
+          "lines": [
+            0,
+            1
+          ],
+          "gists": [
+            "Mother, whom do I tell the pain of separation? My master’s love smoulders in me like a fire; stir it, and the embers glow red."
+          ]
+        },
+        {
+          "poem": "main-ni-min-kihnon-akhan",
+          "verses": [
+            0
+          ],
+          "lines": [
+            3,
+            3
+          ],
+          "gists": [
+            "Sorrow is my bread, thorns are my curry, and my sighs are the firewood I burn."
+          ]
+        },
+        {
+          "poem": "main-ni-min-kihnon-akhan",
+          "verses": [
+            1
+          ],
+          "gists": [
+            "Says humble faqir Hussain: if I meet my Beloved, I will bloom with joy."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 16.8,
+          "to": 30.6,
+          "lines": [
+            17.2
+          ]
+        },
+        {
+          "from": 76.6,
+          "to": 94,
+          "lines": [
+            77.2
+          ]
+        },
+        {
+          "from": 203.6,
+          "to": 207.7,
+          "lines": [
+            204.4
+          ]
+        },
+        {
+          "from": 223.9,
+          "to": 235.5,
+          "lines": []
+        },
+        {
+          "from": 282,
+          "to": 293.2,
+          "lines": [
+            283.2
+          ]
+        },
+        {
+          "from": 298,
+          "to": 304.5,
+          "lines": [],
+          "end": 304.3
+        },
+        {
+          "from": 2,
+          "to": 7,
+          "lines": []
+        }
+      ],
+      "audio": "singer recording as original audio, each line once (cuts)"
     },
     {
       "id": "006-farid-rukhi",

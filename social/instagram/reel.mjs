@@ -90,8 +90,10 @@ if (!singer) throw new Error(`${id}: no singer name (track artist or "singer")`)
 const LOGO = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#23211d"/><g fill="none" stroke="#c9962a" stroke-width="3.6" stroke-linecap="round"><path d="M18 17 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/><path d="M15 24.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M12 32 q 5 -4.5 10 0 t 10 0 t 10 0 t 10 0"/><path d="M15 39.5 q 4 -4.5 8 0 t 8 0 t 8 0 t 8 0"/><path d="M18 47 q 3 -4.5 6 0 t 6 0 t 6 0 t 6 0"/></g></svg>`;
 const N = lines.length;
 // one screen per line: the line, the couplet's earlier line faded above it, the couplet's gist below
+// a long line breaks at its comma (the caesura), never mid-phrase
+const brk = (t) => (t.length > 30 && /، /.test(t) ? esc(t).replace(/، /, '،<br>') : esc(t));
 const screens = lines.map((l, n) => `<section class="sc" data-n="${n}">
-  <div class="stack">${!l.first ? `<p class="prev">${esc(lines[n - 1].text)}</p>` : ''}<p class="cur">${esc(l.text)}</p></div>
+  <div class="stack">${!l.first ? `<p class="prev">${brk(lines[n - 1].text)}</p>` : ''}<p class="cur">${brk(l.text)}</p></div>
   <div class="rule"></div>
   <p class="gist">${esc(gists[l.verse])}</p>
 </section>`).join('');
