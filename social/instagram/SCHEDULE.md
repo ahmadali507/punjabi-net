@@ -1,12 +1,11 @@
 # Scheduled posting for @punjabidotnet
 
-Three lyric reels a day (owner, 2026-11-16), posted with the Python script and the saved Instagram session (`~/.config/punjabi-net/ig-settings.json`, made from the owner's `sessionid`). Carousels are paused.
+Two lyric reels a day (owner, 2026-11-16), posted with the Python script and the saved Instagram session (`~/.config/punjabi-net/ig-settings.json`, made from the owner's `sessionid`). Carousels are paused. Build every reel the way 005-shah-hussain was built (the reference).
 
 | Slot (UTC) | Pakistan time | What |
 |---|---|---|
-| 04:00 | 09:00 | Reel: next `approved` lyric reel in `posts.json` |
-| 09:00 | 14:00 | Reel: next `approved` lyric reel in `posts.json` |
-| 15:00 | 20:00 | Reel: next `approved` lyric reel in `posts.json` |
+| 13:00 | 18:00 (6 pm) | Reel: next `approved` lyric reel in `posts.json` |
+| 19:00 | 00:00 (midnight) | Reel: next `approved` lyric reel in `posts.json` |
 
 Post: `~/.local/tts-venv/bin/python social/instagram/post_reel.py` (dry run), then `… post_reel.py --publish`. It takes the first `approved` item with `"style": "lyric"`, uploads `out/<id>.mp4` with `out/<id>-reel.txt` and `out/<id>/cover.jpg`, and marks it posted (status, posted_at, code). Then append to `out/schedule.log` and commit `Instagram: posted <id>`.
 If the script reports `login_required`, a challenge/checkpoint, or any block: stop, post nothing, log it, and ask the owner for a fresh `sessionid` with request_secret (delivery file). Load it with instagrapi `login_by_sessionid`, keeping the device settings, and save to the settings file; never print it.
@@ -29,7 +28,7 @@ If the script reports `login_required`, a challenge/checkpoint, or any block: st
 5. Append a line to `out/schedule.log`. Commit as Ahmad Ali <ahmad.ali.000507@gmail.com> (no co-author line): `Instagram: posted <id>`.
 
 ## Keeping the queue full
-When fewer than 3 approved lyric reels remain, prepare more in the same run, after posting (aim for 3–6 ready):
+When fewer than 2 approved lyric reels remain, prepare more in the same run, after posting (aim for 2–4 ready). Model each one on 005-shah-hussain: every couplet the singer sings, each line once (repeats and half-line echoes cut at breaths), the closing card over a piece of instrumental music (e.g. the song's intro), long lines broken at the comma.
 - Pick a poem from `src/content/poems` not yet posted, with a well-known sung recording. Find it in Instagram's music library: `find_tracks.py <poem-id> "<search>" …` (needs the session). Prefer a real Punjabi singer: classic qawwals, kafi and folk singers, and gurbani ragis for Farid's shaloks.
 - Look at the lyrics/transcript with `song.py <id> --show` (needs a `track` in the item), plus Whisper word times and the level envelope, to choose `cuts`: every couplet the singer sings, each line once, cut at breaths. If the recording also sings verses from another poem in our files, add it as a second `parts` entry. A reel is 40–80 s.
 - Write one short, accurate English `gists` line per verse.
