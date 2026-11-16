@@ -359,6 +359,59 @@
       "audio": "original score (music/compose.py)",
       "caption": "For someone who is far away. 🤍\nMian Muhammad Bakhsh\n\n#MianMuhammadBakhsh #PunjabiPoetry #پنجابی_شاعری",
       "note": "score-only reel; replaced by the lyric-reel format (2026-11-16)"
+    },
+    {
+      "id": "012-bulleh-shah-nukta",
+      "poem": "ak-nkte-och-gl-mkdi-ae",
+      "status": "draft",
+      "kind": "reel",
+      "track": {
+        "id": "1611276553687112",
+        "query": "Ik Nukte Vich Gal Mukdi"
+      },
+      "style": "lyric",
+      "singer": "Shubhangi Joshi",
+      "verses": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "gists": [
+        "Hold the one point and drop the reckoning; clear away doubt and dread, and make the heart clean. It all comes down to one point.",
+        "You rub your forehead on the ground and show off a long prayer niche, yet the meaning never reaches your heart. Can truth stay hidden?",
+        "Many came home as pilgrims in fine blue robes, then sold their Hajj for coins. Who could admire that? Can truth stay hidden?",
+        "Some go off to the wilds and live on one grain a day, wearing out their bodies for nothing. Life runs out in such retreats.",
+        "Hold to the guide, be lost in carefree rapture, want nothing, and keep the heart clean. Bulleh, when was truth ever held back?"
+      ],
+      "cuts": [
+        {
+          "from": 18.0,
+          "to": 309.0,
+          "lines": [
+            18.7,
+            33.9,
+            51.0,
+            71.0,
+            90.4,
+            109.5,
+            129.3,
+            150.2,
+            169.3,
+            188.8,
+            210.0,
+            228.2,
+            250.8,
+            270.3,
+            289.2
+          ],
+          "end": 306.6
+        }
+      ],
+      "caption": "اک نکتے وچ گلّ مکدی اے | بلھے شاہ (Bulleh Shah), sung by Shubhangi Joshi\n\nThe whole kafi, all five stanzas.\n\nVocals: Shubhangi Joshi. Poetry: Bulleh Shah. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry",
+      "audio": "singer recording as original audio, whole kafi, each line once (cuts)",
+      "pad": 1.0
     }
   ]
 }

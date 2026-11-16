@@ -9,7 +9,7 @@
  * posts.json item: "kind": "reel", "style": "lyric", "track": {...}, "gists": ["<English for verse 1>", ...],
  * optional "singer" (overrides the track's artist name). The caption is built in the pushto.net format.
  */
-import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { homedir } from 'node:os';
 import { fileURLToPath } from 'node:url';
@@ -91,7 +91,7 @@ const LOGO = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 64 64
 const N = lines.length;
 // one screen per line: the line, the couplet's earlier line faded above it, the couplet's gist below
 // a long line breaks at its comma (the caesura), never mid-phrase
-const brk = (t) => (t.length > 30 && /، /.test(t) ? esc(t).replace(/، /, '،<br>') : esc(t));
+const brk = (t) => (t.length > 30 && /[،؟] /.test(t) ? esc(t).replace(/([،؟]) /, '$1<br>') : esc(t));
 const screens = lines.map((l, n) => `<section class="sc" data-n="${n}">
   <div class="stack">${!l.first ? `<p class="prev">${brk(lines[n - 1].text)}</p>` : ''}<p class="cur">${brk(l.text)}</p></div>
   <div class="rule"></div>
@@ -147,7 +147,13 @@ ${screens}
 </body></html>`;
 
 /* ---------- animation (Web Animations, seeked frame by frame) ---------- */
-const browser = await chromium.launch();
+// If playwright-core was updated without its browser build, fall back to the newest headless shell on disk.
+const browser = await chromium.launch().catch(() => {
+  const dir = join(homedir(), '.cache', 'ms-playwright');
+  const shell = readdirSync(dir).filter((d) => d.startsWith('chromium_headless_shell-')).sort().at(-1);
+  if (!shell) throw new Error('no Chromium headless shell in ~/.cache/ms-playwright (run: npx playwright install chromium-headless-shell)');
+  return chromium.launch({ executablePath: join(dir, shell, 'chrome-headless-shell-linux64', 'chrome-headless-shell') });
+});
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 await page.setContent(html, { waitUntil: 'load' });
 await page.evaluate(() => document.fonts.ready);
