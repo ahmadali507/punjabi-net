@@ -194,11 +194,12 @@
         0,
         1
       ],
-      "status": "approved",
+      "status": "shelved",
       "kind": "reel",
       "seed": 5,
       "audio": "original score (music/compose.py)",
-      "caption": "Only He knows what is inside. 🤍\nShah Hussain\n🎵 Original music\n\n#ShahHussain #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "Only He knows what is inside. 🤍\nShah Hussain\n🎵 Original music\n\n#ShahHussain #PunjabiPoetry #پنجابی_شاعری",
+      "note": "score-only reel; replaced by the lyric-reel format (2026-11-16)"
     },
     {
       "id": "009-farid-birha",
@@ -207,11 +208,12 @@
         0,
         1
       ],
-      "status": "approved",
+      "status": "shelved",
       "kind": "reel",
       "seed": 6,
       "audio": "original score (music/compose.py)",
-      "caption": "Farid called the pain of separation a king.\n\n#BabaFarid #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "Farid called the pain of separation a king.\n\n#BabaFarid #PunjabiPoetry #پنجابی_شاعری",
+      "note": "score-only reel; replaced by the lyric-reel format (2026-11-16)"
     },
     {
       "id": "010-bahu-parh-parh",
@@ -219,11 +221,12 @@
       "verses": [
         0
       ],
-      "status": "approved",
+      "status": "shelved",
       "kind": "reel",
       "seed": 7,
       "audio": "original score (music/compose.py)",
-      "caption": "A thousand books read, and not one letter of love. 📖\nSultan Bahu\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "A thousand books read, and not one letter of love. 📖\nSultan Bahu\n\n#SultanBahu #PunjabiPoetry #پنجابی_شاعری",
+      "note": "score-only reel; replaced by the lyric-reel format (2026-11-16)"
     },
     {
       "id": "011-mian-sajna",
@@ -231,11 +234,12 @@
       "verses": [
         0
       ],
-      "status": "approved",
+      "status": "shelved",
       "kind": "reel",
       "seed": 8,
       "audio": "original score (music/compose.py)",
-      "caption": "For someone who is far away. 🤍\nMian Muhammad Bakhsh\n\n#MianMuhammadBakhsh #PunjabiPoetry #پنجابی_شاعری"
+      "caption": "For someone who is far away. 🤍\nMian Muhammad Bakhsh\n\n#MianMuhammadBakhsh #PunjabiPoetry #پنجابی_شاعری",
+      "note": "score-only reel; replaced by the lyric-reel format (2026-11-16)"
     }
   ]
 }

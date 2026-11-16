@@ -1,12 +1,15 @@
 # Scheduled posting for @punjabidotnet
 
-Three posts a day, posted from T3's browser (Instagram website, logged in as punjabidotnet). No Python, no private API.
+Three lyric reels a day (owner, 2026-11-16), posted with the Python script and the saved Instagram session (`~/.config/punjabi-net/ig-settings.json`, made from the owner's `sessionid`). Carousels are paused.
 
 | Slot (UTC) | Pakistan time | What |
 |---|---|---|
-| 04:00 | 09:00 | Reel: next `approved` reel in `posts.json` |
-| 09:00 | 14:00 | Carousel: next `approved` carousel in `carousels.json` |
-| 15:00 | 20:00 | Reel: next `approved` reel in `posts.json` |
+| 04:00 | 09:00 | Reel: next `approved` lyric reel in `posts.json` |
+| 09:00 | 14:00 | Reel: next `approved` lyric reel in `posts.json` |
+| 15:00 | 20:00 | Reel: next `approved` lyric reel in `posts.json` |
+
+Post: `~/.local/tts-venv/bin/python social/instagram/post_reel.py` (dry run), then `… post_reel.py --publish`. It takes the first `approved` item with `"style": "lyric"`, uploads `out/<id>.mp4` with `out/<id>-reel.txt` and `out/<id>/cover.jpg`, and marks it posted (status, posted_at, code). Then append to `out/schedule.log` and commit `Instagram: posted <id>`.
+If the script reports `login_required`, a challenge/checkpoint, or any block: stop, post nothing, log it, and ask the owner for a fresh `sessionid` with request_secret (delivery file). Load it with instagrapi `login_by_sessionid`, keeping the device settings, and save to the settings file; never print it.
 
 ## Rules
 - Post only items with `"status": "approved"`; take the first one in file order. Only ONE post per run.
@@ -14,23 +17,21 @@ Three posts a day, posted from T3's browser (Instagram website, logged in as pun
 - Lyric reel caption (built by reel.mjs): `<poem title> | <poet Shahmukhi> (<poet English>), sung by <singer>`, blank line, `Vocals: <singer>. Poetry: <poet>. All credit to the artist.`, blank line, `#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry`. Add `Full poem: <link>` once punjabi.net is live.
 - Older score-only reels (no `track`, music/compose.py) keep the video.mjs format.
 - Verse text always comes from the poem files (`src/content/poems`). Never type or invent poem text.
-- Captions are short, real and organic: one or two lines a person would actually write (a feeling or a plain hint of what the verse says), the poet's name, and 2–3 hashtags. No pasted verses, no translations, no "coming soon" or website pitch, no calls to share/save, no credits block. Audio credit: if a post ever uses a singer's voice or recording, name the singer in the caption (e.g. "🎵 Abida Parveen"); for our own score write "🎵 Original music". Never name a singer who isn't actually heard. Each item carries its caption in a `caption` field; the render scripts copy it to the caption file.
+- Carousel captions (paused) stay short and organic: one or two human lines, the poet, 2–3 hashtags. Reel captions use the lyric format above.
 - If Instagram shows a checkpoint ("Confirm you're human", "Suspicious login", a code request, "Try again later" or any block), STOP: do not retry, set nothing to posted, and write the problem to `out/schedule.log`. The owner handles it.
-- If not logged in, stop and log it (do not try to log in with a password).
+- If the session is logged out, stop and log it, then ask for a fresh sessionid (never log in with a password).
 
 ## Steps for one run
-1. Pick the item. Reel: `out/<id>.mp4` and caption `out/<id>-reel.txt` (render first if missing: `reel.mjs` for `style: lyric`, else `video.mjs`). Carousel: `out/<id>/slide-1..5.jpg` and `out/<id>/caption.txt` (render with `node social/instagram/carousel.mjs <id>` if missing). Env: `PLAYWRIGHT_CORE=/home/azureuser/.local/tools/node_modules/playwright-core/index.mjs`, PATH with `~/.local/node/bin` and `~/.local/tools/bin`.
-2. Browser (T3 preview tools): open https://www.instagram.com/ in a background tab (`open=false`); check the left bar shows the punjabidotnet profile.
-3. Click **Create** (New post) → upload the file(s) through `input[type=file]` (carousel: all 5 slides in order).
-4. Crop: choose **4:5** for carousels (crop button bottom-left → 4:5); **9:16/Original** for reels. Next → Next.
-5. Caption: focus the caption box (`[role=dialog] [contenteditable=true]`) and paste the caption text with a synthetic paste event (`DataTransfer` + `ClipboardEvent('paste')`). Check the counter equals the caption length. Click outside to close any hashtag suggestions.
-6. Click **Share** (top right of the dialog). Wait for "Post shared" / "Reel shared".
-7. Open https://www.instagram.com/punjabidotnet/ and get the new post's code from the first `/p/` or `/reel/` link.
-8. Update the item: `status: posted`, `posted_at` (UTC ISO), `code`. Append a line to `out/schedule.log`. Commit as Ahmad Ali <ahmad.ali.000507@gmail.com> (no co-author line), e.g. `Instagram: posted <id>`.
-9. Close the tab you opened.
+1. Env: `PLAYWRIGHT_CORE=/home/azureuser/.local/tools/node_modules/playwright-core/index.mjs`, PATH with `~/.local/node/bin` and `~/.local/tools/bin`. Python: `~/.local/tts-venv/bin/python`.
+2. Pick the first `approved` lyric reel. If `out/<id>.mp4` or `out/<id>-reel.txt` is missing, render: `node social/instagram/reel.mjs <id>`.
+3. Dry run `post_reel.py`; check it says `@punjabidotnet`, the right id, `original audio`.
+4. `post_reel.py --publish`. It prints the reel link and marks the item posted.
+5. Append a line to `out/schedule.log`. Commit as Ahmad Ali <ahmad.ali.000507@gmail.com> (no co-author line): `Instagram: posted <id>`.
 
 ## Keeping the queue full
-When fewer than 2 approved reels or 1 approved carousel remain, prepare more (same run, after posting):
-- Reels: new `posts.json` entries (`kind: reel`, `style: lyric`, a `track` found with find_tracks.py, `gists`, status `draft` until the owner approves), 2–4 sung lines from poems not yet posted; render with reel.mjs and check the line timing.
-- Carousels: new `carousels.json` entries following c001–c003 (cover, 3 verse slides, closing slide), one theme or one poet, with a one-sentence English gist per verse (on the slides) and a short `caption`; render with carousel.mjs and look at the slides before approving.
+When fewer than 3 approved lyric reels remain, prepare more in the same run, after posting (aim for 3–6 ready):
+- Pick a poem from `src/content/poems` not yet posted, with a well-known sung recording. Find it in Instagram's music library: `find_tracks.py <poem-id> "<search>" …` (needs the session). Prefer a real Punjabi singer: classic qawwals, kafi and folk singers, and gurbani ragis for Farid's shaloks.
+- Look at the lyrics/transcript with `song.py <id> --show` (needs a `track` in the item), plus Whisper word times and the level envelope, to choose `cuts`: every couplet the singer sings, each line once, cut at breaths. If the recording also sings verses from another poem in our files, add it as a second `parts` entry. A reel is 40–80 s.
+- Write one short, accurate English `gists` line per verse.
+- Render with reel.mjs, Whisper the spliced `out/<id>/music.wav` (each line once, nothing clipped), and look at a contact sheet of frames. Then set `status: approved`; the owner approved this format on 2026-11-16, so a reel that passes these checks needs no extra review.
 - Never repeat a poem+verse that was already posted. Commit the new entries.

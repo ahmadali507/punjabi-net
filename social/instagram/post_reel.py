@@ -32,7 +32,7 @@ def main():
         raise SystemExit('Wrong account: refusing to post.')
     want = sys.argv[sys.argv.index('--id') + 1] if '--id' in sys.argv else None  # owner-requested post, by id
     ready = [p for p in data['posts'] if p['id'] == want and p.get('status') != 'posted'] if want else \
-        [p for p in data['posts'] if p.get('status') == 'approved'][:1]
+        [p for p in data['posts'] if p.get('status') == 'approved' and p.get('style') == 'lyric'][:1]  # scheduled: lyric reels only
     if not ready:
         print('No approved posts waiting.')
         return
