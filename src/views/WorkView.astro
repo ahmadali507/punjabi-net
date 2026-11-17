@@ -1,0 +1,147 @@
+---
+/**
+ * Whole-work reader, shared by /works/{slug} and /pa/works/{slug}: a qissa, book or collection read
+ * from the first part to the last on one page, with a contents list built from the source's chapter
+ * headings. Every part keeps its own page (/poems/{slug}) for sharing; the number links there.
+ */
+import Base from '~/layouts/Base.astro';
+import Pa from '~/components/Pa.astro';
+import T from '~/components/T.astro';
+import Source from '~/components/Source.astro';
+import { getEntry, render } from 'astro:content';
+import { asLocale, localePath, t, PA_LANG } from '~/i18n';
+import type { UIKey } from '~/i18n/ui';
+import { lifespanPa } from '~/lib/pa';
+import { chaptersOf, lifespan, paDigits, poemsOfWork, worksByPoet, type Work } from '~/lib/content';
+import '~/styles/reader.css';
+import '~/styles/work.css';
+
+interface Props { work: Work }
+const { work } = Astro.props;
+const d = work.data;
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+const poet = (await getEntry(d.poet))!;
+const form = (await getEntry(d.form))!;
+const parts = await poemsOfWork(work.id);
+const chapters = chaptersOf(parts);
+const chapterStart = new Map(chapters.map((c) => [c.from, c]));
+const { Content } = await render(work);
+const hasIntro = Boolean(work.body?.trim());
+const dates = en ? lifespan(poet.data) : lifespanPa(poet.data);
+const num = (n: number) => (en ? String(n) : paDigits(n));
+const others = (await worksByPoet(poet.id)).filter((w) => w.id !== work.id);
+const next = others.find((w) => w.data.order > d.order) ?? others[0];
+const collection = d.kind === 'collection';
+const pageTitle = en ? `${d.title_en} · ${poet.data.name.en}` : `${d.title} · ${poet.data.name.pa}`;
+const description = en
+  ? `${d.title_en}, the complete ${form.data.name.en.toLowerCase()} by ${poet.data.name.en}, in Shahmukhi: ${parts.length} parts.`
+  : `${d.title}، ${poet.data.name.pa} دا پورا ${form.data.name.pa}۔`;
+const jsonLd = {
+  '@type': 'Book',
+  name: d.title,
+  alternateName: d.title_en,
+  inLanguage: 'pnb',
+  genre: form.data.name.en,
+  author: { '@type': 'Person', name: poet.data.name.en, alternateName: poet.data.name.pa },
+};
+---
+<Base title={pageTitle} description={description} type="article" jsonLd={jsonLd} preloadNastaliq>
+  <article class="work" data-pagefind-body data-pagefind-filter="type:work" data-pagefind-meta={`title:${d.title}${en ? ` · ${d.title_en}` : ''}`}>
+    <header class="column work__head">
+      <p class="eyebrow">
+        <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>
+        {' · '}<a href={localePath(locale, `/forms/${form.id}`)}>{en ? form.data.name.en : form.data.name.pa}</a>
+      </p>
+      <h1 class="work__title"><Pa t={d.title} /></h1>
+      {en && <p class="work__title-en">{d.title_en}</p>}
+      <p class="work__meta muted">
+        {en ? <bdi dir="ltr">{poet.data.name.en}{dates && ` · ${dates}`}</bdi> : <bdi>{poet.data.name.pa}{dates && ` · ${dates}`}</bdi>}
+        {' · '}<T k={`work.kind.${d.kind}` as UIKey} />
+        {' · '}{num(parts.length)} <T k="work.parts" />
+        {d.year && <> · {en ? d.year : paDigits(String(d.year))}</>}
+      </p>
+      <p class="work__actions no-print">
+        {parts.length > 0 && <a class="button button--primary" href={`#p-${parts[0].data.work!.n}`}><T k="work.start" /></a>}
+        <a class="button" href="#about-work"><T k="work.about" /></a>
+      </p>
+      {en && hasIntro && <div class="prose work__intro" lang="en" dir="ltr"><Content /></div>}
+      {!en && d.intro_pa && <div class="prose work__intro"><p>{d.intro_pa}</p></div>}
+    </header>
+
+    <div class="work__layout wrap">
+      {chapters.length > 1 && (
+        <nav class="work__toc no-print" id="contents" aria-labelledby="toc-h" data-pagefind-ignore>
+          <details open data-toc>
+            <summary id="toc-h"><T k="work.contents" /> <span class="muted">({num(chapters.length)})</span></summary>
+            <ol>
+              {chapters.map((c) => (
+                <li>
+                  <a href={`#${c.id}`} data-toc-link={c.id}>
+                    <Pa t={c.title} />
+                    <span class="work__range muted">{num(c.from)}–{num(c.to)}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        </nav>
+      )}
+
+      <div class="work__text" style={`--reading-scale: 1`}>
+        {parts.map((p) => {
+          const w = p.data.work!;
+          const ch = chapterStart.get(w.n);
+          return (
+            <>
+              {ch && chapters.length > 0 && (
+                <h2 class="work__chapter" id={ch.id} data-chapter={ch.id}><Pa t={ch.title} /></h2>
+              )}
+              <section class:list={['part', { 'part--card': collection }]} id={`p-${w.n}`} aria-label={`${num(w.n)}`}>
+                <a class="part__n" href={localePath(locale, `/poems/${p.id}`)} title={t(locale, 'work.openPart')}>{num(w.n)}</a>
+                {collection && <h3 class="part__title"><a href={localePath(locale, `/poems/${p.id}`)}><Pa t={p.data.title} /></a></h3>}
+                {p.data.verses.map((v) => (
+                  <p class:list={['part__verse', { 'part__verse--refrain': v.refrain }]} lang={PA_LANG} dir="rtl">
+                    {v.text.split('\n').map((line) => <span class="line">{line}</span>)}
+                  </p>
+                ))}
+              </section>
+            </>
+          );
+        })}
+      </div>
+    </div>
+
+    <footer class="column work__after" id="about-work">
+      <dl class="poem__meta" data-pagefind-ignore>
+        <div><dt><T k="poem.source" /></dt><dd><Source source={d.source} /></dd></div>
+      </dl>
+      <p class="work__foot no-print">
+        {chapters.length > 1 && <a class="button" href="#contents">↑ <T k="work.toContents" /></a>}
+        {next && (
+          <a class="button" href={localePath(locale, `/works/${next.id}`)}>
+            {en ? <>{next.data.title_en} →</> : <><Pa t={next.data.title} /> ←</>}
+          </a>
+        )}
+      </p>
+    </footer>
+  </article>
+</Base>
+
+<script>
+  // Highlight the chapter being read in the contents list.
+  const links = new Map([...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')].map((a) => [a.dataset.tocLink!, a]));
+  if (links.size && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (!e.isIntersecting) continue;
+        links.forEach((a) => a.removeAttribute('aria-current'));
+        links.get((e.target as HTMLElement).dataset.chapter!)?.setAttribute('aria-current', 'true');
+      }
+    }, { rootMargin: '0px 0px -70% 0px' });
+    document.querySelectorAll<HTMLElement>('[data-chapter]').forEach((h) => io.observe(h));
+  }
+  // On phones the contents start closed.
+  const toc = document.querySelector<HTMLDetailsElement>('[data-toc]');
+  if (toc && window.matchMedia('(max-width: 60rem)').matches) toc.open = false;
+</script>

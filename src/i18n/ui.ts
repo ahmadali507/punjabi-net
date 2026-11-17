@@ -201,6 +201,25 @@ export const ui = {
     pa: 'صفحہ',
   },
 
+  /* ---------- Works (whole qissa / book / collection) ---------- */
+  'work.kind.qissa': { en: 'Qissa', pa: 'قصہ' },
+  'work.kind.book': { en: 'Book', pa: 'کتاب' },
+  'work.kind.collection': { en: 'Collection', pa: 'مجموعہ' },
+  'work.parts': { en: 'parts', pa: 'حصے' },
+  'work.contents': { en: 'Contents', pa: 'تتکرا' },
+  'work.start': { en: 'Start reading', pa: 'پڑھنا شروع کرو' },
+  'work.about': { en: 'Source and notes', pa: 'حوالہ تے نوٹ' },
+  'work.partOf': { en: 'Part of', pa: 'ایس دا حصہ:' },
+  'work.of': { en: 'of', pa: 'وچوں' },
+  'work.readWhole': { en: 'Read it in the whole text', pa: 'پوری لکھت وچ پڑھو' },
+  'work.prev': { en: 'Previous', pa: 'پچھلا' },
+  'work.next': { en: 'Next', pa: 'اگلا' },
+  'work.toContents': { en: 'Contents', pa: 'تتکرا' },
+  'work.openPart': { en: 'Open this part on its own page', pa: 'ایہہ حصہ وکھرے صفحے تے کھولو' },
+  'work.chapter': { en: 'Chapter', pa: 'باب' },
+  'poet.singlePoems': { en: 'Single poems', pa: 'وکھرا کلام' },
+  'poet.books': { en: 'Books', pa: 'کتاباں' },
+
   /* ---------- Poet page ---------- */
   'poet.works': {
     en: 'Works',

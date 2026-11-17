@@ -8,7 +8,7 @@ era: modern
 styles: [Modern]
 region: "Bara Pind Lohtian (Shakargarh), later Batala"
 bio_short: "Poet of separation and longing who died at 36; his verse play Loona made him the youngest winner of the Sahitya Akademi Award."
-portrait: ../../assets/portraits/shiv-kumar-batalvi.jpg
+portrait: ../portraits/shiv-kumar-batalvi.jpg
 portrait_caption: "Photograph, Ludhiana, 1970."
 portrait_authentic: true
 portrait_credit: "Amarjit Chandan · CC BY 4.0 · Wikimedia Commons"

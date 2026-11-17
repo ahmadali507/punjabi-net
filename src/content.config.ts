@@ -170,6 +170,25 @@ const dictionary = defineCollection({
   }),
 });
 
+/* ---------- Works (a qissa, book or collection read as one text) ---------- */
+
+const works = defineCollection({
+  // Frontmatter: the work; Markdown body: a short editorial introduction.
+  loader: files('works', 'md'),
+  schema: z.object({
+    poet: reference('poets'),
+    title: pa,
+    title_en: z.string().trim().min(1),
+    form: reference('forms'),
+    /** qissa / book: read in order as one text; collection: numbered pieces (shaloks, abyat, dohre). */
+    kind: z.enum(['qissa', 'book', 'collection']),
+    year: z.union([z.number().int(), z.string().trim()]).optional(),
+    intro_pa: pa.optional(),
+    order: z.number().int().default(100),
+    source,
+  }),
+});
+
 /* ---------- Poems ---------- */
 
 /** A couplet or stanza. Lines are separated by "\n". `en` must have the same number of lines. */
@@ -215,6 +234,10 @@ const poems = defineCollection({
       source,
       verification_note: z.string().trim().min(1),
       featured: z.boolean().default(false),
+      /** Part of a work: its place (1, 2, 3…) and the chapter heading it falls under, as the source gives it. */
+      work: z
+        .object({ id: reference('works'), n: z.number().int().min(1), chapter: z.string().trim().optional() })
+        .optional(),
     })
     .refine((p) => p.verses.length > 0 || p.verification_note.startsWith(TEXT_NEEDED), {
       message: `A poem with no verses must have verification_note "${TEXT_NEEDED}"`,
@@ -285,4 +308,4 @@ const glosses = defineCollection({
   }),
 });
 
-export const collections = { poets, poems, forms, dictionary, proverbs, glosses };
+export const collections = { poets, poems, works, forms, dictionary, proverbs, glosses };

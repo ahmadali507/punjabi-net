@@ -13,9 +13,10 @@ import { getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
 import { lifespanPa, verificationPa } from '~/lib/pa';
-import { lifespan, paDigits, poemsByPoet, segmentLine, wordMeanings, type Poem } from '~/lib/content';
+import { lifespan, paDigits, poemsByPoet, poemsOfWork, segmentLine, wordMeanings, type Poem } from '~/lib/content';
 import { POS } from '~/content.config';
 import '~/styles/reader.css';
+import '~/styles/work.css';
 
 interface Props { poem: Poem }
 const { poem } = Astro.props;
@@ -25,7 +26,13 @@ const en = locale === 'en';
 
 const poet = (await getEntry(d.poet))!;
 const form = (await getEntry(d.form))!;
-const more = (await poemsByPoet(poet.id)).filter((p) => p.id !== poem.id).slice(0, 6);
+const more = (await poemsByPoet(poet.id)).filter((p) => p.id !== poem.id && (!d.work || p.data.work?.id.id !== d.work.id.id)).slice(0, 6);
+// A part of a qissa, book or collection: where it sits, and its neighbours.
+const work = d.work ? (await getEntry(d.work.id))! : undefined;
+const siblings = d.work ? await poemsOfWork(d.work.id.id) : [];
+const at = siblings.findIndex((p) => p.id === poem.id);
+const prevPart = at > 0 ? siblings[at - 1] : undefined;
+const nextPart = at >= 0 && at < siblings.length - 1 ? siblings[at + 1] : undefined;
 const { Content } = await render(poem);
 const hasNotes = Boolean(poem.body?.trim());
 const { items: gloss, lookup } = await wordMeanings(poem, (id) => localePath(locale, `/dictionary/${id}`), locale);
@@ -55,6 +62,23 @@ const description = !en
 ---
 <Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd} preloadNastaliq>
   <article class="poem" data-pagefind-body data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
+    {work && d.work && (
+      <nav class="column no-print" aria-label={t(locale, 'work.partOf')} data-pagefind-ignore>
+        <div class="in-work">
+          <span>
+            <T k="work.partOf" />{' '}
+            <a href={localePath(locale, `/works/${work.id}`)}>{en ? <>{work.data.title_en} (<Pa t={work.data.title} />)</> : <Pa t={work.data.title} />}</a>
+            {' · '}{num(d.work.n)} <T k="work.of" /> {num(siblings.length)}
+            {d.work.chapter && <> · <Pa t={d.work.chapter} /></>}
+          </span>
+          <span class="in-work__nav">
+            {prevPart && <a class="button" href={localePath(locale, `/poems/${prevPart.id}`)} rel="prev">{en ? '‹' : '›'} {num(prevPart.data.work!.n)}</a>}
+            <a class="button" href={localePath(locale, `/works/${work.id}#p-${d.work.n}`)}><T k="work.readWhole" /></a>
+            {nextPart && <a class="button" href={localePath(locale, `/poems/${nextPart.id}`)} rel="next">{num(nextPart.data.work!.n)} {en ? '›' : '‹'}</a>}
+          </span>
+        </div>
+      </nav>
+    )}
     <header class="column poem__head">
       <p class="eyebrow">
         <a href={localePath(locale, `/forms/${form.id}`)}>{en ? form.data.name.en : form.data.name.pa}</a>

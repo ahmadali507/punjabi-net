@@ -239,3 +239,47 @@ function push(out: Segment[], text: string) {
 
 /** Extended Arabic-Indic digits, for numbers on /pa. */
 export const paDigits = (n: number | string) => String(n).replace(/\d/g, (d) => '۰۱۲۳۴۵۶۷۸۹'[+d]);
+
+/* ---------- Works (a qissa, book or collection read as one text) ---------- */
+
+export type Work = CollectionEntry<'works'>;
+
+/** All works, by poet then `order` then English title. */
+export async function getWorks(): Promise<Work[]> {
+  return (await getCollection('works')).sort(
+    (a, b) => a.data.poet.id.localeCompare(b.data.poet.id) || a.data.order - b.data.order || a.data.title_en.localeCompare(b.data.title_en),
+  );
+}
+
+export async function worksByPoet(poetId: string): Promise<Work[]> {
+  return (await getWorks()).filter((w) => w.data.poet.id === poetId);
+}
+
+let byWork: Promise<Map<string, Poem[]>> | undefined;
+/** The poems of a work, in the work's order (work.n). */
+export async function poemsOfWork(workId: string): Promise<Poem[]> {
+  byWork ??= (async () => {
+    const m = new Map<string, Poem[]>();
+    for (const p of await getPoems()) {
+      const w = p.data.work;
+      if (!w) continue;
+      if (!m.has(w.id.id)) m.set(w.id.id, []);
+      m.get(w.id.id)!.push(p);
+    }
+    for (const list of m.values()) list.sort((a, b) => a.data.work!.n - b.data.work!.n);
+    return m;
+  })();
+  return (await byWork).get(workId) ?? [];
+}
+
+/** Chapters of a work: consecutive runs of the same `work.chapter`, with their first and last part numbers. */
+export function chaptersOf(parts: Poem[]): { title: string; from: number; to: number; id: string }[] {
+  const out: { title: string; from: number; to: number; id: string }[] = [];
+  for (const p of parts) {
+    const w = p.data.work!;
+    const last = out.at(-1);
+    if (w.chapter && (!last || last.title !== w.chapter)) out.push({ title: w.chapter, from: w.n, to: w.n, id: `ch-${out.length + 1}` });
+    else if (last) last.to = w.n;
+  }
+  return out;
+}

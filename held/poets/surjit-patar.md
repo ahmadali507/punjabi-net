@@ -8,7 +8,7 @@ era: contemporary
 styles: [Modern]
 region: "Pattar Kalan (Jalandhar), later Ludhiana"
 bio_short: "Poet and Professor of Punjabi at Ludhiana; Sahitya Akademi Award (1993), Saraswati Samman (2009) and Padma Shri (2012)."
-portrait: ../../assets/portraits/surjit-patar.jpg
+portrait: ../portraits/surjit-patar.jpg
 portrait_caption: "Photograph, 2010."
 portrait_authentic: true
 portrait_credit: "Jaypee · CC BY-SA 3.0 · Wikimedia Commons"

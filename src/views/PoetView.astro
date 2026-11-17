@@ -7,16 +7,20 @@ import Source from '~/components/Source.astro';
 import { Image } from 'astro:assets';
 import { render } from 'astro:content';
 import { asLocale, localePath } from '~/i18n';
-import { lifespan, poemsByPoet, type Poet } from '~/lib/content';
+import { lifespan, paDigits, poemsByPoet, poemsOfWork, worksByPoet, type Poet } from '~/lib/content';
 import { creditPa, lifespanPa, paNum, STYLE_PA } from '~/lib/pa';
 import type { UIKey } from '~/i18n/ui';
 import '~/styles/reader.css';
+import '~/styles/work.css';
 
 interface Props { poet: Poet }
 const { poet } = Astro.props;
 const d = poet.data;
 const locale = asLocale(Astro.currentLocale);
-const poems = await poemsByPoet(poet.id);
+const works = await worksByPoet(poet.id);
+const workParts = new Map(await Promise.all(works.map(async (w) => [w.id, (await poemsOfWork(w.id)).length] as const)));
+// Poems that belong to a work are read there; the list below holds the single poems.
+const poems = (await poemsByPoet(poet.id)).filter((p) => !p.data.work);
 const { Content } = await render(poet);
 const inCopyright = d.copyright_status === 'in_copyright';
 const en = locale === 'en';
@@ -94,8 +98,25 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
       d.bio_pa && <div class="prose">{d.bio_pa.split(/\n\s*\n/).map((para) => <p>{para.trim()}</p>)}</div>
     )}
 
-    <section class="section-block" aria-labelledby="poet-poems">
-      <h2 id="poet-poems"><T k="nav.poems" /></h2>
+    {works.length > 0 && (
+      <section class="section-block" aria-labelledby="poet-whole-works">
+        <h2 id="poet-whole-works"><T k="poet.works" /></h2>
+        <ul class="work-cards">
+          {works.map((w) => (
+            <li class="work-card">
+              <h3 class="work-card__title"><a href={localePath(locale, `/works/${w.id}`)}><Pa t={w.data.title} /></a></h3>
+              {en && <p class="work-card__meta" lang="en" dir="ltr">{w.data.title_en}</p>}
+              <p class="work-card__meta muted">
+                <T k={`work.kind.${w.data.kind}` as UIKey} /> · {en ? workParts.get(w.id) : paDigits(workParts.get(w.id) ?? 0)} <T k="work.parts" />
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {(poems.length > 0 || works.length === 0) && <section class="section-block" aria-labelledby="poet-poems">
+      <h2 id="poet-poems">{works.length > 0 ? <T k="poet.singlePoems" /> : <T k="nav.poems" />}</h2>
       {inCopyright ? (
         <p class="notice"><T k="poet.inCopyright" /></p>
       ) : poems.length === 0 ? (
@@ -111,11 +132,11 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
           ))}
         </ul>
       )}
-    </section>
+    </section>}
 
     {d.bibliography.length > 0 && (
       <section class="section-block" aria-labelledby="poet-works">
-        <h2 id="poet-works"><T k="poet.works" /></h2>
+        <h2 id="poet-works"><T k="poet.books" /></h2>
         <ul class="biblio">
           {d.bibliography.map((b) => (
             en ? (
