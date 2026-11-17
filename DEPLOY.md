@@ -4,7 +4,8 @@
    GitHub repo `punjabi-net`).
    - Build command: `npm run build`
    - Build output directory: `dist`
-   - Environment variable: `NODE_VERSION` = `22` (or newer)
+   - Node version: read from `.node-version` (26.13.0, the version the build is tested with). No
+     environment variable needed.
    - The `functions/` folder is picked up automatically: `functions/api/contribute.ts` serves
      `POST /api/contribute`.
 
