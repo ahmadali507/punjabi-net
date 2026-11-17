@@ -1,5 +1,5 @@
 /**
- * Lyric Reel (1080×1920 MP4, 30 fps) in the pushto.net structure, with punjabi.net branding:
+ * Lyric Reel (1080×1920 MP4, 30 fps) in the pushto.net structure, with punjabii.net branding:
  * a singer's recording (song.py: the post's `track`, cut to the sung lines), one line per screen in
  * Shahmukhi with the previous line of the couplet faded above it, a short English gist under each couplet,
  * a "n / N" line counter with a progress rule, and a closing card with the poet's name.
@@ -134,12 +134,12 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 <div class="border"></div>
 <div>${motes}</div>
 <svg class="loop" viewBox="0 0 1080 420"><path id="loop" pathLength="1" d="M-20 300 C 160 260, 260 380, 420 320 S 640 120, 720 210 S 640 380, 560 300 S 700 140, 860 230 S 1000 330, 1110 260"/></svg>
-<div class="brand" id="brand">${LOGO(58)}<span>punjabi.net</span></div>
+<div class="brand" id="brand">${LOGO(58)}<span>punjabii.net</span></div>
 ${screens}
 <div class="count" id="count"><span id="num">1 / ${N}</span><div class="track"><div class="bar" id="bar"></div></div></div>
 <div class="end" id="end">
   ${LOGO(130)}
-  <div class="name">punjabi.net</div>
+  <div class="name">punjabii.net</div>
   <div class="hook">Punjabi poetry, in its own script</div>
   <div class="pname">${esc(poet.name.pa)}</div>
   <div class="pen">${esc(poet.name.en)}</div>

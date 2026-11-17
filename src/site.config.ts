@@ -1,9 +1,9 @@
 /**
- * Site-wide settings. The site name is a WORKING NAME. The final name and
- * domain are not chosen yet: change them here and in astro.config.mjs `site`.
+ * Site-wide settings. The name is the domain (punjabii.net); the domain itself is `site` in
+ * astro.config.mjs. Change both together.
  */
 export const SITE = {
-  name: 'punjabi.net',
+  name: 'punjabii.net',
   /** Shown in the footer only when set. Set it once the account exists. */
   instagram: null as string | null,
   /** The site's own profiles elsewhere, for structured data (schema.org sameAs). Not shown on the page. */

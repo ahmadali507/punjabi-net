@@ -78,7 +78,7 @@ const slides = post.slides.map((s, i) => {
   } else {
     meta = verseBlock(s);
     inner = meta.html;
-    if (s.kind === 'closing') inner += `<div style="height:34px"></div>${FLOURISH}<div class="close">${esc(s.close)}</div><div class="name">punjabi.net</div><div class="soon">جلدی آ رہی اے<span>COMING SOON</span></div>`;
+    if (s.kind === 'closing') inner += `<div style="height:34px"></div>${FLOURISH}<div class="close">${esc(s.close)}</div><div class="name">punjabii.net</div><div class="soon">جلدی آ رہی اے<span>COMING SOON</span></div>`;
   }
   const extra = s.kind === 'cover' ? `<div class="swipe">SWIPE &nbsp;→</div>` : '';
   return { s, meta, html: `<!doctype html><html lang="pnb" dir="rtl"><head><meta charset="utf-8"><style>${CSS}</style></head><body>${BG}<div class="top">${LOGO(s.kind === 'cover' ? 84 : 56)}</div><div class="scene" id="scene">${inner}</div>${extra}<div class="count">${i + 1} / ${total}</div></body></html>` };

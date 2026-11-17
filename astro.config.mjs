@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // The production domain. Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, OG images and JSON-LD all follow it.
 export default defineConfig({
-  site: 'https://punjabi.net',
+  site: 'https://punjabii.net',
   output: 'static',
   // The preview server builds into dist-preview (with layout fixtures); production uses dist.
   outDir: process.env.PN_OUT || './dist',

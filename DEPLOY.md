@@ -21,7 +21,7 @@
 
    With neither configured, the form shows an error page that says so.
 
-3. **Domain.** `site` in `astro.config.mjs` is the production domain (`https://punjabi.net`); the
+3. **Domain.** `site` in `astro.config.mjs` is the production domain (`https://punjabii.net`); the
    site name is `name` in `src/site.config.ts`. Canonical URLs, the sitemap, robots.txt, llms.txt, OG
    images and JSON-LD all follow them. The full go-live list (DNS, redirects, Cloudflare bot settings,
    search consoles, checks) is in **LAUNCH.md**.

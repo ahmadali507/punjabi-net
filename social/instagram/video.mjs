@@ -116,7 +116,7 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 
 <div class="scene end" id="end">
   ${LOGO(110)}
-  <div class="name">punjabi.net</div>
+  <div class="name">punjabii.net</div>
   <div class="hook">پنجابی شاعری پڑھن وچ تہاڈا ساتھی</div>
   <div class="hen">to help you read Punjabi poetry</div>
   <div class="soon">جلدی آ رہی اے<span>COMING SOON</span></div>

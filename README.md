@@ -1,6 +1,6 @@
 <img src="assets/icon.svg" width="64" height="64" alt="">
 
-# punjabi.net (working name)
+# punjabii.net
 
 A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, in Shahmukhi.
 Modelled on pushto.net. Static Astro site, content in Markdown/JSON,

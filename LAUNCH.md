@@ -4,7 +4,7 @@ Everything needed to put the site live on its own domain, in order. Items marked
 already in the code. The rest happen in the Cloudflare dashboard, the registrar or the search
 consoles, and need the owner. DEPLOY.md has the Pages setup itself.
 
-The production domain is set in one place: `site` in `astro.config.mjs` (now `https://punjabi.net`).
+The production domain is set in one place: `site` in `astro.config.mjs` (`https://punjabii.net`).
 Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, OG images and JSON-LD all follow it.
 
 ## 0. Blockers: fix before the first deploy
@@ -17,8 +17,7 @@ Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, OG images and JSON-
       - cut files: the per-poem OG images (about 7,000) could fall back to the work's image for poems
         that belong to a work, and the Pagefind index could cover English pages only. Even then the
         site stays above 20,000, so the paid plan is the practical route.
-- [ ] **Confirm the domain** in `astro.config.mjs` is the one that was bought. If it is not
-      `punjabi.net`, change `site` there and `name` in `src/site.config.ts`, then rebuild.
+- [x] **[done]** Domain set: `punjabii.net` (`site` in `astro.config.mjs`, `name` in `src/site.config.ts`).
 - [ ] **Cloudflare AI-crawler settings.** On new zones Cloudflare can block AI crawlers and prepend its
       own "managed robots.txt". Both would cancel the AEO work. In *Security → Bots* (AI Crawl
       Control): allow AI crawlers (at least OAI-SearchBot, ChatGPT-User, Claude-SearchBot,
