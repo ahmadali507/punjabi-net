@@ -566,6 +566,62 @@
       ],
       "pad": 1.0,
       "caption": "بِرہا بِرہا آکھیے | بابا فرید (Baba Farid), sung by Bhai Harjinder Singh\n\nVocals: Bhai Harjinder Singh. Poetry: Baba Farid. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry"
+    },
+    {
+      "id": "015-waris-heer-jogia",
+      "poem": "hir-akhdi-jogia-jhoth-akhin",
+      "status": "approved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "262053195004845",
+        "query": "Heer Akhdi Jogia"
+      },
+      "singer": "Asa Singh Mastana",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "hir-akhdi-jogia-jhoth-akhin",
+          "verses": [
+            0,
+            1,
+            7
+          ],
+          "gists": [
+            "Heer says: Jogi, you are lying. Who ever brings an estranged beloved back?",
+            "I searched until I was worn out and found no one who brings back those who have gone.",
+            "I would offer sweet churi and light lamps of ghee, says Waris Shah, if I heard he was coming."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 7.6,
+          "to": 49.8,
+          "lines": [
+            8.3,
+            18.1,
+            29.6,
+            39.5
+          ]
+        },
+        {
+          "from": 166.6,
+          "to": 187.5,
+          "lines": [
+            167.4,
+            177.0
+          ],
+          "end": 185.3
+        },
+        {
+          "from": 1.4,
+          "to": 7.6,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "caption": "ہیر آکھدی جوگیا جھوٹھ آکھیں | وارث شاہ (Waris Shah), sung by Asa Singh Mastana\n\nVocals: Asa Singh Mastana. Poetry: Waris Shah. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry"
     }
   ]
 }
