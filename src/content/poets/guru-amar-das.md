@@ -8,6 +8,13 @@ era: classical
 styles: [Shalok]
 region: "Basarke (Amritsar)"
 bio_short: "The third Sikh Guru (1552–1574); his hymns, among them the Anand Sahib, are in the Guru Granth Sahib."
+portrait: ../../assets/portraits/guru-amar-das.jpg
+portrait_caption: "Painting, Punjab, late 18th century: a later depiction."
+portrait_caption_pa: "مصوری، پنجاب، اٹھارھویں صدی دا اخیر: مگروں بنائی گئی تصویر۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:18th_century_painting_of_Guru_Amar_Das.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Anand Sahib"

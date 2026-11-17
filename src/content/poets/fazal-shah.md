@@ -8,6 +8,13 @@ era: classical
 styles: [Qissa]
 region: "Nawan Kot, Lahore"
 bio_short: "Lahore poet of qissas on tragic romances; his Sohni Mahiwal is counted among the masterpieces of the form."
+portrait: ../../assets/portraits/fazal-shah.jpg
+portrait_caption: "Sohni swims the river to meet Mahiwal, Lucknow or Farrukhabad, about 1780: the story of his best-known qissa."
+portrait_caption_pa: "سوہنی دریا تر کے مہینوال نوں ملن جاندی اے، لکھنؤ یا فرخ آباد، ۱۷۸۰ دے نیڑے: اوہناں دے سبھ توں مشہور قصے دی کہانی۔"
+portrait_authentic: false
+portrait_credit: "Style of Faqir Ullah Khan (LACMA) · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Sohni_Swims_to_Meet_Her_Lover_Mahinwal_LACMA_M.72.2.1.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Sohni Mahiwal"

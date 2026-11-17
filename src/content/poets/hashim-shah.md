@@ -13,6 +13,7 @@ portrait_caption: "Cover of a printed edition of his Sassi Punnun, in Gurmukhi s
 portrait_authentic: false
 portrait_credit: "Public domain · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Sassi_Punnu_-_Hashim.pdf"
+portrait_kind: manuscript
 copyright_status: public_domain
 bibliography:
   - title: "Sassi Punnun"

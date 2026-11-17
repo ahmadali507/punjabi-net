@@ -8,6 +8,13 @@ era: classical
 styles: [Qissa]
 region: "Jhang (Chiniot tehsil)"
 bio_short: "Damodar Das Arora (Gulati), the first poet to tell the Heer Ranjha legend in verse, in the reign of Akbar."
+portrait: ../../assets/portraits/damodar.jpg
+portrait_caption: "The tomb of Heer and Ranjha at Jhang, where Damodar, the first to put their story into verse, said he saw it happen."
+portrait_caption_pa: "جھنگ وچ ہیر رانجھے دا مزار؛ دمودر، جنہاں ایہ کہانی سبھ توں پہلاں شعر وچ آکھی، کہندے نیں کہ اوہناں ایہ اپنی اکھیں ویکھی۔"
+portrait_authentic: false
+portrait_credit: "Umar Jamshaid · CC BY-SA 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Mahi_Heer_Tomb,_Jhang,_Punjab.jpg"
+portrait_kind: place
 copyright_status: public_domain
 bibliography:
   - title: "Heer Damodar"

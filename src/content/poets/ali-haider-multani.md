@@ -8,6 +8,13 @@ era: classical
 styles: [Kafi, Siharfi, Qissa]
 region: "Kazian, Multan district"
 bio_short: "Eighteenth-century Sufi poet of Multan, author of siharfis, a diwan of kafis and an unfinished Heer."
+portrait: ../../assets/portraits/ali-haider-multani.jpg
+portrait_caption: "Jodhpur painting of a Heer Ranjha scene, mid-18th century, from his own lifetime: he left a Heer unfinished."
+portrait_caption_pa: "ہیر رانجھے دے اک منظر دی جودھپوری مصوری، اٹھارھویں صدی دا وچکار، اوہناں دے اپنے ویلے دی: اوہناں دی «ہیر» ادھوری رہ گئی۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist (Tokyo National Museum) · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Heer_Ranjha-_Two_Women,_Jodhpur_school,_watercolor,_Tokyo_National_Museum.JPG"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Siharfian"

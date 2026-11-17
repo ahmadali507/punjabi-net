@@ -8,6 +8,13 @@ era: classical
 styles: [Siharfi, Baran Maah, Qissa]
 region: "Gujrat"
 bio_short: "Poet of Gujrat, the city of Sohni, best known for Panj Ganj, five siharfis, and the qissa Shirin Farhad."
+portrait: ../../assets/portraits/muhammad-boota-gujrati.jpg
+portrait_caption: "Shirin and Farhad, by Amar Das Bhatti, about 1810: the story of his qissa Shirin Farhad."
+portrait_caption_pa: "شیریں تے فرہاد، امر داس بھٹی دی مصوری، ۱۸۱۰ دے نیڑے: اوہناں دے قصے «شیریں فرہاد» دی کہانی۔"
+portrait_authentic: false
+portrait_credit: "Amar Das Bhatti (Cleveland Museum of Art) · CC0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Amar_Das_Bhatti_-_Shirin_and_Farhad_-_2018.198_-_Cleveland_Museum_of_Art.tif"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Panj Ganj"

@@ -4,7 +4,7 @@
  * plus a small JSON blob for word meanings.
  */
 import { getCollection, getEntry, type CollectionEntry } from 'astro:content';
-import { sourcePa } from './pa';
+import { dictionaryIndex, fold, fromDictionary, meaningsFor, type DictMeaning } from './meanings';
 
 export type Poet = CollectionEntry<'poets'>;
 export type Poem = CollectionEntry<'poems'>;
@@ -143,29 +143,21 @@ export interface WordMeaning {
   note?: string;
   /** true while the gloss is an unreviewed editorial draft. */
   draft?: boolean;
-  /** A sourced dictionary entry for the same word, when one exists. */
-  dict?: { hw: string; romanized: string; pos: string; senses: string[]; href: string; source: string };
+  /** A sourced dictionary or lexicon meaning for the same word, when one exists. */
+  dict?: DictMeaning;
 }
 
 /**
- * Meanings for every glossed word of a poem: the poem's gloss file (contextual,
+ * Meanings for every word of a poem: the poem's gloss file (contextual,
  * editorial) merged with sourced dictionary entries (explicit glossary links
- * first, then any unambiguous headword match). Returns card data and a lookup
- * from normalised spelling to card index, for segmentLine().
+ * first), then every other word some dictionary or lexicon knows. Returns card
+ * data and a lookup from normalised spelling to card index, for segmentLine().
  */
 export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => string, locale: 'en' | 'pa' = 'en') {
   const pa = locale === 'pa';
   const gloss = await getEntry('glosses', poem.id);
   const entries = await getCollection('dictionary');
-  // Unambiguous headwords (and their listed forms) -> entry.
-  const byWord = new Map<string, Entry | null>();
-  for (const e of entries) {
-    for (const sp of [e.data.headword, e.data.forms.plural, e.data.forms.feminine, e.data.forms.oblique]) {
-      if (!sp) continue;
-      const k = normalise(sp);
-      byWord.set(k, byWord.has(k) ? null : e);
-    }
-  }
+  const byWord = await dictionaryIndex();
   const explicit = new Map<string, Entry>();
   for (const g of poem.data.glossary) {
     const ref = 'entry' in g ? g.entry : g;
@@ -174,20 +166,9 @@ export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => s
     const spellings = [e.data.headword, e.data.forms.plural, e.data.forms.feminine, e.data.forms.oblique, ...('entry' in g ? (g.match ?? []) : [])];
     for (const sp of spellings) if (sp) explicit.set(normalise(sp), e);
   }
-  const dictFor = (k: string) => {
-    const e = explicit.get(k) ?? byWord.get(k) ?? undefined;
-    if (!e) return undefined;
-    const s = e.data.source;
-    // Punjabi pages: the dictionary's Punjabi definition, no romanisation; skip entries without one.
-    if (pa && !e.data.definition_pa) return undefined;
-    return {
-      hw: e.data.headword,
-      romanized: pa ? '' : e.data.romanized,
-      pos: e.data.pos,
-      senses: pa ? e.data.definition_pa!.split('؛').map((x) => x.trim()).filter(Boolean) : e.data.senses,
-      href: dictionaryHref(e.id),
-      source: pa ? sourcePa({ ...s, page: undefined }).text.replace(/ \(.*$/, '') : [s.editor, s.year].filter(Boolean).join(', ') || s.book,
-    };
+  const dictFor = (k: string): DictMeaning | undefined => {
+    const e = explicit.get(k) ?? byWord.get(fold(k)) ?? undefined;
+    return e ? fromDictionary(e, locale, dictionaryHref) : undefined;
   };
 
   const items: WordMeaning[] = [];
@@ -202,13 +183,14 @@ export async function wordMeanings(poem: Poem, dictionaryHref: (id: string) => s
         : { en: w.en, pos: w.pos, roman: w.roman, base: w.base, note: w.note, draft, dict: dictFor(k) },
     );
   }
-  // Words with a sourced entry but no gloss yet still get a card.
-  for (const k of new Set([...explicit.keys()])) {
+  for (const k of explicit.keys()) {
     if (lookup.has(k)) continue;
     const dict = dictFor(k);
     if (dict) { lookup.set(k, items.length); items.push({ dict }); }
   }
-  return { items, lookup };
+  // Every other word: the dictionary, then the reading lexicon.
+  const lines = poem.data.verses.flatMap((v) => v.text.split('\n'));
+  return meaningsFor(lines, locale, dictionaryHref, normalise, { items, lookup }) as Promise<{ items: WordMeaning[]; lookup: Map<string, number> }>;
 }
 
 export type Segment = { text: string; g?: number };

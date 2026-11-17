@@ -8,6 +8,13 @@ era: modern
 styles: [Qissa, Nazm]
 region: "Gujranwala"
 bio_short: "Pandit Mann Singh, known as Kalidas Gujranwalia, a leading qissa poet of Puran Bhagat, Roop Basant and Raja Rasalu."
+portrait: ../../assets/portraits/kalidas-gujranwalia.jpg
+portrait_caption: "Raja Rasalu on the title page of a printed Qissa Raja Rasalu, probably late 19th century: the hero of one of his qissas."
+portrait_caption_pa: "اک چھپے «قصہ راجا رسالو» دے سرورق اتے راجا رسالو، شاید انیہویں صدی دا اخیر: اوہناں دے اک قصے دا سورما۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Depiction_of_Raja_Rasalu,_a_Punjabi_folk_hero.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Puran Bhagat"

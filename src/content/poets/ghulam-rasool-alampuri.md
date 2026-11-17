@@ -8,6 +8,14 @@ era: classical
 styles: [Qissa, Siharfi, Baran Maah]
 region: "Alampur Kotla, Hoshiarpur district"
 bio_short: "Sufi poet of Hoshiarpur whose Ahsan-ul-Qasas (Yusuf Zulaikha, 1873) is among the finest Punjabi qissas."
+portrait: ../../assets/portraits/ghulam-rasool-alampuri.jpg
+portrait_caption: "A painted portrait, probably of later date, not a likeness from life."
+portrait_caption_pa: "اک رنگی ہوئی تصویر، شاید مگروں دی بنی، جیوندے جی دی نئیں۔"
+portrait_authentic: false
+portrait_credit: "Syedtalhabinsaleem · CC BY-SA 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Maulvi_sbMaulvi_Ghulam_Rasool_Alampuri.jpg"
+portrait_kind: portrait
+portrait_position: "50% 30%"
 copyright_status: public_domain
 bibliography:
   - title: "Ahsan-ul-Qasas (Qissa Yusuf Zulaikha)"

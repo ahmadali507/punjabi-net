@@ -8,6 +8,13 @@ era: classical
 styles: [Jangnama]
 region: "Wadala Veeram, Amritsar district"
 bio_short: "Poet of the Jangnama (c. 1846), an account of the First Anglo-Sikh War and the fall of the Sikh kingdom."
+portrait: ../../assets/portraits/shah-muhammad.jpg
+portrait_caption: "Sikh infantry and cavalry at the time of the Anglo-Sikh Wars, about 1850: the war his Jangnama mourns."
+portrait_caption_pa: "انگریز سکھ جنگاں دے ویلے سکھ پیادے تے سوار، ۱۸۵۰ دے نیڑے: اوہ جنگ جس دا ویرنا اوہناں دا «جنگ نامہ» پاندا اے۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Painting_of_the_Sikh_Empire%27s_regular_infantry_and_irregular_cavalry_during_the_Anglo-Sikh_Wars,_ca.1850.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Jangnama (Singhan te Firangian)"

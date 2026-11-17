@@ -13,6 +13,7 @@ portrait_caption: "Lithograph, late 19th century: a later depiction, not a portr
 portrait_authentic: false
 portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Depiction_of_the_Punjabi_Sufi_poet_Bulleh_Shah,_from_a_lithograph_of_%27Siharfi_Bulleh_Shah%27,_circa_late_19th_century.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 recommended: true
 bibliography:

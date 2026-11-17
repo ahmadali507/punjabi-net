@@ -8,6 +8,13 @@ era: classical
 styles: [Kafi, Siharfi, Baran Maah]
 region: "Jalandhar"
 bio_short: "Nineteenth-century Sufi poet of Jalandhar, best known for his kafis; he wrote in Punjabi, Hindi and Urdu."
+portrait: ../../assets/portraits/miran-shah-jalandhari.jpg
+portrait_caption: "Sohni crossing the river to Mahiwal, Mughal painting, about 1700–50: one of the romances he told in verse."
+portrait_caption_pa: "سوہنی دریا پار مہینوال ول جاندی اے، مغل مصوری، ۱۷۰۰–۵۰ دے نیڑے: اوہناں دے شعر وچ آکھے عشقیہ قصیاں وچوں اک۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Painting_of_the_folk-tale_Sohni-Mahiwal,_Mughal,_ca.1700%E2%80%9350.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Heer va Ranjha"

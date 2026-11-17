@@ -8,6 +8,13 @@ era: modern
 styles: [Nazm, Var]
 region: "Lahore"
 bio_short: "Lahore poet called the Punjabi Bulbul for his voice, who wrote on Hindu-Muslim unity, freedom and history."
+portrait: ../../assets/portraits/firoz-din-sharaf.jpg
+portrait_caption: "Chand Bibi hawking, Deccan painting, about 1700: the heroine of his Var Chand Bibi."
+portrait_caption_pa: "چاند بی بی شکار کردی، دکنی مصوری، ۱۷۰۰ دے نیڑے: اوہناں دی «وار چاند بی بی» دی سورمی۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist (Metropolitan Museum of Art) · CC0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Chand_Bibi_Hawking_with_Attendants_in_a_Landscape_MET_DT4503.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Dukhan de Keerne"

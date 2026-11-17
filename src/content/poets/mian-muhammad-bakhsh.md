@@ -13,6 +13,7 @@ portrait_caption: "His shrine at Khari Sharif (no portrait of him is known)."
 portrait_authentic: false
 portrait_credit: "Asifshiraz · CC BY-SA 3.0 · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Shrine_of_Mian_Muhammad_Bakhsh.JPG"
+portrait_kind: tomb
 copyright_status: public_domain
 bibliography:
   - title: "Saif ul Malook"

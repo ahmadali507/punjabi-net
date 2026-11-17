@@ -8,6 +8,7 @@ import Base from '~/layouts/Base.astro';
 import Pa from '~/components/Pa.astro';
 import T from '~/components/T.astro';
 import Source from '~/components/Source.astro';
+import WordCard from '~/components/WordCard.astro';
 import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
@@ -111,7 +112,6 @@ const description = !en
           <span class="reader-tools__status" role="status" aria-live="polite" data-copied={t(locale, 'reader.copied')} data-link-copied={t(locale, 'reader.linkCopied')}></span>
         </div>
 
-        {gloss.length > 0 && <p class="visually-hidden" id="gloss-hint"><T k="reader.glossHint" /></p>}
 
         <ol class:list={['verses', { 'verses--long': d.verses.length > 6 }]} data-verses data-title={d.title} data-poet={en ? poet.data.name.en : poet.data.name.pa}>
           {d.verses.map((v, i) => (
@@ -127,7 +127,7 @@ const description = !en
                 {v.text.split('\n').map((line) => (
                   <span class="line">
                     {segmentLine(line, lookup).map((seg) =>
-                      seg.g === undefined ? seg.text : <button type="button" class="w" data-g={seg.g} tabindex="-1" aria-expanded="false" aria-controls="gloss" aria-describedby="gloss-hint">{seg.text}</button>,
+                      seg.g === undefined ? seg.text : <button type="button" class="w" data-g={seg.g} tabindex="-1">{seg.text}</button>,
                     )}
                   </span>
                 ))}
@@ -141,40 +141,8 @@ const description = !en
           ))}
         </ol>
 
-        {gloss.length > 0 && (
-          <div class="gloss" id="gloss" data-gloss role="dialog" aria-labelledby="gloss-word" hidden>
-            <div class="gloss__top">
-              <span class="gloss__label"><T k="gloss.label" /></span>
-              <button type="button" class="gloss__close" data-gloss-close aria-label={t(locale, 'gloss.close')}>
-                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
-              </button>
-            </div>
-            <div class="gloss__word">
-              <p class="gloss__hw" id="gloss-word" lang={PA_LANG} dir="rtl" data-hw></p>
-              <span class="gloss__pos" data-pos></span>
-            </div>
-            {en ? (
-              <>
-                <p class="gloss__pron" lang="en" dir="ltr" data-pron></p>
-                <p class="gloss__en" lang="en" dir="ltr" data-en></p>
-                <p class="gloss__note" lang="en" dir="ltr" data-note></p>
-              </>
-            ) : (
-              <>
-                <p class="gloss__pron" data-pron></p>
-                <p class="gloss__en gloss__en--pa" data-en></p>
-                <p class="gloss__note" data-note></p>
-              </>
-            )}
-            <div class="gloss__dict" data-dict hidden>
-              <p class="gloss__dict-head"><T k="gloss.fromDict" /> · {en ? <span lang="en" dir="ltr" data-dict-source></span> : <span data-dict-source></span>}</p>
-              {en ? <ol class="gloss__senses" lang="en" dir="ltr" data-senses></ol> : <ol class="gloss__senses" data-senses></ol>}
-              <a class="gloss__link" data-gloss-link href="#"><T k="gloss.dictionary" /> →</a>
-            </div>
-            <p class="gloss__draft" data-draft hidden><T k="gloss.draft" /></p>
-          </div>
-        )}
-        {gloss.length > 0 && <script type="application/json" id="gloss-data" set:html={JSON.stringify({ items: gloss, pos: posLabels, base: t(locale, 'gloss.base') }).replace(/</g, '\\u003c')} />}
+        {gloss.length > 0 && <WordCard />}
+        {gloss.length > 0 && <script type="application/json" id="gloss-data" set:html={JSON.stringify({ items: gloss, pos: posLabels, base: t(locale, 'gloss.base'), guess: t(locale, 'gloss.guess') }).replace(/</g, '\\u003c')} />}
       </div>
     ) : (
       <section class="column poem__pending">

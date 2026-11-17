@@ -8,6 +8,14 @@ era: modern
 styles: [Nazm]
 region: "Punjab"
 bio_short: "Poet and typographer, a pioneer of modern Punjabi poetry, who standardised the type for the Gurmukhi script."
+portrait: ../../assets/portraits/dhani-ram-chatrik.jpg
+portrait_caption: "Photograph, early 20th century."
+portrait_caption_pa: "فوٹو، ویہویں صدی دا مڈھ۔"
+portrait_authentic: true
+portrait_credit: "Unknown photographer · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Dhani_Ram_Chatrik.jpg"
+portrait_kind: portrait
+portrait_position: "50% 20%"
 copyright_status: public_domain
 bibliography:
   - title: "Phullan di Tokri"

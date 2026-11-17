@@ -8,6 +8,13 @@ era: classical
 styles: [Shalok, Nazm, Baran Maah]
 region: "Talwandi Rai Bhoi (Nankana Sahib)"
 bio_short: "Founder of the Sikh faith, born at Talwandi (Nankana Sahib); his hymns, among them the Japu, open the Guru Granth Sahib."
+portrait: ../../assets/portraits/guru-nanak.jpg
+portrait_caption: "Mural at Gurdwara Baba Atal, Amritsar, 19th century: a later depiction."
+portrait_caption_pa: "گوردوارہ بابا اٹل، امرتسر دی کندھ اتے بنی تصویر، انیہویں صدی: مگروں بنائی گئی تصویر۔"
+portrait_authentic: false
+portrait_credit: "Photo Amritpal Singh Mann; mural by Jaimal Singh, Mehtab Singh and Hukum Singh Naqqash · CC BY-SA 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Japu"

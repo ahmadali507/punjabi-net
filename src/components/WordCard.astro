@@ -1,0 +1,44 @@
+---
+/**
+ * The word-meaning dialog and the hover chip, shared by the poem reader and the
+ * whole-work reader. Filled by src/scripts/glossary.ts.
+ */
+import T from './T.astro';
+import '~/styles/meanings.css';
+import { asLocale, t, PA_LANG } from '~/i18n';
+const locale = asLocale(Astro.currentLocale);
+const en = locale === 'en';
+---
+<p class="visually-hidden" id="gloss-hint"><T k="reader.glossHint" /></p>
+<button type="button" class="gloss-chip no-print" data-gloss-chip hidden tabindex="-1">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H12v17H6.5A2.5 2.5 0 0 0 4 22.5zM20 5.5A2.5 2.5 0 0 0 17.5 3H12v17h5.5a2.5 2.5 0 0 1 2.5 2.5z" /></svg>
+  <T k="gloss.see" />
+</button>
+<div class="gloss no-print" id="gloss" data-gloss role="dialog" aria-labelledby="gloss-word" hidden>
+  <span class="gloss__arrow" aria-hidden="true" data-arrow></span>
+  <div class="gloss__top">
+    <span class="gloss__label"><T k="gloss.label" /></span>
+    <button type="button" class="gloss__close" data-gloss-close aria-label={t(locale, 'gloss.close')}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+  </div>
+  <div class="gloss__word">
+    <p class="gloss__hw" id="gloss-word" lang={PA_LANG} dir="rtl" data-hw></p>
+    <span class="gloss__pos" data-pos></span>
+  </div>
+  <p class="gloss__pron" dir={en ? "ltr" : "rtl"} data-pron></p>
+  <p class:list={['gloss__en', { 'gloss__en--pa': !en }]} dir={en ? "ltr" : "rtl"} data-en></p>
+  <p class="gloss__note" dir={en ? "ltr" : "rtl"} data-note></p>
+  <div class="gloss__dict" data-dict hidden>
+    <ol class="gloss__senses" data-senses></ol>
+    <p class="gloss__foot">
+      <span class="gloss__src"><T k="gloss.source" />: <bdi data-dict-source></bdi></span>
+      <a class="gloss__link" data-gloss-link href="#"><span data-link-dict><T k="gloss.dictionary" /></span><span data-link-src hidden><T k="gloss.sourceEntry" /></span> {en ? '→' : '←'}</a>
+    </p>
+    <div class="gloss__also" data-also hidden>
+      <p class="gloss__also-head"><T k="gloss.also" /> <a data-also-link href="#" target="_blank" rel="noopener"><bdi data-also-source></bdi></a></p>
+      <ol class="gloss__senses gloss__senses--also" lang="en" dir="ltr" data-also-senses></ol>
+    </div>
+  </div>
+  <p class="gloss__draft" data-draft hidden><T k="gloss.draft" /></p>
+</div>

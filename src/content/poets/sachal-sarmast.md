@@ -8,6 +8,13 @@ era: classical
 styles: [Kafi]
 region: "Daraza, near Ranipur, Sindh"
 bio_short: "Sindhi Sufi mystic known as the poet of seven languages; he also wrote kafis in Punjabi and Saraiki."
+portrait: ../../assets/portraits/sachal-sarmast.jpg
+portrait_caption: "A traditional depiction of him with his staff and tambura, not a portrait from life."
+portrait_caption_pa: "سوٹے تے تنبورے نال اوہناں دی اک روایتی تصویر، جیوندے جی دی نئیں۔"
+portrait_authentic: false
+portrait_credit: "Tariqfaqir · CC BY-SA 3.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Hazrat_Sachal_Sarmast.JPG"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Kafian"

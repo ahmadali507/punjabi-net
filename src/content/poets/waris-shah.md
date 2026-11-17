@@ -13,6 +13,7 @@ portrait_caption: "Lahore, about 1859: an imagined portrait made some sixty year
 portrait_authentic: false
 portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Portrait_of_the_Punjabi_poet_Waris_Shah_(Lahore,_ca.1859).jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 recommended: true
 bibliography:

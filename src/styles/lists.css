@@ -55,120 +55,58 @@ html[lang='pnb'] .chip { font-size: 1rem; line-height: 1.7; }
 .tag:lang(pnb), html[lang='pnb'] .tag { font-size: 0.9rem; line-height: 1.7; text-transform: none; letter-spacing: 0; font-weight: 400; }
 
 /* ---------- Poets grid ---------- */
-.poet-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr)); gap: 2.5rem 1.5rem; }
-@media (max-width: 30rem) { .poet-grid { grid-template-columns: 1fr 1fr; gap: 2rem 1rem; } .poet-tile__bio { display: none; } }
+.poet-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); gap: 1.5rem; align-items: stretch; }
+@media (max-width: 30rem) { .poet-grid { grid-template-columns: 1fr 1fr; gap: 0.9rem; } .poet-tile__bio { display: none; } }
 .poet-tile[hidden] { display: none; }
-.poet-tile__link { display: flex; flex-direction: column; text-decoration: none; }
+.poet-tile {
+  display: flex; flex-direction: column; height: 100%;
+  border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden;
+  background: var(--paper);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+.poet-tile:hover { border-color: color-mix(in oklab, var(--accent) 55%, var(--rule)); transform: translateY(-2px); box-shadow: 0 8px 24px -14px color-mix(in oklab, var(--ink) 45%, transparent); }
+@media (prefers-reduced-motion: reduce) { .poet-tile, .poet-tile:hover { transition: none; transform: none; } }
+.poet-tile__link { display: flex; flex-direction: column; flex: 1; text-decoration: none; color: inherit; }
 .poet-tile__link:hover .poet-tile__en, .poet-tile__link:hover .poet-tile__pa { color: var(--accent); }
-.poet-tile__img { width: 100%; aspect-ratio: 4 / 5;
-  border-radius: var(--radius); object-fit: cover; margin-block-end: 0.6rem; }
-.poet-tile__none { width: 100%; aspect-ratio: 3 / 2; border-radius: var(--radius); object-fit: cover; margin-block-end: 0.6rem; }
+.poet-tile__link:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+/* One frame for every card: 4:5, cropped, labelled with what the picture is. */
+.poet-tile__frame { position: relative; display: block; aspect-ratio: 4 / 5; overflow: hidden; background: var(--wash); border-bottom: 1px solid var(--rule); }
+.poet-tile__img { display: block; width: 100%; height: 100%; object-fit: cover; filter: saturate(0.92); transition: transform 0.4s; }
+.poet-tile:hover .poet-tile__img { transform: scale(1.03); }
+.poet-tile__kind {
+  position: absolute; inset-block-end: 0.5rem; inset-inline-start: 0.5rem;
+  font: 600 0.66rem/1.6 var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase;
+  color: #f6efe2; background: rgb(20 16 10 / 0.62); backdrop-filter: blur(4px);
+  padding: 0.1rem 0.5rem; border-radius: 999px;
+}
+html[lang='pnb'] .poet-tile__kind { font-family: var(--font-sm); font-size: 0.8rem; letter-spacing: 0; text-transform: none; line-height: 1.9; }
 .poet-tile__none {
-  display: grid; place-items: center;
-  background: var(--wash);
-  border: 1px dashed var(--rule);
-  color: color-mix(in oklab, var(--muted) 55%, var(--paper));
-  font-size: 3.25rem;
+  display: grid; place-items: center; width: 100%; height: 100%;
+  background:
+    radial-gradient(circle at 50% 38%, color-mix(in oklab, var(--accent) 16%, transparent), transparent 62%),
+    var(--wash);
+  color: color-mix(in oklab, var(--accent) 60%, var(--muted));
+  font-size: 4.5rem;
 }
 .poet-tile__none :lang(pnb) { line-height: 1.6; }
-.poet-tile__pa { font-size: 1.3rem; text-align: end; }
+.poet-tile__body { display: flex; flex-direction: column; flex: 1; padding: 0.75rem 0.9rem 0.95rem; }
+.poet-tile__pa { font-size: 1.3rem; text-align: end; min-height: 2.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .poet-tile__pa :lang(pnb) { line-height: 1.9; }
 html[lang='pnb'] .poet-tile__pa { text-align: start; }
-.poet-tile__en { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; }
-.poet-tile__dates { margin: 0.15rem 0 0; font-size: 0.85rem; }
-.poet-tile__caption { margin: 0.4rem 0 0; font-size: 0.75rem; line-height: 1.4; }
-.poet-tile__tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.6rem 0 0; }
-.poet-tile__bio { margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--muted); }
-
-/* ---------- Poem rows ---------- */
-.poem-rows { list-style: none; margin: 0; padding: 0; }
-.poem-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  gap: 0.25rem 1rem;
-  padding-block: 0.7rem;
-  border-bottom: 1px solid var(--rule);
+.poet-tile__en { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.poet-tile__dates { display: block; margin: 0.15rem 0 0; font-size: 0.85rem; min-height: 1.3em; }
+.poet-tile__tags { display: flex; flex-wrap: nowrap; overflow: hidden; gap: 0.3rem; margin: 0.6rem 0 0; }
+.poet-tile__tags .tag { flex-shrink: 0; }
+.poet-tile__bio {
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden;
+  margin: 0.55rem 0 0; font-size: 0.88rem; line-height: 1.5; color: var(--muted);
+  min-height: 4.5em;
 }
-.poem-row:first-child { border-top: 1px solid var(--rule); }
-.poem-row[hidden] { display: none; }
-html[lang='pnb'] .poem-row { flex-direction: row; }
-.poem-row__title { font-size: 1.3rem; text-decoration: none; }
-.poem-row__title:hover { color: var(--accent); }
-.poem-row__title :lang(pnb) { line-height: 2; }
-.poem-row__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.6rem; font-size: 0.9rem; }
-.poem-row__en { font-style: italic; font-family: var(--font-serif); }
-.poem-group { margin-block-end: 2.25rem; }
-.poem-group[hidden] { display: none; }
-.poem-group h2 { font-size: 1.1rem; color: var(--muted); margin-block-end: 0.6rem; }
+html[lang='pnb'] .poet-tile__bio { line-height: 2; min-height: 6em; }
 
-/* ---------- Forms ---------- */
-.form-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); gap: 1.25rem; }
-.form-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  padding: 1.1rem 1.2rem 1.25rem;
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-  text-decoration: none;
-}
-.form-card:hover { border-color: var(--accent); }
-.form-card__pa { font-size: 1.7rem; text-align: end; }
-.form-card__pa :lang(pnb) { line-height: 1.8; }
-html[lang='pnb'] .form-card__pa { text-align: start; }
-.form-card__en { font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; }
-.form-card__desc { color: var(--muted); font-size: 0.92rem; flex: 1; }
-.form-card__count { font-size: 0.8rem; color: var(--muted); }
-.form-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 2rem; }
-.form-head__pa { font-size: 2.2rem; }
-.lede { font-size: 1.15rem; }
-.inline-links { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; list-style: none; padding: 0; margin: 0; }
-
-/* ---------- Proverbs ---------- */
-.proverb-list { list-style: none; margin: 0; padding: 0; counter-reset: none; }
-.proverb-item { display: grid; grid-template-columns: 2.5rem 1fr; gap: 0 0.75rem; padding-block: 1rem; border-bottom: 1px solid var(--rule); }
-.proverb-item:first-child { border-top: 1px solid var(--rule); }
-.proverb-item[hidden] { display: none; }
-.proverb-item__n { color: var(--muted); font-size: 0.85rem; padding-block-start: 0.6rem; font-variant-numeric: tabular-nums; }
-.proverb-item__text { font-size: 1.45rem; text-decoration: none; display: block; }
-.proverb-item__text:hover { color: var(--accent); }
-.proverb-item__text:lang(pnb), .proverb-item__text :lang(pnb) { line-height: 2.1; }
-.proverb-item__literal { margin: 0.1rem 0 0; color: var(--muted); font-style: italic; font-family: var(--font-serif); }
-.proverb-item__meaning { margin: 0.2rem 0 0; }
-.proverb { text-align: center; }
-.proverb__text { font-size: clamp(1.8rem, 1.4rem + 2vw, 2.6rem); margin: 1.5rem 0; }
-.proverb__text:lang(pnb) { line-height: 2.2; }
-.proverb-meta { display: grid; gap: 1rem; margin: 2rem 0; text-align: start; }
-.proverb-meta div { display: grid; grid-template-columns: minmax(6rem, auto) 1fr; gap: 0.25rem 1rem; }
-.proverb-meta dt { color: var(--muted); }
-.proverb-meta dd { margin: 0; }
-@media (max-width: 30rem) { .proverb-meta div { grid-template-columns: 1fr; } }
-.pager { display: flex; justify-content: space-between; gap: 1rem; padding-block-start: 1rem; border-top: 1px solid var(--rule); }
-.empty { padding: 2rem; text-align: center; color: var(--muted); background: var(--wash); border-radius: var(--radius); }
-.empty[hidden] { display: none; }
-
-/* ---------- Home ---------- */
-.home-block { margin-block-start: clamp(3rem, 2rem + 3vw, 4.5rem); }
-.block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-block-end: 1.25rem; }
-.block-head h2 { margin: 0; }
-.block-head a { font-size: 0.95rem; white-space: nowrap; }
-.home-proverb { padding: 1.5rem; border: 1px solid var(--rule); border-radius: var(--radius); text-align: center; }
-.home-proverb__text { font-size: 1.6rem; display: block; text-decoration: none; }
-.home-proverb__text:lang(pnb), .home-proverb__text :lang(pnb) { line-height: 2.1; }
-
-/* ---------- Search ---------- */
-.search-form { display: flex; gap: 0.5rem; margin-block-end: 1.25rem; }
-.search-form .field { flex: 1; width: auto; min-width: 0; font-size: 1.05rem; }
-.results { list-style: none; margin: 0; padding: 0; }
-.result { padding-block: 1rem; border-bottom: 1px solid var(--rule); }
-.result:first-child { border-top: 1px solid var(--rule); }
 .result__head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; }
 .result__title { font-size: 1.2rem; text-decoration: none; }
 .result__title:hover { color: var(--accent); }
 .result__excerpt { margin: 0.35rem 0 0; color: var(--muted); }
 .result__excerpt mark, .result__title mark { background: var(--accent-wash); color: var(--ink); border-radius: 2px; padding-inline: 0.1em; }
 
-.poet-tile__img { object-position: top; background: var(--wash); }

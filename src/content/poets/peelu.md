@@ -8,6 +8,13 @@ era: classical
 styles: [Qissa]
 region: "Verowal, Amritsar district"
 bio_short: "Poet of the tragic romance Mirza Sahiban, praised by later poets such as Mian Muhammad Bakhsh and Ahmad Yar."
+portrait: ../../assets/portraits/peelu.jpg
+portrait_caption: "The last scene of Mirza Sahiban, woodblock print, Amritsar or Lahore, late 19th century: the tale of his best-known poem."
+portrait_caption_pa: "مرزا صاحباں دا اخیرلا منظر، لکڑ ٹھپے دی چھاپ، امرتسر یا لہور، انیہویں صدی دا اخیر: اوہناں دی سبھ توں مشہور نظم دی کہانی۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Depiction_of_the_climax_scene_of_the_legendary_Punjabi_love_ballad_and_folktale_of_Mirza_and_Sahiba_(Mirza_Sahiban),_woodblock_print,_Amritsar_or_Lahore,_circa_late_19th_century.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Mirza Sahiban"

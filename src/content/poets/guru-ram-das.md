@@ -8,6 +8,13 @@ era: classical
 styles: [Shalok]
 region: "Chuna Mandi, Lahore"
 bio_short: "The fourth Sikh Guru (1574–1581), born in Lahore; founder of Ramdaspur, later Amritsar."
+portrait: ../../assets/portraits/guru-ram-das.jpg
+portrait_caption: "Pahari painting from the family workshop of Nainsukh of Guler (Government Museum, Chandigarh): a later depiction."
+portrait_caption_pa: "گلیر دے نین سکھ دے گھرانے دی پہاڑی مصوری (سرکاری عجائب گھر، چنڈی گڑھ): مگروں بنائی گئی تصویر۔"
+portrait_authentic: false
+portrait_credit: "Family workshop of Nainsukh of Guler · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Guru_Ram_Das.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Laavan"

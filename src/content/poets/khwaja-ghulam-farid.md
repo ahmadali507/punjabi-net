@@ -8,6 +8,14 @@ era: classical
 styles: [Kafi, Dohra]
 region: "Chacharan Sharif and Kot Mithan, Bahawalpur"
 bio_short: "Chishti Sufi poet of Bahawalpur whose kafis, mostly in Multani (Saraiki), are among the best loved in the language."
+portrait: ../../assets/portraits/khwaja-ghulam-farid.jpg
+portrait_caption: "His tomb at Kot Mithan."
+portrait_caption_pa: "کوٹ مٹھن وچ اوہناں دا مزار۔"
+portrait_authentic: false
+portrait_credit: "Shuhid23334 · CC0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Tomb_of_Khwaja_Ghulam_Farid.jpg"
+portrait_kind: tomb
+portrait_position: "40% 50%"
 copyright_status: public_domain
 bibliography:
   - title: "Kafian"

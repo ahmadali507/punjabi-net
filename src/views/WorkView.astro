@@ -8,6 +8,7 @@ import Base from '~/layouts/Base.astro';
 import Pa from '~/components/Pa.astro';
 import T from '~/components/T.astro';
 import Source from '~/components/Source.astro';
+import WordCard from '~/components/WordCard.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
@@ -90,7 +91,7 @@ const jsonLd = {
         </nav>
       )}
 
-      <div class="work__text" style={`--reading-scale: 1`}>
+      <div class="work__text" style={`--reading-scale: 1`} data-verses data-meanings-url={`/meanings/${locale}/${work.id}.json`}>
         {parts.map((p) => {
           const w = p.data.work!;
           const ch = chapterStart.get(w.n);
@@ -113,6 +114,7 @@ const jsonLd = {
         })}
       </div>
     </div>
+    <WordCard />
 
     <footer class="column work__after" id="about-work">
       <dl class="poem__meta" data-pagefind-ignore>
@@ -131,6 +133,8 @@ const jsonLd = {
 </Base>
 
 <script>
+  import { initGlossary } from '~/scripts/glossary';
+  initGlossary();
   // Highlight the chapter being read in the contents list.
   const links = new Map([...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')].map((a) => [a.dataset.tocLink!, a]));
   if (links.size && 'IntersectionObserver' in window) {

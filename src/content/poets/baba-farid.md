@@ -13,6 +13,7 @@ portrait_caption: "Detail of a Guler (Pahari) painting of an imaginary meeting o
 portrait_authentic: false
 portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Detail_of_Baba_Farid_from_a_Guler_painting_showing_an_imaginary_meeting_of_Sufi_saints.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 recommended: true
 bibliography:

@@ -8,6 +8,13 @@ era: classical
 styles: [Shalok]
 region: "Goindval"
 bio_short: "The fifth Sikh Guru (1581–1606), who compiled the Adi Granth in 1604; executed in Lahore in 1606."
+portrait: ../../assets/portraits/guru-arjan.jpg
+portrait_caption: "Pahari painting from the family workshop of Purkhu of Kangra (Government Museum, Chandigarh): a later depiction."
+portrait_caption_pa: "کانگڑے دے پرکھو دے گھرانے دی پہاڑی مصوری (سرکاری عجائب گھر، چنڈی گڑھ): مگروں بنائی گئی تصویر۔"
+portrait_authentic: false
+portrait_credit: "Family workshop of Purkhu of Kangra · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Guru_Arjan.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Sukhmani Sahib"

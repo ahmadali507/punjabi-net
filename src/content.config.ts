@@ -88,6 +88,8 @@ const poets = defineCollection({
         portrait_credit: z.string().trim().optional(),
         /** The image's source page (Wikimedia Commons file page). */
         portrait_url: z.url().optional(),
+        portrait_kind: z.enum(['portrait', 'tomb', 'manuscript', 'painting', 'place']).optional(),
+        portrait_position: z.string().trim().optional(),
         copyright_status: z.enum(['public_domain', 'in_copyright']),
         bibliography: z
           .array(

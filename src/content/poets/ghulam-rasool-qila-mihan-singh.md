@@ -8,6 +8,13 @@ era: classical
 styles: [Qissa, Siharfi, Baran Maah]
 region: "Kot Bhowanidas and Qila Mihan Singh, Gujranwala district"
 bio_short: "Nineteenth-century poet, scholar and orator of Gujranwala, whose collection Panj Ganj includes a Sassi Punnun and a siharfi."
+portrait: ../../assets/portraits/ghulam-rasool-qila-mihan-singh.jpg
+portrait_caption: "'The Lovers Are Parted', from a Sassi Punnun series, Siba, about 1800: his Panj Ganj includes a Sassi Punnun."
+portrait_caption_pa: "«عاشق وچھڑ گئے»، سسی پنوں دی اک لڑی وچوں، سیبا، ۱۸۰۰ دے نیڑے: اوہناں دی «پنج گنج» وچ اک «سسی پنوں» وی اے۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:%27The_Lovers_Are_Parted%27,_from_a_Sassi_Punnu_series,_Siba,_ca.1800.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Panj Ganj"

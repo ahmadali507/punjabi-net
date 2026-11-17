@@ -6,6 +6,13 @@ era: classical
 styles: [Qissa]
 region: "Punjab"
 bio_short: "Shah Jahan Muqbil, eighteenth-century poet whose Heer is the earliest known Punjabi poem in the baint form."
+portrait: ../../assets/portraits/muqbil.jpg
+portrait_caption: "Heer, Ranjha and Qaido in an 18th- or 19th-century mural at the Sui Simbli temple, Jammu: the story of his Heer."
+portrait_caption_pa: "سوئی سمبلی مندر، جموں دی اٹھارھویں یا انیہویں صدی دی کندھ تصویر وچ ہیر، رانجھا تے کیدو: اوہناں دی «ہیر» دی کہانی۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist; photo Navjot Kour · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Mural_of_the_Heer-Ranjha_folk_tale_from_Sui_Simbli_temple_in_Jammu.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Heer"

@@ -8,6 +8,14 @@ era: modern
 styles: [Nazm]
 region: "Punjab (present-day Pakistan)"
 bio_short: "Chishti Sufi scholar and mystic poet who composed poetry in Punjabi and wrote books in Urdu and Persian."
+portrait: ../../assets/portraits/pir-mehr-ali-shah.jpg
+portrait_caption: "Photograph, early 20th century."
+portrait_caption_pa: "فوٹو، ویہویں صدی دا مڈھ۔"
+portrait_authentic: true
+portrait_credit: "Faiz Ahmed · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Pir_Meher_Ali.jpg"
+portrait_kind: portrait
+portrait_position: "50% 20%"
 copyright_status: public_domain
 bibliography:
   - title: "Saif-e-Chishtiyai"

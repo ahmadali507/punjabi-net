@@ -8,6 +8,13 @@ era: classical
 styles: [Qissa, Siharfi]
 region: "Punjab"
 bio_short: "Nineteenth-century poet best known for his Qissa Puran Bhagat, for which Maharaja Ranjit Singh granted him a well."
+portrait: ../../assets/portraits/qadir-yar.jpg
+portrait_caption: "Title page of his Qissa Sohni Mahiwal, printed in Gurmukhi at Rawalpindi in 1912."
+portrait_caption_pa: "اوہناں دے «قصہ سوہنی مہینوال» دا سرورق، گورمکھی وچ راولپنڈی توں ۱۹۱۲ وچ چھپیا۔"
+portrait_authentic: false
+portrait_credit: "Qadir Yar (1912 edition) · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Sohni_Mahiwal_-_Qadir_Yar_(page_1_crop).jpg"
+portrait_kind: manuscript
 copyright_status: public_domain
 bibliography:
   - title: "Qissa Puran Bhagat"

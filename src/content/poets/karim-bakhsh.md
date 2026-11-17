@@ -7,6 +7,13 @@ era: classical
 styles: [Qissa, Baran Maah]
 region: "Punjab"
 bio_short: "Poet of the qissa Dhol Sammi and a baranmah of Sassi."
+portrait: ../../assets/portraits/karim-bakhsh.jpg
+portrait_caption: "A camel-back scene from Sassi Punnun, painting by Prabhu, about 1780: the story of his baranmah of Sassi."
+portrait_caption_pa: "سسی پنوں دا اک اوٹھ سواری والا منظر، پربھو دی مصوری، ۱۷۸۰ دے نیڑے: اوہناں دے «سسی دا بارہ ماہ» دی کہانی۔"
+portrait_authentic: false
+portrait_credit: "Prabhu · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Painting_of_Sassi_Punnu_on_camel_back,_by_Prabhu,_ca.1780.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Dhol Sammi"

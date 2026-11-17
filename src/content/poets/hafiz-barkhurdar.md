@@ -8,6 +8,13 @@ era: classical
 styles: [Qissa]
 region: "Punjab"
 bio_short: "Sufi poet of classical Punjabi literature, a disciple of Peelu, who retold Mirza Sahiban."
+portrait: ../../assets/portraits/hafiz-barkhurdar.jpg
+portrait_caption: "Mirza and Sahiban, popular painting, Punjab, early 20th century: the story he retold after his teacher Peelu."
+portrait_caption_pa: "مرزا تے صاحباں، لوک مصوری، پنجاب، ویہویں صدی دا مڈھ: اوہ کہانی جیہڑی اوہناں اپنے استاد پیلو مگروں آکھی۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Painting_of_the_folktale_Mirza-Sahiban,_Popular_Sikh,_Punjab,_circa_early_20th_century.png"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Mirza Sahiban"

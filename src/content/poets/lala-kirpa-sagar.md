@@ -8,6 +8,13 @@ era: modern
 styles: [Nazm]
 region: "Pipnakha, Gujranwala district"
 bio_short: "Poet, playwright and publisher of Lahore, author of the epic Lakshmi Devi and plays on Maharaja Ranjit Singh."
+portrait: ../../assets/portraits/lala-kirpa-sagar.jpg
+portrait_caption: "Coloured portrait, early 20th century, as reproduced in the Punjabi Tribune."
+portrait_caption_pa: "رنگین تصویر، ویہویں صدی دا مڈھ، جیویں پنجابی ٹریبیون وچ چھپی۔"
+portrait_authentic: false
+portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Lala_Kirpa_Sagar.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Lakshmi Devi"

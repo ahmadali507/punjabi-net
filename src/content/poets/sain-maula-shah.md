@@ -8,6 +8,14 @@ era: modern
 styles: [Kafi, Baran Maah]
 region: "Majitha; later Tibber Sharif, Gurdaspur"
 bio_short: "Sufi poet, known as Sain Maula Shah Majethvi, who put many folk tales into verse."
+portrait: ../../assets/portraits/sain-maula-shah.jpg
+portrait_caption: "A modern painting of him, not a portrait from life."
+portrait_caption_pa: "اوہناں دی اک اجوکی مصوری، جیوندے جی دی نئیں۔"
+portrait_authentic: false
+portrait_credit: "Zujaja · CC BY-SA 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Sain_Maula_Shah.jpg"
+portrait_kind: portrait
+portrait_position: "50% 30%"
 copyright_status: public_domain
 bibliography:
   - title: "Sassi Punnun"

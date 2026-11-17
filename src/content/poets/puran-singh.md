@@ -8,6 +8,13 @@ era: modern
 styles: [Nazm]
 region: "Abbottabad"
 bio_short: "Poet, scientist and mystic born in Abbottabad, one of the founders of modern Punjabi poetry."
+portrait: ../../assets/portraits/puran-singh.jpg
+portrait_caption: "Photograph, early 20th century."
+portrait_caption_pa: "فوٹو، ویہویں صدی دا مڈھ۔"
+portrait_authentic: true
+portrait_credit: "Unknown photographer · Public domain · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Pooran_Singh.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 bibliography:
   - title: "Khulhe Maidan"

@@ -13,6 +13,7 @@ portrait_caption: "Painting, about 1770: a later depiction."
 portrait_authentic: false
 portrait_credit: "Unknown artist · Public domain · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Painting_of_the_Punjabi_Sufi_saint_Shah_Hussain_Qalandar,_ca.1770.jpg"
+portrait_kind: portrait
 copyright_status: public_domain
 recommended: true
 bibliography:

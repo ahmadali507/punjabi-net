@@ -8,6 +8,13 @@ era: classical
 styles: [Siharfi, Baran Maah]
 region: "Gujrat district"
 bio_short: "Eighteenth-century Sufi poet of Gujrat, author of the Kasb-nama Bafindgan, a Baran Maha and a siharfi."
+portrait: ../../assets/portraits/fard-faqir.jpg
+portrait_caption: "The month of Poh from a Kangra baramasa series, about 1835: the twelve-month form of his Baran Maha."
+portrait_caption_pa: "کانگڑے دی اک بارہ ماہ لڑی وچوں پوہ دا مہینہ، ۱۸۳۵ دے نیڑے: اوہناں دے «باراں ماہ» والی بارھاں مہینیاں دی صنف۔"
+portrait_authentic: false
+portrait_credit: "SpeakingArch · CC BY-SA 4.0 · Wikimedia Commons"
+portrait_url: "https://commons.wikimedia.org/wiki/File:Baramasa_Painting_depicting_the_month_of_Posh,_Kangra_School_of_Art,_circa_1835_CE,_Bhuri_Singh_Museum,_Chamba,_Himachal_Pradesh.jpg"
+portrait_kind: painting
 copyright_status: public_domain
 bibliography:
   - title: "Kasb-nama Bafindgan"

@@ -1,5 +1,9 @@
 ---
-/** Poet card for grids (home, /poets). Portrait or an honest letter tile. */
+/**
+ * Poet card for grids (home, /poets). Every card has the same frame: a 4:5 image
+ * (portrait, painting, resting place, manuscript or place, labelled), the name,
+ * dates, tags and a bio clamped to three lines, so a row lines up exactly.
+ */
 import { Image } from 'astro:assets';
 import Pa from './Pa.astro';
 import T from './T.astro';
@@ -16,28 +20,35 @@ const locale = asLocale(Astro.currentLocale);
 const en = locale === 'en';
 const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
 const dates = en ? lifespan(d) : lifespanPa(d);
+const kind = (d as { portrait_kind?: string }).portrait_kind ?? 'portrait';
+const position = (d as { portrait_position?: string }).portrait_position ?? '50% 20%';
+const caption = en ? d.portrait_caption : d.portrait_caption_pa ?? d.portrait_caption;
 ---
-<article class="poet-tile" data-filter-item data-era={d.era} data-filter-text={(en ? `${d.name.en} ${d.name.pa}` : d.name.pa).toLowerCase()}>
+<article class:list={['poet-tile', { 'poet-tile--compact': compact }]} data-filter-item data-era={d.era} data-filter-text={(en ? `${d.name.en} ${d.name.pa}` : d.name.pa).toLowerCase()}>
   <a class="poet-tile__link" href={localePath(locale, `/poets/${poet.id}`)}>
-    {d.portrait ? (
-      <Image src={d.portrait} alt="" widths={[200, 320, 420]} sizes="(min-width: 56rem) 15rem, 45vw" class="poet-tile__img" quality={50} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'} />
-    ) : (
-      <span class="poet-tile__none" aria-hidden="true"><span lang="pnb">{initial}</span></span>
-    )}
-    <span class="poet-tile__pa"><Pa t={d.name.pa} /></span>
-    {en && <span class="poet-tile__en">{d.name.en}</span>}
+    <span class="poet-tile__frame">
+      {d.portrait ? (
+        <>
+          <Image src={d.portrait} alt="" widths={[240, 360, 480]} sizes="(min-width: 56rem) 16rem, 45vw" class="poet-tile__img" style={`object-position: ${position}`} quality={60} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'} title={caption} />
+          <span class="poet-tile__kind"><T k={`portrait.kind.${kind}` as UIKey} /></span>
+        </>
+      ) : (
+        <span class="poet-tile__none" aria-hidden="true"><span lang="pnb">{initial}</span></span>
+      )}
+    </span>
+    <span class="poet-tile__body">
+      <span class="poet-tile__pa"><Pa t={d.name.pa} /></span>
+      {en && <span class="poet-tile__en">{d.name.en}</span>}
+      {dates && <span class="poet-tile__dates muted">{en ? <bdi dir="ltr">{dates}</bdi> : <bdi>{dates}</bdi>}</span>}
+      {!compact && (
+        <>
+          <span class="poet-tile__tags">
+            <span class="tag tag--accent"><T k={`era.${d.era}` as UIKey} /></span>
+            {d.styles.filter((s) => s.toLowerCase() !== d.era).slice(0, 2).map((s) => (en ? <span class="tag" lang="en" dir="ltr">{s}</span> : <span class="tag">{STYLE_PA[s] ?? s}</span>))}
+          </span>
+          {en ? <span class="poet-tile__bio" lang="en" dir="ltr">{d.bio_short}</span> : d.bio_short_pa && <span class="poet-tile__bio">{d.bio_short_pa}</span>}
+        </>
+      )}
+    </span>
   </a>
-  {dates && <p class="poet-tile__dates muted">{en ? <bdi dir="ltr">{dates}</bdi> : <bdi>{dates}</bdi>}</p>}
-  {!compact && (
-    <>
-      <p class="poet-tile__caption muted">
-        {d.portrait ? (en ? <bdi lang="en">{d.portrait_caption}</bdi> : <bdi>{d.portrait_caption_pa}</bdi>) : <T k="poet.noPortrait" />}
-      </p>
-      <p class="poet-tile__tags">
-        <span class="tag tag--accent"><T k={`era.${d.era}` as UIKey} /></span>
-        {d.styles.filter((s) => s.toLowerCase() !== d.era).slice(0, 2).map((s) => (en ? <span class="tag" lang="en" dir="ltr">{s}</span> : <span class="tag">{STYLE_PA[s] ?? s}</span>))}
-      </p>
-      {en ? <p class="poet-tile__bio" lang="en" dir="ltr">{d.bio_short}</p> : d.bio_short_pa && <p class="poet-tile__bio">{d.bio_short_pa}</p>}
-    </>
-  )}
 </article>

@@ -13,6 +13,7 @@ portrait_caption: "His shrine at Garh Maharaja, Jhang (no portrait of him is kno
 portrait_authentic: false
 portrait_credit: "Shahaed912 · CC0 · Wikimedia Commons"
 portrait_url: "https://commons.wikimedia.org/wiki/File:Tomb_of_Sultan_Bahu.jpg"
+portrait_kind: tomb
 copyright_status: public_domain
 bibliography:
   - title: "Abyat-e-Bahu"

@@ -141,8 +141,8 @@ export const ui = {
     pa: 'لنک نقل ہو گیا',
   },
   'reader.glossHint': {
-    en: 'Underlined words have meanings. Tap one, or reach them with Tab and move with the arrow keys.',
-    pa: 'جنہاں لفظاں ہیٹھ لکیر اے، اوہناں دے معنی ویکھن لئی اوہناں تے دباؤ۔',
+    en: 'Point at or tap a word to see its meaning. With a keyboard, Tab reaches the words and the arrow keys move between them.',
+    pa: 'کسے لفظ تے کرسر لے جاؤ یا دباؤ تے اوہدے معنی ویکھو۔',
   },
   'reader.verse': {
     en: 'Verse',
@@ -230,6 +230,11 @@ export const ui = {
     en: 'Sources for this biography',
     pa: 'ایس جیونی دے حوالے',
   },
+  'portrait.kind.portrait': { en: 'Portrait', pa: 'تصویر' },
+  'portrait.kind.painting': { en: 'Painting', pa: 'مصوری' },
+  'portrait.kind.tomb': { en: 'Resting place', pa: 'مزار' },
+  'portrait.kind.manuscript': { en: 'Manuscript', pa: 'قلمی نسخہ' },
+  'portrait.kind.place': { en: 'Place', pa: 'تھاں' },
   'poet.noPortrait': {
     en: 'No authentic portrait of this poet is known.',
     pa: 'ایس شاعر دی کوئی اصلی تصویر نہیں ملدی۔',
@@ -654,6 +659,11 @@ export const ui = {
     en: 'In the dictionary',
     pa: 'لغت وچ',
   },
+  'gloss.guess': { en: 'probably a form of', pa: 'شاید ایس لفظ دا روپ:' },
+  'gloss.sourceEntry': { en: 'See the source entry', pa: 'اصل اندراج ویکھو' },
+  'gloss.also': { en: 'Same spelling in', pa: 'ایہو لفظ ایس وچ وی:' },
+  'gloss.see': { en: 'See meaning', pa: 'معنی ویکھو' },
+  'gloss.source': { en: 'Source', pa: 'حوالہ' },
   'gloss.draft': {
     en: 'Editorial gloss, not yet reviewed.',
     pa: 'سمپادکی معنی، حالے جانچے نہیں گئے۔',
