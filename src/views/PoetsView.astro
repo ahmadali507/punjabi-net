@@ -3,7 +3,7 @@
 import Base from '~/layouts/Base.astro';
 import T from '~/components/T.astro';
 import PoetCard from '~/components/PoetCard.astro';
-import { asLocale, t, tf } from '~/i18n';
+import { asLocale, localePath, t, tf } from '~/i18n';
 import { getPoets } from '~/lib/content';
 import { ERAS } from '~/content.config';
 import type { UIKey } from '~/i18n/ui';
@@ -13,7 +13,7 @@ const locale = asLocale(Astro.currentLocale);
 const poets = await getPoets();
 const eras = ERAS.filter((e) => poets.some((p) => p.data.era === e));
 ---
-<Base title={t(locale, 'nav.poets')} description={`${poets.length} Punjabi poets, from Baba Farid onwards.`}>
+<Base title={t(locale, 'nav.poets')} description={`${poets.length} Punjabi poets, from Baba Farid, Shah Hussain, Bulleh Shah and Waris Shah to the modern era: lives, dates and complete works in Shahmukhi.`} crumbs={[{ name: t(locale, 'nav.poets'), path: localePath(locale, '/poets') }]} pageType="CollectionPage">
   <section class="wrap section" data-filter>
     <header class="list-head">
       <div>

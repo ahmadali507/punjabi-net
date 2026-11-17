@@ -2,7 +2,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// Working name: punjabi.net. The final domain is not chosen yet; change `site` when it is.
+// The production domain. Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, OG images and JSON-LD all follow it.
 export default defineConfig({
   site: 'https://punjabi.net',
   output: 'static',
@@ -19,6 +19,8 @@ export default defineConfig({
   integrations: [
     sitemap({
       i18n: { defaultLocale: 'en', locales: { en: 'en', pa: 'pnb' } },
+      // Only pages meant to rank: not search results, the 404 page or the form's thank-you/error pages (all noindex).
+      filter: (page) => !/\/(search|404|contribute\/(thanks|error))$/.test(new URL(page).pathname),
     }),
   ],
   devToolbar: { enabled: false },

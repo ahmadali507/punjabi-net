@@ -11,7 +11,7 @@ const locale = asLocale(Astro.currentLocale);
 const proverbs = await getProverbs();
 const en = locale === 'en';
 ---
-<Base title={t(locale, 'nav.proverbs')} description={en ? 'Punjabi proverbs in Shahmukhi, with literal and idiomatic English meanings.' : 'شاہ مکھی وچ پنجابی اکھان، اوہناں دے مطلب نال۔'}>
+<Base title={t(locale, 'nav.proverbs')} description={en ? 'Punjabi proverbs in Shahmukhi, with literal and idiomatic English meanings.' : 'شاہ مکھی وچ پنجابی اکھان، اوہناں دے مطلب نال۔'} crumbs={[{ name: t(locale, 'nav.proverbs'), path: localePath(locale, '/proverbs') }]} pageType="CollectionPage">
   <section class="column section" data-filter>
     <header class="list-head">
       <div>

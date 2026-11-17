@@ -19,6 +19,8 @@ const locale = asLocale(Astro.currentLocale);
 const en = locale === 'en';
 const thesis = ui['home.thesis'];
 const [poets, poems, forms, proverbs] = await Promise.all([getPoets(), getPoems(), getForms(), getProverbs()]);
+// What a searcher sees under the home page: what is here, whose, and in which script.
+const homeDescription = `Read ${poems.length.toLocaleString('en')} Punjabi poems in Shahmukhi by ${poets.length} poets, from Baba Farid, Shah Hussain and Bulleh Shah to Waris Shah and Mian Muhammad Bakhsh: complete works, sources and word meanings.`;
 const poetById = new Map(poets.map((p) => [p.id, p]));
 const formById = new Map(forms.map((f) => [f.id, f]));
 
@@ -41,7 +43,7 @@ if (SITE.footerCouplet) {
   }
 }
 ---
-<Base jsonLd={{ '@type': 'WebSite', name: SITE.name, url: Astro.site?.href, inLanguage: ['en', 'pnb'], description: SITE.description }}>
+<Base description={en ? homeDescription : undefined}>
   <section class="home-hero">
     <!-- Decoration only: ruled lines, a large faint پنجابی and a few diamonds (CSS, no JS). -->
     <span class="home-hero__mark" lang="pnb" dir="rtl" aria-hidden="true">پنجابی</span>

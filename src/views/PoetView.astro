@@ -6,7 +6,9 @@ import T from '~/components/T.astro';
 import Source from '~/components/Source.astro';
 import { Image } from 'astro:assets';
 import { render } from 'astro:content';
-import { asLocale, localePath } from '~/i18n';
+import { asLocale, localePath, t } from '~/i18n';
+import { abs, ids, plainYear } from '~/lib/seo';
+import { SITE } from '~/site.config';
 import { lifespan, paDigits, poemsByPoet, poemsOfWork, worksByPoet, type Poet } from '~/lib/content';
 import { creditPa, lifespanPa, paNum, STYLE_PA } from '~/lib/pa';
 import type { UIKey } from '~/i18n/ui';
@@ -27,12 +29,42 @@ const en = locale === 'en';
 const dates = en ? lifespan(d) : lifespanPa(d);
 // Don't repeat the era as a style ("Modern · Modern").
 const styles = d.styles.filter((s) => s.toLowerCase() !== d.era);
-const jsonLd = { '@type': 'Person', name: d.name.en, alternateName: d.name.pa, description: d.bio_short, homeLocation: d.region };
+const site = Astro.site!;
+// Reference pages about the poet (Wikipedia and the like) tie this Person to the same person elsewhere.
+const sameAs = [...new Set(d.bio_sources.map((s) => s.url).filter((u): u is string => !!u && /wikipedia\.org|wikidata\.org|britannica\.com/.test(u)))];
+const jsonLd = {
+  '@type': 'Person',
+  '@id': ids.poet(site, poet.id),
+  name: d.name.en,
+  alternateName: d.name.pa,
+  description: d.bio_short,
+  url: abs(site, localePath(locale, `/poets/${poet.id}`)),
+  image: abs(site, `/og/poets/${poet.id}.png`),
+  birthDate: plainYear(d.born),
+  deathDate: plainYear(d.died),
+  homeLocation: { '@type': 'Place', name: d.region },
+  jobTitle: 'Poet',
+  knowsLanguage: ['pnb', 'pa'],
+  sameAs,
+  mainEntityOfPage: abs(site, localePath(locale, `/poets/${poet.id}`)),
+};
+const crumbs = [
+  { name: t(locale, 'nav.poets'), path: localePath(locale, '/poets') },
+  { name: en ? d.name.en : d.name.pa, path: localePath(locale, `/poets/${poet.id}`) },
+];
+// "Bulleh Shah (1680 – 1757): Sufi poet of Kasur… Read his kafis in Shahmukhi."
+const holdings = [
+  works.length ? `${works.length} complete ${works.length === 1 ? 'work' : 'works'}` : '',
+  poems.length ? `${poems.length} ${poems.length === 1 ? 'poem' : 'poems'}` : '',
+].filter(Boolean).join(' and ');
+const description = en
+  ? `${d.name.en} (${d.name.pa}${dates ? `, ${dates}` : ''}): ${d.bio_short.replace(/\.$/, '')}.${holdings ? ` Read ${holdings} in Shahmukhi on ${SITE.name}.` : ''}`
+  : d.bio_short_pa;
 
 // First letter of the Shahmukhi name, for the no-portrait tile.
 const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next().value?.segment ?? '';
 ---
-<Base title={en ? d.name.en : d.name.pa} description={en ? d.bio_short : d.bio_short_pa} type="profile" image={`/og/poets/${poet.id}.png`} jsonLd={jsonLd}>
+<Base title={en ? `${d.name.en} (${d.name.pa})` : d.name.pa} description={description} type="profile" image={`/og/poets/${poet.id}.png`} jsonLd={jsonLd} crumbs={crumbs} pageType="ProfilePage">
   <article class="column poet" data-pagefind-body data-pagefind-filter="type:poet" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <header class="poet__head">
       <figure class="portrait" data-pagefind-ignore>

@@ -7,6 +7,7 @@ import Source from '~/components/Source.astro';
 import { asLocale, localePath, t, tf } from '~/i18n';
 import { getProverbs, type Proverb } from '~/lib/content';
 import { TOPIC_PA } from '~/lib/pa';
+import { abs } from '~/lib/seo';
 import '~/styles/lists.css';
 import '~/styles/reader.css';
 
@@ -20,10 +21,31 @@ const prev = all[i - 1];
 const next = all[i + 1];
 const en = locale === 'en';
 // Punjabi pages: the proverb, its Punjabi explanation and the source, nothing in English.
-const title = en ? d.literal_en : d.text;
-const description = en ? (d.meaning_en ?? d.literal_en) : (d.meaning_pa ?? d.text);
+// English titles: the proverb's literal sense, without trailing punctuation; the Shahmukhi leads the description.
+const literal = d.literal_en.replace(/\s+/g, ' ').replace(/[\s,;:]+$/, '');
+const title = en ? literal : d.text;
+const description = en
+  ? `Punjabi proverb ${d.text.replace(/\s+/g, ' ')}${d.romanized ? ` (${d.romanized.replace(/\s+/g, ' ')})` : ''}: “${literal}”${d.meaning_en ? `. Meaning: ${d.meaning_en.replace(/\s+/g, ' ')}` : ''}`
+  : (d.meaning_pa ?? d.text);
+const site = Astro.site!;
+const jsonLd = {
+  '@type': 'Quotation',
+  '@id': abs(site, `/proverbs/${proverb.id}#proverb`),
+  name: d.text,
+  text: d.text,
+  alternateName: d.romanized,
+  inLanguage: 'pnb',
+  genre: 'Proverb',
+  description: [d.literal_en, d.meaning_en].filter(Boolean).join(' — '),
+  url: abs(site, localePath(locale, `/proverbs/${proverb.id}`)),
+  image: abs(site, `/og/proverbs/${proverb.id}.png`),
+};
+const crumbs = [
+  { name: t(locale, 'nav.proverbs'), path: localePath(locale, '/proverbs') },
+  { name: en ? d.literal_en : d.text, path: localePath(locale, `/proverbs/${proverb.id}`) },
+];
 ---
-<Base title={title} description={description} type="article" image={`/og/proverbs/${proverb.id}.png`} preloadNastaliq>
+<Base title={title} description={description} type="article" image={`/og/proverbs/${proverb.id}.png`} jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
   <article class="column section proverb" data-pagefind-body data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
     <p class="eyebrow">
       <a href={localePath(locale, '/proverbs')}><T k="nav.proverbs" /></a> · <span data-pagefind-ignore>{tf(locale, 'proverbs.position', { i: i + 1, n: all.length })}</span>

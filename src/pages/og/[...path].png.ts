@@ -8,7 +8,7 @@ import { Resvg } from '@resvg/resvg-js';
 import { join } from 'node:path';
 import { SITE } from '~/site.config';
 import { ui } from '~/i18n/ui';
-import { getEntries, getForms, getPoems, getPoets, getProverbs, lifespan } from '~/lib/content';
+import { getEntries, getForms, getPoems, getPoets, getProverbs, getWorks, lifespan } from '~/lib/content';
 
 interface Card { kicker: string; pa: string; en?: string; sub?: string }
 
@@ -17,7 +17,7 @@ const font = (f: string) => join(process.cwd(), 'src/assets/og-fonts', f);
 const FONTS = ['naskh.ttf', 'serif.ttf', 'sans.ttf'].map(font);
 
 export const getStaticPaths = (async () => {
-  const [poems, poets, forms, proverbs, entries] = await Promise.all([getPoems(), getPoets(), getForms(), getProverbs(), getEntries()]);
+  const [poems, poets, forms, proverbs, entries, works] = await Promise.all([getPoems(), getPoets(), getForms(), getProverbs(), getEntries(), getWorks()]);
   const poetById = new Map(poets.map((p) => [p.id, p]));
   const formById = new Map(forms.map((f) => [f.id, f]));
   const cards: { path: string; card: Card }[] = [
@@ -25,6 +25,10 @@ export const getStaticPaths = (async () => {
     ...poems.map((p) => ({
       path: `poems/${p.id}`,
       card: { kicker: formById.get(p.data.form.id)?.data.name.en ?? 'Poem', pa: p.data.title, en: p.data.title_en, sub: poetById.get(p.data.poet.id)?.data.name.en },
+    })),
+    ...works.map((w) => ({
+      path: `works/${w.id}`,
+      card: { kicker: `Complete ${formById.get(w.data.form.id)?.data.name.en.toLowerCase() ?? w.data.kind}`, pa: w.data.title, en: w.data.title_en, sub: poetById.get(w.data.poet.id)?.data.name.en },
     })),
     ...poets.map((p) => ({ path: `poets/${p.id}`, card: { kicker: 'Poet', pa: p.data.name.pa, en: p.data.name.en, sub: lifespan(p.data) } })),
     ...forms.map((f) => ({ path: `forms/${f.id}`, card: { kicker: 'Form', pa: f.data.name.pa, en: f.data.name.en, sub: f.data.description } })),

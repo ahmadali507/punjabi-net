@@ -11,7 +11,7 @@ const locale = asLocale(Astro.currentLocale);
 const en = locale === 'en';
 const [forms, poems] = await Promise.all([getForms(), getPoems()]);
 ---
-<Base title={t(locale, 'nav.forms')} description="The forms of Punjabi poetry: kafi, doha, bait, siharfi, baran maah, qissa, boli and dohra.">
+<Base title={t(locale, 'nav.forms')} description="The forms of Punjabi poetry: kafi, doha, bait, siharfi, baran maah, qissa, boli and dohra." crumbs={[{ name: t(locale, 'nav.forms'), path: localePath(locale, '/forms') }]} pageType="CollectionPage">
   <section class="wrap section">
     <header class="list-head">
       <div>

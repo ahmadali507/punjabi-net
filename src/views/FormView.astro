@@ -6,7 +6,8 @@ import T from '~/components/T.astro';
 import PoemRow from '~/components/PoemRow.astro';
 import Source from '~/components/Source.astro';
 import { render } from 'astro:content';
-import { asLocale, localePath } from '~/i18n';
+import { asLocale, localePath, t } from '~/i18n';
+import { abs } from '~/lib/seo';
 import { getForms, getPoems, getPoets, type Form } from '~/lib/content';
 import '~/styles/lists.css';
 import '~/styles/reader.css';
@@ -20,8 +21,22 @@ const { Content } = await render(form);
 const [poems, poets, forms] = await Promise.all([getPoems(), getPoets(), getForms()]);
 const poetById = new Map(poets.map((p) => [p.id, p]));
 const inForm = poems.filter((p) => p.data.form.id === form.id);
+const site = Astro.site!;
+const jsonLd = {
+  '@type': 'DefinedTerm',
+  '@id': abs(site, `/forms/${form.id}#form`),
+  name: d.name.en,
+  alternateName: d.name.pa,
+  description: d.description,
+  url: abs(site, localePath(locale, `/forms/${form.id}`)),
+  inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'Forms of Punjabi poetry', url: abs(site, '/forms') },
+};
+const crumbs = [
+  { name: t(locale, 'nav.forms'), path: localePath(locale, '/forms') },
+  { name: en ? d.name.en : d.name.pa, path: localePath(locale, `/forms/${form.id}`) },
+];
 ---
-<Base title={en ? `${d.name.en} (${d.name.pa})` : d.name.pa} description={en ? d.description : d.description_pa} type="article" image={`/og/forms/${form.id}.png`}>
+<Base title={en ? `${d.name.en} (${d.name.pa})` : d.name.pa} description={en ? d.description : d.description_pa} type="article" image={`/og/forms/${form.id}.png`} jsonLd={jsonLd} crumbs={crumbs}>
   <article class="column section" data-pagefind-body data-pagefind-filter="type:form" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
     <p class="eyebrow"><a href={localePath(locale, '/forms')}><T k="nav.forms" /></a></p>
     <header class="form-head">

@@ -21,9 +21,10 @@
 
    With neither configured, the form shows an error page that says so.
 
-3. **Domain.** The working name is `punjabi.net`. When the final name is chosen, change `site` in
-   `astro.config.mjs` and `name` in `src/site.config.ts` (canonical URLs, sitemap, OG images and
-   JSON-LD all follow).
+3. **Domain.** `site` in `astro.config.mjs` is the production domain (`https://punjabi.net`); the
+   site name is `name` in `src/site.config.ts`. Canonical URLs, the sitemap, robots.txt, llms.txt, OG
+   images and JSON-LD all follow them. The full go-live list (DNS, redirects, Cloudflare bot settings,
+   search consoles, checks) is in **LAUNCH.md**.
 
 `public/_headers` sets long-lived caching for fonts and hashed assets, and basic security headers.
 

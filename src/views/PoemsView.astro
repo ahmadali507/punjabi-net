@@ -3,7 +3,7 @@
 import Base from '~/layouts/Base.astro';
 import T from '~/components/T.astro';
 import PoemRow from '~/components/PoemRow.astro';
-import { asLocale, t, tf } from '~/i18n';
+import { asLocale, localePath, t, tf } from '~/i18n';
 import { getForms, getPoems, getPoets } from '~/lib/content';
 import '~/styles/lists.css';
 
@@ -16,7 +16,7 @@ const groups = poets
   .filter((g) => g.poems.length > 0);
 const usedForms = forms.filter((f) => poems.some((p) => p.data.form.id === f.id));
 ---
-<Base title={t(locale, 'nav.poems')} description="Punjabi poems in Shahmukhi, each with its printed source.">
+<Base title={t(locale, 'nav.poems')} description={`${poems.length.toLocaleString('en')} Punjabi poems by ${groups.length} poets in Shahmukhi: kafis, dohas, baits, shaloks and whole qisse such as Heer and Saif-ul-Malook, each with its printed source.`} crumbs={[{ name: t(locale, 'nav.poems'), path: localePath(locale, '/poems') }]} pageType="CollectionPage">
   <section class="wrap section" data-filter>
     <header class="list-head">
       <div>

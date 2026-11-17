@@ -5,8 +5,9 @@ import Header from '~/components/Header.astro';
 import Footer from '~/components/Footer.astro';
 import { SITE } from '~/site.config';
 import T from '~/components/T.astro';
-import { asLocale, alternatePath, cleanPath, PA_LANG } from '~/i18n';
+import { asLocale, alternatePath, cleanPath, t, PA_LANG } from '~/i18n';
 import { hasLatin } from '~/lib/pa';
+import { graph, type Crumb, type Node } from '~/lib/seo';
 
 interface Props {
   title?: string;
@@ -15,17 +16,21 @@ interface Props {
   image?: string;
   type?: 'website' | 'article' | 'profile';
   noindex?: boolean;
-  /** schema.org data for this page, emitted as JSON-LD. */
-  jsonLd?: Record<string, unknown>;
+  /** schema.org node(s) for this page's subject (the first is the page's main entity), joined into one JSON-LD @graph. */
+  jsonLd?: Node | Node[];
+  /** Breadcrumbs after Home, e.g. [{ name: 'Poets', path: '/poets' }, { name: 'Bulleh Shah', path: '/poets/bulleh-shah' }]. */
+  crumbs?: Crumb[];
+  /** schema.org type of the page itself: WebPage (default), ProfilePage, CollectionPage… */
+  pageType?: string;
   /** Preload the Nastaliq font: on /pa, and on pages whose main content is Shahmukhi text (poems, proverbs). */
   preloadNastaliq?: boolean;
 }
 
-const { title, description: desc, image = '/og/default.png', type = 'website', noindex = false, jsonLd, preloadNastaliq } = Astro.props;
+const { title, description: desc, image = '/og/default.png', type = 'website', noindex = false, jsonLd, crumbs, pageType, preloadNastaliq } = Astro.props;
 const locale = asLocale(Astro.currentLocale);
 // Punjabi pages never carry an English description: fall back to the site's Punjabi one.
 const description = locale === 'pa' ? (desc && !hasLatin(desc) ? desc : SITE.descriptionPa) : (desc ?? SITE.description);
-const fullTitle = title ? `${title} · ${SITE.name}` : SITE.name;
+const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} · ${locale === 'pa' ? SITE.taglinePa : SITE.tagline}`;
 const path = cleanPath(Astro.url.pathname);
 const canonical = new URL(path, Astro.site).href;
 const alt = {
@@ -37,6 +42,18 @@ const ogImage = new URL(image, Astro.site).href;
 // /pa pages are Punjabi (Shahmukhi) throughout: right-to-left.
 const htmlLang = locale === 'pa' ? PA_LANG : 'en';
 const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
+const ldGraph = graph({
+  site: Astro.site!,
+  url: canonical,
+  title: fullTitle,
+  description,
+  lang: htmlLang,
+  image: ogImage,
+  homeName: t(locale, 'nav.home'),
+  crumbs,
+  pageType,
+  nodes: jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [],
+});
 ---
 <!doctype html>
 <html lang={htmlLang} dir={htmlDir} data-locale={locale}>
@@ -56,7 +73,7 @@ const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
     <link rel="alternate" hreflang="en" href={alt.en} />
     <link rel="alternate" hreflang="pnb" href={alt.pa} />
     <link rel="alternate" hreflang="x-default" href={alt.en} />
-    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'} />
 
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:type" content={type} />
@@ -66,9 +83,15 @@ const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content={title ?? SITE.name} />
     <meta property="og:locale" content={locale === 'pa' ? 'pa_PK' : 'en_GB'} />
+    <meta property="og:locale:alternate" content={locale === 'pa' ? 'en_GB' : 'pa_PK'} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title ?? SITE.name} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={title ?? SITE.name} />
 
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)" />
@@ -76,11 +99,13 @@ const htmlDir = locale === 'pa' ? 'rtl' : 'ltr';
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
 
     {(preloadNastaliq ?? true) && <link rel="preload" href="/fonts/nastaliq-core.woff2" as="font" type="font/woff2" crossorigin />}
     {locale === 'en' && <link rel="preload" href="/fonts/sans-core.woff2" as="font" type="font/woff2" crossorigin />}
-    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', ...jsonLd }).replace(/</g, '\\u003c')} />}
+    <script type="application/ld+json" set:html={JSON.stringify(ldGraph).replace(/</g, '\\u003c')} />
     <slot name="head" />
   </head>
   <body>

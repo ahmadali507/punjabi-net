@@ -2,7 +2,7 @@
 /** /about: mission, sources policy, FAQ (<details>, no JS) and the contribution form. */
 import Base from '~/layouts/Base.astro';
 import T from '~/components/T.astro';
-import { asLocale, t } from '~/i18n';
+import { asLocale, localePath, t } from '~/i18n';
 import { SITE } from '~/site.config';
 import '~/styles/lists.css';
 import '~/styles/about.css';
@@ -60,8 +60,13 @@ const copy = {
   },
 };
 const L = en ? 'en' : 'pa';
+// The FAQ as schema.org FAQPage, so answer engines can quote the questions and answers as written.
+const faqLd = {
+  '@type': 'FAQPage',
+  mainEntity: copy.faq[L].map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+};
 ---
-<Base title={t(locale, 'about.title')} description={copy.mission.en[0]}>
+<Base title={t(locale, 'about.title')} description={en ? copy.mission.en[0] : copy.mission.pa[0]} jsonLd={faqLd} crumbs={[{ name: t(locale, 'about.title'), path: localePath(locale, '/about') }]} pageType="AboutPage">
   <article class="column section about">
     <h1><T k="about.title" /></h1>
 

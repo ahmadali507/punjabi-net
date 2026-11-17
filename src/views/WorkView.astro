@@ -14,6 +14,7 @@ import { asLocale, localePath, t, PA_LANG } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
 import { lifespanPa } from '~/lib/pa';
 import { chaptersOf, lifespan, paDigits, poemsOfWork, worksByPoet, type Work } from '~/lib/content';
+import { abs, ids } from '~/lib/seo';
 import '~/styles/reader.css';
 import '~/styles/work.css';
 
@@ -40,16 +41,33 @@ const pageTitle = en ? `${d.title_en} · ${poet.data.name.en}` : `${d.title} · 
 const description = en
   ? `${d.title_en}, the complete ${form.data.name.en.toLowerCase()} by ${poet.data.name.en}, in Shahmukhi: ${parts.length} parts.`
   : `${d.title}، ${poet.data.name.pa} دا پورا ${form.data.name.pa}۔`;
+const site = Astro.site!;
 const jsonLd = {
   '@type': 'Book',
+  '@id': ids.work(site, work.id),
   name: d.title,
   alternateName: d.title_en,
+  description,
+  url: abs(site, localePath(locale, `/works/${work.id}`)),
+  image: abs(site, `/og/works/${work.id}.png`),
   inLanguage: 'pnb',
   genre: form.data.name.en,
-  author: { '@type': 'Person', name: poet.data.name.en, alternateName: poet.data.name.pa },
+  bookFormat: 'https://schema.org/EBook',
+  author: { '@type': 'Person', '@id': ids.poet(site, poet.id), name: poet.data.name.en, alternateName: poet.data.name.pa, url: abs(site, `/poets/${poet.id}`) },
+  dateCreated: typeof d.year === 'number' ? String(d.year) : undefined,
+  // The parts, in order: each has its own page.
+  hasPart: parts.slice(0, 200).map((p) => ({ '@type': 'CreativeWork', '@id': ids.poem(site, p.id), name: p.data.title, position: p.data.work?.n, url: abs(site, `/poems/${p.id}`) })),
+  license: poet.data.copyright_status === 'public_domain' ? 'https://creativecommons.org/publicdomain/mark/1.0/' : undefined,
+  isAccessibleForFree: true,
+  publisher: { '@id': ids.org(site) },
 };
+const crumbs = [
+  { name: t(locale, 'nav.poets'), path: localePath(locale, '/poets') },
+  { name: en ? poet.data.name.en : poet.data.name.pa, path: localePath(locale, `/poets/${poet.id}`) },
+  { name: en ? d.title_en : d.title, path: localePath(locale, `/works/${work.id}`) },
+];
 ---
-<Base title={pageTitle} description={description} type="article" jsonLd={jsonLd} preloadNastaliq>
+<Base title={pageTitle} description={description} type="article" image={`/og/works/${work.id}.png`} jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
   <article class="work" data-pagefind-body data-pagefind-filter="type:work" data-pagefind-meta={`title:${d.title}${en ? ` · ${d.title_en}` : ''}`}>
     <header class="column work__head">
       <p class="eyebrow">

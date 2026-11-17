@@ -6,6 +6,8 @@ export const SITE = {
   name: 'punjabi.net',
   /** Shown in the footer only when set. Set it once the account exists. */
   instagram: null as string | null,
+  /** The site's own profiles elsewhere, for structured data (schema.org sameAs). Not shown on the page. */
+  sameAs: ['https://www.instagram.com/punjabiidotnet/'],
   /** Closing couplet in the footer: a poem slug + verse index, shown only if that verse exists. */
   footerCouplet: null as { poem: string; verse: number } | null,
   /**
@@ -14,6 +16,9 @@ export const SITE = {
    * Formspree form URL here (https://formspree.io/f/…).
    */
   contributeAction: '/api/contribute',
+  /** Follows the name in the home page's <title>. */
+  tagline: 'Punjabi poetry in Shahmukhi',
+  taglinePa: 'شاہ مکھی وچ پنجابی شاعری',
   description: 'A non-commercial archive of Punjabi poetry, poets, proverbs and vocabulary, in Shahmukhi.',
   descriptionPa: 'پنجابی شاعری، شاعراں، اکھاناں تے لفظاں دا غیر تجارتی ذخیرہ، شاہ مکھی وچ۔',
 };

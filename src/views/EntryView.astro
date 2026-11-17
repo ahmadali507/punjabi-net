@@ -9,6 +9,7 @@ import { asLocale, localePath, t } from '~/i18n';
 import { DIALECT_PA } from '~/lib/pa';
 import { firstLetter, getPoets, poemsUsingEntry, type Entry } from '~/lib/content';
 import type { UIKey } from '~/i18n/ui';
+import { abs, ids } from '~/lib/seo';
 import '~/styles/lists.css';
 import '~/styles/dictionary.css';
 
@@ -24,9 +25,28 @@ const en = locale === 'en';
 // Punjabi pages show only Shahmukhi (and Urdu, which shares the script): no romanisation, no English.
 const tr = (en ? (['ur', 'hi', 'en'] as const) : (['ur'] as const)).filter((k) => d.translations[k].length);
 const pageTitle = en ? `${d.headword} (${d.romanized})` : d.headword;
-const description = en ? `${d.headword} (${d.romanized}): ${d.senses.join('; ')}` : `${d.headword}: ${d.definition_pa ?? ''}`;
+const posName = t(locale, `pos.${d.pos}` as UIKey).toLowerCase();
+const description = en
+  ? `${d.headword} (${d.romanized}), Punjabi ${posName}: ${d.senses.join('; ')}. ${[d.examples.length ? 'Examples' : '', poems.length ? `${poems.length} ${poems.length === 1 ? 'poem' : 'poems'} that use it` : ''].filter(Boolean).join(' and ') || 'Meaning and pronunciation'}, in Shahmukhi.`
+  : `${d.headword}: ${d.definition_pa ?? ''}`;
+const site = Astro.site!;
+const jsonLd = {
+  '@type': 'DefinedTerm',
+  '@id': abs(site, `/dictionary/${entry.id}#term`),
+  name: d.headword,
+  alternateName: [d.romanized, ...d.translations.ur, ...d.translations.en],
+  description: d.senses.join('; '),
+  inLanguage: 'pnb',
+  url: abs(site, localePath(locale, `/dictionary/${entry.id}`)),
+  inDefinedTermSet: { '@type': 'DefinedTermSet', '@id': ids.dictionary(site), name: 'Punjabi–English dictionary (Shahmukhi)', url: abs(site, '/dictionary') },
+};
+const crumbs = [
+  { name: t(locale, 'nav.dictionary'), path: localePath(locale, '/dictionary') },
+  { name: letter, path: localePath(locale, `/dictionary/letter/${letter}`) },
+  { name: d.headword, path: localePath(locale, `/dictionary/${entry.id}`) },
+];
 ---
-<Base title={pageTitle} description={description} type="article" image={`/og/dictionary/${entry.id}.png`} preloadNastaliq>
+<Base title={pageTitle} description={description} type="article" image={`/og/dictionary/${entry.id}.png`} jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
   <article class="column section entry" data-pagefind-body data-pagefind-filter="type:word" data-pagefind-meta={en ? `title:${d.headword} · ${d.romanized}` : `title:${d.headword}`}>
     <p class="eyebrow" data-pagefind-ignore>
       <a href={localePath(locale, '/dictionary')}><T k="nav.dictionary" /></a> · <a href={localePath(locale, `/dictionary/letter/${letter}`)} lang="pnb">{letter}</a>

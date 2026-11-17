@@ -16,6 +16,7 @@ import type { UIKey } from '~/i18n/ui';
 import { lifespanPa, verificationPa } from '~/lib/pa';
 import { lifespan, paDigits, poemsByPoet, poemsOfWork, segmentLine, wordMeanings, type Poem } from '~/lib/content';
 import { POS } from '~/content.config';
+import { abs, ids, type Crumb } from '~/lib/seo';
 import '~/styles/reader.css';
 import '~/styles/work.css';
 
@@ -42,26 +43,55 @@ const posLabels = Object.fromEntries([...POS.map((p) => [p, t(locale, `pos.${p}`
 const hasText = d.verses.length > 0;
 const dates = en ? lifespan(poet.data) : lifespanPa(poet.data);
 
+const pageTitle = en ? `${d.title_en ?? d.title} · ${poet.data.name.en}` : `${d.title} · ${poet.data.name.pa}`;
+const description: string = !en
+  ? `${form.data.name.pa}، ${poet.data.name.pa}${hasText ? '' : '۔ متن حالے چڑھایا نہیں گیا'}۔`
+  : hasText
+  ? `${d.title_en ? `${d.title_en} (${d.title})` : d.title}: ${/^[aeiou]/i.test(form.data.name.en) ? 'an' : 'a'} ${form.data.name.en.toLowerCase()} by ${poet.data.name.en}${dates ? ` (${dates})` : ''}${work ? `, from ${work.data.title_en}` : ''}. Full text in Shahmukhi${d.translation ? ' with an English translation' : ''}, with word meanings.`
+  : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
+// The poem itself, as text answer engines can quote (capped so very long parts stay light).
+const site = Astro.site!;
+const fullText = d.verses.map((v) => v.text).join('\n\n');
+const enText = d.translation ? d.verses.map((v) => v.en ?? '').filter(Boolean).join('\n\n') : '';
+const cap = (s: string) => (s.length > 6000 ? `${s.slice(0, 6000).replace(/\s+\S*$/, '')} …` : s);
 const jsonLd = {
   '@type': 'CreativeWork',
+  '@id': ids.poem(site, poem.id),
   name: d.title,
   alternateName: d.title_en,
+  headline: d.title_en ? `${d.title} (${d.title_en})` : d.title,
+  description,
+  url: abs(site, localePath(locale, `/poems/${poem.id}`)),
+  image: abs(site, `/og/poems/${poem.id}.png`),
   inLanguage: 'pnb',
   genre: form.data.name.en,
-  author: { '@type': 'Person', name: poet.data.name.en, alternateName: poet.data.name.pa },
-  isBasedOn: { '@type': 'Book', name: d.source.book, editor: d.source.editor, publisher: d.source.publisher },
+  text: hasText ? cap(fullText) : undefined,
+  author: {
+    '@type': 'Person',
+    '@id': ids.poet(site, poet.id),
+    name: poet.data.name.en,
+    alternateName: poet.data.name.pa,
+    url: abs(site, `/poets/${poet.id}`),
+  },
+  isPartOf: work && d.work ? { '@type': 'Book', '@id': ids.work(site, work.id), name: work.data.title, alternateName: work.data.title_en, url: abs(site, `/works/${work.id}`) } : undefined,
+  position: d.work?.n,
+  isBasedOn: { '@type': 'Book', name: d.source.book, editor: d.source.editor, publisher: d.source.publisher, url: d.source.url },
+  workTranslation: enText ? { '@type': 'CreativeWork', inLanguage: 'en', text: cap(enText), translator: { '@type': 'Person', name: d.translation!.translator } } : undefined,
+  license: poet.data.copyright_status === 'public_domain' ? 'https://creativecommons.org/publicdomain/mark/1.0/' : undefined,
+  isAccessibleForFree: true,
+  publisher: { '@id': ids.org(site) },
 };
+const crumbs: Crumb[] = [
+  { name: t(locale, 'nav.poets'), path: localePath(locale, '/poets') },
+  { name: en ? poet.data.name.en : poet.data.name.pa, path: localePath(locale, `/poets/${poet.id}`) },
+  ...(work ? [{ name: en ? work.data.title_en : work.data.title, path: localePath(locale, `/works/${work.id}`) }] : []),
+  { name: en ? (d.title_en ?? d.title) : d.title, path: localePath(locale, `/poems/${poem.id}`) },
+];
 // Stanza numbers skip refrain repeats: a kafi's refrain is labelled, not counted.
 const stanzaNo = d.verses.map((v, i) => (v.refrain ? 0 : d.verses.slice(0, i + 1).filter((x) => !x.refrain).length));
 const num = (n: number) => (en ? String(n) : paDigits(n));
-const pageTitle = en ? `${d.title_en ?? d.title} · ${poet.data.name.en}` : `${d.title} · ${poet.data.name.pa}`;
-const description = !en
-  ? `${form.data.name.pa}، ${poet.data.name.pa}${hasText ? '' : '۔ متن حالے چڑھایا نہیں گیا'}۔`
-  : hasText
-  ? `${form.data.name.en} by ${poet.data.name.en}, in Shahmukhi${d.translation ? ' with an English translation' : ''}.`
-  : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
 ---
-<Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd} preloadNastaliq>
+<Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd} crumbs={crumbs} noindex={!hasText} preloadNastaliq>
   <article class="poem" data-pagefind-body data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
     {work && d.work && (
       <nav class="column no-print" aria-label={t(locale, 'work.partOf')} data-pagefind-ignore>
