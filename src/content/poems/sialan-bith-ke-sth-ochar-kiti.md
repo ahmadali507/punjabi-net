@@ -25,4 +25,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سیالاں بیٹھ کے سَتھ وچار کیتی"
   url: "https://wikisource.org/wiki/%D8%B3%DB%8C%D8%A7%D9%84%D8%A7%DA%BA_%D8%A8%DB%8C%D9%B9%DA%BE_%DA%A9%DB%92_%D8%B3%D9%8E%D8%AA%DA%BE_%D9%88%DA%86%D8%A7%D8%B1_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 621
 ---

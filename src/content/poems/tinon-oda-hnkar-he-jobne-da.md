@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تینوں وڈا ہنکار ہے جوبنے دا"
   url: "https://wikisource.org/wiki/%D8%AA%DB%8C%D9%86%D9%88%DA%BA_%D9%88%DA%88%D8%A7_%DB%81%D9%86%DA%A9%D8%A7%D8%B1_%DB%81%DB%92_%D8%AC%D9%88%D8%A8%D9%86%DB%92_%D8%AF%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 485
 ---

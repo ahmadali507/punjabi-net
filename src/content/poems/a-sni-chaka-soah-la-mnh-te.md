@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: آء سُنی چاکا سواہ لا منہ تے"
   url: "https://wikisource.org/wiki/%D8%A2%D8%A1_%D8%B3%D9%8F%D9%86%DB%8C_%DA%86%D8%A7%DA%A9%D8%A7_%D8%B3%D9%88%D8%A7%DB%81_%D9%84%D8%A7_%D9%85%D9%86%DB%81_%D8%AA%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 294
 ---

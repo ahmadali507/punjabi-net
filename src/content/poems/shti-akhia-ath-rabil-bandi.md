@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سہتی آکھیا اُٹھ رابیل باندی"
   url: "https://wikisource.org/wiki/%D8%B3%DB%81%D8%AA%DB%8C_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D8%A7%D9%8F%D9%B9%DA%BE_%D8%B1%D8%A7%D8%A8%DB%8C%D9%84_%D8%A8%D8%A7%D9%86%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 419
 ---

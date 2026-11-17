@@ -24,4 +24,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کھنگھ کُھرک تے ساہ تے اکھ آئی"
   url: "https://wikisource.org/wiki/%DA%A9%DA%BE%D9%86%DA%AF%DA%BE_%DA%A9%D9%8F%DA%BE%D8%B1%DA%A9_%D8%AA%DB%92_%D8%B3%D8%A7%DB%81_%D8%AA%DB%92_%D8%A7%DA%A9%DA%BE_%D8%A2%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 377
 ---

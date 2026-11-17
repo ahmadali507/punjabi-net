@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ست جرم کے ہمیں فقیر جوگی"
   url: "https://wikisource.org/wiki/%D8%B3%D8%AA_%D8%AC%D8%B1%D9%85_%DA%A9%DB%92_%DB%81%D9%85%DB%8C%DA%BA_%D9%81%D9%82%DB%8C%D8%B1_%D8%AC%D9%88%DA%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 295
 ---

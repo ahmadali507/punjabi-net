@@ -42,4 +42,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بارانماہ بلھے شاہ"
   url: "https://wikisource.org/wiki/%D8%A8%D8%A7%D8%B1%D8%A7%D9%86%D9%85%D8%A7%DB%81_%D8%A8%D9%84%DA%BE%DB%92_%D8%B4%D8%A7%DB%81"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: baran-maah-bulleh-shah
+  n: 1
 ---

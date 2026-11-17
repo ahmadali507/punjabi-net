@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جیہڑے چھڈ کے راہ حلال دے نوں"
   url: "https://wikisource.org/wiki/%D8%AC%DB%8C%DB%81%DA%91%DB%92_%DA%86%DA%BE%DA%88_%DA%A9%DB%92_%D8%B1%D8%A7%DB%81_%D8%AD%D9%84%D8%A7%D9%84_%D8%AF%DB%92_%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 210
 ---

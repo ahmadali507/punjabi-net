@@ -11,4 +11,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: قابل قدر معشوق جے ہووے"
   url: "https://wikisource.org/wiki/%D9%82%D8%A7%D8%A8%D9%84_%D9%82%D8%AF%D8%B1_%D9%85%D8%B9%D8%B4%D9%88%D9%82_%D8%AC%DB%92_%DB%81%D9%88%D9%88%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: dohre-hashim-shah
+  n: 108
 ---

@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: قاضی بنھ نکاح تے گھت ڈولی"
   url: "https://wikisource.org/wiki/%D9%82%D8%A7%D8%B6%DB%8C_%D8%A8%D9%86%DA%BE_%D9%86%DA%A9%D8%A7%D8%AD_%D8%AA%DB%92_%DA%AF%DA%BE%D8%AA_%DA%88%D9%88%D9%84%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 218
 ---

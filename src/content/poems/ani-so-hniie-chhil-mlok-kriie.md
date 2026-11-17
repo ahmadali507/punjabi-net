@@ -30,4 +30,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: انی سو ہنئیے چھیل ملوک کُڑئیے"
   url: "https://wikisource.org/wiki/%D8%A7%D9%86%DB%8C_%D8%B3%D9%88_%DB%81%D9%86%D8%A6%DB%8C%DB%92_%DA%86%DA%BE%DB%8C%D9%84_%D9%85%D9%84%D9%88%DA%A9_%DA%A9%D9%8F%DA%91%D8%A6%DB%8C%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 202
 ---

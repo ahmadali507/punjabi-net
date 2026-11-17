@@ -34,4 +34,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جتھے تِرنجناں دی گھمکار پوندی"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AA%DA%BE%DB%92_%D8%AA%D9%90%D8%B1%D9%86%D8%AC%D9%86%D8%A7%DA%BA_%D8%AF%DB%8C_%DA%AF%DA%BE%D9%85%DA%A9%D8%A7%D8%B1_%D9%BE%D9%88%D9%86%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 324
 ---

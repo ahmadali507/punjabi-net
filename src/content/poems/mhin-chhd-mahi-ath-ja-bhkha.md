@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مہیں چھڈ ماہی اٹھ جاء بھکھا"
   url: "https://wikisource.org/wiki/%D9%85%DB%81%DB%8C%DA%BA_%DA%86%DA%BE%DA%88_%D9%85%D8%A7%DB%81%DB%8C_%D8%A7%D9%B9%DA%BE_%D8%AC%D8%A7%D8%A1_%D8%A8%DA%BE%DA%A9%DA%BE%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 158
 ---

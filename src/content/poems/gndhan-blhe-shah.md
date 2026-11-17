@@ -51,4 +51,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گنڈھاں بلھے شاہ"
   url: "https://wikisource.org/wiki/%DA%AF%D9%86%DA%88%DA%BE%D8%A7%DA%BA_%D8%A8%D9%84%DA%BE%DB%92_%D8%B4%D8%A7%DB%81"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: gandhan-bulleh-shah
+  n: 1
 ---

@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اَج کسے بھابی تیرے نال کیتی"
   url: "https://wikisource.org/wiki/%D8%A7%D9%8E%D8%AC_%DA%A9%D8%B3%DB%92_%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%AA%DB%8C%D8%B1%DB%92_%D9%86%D8%A7%D9%84_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 526
 ---

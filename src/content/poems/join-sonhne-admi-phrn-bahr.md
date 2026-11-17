@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جویں سونہنے آدمی پھرن باہر"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88%DB%8C%DA%BA_%D8%B3%D9%88%D9%86%DB%81%D9%86%DB%92_%D8%A2%D8%AF%D9%85%DB%8C_%D9%BE%DA%BE%D8%B1%D9%86_%D8%A8%D8%A7%DB%81%D8%B1"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 516
 ---

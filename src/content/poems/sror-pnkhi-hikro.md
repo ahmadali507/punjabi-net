@@ -8,4 +8,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سرور پنکھی ہیکڑو"
   url: "https://wikisource.org/wiki/%D8%B3%D8%B1%D9%88%D8%B1_%D9%BE%D9%86%DA%A9%DA%BE%DB%8C_%DB%81%DB%8C%DA%A9%DA%91%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: shalok-baba-farid
+  n: 125
 ---

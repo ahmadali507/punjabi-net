@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اساں طلب سائیں دے نام دی"
   url: "https://wikisource.org/wiki/%D8%A7%D8%B3%D8%A7%DA%BA_%D8%B7%D9%84%D8%A8_%D8%B3%D8%A7%D8%A6%DB%8C%DA%BA_%D8%AF%DB%92_%D9%86%D8%A7%D9%85_%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-shah-hussain
+  n: 14
 ---

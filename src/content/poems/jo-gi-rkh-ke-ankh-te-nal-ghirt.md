@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جو گی رکھ کے انکھ تے نال غیرت"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88_%DA%AF%DB%8C_%D8%B1%DA%A9%DA%BE_%DA%A9%DB%92_%D8%A7%D9%86%DA%A9%DA%BE_%D8%AA%DB%92_%D9%86%D8%A7%D9%84_%D8%BA%DB%8C%D8%B1%D8%AA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 571
 ---

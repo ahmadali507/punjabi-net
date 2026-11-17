@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کڑیاں سد کے پینچاں نے پچھ کیتی"
   url: "https://wikisource.org/wiki/%DA%A9%DA%91%DB%8C%D8%A7%DA%BA_%D8%B3%D8%AF_%DA%A9%DB%92_%D9%BE%DB%8C%D9%86%DA%86%D8%A7%DA%BA_%D9%86%DB%92_%D9%BE%DA%86%DA%BE_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 146
 ---

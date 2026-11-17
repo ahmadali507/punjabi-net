@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: افسوس مینوں اپنی ناقصی دا"
   url: "https://wikisource.org/wiki/%D8%A7%D9%81%D8%B3%D9%88%D8%B3_%D9%85%DB%8C%D9%86%D9%88%DA%BA_%D8%A7%D9%BE%D9%86%DB%8C_%D9%86%D8%A7%D9%82%D8%B5%DB%8C_%D8%AF%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 627
 ---

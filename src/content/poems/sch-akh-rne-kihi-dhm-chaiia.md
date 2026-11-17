@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سچ آکھ رَنے کیہی دُھم چائیا"
   url: "https://wikisource.org/wiki/%D8%B3%DA%86_%D8%A2%DA%A9%DA%BE_%D8%B1%D9%8E%D9%86%DB%92_%DA%A9%DB%8C%DB%81%DB%8C_%D8%AF%D9%8F%DA%BE%D9%85_%DA%86%D8%A7%D8%A6%DB%8C%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 484
 ---

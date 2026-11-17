@@ -29,4 +29,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تیرے عشق نچایا کر کے تھیّا تھیّا"
   url: "https://wikisource.org/wiki/%D8%AA%DB%8C%D8%B1%DB%92_%D8%B9%D8%B4%D9%82_%D9%86%DA%86%D8%A7%DB%8C%D8%A7_%DA%A9%D8%B1_%DA%A9%DB%92_%D8%AA%DA%BE%DB%8C%D9%91%D8%A7_%D8%AA%DA%BE%DB%8C%D9%91%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 14
 ---

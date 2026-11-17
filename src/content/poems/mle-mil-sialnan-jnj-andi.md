@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ملے میل سیالناں جنج آندی"
   url: "https://wikisource.org/wiki/%D9%85%D9%84%DB%92_%D9%85%DB%8C%D9%84_%D8%B3%DB%8C%D8%A7%D9%84%D9%86%D8%A7%DA%BA_%D8%AC%D9%86%D8%AC_%D8%A2%D9%86%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 200
 ---

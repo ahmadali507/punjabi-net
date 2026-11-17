@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پرنیہاں دا مینوں اثر ہویا"
   url: "https://wikisource.org/wiki/%D9%BE%D8%B1%D9%86%DB%8C%DB%81%D8%A7%DA%BA_%D8%AF%D8%A7_%D9%85%DB%8C%D9%86%D9%88%DA%BA_%D8%A7%D8%AB%D8%B1_%DB%81%D9%88%DB%8C%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 523
 ---

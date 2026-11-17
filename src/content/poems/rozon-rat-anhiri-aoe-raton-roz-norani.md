@@ -81,6 +81,10 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: قصہ سیف الملوک/60"
   url: "https://wikisource.org/wiki/%D9%82%D8%B5%DB%81_%D8%B3%DB%8C%D9%81_%D8%A7%D9%84%D9%85%D9%84%D9%88%DA%A9%2F60"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: saif-ul-malook
+  n: 60
+  chapter: "جمشید ثانی شاہ عاصم دی وفات"
 ---
 
 Chapter headings in the source (Persian, with a Punjabi gloss in brackets):

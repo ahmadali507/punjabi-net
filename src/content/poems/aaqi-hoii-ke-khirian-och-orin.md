@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: عاقی ہوئی کے کھیڑیاں وچ وڑیں"
   url: "https://wikisource.org/wiki/%D8%B9%D8%A7%D9%82%DB%8C_%DB%81%D9%88%D8%A6%DB%8C_%DA%A9%DB%92_%DA%A9%DA%BE%DB%8C%DA%91%DB%8C%D8%A7%DA%BA_%D9%88%DA%86_%D9%88%DA%91%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 470
 ---

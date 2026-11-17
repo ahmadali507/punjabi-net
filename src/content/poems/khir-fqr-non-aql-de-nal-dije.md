@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: خیر فقر نوں عقل دے نال دیجے"
   url: "https://wikisource.org/wiki/%D8%AE%DB%8C%D8%B1_%D9%81%D9%82%D8%B1_%D9%86%D9%88%DA%BA_%D8%B9%D9%82%D9%84_%D8%AF%DB%92_%D9%86%D8%A7%D9%84_%D8%AF%DB%8C%D8%AC%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 433
 ---

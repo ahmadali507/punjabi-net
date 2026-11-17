@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر چُپ بیٹھی اسیں کُٹ کڈھے"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%DA%86%D9%8F%D9%BE_%D8%A8%DB%8C%D9%B9%DA%BE%DB%8C_%D8%A7%D8%B3%DB%8C%DA%BA_%DA%A9%D9%8F%D9%B9_%DA%A9%DA%88%DA%BE%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 452
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: عدل بناں سردار ہے رکھ اپھل"
   url: "https://wikisource.org/wiki/%D8%B9%D8%AF%D9%84_%D8%A8%D9%86%D8%A7%DA%BA_%D8%B3%D8%B1%D8%AF%D8%A7%D8%B1_%DB%81%DB%92_%D8%B1%DA%A9%DA%BE_%D8%A7%D9%BE%DA%BE%D9%84"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 351
 ---

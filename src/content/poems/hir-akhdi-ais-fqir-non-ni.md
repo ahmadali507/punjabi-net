@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر آکھدی ایس فقیر نوں نی"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D8%A2%DA%A9%DA%BE%D8%AF%DB%8C_%D8%A7%DB%8C%D8%B3_%D9%81%D9%82%DB%8C%D8%B1_%D9%86%D9%88%DA%BA_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 410
 ---

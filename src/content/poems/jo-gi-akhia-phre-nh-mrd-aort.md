@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جو گی آکھیا پھرے نہ مرد عورت"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88_%DA%AF%DB%8C_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D9%BE%DA%BE%D8%B1%DB%92_%D9%86%DB%81_%D9%85%D8%B1%D8%AF_%D8%B9%D9%88%D8%B1%D8%AA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 581
 ---

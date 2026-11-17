@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہتھ بنھ نیویں دھون گھاہ مُونہہ"
   url: "https://wikisource.org/wiki/%DB%81%D8%AA%DA%BE_%D8%A8%D9%86%DA%BE_%D9%86%DB%8C%D9%88%DB%8C%DA%BA_%D8%AF%DA%BE%D9%88%D9%86_%DA%AF%DA%BE%D8%A7%DB%81_%D9%85%D9%8F%D9%88%D9%86%DB%81%DB%81"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 566
 ---

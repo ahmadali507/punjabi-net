@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جدوں گانڑے دے دن پُج مُکے"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AF%D9%88%DA%BA_%DA%AF%D8%A7%D9%86%DA%91%DB%92_%D8%AF%DB%92_%D8%AF%D9%86_%D9%BE%D9%8F%D8%AC_%D9%85%D9%8F%DA%A9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 228
 ---

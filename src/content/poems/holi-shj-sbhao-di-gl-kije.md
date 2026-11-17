@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہولی سہج سبھاؤ دی گل کیجے"
   url: "https://wikisource.org/wiki/%DB%81%D9%88%D9%84%DB%8C_%D8%B3%DB%81%D8%AC_%D8%B3%D8%A8%DA%BE%D8%A7%D8%A4_%D8%AF%DB%8C_%DA%AF%D9%84_%DA%A9%DB%8C%D8%AC%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 381
 ---

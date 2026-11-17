@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھابی اج جوبن تیرے لہر دِتی"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%A7%D8%AC_%D8%AC%D9%88%D8%A8%D9%86_%D8%AA%DB%8C%D8%B1%DB%92_%D9%84%DB%81%D8%B1_%D8%AF%D9%90%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 519
 ---

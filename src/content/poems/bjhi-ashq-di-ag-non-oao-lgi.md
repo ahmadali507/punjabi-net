@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بُجھی عِشق دی اگ نوں واؤ لگی"
   url: "https://wikisource.org/wiki/%D8%A8%D9%8F%D8%AC%DA%BE%DB%8C_%D8%B9%D9%90%D8%B4%D9%82_%D8%AF%DB%8C_%D8%A7%DA%AF_%D9%86%D9%88%DA%BA_%D9%88%D8%A7%D8%A4_%D9%84%DA%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 252
 ---

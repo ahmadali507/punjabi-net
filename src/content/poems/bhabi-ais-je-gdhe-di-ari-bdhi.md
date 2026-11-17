@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھابی ایس جے گدھے دی اڑی بدھی"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%A7%DB%8C%D8%B3_%D8%AC%DB%92_%DA%AF%D8%AF%DA%BE%DB%92_%D8%AF%DB%8C_%D8%A7%DA%91%DB%8C_%D8%A8%D8%AF%DA%BE%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 414
 ---

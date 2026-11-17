@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کوئی دھوبی ولایتوں آ لتھا"
   url: "https://wikisource.org/wiki/%DA%A9%D9%88%D8%A6%DB%8C_%D8%AF%DA%BE%D9%88%D8%A8%DB%8C_%D9%88%D9%84%D8%A7%DB%8C%D8%AA%D9%88%DA%BA_%D8%A2_%D9%84%D8%AA%DA%BE%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 521
 ---

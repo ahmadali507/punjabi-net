@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جدوں کرم الہ دا کرے مدد"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AF%D9%88%DA%BA_%DA%A9%D8%B1%D9%85_%D8%A7%D9%84%DB%81_%D8%AF%D8%A7_%DA%A9%D8%B1%DB%92_%D9%85%D8%AF%D8%AF"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 287
 ---

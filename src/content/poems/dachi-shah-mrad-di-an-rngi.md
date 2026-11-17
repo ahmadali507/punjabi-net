@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ڈاچی شاہ مراد دی آن رنگی"
   url: "https://wikisource.org/wiki/%DA%88%D8%A7%DA%86%DB%8C_%D8%B4%D8%A7%DB%81_%D9%85%D8%B1%D8%A7%D8%AF_%D8%AF%DB%8C_%D8%A2%D9%86_%D8%B1%D9%86%DA%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 586
 ---

@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سُنیں جوگیا گھبرا چھیل بانکے"
   url: "https://wikisource.org/wiki/%D8%B3%D9%8F%D9%86%DB%8C%DA%BA_%D8%AC%D9%88%DA%AF%DB%8C%D8%A7_%DA%AF%DA%BE%D8%A8%D8%B1%D8%A7_%DA%86%DA%BE%DB%8C%D9%84_%D8%A8%D8%A7%D9%86%DA%A9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 315
 ---

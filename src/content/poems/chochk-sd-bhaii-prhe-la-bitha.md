@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چوچک سد بھائی پرہے لا بیٹھا"
   url: "https://wikisource.org/wiki/%DA%86%D9%88%DA%86%DA%A9_%D8%B3%D8%AF_%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C_%D9%BE%D8%B1%DB%81%DB%92_%D9%84%D8%A7_%D8%A8%DB%8C%D9%B9%DA%BE%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 172
 ---

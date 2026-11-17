@@ -56,4 +56,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: میری بُکّل دے وچ چور نی"
   url: "https://wikisource.org/wiki/%D9%85%DB%8C%D8%B1%DB%8C_%D8%A8%D9%8F%DA%A9%D9%91%D9%84_%D8%AF%DB%92_%D9%88%DA%86_%DA%86%D9%88%D8%B1_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 104
 ---

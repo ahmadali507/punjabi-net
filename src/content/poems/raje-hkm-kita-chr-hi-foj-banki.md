@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: راجے حکم کیتا چڑ ھی فوج بانکی"
   url: "https://wikisource.org/wiki/%D8%B1%D8%A7%D8%AC%DB%92_%D8%AD%DA%A9%D9%85_%DA%A9%DB%8C%D8%AA%D8%A7_%DA%86%DA%91_%DA%BE%DB%8C_%D9%81%D9%88%D8%AC_%D8%A8%D8%A7%D9%86%DA%A9%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 595
 ---

@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جے توں سوہنی ہوئیکے پویں سوکن"
   url: "https://wikisource.org/wiki/%D8%AC%DB%92_%D8%AA%D9%88%DA%BA_%D8%B3%D9%88%DB%81%D9%86%DB%8C_%DB%81%D9%88%D8%A6%DB%8C%DA%A9%DB%92_%D9%BE%D9%88%DB%8C%DA%BA_%D8%B3%D9%88%DA%A9%D9%86"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 167
 ---

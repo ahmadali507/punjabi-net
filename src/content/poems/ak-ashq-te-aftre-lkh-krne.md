@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اِک عشق تے افترے لکھ کرنے"
   url: "https://wikisource.org/wiki/%D8%A7%D9%90%DA%A9_%D8%B9%D8%B4%D9%82_%D8%AA%DB%92_%D8%A7%D9%81%D8%AA%D8%B1%DB%92_%D9%84%DA%A9%DA%BE_%DA%A9%D8%B1%D9%86%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 552
 ---

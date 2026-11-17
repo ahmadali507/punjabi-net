@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جوگی ہو لاچار جاں مہر کیتی"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88%DA%AF%DB%8C_%DB%81%D9%88_%D9%84%D8%A7%DA%86%D8%A7%D8%B1_%D8%AC%D8%A7%DA%BA_%D9%85%DB%81%D8%B1_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 268
 ---

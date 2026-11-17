@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جدوں شرع دے آن کے رجوع ہوئے"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AF%D9%88%DA%BA_%D8%B4%D8%B1%D8%B9_%D8%AF%DB%92_%D8%A2%D9%86_%DA%A9%DB%92_%D8%B1%D8%AC%D9%88%D8%B9_%DB%81%D9%88%D8%A6%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 600
 ---

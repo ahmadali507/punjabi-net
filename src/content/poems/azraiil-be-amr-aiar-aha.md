@@ -24,4 +24,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: عزرائیل بے امر عیار آہا"
   url: "https://wikisource.org/wiki/%D8%B9%D8%B2%D8%B1%D8%A7%D8%A6%DB%8C%D9%84_%D8%A8%DB%92_%D8%A7%D9%85%D8%B1_%D8%B9%DB%8C%D8%A7%D8%B1_%D8%A2%DB%81%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 542
 ---

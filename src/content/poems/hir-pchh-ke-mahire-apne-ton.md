@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر پُچھ کے ماہیڑے اپنے توں"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D9%BE%D9%8F%DA%86%DA%BE_%DA%A9%DB%92_%D9%85%D8%A7%DB%81%DB%8C%DA%91%DB%92_%D8%A7%D9%BE%D9%86%DB%92_%D8%AA%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 166
 ---

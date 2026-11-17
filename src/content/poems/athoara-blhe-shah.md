@@ -35,4 +35,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اٹھوارا بلھے شاہ"
   url: "https://wikisource.org/wiki/%D8%A7%D9%B9%DA%BE%D9%88%D8%A7%D8%B1%D8%A7_%D8%A8%D9%84%DA%BE%DB%92_%D8%B4%D8%A7%DB%81"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: athwara-bulleh-shah
+  n: 1
 ---

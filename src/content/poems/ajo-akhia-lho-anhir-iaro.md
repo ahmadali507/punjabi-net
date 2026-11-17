@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اجو آکھیا لہو انھیر یارو"
   url: "https://wikisource.org/wiki/%D8%A7%D8%AC%D9%88_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D9%84%DB%81%D9%88_%D8%A7%D9%86%DA%BE%DB%8C%D8%B1_%DB%8C%D8%A7%D8%B1%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 573
 ---

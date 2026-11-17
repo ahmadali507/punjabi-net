@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: راہ جاندی میں جھوٹے نے ڈھاہ لیتی"
   url: "https://wikisource.org/wiki/%D8%B1%D8%A7%DB%81_%D8%AC%D8%A7%D9%86%D8%AF%DB%8C_%D9%85%DB%8C%DA%BA_%D8%AC%DA%BE%D9%88%D9%B9%DB%92_%D9%86%DB%92_%DA%88%DA%BE%D8%A7%DB%81_%D9%84%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 533
 ---

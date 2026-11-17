@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اساں محنتاں ڈاہڈیاں کیتیاں نی"
   url: "https://wikisource.org/wiki/%D8%A7%D8%B3%D8%A7%DA%BA_%D9%85%D8%AD%D9%86%D8%AA%D8%A7%DA%BA_%DA%88%D8%A7%DB%81%DA%88%DB%8C%D8%A7%DA%BA_%DA%A9%DB%8C%D8%AA%DB%8C%D8%A7%DA%BA_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 370
 ---

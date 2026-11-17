@@ -8,7 +8,7 @@ import Base from '~/layouts/Base.astro';
 import Pa from '~/components/Pa.astro';
 import T from '~/components/T.astro';
 import Source from '~/components/Source.astro';
-import { getEntry, render } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import { asLocale, localePath, t, PA_LANG } from '~/i18n';
 import type { UIKey } from '~/i18n/ui';
 import { lifespanPa } from '~/lib/pa';
@@ -25,6 +25,8 @@ const poet = (await getEntry(d.poet))!;
 const form = (await getEntry(d.form))!;
 const parts = await poemsOfWork(work.id);
 const chapters = chaptersOf(parts);
+// A part by someone else (e.g. a Guru's shalok within Farid's sequence) names its author.
+const poetNames = new Map((await getCollection('poets')).map((p) => [p.id, en ? p.data.name.en : p.data.name.pa]));
 const chapterStart = new Map(chapters.map((c) => [c.from, c]));
 const { Content } = await render(work);
 const hasIntro = Boolean(work.body?.trim());
@@ -58,7 +60,7 @@ const jsonLd = {
       <p class="work__meta muted">
         {en ? <bdi dir="ltr">{poet.data.name.en}{dates && ` · ${dates}`}</bdi> : <bdi>{poet.data.name.pa}{dates && ` · ${dates}`}</bdi>}
         {' · '}<T k={`work.kind.${d.kind}` as UIKey} />
-        {' · '}{num(parts.length)} <T k="work.parts" />
+        {' · '}{num(parts.length)} <T k={parts.length === 1 ? 'work.part' : 'work.parts'} />
         {d.year && <> · {en ? d.year : paDigits(String(d.year))}</>}
       </p>
       <p class="work__actions no-print">
@@ -99,7 +101,7 @@ const jsonLd = {
               )}
               <section class:list={['part', { 'part--card': collection }]} id={`p-${w.n}`} aria-label={`${num(w.n)}`}>
                 <a class="part__n" href={localePath(locale, `/poems/${p.id}`)} title={t(locale, 'work.openPart')}>{num(w.n)}</a>
-                {collection && <h3 class="part__title"><a href={localePath(locale, `/poems/${p.id}`)}><Pa t={p.data.title} /></a></h3>}
+                {p.data.poet.id !== poet.id && <p class="part__by muted">{poetNames.get(p.data.poet.id)}</p>}
                 {p.data.verses.map((v) => (
                   <p class:list={['part__verse', { 'part__verse--refrain': v.refrain }]} lang={PA_LANG} dir="rtl">
                     {v.text.split('\n').map((line) => <span class="line">{line}</span>)}

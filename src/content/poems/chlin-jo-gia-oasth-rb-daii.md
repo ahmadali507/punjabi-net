@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چلیں جو گیا واسطہ رب دائی"
   url: "https://wikisource.org/wiki/%DA%86%D9%84%DB%8C%DA%BA_%D8%AC%D9%88_%DA%AF%DB%8C%D8%A7_%D9%88%D8%A7%D8%B3%D8%B7%DB%81_%D8%B1%D8%A8_%D8%AF%D8%A7%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 577
 ---

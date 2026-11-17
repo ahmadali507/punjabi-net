@@ -28,4 +28,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ریس جوگیاں دی تیتھوں نہیں ہُندی"
   url: "https://wikisource.org/wiki/%D8%B1%DB%8C%D8%B3_%D8%AC%D9%88%DA%AF%DB%8C%D8%A7%DA%BA_%D8%AF%DB%8C_%D8%AA%DB%8C%D8%AA%DA%BE%D9%88%DA%BA_%D9%86%DB%81%DB%8C%DA%BA_%DB%81%D9%8F%D9%86%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 353
 ---

@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: میاں تریمتاں نال ویاہ سوہن"
   url: "https://wikisource.org/wiki/%D9%85%DB%8C%D8%A7%DA%BA_%D8%AA%D8%B1%DB%8C%D9%85%D8%AA%D8%A7%DA%BA_%D9%86%D8%A7%D9%84_%D9%88%DB%8C%D8%A7%DB%81_%D8%B3%D9%88%DB%81%D9%86"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 483
 ---

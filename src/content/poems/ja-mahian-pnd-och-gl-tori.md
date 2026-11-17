@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جا ماہیاں پنڈ وچ گل ٹوری"
   url: "https://wikisource.org/wiki/%D8%AC%D8%A7_%D9%85%D8%A7%DB%81%DB%8C%D8%A7%DA%BA_%D9%BE%D9%86%DA%88_%D9%88%DA%86_%DA%AF%D9%84_%D9%B9%D9%88%D8%B1%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 52
 ---

@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جس جٹ دے کھیت نوں اگ لگی"
   url: "https://wikisource.org/wiki/%D8%AC%D8%B3_%D8%AC%D9%B9_%D8%AF%DB%92_%DA%A9%DA%BE%DB%8C%D8%AA_%D9%86%D9%88%DA%BA_%D8%A7%DA%AF_%D9%84%DA%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 393
 ---

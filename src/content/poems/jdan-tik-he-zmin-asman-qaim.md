@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جداں تیک ہے زمیں اسماں قائم"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AF%D8%A7%DA%BA_%D8%AA%DB%8C%DA%A9_%DB%81%DB%92_%D8%B2%D9%85%DB%8C%DA%BA_%D8%A7%D8%B3%D9%85%D8%A7%DA%BA_%D9%82%D8%A7%D8%A6%D9%85"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 390
 ---

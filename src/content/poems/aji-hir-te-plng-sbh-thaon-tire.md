@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اجی ہیر تے پلنگ سبھ تھاؤں تیرے"
   url: "https://wikisource.org/wiki/%D8%A7%D8%AC%DB%8C_%DB%81%DB%8C%D8%B1_%D8%AA%DB%92_%D9%BE%D9%84%D9%86%DA%AF_%D8%B3%D8%A8%DA%BE_%D8%AA%DA%BE%D8%A7%D8%A4%DA%BA_%D8%AA%DB%8C%D8%B1%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 63
 ---

@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جہی نیت ہئی تہی مراد ملیا"
   url: "https://wikisource.org/wiki/%D8%AC%DB%81%DB%8C_%D9%86%DB%8C%D8%AA_%DB%81%D8%A6%DB%8C_%D8%AA%DB%81%DB%8C_%D9%85%D8%B1%D8%A7%D8%AF_%D9%85%D9%84%DB%8C%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 365
 ---

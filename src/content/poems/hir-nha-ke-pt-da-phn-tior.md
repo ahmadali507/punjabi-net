@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر نہاء کے پَٹ دا پَہن تیور"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D9%86%DB%81%D8%A7%D8%A1_%DA%A9%DB%92_%D9%BE%D9%8E%D9%B9_%D8%AF%D8%A7_%D9%BE%D9%8E%DB%81%D9%86_%D8%AA%DB%8C%D9%88%D8%B1"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 503
 ---

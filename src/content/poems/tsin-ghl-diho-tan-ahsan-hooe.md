@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تُسیں گھل دیہو تاں احسان ہووے"
   url: "https://wikisource.org/wiki/%D8%AA%D9%8F%D8%B3%DB%8C%DA%BA_%DA%AF%DA%BE%D9%84_%D8%AF%DB%8C%DB%81%D9%88_%D8%AA%D8%A7%DA%BA_%D8%A7%D8%AD%D8%B3%D8%A7%D9%86_%DB%81%D9%88%D9%88%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 160
 ---

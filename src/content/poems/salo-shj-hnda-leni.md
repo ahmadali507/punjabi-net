@@ -9,4 +9,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سالو سہج ہنڈا لےنی"
   url: "https://wikisource.org/wiki/%D8%B3%D8%A7%D9%84%D9%88_%D8%B3%DB%81%D8%AC_%DB%81%D9%86%DA%88%D8%A7_%D9%84%DB%92%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-shah-hussain
+  n: 110
 ---

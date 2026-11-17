@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سنُجا لوگ بخیل ہے باب مینڈے"
   url: "https://wikisource.org/wiki/%D8%B3%D9%86%D9%8F%D8%AC%D8%A7_%D9%84%D9%88%DA%AF_%D8%A8%D8%AE%DB%8C%D9%84_%DB%81%DB%92_%D8%A8%D8%A7%D8%A8_%D9%85%DB%8C%D9%86%DA%88%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 271
 ---

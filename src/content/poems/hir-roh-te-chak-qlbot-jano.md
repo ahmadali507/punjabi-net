@@ -24,4 +24,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر رُوح تے چاک قلبوت جانو"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D8%B1%D9%8F%D9%88%D8%AD_%D8%AA%DB%92_%DA%86%D8%A7%DA%A9_%D9%82%D9%84%D8%A8%D9%88%D8%AA_%D8%AC%D8%A7%D9%86%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 630
 ---

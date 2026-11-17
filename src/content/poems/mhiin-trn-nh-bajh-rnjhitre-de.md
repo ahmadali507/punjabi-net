@@ -21,4 +21,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مہئیں ٹرن نہ باجھ رنجھیٹڑے دے"
   url: "https://wikisource.org/wiki/%D9%85%DB%81%D8%A6%DB%8C%DA%BA_%D9%B9%D8%B1%D9%86_%D9%86%DB%81_%D8%A8%D8%A7%D8%AC%DA%BE_%D8%B1%D9%86%D8%AC%DA%BE%DB%8C%D9%B9%DA%91%DB%92_%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 219
 ---

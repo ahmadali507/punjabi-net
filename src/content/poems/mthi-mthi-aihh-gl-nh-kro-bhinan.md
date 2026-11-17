@@ -24,4 +24,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مٹھی مٹھی ایہہ گل نہ کرو بھیناں"
   url: "https://wikisource.org/wiki/%D9%85%D9%B9%DA%BE%DB%8C_%D9%85%D9%B9%DA%BE%DB%8C_%D8%A7%DB%8C%DB%81%DB%81_%DA%AF%D9%84_%D9%86%DB%81_%DA%A9%D8%B1%D9%88_%D8%A8%DA%BE%DB%8C%D9%86%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 308
 ---

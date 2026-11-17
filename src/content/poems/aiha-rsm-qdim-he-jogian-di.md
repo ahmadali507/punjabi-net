@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ایہا رسم قدیم ہے جوگیاں دی"
   url: "https://wikisource.org/wiki/%D8%A7%DB%8C%DB%81%D8%A7_%D8%B1%D8%B3%D9%85_%D9%82%D8%AF%DB%8C%D9%85_%DB%81%DB%92_%D8%AC%D9%88%DA%AF%DB%8C%D8%A7%DA%BA_%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 372
 ---

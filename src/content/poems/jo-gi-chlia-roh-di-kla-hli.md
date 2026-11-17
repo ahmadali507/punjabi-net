@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جو گی چلیا رُوح دی کلا ہلی"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88_%DA%AF%DB%8C_%DA%86%D9%84%DB%8C%D8%A7_%D8%B1%D9%8F%D9%88%D8%AD_%D8%AF%DB%8C_%DA%A9%D9%84%D8%A7_%DB%81%D9%84%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 578
 ---

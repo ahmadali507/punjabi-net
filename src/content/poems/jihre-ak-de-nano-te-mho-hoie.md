@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جیہڑے اِک دے نانو تے محو ہوئے"
   url: "https://wikisource.org/wiki/%D8%AC%DB%8C%DB%81%DA%91%DB%92_%D8%A7%D9%90%DA%A9_%D8%AF%DB%92_%D9%86%D8%A7%D9%86%D9%88_%D8%AA%DB%92_%D9%85%D8%AD%D9%88_%DB%81%D9%88%D8%A6%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 216
 ---

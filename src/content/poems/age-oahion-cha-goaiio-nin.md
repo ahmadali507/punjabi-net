@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اگے واہیوں چاء گوائیو نیں"
   url: "https://wikisource.org/wiki/%D8%A7%DA%AF%DB%92_%D9%88%D8%A7%DB%81%DB%8C%D9%88%DA%BA_%DA%86%D8%A7%D8%A1_%DA%AF%D9%88%D8%A7%D8%A6%DB%8C%D9%88_%D9%86%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 233
 ---

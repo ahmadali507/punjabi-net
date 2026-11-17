@@ -1,0 +1,15 @@
+---
+poet: ghulam-rasool-alampuri
+form: qissa
+title: "عزیز دے محلاں وچّ"
+verses:
+  - text: "ایہہ روندی دی گزر اماری، ندیوں پار سدھاری ۔\nتے اوہ زینت نال شنگاری، مسریاں دی اسواری ۔\nجاں اسواری وڑی مصر وچّ، خیر ونڈن خیراتاں ۔\nجشن رہے وچّ مصرعے خوشیوں، دن کتنے کئی راتاں ۔\nخاترداری رکھے اسدی، آپ عزیز بیچارا ۔\nتے اوہ کہیا ہاتف والا، ہویا پورا سارا ۔\nظاہر ظاہر گلاں کردی، دل وچ کردی زاری ۔\nرات پوے تے کلی بہکے، کرے ولاپ بیچاری ۔\nوجن سلّ جگر نوں تازے، قول پکے دل سلن ۔\nرات جگیندی وین کریندی، نین ن نیندر جھلن ۔\nورھیاں رہی اڈیکاں اندر، روندی تے کرلاندی ۔\nمہرومی وچ دل نوں جالے، پر کچھ پیش ن جاندی ۔\nن اوہ یار دس آیا ظاہر، ن آیا وچّ خوابے ۔\nتدبیراں کجھ چلن ناہیں، جلدی جان عذابے ۔"
+source:
+  book: "Wikisource (Punjabi), public-domain transcription: احسن ال کسسن (قصہ یوسف زلیخا)"
+  url: "https://wikisource.org/wiki/%D8%A7%D8%AD%D8%B3%D9%86_%D8%A7%D9%84_%DA%A9%D8%B3%D8%B3%D9%86_(%D9%82%D8%B5%DB%81_%DB%8C%D9%88%D8%B3%D9%81_%D8%B2%D9%84%DB%8C%D8%AE%D8%A7)"
+verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: yusuf-zulaikha-alampuri
+  n: 82
+  chapter: "زلیخا دا مصر وچ پہنچنا"
+---

@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: وار گھتیا کون بلا کتا"
   url: "https://wikisource.org/wiki/%D9%88%D8%A7%D8%B1_%DA%AF%DA%BE%D8%AA%DB%8C%D8%A7_%DA%A9%D9%88%D9%86_%D8%A8%D9%84%D8%A7_%DA%A9%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 149
 ---

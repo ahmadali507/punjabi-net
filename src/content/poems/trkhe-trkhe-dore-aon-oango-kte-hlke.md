@@ -27,6 +27,10 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: قصہ سیف الملوک/37"
   url: "https://wikisource.org/wiki/%D9%82%D8%B5%DB%81_%D8%B3%DB%8C%D9%81_%D8%A7%D9%84%D9%85%D9%84%D9%88%DA%A9%2F37"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: saif-ul-malook
+  n: 37
+  chapter: "سنگساراں نال جنگ دا بیان"
 ---
 
 Chapter headings in the source (Persian, with a Punjabi gloss in brackets):

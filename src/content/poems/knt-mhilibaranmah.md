@@ -68,4 +68,7 @@ source:
   book: "Kant Maheli"
   url: "https://www.punjabi-kavita.com/KantMaheliBhaiVirSinghShahmukhi.php"
 verification_note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Kant Maheli). Not yet checked against a printed edition."
+work:
+  id: kant-maheli
+  n: 1
 ---

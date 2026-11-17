@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مہتر نوح ؑ دیاں بیٹیاں ضد کیتی"
   url: "https://wikisource.org/wiki/%D9%85%DB%81%D8%AA%D8%B1_%D9%86%D9%88%D8%AD_%D8%91_%D8%AF%DB%8C%D8%A7%DA%BA_%D8%A8%DB%8C%D9%B9%DB%8C%D8%A7%DA%BA_%D8%B6%D8%AF_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 507
 ---

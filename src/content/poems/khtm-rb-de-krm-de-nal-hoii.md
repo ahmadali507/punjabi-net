@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ختم رب دے کرم دے نال ہوئی"
   url: "https://wikisource.org/wiki/%D8%AE%D8%AA%D9%85_%D8%B1%D8%A8_%D8%AF%DB%92_%DA%A9%D8%B1%D9%85_%D8%AF%DB%92_%D9%86%D8%A7%D9%84_%DB%81%D9%88%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 628
 ---

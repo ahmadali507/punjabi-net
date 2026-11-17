@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: باغ چھڈ گئے گوپی چند"
   url: "https://wikisource.org/wiki/%D8%A8%D8%A7%D8%BA_%DA%86%DA%BE%DA%88_%DA%AF%D8%A6%DB%92_%DA%AF%D9%88%D9%BE%DB%8C_%DA%86%D9%86%D8%AF"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 486
 ---

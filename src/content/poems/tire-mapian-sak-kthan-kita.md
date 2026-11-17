@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تیرے ماپیاں ساک کُتھاں کیتا"
   url: "https://wikisource.org/wiki/%D8%AA%DB%8C%D8%B1%DB%92_%D9%85%D8%A7%D9%BE%DB%8C%D8%A7%DA%BA_%D8%B3%D8%A7%DA%A9_%DA%A9%D9%8F%D8%AA%DA%BE%D8%A7%DA%BA_%DA%A9%DB%8C%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 508
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: عاقی ہو بیٹھے اسیں جوگیڑے تھوں"
   url: "https://wikisource.org/wiki/%D8%B9%D8%A7%D9%82%DB%8C_%DB%81%D9%88_%D8%A8%DB%8C%D9%B9%DA%BE%DB%92_%D8%A7%D8%B3%DB%8C%DA%BA_%D8%AC%D9%88%DA%AF%DB%8C%DA%91%DB%92_%D8%AA%DA%BE%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 469
 ---

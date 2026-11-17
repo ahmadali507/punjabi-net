@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جٹی بول کے دُدّھ دی کسر کڈھی"
   url: "https://wikisource.org/wiki/%D8%AC%D9%B9%DB%8C_%D8%A8%D9%88%D9%84_%DA%A9%DB%92_%D8%AF%D9%8F%D8%AF%D9%91%DA%BE_%D8%AF%DB%8C_%DA%A9%D8%B3%D8%B1_%DA%A9%DA%88%DA%BE%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 331
 ---

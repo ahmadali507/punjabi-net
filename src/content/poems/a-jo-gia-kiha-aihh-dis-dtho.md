@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: آء جو گیا کیہا ایہہ دیس ڈِٹھو"
   url: "https://wikisource.org/wiki/%D8%A2%D8%A1_%D8%AC%D9%88_%DA%AF%DB%8C%D8%A7_%DA%A9%DB%8C%DB%81%D8%A7_%D8%A7%DB%8C%DB%81%DB%81_%D8%AF%DB%8C%D8%B3_%DA%88%D9%90%D9%B9%DA%BE%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 304
 ---

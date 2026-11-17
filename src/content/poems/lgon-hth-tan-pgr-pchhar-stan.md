@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: لگوں ہتھ تاں پگڑ پچھاڑ سٹاں"
   url: "https://wikisource.org/wiki/%D9%84%DA%AF%D9%88%DA%BA_%DB%81%D8%AA%DA%BE_%D8%AA%D8%A7%DA%BA_%D9%BE%DA%AF%DA%91_%D9%BE%DA%86%DA%BE%D8%A7%DA%91_%D8%B3%D9%B9%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 327
 ---

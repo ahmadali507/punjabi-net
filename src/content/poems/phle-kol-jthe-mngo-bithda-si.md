@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پھَلے کول جِتھے منگو بیٹھدا سی"
   url: "https://wikisource.org/wiki/%D9%BE%DA%BE%D9%8E%D9%84%DB%92_%DA%A9%D9%88%D9%84_%D8%AC%D9%90%D8%AA%DA%BE%DB%92_%D9%85%D9%86%DA%AF%D9%88_%D8%A8%DB%8C%D9%B9%DA%BE%D8%AF%D8%A7_%D8%B3%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 124
 ---

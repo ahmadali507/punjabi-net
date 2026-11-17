@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: توں تاں چاک سیالاں دا ناؤں دھیدو"
   url: "https://wikisource.org/wiki/%D8%AA%D9%88%DA%BA_%D8%AA%D8%A7%DA%BA_%DA%86%D8%A7%DA%A9_%D8%B3%DB%8C%D8%A7%D9%84%D8%A7%DA%BA_%D8%AF%D8%A7_%D9%86%D8%A7%D8%A4%DA%BA_%D8%AF%DA%BE%DB%8C%D8%AF%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 292
 ---

@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کھیڑ ے راجے دے آن حضور کیتے"
   url: "https://wikisource.org/wiki/%DA%A9%DA%BE%DB%8C%DA%91_%DB%92_%D8%B1%D8%A7%D8%AC%DB%92_%D8%AF%DB%92_%D8%A2%D9%86_%D8%AD%D8%B6%D9%88%D8%B1_%DA%A9%DB%8C%D8%AA%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 596
 ---

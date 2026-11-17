@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گھر پیڑے وڈی ہوا تینوں دتیوں"
   url: "https://wikisource.org/wiki/%DA%AF%DA%BE%D8%B1_%D9%BE%DB%8C%DA%91%DB%92_%D9%88%DA%88%DB%8C_%DB%81%D9%88%D8%A7_%D8%AA%DB%8C%D9%86%D9%88%DA%BA_%D8%AF%D8%AA%DB%8C%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 495
 ---

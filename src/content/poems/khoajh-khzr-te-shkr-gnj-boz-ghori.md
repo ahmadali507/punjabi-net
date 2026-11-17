@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: خواجہ خضر تے شکر گنج بوز گھوڑی"
   url: "https://wikisource.org/wiki/%D8%AE%D9%88%D8%A7%D8%AC%DB%81_%D8%AE%D8%B6%D8%B1_%D8%AA%DB%92_%D8%B4%DA%A9%D8%B1_%DA%AF%D9%86%D8%AC_%D8%A8%D9%88%D8%B2_%DA%AF%DA%BE%D9%88%DA%91%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 82
 ---

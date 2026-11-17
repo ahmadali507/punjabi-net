@@ -11,4 +11,7 @@ source:
   book: "Kambdi Kalai"
   url: "https://www.punjabi-kavita.com/KambdiKalaiBhaiVirSinghShahmukhi.php#Kalai12"
 verification_note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Kambdi Kalai). Not yet checked against a printed edition."
+work:
+  id: kambdi-kalai
+  n: 12
 ---

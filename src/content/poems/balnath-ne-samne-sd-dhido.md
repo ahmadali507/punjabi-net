@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بالناتھ نے سامنے سد دھیدو"
   url: "https://wikisource.org/wiki/%D8%A8%D8%A7%D9%84%D9%86%D8%A7%D8%AA%DA%BE_%D9%86%DB%92_%D8%B3%D8%A7%D9%85%D9%86%DB%92_%D8%B3%D8%AF_%D8%AF%DA%BE%DB%8C%D8%AF%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 275
 ---

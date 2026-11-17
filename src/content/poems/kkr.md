@@ -14,4 +14,7 @@ source:
   book: "Dil Tarang"
   url: "https://www.punjabi-kavita.com/DilTarangBhaiVirSinghShahmukhi.php#Tarang1"
 verification_note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Dil Tarang). Not yet checked against a printed edition."
+work:
+  id: dil-tarang
+  n: 1
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: خوار خجلاں رُلدیاں پھر دیاں سن"
   url: "https://wikisource.org/wiki/%D8%AE%D9%88%D8%A7%D8%B1_%D8%AE%D8%AC%D9%84%D8%A7%DA%BA_%D8%B1%D9%8F%D9%84%D8%AF%DB%8C%D8%A7%DA%BA_%D9%BE%DA%BE%D8%B1_%D8%AF%DB%8C%D8%A7%DA%BA_%D8%B3%D9%86"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 417
 ---

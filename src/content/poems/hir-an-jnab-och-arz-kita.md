@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر آن جناب وچ عرض کیتا"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D8%A2%D9%86_%D8%AC%D9%86%D8%A7%D8%A8_%D9%88%DA%86_%D8%B9%D8%B1%D8%B6_%DA%A9%DB%8C%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 473
 ---

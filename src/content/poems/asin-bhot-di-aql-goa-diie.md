@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اسیں بھوت دی عقل گوا دئیے"
   url: "https://wikisource.org/wiki/%D8%A7%D8%B3%DB%8C%DA%BA_%D8%A8%DA%BE%D9%88%D8%AA_%D8%AF%DB%8C_%D8%B9%D9%82%D9%84_%DA%AF%D9%88%D8%A7_%D8%AF%D8%A6%DB%8C%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 369
 ---

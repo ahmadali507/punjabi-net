@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ملکی آکھدی چُوچکا بنی اوکھی"
   url: "https://wikisource.org/wiki/%D9%85%D9%84%DA%A9%DB%8C_%D8%A2%DA%A9%DA%BE%D8%AF%DB%8C_%DA%86%D9%8F%D9%88%DA%86%DA%A9%D8%A7_%D8%A8%D9%86%DB%8C_%D8%A7%D9%88%DA%A9%DA%BE%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 97
 ---

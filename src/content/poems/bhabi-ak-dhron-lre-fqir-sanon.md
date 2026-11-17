@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھابی اِک دِھروں لڑے فقیر سانوں"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%A7%D9%90%DA%A9_%D8%AF%D9%90%DA%BE%D8%B1%D9%88%DA%BA_%D9%84%DA%91%DB%92_%D9%81%D9%82%DB%8C%D8%B1_%D8%B3%D8%A7%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 411
 ---

@@ -73,4 +73,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اُٹھ جاگ گُھراڑے مار نہیں"
   url: "https://wikisource.org/wiki/%D8%A7%D9%8F%D9%B9%DA%BE_%D8%AC%D8%A7%DA%AF_%DA%AF%D9%8F%DA%BE%D8%B1%D8%A7%DA%91%DB%92_%D9%85%D8%A7%D8%B1_%D9%86%DB%81%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 150
 ---

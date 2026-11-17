@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چڑھ گھوڑیاں کھیڑیاں گنڈھ پھیری"
   url: "https://wikisource.org/wiki/%DA%86%DA%91%DA%BE_%DA%AF%DA%BE%D9%88%DA%91%DB%8C%D8%A7%DA%BA_%DA%A9%DA%BE%DB%8C%DA%91%DB%8C%D8%A7%DA%BA_%DA%AF%D9%86%DA%88%DA%BE_%D9%BE%DA%BE%DB%8C%D8%B1%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 198
 ---

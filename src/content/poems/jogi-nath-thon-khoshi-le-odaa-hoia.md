@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جوگی ناتھ تھوں خوشی لے وِداع ہویا"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88%DA%AF%DB%8C_%D9%86%D8%A7%D8%AA%DA%BE_%D8%AA%DA%BE%D9%88%DA%BA_%D8%AE%D9%88%D8%B4%DB%8C_%D9%84%DB%92_%D9%88%D9%90%D8%AF%D8%A7%D8%B9_%DB%81%D9%88%DB%8C%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 286
 ---

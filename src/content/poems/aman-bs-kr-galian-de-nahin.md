@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اماں بس کر گالیاں دے ناہیں"
   url: "https://wikisource.org/wiki/%D8%A7%D9%85%D8%A7%DA%BA_%D8%A8%D8%B3_%DA%A9%D8%B1_%DA%AF%D8%A7%D9%84%DB%8C%D8%A7%DA%BA_%D8%AF%DB%92_%D9%86%D8%A7%DB%81%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 131
 ---

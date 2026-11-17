@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھابی جوگیاں دے وڈے کارنے نی"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%AC%D9%88%DA%AF%DB%8C%D8%A7%DA%BA_%D8%AF%DB%92_%D9%88%DA%88%DB%92_%DA%A9%D8%A7%D8%B1%D9%86%DB%92_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 404
 ---

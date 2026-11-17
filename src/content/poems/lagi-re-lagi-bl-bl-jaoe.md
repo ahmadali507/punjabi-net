@@ -38,4 +38,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سیہرفیاں بلھے شاہ"
   url: "https://wikisource.org/wiki/%D8%B3%DB%8C%DB%81%D8%B1%D9%81%DB%8C%D8%A7%DA%BA_%D8%A8%D9%84%DA%BE%DB%92_%D8%B4%D8%A7%DB%81"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: siharfian-bulleh-shah
+  n: 1
 ---

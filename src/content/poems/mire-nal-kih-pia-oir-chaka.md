@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: میرے نال کیہ پیا ویر چاکا"
   url: "https://wikisource.org/wiki/%D9%85%DB%8C%D8%B1%DB%92_%D9%86%D8%A7%D9%84_%DA%A9%DB%8C%DB%81_%D9%BE%DB%8C%D8%A7_%D9%88%DB%8C%D8%B1_%DA%86%D8%A7%DA%A9%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 384
 ---

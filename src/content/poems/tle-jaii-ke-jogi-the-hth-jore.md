@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ٹِلے جائی کے جوگی تھے ہتھ جوڑے"
   url: "https://wikisource.org/wiki/%D9%B9%D9%90%D9%84%DB%92_%D8%AC%D8%A7%D8%A6%DB%8C_%DA%A9%DB%92_%D8%AC%D9%88%DA%AF%DB%8C_%D8%AA%DA%BE%DB%92_%DB%81%D8%AA%DA%BE_%D8%AC%D9%88%DA%91%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 254
 ---

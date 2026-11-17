@@ -8,4 +8,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پِیر ملے جے پِیڑ نہ جاوے"
   url: "https://wikisource.org/wiki/%D9%BE%D9%90%DB%8C%D8%B1_%D9%85%D9%84%DB%92_%D8%AC%DB%92_%D9%BE%D9%90%DB%8C%DA%91_%D9%86%DB%81_%D8%AC%D8%A7%D9%88%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: abyat-sultan-bahu
+  n: 162
 ---

@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گھر کھیڑیاں دے جدوں ہیر آئی"
   url: "https://wikisource.org/wiki/%DA%AF%DA%BE%D8%B1_%DA%A9%DA%BE%DB%8C%DA%91%DB%8C%D8%A7%DA%BA_%D8%AF%DB%92_%D8%AC%D8%AF%D9%88%DA%BA_%DB%81%DB%8C%D8%B1_%D8%A2%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 229
 ---

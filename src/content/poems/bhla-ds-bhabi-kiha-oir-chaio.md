@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھلا دس بھابی کیہا ویر چایو"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D9%84%D8%A7_%D8%AF%D8%B3_%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%DA%A9%DB%8C%DB%81%D8%A7_%D9%88%DB%8C%D8%B1_%DA%86%D8%A7%DB%8C%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 416
 ---

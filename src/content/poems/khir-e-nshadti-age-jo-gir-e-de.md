@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کھیڑ ے نِشادتی اَگے جو گیڑ ے دے"
   url: "https://wikisource.org/wiki/%DA%A9%DA%BE%DB%8C%DA%91_%DB%92_%D9%86%D9%90%D8%B4%D8%A7%D8%AF%D8%AA%DB%8C_%D8%A7%D9%8E%DA%AF%DB%92_%D8%AC%D9%88_%DA%AF%DB%8C%DA%91_%DB%92_%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 570
 ---

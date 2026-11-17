@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: رل چیلیاں تاا کساء کیتا"
   url: "https://wikisource.org/wiki/%D8%B1%D9%84_%DA%86%DB%8C%D9%84%DB%8C%D8%A7%DA%BA_%D8%AA%D8%A7%D8%A7_%DA%A9%D8%B3%D8%A7%D8%A1_%DA%A9%DB%8C%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 270
 ---

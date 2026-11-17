@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: حکم ہیر دا مانو تھوں لیا سہتی"
   url: "https://wikisource.org/wiki/%D8%AD%DA%A9%D9%85_%DB%81%DB%8C%D8%B1_%D8%AF%D8%A7_%D9%85%D8%A7%D9%86%D9%88_%D8%AA%DA%BE%D9%88%DA%BA_%D9%84%DB%8C%D8%A7_%D8%B3%DB%81%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 554
 ---

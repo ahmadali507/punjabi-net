@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر ڈھائےکے آکھیا میاں چاچا"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%DA%88%DA%BE%D8%A7%D8%A6%DB%92%DA%A9%DB%92_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D9%85%DB%8C%D8%A7%DA%BA_%DA%86%D8%A7%DA%86%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 88
 ---

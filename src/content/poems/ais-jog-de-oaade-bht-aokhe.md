@@ -24,4 +24,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ایس جوگ دے واعدے بہت اوکھے"
   url: "https://wikisource.org/wiki/%D8%A7%DB%8C%D8%B3_%D8%AC%D9%88%DA%AF_%D8%AF%DB%92_%D9%88%D8%A7%D8%B9%D8%AF%DB%92_%D8%A8%DB%81%D8%AA_%D8%A7%D9%88%DA%A9%DA%BE%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 263
 ---

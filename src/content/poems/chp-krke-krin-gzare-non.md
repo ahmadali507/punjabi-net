@@ -21,4 +21,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چُپ کرکے کریں گُزارے نُوں"
   url: "https://wikisource.org/wiki/%DA%86%D9%8F%D9%BE_%DA%A9%D8%B1%DA%A9%DB%92_%DA%A9%D8%B1%DB%8C%DA%BA_%DA%AF%D9%8F%D8%B2%D8%A7%D8%B1%DB%92_%D9%86%D9%8F%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 25
 ---

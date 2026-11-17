@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پتُّر تخت ہزارے دے چوہدری دا"
   url: "https://wikisource.org/wiki/%D9%BE%D8%AA%D9%8F%D9%91%D8%B1_%D8%AA%D8%AE%D8%AA_%DB%81%D8%B2%D8%A7%D8%B1%DB%92_%D8%AF%DB%92_%DA%86%D9%88%DB%81%D8%AF%D8%B1%DB%8C_%D8%AF%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 75
 ---

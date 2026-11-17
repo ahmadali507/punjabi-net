@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کیوں وگڑ کے تگڑ کے پاٹ لتھوں"
   url: "https://wikisource.org/wiki/%DA%A9%DB%8C%D9%88%DA%BA_%D9%88%DA%AF%DA%91_%DA%A9%DB%92_%D8%AA%DA%AF%DA%91_%DA%A9%DB%92_%D9%BE%D8%A7%D9%B9_%D9%84%D8%AA%DA%BE%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 424
 ---

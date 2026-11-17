@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بولی ہیر میاں پاء خاک تیری"
   url: "https://wikisource.org/wiki/%D8%A8%D9%88%D9%84%DB%8C_%DB%81%DB%8C%D8%B1_%D9%85%DB%8C%D8%A7%DA%BA_%D9%BE%D8%A7%D8%A1_%D8%AE%D8%A7%DA%A9_%D8%AA%DB%8C%D8%B1%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 430
 ---

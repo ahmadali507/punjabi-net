@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: انی سنو بھیناں کوئی چھِٹ جوگی"
   url: "https://wikisource.org/wiki/%D8%A7%D9%86%DB%8C_%D8%B3%D9%86%D9%88_%D8%A8%DA%BE%DB%8C%D9%86%D8%A7%DA%BA_%DA%A9%D9%88%D8%A6%DB%8C_%DA%86%DA%BE%D9%90%D9%B9_%D8%AC%D9%88%DA%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 341
 ---

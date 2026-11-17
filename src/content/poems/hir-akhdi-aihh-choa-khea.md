@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر آکھدی ایہہ چوا کہےا"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D8%A2%DA%A9%DA%BE%D8%AF%DB%8C_%D8%A7%DB%8C%DB%81%DB%81_%DA%86%D9%88%D8%A7_%DA%A9%DB%81%DB%92%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 438
 ---

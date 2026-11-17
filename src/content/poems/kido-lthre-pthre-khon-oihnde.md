@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کیدو لتھڑے پتھڑے خون ویہندے"
   url: "https://wikisource.org/wiki/%DA%A9%DB%8C%D8%AF%D9%88_%D9%84%D8%AA%DA%BE%DA%91%DB%92_%D9%BE%D8%AA%DA%BE%DA%91%DB%92_%D8%AE%D9%88%D9%86_%D9%88%DB%8C%DB%81%D9%86%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 141
 ---

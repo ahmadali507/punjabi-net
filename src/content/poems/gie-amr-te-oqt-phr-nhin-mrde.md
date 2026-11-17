@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گئے عمر تے وقت پھر نہیں مُڑدے"
   url: "https://wikisource.org/wiki/%DA%AF%D8%A6%DB%92_%D8%B9%D9%85%D8%B1_%D8%AA%DB%92_%D9%88%D9%82%D8%AA_%D9%BE%DA%BE%D8%B1_%D9%86%DB%81%DB%8C%DA%BA_%D9%85%D9%8F%DA%91%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 232
 ---

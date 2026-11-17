@@ -18,4 +18,7 @@ source:
   book: "Mehraj Nama (punjabi-kavita.com, Shahmukhi)"
   url: "https://www.punjabi-kavita.com/MihrajNamaWarisShahShahmukhi.php"
 verification_note: "Attributed to Waris Shah; scholars disagree on whether he wrote it. Shahmukhi text from punjabi-kavita.com, a transliteration of its Gurmukhi text. Not yet checked against a printed edition."
+work:
+  id: mehraj-nama-waris-shah
+  n: 1
 ---

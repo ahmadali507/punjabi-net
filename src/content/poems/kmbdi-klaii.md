@@ -11,4 +11,8 @@ source:
   year: 1922
   url: "https://www.punjabi-kavita.com/MatakHulareBhaiVirSinghShahmukhi.php#Matak4"
 verification_note: "Shahmukhi text from punjabi-kavita.com, a transliteration of Bhai Vir Singh's Gurmukhi original (Matak Hulare, 1922). Not yet checked against a printed edition."
+work:
+  id: matak-hulare
+  n: 20
+  chapter: "بھاگ پہلا: رس رنگ چھوہ"
 ---

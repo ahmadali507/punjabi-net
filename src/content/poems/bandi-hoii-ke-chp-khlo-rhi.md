@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: باندی ہوئی کے چپ کھلو رہی"
   url: "https://wikisource.org/wiki/%D8%A8%D8%A7%D9%86%D8%AF%DB%8C_%DB%81%D9%88%D8%A6%DB%8C_%DA%A9%DB%92_%DA%86%D9%BE_%DA%A9%DA%BE%D9%84%D9%88_%D8%B1%DB%81%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 427
 ---

@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: منہ انگلیاں گھت کے کہن سبھے کارے"
   url: "https://wikisource.org/wiki/%D9%85%D9%86%DB%81_%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%A7%DA%BA_%DA%AF%DA%BE%D8%AA_%DA%A9%DB%92_%DA%A9%DB%81%D9%86_%D8%B3%D8%A8%DA%BE%DB%92_%DA%A9%D8%A7%D8%B1%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 147
 ---

@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جوبن روپ دا کجھ وساہ نہیں"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88%D8%A8%D9%86_%D8%B1%D9%88%D9%BE_%D8%AF%D8%A7_%DA%A9%D8%AC%DA%BE_%D9%88%D8%B3%D8%A7%DB%81_%D9%86%DB%81%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 206
 ---

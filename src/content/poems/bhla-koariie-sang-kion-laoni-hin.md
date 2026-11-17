@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھلا کوارئیے سانگ کیوں لاونی ہیں"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D9%84%D8%A7_%DA%A9%D9%88%D8%A7%D8%B1%D8%A6%DB%8C%DB%92_%D8%B3%D8%A7%D9%86%DA%AF_%DA%A9%DB%8C%D9%88%DA%BA_%D9%84%D8%A7%D9%88%D9%86%DB%8C_%DB%81%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 446
 ---

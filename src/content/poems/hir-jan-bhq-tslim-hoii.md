@@ -21,4 +21,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر جان بحق تسلیم ہوئی"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D8%AC%D8%A7%D9%86_%D8%A8%D8%AD%D9%82_%D8%AA%D8%B3%D9%84%DB%8C%D9%85_%DB%81%D9%88%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 622
 ---

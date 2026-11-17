@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کچی کوارئیے لوڑھ دئیے مارئیے نی"
   url: "https://wikisource.org/wiki/%DA%A9%DA%86%DB%8C_%DA%A9%D9%88%D8%A7%D8%B1%D8%A6%DB%8C%DB%92_%D9%84%D9%88%DA%91%DA%BE_%D8%AF%D8%A6%DB%8C%DB%92_%D9%85%D8%A7%D8%B1%D8%A6%DB%8C%DB%92_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 340
 ---

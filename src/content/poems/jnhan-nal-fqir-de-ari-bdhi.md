@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جنہاں نال فقیر دے اڑی بدھی"
   url: "https://wikisource.org/wiki/%D8%AC%D9%86%DB%81%D8%A7%DA%BA_%D9%86%D8%A7%D9%84_%D9%81%D9%82%DB%8C%D8%B1_%D8%AF%DB%92_%D8%A7%DA%91%DB%8C_%D8%A8%D8%AF%DA%BE%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 415
 ---

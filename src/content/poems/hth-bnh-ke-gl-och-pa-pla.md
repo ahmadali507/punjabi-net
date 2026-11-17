@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہتھ بنھ کے گل وِچ پا پلا"
   url: "https://wikisource.org/wiki/%DB%81%D8%AA%DA%BE_%D8%A8%D9%86%DA%BE_%DA%A9%DB%92_%DA%AF%D9%84_%D9%88%D9%90%DA%86_%D9%BE%D8%A7_%D9%BE%D9%84%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 236
 ---

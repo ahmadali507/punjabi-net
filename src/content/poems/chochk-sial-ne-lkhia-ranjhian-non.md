@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چوچک سیال نے لکھیا رانجھیاں نوں"
   url: "https://wikisource.org/wiki/%DA%86%D9%88%DA%86%DA%A9_%D8%B3%DB%8C%D8%A7%D9%84_%D9%86%DB%92_%D9%84%DA%A9%DA%BE%DB%8C%D8%A7_%D8%B1%D8%A7%D9%86%D8%AC%DA%BE%DB%8C%D8%A7%DA%BA_%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 161
 ---

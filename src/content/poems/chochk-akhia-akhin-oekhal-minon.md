@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چوچک آکھیا اکھیں وےکھال مینوں"
   url: "https://wikisource.org/wiki/%DA%86%D9%88%DA%86%DA%A9_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D8%A7%DA%A9%DA%BE%DB%8C%DA%BA_%D9%88%DB%92%DA%A9%DA%BE%D8%A7%D9%84_%D9%85%DB%8C%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 152
 ---

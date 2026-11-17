@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کدی نکہی تپ شام تپ پَون"
   url: "https://wikisource.org/wiki/%DA%A9%D8%AF%DB%8C_%D9%86%DA%A9%DB%81%DB%8C_%D8%AA%D9%BE_%D8%B4%D8%A7%D9%85_%D8%AA%D9%BE_%D9%BE%D9%8E%D9%88%D9%86"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 459
 ---

@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہتھ بدھڑی رہاں غلام تیری"
   url: "https://wikisource.org/wiki/%DB%81%D8%AA%DA%BE_%D8%A8%D8%AF%DA%BE%DA%91%DB%8C_%D8%B1%DB%81%D8%A7%DA%BA_%D8%BA%D9%84%D8%A7%D9%85_%D8%AA%DB%8C%D8%B1%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 67
 ---

@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جو گی کِیل کیتی پڑ ی وِچ چونکے"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88_%DA%AF%DB%8C_%DA%A9%D9%90%DB%8C%D9%84_%DA%A9%DB%8C%D8%AA%DB%8C_%D9%BE%DA%91_%DB%8C_%D9%88%D9%90%DA%86_%DA%86%D9%88%D9%86%DA%A9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 569
 ---

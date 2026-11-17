@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: دِتی ہیر لکھائی کے ایہہ چِٹھی"
   url: "https://wikisource.org/wiki/%D8%AF%D9%90%D8%AA%DB%8C_%DB%81%DB%8C%D8%B1_%D9%84%DA%A9%DA%BE%D8%A7%D8%A6%DB%8C_%DA%A9%DB%92_%D8%A7%DB%8C%DB%81%DB%81_%DA%86%D9%90%D9%B9%DA%BE%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 245
 ---

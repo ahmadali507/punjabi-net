@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جو کجھ وچ رضائے دے لکھ چُھٹا"
   url: "https://wikisource.org/wiki/%D8%AC%D9%88_%DA%A9%D8%AC%DA%BE_%D9%88%DA%86_%D8%B1%D8%B6%D8%A7%D8%A6%DB%92_%D8%AF%DB%92_%D9%84%DA%A9%DA%BE_%DA%86%D9%8F%DA%BE%D9%B9%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 221
 ---

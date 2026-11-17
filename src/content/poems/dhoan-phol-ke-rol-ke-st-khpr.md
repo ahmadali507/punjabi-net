@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: دھواں پھول کے رول کے سٹ کھپر"
   url: "https://wikisource.org/wiki/%D8%AF%DA%BE%D9%88%D8%A7%DA%BA_%D9%BE%DA%BE%D9%88%D9%84_%DA%A9%DB%92_%D8%B1%D9%88%D9%84_%DA%A9%DB%92_%D8%B3%D9%B9_%DA%A9%DA%BE%D9%BE%D8%B1"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 461
 ---

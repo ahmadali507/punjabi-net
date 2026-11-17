@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گلے غضب کرودھ دی گل آہی"
   url: "https://wikisource.org/wiki/%DA%AF%D9%84%DB%92_%D8%BA%D8%B6%D8%A8_%DA%A9%D8%B1%D9%88%D8%AF%DA%BE_%D8%AF%DB%8C_%DA%AF%D9%84_%D8%A2%DB%81%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 274
 ---

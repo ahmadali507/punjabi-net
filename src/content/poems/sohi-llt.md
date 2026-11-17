@@ -8,4 +8,8 @@ source:
   book: "Shabads of Baba Farid in the Guru Granth Sahib (punjabi-kavita.com, Shahmukhi)"
   url: "https://www.punjabi-kavita.com/ShabadBabaSheikhFaridShahmukhi.php"
 verification_note: "Shabad of Baba Farid in the Guru Granth Sahib. Shahmukhi text from punjabi-kavita.com, a transliteration of its Gurmukhi text. Not yet checked against a printed edition."
+work:
+  id: shabad-baba-farid
+  n: 4
+  chapter: "سوہی للت"
 ---

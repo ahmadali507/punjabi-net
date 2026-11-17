@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہا ہا مُٹھی مَت نہ لئیا دِتی"
   url: "https://wikisource.org/wiki/%DB%81%D8%A7_%DB%81%D8%A7_%D9%85%D9%8F%D9%B9%DA%BE%DB%8C_%D9%85%D9%8E%D8%AA_%D9%86%DB%81_%D9%84%D8%A6%DB%8C%D8%A7_%D8%AF%D9%90%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 592
 ---

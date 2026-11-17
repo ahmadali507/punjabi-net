@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کئی بول گئے شاخ عمر دی"
   url: "https://wikisource.org/wiki/%DA%A9%D8%A6%DB%8C_%D8%A8%D9%88%D9%84_%DA%AF%D8%A6%DB%92_%D8%B4%D8%A7%D8%AE_%D8%B9%D9%85%D8%B1_%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 624
 ---

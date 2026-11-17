@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر نال فراق دے آہ ماری"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D9%86%D8%A7%D9%84_%D9%81%D8%B1%D8%A7%D9%82_%D8%AF%DB%92_%D8%A2%DB%81_%D9%85%D8%A7%D8%B1%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 608
 ---

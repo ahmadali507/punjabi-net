@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مسجد بیت العتیق آہی"
   url: "https://wikisource.org/wiki/%D9%85%D8%B3%D8%AC%D8%AF_%D8%A8%DB%8C%D8%AA_%D8%A7%D9%84%D8%B9%D8%AA%DB%8C%D9%82_%D8%A2%DB%81%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 33
 ---

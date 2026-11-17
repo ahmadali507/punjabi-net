@@ -28,4 +28,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سہتی جاء کے ہیر نُوں کول بَہ کے"
   url: "https://wikisource.org/wiki/%D8%B3%DB%81%D8%AA%DB%8C_%D8%AC%D8%A7%D8%A1_%DA%A9%DB%92_%DB%81%DB%8C%D8%B1_%D9%86%D9%8F%D9%88%DA%BA_%DA%A9%D9%88%D9%84_%D8%A8%D9%8E%DB%81_%DA%A9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 501
 ---

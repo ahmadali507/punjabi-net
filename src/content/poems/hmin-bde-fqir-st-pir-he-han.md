@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہمیں بڈّے فقیر ست پیڑ ہے ہاں"
   url: "https://wikisource.org/wiki/%DB%81%D9%85%DB%8C%DA%BA_%D8%A8%DA%88%D9%91%DB%92_%D9%81%D9%82%DB%8C%D8%B1_%D8%B3%D8%AA_%D9%BE%DB%8C%DA%91_%DB%81%DB%92_%DB%81%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 313
 ---

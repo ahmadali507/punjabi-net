@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سہتی گج کے آکھ دی چھڈ جٹا"
   url: "https://wikisource.org/wiki/%D8%B3%DB%81%D8%AA%DB%8C_%DA%AF%D8%AC_%DA%A9%DB%92_%D8%A2%DA%A9%DA%BE_%D8%AF%DB%8C_%DA%86%DA%BE%DA%88_%D8%AC%D9%B9%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 380
 ---

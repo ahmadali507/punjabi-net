@@ -107,7 +107,7 @@ const initial = new Intl.Segmenter().segment(d.name.pa)[Symbol.iterator]().next(
               <h3 class="work-card__title"><a href={localePath(locale, `/works/${w.id}`)}><Pa t={w.data.title} /></a></h3>
               {en && <p class="work-card__meta" lang="en" dir="ltr">{w.data.title_en}</p>}
               <p class="work-card__meta muted">
-                <T k={`work.kind.${w.data.kind}` as UIKey} /> · {en ? workParts.get(w.id) : paDigits(workParts.get(w.id) ?? 0)} <T k="work.parts" />
+                <T k={`work.kind.${w.data.kind}` as UIKey} /> · {en ? workParts.get(w.id) : paDigits(workParts.get(w.id) ?? 0)} <T k={workParts.get(w.id) === 1 ? 'work.part' : 'work.parts'} />
               </p>
             </li>
           ))}

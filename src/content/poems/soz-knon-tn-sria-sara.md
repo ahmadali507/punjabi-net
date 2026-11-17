@@ -8,4 +8,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سوز کُنوں تن سڑیا سارا"
   url: "https://wikisource.org/wiki/%D8%B3%D9%88%D8%B2_%DA%A9%D9%8F%D9%86%D9%88%DA%BA_%D8%AA%D9%86_%D8%B3%DA%91%DB%8C%D8%A7_%D8%B3%D8%A7%D8%B1%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: abyat-sultan-bahu
+  n: 179
 ---

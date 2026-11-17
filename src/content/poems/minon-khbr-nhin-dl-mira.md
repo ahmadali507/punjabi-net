@@ -11,4 +11,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مینوں خبر نہیں دِل میرا"
   url: "https://wikisource.org/wiki/%D9%85%DB%8C%D9%86%D9%88%DA%BA_%D8%AE%D8%A8%D8%B1_%D9%86%DB%81%DB%8C%DA%BA_%D8%AF%D9%90%D9%84_%D9%85%DB%8C%D8%B1%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: dohre-hashim-shah
+  n: 132
 ---

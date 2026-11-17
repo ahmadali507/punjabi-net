@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چھڈ یاریاں چوریاں دغا جٹا"
   url: "https://wikisource.org/wiki/%DA%86%DA%BE%DA%88_%DB%8C%D8%A7%D8%B1%DB%8C%D8%A7%DA%BA_%DA%86%D9%88%D8%B1%DB%8C%D8%A7%DA%BA_%D8%AF%D8%BA%D8%A7_%D8%AC%D9%B9%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 282
 ---

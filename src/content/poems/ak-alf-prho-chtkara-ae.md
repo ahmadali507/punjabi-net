@@ -26,4 +26,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اِک الف پڑھو چُھٹکارا اے"
   url: "https://wikisource.org/wiki/%D8%A7%D9%90%DA%A9_%D8%A7%D9%84%D9%81_%D9%BE%DA%91%DA%BE%D9%88_%DA%86%D9%8F%DA%BE%D9%B9%DA%A9%D8%A7%D8%B1%D8%A7_%D8%A7%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 45
 ---

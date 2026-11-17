@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کریں آکڑاں کھائے کے ددھ چاول"
   url: "https://wikisource.org/wiki/%DA%A9%D8%B1%DB%8C%DA%BA_%D8%A2%DA%A9%DA%91%D8%A7%DA%BA_%DA%A9%DA%BE%D8%A7%D8%A6%DB%92_%DA%A9%DB%92_%D8%AF%D8%AF%DA%BE_%DA%86%D8%A7%D9%88%D9%84"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 16
 ---

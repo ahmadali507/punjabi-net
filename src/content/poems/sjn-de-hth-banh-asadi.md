@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سجّن دے ہتھ بانہہ اساڈی"
   url: "https://wikisource.org/wiki/%D8%B3%D8%AC%D9%91%D9%86_%D8%AF%DB%92_%DB%81%D8%AA%DA%BE_%D8%A8%D8%A7%D9%86%DB%81%DB%81_%D8%A7%D8%B3%D8%A7%DA%88%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-shah-hussain
+  n: 122
 ---

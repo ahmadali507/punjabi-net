@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ایہہ جگ مقام فنا داہے"
   url: "https://wikisource.org/wiki/%D8%A7%DB%8C%DB%81%DB%81_%D8%AC%DA%AF_%D9%85%D9%82%D8%A7%D9%85_%D9%81%D9%86%D8%A7_%D8%AF%D8%A7%DB%81%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 256
 ---

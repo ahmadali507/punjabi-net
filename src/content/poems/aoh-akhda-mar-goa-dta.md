@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اوہ آکھدا مار گوا دِتا"
   url: "https://wikisource.org/wiki/%D8%A7%D9%88%DB%81_%D8%A2%DA%A9%DA%BE%D8%AF%D8%A7_%D9%85%D8%A7%D8%B1_%DA%AF%D9%88%D8%A7_%D8%AF%D9%90%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 148
 ---

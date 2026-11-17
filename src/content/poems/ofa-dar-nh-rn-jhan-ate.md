@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: وفا دار نہ رَن جہان اُتے"
   url: "https://wikisource.org/wiki/%D9%88%D9%81%D8%A7_%D8%AF%D8%A7%D8%B1_%D9%86%DB%81_%D8%B1%D9%8E%D9%86_%D8%AC%DB%81%D8%A7%D9%86_%D8%A7%D9%8F%D8%AA%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 482
 ---

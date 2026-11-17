@@ -33,4 +33,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اُلٹے ہور زمانے آئے"
   url: "https://wikisource.org/wiki/%D8%A7%D9%8F%D9%84%D9%B9%DB%92_%DB%81%D9%88%D8%B1_%D8%B2%D9%85%D8%A7%D9%86%DB%92_%D8%A2%D8%A6%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 147
 ---

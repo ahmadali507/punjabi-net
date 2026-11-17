@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ساڈی خیر ہے چاہندے خیر تینڈی"
   url: "https://wikisource.org/wiki/%D8%B3%D8%A7%DA%88%DB%8C_%D8%AE%DB%8C%D8%B1_%DB%81%DB%92_%DA%86%D8%A7%DB%81%D9%86%D8%AF%DB%92_%D8%AE%DB%8C%D8%B1_%D8%AA%DB%8C%D9%86%DA%88%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 250
 ---

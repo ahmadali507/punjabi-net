@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جدوں خلق پیدا کیتی رب سچے"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AF%D9%88%DA%BA_%D8%AE%D9%84%D9%82_%D9%BE%DB%8C%D8%AF%D8%A7_%DA%A9%DB%8C%D8%AA%DB%8C_%D8%B1%D8%A8_%D8%B3%DA%86%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 478
 ---

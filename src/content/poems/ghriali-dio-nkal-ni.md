@@ -27,4 +27,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گھڑیالی دیو نکال نی"
   url: "https://wikisource.org/wiki/%DA%AF%DA%BE%DA%91%DB%8C%D8%A7%D9%84%DB%8C_%D8%AF%DB%8C%D9%88_%D9%86%DA%A9%D8%A7%D9%84_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 32
 ---

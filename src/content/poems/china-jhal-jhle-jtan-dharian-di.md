@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چینا جھال جھلے جٹاں دھاریاں دی"
   url: "https://wikisource.org/wiki/%DA%86%DB%8C%D9%86%D8%A7_%D8%AC%DA%BE%D8%A7%D9%84_%D8%AC%DA%BE%D9%84%DB%92_%D8%AC%D9%B9%D8%A7%DA%BA_%D8%AF%DA%BE%D8%A7%D8%B1%DB%8C%D8%A7%DA%BA_%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 422
 ---

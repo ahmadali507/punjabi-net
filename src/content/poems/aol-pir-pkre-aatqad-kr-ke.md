@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اول پَیر پکڑے اعتقاد کر کے"
   url: "https://wikisource.org/wiki/%D8%A7%D9%88%D9%84_%D9%BE%D9%8E%DB%8C%D8%B1_%D9%BE%DA%A9%DA%91%DB%92_%D8%A7%D8%B9%D8%AA%D9%82%D8%A7%D8%AF_%DA%A9%D8%B1_%DA%A9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 511
 ---

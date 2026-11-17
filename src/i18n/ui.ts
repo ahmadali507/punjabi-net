@@ -206,6 +206,7 @@ export const ui = {
   'work.kind.book': { en: 'Book', pa: 'کتاب' },
   'work.kind.collection': { en: 'Collection', pa: 'مجموعہ' },
   'work.parts': { en: 'parts', pa: 'حصے' },
+  'work.part': { en: 'part', pa: 'حصہ' },
   'work.contents': { en: 'Contents', pa: 'تتکرا' },
   'work.start': { en: 'Start reading', pa: 'پڑھنا شروع کرو' },
   'work.about': { en: 'Source and notes', pa: 'حوالہ تے نوٹ' },

@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھابی جاننے ہاں اسیں سبھ چالے"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%AC%D8%A7%D9%86%D9%86%DB%92_%DB%81%D8%A7%DA%BA_%D8%A7%D8%B3%DB%8C%DA%BA_%D8%B3%D8%A8%DA%BE_%DA%86%D8%A7%D9%84%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 530
 ---

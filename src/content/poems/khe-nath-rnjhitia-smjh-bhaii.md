@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کہے ناتھ رنجھیٹیا سمجھ بھائی"
   url: "https://wikisource.org/wiki/%DA%A9%DB%81%DB%92_%D9%86%D8%A7%D8%AA%DA%BE_%D8%B1%D9%86%D8%AC%DA%BE%DB%8C%D9%B9%DB%8C%D8%A7_%D8%B3%D9%85%D8%AC%DA%BE_%D8%A8%DA%BE%D8%A7%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 278
 ---

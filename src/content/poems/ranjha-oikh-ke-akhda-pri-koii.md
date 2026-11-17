@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: رانجھا ویکھ کے آکھدا پری کوئی"
   url: "https://wikisource.org/wiki/%D8%B1%D8%A7%D9%86%D8%AC%DA%BE%D8%A7_%D9%88%DB%8C%DA%A9%DA%BE_%DA%A9%DB%92_%D8%A2%DA%A9%DA%BE%D8%AF%D8%A7_%D9%BE%D8%B1%DB%8C_%DA%A9%D9%88%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 504
 ---

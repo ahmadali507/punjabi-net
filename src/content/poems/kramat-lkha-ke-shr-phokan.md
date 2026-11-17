@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کرامات لکھاء کے سحر پھُوکاں"
   url: "https://wikisource.org/wiki/%DA%A9%D8%B1%D8%A7%D9%85%D8%A7%D8%AA_%D9%84%DA%A9%DA%BE%D8%A7%D8%A1_%DA%A9%DB%92_%D8%B3%D8%AD%D8%B1_%D9%BE%DA%BE%D9%8F%D9%88%DA%A9%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 456
 ---

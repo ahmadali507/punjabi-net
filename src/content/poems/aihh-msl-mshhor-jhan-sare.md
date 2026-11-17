@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ایہہ مثل مشہور جہان سارے"
   url: "https://wikisource.org/wiki/%D8%A7%DB%8C%DB%81%DB%81_%D9%85%D8%AB%D9%84_%D9%85%D8%B4%DB%81%D9%88%D8%B1_%D8%AC%DB%81%D8%A7%D9%86_%D8%B3%D8%A7%D8%B1%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 405
 ---

@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جیہڑیاں لین اُڈاریاں نال بازاں"
   url: "https://wikisource.org/wiki/%D8%AC%DB%8C%DB%81%DA%91%DB%8C%D8%A7%DA%BA_%D9%84%DB%8C%D9%86_%D8%A7%D9%8F%DA%88%D8%A7%D8%B1%DB%8C%D8%A7%DA%BA_%D9%86%D8%A7%D9%84_%D8%A8%D8%A7%D8%B2%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 373
 ---

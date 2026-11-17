@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: راضی ہو پنجاں پیراں حکم کیتا"
   url: "https://wikisource.org/wiki/%D8%B1%D8%A7%D8%B6%DB%8C_%DB%81%D9%88_%D9%BE%D9%86%D8%AC%D8%A7%DA%BA_%D9%BE%DB%8C%D8%B1%D8%A7%DA%BA_%D8%AD%DA%A9%D9%85_%DA%A9%DB%8C%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 121
 ---

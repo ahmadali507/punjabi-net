@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سانوں جوگ دی ریجھ تدوکنی سی"
   url: "https://wikisource.org/wiki/%D8%B3%D8%A7%D9%86%D9%88%DA%BA_%D8%AC%D9%88%DA%AF_%D8%AF%DB%8C_%D8%B1%DB%8C%D8%AC%DA%BE_%D8%AA%D8%AF%D9%88%DA%A9%D9%86%DB%8C_%D8%B3%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 283
 ---

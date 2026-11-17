@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ثابت ہوئے لنگوٹڑی سنی ناتھا"
   url: "https://wikisource.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA_%DB%81%D9%88%D8%A6%DB%92_%D9%84%D9%86%DA%AF%D9%88%D9%B9%DA%91%DB%8C_%D8%B3%D9%86%DB%8C_%D9%86%D8%A7%D8%AA%DA%BE%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 279
 ---

@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہاتھی فوج دا وڈا سنگار ہوندا"
   url: "https://wikisource.org/wiki/%DB%81%D8%A7%D8%AA%DA%BE%DB%8C_%D9%81%D9%88%D8%AC_%D8%AF%D8%A7_%D9%88%DA%88%D8%A7_%D8%B3%D9%86%DA%AF%D8%A7%D8%B1_%DB%81%D9%88%D9%86%D8%AF%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 540
 ---

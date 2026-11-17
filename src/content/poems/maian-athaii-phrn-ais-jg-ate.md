@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: مایاں اٹھائی پھرن ایس جگ اتے"
   url: "https://wikisource.org/wiki/%D9%85%D8%A7%DB%8C%D8%A7%DA%BA_%D8%A7%D9%B9%DA%BE%D8%A7%D8%A6%DB%8C_%D9%BE%DA%BE%D8%B1%D9%86_%D8%A7%DB%8C%D8%B3_%D8%AC%DA%AF_%D8%A7%D8%AA%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 350
 ---

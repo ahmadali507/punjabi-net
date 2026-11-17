@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر آکھدی جوگیا جھوٹھ آکھیں"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D8%A2%DA%A9%DA%BE%D8%AF%DB%8C_%D8%AC%D9%88%DA%AF%DB%8C%D8%A7_%D8%AC%DA%BE%D9%88%D9%B9%DA%BE_%D8%A2%DA%A9%DA%BE%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 389
 ---

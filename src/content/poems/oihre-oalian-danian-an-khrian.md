@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ویہڑے والیاں دانیاں آن کھڑیاں"
   url: "https://wikisource.org/wiki/%D9%88%DB%8C%DB%81%DA%91%DB%92_%D9%88%D8%A7%D9%84%DB%8C%D8%A7%DA%BA_%D8%AF%D8%A7%D9%86%DB%8C%D8%A7%DA%BA_%D8%A2%D9%86_%DA%A9%DA%BE%DA%91%DB%8C%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 344
 ---

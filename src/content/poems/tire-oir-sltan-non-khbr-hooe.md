@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تیرے ویر سلطان نوں خبر ہووے"
   url: "https://wikisource.org/wiki/%D8%AA%DB%8C%D8%B1%DB%92_%D9%88%DB%8C%D8%B1_%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D9%86%D9%88%DA%BA_%D8%AE%D8%A8%D8%B1_%DB%81%D9%88%D9%88%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 95
 ---

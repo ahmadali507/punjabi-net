@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کم ذات کپتڑا ڈھیڈ بےنڈا"
   url: "https://wikisource.org/wiki/%DA%A9%D9%85_%D8%B0%D8%A7%D8%AA_%DA%A9%D9%BE%D8%AA%DA%91%D8%A7_%DA%88%DA%BE%DB%8C%DA%88_%D8%A8%DB%92%D9%86%DA%88%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 343
 ---

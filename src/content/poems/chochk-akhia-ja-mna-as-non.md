@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چُوچک آکھیا جا منا اس نوں"
   url: "https://wikisource.org/wiki/%DA%86%D9%8F%D9%88%DA%86%DA%A9_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D8%AC%D8%A7_%D9%85%D9%86%D8%A7_%D8%A7%D8%B3_%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 105
 ---

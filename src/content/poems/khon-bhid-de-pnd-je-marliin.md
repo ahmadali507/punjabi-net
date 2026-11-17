@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: خون بھیڈ دے پنڈ جے مارلئیں"
   url: "https://wikisource.org/wiki/%D8%AE%D9%88%D9%86_%D8%A8%DA%BE%DB%8C%DA%88_%D8%AF%DB%92_%D9%BE%D9%86%DA%88_%D8%AC%DB%92_%D9%85%D8%A7%D8%B1%D9%84%D8%A6%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 444
 ---

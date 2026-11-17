@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر وَت کے بیلوں گھریں آئی"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%D9%88%D9%8E%D8%AA_%DA%A9%DB%92_%D8%A8%DB%8C%D9%84%D9%88%DA%BA_%DA%AF%DA%BE%D8%B1%DB%8C%DA%BA_%D8%A2%D8%A6%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 111
 ---

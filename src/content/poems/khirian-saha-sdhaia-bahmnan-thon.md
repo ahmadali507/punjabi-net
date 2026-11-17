@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کھیڑیاں ساہا سدھایا باہمناں تھوں"
   url: "https://wikisource.org/wiki/%DA%A9%DA%BE%DB%8C%DA%91%DB%8C%D8%A7%DA%BA_%D8%B3%D8%A7%DB%81%D8%A7_%D8%B3%D8%AF%DA%BE%D8%A7%DB%8C%D8%A7_%D8%A8%D8%A7%DB%81%D9%85%D9%86%D8%A7%DA%BA_%D8%AA%DA%BE%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 185
 ---

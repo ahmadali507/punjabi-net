@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: نویں نوچیے کنچنئیے یارنیے نی"
   url: "https://wikisource.org/wiki/%D9%86%D9%88%DB%8C%DA%BA_%D9%86%D9%88%DA%86%DB%8C%DB%92_%DA%A9%D9%86%DA%86%D9%86%D8%A6%DB%8C%DB%92_%DB%8C%D8%A7%D8%B1%D9%86%DB%8C%DB%92_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 431
 ---

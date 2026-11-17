@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تیرے سیاہ تتولڑے کجلے دے"
   url: "https://wikisource.org/wiki/%D8%AA%DB%8C%D8%B1%DB%92_%D8%B3%DB%8C%D8%A7%DB%81_%D8%AA%D8%AA%D9%88%D9%84%DA%91%DB%92_%DA%A9%D8%AC%D9%84%DB%92_%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 520
 ---

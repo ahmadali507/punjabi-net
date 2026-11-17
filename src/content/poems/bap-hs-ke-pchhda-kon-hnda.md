@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: باپ ہس کے پُچھدا کون ہُندا"
   url: "https://wikisource.org/wiki/%D8%A8%D8%A7%D9%BE_%DB%81%D8%B3_%DA%A9%DB%92_%D9%BE%D9%8F%DA%86%DA%BE%D8%AF%D8%A7_%DA%A9%D9%88%D9%86_%DB%81%D9%8F%D9%86%D8%AF%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 73
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جدوں رنگپور دی جُوہ جا وڑیا"
   url: "https://wikisource.org/wiki/%D8%AC%D8%AF%D9%88%DA%BA_%D8%B1%D9%86%DA%AF%D9%BE%D9%88%D8%B1_%D8%AF%DB%8C_%D8%AC%D9%8F%D9%88%DB%81_%D8%AC%D8%A7_%D9%88%DA%91%DB%8C%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 291
 ---

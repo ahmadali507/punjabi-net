@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: رل ہیر تھے آئیاں پھیر سبھے"
   url: "https://wikisource.org/wiki/%D8%B1%D9%84_%DB%81%DB%8C%D8%B1_%D8%AA%DA%BE%DB%92_%D8%A2%D8%A6%DB%8C%D8%A7%DA%BA_%D9%BE%DA%BE%DB%8C%D8%B1_%D8%B3%D8%A8%DA%BE%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 182
 ---

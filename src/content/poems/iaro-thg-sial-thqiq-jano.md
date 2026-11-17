@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: یارو ٹھگ سیال تحقیق جانو"
   url: "https://wikisource.org/wiki/%DB%8C%D8%A7%D8%B1%D9%88_%D9%B9%DA%BE%DA%AF_%D8%B3%DB%8C%D8%A7%D9%84_%D8%AA%D8%AD%D9%82%DB%8C%D9%82_%D8%AC%D8%A7%D9%86%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 226
 ---

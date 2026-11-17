@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ساک ماڑیاں دے کھوہ لین ڈاہڈھے"
   url: "https://wikisource.org/wiki/%D8%B3%D8%A7%DA%A9_%D9%85%D8%A7%DA%91%DB%8C%D8%A7%DA%BA_%D8%AF%DB%92_%DA%A9%DA%BE%D9%88%DB%81_%D9%84%DB%8C%D9%86_%DA%88%D8%A7%DB%81%DA%88%DA%BE%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 189
 ---

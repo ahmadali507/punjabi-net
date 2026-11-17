@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گلیں لائی کے کویں لیاؤ اُس نوں"
   url: "https://wikisource.org/wiki/%DA%AF%D9%84%DB%8C%DA%BA_%D9%84%D8%A7%D8%A6%DB%8C_%DA%A9%DB%92_%DA%A9%D9%88%DB%8C%DA%BA_%D9%84%DB%8C%D8%A7%D8%A4_%D8%A7%D9%8F%D8%B3_%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 310
 ---

@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ڈاراں خوباں دیاں سیالاں دے"
   url: "https://wikisource.org/wiki/%DA%88%D8%A7%D8%B1%D8%A7%DA%BA_%D8%AE%D9%88%D8%A8%D8%A7%DA%BA_%D8%AF%DB%8C%D8%A7%DA%BA_%D8%B3%DB%8C%D8%A7%D9%84%D8%A7%DA%BA_%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 196
 ---

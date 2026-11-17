@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: لکھ ویدگی وید لگا تھکے"
   url: "https://wikisource.org/wiki/%D9%84%DA%A9%DA%BE_%D9%88%DB%8C%D8%AF%DA%AF%DB%8C_%D9%88%DB%8C%D8%AF_%D9%84%DA%AF%D8%A7_%D8%AA%DA%BE%DA%A9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 378
 ---

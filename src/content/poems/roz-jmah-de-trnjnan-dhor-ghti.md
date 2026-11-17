@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: روز جمعہ دے ترنجناں دُھوڑ گھتی"
   url: "https://wikisource.org/wiki/%D8%B1%D9%88%D8%B2_%D8%AC%D9%85%D8%B9%DB%81_%D8%AF%DB%92_%D8%AA%D8%B1%D9%86%D8%AC%D9%86%D8%A7%DA%BA_%D8%AF%D9%8F%DA%BE%D9%88%DA%91_%DA%AF%DA%BE%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 460
 ---

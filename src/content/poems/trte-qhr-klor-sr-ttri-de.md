@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ترٹے قہر کلور سر تتڑی دے"
   url: "https://wikisource.org/wiki/%D8%AA%D8%B1%D9%B9%DB%92_%D9%82%DB%81%D8%B1_%DA%A9%D9%84%D9%88%D8%B1_%D8%B3%D8%B1_%D8%AA%D8%AA%DA%91%DB%8C_%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 237
 ---

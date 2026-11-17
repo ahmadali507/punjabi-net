@@ -20,4 +20,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ماہیاں آکھیا جاء کے وچ سیالاں"
   url: "https://wikisource.org/wiki/%D9%85%D8%A7%DB%81%DB%8C%D8%A7%DA%BA_%D8%A2%DA%A9%DA%BE%DB%8C%D8%A7_%D8%AC%D8%A7%D8%A1_%DA%A9%DB%92_%D9%88%DA%86_%D8%B3%DB%8C%D8%A7%D9%84%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 618
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پیا لعنتوں طبق شیطان دے گل"
   url: "https://wikisource.org/wiki/%D9%BE%DB%8C%D8%A7_%D9%84%D8%B9%D9%86%D8%AA%D9%88%DA%BA_%D8%B7%D8%A8%D9%82_%D8%B4%DB%8C%D8%B7%D8%A7%D9%86_%D8%AF%DB%92_%DA%AF%D9%84"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 474
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: لیکے چلیا اپنے دیس تائیں"
   url: "https://wikisource.org/wiki/%D9%84%DB%8C%DA%A9%DB%92_%DA%86%D9%84%DB%8C%D8%A7_%D8%A7%D9%BE%D9%86%DB%92_%D8%AF%DB%8C%D8%B3_%D8%AA%D8%A7%D8%A6%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 614
 ---

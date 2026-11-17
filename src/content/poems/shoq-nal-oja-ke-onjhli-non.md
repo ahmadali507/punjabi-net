@@ -24,4 +24,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: شوق نال وجاء کے ونجھلی نوں"
   url: "https://wikisource.org/wiki/%D8%B4%D9%88%D9%82_%D9%86%D8%A7%D9%84_%D9%88%D8%AC%D8%A7%D8%A1_%DA%A9%DB%92_%D9%88%D9%86%D8%AC%DA%BE%D9%84%DB%8C_%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 120
 ---

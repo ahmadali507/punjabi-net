@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: راجا آکھدا پچھو کھاں ایہہ چھاپا"
   url: "https://wikisource.org/wiki/%D8%B1%D8%A7%D8%AC%D8%A7_%D8%A2%DA%A9%DA%BE%D8%AF%D8%A7_%D9%BE%DA%86%DA%BE%D9%88_%DA%A9%DA%BE%D8%A7%DA%BA_%D8%A7%DB%8C%DB%81%DB%81_%DA%86%DA%BE%D8%A7%D9%BE%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 601
 ---

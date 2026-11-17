@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: قاضی سدیا پڑھن نکاح نوں جی"
   url: "https://wikisource.org/wiki/%D9%82%D8%A7%D8%B6%DB%8C_%D8%B3%D8%AF%DB%8C%D8%A7_%D9%BE%DA%91%DA%BE%D9%86_%D9%86%DA%A9%D8%A7%D8%AD_%D9%86%D9%88%DA%BA_%D8%AC%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 203
 ---

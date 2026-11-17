@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کھرل ہانس دا ملک مشہور ملکا"
   url: "https://wikisource.org/wiki/%DA%A9%DA%BE%D8%B1%D9%84_%DB%81%D8%A7%D9%86%D8%B3_%D8%AF%D8%A7_%D9%85%D9%84%DA%A9_%D9%85%D8%B4%DB%81%D9%88%D8%B1_%D9%85%D9%84%DA%A9%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 626
 ---

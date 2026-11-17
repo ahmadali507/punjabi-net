@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: آ مِل یار سار لے میری"
   url: "https://wikisource.org/wiki/%D8%A2_%D9%85%D9%90%D9%84_%DB%8C%D8%A7%D8%B1_%D8%B3%D8%A7%D8%B1_%D9%84%DB%92_%D9%85%DB%8C%D8%B1%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 1
 ---

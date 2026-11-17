@@ -23,4 +23,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بس کر جی ہُن بس کر جی"
   url: "https://wikisource.org/wiki/%D8%A8%D8%B3_%DA%A9%D8%B1_%D8%AC%DB%8C_%DB%81%D9%8F%D9%86_%D8%A8%D8%B3_%DA%A9%D8%B1_%D8%AC%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: kafian-bulleh-shah
+  n: 16
 ---

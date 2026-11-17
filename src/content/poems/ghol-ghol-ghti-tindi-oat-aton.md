@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: گھول گھول گھتی تینڈی واٹ اتوں"
   url: "https://wikisource.org/wiki/%DA%AF%DA%BE%D9%88%D9%84_%DA%AF%DA%BE%D9%88%D9%84_%DA%AF%DA%BE%D8%AA%DB%8C_%D8%AA%DB%8C%D9%86%DA%88%DB%8C_%D9%88%D8%A7%D9%B9_%D8%A7%D8%AA%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 65
 ---

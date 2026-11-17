@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: دل فکر نے گھریا بند ہویا"
   url: "https://wikisource.org/wiki/%D8%AF%D9%84_%D9%81%DA%A9%D8%B1_%D9%86%DB%92_%DA%AF%DA%BE%D8%B1%DB%8C%D8%A7_%D8%A8%D9%86%D8%AF_%DB%81%D9%88%DB%8C%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 457
 ---

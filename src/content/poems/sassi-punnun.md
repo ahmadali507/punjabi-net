@@ -139,4 +139,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سسی پنوں"
   url: "https://wikisource.org/wiki/%D8%B3%D8%B3%DB%8C_%D9%BE%D9%86%D9%88%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: sassi-punnun-hashim-shah
+  n: 1
 ---

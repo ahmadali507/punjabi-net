@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: لیائے ہیر سیال جو دید کریے"
   url: "https://wikisource.org/wiki/%D9%84%DB%8C%D8%A7%D8%A6%DB%92_%DB%81%DB%8C%D8%B1_%D8%B3%DB%8C%D8%A7%D9%84_%D8%AC%D9%88_%D8%AF%DB%8C%D8%AF_%DA%A9%D8%B1%DB%8C%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 499
 ---

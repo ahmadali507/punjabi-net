@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ڈوگر جٹ ایمان نوں ویچ کھاندے"
   url: "https://wikisource.org/wiki/%DA%88%D9%88%DA%AF%D8%B1_%D8%AC%D9%B9_%D8%A7%DB%8C%D9%85%D8%A7%D9%86_%D9%86%D9%88%DA%BA_%D9%88%DB%8C%DA%86_%DA%A9%DA%BE%D8%A7%D9%86%D8%AF%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 227
 ---

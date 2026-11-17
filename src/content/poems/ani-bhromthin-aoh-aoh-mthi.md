@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اَنی بھڑومٹھیں اوہ اوہ مُٹھی"
   url: "https://wikisource.org/wiki/%D8%A7%D9%8E%D9%86%DB%8C_%D8%A8%DA%BE%DA%91%D9%88%D9%85%D9%B9%DA%BE%DB%8C%DA%BA_%D8%A7%D9%88%DB%81_%D8%A7%D9%88%DB%81_%D9%85%D9%8F%D9%B9%DA%BE%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 535
 ---

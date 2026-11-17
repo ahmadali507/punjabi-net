@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: سہتی کھول کے تھال جاں دھیان کیتا"
   url: "https://wikisource.org/wiki/%D8%B3%DB%81%D8%AA%DB%8C_%DA%A9%DA%BE%D9%88%D9%84_%DA%A9%DB%92_%D8%AA%DA%BE%D8%A7%D9%84_%D8%AC%D8%A7%DA%BA_%D8%AF%DA%BE%DB%8C%D8%A7%D9%86_%DA%A9%DB%8C%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 491
 ---

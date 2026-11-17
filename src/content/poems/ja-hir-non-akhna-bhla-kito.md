@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جا ہیر نُوں آکھنا بھلا کیتو"
   url: "https://wikisource.org/wiki/%D8%AC%D8%A7_%DB%81%DB%8C%D8%B1_%D9%86%D9%8F%D9%88%DA%BA_%D8%A2%DA%A9%DA%BE%D9%86%D8%A7_%D8%A8%DA%BE%D9%84%D8%A7_%DA%A9%DB%8C%D8%AA%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 464
 ---

@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ناتھ میٹ اکھیں درگاہ اندر"
   url: "https://wikisource.org/wiki/%D9%86%D8%A7%D8%AA%DA%BE_%D9%85%DB%8C%D9%B9_%D8%A7%DA%A9%DA%BE%DB%8C%DA%BA_%D8%AF%D8%B1%DA%AF%D8%A7%DB%81_%D8%A7%D9%86%D8%AF%D8%B1"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 284
 ---

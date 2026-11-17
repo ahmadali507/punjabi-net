@@ -13,4 +13,7 @@ source:
   url: "https://wikisource.org/wiki/%D9%85%D8%A7%D8%A6%DB%8C%DA%BA_%D9%86%DB%8C_%D9%85%DB%8C%DA%BA_%DA%A9%DB%8C%DB%81%D9%86%D9%88%DA%BA_%D8%A2%DA%A9%DA%BE%D8%A7%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
 featured: true
+work:
+  id: kafian-shah-hussain
+  n: 68
 ---

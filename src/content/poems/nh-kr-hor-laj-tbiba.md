@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: نہ کر ہور علاج طبیبا"
   url: "https://wikisource.org/wiki/%D9%86%DB%81_%DA%A9%D8%B1_%DB%81%D9%88%D8%B1_%D8%B9%D9%84%D8%A7%D8%AC_%D8%B7%D8%A8%DB%8C%D8%A8%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: dohre-hashim-shah
+  n: 149
 ---

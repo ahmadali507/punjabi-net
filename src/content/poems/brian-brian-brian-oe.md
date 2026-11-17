@@ -14,6 +14,9 @@ source:
   book: "Kafian Shah Hussain (punjabi-kavita.com, Shahmukhi)"
   url: "https://www.punjabi-kavita.com/KafianShahHussainShahmukhi.php#Hussain020"
 verification_note: "Shahmukhi text from punjabi-kavita.com, a transliteration of its Gurmukhi text. Not yet checked against a printed edition."
+work:
+  id: kafian-shah-hussain
+  n: 20
 ---
 
 Another reading of this poem given by punjabi-kavita.com:

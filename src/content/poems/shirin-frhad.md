@@ -523,4 +523,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: شیریں فرہاد"
   url: "https://wikisource.org/wiki/%D8%B4%DB%8C%D8%B1%DB%8C%DA%BA_%D9%81%D8%B1%DB%81%D8%A7%D8%AF"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: shirin-farhad-hashim-shah
+  n: 1
 ---

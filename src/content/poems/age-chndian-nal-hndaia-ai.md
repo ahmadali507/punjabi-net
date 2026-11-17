@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اگے چنڈیاں نال ہنڈایا ای"
   url: "https://wikisource.org/wiki/%D8%A7%DA%AF%DB%92_%DA%86%D9%86%DA%88%DB%8C%D8%A7%DA%BA_%D9%86%D8%A7%D9%84_%DB%81%D9%86%DA%88%D8%A7%DB%8C%D8%A7_%D8%A7%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 246
 ---

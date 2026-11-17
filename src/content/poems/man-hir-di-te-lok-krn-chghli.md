@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ماں ہیر دی تے لوک کرن چُغلی"
   url: "https://wikisource.org/wiki/%D9%85%D8%A7%DA%BA_%DB%81%DB%8C%D8%B1_%D8%AF%DB%8C_%D8%AA%DB%92_%D9%84%D9%88%DA%A9_%DA%A9%D8%B1%D9%86_%DA%86%D9%8F%D8%BA%D9%84%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 91
 ---

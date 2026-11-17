@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پیسہ کھول کے ہتھ جے دھریں"
   url: "https://wikisource.org/wiki/%D9%BE%DB%8C%D8%B3%DB%81_%DA%A9%DA%BE%D9%88%D9%84_%DA%A9%DB%92_%DB%81%D8%AA%DA%BE_%D8%AC%DB%92_%D8%AF%DA%BE%D8%B1%DB%8C%DA%BA"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 45
 ---

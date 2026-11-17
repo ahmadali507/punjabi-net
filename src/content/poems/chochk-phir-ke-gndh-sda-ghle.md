@@ -13,4 +13,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چُوچک پھیر کے گنڈھ سدا گھلے"
   url: "https://wikisource.org/wiki/%DA%86%D9%8F%D9%88%DA%86%DA%A9_%D9%BE%DA%BE%DB%8C%D8%B1_%DA%A9%DB%92_%DA%AF%D9%86%DA%88%DA%BE_%D8%B3%D8%AF%D8%A7_%DA%AF%DA%BE%D9%84%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 175
 ---

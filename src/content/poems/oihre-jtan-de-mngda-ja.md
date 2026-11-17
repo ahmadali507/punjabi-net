@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ویہڑے جٹاں دے منگدا جا"
   url: "https://wikisource.org/wiki/%D9%88%DB%8C%DB%81%DA%91%DB%92_%D8%AC%D9%B9%D8%A7%DA%BA_%D8%AF%DB%92_%D9%85%D9%86%DA%AF%D8%AF%D8%A7_%D8%AC%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 329
 ---

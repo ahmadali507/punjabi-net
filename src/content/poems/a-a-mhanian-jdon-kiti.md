@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: آء آء مہانیاں جدوں کیتی"
   url: "https://wikisource.org/wiki/%D8%A2%D8%A1_%D8%A2%D8%A1_%D9%85%DB%81%D8%A7%D9%86%DB%8C%D8%A7%DA%BA_%D8%AC%D8%AF%D9%88%DA%BA_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 333
 ---

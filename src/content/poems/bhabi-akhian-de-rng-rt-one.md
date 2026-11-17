@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: بھابی اکھیاں دے رنگ رَت وَنے"
   url: "https://wikisource.org/wiki/%D8%A8%DA%BE%D8%A7%D8%A8%DB%8C_%D8%A7%DA%A9%DA%BE%DB%8C%D8%A7%DA%BA_%D8%AF%DB%92_%D8%B1%D9%86%DA%AF_%D8%B1%D9%8E%D8%AA_%D9%88%D9%8E%D9%86%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 524
 ---

@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کھیڑ یاں جوڑ کے ہتھ فریاد کیتی"
   url: "https://wikisource.org/wiki/%DA%A9%DA%BE%DB%8C%DA%91_%DB%8C%D8%A7%DA%BA_%D8%AC%D9%88%DA%91_%DA%A9%DB%92_%DB%81%D8%AA%DA%BE_%D9%81%D8%B1%DB%8C%D8%A7%D8%AF_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 597
 ---

@@ -12,4 +12,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: غیبت کرن بگانڑی طاعت اوگن"
   url: "https://wikisource.org/wiki/%D8%BA%DB%8C%D8%A8%D8%AA_%DA%A9%D8%B1%D9%86_%D8%A8%DA%AF%D8%A7%D9%86%DA%91%DB%8C_%D8%B7%D8%A7%D8%B9%D8%AA_%D8%A7%D9%88%DA%AF%D9%86"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 269
 ---

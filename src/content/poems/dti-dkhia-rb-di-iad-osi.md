@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: دِتی دکھیا رب دی یاد وسی"
   url: "https://wikisource.org/wiki/%D8%AF%D9%90%D8%AA%DB%8C_%D8%AF%DA%A9%DA%BE%DB%8C%D8%A7_%D8%B1%D8%A8_%D8%AF%DB%8C_%DB%8C%D8%A7%D8%AF_%D9%88%D8%B3%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 276
 ---

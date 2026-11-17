@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جیہڑے پنڈ وچ آوے تے لوک پُچھن"
   url: "https://wikisource.org/wiki/%D8%AC%DB%8C%DB%81%DA%91%DB%92_%D9%BE%D9%86%DA%88_%D9%88%DA%86_%D8%A2%D9%88%DB%92_%D8%AA%DB%92_%D9%84%D9%88%DA%A9_%D9%BE%D9%8F%DA%86%DA%BE%D9%86"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 288
 ---

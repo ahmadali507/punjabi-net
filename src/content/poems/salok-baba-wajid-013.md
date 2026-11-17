@@ -1,0 +1,14 @@
+---
+poet: baba-wajid
+form: shalok
+title: "لؤبالی درگاہِ انت حساب ہے"
+verses:
+  - text: "لؤبالی درگاہِ انت حساب ہے\nجنِ جنِ اوڑک سادھیا تیئی خراب ہے\nکیتی گئی وجائِ ن آئیو وتِ پھر\nوجیدا کون صاحب نوں آکھے انج نہیں انج کر"
+source:
+  book: "Wikisource (Punjabi), public-domain transcription: سلوک بابا وجید"
+  url: "https://wikisource.org/wiki/%D8%B3%D9%84%D9%88%DA%A9_%D8%A8%D8%A7%D8%A8%D8%A7_%D9%88%D8%AC%DB%8C%D8%AF"
+verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: salok-baba-wajid
+  n: 13
+---

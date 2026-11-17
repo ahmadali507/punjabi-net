@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: تھارو سسرو کون کیہ مات پترو"
   url: "https://wikisource.org/wiki/%D8%AA%DA%BE%D8%A7%D8%B1%D9%88_%D8%B3%D8%B3%D8%B1%D9%88_%DA%A9%D9%88%D9%86_%DA%A9%DB%8C%DB%81_%D9%85%D8%A7%D8%AA_%D9%BE%D8%AA%D8%B1%D9%88"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 616
 ---

@@ -14,4 +14,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: اساں ویاہ آندی کُونج پھاہ آندی"
   url: "https://wikisource.org/wiki/%D8%A7%D8%B3%D8%A7%DA%BA_%D9%88%DB%8C%D8%A7%DB%81_%D8%A2%D9%86%D8%AF%DB%8C_%DA%A9%D9%8F%D9%88%D9%86%D8%AC_%D9%BE%DA%BE%D8%A7%DB%81_%D8%A2%D9%86%D8%AF%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 539
 ---

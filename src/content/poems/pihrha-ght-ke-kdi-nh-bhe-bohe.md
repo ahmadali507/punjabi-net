@@ -17,4 +17,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پیہڑھا گھت کے کدی نہ بَہے بُوہے"
   url: "https://wikisource.org/wiki/%D9%BE%DB%8C%DB%81%DA%91%DA%BE%D8%A7_%DA%AF%DA%BE%D8%AA_%DA%A9%DB%92_%DA%A9%D8%AF%DB%8C_%D9%86%DB%81_%D8%A8%D9%8E%DB%81%DB%92_%D8%A8%D9%8F%D9%88%DB%81%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 541
 ---

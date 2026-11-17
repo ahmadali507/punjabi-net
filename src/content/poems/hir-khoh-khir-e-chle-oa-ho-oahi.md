@@ -19,4 +19,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: ہیر کھوہ کھیڑ ے چلے وا ہو واہی"
   url: "https://wikisource.org/wiki/%DB%81%DB%8C%D8%B1_%DA%A9%DA%BE%D9%88%DB%81_%DA%A9%DA%BE%DB%8C%DA%91_%DB%92_%DA%86%D9%84%DB%92_%D9%88%D8%A7_%DB%81%D9%88_%D9%88%D8%A7%DB%81%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 605
 ---

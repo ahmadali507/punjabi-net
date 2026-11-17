@@ -21,4 +21,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: چُوچک سیال نے قول وسار گھتے"
   url: "https://wikisource.org/wiki/%DA%86%D9%8F%D9%88%DA%86%DA%A9_%D8%B3%DB%8C%D8%A7%D9%84_%D9%86%DB%92_%D9%82%D9%88%D9%84_%D9%88%D8%B3%D8%A7%D8%B1_%DA%AF%DA%BE%D8%AA%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 180
 ---

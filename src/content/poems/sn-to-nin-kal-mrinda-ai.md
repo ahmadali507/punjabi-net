@@ -13,4 +13,7 @@ source:
   book: "Kafian Shah Hussain (punjabi-kavita.com, Shahmukhi)"
   url: "https://www.punjabi-kavita.com/KafianShahHussainShahmukhi.php#Hussain0142"
 verification_note: "Shahmukhi text from punjabi-kavita.com, a transliteration of its Gurmukhi text. Not yet checked against a printed edition."
+work:
+  id: kafian-shah-hussain
+  n: 127
 ---

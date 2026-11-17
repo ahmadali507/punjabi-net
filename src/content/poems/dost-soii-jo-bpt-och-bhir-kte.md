@@ -22,4 +22,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: دوست سوئی جو بپت وچ بھیڑ کٹے"
   url: "https://wikisource.org/wiki/%D8%AF%D9%88%D8%B3%D8%AA_%D8%B3%D9%88%D8%A6%DB%8C_%D8%AC%D9%88_%D8%A8%D9%BE%D8%AA_%D9%88%DA%86_%D8%A8%DA%BE%DB%8C%DA%91_%DA%A9%D9%B9%DB%92"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 361
 ---

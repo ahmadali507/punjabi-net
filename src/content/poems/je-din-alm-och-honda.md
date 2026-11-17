@@ -8,4 +8,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: جے دِین عِلم وِچ ہون٘دا"
   url: "https://wikisource.org/wiki/%D8%AC%DB%92_%D8%AF%D9%90%DB%8C%D9%86_%D8%B9%D9%90%D9%84%D9%85_%D9%88%D9%90%DA%86_%DB%81%D9%88%D9%86%D9%98%D8%AF%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: abyat-sultan-bahu
+  n: 110
 ---

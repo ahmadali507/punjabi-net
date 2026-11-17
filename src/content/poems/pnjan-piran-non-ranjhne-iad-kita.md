@@ -18,4 +18,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پنجاں پیراں نوں رانجھنے یاد کیتا"
   url: "https://wikisource.org/wiki/%D9%BE%D9%86%D8%AC%D8%A7%DA%BA_%D9%BE%DB%8C%D8%B1%D8%A7%DA%BA_%D9%86%D9%88%DA%BA_%D8%B1%D8%A7%D9%86%D8%AC%DA%BE%D9%86%DB%92_%DB%8C%D8%A7%D8%AF_%DA%A9%DB%8C%D8%AA%D8%A7"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 119
 ---

@@ -16,4 +16,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: کیدو آکھدا ملکیے بھیڑئیے نی"
   url: "https://wikisource.org/wiki/%DA%A9%DB%8C%D8%AF%D9%88_%D8%A2%DA%A9%DA%BE%D8%AF%D8%A7_%D9%85%D9%84%DA%A9%DB%8C%DB%92_%D8%A8%DA%BE%DB%8C%DA%91%D8%A6%DB%8C%DB%92_%D9%86%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 125
 ---

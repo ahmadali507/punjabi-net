@@ -15,4 +15,7 @@ source:
   book: "Wikisource (Punjabi), public-domain transcription: پینچاں پنڈ دیاں سچ تھیں ترک کیتی"
   url: "https://wikisource.org/wiki/%D9%BE%DB%8C%D9%86%DA%86%D8%A7%DA%BA_%D9%BE%D9%86%DA%88_%D8%AF%DB%8C%D8%A7%DA%BA_%D8%B3%DA%86_%D8%AA%DA%BE%DB%8C%DA%BA_%D8%AA%D8%B1%DA%A9_%DA%A9%DB%8C%D8%AA%DB%8C"
 verification_note: "Transcribed from Wikisource, where the text is marked public domain (PD-old). Not yet checked against a printed edition."
+work:
+  id: heer-waris-shah
+  n: 225
 ---
