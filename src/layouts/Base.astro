@@ -12,8 +12,6 @@ import { graph, type Crumb, type Node } from '~/lib/seo';
 interface Props {
   title?: string;
   description?: string;
-  /** Absolute or root-relative OG image (phase 5 generates one per page). */
-  image?: string;
   type?: 'website' | 'article' | 'profile';
   noindex?: boolean;
   /** schema.org node(s) for this page's subject (the first is the page's main entity), joined into one JSON-LD @graph. */
@@ -26,7 +24,7 @@ interface Props {
   preloadNastaliq?: boolean;
 }
 
-const { title, description: desc, image = '/og/default.png', type = 'website', noindex = false, jsonLd, crumbs, pageType, preloadNastaliq } = Astro.props;
+const { title, description: desc, type = 'website', noindex = false, jsonLd, crumbs, pageType, preloadNastaliq } = Astro.props;
 const locale = asLocale(Astro.currentLocale);
 // Punjabi pages never carry an English description: fall back to the site's Punjabi one.
 const description = locale === 'pa' ? (desc && !hasLatin(desc) ? desc : SITE.descriptionPa) : (desc ?? SITE.description);
@@ -37,7 +35,8 @@ const alt = {
   en: new URL(alternatePath(path, 'en'), Astro.site).href,
   pa: new URL(alternatePath(path, 'pa'), Astro.site).href,
 };
-const ogImage = new URL(image, Astro.site).href;
+// One share image for the whole site: the logo mark (owner's choice: no per-page images).
+const ogImage = new URL('/icon-512.png', Astro.site).href;
 
 // /pa pages are Punjabi (Shahmukhi) throughout: right-to-left.
 const htmlLang = locale === 'pa' ? PA_LANG : 'en';
@@ -81,17 +80,17 @@ const ldGraph = graph({
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:alt" content={title ?? SITE.name} />
+    <meta property="og:image:alt" content={SITE.name} />
     <meta property="og:locale" content={locale === 'pa' ? 'pa_PK' : 'en_GB'} />
     <meta property="og:locale:alternate" content={locale === 'pa' ? 'en_GB' : 'pa_PK'} />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title ?? SITE.name} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
-    <meta name="twitter:image:alt" content={title ?? SITE.name} />
+    <meta name="twitter:image:alt" content={SITE.name} />
 
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)" />

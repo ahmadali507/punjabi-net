@@ -46,8 +46,9 @@ const crumbs = [
   { name: d.headword, path: localePath(locale, `/dictionary/${entry.id}`) },
 ];
 ---
-<Base title={pageTitle} description={description} type="article" image={`/og/dictionary/${entry.id}.png`} jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
-  <article class="column section entry" data-pagefind-body data-pagefind-filter="type:word" data-pagefind-meta={en ? `title:${d.headword} · ${d.romanized}` : `title:${d.headword}`}>
+<Base title={pageTitle} description={description} type="article" jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
+  <article class="column section entry" data-pagefind-body={en || undefined} data-pagefind-filter="type:word" data-pagefind-meta={en ? `title:${d.headword} · ${d.romanized}` : `title:${d.headword}`}>
+    {en && <meta data-pagefind-meta="pa[content]" content={d.headword} />}
     <p class="eyebrow" data-pagefind-ignore>
       <a href={localePath(locale, '/dictionary')}><T k="nav.dictionary" /></a> · <a href={localePath(locale, `/dictionary/letter/${letter}`)} lang="pnb">{letter}</a>
     </p>

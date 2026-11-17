@@ -38,15 +38,15 @@ const jsonLd = {
   genre: 'Proverb',
   description: [d.literal_en, d.meaning_en].filter(Boolean).join(' — '),
   url: abs(site, localePath(locale, `/proverbs/${proverb.id}`)),
-  image: abs(site, `/og/proverbs/${proverb.id}.png`),
 };
 const crumbs = [
   { name: t(locale, 'nav.proverbs'), path: localePath(locale, '/proverbs') },
   { name: en ? d.literal_en : d.text, path: localePath(locale, `/proverbs/${proverb.id}`) },
 ];
 ---
-<Base title={title} description={description} type="article" image={`/og/proverbs/${proverb.id}.png`} jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
-  <article class="column section proverb" data-pagefind-body data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
+<Base title={title} description={description} type="article" jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
+  <article class="column section proverb" data-pagefind-body={en || undefined} data-pagefind-filter="type:proverb" data-pagefind-meta={`title:${d.text}`}>
+    {en && <meta data-pagefind-meta="pa[content]" content={d.text} />}
     <p class="eyebrow">
       <a href={localePath(locale, '/proverbs')}><T k="nav.proverbs" /></a> · <span data-pagefind-ignore>{tf(locale, 'proverbs.position', { i: i + 1, n: all.length })}</span>
     </p>

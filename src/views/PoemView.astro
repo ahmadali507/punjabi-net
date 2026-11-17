@@ -51,6 +51,9 @@ const description: string = !en
   : `${form.data.name.en} by ${poet.data.name.en}. Text not yet entered.`;
 // The poem itself, as text answer engines can quote (capped so very long parts stay light).
 const site = Astro.site!;
+// Search indexes English pages only (the /pa search reads the same index), and a work's parts are
+// found through the work page, which holds their text: this keeps the build under the host's file limit.
+const indexed = en && !d.work;
 const fullText = d.verses.map((v) => v.text).join('\n\n');
 const enText = d.translation ? d.verses.map((v) => v.en ?? '').filter(Boolean).join('\n\n') : '';
 const cap = (s: string) => (s.length > 6000 ? `${s.slice(0, 6000).replace(/\s+\S*$/, '')} …` : s);
@@ -62,7 +65,6 @@ const jsonLd = {
   headline: d.title_en ? `${d.title} (${d.title_en})` : d.title,
   description,
   url: abs(site, localePath(locale, `/poems/${poem.id}`)),
-  image: abs(site, `/og/poems/${poem.id}.png`),
   inLanguage: 'pnb',
   genre: form.data.name.en,
   text: hasText ? cap(fullText) : undefined,
@@ -91,8 +93,9 @@ const crumbs: Crumb[] = [
 const stanzaNo = d.verses.map((v, i) => (v.refrain ? 0 : d.verses.slice(0, i + 1).filter((x) => !x.refrain).length));
 const num = (n: number) => (en ? String(n) : paDigits(n));
 ---
-<Base title={pageTitle} description={description} type="article" image={`/og/poems/${poem.id}.png`} jsonLd={jsonLd} crumbs={crumbs} noindex={!hasText} preloadNastaliq>
-  <article class="poem" data-pagefind-body data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
+<Base title={pageTitle} description={description} type="article" jsonLd={jsonLd} crumbs={crumbs} noindex={!hasText} preloadNastaliq>
+  <article class="poem" data-pagefind-body={indexed || undefined} data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en && d.title_en ? ` · ${d.title_en}` : ''}`}>
+    {en && <meta data-pagefind-meta="pa[content]" content={d.title} />}
     {work && d.work && (
       <nav class="column no-print" aria-label={t(locale, 'work.partOf')} data-pagefind-ignore>
         <div class="in-work">

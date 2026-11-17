@@ -36,8 +36,9 @@ const crumbs = [
   { name: en ? d.name.en : d.name.pa, path: localePath(locale, `/forms/${form.id}`) },
 ];
 ---
-<Base title={en ? `${d.name.en} (${d.name.pa})` : d.name.pa} description={en ? d.description : d.description_pa} type="article" image={`/og/forms/${form.id}.png`} jsonLd={jsonLd} crumbs={crumbs}>
-  <article class="column section" data-pagefind-body data-pagefind-filter="type:form" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
+<Base title={en ? `${d.name.en} (${d.name.pa})` : d.name.pa} description={en ? d.description : d.description_pa} type="article" jsonLd={jsonLd} crumbs={crumbs}>
+  <article class="column section" data-pagefind-body={en || undefined} data-pagefind-filter="type:form" data-pagefind-meta={`title:${en ? `${d.name.en} · ${d.name.pa}` : d.name.pa}`}>
+    {en && <meta data-pagefind-meta="pa[content]" content={d.name.pa} />}
     <p class="eyebrow"><a href={localePath(locale, '/forms')}><T k="nav.forms" /></a></p>
     <header class="form-head">
       {en ? <h1>{d.name.en}</h1> : <h1>{d.name.pa}</h1>}

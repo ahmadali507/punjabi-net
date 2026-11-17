@@ -5,25 +5,36 @@ already in the code. The rest happen in the Cloudflare dashboard, the registrar 
 consoles, and need the owner. DEPLOY.md has the Pages setup itself.
 
 The production domain is set in one place: `site` in `astro.config.mjs` (`https://punjabii.net`).
-Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, OG images and JSON-LD all follow it.
+Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, the share image URL and JSON-LD all follow it.
 
 ## 0. Blockers: fix before the first deploy
 
-- [ ] **File count.** The build is about 36,000 files (1.5 GB). Cloudflare Pages allows 20,000 files on
-      the Free plan and 100,000 on paid plans
-      ([limits](https://developers.cloudflare.com/pages/platform/limits/)). Either
-      - move to a paid plan and set the Pages environment variable `PAGES_WRANGLER_MAJOR_VERSION=4`
-        (needed for the higher limit), or
-      - cut files: the per-poem OG images (about 7,000) could fall back to the work's image for poems
-        that belong to a work, and the Pagefind index could cover English pages only. Even then the
-        site stays above 20,000, so the paid plan is the practical route.
+- [x] **[done] File count: about 16,300, under the Free plan's 20,000.** Cloudflare Pages allows
+      20,000 files on the Free plan ([limits](https://developers.cloudflare.com/pages/platform/limits/)).
+      The build was about 36,000. It now has no per-page share images, and the search index covers the
+      English pages only: /pa search reads the same index and links to /pa pages, and a work's parts are
+      found through the work page, which jumps to the matching part. That leaves ~14,100 pages, ~1,750
+      search files and ~450 other files.
+      Headroom: each new standalone poem adds 3 files, each new part of a work 2. About 3,700 files are
+      left, roughly 1,200–1,800 more poems. Check with `find dist -type f | wc -l` after each big
+      import. When it nears 20,000, move `/pagefind` to R2 (free, 10 GB) or drop the separate /pa pages
+      for work parts.
 - [x] **[done]** Domain set: `punjabii.net` (`site` in `astro.config.mjs`, `name` in `src/site.config.ts`).
-- [ ] **Cloudflare AI-crawler settings.** On new zones Cloudflare can block AI crawlers and prepend its
-      own "managed robots.txt". Both would cancel the AEO work. In *Security → Bots* (AI Crawl
-      Control): allow AI crawlers (at least OAI-SearchBot, ChatGPT-User, Claude-SearchBot,
-      Claude-User, PerplexityBot, Google-Extended, Applebot); turn **off** "Block AI bots" and the
-      managed robots.txt; leave **Bot Fight Mode off**, because it can challenge verified crawlers.
-      Then check `https://<domain>/robots.txt` is exactly the file the site builds.
+- [ ] **Cloudflare bot settings: protect without shutting out search and AI.** On the Free plan:
+      - DDoS protection is always on, with nothing to set.
+      - *Security → Bots*: turn **on Bot Fight Mode** (free). On the Free plan it cannot be tuned or
+        given exceptions ([docs](https://developers.cloudflare.com/bots/get-started/bot-fight-mode/)),
+        so test it the same day: run a live URL Inspection in Google Search Console and in Bing
+        Webmaster Tools on a poem page. If either is challenged, turn Bot Fight Mode off: the site is
+        static, so bots cost nothing, and being crawled is the point.
+      - *AI Crawl Control*: allow AI crawlers, and turn **off** "Block AI bots" and Cloudflare's
+        "managed robots.txt". Either would cancel the AEO work. Then check
+        `https://punjabii.net/robots.txt` is exactly the file the site builds.
+      - *Security → WAF → Rate limiting* (one free rule): limit `POST /api/contribute` to about
+        5 requests per minute per IP. The form is the only thing on the site worth abusing; every
+        page is static.
+      - A week after launch, check *Security → Events* and Search Console's crawl stats for challenged
+        crawlers.
 
 ## 1. Domain, DNS and HTTPS
 
@@ -101,9 +112,9 @@ Canonical URLs, hreflang, the sitemap, robots.txt, llms.txt, OG images and JSON-
 
 ## 5. Social sharing (Open Graph)
 
-- [x] **[done]** A 1200×630 OG image for every poem, poet, work, form, proverb and dictionary entry
-      (`/og/...png`), plus a default. Each page sets `og:title`, `og:description`, `og:image` (with type,
-      size and alt), `og:locale` with its alternate, and the Twitter/X card tags.
+- [x] **[done]** One share image for the whole site: the logo icon (`/icon-512.png`, owner's choice: no
+      per-page images). Each page sets its own `og:title`, `og:description` and `og:url`, `og:locale`
+      with its alternate, and a Twitter/X `summary` card.
 - [ ] Check after launch with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/),
       the [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/) and a WhatsApp message to
       yourself (a poem and a poet page).

@@ -27,9 +27,6 @@ https://:version.:project.pages.dev/*
 /pagefind/*
   Cache-Control: public, max-age=3600
 
-/og/*
-  Cache-Control: public, max-age=604800
-
 /meanings/*
   Cache-Control: public, max-age=86400
   X-Robots-Tag: noindex

@@ -7,8 +7,6 @@
  *   Noto Nastaliq Urdu  – Shahmukhi text (pinned to 400: Nastaliq is not set bold)
  *   Source Serif 4      – English display headings
  *   Inter               – English body text and UI
- *   Noto Naskh Arabic   – OG images only (TTF in src/assets/og-fonts; resvg cannot
- *                         shape Nastaliq reliably, and needs TTF rather than WOFF2)
  */
 import { mkdir, readFile, writeFile, stat } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -18,7 +16,6 @@ import subsetFont from 'subset-font';
 const ROOT = new URL('..', import.meta.url).pathname;
 const SRC = join(ROOT, '.cache/fonts-src');
 const OUT = join(ROOT, 'public/fonts');
-const OG_OUT = join(ROOT, 'src/assets/og-fonts');
 const RAW = 'https://raw.githubusercontent.com/google/fonts/main/ofl';
 
 /** Build a string containing every code point in the given ranges. */
@@ -85,17 +82,4 @@ for (const f of FONTS) {
   const output = await subsetFont(input, ranges(...f.r), { targetFormat: 'woff2', variationAxes: f.axes });
   await writeFile(join(OUT, f.out), output);
   console.log(`${f.out.padEnd(22)} ${(output.length / 1024).toFixed(0).padStart(4)} KB  unicode-range: ${cssRange(f.r)}`);
-}
-
-// Static TTF instances for build-time OG images (src/pages/og/[...path].png.ts).
-const OG = [
-  { src: 'notonaskharabic/NotoNaskhArabic[wght].ttf', out: 'naskh.ttf', r: [...COMMON, [0x600, 0x6ff], [0x750, 0x77f]], axes: { wght: 500 } },
-  { src: SERIF, out: 'serif.ttf', r: [...LATIN_CORE, ...LATIN_EXT], axes: { opsz: 48, wght: 600 } },
-  { src: SANS, out: 'sans.ttf', r: [...LATIN_CORE, ...LATIN_EXT], axes: { opsz: 14, wght: 500 } },
-];
-for (const f of OG) {
-  const input = await readFile(await fetchSource(f.src));
-  const output = await subsetFont(input, ranges(...f.r), { targetFormat: 'sfnt', variationAxes: f.axes });
-  await writeFile(join(OG_OUT, f.out), output);
-  console.log(`og/${f.out.padEnd(19)} ${(output.length / 1024).toFixed(0).padStart(4)} KB`);
 }

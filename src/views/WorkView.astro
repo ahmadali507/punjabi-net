@@ -49,7 +49,6 @@ const jsonLd = {
   alternateName: d.title_en,
   description,
   url: abs(site, localePath(locale, `/works/${work.id}`)),
-  image: abs(site, `/og/works/${work.id}.png`),
   inLanguage: 'pnb',
   genre: form.data.name.en,
   bookFormat: 'https://schema.org/EBook',
@@ -67,8 +66,9 @@ const crumbs = [
   { name: en ? d.title_en : d.title, path: localePath(locale, `/works/${work.id}`) },
 ];
 ---
-<Base title={pageTitle} description={description} type="article" image={`/og/works/${work.id}.png`} jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
-  <article class="work" data-pagefind-body data-pagefind-filter="type:work" data-pagefind-meta={`title:${d.title}${en ? ` · ${d.title_en}` : ''}`}>
+<Base title={pageTitle} description={description} type="article" jsonLd={jsonLd} crumbs={crumbs} preloadNastaliq>
+  <article class="work" data-pagefind-body={en || undefined} data-pagefind-filter="type:poem" data-pagefind-meta={`title:${d.title}${en ? ` · ${d.title_en}` : ''}`}>
+    {en && <meta data-pagefind-meta="pa[content]" content={d.title} />}
     <header class="column work__head">
       <p class="eyebrow">
         <a href={localePath(locale, `/poets/${poet.id}`)}>{en ? poet.data.name.en : poet.data.name.pa}</a>

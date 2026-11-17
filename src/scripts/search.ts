@@ -1,8 +1,15 @@
 /**
  * Search page, using Pagefind's JS API (no Pagefind UI bundle, to keep the JS small).
  * pagefind.js and its index are generated at build time into /pagefind/.
+ *
+ * One index serves both languages: only the English pages are indexed (the /pa pages hold the same
+ * texts), and /pa search turns each result into its /pa page with the Shahmukhi title (meta "pa").
+ * A whole work is indexed as one page; a match inside it links to the part it is in (#p-N).
  */
-interface PagefindResult { data: () => Promise<{ url: string; excerpt: string; meta: { title?: string }; filters: Record<string, string[]> }> }
+interface Anchor { element: string; id: string; location: number }
+interface PagefindResult {
+  data: () => Promise<{ url: string; excerpt: string; content?: string; meta: { title?: string; pa?: string }; filters: Record<string, string[]>; anchors?: Anchor[]; locations?: number[] }>;
+}
 interface PagefindSearch { results: PagefindResult[]; filters: Record<string, Record<string, number>>; unfilteredResultCount: number }
 interface Pagefind {
   options: (o: Record<string, unknown>) => Promise<void>;
@@ -12,6 +19,36 @@ interface Pagefind {
 
 const PAGE = 20;
 const TYPES = ['all', 'poem', 'poet', 'word', 'proverb', 'form'];
+
+/**
+ * In a whole work (one indexed page), the part (<section id="p-N">) most likely to hold the searched
+ * line: most different search words first, then two different words side by side, then most matches.
+ * Pagefind gives match positions as word indexes into the page text, which tells which word is where.
+ */
+function bestPart(d: { content?: string; anchors?: Anchor[]; locations?: number[] }, query: string): Anchor | undefined {
+  const parts = (d.anchors ?? []).filter((x) => /^p-\d+$/.test(x.id)).sort((x, y) => x.location - y.location);
+  if (!parts.length || !d.locations?.length) return undefined;
+  const words = (d.content ?? '').split(/\s+/);
+  const bare = (w: string) => w.replace(/[^\p{L}\p{N}]/gu, '').toLowerCase();
+  const terms = query.split(/\s+/).map(bare).filter(Boolean);
+  // Which search word a matched word belongs to (Pagefind also matches longer forms: جھوٹھ → جھوٹھا).
+  const word = (loc: number) => {
+    const w = bare(words[loc] ?? '');
+    return terms.find((t) => w.startsWith(t) || t.startsWith(w)) ?? w;
+  };
+  const score = new Map<Anchor, { terms: Set<string>; pairs: number; hits: number }>();
+  const locs = [...d.locations].sort((x, y) => x - y);
+  locs.forEach((loc, i) => {
+    const at = parts.filter((x) => x.location <= loc).at(-1);
+    if (!at) return;
+    const s = score.get(at) ?? { terms: new Set<string>(), pairs: 0, hits: 0 };
+    s.terms.add(word(loc));
+    s.hits++;
+    if (i > 0 && loc - locs[i - 1] === 1 && word(loc) !== word(locs[i - 1])) s.pairs++;
+    score.set(at, s);
+  });
+  return [...score].sort(([a, x], [b, y]) => y.terms.size - x.terms.size || y.pairs - x.pairs || y.hits - x.hits || a.location - b.location)[0]?.[0];
+}
 
 export async function initSearch() {
   const root = document.querySelector<HTMLElement>('[data-search]');
@@ -88,8 +125,11 @@ export async function initSearch() {
         }
         const a = document.createElement('a');
         a.className = 'result__title';
-        a.href = d.url.replace(/\.html$/, '').replace(/\/index$/, '') || '/';
-        a.textContent = d.meta.title ?? d.url;
+        const path = d.url.replace(/\.html$/, '').replace(/\/index$/, '') || '/';
+        const pa = root.dataset.locale === 'pa';
+        const part = bestPart(d, q);
+        a.href = `${pa ? (path === '/' ? '/pa' : `/pa${path}`) : path}${part ? `#${part.id}` : ''}`;
+        a.textContent = `${(pa ? d.meta.pa : undefined) ?? d.meta.title ?? d.url}${part ? ` · ${num(+part.id.slice(2))}` : ''}`;
         head.append(a);
         const p = document.createElement('p');
         p.className = 'result__excerpt';

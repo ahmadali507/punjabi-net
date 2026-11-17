@@ -101,7 +101,7 @@ export function graph(opts: {
     inLanguage: opts.lang,
     isPartOf: { '@id': ids.website(site) },
     publisher: { '@id': ids.org(site) },
-    primaryImageOfPage: { '@type': 'ImageObject', url: opts.image, width: 1200, height: 630 },
+    primaryImageOfPage: { '@type': 'ImageObject', url: opts.image, width: 512, height: 512 },
     breadcrumb: crumbs,
     mainEntity: main?.['@id'] ? { '@id': main['@id'] } : undefined,
   };
