@@ -11,3 +11,7 @@ social/instagram/out/
 
 # lexicon generator downloads (scripts/lexicon/fetch*.mjs)
 scripts/lexicon/.cache/
+
+# Python caches (social/instagram scripts)
+__pycache__/
+*.pyc
