@@ -1,6 +1,6 @@
 # Posting the Reels from the phone
 
-Instagram put @punjabidotnet behind a "Confirm you're human" check on 2026-11-11 after automated profile changes
+Instagram put @punjabiidotnet behind a "Confirm you're human" check on 2026-11-11 after automated profile changes
 from the server, so automated posting (post.mjs / post_reel.py) is paused. Post from the Instagram app instead.
 
 For each Reel:

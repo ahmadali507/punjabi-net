@@ -1,5 +1,5 @@
 """
-Carousels for @punjabidotnet (carousels.json, slides rendered by carousel.mjs), with calm background music
+Carousels for @punjabiidotnet (carousels.json, slides rendered by carousel.mjs), with calm background music
 from Instagram's licensed music library attached the way the app does it (music in feed).
 
     python social/instagram/post_carousel.py c001-maan-boli --music "santoor instrumental" ["flute"…]
@@ -32,7 +32,7 @@ def main():
     cl = client()
     me = cl.account_info()
     print(f'Logged in as @{me.username}')
-    if me.username != 'punjabidotnet':
+    if me.username != 'punjabiidotnet':
         raise SystemExit('Wrong account: refusing to continue.')
 
     if '--music' in sys.argv:

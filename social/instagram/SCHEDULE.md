@@ -1,4 +1,4 @@
-# Scheduled posting for @punjabidotnet
+# Scheduled posting for @punjabiidotnet
 
 Two lyric reels a day (owner, 2026-11-16), posted with the Python script and the saved Instagram session (`~/.config/punjabi-net/ig-settings.json`, made from the owner's `sessionid`). Carousels are paused. Build every reel the way 005-shah-hussain was built (the reference).
 
@@ -23,7 +23,7 @@ If the script reports `login_required`, a challenge/checkpoint, or any block: st
 ## Steps for one run
 1. Env: `PLAYWRIGHT_CORE=/home/azureuser/.local/tools/node_modules/playwright-core/index.mjs`, PATH with `~/.local/node/bin` and `~/.local/tools/bin`. Python: `~/.local/tts-venv/bin/python`.
 2. Pick the first `approved` lyric reel. If `out/<id>.mp4` or `out/<id>-reel.txt` is missing, render: `node social/instagram/reel.mjs <id>`.
-3. Dry run `post_reel.py`; check it says `@punjabidotnet`, the right id, `original audio`.
+3. Dry run `post_reel.py`; check it says `@punjabiidotnet`, the right id, `original audio`.
 4. `post_reel.py --publish`. It prints the reel link and marks the item posted.
 5. Append a line to `out/schedule.log`. Commit as Ahmad Ali <ahmad.ali.000507@gmail.com> (no co-author line): `Instagram: posted <id>`.
 

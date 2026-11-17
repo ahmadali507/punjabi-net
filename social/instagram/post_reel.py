@@ -1,5 +1,5 @@
 """
-Publish APPROVED Reels to @punjabidotnet with the session saved in ~/.config/punjabi-net/ig-settings.json.
+Publish APPROVED Reels to @punjabiidotnet with the session saved in ~/.config/punjabi-net/ig-settings.json.
 The licensed song is attached as Instagram music (the track, its start time and length), the same way the
 app does it, so Instagram credits the artist and handles the licence.
 
@@ -28,7 +28,7 @@ def main():
     cl = client()
     me = cl.account_info()
     print(f'Logged in as @{me.username}')
-    if me.username != 'punjabidotnet':
+    if me.username != 'punjabiidotnet':
         raise SystemExit('Wrong account: refusing to post.')
     want = sys.argv[sys.argv.index('--id') + 1] if '--id' in sys.argv else None  # owner-requested post, by id
     ready = [p for p in data['posts'] if p['id'] == want and p.get('status') != 'posted'] if want else \
