@@ -626,6 +626,48 @@
       ],
       "pad": 1.0,
       "caption": "ہیر آکھدی جوگیا جھوٹھ آکھیں | وارث شاہ (Waris Shah), sung by Asa Singh Mastana\n\nVocals: Asa Singh Mastana. Poetry: Waris Shah. All credit to the artist.\n\n#punjabi #punjabipoetry #پنجابی #پنجابی_شاعری #poetry"
+    },
+    {
+      "id": "016-bahu-chashman",
+      "poem": "aihh-tn-mira-chshman-hooe",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "2084369961875294",
+        "query": "Ae Tan Mera Chashma Hove"
+      },
+      "singer": "Ratan Singh",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "note": "Whole bait sung once with clean silent gaps (L1 1.0-20.8, L2 53.9-72.5, L3 74.5-94.0, L4 94.9-112.8; repeats at 21-50, 114-132). Blocker: voice-only clip, no instrumental for the closing card; ~80 s. Needs an owner call or a closing-music source."
+    },
+    {
+      "id": "017-hussain-man-atkiya",
+      "poem": "mn-atkia-be-proah-de-nal",
+      "status": "shelved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1742987636492011",
+        "query": "Man Atkiya Be Parwah De Naal"
+      },
+      "singer": "Nusrat Fateh Ali Khan",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "note": "Nusrat interpolates lines not in our text and does not clearly sing verses 3-4; can't show 'every couplet sung, each once'."
+    },
+    {
+      "id": "018-bulleh-ranjha-abida",
+      "poem": "ranjha-ranjha-krdi-ni-min-ape-ranjha",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "371758985744056",
+        "query": "Ranjha Ranjha Kardi Abida Parveen"
+      },
+      "singer": "Abida Parveen",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "note": "Abida sings v0 (~5-60 s), v1 lines 0-1 (~290-314), line 2 (594-650), line 5 (650-667) among long interpolations (Farid/Bahu/Urdu verses). Dense, no breath gaps; v0 alone is ~55 s, so the reel runs >100 s. Needs hand-listening to cut; not approved."
     }
   ]
 }
