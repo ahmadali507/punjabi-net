@@ -672,6 +672,46 @@
       "singer": "Abida Parveen",
       "audio": "singer recording as original audio, each line once (cuts)",
       "note": "Abida sings v0 (~5-60 s), v1 lines 0-1 (~290-314), line 2 (594-650), line 5 (650-667) among long interpolations (Farid/Bahu/Urdu verses). Dense, no breath gaps; v0 alone is ~55 s, so the reel runs >100 s. Needs hand-listening to cut; not approved."
+    },
+    {
+      "id": "019-mian-bagh-baharan",
+      "poem": "bagh-bharan-te-glzaran-bn-yaran-ks",
+      "status": "approved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1290084052325062",
+        "query": "Bagh Baharan Te Gulzaran"
+      },
+      "singer": "Alam Lohar",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "bagh-bharan-te-glzaran-bn-yaran-ks",
+          "verses": [
+            0,
+            1
+          ],
+          "gists": [
+            "What use are gardens in spring and beds of flowers without friends? When the friend comes, a thousand sorrows go; I give thanks a hundred thousand times.",
+            "I set my heart on one far above me, and heavy trouble fell on me. Without friends, Muhammad Bakhsh, who will share my grief?"
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 7.4,
+          "to": 57.7,
+          "lines": [
+            8.5,
+            17.1,
+            33.3,
+            42.2
+          ],
+          "end": 52.6
+        }
+      ],
+      "pad": 1.0
     }
   ]
 }
