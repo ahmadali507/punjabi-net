@@ -718,6 +718,20 @@
       "code": "Df7I2eLsyeR"
     },
     {
+      "id": "020-bulleh-ratin-jagin",
+      "poem": "ratin-jagin-krin-abadt",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "523130920157415",
+        "query": "Alam Lohar Kalam"
+      },
+      "singer": "Alam Lohar",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "note": "Alam Lohar 'Kalam Bullay Shah' sings all 4 verses once at 0-48 s (v0 0.0, v1 12.6, v2 23.3, v3 34.6; whisper251 cached), then runs straight on (no breath) into an 'ishq da rog' kalam not in our files; possible end-card instrumental ~79.5-89.5. Blocker: sung text differs from our file in v0 l1 ('shaikh sadaawen' for 'کریں عبادت') and v2 l2 ('sau sau maaran' for 'وجن'); needs an owner call on variants."
+    },
+    {
       "id": "a001-launch",
       "status": "posted",
       "kind": "reel",
