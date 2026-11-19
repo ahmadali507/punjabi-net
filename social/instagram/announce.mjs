@@ -62,8 +62,11 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 .en{font:italic 400 44px/1.45 S;color:#4d4a44}
 .w{stroke-dasharray:1 1;stroke-dashoffset:1}
 /* 1 welcome */
-#s1 .pa{font-size:150px;margin-top:40px}
-#s1 .en{margin-top:34px}
+#s1 .logo{margin-top:64px}
+#s1 .name{font:700 124px S;margin-top:40px;letter-spacing:-.01em}
+#s1 .hook{font:italic 400 44px S;color:#77736b;margin-top:16px}
+#s1 .pa{font-size:120px;margin-top:50px}
+.brand{position:absolute;top:120px;left:0;right:0;display:flex;align-items:center;justify-content:center;gap:18px;font:700 40px S;color:#23211d;opacity:0}
 /* 2 poets */
 #s2 .grid{display:grid;grid-template-columns:1fr 1fr;gap:70px 30px;margin-top:80px;width:100%}
 #s2 .p{opacity:0}
@@ -80,8 +83,8 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 #s4 .f .pa{font-size:96px;line-height:1.75}
 #s4 .f .en{font-size:42px;margin-top:26px}
 /* 5 live */
-#s5 .live{display:inline-flex;align-items:center;gap:18px;font:700 32px S;letter-spacing:.34em;color:#855c00;text-transform:uppercase}
-#s5 .dot{width:18px;height:18px;border-radius:50%;background:#c0392b;box-shadow:0 0 0 0 rgba(192,57,43,.5)}
+.live{display:inline-flex;align-items:center;gap:18px;font:700 32px S;letter-spacing:.34em;color:#855c00;text-transform:uppercase}
+.dot{width:18px;height:18px;border-radius:50%;background:#c0392b;box-shadow:0 0 0 0 rgba(192,57,43,.5)}
 #s5 .logo{margin-top:70px}
 #s5 .name{font:700 112px S;margin-top:40px;letter-spacing:-.01em}
 #s5 .hook{font:italic 400 42px S;color:#77736b;margin-top:16px}
@@ -91,13 +94,16 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 <div class="paper"></div><div class="glow" id="glow"></div>
 <svg class="grain" width="1080" height="1920"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .3  0 0 0 .5 0"/></filter><rect width="100%" height="100%" filter="url(#g)"/></svg>
 <div class="border"></div><div class="border2"></div>
+<div class="brand" id="brand">${LOGO(64)}<span>punjabii.net</span></div>
 <div>${motes}</div>
 <svg class="loop" viewBox="0 0 1080 420"><path id="loop" pathLength="1" d="M-20 300 C 160 260, 260 380, 420 320 S 640 120, 720 210 S 640 380, 560 300 S 700 140, 860 230 S 1000 330, 1110 260"/></svg>
 
 <section class="sc" id="s1">
-  <div id="l1">${LOGO(170)}</div>
+  <div class="live"><span class="dot"></span>Now live</div>
+  <div class="logo">${LOGO(170)}</div>
+  <div class="name">punjabii.net</div>
+  <div class="hook">Punjabi poetry, in its own script</div>
   <div class="pa">جی آیاں نوں</div>
-  <div class="en">Welcome</div>
 </section>
 
 <section class="sc" id="s2">
@@ -122,7 +128,7 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 </section>
 
 <section class="sc" id="s5">
-  <div class="live"><span class="dot" id="dot"></span>Now live</div>
+  <div class="live"><span class="dot"></span>Now live</div>
   <div class="logo">${LOGO(150)}</div>
   <div class="name">punjabii.net</div>
   <div class="hook">Punjabi poetry, in its own script</div>
@@ -160,8 +166,12 @@ await page.evaluate((DUR) => {
     $('#glow').style.opacity = 0.9 * out((t - 22.2) / 1.2);
     $('#glow').style.transform = `scale(${0.85 + 0.15 * out((t - 22.2) / 2)})`;
 
-    scene($('#s1'), t, 0.2, 6.4); draw($('#s1'), t, 0.4);
-    rise($('#s1 .pa'), t, 1.5, 0.9); rise($('#s1 .en'), t, 2.5, 0.8);
+    // the site first: most viewers never reach the end
+    scene($('#s1'), t, 0, 6.4); draw($('#s1'), t, 0.1, 1.2);
+    $$('#s1 > *').forEach((e, k) => rise(e, t, [0, 0.1, 0.3, 1.2, 2.4][k], 0.6));
+    // the domain stays at the top through the middle scenes
+    $('#brand').style.opacity = out((t - 6.2) / 0.6) * (1 - ease((t - 21.9) / 0.5));
+    draw($('#brand'), t, 6.0, 0.8);
 
     scene($('#s2'), t, 6.3, 12.8);
     $$('#s2 .p').forEach((p, k) => rise(p, t, 6.9 + k * 0.55, 0.7));
@@ -180,8 +190,8 @@ await page.evaluate((DUR) => {
     scene($('#s5'), t, 22.4, null); draw($('#s5'), t, 22.7, 1.4);
     const s5 = $$('#s5 > *');
     s5.forEach((e, k) => rise(e, t, 22.5 + k * 0.35, 0.7));
-    const pulse = ((t - 22.4) % 1.4) / 1.4;
-    $('#dot').style.boxShadow = `0 0 0 ${pulse * 16}px rgba(192,57,43,${0.45 * (1 - pulse)})`;
+    const pulse = (t % 1.4) / 1.4;
+    $$('.dot').forEach((d) => { d.style.boxShadow = `0 0 0 ${pulse * 16}px rgba(192,57,43,${0.45 * (1 - pulse)})`; });
   };
 }, DUR);
 
