@@ -676,7 +676,7 @@
     {
       "id": "019-mian-bagh-baharan",
       "poem": "bagh-bharan-te-glzaran-bn-yaran-ks",
-      "status": "approved",
+      "status": "posted",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -711,7 +711,11 @@
           "end": 52.6
         }
       ],
-      "pad": 1.0
+      "pad": 1.0,
+      "posted_at": "2026-11-19T13:00:54+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4033856818872788881_16922094236",
+      "code": "Df7I2eLsyeR"
     },
     {
       "id": "a001-launch",
