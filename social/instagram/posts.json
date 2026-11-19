@@ -732,6 +732,111 @@
       "note": "Alam Lohar 'Kalam Bullay Shah' sings all 4 verses once at 0-48 s (v0 0.0, v1 12.6, v2 23.3, v3 34.6; whisper251 cached), then runs straight on (no breath) into an 'ishq da rog' kalam not in our files; possible end-card instrumental ~79.5-89.5. Blocker: sung text differs from our file in v0 l1 ('shaikh sadaawen' for 'کریں عبادت') and v2 l2 ('sau sau maaran' for 'وجن'); needs an owner call on variants."
     },
     {
+      "id": "021-hussain-sajan-bin",
+      "poem": "sjn-bn-ratin-hoiian-odian",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "2116770778373664",
+        "query": "Sajan Bin Raatan Hoiyan Wadiyan Ratan Singh"
+      },
+      "singer": "Ratan Singh",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "sjn-bn-ratin-hoiian-odian",
+          "verses": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "gists": [
+            "Without my beloved, the nights have grown long.",
+            "My flesh has wasted away to a bare frame, and my bones rattle.",
+            "Love will not stay hidden, however I hide it; separation has pitched its tents in me.",
+            "Ranjha is a jogi and I am his jogan; again and again they call me mad.",
+            "Says Hussain, the Lord's faqir: I have taken hold of the hem of Your robe."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 0.8,
+          "to": 10.0,
+          "lines": [
+            1.2
+          ]
+        },
+        {
+          "from": 20.6,
+          "to": 29.7,
+          "lines": [
+            21.1
+          ]
+        },
+        {
+          "from": 48.0,
+          "to": 55.9,
+          "lines": [
+            48.3
+          ]
+        },
+        {
+          "from": 78.2,
+          "to": 85.4,
+          "lines": [
+            78.6
+          ]
+        },
+        {
+          "from": 105.3,
+          "to": 113.3,
+          "lines": [
+            105.8
+          ]
+        },
+        {
+          "from": 134.8,
+          "to": 142.2,
+          "lines": [
+            135.2
+          ]
+        },
+        {
+          "from": 151.2,
+          "to": 158.2,
+          "lines": [
+            151.6
+          ]
+        },
+        {
+          "from": 238.6,
+          "to": 246.6,
+          "lines": [
+            239.2
+          ]
+        },
+        {
+          "from": 253.3,
+          "to": 259.3,
+          "lines": [
+            253.7
+          ],
+          "end": 259.2
+        },
+        {
+          "from": 76.2,
+          "to": 78.5,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "note": "Ratan Singh sings all 5 verses unaccompanied: no instruments and no wordless passage anywhere in the track, so the closing card runs over a quiet breath gap instead of instrumental music. Blocker (same as 016): needs the owner's OK for a voice-only closing card. Last word 'lagiyan' runs straight into the refrain, cut at 259.3 with a short fade."
+    },
+    {
       "id": "a001-launch",
       "status": "posted",
       "kind": "reel",
