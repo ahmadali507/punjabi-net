@@ -1003,6 +1003,37 @@
       ],
       "pad": 1.0,
       "note": "Hamid Ali Bela sings all 5 verses; rendered with each line once (78 s, Whisper on splice in order). Blocker (same kind as 020): Whisper hears 'mere andar' in v3 (ours: تیرے اندر) and 'faqir nimana' in v4 (ours: فقیر ربانا), heard twice each; needs an owner listen/call on the variants. Also check the v3 join at 254.6 (Whisper hears a stray 'dar vasda' before 'dardan da daru')."
+    },
+    {
+      "id": "025-bulleh-ghunghat-wadali",
+      "poem": "ghnght-chk-ao-sjna-hn-shrman-kahnon-rkhian",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "686606098836026",
+        "query": "Ghunghat Chakk O Sajna",
+        "listen": 389
+      },
+      "singer": "Lakhwinder Wadali",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "ghnght-chk-ao-sjna-hn-shrman-kahnon-rkhian",
+          "verses": [
+            0,
+            3
+          ],
+          "gists": []
+        }
+      ],
+      "cuts": [],
+      "pad": 1.0,
+      "verses": [
+        0,
+        3
+      ],
+      "note": "Lakhwinder Wadali sings verse 1 (Zulf kundal ne ghera paya) and verse 4 (Neh laga ke man har leta) of this kafi, each with the refrain; verses 2-3 not sung. Opening doha 'Ishq di vajdi tak tak...' (91-132 s) is not in this poem: cut it. Intro 0-90 s is instrumental (good for the closing card). Whisper (track 686606098836026.whisper389.json, clips re-run with beam 5): v1 at 187-249 s, v4 at 292-356 s. Blocker: in v4 Whisper hears 'zehar piyala aape peeta' twice (ours: زہر پیالہ میں ایہہ پیتا); needs an owner listen/call before cuts are set. Also: no clean vocal breaths in the level envelope (constant accompaniment), so cuts must come from Whisper word times."
     }
   ]
 }
