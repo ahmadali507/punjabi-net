@@ -847,6 +847,78 @@
       "account": "punjabiidotnet",
       "media_id": "4033758011967154185_16922094236",
       "code": "Df6yYpFMCgJ"
+    },
+    {
+      "id": "022-hussain-naina-bela",
+      "poem": "ni-sio-asi-ninan-de-akhe-lge",
+      "status": "posted",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "868370050342062",
+        "query": "Hamid Ali Bela"
+      },
+      "singer": "Hamid Ali Bela",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "ni-sio-asi-ninan-de-akhe-lge",
+          "verses": [
+            0,
+            1
+          ],
+          "gists": [
+            "Friends, we went where our eyes told us to go.",
+            "Eyes made pure are never cheated. Black silk never turns white, and a crow never becomes a white crane. Shah Hussain: whoever dies before the beloved dies a martyr."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 26.0,
+          "to": 36.5,
+          "lines": [
+            26.6
+          ]
+        },
+        {
+          "from": 85.2,
+          "to": 98.0,
+          "lines": [
+            85.5
+          ]
+        },
+        {
+          "from": 142.8,
+          "to": 154.8,
+          "lines": [
+            143.0
+          ]
+        },
+        {
+          "from": 182.2,
+          "to": 192.5,
+          "lines": [
+            182.4
+          ]
+        },
+        {
+          "from": 197.5,
+          "to": 202.5,
+          "lines": [],
+          "end": 202.4
+        },
+        {
+          "from": 2.0,
+          "to": 9.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "posted_at": "2026-11-20T13:11:52+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4034586897647100045_16922094236",
+      "code": "Df9u2hBs2CN"
     }
   ]
 }
