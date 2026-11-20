@@ -919,6 +919,90 @@
       "account": "punjabiidotnet",
       "media_id": "4034586897647100045_16922094236",
       "code": "Df9u2hBs2CN"
+    },
+    {
+      "id": "023-hussain-ronda-bela",
+      "poem": "ronda-mol-n-sonda-hi",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1226459395079074",
+        "query": "Hamid Ali Bela",
+        "listen": 345
+      },
+      "singer": "Hamid Ali Bela",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "ronda-mol-n-sonda-hi",
+          "verses": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "gists": [
+            "It never sleeps, it only weeps: the body that carries the ache of pain is the one that weeps.",
+            "On the maiden's bed, no one has ever slept in comfort.",
+            "All four corners of my shawl are sunk in mud; who will wash them clean?",
+            "The cure for pain lives inside you; only a saintly healer can bring you to it.",
+            "Says Hussain, God's faqir: whatever is written is what comes to pass."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 68.8,
+          "to": 89.3,
+          "lines": [
+            69.0,
+            75.5,
+            81.2
+          ]
+        },
+        {
+          "from": 124.8,
+          "to": 137.3,
+          "lines": [
+            125.0,
+            131.4
+          ]
+        },
+        {
+          "from": 192.1,
+          "to": 205.0,
+          "lines": [
+            192.3,
+            198.6
+          ]
+        },
+        {
+          "from": 254.6,
+          "to": 268.8,
+          "lines": [
+            254.8,
+            262.6
+          ]
+        },
+        {
+          "from": 276.1,
+          "to": 287.6,
+          "lines": [
+            276.3,
+            282.4
+          ],
+          "end": 287.3
+        },
+        {
+          "from": 2.0,
+          "to": 9.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "note": "Hamid Ali Bela sings all 5 verses; rendered with each line once (78 s, Whisper on splice in order). Blocker (same kind as 020): Whisper hears 'mere andar' in v3 (ours: تیرے اندر) and 'faqir nimana' in v4 (ours: فقیر ربانا), heard twice each; needs an owner listen/call on the variants. Also check the v3 join at 254.6 (Whisper hears a stray 'dar vasda' before 'dardan da daru')."
     }
   ]
 }
