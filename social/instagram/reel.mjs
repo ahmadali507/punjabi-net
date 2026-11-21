@@ -45,6 +45,13 @@ parts.forEach((pt, pi) => {
   if (!pt.gists || pt.gists.length !== pt.verses.length) throw new Error(`${id}: ${pt.poem}: one English "gists" entry per verse`);
   pt.verses.forEach((vi, k) => {
     let ls = poems[pi].verses[vi].text.split('\n');
+    // pt.sung: [{verse, line, from, to}] where the singer sings a known variant (owner's rule: screen text must
+    // match the audio). `from` must be in the poem file's line, so the rest of the line still comes from the file.
+    for (const s of pt.sung ?? []) {
+      if (s.verse !== vi) continue;
+      if (!ls[s.line]?.includes(s.from)) throw new Error(`${id}: sung variant "${s.from}" not in verse ${vi} line ${s.line}`);
+      ls[s.line] = ls[s.line].replace(s.from, s.to);
+    }
     if (pt.lines) ls = ls.slice(pt.lines[0], pt.lines[1] + 1);
     gists.push(pt.gists[k]);
     ls.forEach((text, j) => lines.push({ text, verse: gists.length - 1, first: j % 2 === 0 })); // couplets: lines 1–2, 3–4, …
