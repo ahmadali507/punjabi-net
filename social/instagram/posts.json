@@ -720,7 +720,7 @@
     {
       "id": "020-bulleh-ratin-jagin",
       "poem": "ratin-jagin-krin-abadt",
-      "status": "draft",
+      "status": "approved",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -729,7 +729,77 @@
       },
       "singer": "Alam Lohar",
       "audio": "singer recording as original audio, each line once (cuts)",
-      "note": "Alam Lohar 'Kalam Bullay Shah' sings all 4 verses once at 0-48 s (v0 0.0, v1 12.6, v2 23.3, v3 34.6; whisper251 cached), then runs straight on (no breath) into an 'ishq da rog' kalam not in our files; possible end-card instrumental ~79.5-89.5. Blocker: sung text differs from our file in v0 l1 ('shaikh sadaawen' for 'کریں عبادت') and v2 l2 ('sau sau maaran' for 'وجن'); needs an owner call on variants."
+      "note": "Alam Lohar 'Kalam Bullay Shah' sings all 4 verses once at 0-48 s (v0 0.0, v1 12.6, v2 23.3, v3 34.6; whisper251 cached), then runs straight on (no breath) into an 'ishq da rog' kalam not in our files; possible end-card instrumental ~79.5-89.5. Blocker: sung text differs from our file in v0 l1 ('shaikh sadaawen' for 'کریں عبادت') and v2 l2 ('sau sau maaran' for 'وجن'); needs an owner call on variants. 2026-11-21: built with sung variants (owner's rule from 025: screen text matches the audio); variants heard the same in 3 Whisper passes (small ur, small pa, medium ur): v1 l1 'te shaikh sadaawen', v3 l1 'buha', v3 l2 'sau sau maaran', v4 l1 'kujh'. All 4 verses with the 'tethon utte' refrain line, each once (0-49 s); closing card over the instrumental at 80-87 s. Rendered 56.9 s; Whisper on the spliced music.wav hears each line once in order, nothing of the next kalam; 13-frame contact sheet checked. Approved 2026-11-21.",
+      "parts": [
+        {
+          "poem": "ratin-jagin-krin-abadt",
+          "verses": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "gists": [
+            "You keep vigil all night and call yourself a shaikh; dogs keep vigil all night too. They are above you.",
+            "They never stop barking, then go and sleep on the rubbish heap. They are above you.",
+            "They never leave their master's door, though they are beaten a hundred times with shoes. They are above you.",
+            "Bulleh Shah, gather something for the journey, or the dogs will win the game. They are above you."
+          ],
+          "sung": [
+            {
+              "verse": 0,
+              "line": 0,
+              "from": "کریں عبادت",
+              "to": "تے شیخ سداویں"
+            },
+            {
+              "verse": 2,
+              "line": 0,
+              "from": "در نہ",
+              "to": "بوہا نہ"
+            },
+            {
+              "verse": 2,
+              "line": 1,
+              "from": "وجن",
+              "to": "سو سو مارن"
+            },
+            {
+              "verse": 3,
+              "line": 0,
+              "from": "کوئی رخت",
+              "to": "کجھ رخت"
+            }
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 0.0,
+          "to": 49.2,
+          "lines": [
+            0.05,
+            5.8,
+            10.0,
+            12.6,
+            16.8,
+            20.9,
+            23.3,
+            28.7,
+            32.6,
+            34.6,
+            42.3,
+            46.4
+          ],
+          "end": 49.0
+        },
+        {
+          "from": 80.0,
+          "to": 87.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0
     },
     {
       "id": "021-hussain-sajan-bin",
@@ -1227,6 +1297,119 @@
       "account": "punjabiidotnet",
       "media_id": "4035297481237559312_16922094236",
       "code": "DgAQa3kMXgQ"
+    },
+    {
+      "id": "027-bulleh-ranjha-hor",
+      "poem": "mira-ranjha-hn-koii-hor",
+      "status": "approved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1585182649147922",
+        "query": "Mera Ranjha Hun Koi Hor"
+      },
+      "singer": "Sumit Tandon",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "mira-ranjha-hn-koii-hor",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "My Ranjha is someone else now."
+          ]
+        },
+        {
+          "poem": "mira-ranjha-hn-koii-hor",
+          "verses": [
+            1
+          ],
+          "lines": [
+            0,
+            1
+          ],
+          "gists": [
+            "The call rang out from the radiant throne, and it was heard in Lahore."
+          ]
+        },
+        {
+          "poem": "mira-ranjha-hn-koii-hor",
+          "verses": [
+            1
+          ],
+          "lines": [
+            2,
+            3
+          ],
+          "gists": [
+            "Those struck by love wander about, like cattle loose in the forest."
+          ]
+        },
+        {
+          "poem": "mira-ranjha-hn-koii-hor",
+          "verses": [
+            1
+          ],
+          "lines": [
+            4,
+            5
+          ],
+          "gists": [
+            "Ranjha, the lord of Takht Hazara, has slipped away from there like a thief."
+          ]
+        },
+        {
+          "poem": "mira-ranjha-hn-koii-hor",
+          "verses": [
+            1
+          ],
+          "lines": [
+            6,
+            7
+          ],
+          "gists": [
+            "Bulleh Shah, we are not the ones who die; it is someone else who lies in the grave."
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 0.0,
+          "to": 4.25,
+          "lines": [
+            0.6
+          ]
+        },
+        {
+          "from": 20.2,
+          "to": 42.85,
+          "lines": [
+            20.4,
+            26.0,
+            32.8,
+            37.5
+          ]
+        },
+        {
+          "from": 55.05,
+          "to": 75.25,
+          "lines": [
+            55.2,
+            60.4,
+            65.0,
+            71.2
+          ],
+          "end": 75.2
+        },
+        {
+          "from": 88.5,
+          "to": 96.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "note": "Sumit Tandon sings the refrain with an added half-line ('dil da saayin badal gaya chor', not in our file; cut after 'koi hor' at 4.25 s), then all 8 lines of the verse once (20-42.7, 55.2-75.3) with the refrain between; later lines (101-123 s, 'ishq di raah vich...') are not this poem and are cut. Closing card over the instrumental at 88.5-96 s. Rendered 54.7 s; Whisper on the spliced music.wav hears refrain + 8 lines once, in order, no added half-line; contact sheet checked. Approved 2026-11-21."
     },
     {
       "id": "s001-sample-ghunghat",
