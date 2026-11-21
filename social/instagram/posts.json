@@ -1106,20 +1106,123 @@
     },
     {
       "id": "026-uth-shah-hussaina",
-      "poem": "ke-baghe-di-moli-hsina",
-      "verses": [
-        0
-      ],
-      "status": "held",
       "kind": "reel",
       "style": "lyric",
+      "status": "draft",
+      "title": "اٹھ شاہ حسینا",
       "track": {
         "id": "1364110568879248",
         "query": "Uth Shah Hussaina Ramzan Jani",
         "listen": 220
       },
       "singer": "Ramzan Jani",
-      "note": "Owner asked for this kalam (reel C25sn1Xosze): Ramzan Jani 'Uth Shah Hussaina' (track 1364110568879248, 219 s, no IG lyrics). Whisper (out/tracks/1364110568879248.whisper220.json): ~40 dohre addressed to Shah Hussain, naming Qasoor, Heer, Kaido, Takht Hazara, Chenab, Sohni/Mahiwal; not by Shah Hussain, not in src/content/poems, poet unidentified (likely modern). Held until the owner names the poet / OKs the text source."
+      "credit": {
+        "pa": "اٹھ شاہ حسینا",
+        "en": "Sung by Ramzan Jani"
+      },
+      "note": "Owner asked for this kalam (2026-11-21, reference reel C25sn1Xosze, same 0–58 s of the track). Poet unidentified and not in our poem files: text read off the reference reel's screen and corrected against the audio (Whisper). Owner-approved exception to the files-only rule.",
+      "parts": [
+        {
+          "text": [
+            "اٹھ شاہ حسینا ویکھ لے\nآسی بدلی بیٹھے بھیس",
+            "ساڈی جند نمانڑی کوکدی\nآسی رُل گئے وچ پردیس",
+            "ساڈا ہر دم جی کرلاوندا\nساڈی نیر وگاوے اکھ",
+            "آساں جیوندی جان مر گئے\nساڈا مُد ہویا وکھ",
+            "سانوں سپ سویر دا ڈنگدا\nسانوں پل پل چڑھدا زہر",
+            "ساڈے اندر بیلے خوف دے\nجنگل بن گیا شہر",
+            "آساں سو غماں وچ ڈُبدے\nساڈی رُڑھ گئی نؤ پتوار",
+            "ساڈے بولنے تے پابندیاں\nساڈے سر لٹکے تلوار",
+            "آساں نیناں دے کھوہ گیڑ کے\nکیتی وتر دل دی بھوں",
+            "اے بنجر رہی نمانڑیں\nسانوں سجنڑاں تیری سوں"
+          ],
+          "source": "on-screen text of instagram.com/reel/C25sn1Xosze, checked against Ramzan Jani's audio",
+          "verses": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "gists": [
+            "Rise, Shah Hussain, and see: we have changed our very guise.",
+            "Our poor soul cries out; we are lost, wandering in a strange land.",
+            "Every breath the heart wails, and the eyes keep shedding tears.",
+            "We died while still alive; we have been cut off from our own.",
+            "The snake of dawn bites us; its poison rises every moment.",
+            "Thickets of fear grow inside us; the city has become a jungle.",
+            "We drown in a hundred sorrows; our boat and oar have drifted away.",
+            "Our speech is in chains; a sword hangs over our heads.",
+            "We turned the wells of our eyes to water the soil of the heart.",
+            "Yet, poor thing, it stayed barren. Beloved, I swear by you."
+          ]
+        }
+      ],
+      "verses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "cuts": [
+        {
+          "from": 0.0,
+          "to": 58.65,
+          "lines": [
+            2.8,
+            5.8,
+            8.2,
+            10.95,
+            13.5,
+            16.4,
+            18.6,
+            21.8,
+            23.9,
+            27.0,
+            29.2,
+            32.7,
+            37.2,
+            40.3,
+            42.7,
+            45.6,
+            48.1,
+            51.1,
+            53.3,
+            56.4
+          ],
+          "end": 58.65
+        },
+        {
+          "from": 0.4,
+          "to": 2.75,
+          "lines": []
+        }
+      ],
+      "pad": 1.5,
+      "layout": "full",
+      "scenes": [
+        "night",
+        "desert",
+        "cranes",
+        "lamp",
+        "snake",
+        "jungle",
+        "river",
+        "sword",
+        "well",
+        "dervish"
+      ],
+      "caption": "Uth Shah Hussaina 🤍\nSung in the melodious voice of legendary artist: Ramzan Jani\n\n#punjabipoetry #sufi #shahhussain"
     },
     {
       "id": "s001-sample-ghunghat",

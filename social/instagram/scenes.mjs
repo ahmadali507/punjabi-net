@@ -73,6 +73,56 @@ ${bird(430, 150)}${bird(470, 175, 0.8)}${bird(400, 190, 0.7)}`,
 <path d="M0 380 Q120 320 240 370 T480 350 T640 370 V520 H0 Z" fill="#9e8a7a" opacity=".6"/><path d="M0 430 Q160 380 330 430 T640 420 V520 H0 Z" fill="#6e5a48"/>
 <g class="drift" style="--x:150px">${[[150, 150, 1.4], [120, 172, 1.2], [180, 172, 1.2], [92, 194, 1], [210, 194, 1], [64, 216, 0.9], [238, 216, 0.9]].map(([x, y, k]) => `<g class="bob" style="--k:${(x / 100).toFixed(1)}s">${bird(x, y, k)}</g>`).join('')}</g>
 <path d="M0 520 V480 Q320 450 640 480 V520 Z" fill="${INK}"/>`,
+  // lamp: one diya burning in a dark wall niche (the self that lives on, a vigil, life barely held)
+  lamp: (u) => `<defs>${sky(`k${u}`, [[0, '#2a221c'], [1, '#120f0c']])}${glow(`g${u}`, '#f2b84b')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>
+<path d="M200 470 V250 C200 180 270 150 320 120 C370 150 440 180 440 250 V470 Z" fill="#0b0908" stroke="${DEEP}" stroke-width="3" opacity=".95"/>
+<circle class="tw" style="--d:1.4s" cx="320" cy="370" r="150" fill="url(#g${u})" opacity=".8"/>
+<path d="M276 420 Q320 452 364 420 Q352 406 320 404 Q288 406 276 420 Z" fill="${DEEP}"/><path d="M356 412 L378 404" stroke="${DEEP}" stroke-width="5" stroke-linecap="round"/>
+<g class="sway" style="--d:1.1s;transform-origin:320px 404px"><path d="M320 404 C302 386 310 360 320 340 C330 360 338 386 320 404 Z" fill="#ffd27a"/><path d="M320 400 C312 390 314 376 320 364 C326 376 328 390 320 400 Z" fill="#fff3cf"/></g>
+<rect y="470" width="640" height="50" fill="#0b0908"/>${Array.from({ length: 10 }, (_, i) => `<circle class="tw" style="--d:${(2 + (i % 4) * 0.7).toFixed(1)}s;--k:${(i * 0.3).toFixed(1)}s" cx="${250 + (i * 37) % 140}" cy="${200 + (i * 53) % 150}" r="1.6" fill="#f6d692" opacity=".7"/>`).join('')}`,
+
+  // snake: a snake in the grass at first light (dawn that stings, poison rising)
+  snake: (u) => `<defs>${sky(`k${u}`, [[0, '#6f6a73'], [0.55, '#d79a5a'], [1, '#e8b26a']])}${glow(`g${u}`, '#ffd99a')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="420" cy="330" r="150" fill="url(#g${u})" opacity=".8"/><path d="M360 330 A60 60 0 0 1 480 330 Z" fill="#f6cf86"/>
+<path d="M0 330 Q160 314 320 326 T640 322 V520 H0 Z" fill="#4a3a2c"/>
+<path d="M0 520 V410 Q120 380 250 404 T520 396 T640 410 V520 Z" fill="${INK}"/>
+${reeds(20, 18, 420, INK)}${reeds(470, 16, 412, INK)}
+<g transform="translate(-30 -95) scale(1.12)"><g class="sway" style="--d:4s;transform-origin:300px 470px"><path d="M150 470 C200 430 250 500 300 460 S380 400 400 430 S420 470 455 440" stroke="${INK}" stroke-width="16" fill="none" stroke-linecap="round"/>
+<path d="M150 470 C200 430 250 500 300 460 S380 400 400 430 S420 470 455 440" stroke="${DEEP}" stroke-width="3" fill="none" stroke-dasharray="4 14" opacity=".8"/>
+<ellipse cx="462" cy="434" rx="16" ry="10" fill="${INK}" transform="rotate(-30 462 434)"/><path d="M476 426 l14 -6 m-14 6 l12 4" stroke="#b33a2a" stroke-width="2"/></g></g>
+${bird(140, 130, 0.8)}${bird(180, 150, 0.6)}`,
+
+  // jungle: the city turned to jungle — dark trees grown over the skyline, eyes in the thicket (fear within)
+  jungle: (u) => `<defs>${sky(`k${u}`, [[0, '#1b2420'], [0.7, '#3c4a3a'], [1, '#6b6040']])}${glow(`g${u}`, '#d9c27a')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="160" cy="110" r="34" fill="#e6dcb5" opacity=".85"/>
+<g fill="#2b2f29"><rect x="60" y="250" width="60" height="200"/><rect x="130" y="210" width="44" height="240"/><path d="M190 300 h90 v150 h-90 Z"/><path d="M200 300 q35 -60 70 0 Z"/><rect x="232" y="200" width="6" height="60"/>
+<rect x="300" y="230" width="50" height="220"/><rect x="370" y="270" width="70" height="180"/><rect x="452" y="190" width="18" height="260"/><path d="M448 192 q13 -30 26 0 Z"/><rect x="490" y="240" width="80" height="210"/></g>
+${Array.from({ length: 7 }, (_, i) => { const x = 20 + i * 100; return `<g class="sway" style="--d:${(4 + i * 0.4).toFixed(1)}s;--k:${(i * 0.5).toFixed(1)}s;transform-origin:${x}px 520px" fill="${INK}"><path d="M${x - 8} 520 Q${x - 4} 400 ${x} 300 Q${x + 4} 400 ${x + 10} 520 Z"/><ellipse cx="${x}" cy="${300 + (i % 3) * 20}" rx="${60 + (i % 2) * 20}" ry="${70 + (i % 3) * 10}"/><ellipse cx="${x + 30}" cy="${360 + (i % 2) * 20}" rx="50" ry="44"/></g>`; }).join('')}
+${[[140, 430], [330, 400], [520, 440], [250, 470]].map(([x, y], i) => `<g class="tw" style="--d:${(2.6 + i * 0.5).toFixed(1)}s;--k:${i}s"><ellipse cx="${x}" cy="${y}" rx="5" ry="3" fill="#e9c75a"/><ellipse cx="${x + 16}" cy="${y}" rx="5" ry="3" fill="#e9c75a"/></g>`).join('')}
+${Array.from({ length: 14 }, (_, i) => `<circle class="tw" style="--d:${(1.5 + (i % 5) * 0.5).toFixed(1)}s;--k:${(i * 0.21).toFixed(2)}s" cx="${(i * 47) % 620 + 10}" cy="${330 + (i * 29) % 160}" r="2.2" fill="#f3e08a"/>`).join('')}`,
+
+  // sword: a blade hanging by a thread over a bowed, silenced figure (speech forbidden, a sword over the head)
+  sword: (u) => `<defs>${sky(`k${u}`, [[0, '#2a1a18'], [1, '#6a3a26']])}${glow(`g${u}`, '#e0a24a')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="320" cy="420" r="220" fill="url(#g${u})" opacity=".45"/>
+<g class="sway" style="--d:5s;transform-origin:320px 0px"><path d="M320 0 V120" stroke="#d8c39a" stroke-width="1.4"/>
+<path d="M320 120 v10 M298 136 h44" stroke="${GOLD}" stroke-width="7" stroke-linecap="round"/><rect x="314" y="122" width="12" height="18" fill="${DEEP}"/>
+<path d="M312 140 H328 L326 286 L320 304 L314 286 Z" fill="#cfc6b4"/><path d="M320 142 V292" stroke="#8a8274" stroke-width="1.5"/></g>
+<g fill="${INK}"><circle cx="320" cy="368" r="22"/><path d="M286 392 Q320 376 354 392 Q372 430 380 470 H260 Q268 430 286 392 Z"/><path d="M230 470 H410 Q420 488 400 496 H240 Q220 488 230 470 Z"/></g>
+<rect y="490" width="640" height="30" fill="${INK}"/>`,
+
+  // well: a Persian wheel (rehat) turning, its pots lifting water to a thirsty field (eyes turned like wells)
+  well: (u) => `<defs>${sky(`k${u}`, [[0, '#e9e1c8'], [1, '#e7bf7c']])}${glow(`g${u}`, '#fff1c8')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="500" cy="140" r="90" fill="url(#g${u})"/><circle cx="500" cy="140" r="34" fill="#f9e2a6"/>
+<path d="M0 360 Q200 340 400 356 T640 350 V520 H0 Z" fill="#a98a54"/>
+${Array.from({ length: 8 }, (_, i) => `<path d="M${330 + i * 40} 520 L${420 + i * 28} 370" stroke="#7c8a4a" stroke-width="5" opacity=".7"/>`).join('')}
+<rect x="40" y="420" width="250" height="100" fill="#6d5236"/><ellipse cx="165" cy="420" rx="125" ry="22" fill="#3b2c1e"/>
+<g transform="translate(165 330)"><g class="spin" style="--d:9s;transform-origin:0 0"><circle r="88" fill="none" stroke="${INK}" stroke-width="6"/><circle r="70" fill="none" stroke="${INK}" stroke-width="2"/>
+${Array.from({ length: 12 }, (_, i) => { const a = (i * Math.PI) / 6, c = Math.cos(a), s2 = Math.sin(a); return `<path d="M0 0 L${(88 * c).toFixed(1)} ${(88 * s2).toFixed(1)}" stroke="${INK}" stroke-width="3"/><path transform="translate(${(96 * c).toFixed(1)} ${(96 * s2).toFixed(1)}) rotate(${(i * 30).toFixed(0)})" d="M-9 -7 h18 l-3 14 h-12 Z" fill="${DEEP}"/>`; }).join('')}
+<circle r="12" fill="${INK}"/></g><path d="M-6 0 L-60 90 M6 0 L60 90" stroke="${INK}" stroke-width="8"/></g>
+${Array.from({ length: 5 }, (_, i) => `<path class="shim" style="--k:${(i * 0.5).toFixed(1)}s" d="M${255 + i * 6} ${410 + i * 3} q30 4 60 -2" stroke="#9fc4d0" stroke-width="3" fill="none" stroke-linecap="round"/>`).join('')}
+<g fill="${INK}" transform="translate(410 330)"><path d="M0 40 q0 -30 30 -32 h50 q18 0 22 -16 q10 -8 16 2 l-4 10 q12 4 6 14 l-14 2 q-6 14 -14 18 v34 h-8 l-2 -30 h-44 l-4 30 h-8 v-34 q-14 -4 -16 -24 Z"/></g>
+<rect y="490" width="640" height="30" fill="#5d4126"/>`,
 };
 
 export const SCENE_NAMES = Object.keys(SCENES);

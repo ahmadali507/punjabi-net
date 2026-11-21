@@ -38,9 +38,16 @@ const font = (f) => `url(data:font/woff2;base64,${readFileSync(join(ROOT, 'publi
 /* ---------- lines straight from the poem files; each knows its verse (couplet) ---------- */
 // One poem (post.poem/verses/gists) or several, in the order sung (post.parts: [{poem, verses, gists}]).
 const parts = post.parts ?? [{ poem: post.poem, verses: post.verses, gists: post.gists, lines: post.lines }];
-const poems = parts.map((pt) => front(join(ROOT, 'src/content/poems', `${pt.poem}.md`)));
+// A part may carry its own text (owner-approved exception for a kalam not in our files, e.g. one read off the
+// screen of a reference reel and checked against the audio): {text: ["line 1\nline 2", …], source: "…"}.
+const poems = parts.map((pt) => {
+  if (!pt.text) return front(join(ROOT, 'src/content/poems', `${pt.poem}.md`));
+  if (!pt.source) throw new Error(`${id}: inline "text" needs a "source"`);
+  return { title: post.title, verses: pt.text.map((text) => ({ text })) };
+});
 const poem = poems[0];
-const poet = front(join(ROOT, 'src/content/poets', `${poem.poet}.md`));
+// post.credit {pa, en}: what the closing card names when the poet is not one of ours
+const poet = post.credit ? { name: post.credit } : front(join(ROOT, 'src/content/poets', `${poem.poet}.md`));
 const lines = [], gists = [];
 parts.forEach((pt, pi) => {
   if (!pt.gists || pt.gists.length !== pt.verses.length) throw new Error(`${id}: ${pt.poem}: one English "gists" entry per verse`);
@@ -109,7 +116,9 @@ const screens = lines.map((l, n) => `<section class="sc" data-n="${n}">
 // optional pictures: one scene per verse (scenes.mjs), in an arched window above the text
 const scenes = post.scenes ?? null;
 if (scenes && scenes.length !== gists.length) throw new Error(`${id}: "scenes" needs one entry per verse (${gists.length})`);
-const win = scenes ? `<svg class="win" viewBox="-6 -6 652 532"><defs><clipPath id="arch"><path d="${ARCH}"/></clipPath></defs>
+const full = post.layout === 'full';
+const win = scenes && full ? `<svg class="win" viewBox="0 0 640 520" preserveAspectRatio="xMidYMid slice">${scenes.map((nm, k) => `<g class="scn" data-v="${k}"><g class="kb">${scene(nm, k)}</g></g>`).join('')}</svg><div class="shade"></div>`
+  : scenes ? `<svg class="win" viewBox="-6 -6 652 532"><defs><clipPath id="arch"><path d="${ARCH}"/></clipPath></defs>
 <g clip-path="url(#arch)">${scenes.map((nm, k) => `<g class="scn" data-v="${k}"><g class="kb">${scene(nm, k)}</g></g>`).join('')}</g>
 <path d="${ARCH}" fill="none" stroke="#c9962a" stroke-width="3"/><path d="${ARCH}" fill="none" stroke="#855c00" stroke-width="1" transform="translate(320 260) scale(1.012) translate(-320 -260)" opacity=".5"/></svg>` : '';
 const verseOf = lines.map((l) => l.verse);
@@ -144,6 +153,22 @@ body.illus .sc{top:770px;height:700px}
 body.illus .count{top:1560px}
 body.illus .loop{bottom:150px;height:300px;opacity:.6}
 body.illus .gist{font-size:36px}
+body.full{background:#15120f;color:#f3ead6}
+body.full .paper,body.full .grain,body.full .border,body.full .loop{display:none}
+body.full .win{position:absolute;left:0;top:0;width:1080px;height:1180px;-webkit-mask-image:linear-gradient(#000 62%,transparent 100%);mask-image:linear-gradient(#000 62%,transparent 100%)}
+body.full .shade{position:absolute;inset:0;background:linear-gradient(rgba(10,8,6,.55),transparent 16%,transparent 48%,rgba(21,18,15,.7) 66%,#15120f 82%)}
+body.full .m{background:rgba(233,196,120,var(--o))}
+body.full .brand{color:#f6efe0;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+body.full .sc{top:1010px;height:640px}
+body.full .prev{color:rgba(240,214,160,.5)}
+body.full .cur{color:#f0c46a;text-shadow:0 3px 18px rgba(0,0,0,.5)}
+body.full .rule{background:rgba(240,196,106,.5)}
+body.full .gist{color:#e2d8c4;font-size:36px}
+body.full .count{top:1700px;color:#b9ae98}
+body.full .track{background:rgba(240,196,106,.2)}
+body.full .bar{background:#f0c46a}
+body.full .end .hook,body.full .end .pen{color:#b9ae98}
+body.full .end .pname{color:#f0c46a}
 .scn{opacity:0}.kb{transform-box:fill-box;transform-origin:center}
 .spin{transform-box:fill-box;transform-origin:center}
 .end{position:absolute;inset:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;opacity:0}
@@ -151,7 +176,7 @@ body.illus .gist{font-size:36px}
 .end .hook{direction:ltr;font:italic 400 36px S;color:#77736b;margin-top:14px}
 .end .pname{font-family:N;font-size:64px;line-height:1.8;color:#855c00;margin-top:40px}
 .end .pen{font:600 26px S;letter-spacing:.24em;text-transform:uppercase;color:#77736b}
-</style></head><body${scenes ? ' class="illus"' : ''}>
+</style></head><body${scenes ? (full ? ' class="full"' : ' class="illus"') : ''}>
 <div class="paper"></div>
 <svg class="grain" width="1080" height="1920"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .3  0 0 0 .5 0"/></filter><rect width="100%" height="100%" filter="url(#g)"/></svg>
 <div class="border"></div>
@@ -264,7 +289,7 @@ execFileSync(FFMPEG, ['-y', '-loglevel', 'error', '-i', join(FR, `${String(Math.
 rmSync(FR, { recursive: true, force: true });
 
 /* ---------- caption, pushto.net format: title | poet, singer / credit / tags ---------- */
-const caption = `${poem.title} | ${poet.name.pa} (${poet.name.en}), sung by ${singer}
+const caption = post.caption ?? `${poem.title} | ${poet.name.pa} (${poet.name.en}), sung by ${singer}
 
 Vocals: ${singer}. Poetry: ${poet.name.en}. All credit to the artist.
 
