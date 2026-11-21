@@ -1416,6 +1416,177 @@
       "note": "Sumit Tandon sings the refrain with an added half-line ('dil da saayin badal gaya chor', not in our file; cut after 'koi hor' at 4.25 s), then all 8 lines of the verse once (20-42.7, 55.2-75.3) with the refrain between; later lines (101-123 s, 'ishq di raah vich...') are not this poem and are cut. Closing card over the instrumental at 88.5-96 s. Rendered 54.7 s; Whisper on the spliced music.wav hears refrain + 8 lines once, in order, no added half-line; contact sheet checked. Approved 2026-11-21."
     },
     {
+      "id": "028-bulleh-ishq-hulare",
+      "poem": "minon-ashq-hlare-dinda",
+      "status": "approved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1320929705693414",
+        "query": "Ishq Hularey Zain Zohaib"
+      },
+      "singer": "Zain Zohaib",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "minon-ashq-hlare-dinda",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "Love sets me swaying; my Beloved, grown close and bold, calls out to me."
+          ],
+          "sung": [
+            {
+              "verse": 0,
+              "line": 0,
+              "from": "دیندا",
+              "to": "دیندا جی"
+            },
+            {
+              "verse": 0,
+              "line": 1,
+              "from": "بلیندا",
+              "to": "بلیندا جی"
+            }
+          ]
+        },
+        {
+          "poem": "minon-ashq-hlare-dinda",
+          "verses": [
+            2
+          ],
+          "gists": [
+            "Here a Shia, there a Sunni, here a matted-haired ascetic, there a silent sage; I stand apart from them all, and whatever I say, my Beloved accepts."
+          ],
+          "sung": [
+            {
+              "verse": 2,
+              "line": 0,
+              "from": "شیعہ تے",
+              "to": "شیعہ اے"
+            },
+            {
+              "verse": 2,
+              "line": 1,
+              "from": "سبھ سے",
+              "to": "سب توں"
+            },
+            {
+              "verse": 2,
+              "line": 1,
+              "from": "جو کہاں",
+              "to": "جو میں کہاں"
+            },
+            {
+              "verse": 2,
+              "line": 1,
+              "from": "منیندا",
+              "to": "منیندا جی"
+            },
+            {
+              "verse": 2,
+              "line": 2,
+              "from": "دیندا",
+              "to": "دیندا جی"
+            }
+          ]
+        },
+        {
+          "poem": "minon-ashq-hlare-dinda",
+          "verses": [
+            3
+          ],
+          "lines": [
+            0,
+            2
+          ],
+          "gists": [
+            "Bulleh came from far away, bewitched by His face; He showed that pure beauty, and I cannot forget it for a moment."
+          ],
+          "sung": [
+            {
+              "verse": 3,
+              "line": 1,
+              "from": "ہکّ دم",
+              "to": "اک دم"
+            },
+            {
+              "verse": 3,
+              "line": 2,
+              "from": "دیندا",
+              "to": "دیندا جی"
+            }
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 31.0,
+          "to": 41.5,
+          "lines": [
+            37.0
+          ]
+        },
+        {
+          "from": 72.4,
+          "to": 77.3,
+          "lines": [
+            72.6
+          ]
+        },
+        {
+          "from": 128.1,
+          "to": 136.6,
+          "lines": [
+            128.3
+          ]
+        },
+        {
+          "from": 140.9,
+          "to": 145.2,
+          "lines": [
+            141.0
+          ]
+        },
+        {
+          "from": 159.8,
+          "to": 172.9,
+          "lines": [
+            164.2,
+            168.4
+          ]
+        },
+        {
+          "from": 266.8,
+          "to": 271.1,
+          "lines": []
+        },
+        {
+          "from": 275.4,
+          "to": 279.6,
+          "lines": [
+            275.6
+          ]
+        },
+        {
+          "from": 294.4,
+          "to": 303.1,
+          "lines": [
+            298.6
+          ],
+          "end": 302.9
+        },
+        {
+          "from": 225.0,
+          "to": 233.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "note": "Zain Zohaib 'Ishq Hularey' (timed IG lyrics + whisper318): refrain, v2, v3 lines 0-2 (v1 not sung; v3's closing 'munh charhya' not sung at the end). Cut out the added lines not in our file ('kite pata kabe da dasda / but khane vich kidhre vasda', 104-128 s), the spoken/sung Urdu intro (24-30 s), and all repeats/echoes; cuts on the song's ~4.2 s bar so seams stay on the beat. Sung variants (screen = audio, owner's 025 rule; IG lyrics and Whisper agree): 'shia ae', 'sab ton', 'jo main kahan', 'ik dam', and the sung 'ji' line endings. Closing card over the instrumental interlude at 225-233 s. Rendered 65.1 s; Whisper on the spliced music.wav hears each line once in order, no added lines; 12-frame contact sheet checked. Approved 2026-11-21."
+    },
+    {
       "id": "s001-sample-ghunghat",
       "poem": "ghnght-chk-ao-sjna-hn-shrman-kahnon-rkhian",
       "status": "sample",
