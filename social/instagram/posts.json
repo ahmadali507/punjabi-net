@@ -720,7 +720,7 @@
     {
       "id": "020-bulleh-ratin-jagin",
       "poem": "ratin-jagin-krin-abadt",
-      "status": "approved",
+      "status": "posted",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -799,7 +799,11 @@
           "lines": []
         }
       ],
-      "pad": 1.0
+      "pad": 1.0,
+      "posted_at": "2026-11-21T19:01:50+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4035487569938671968_16922094236",
+      "code": "DgA7pBdsulg"
     },
     {
       "id": "021-hussain-sajan-bin",
