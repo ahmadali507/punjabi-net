@@ -15,6 +15,7 @@ import { homedir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { parse } from 'yaml';
+import { scene, ARCH } from './scenes.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..', '..');
@@ -105,6 +106,14 @@ const screens = lines.map((l, n) => `<section class="sc" data-n="${n}">
   <p class="gist">${esc(gists[l.verse])}</p>
 </section>`).join('');
 
+// optional pictures: one scene per verse (scenes.mjs), in an arched window above the text
+const scenes = post.scenes ?? null;
+if (scenes && scenes.length !== gists.length) throw new Error(`${id}: "scenes" needs one entry per verse (${gists.length})`);
+const win = scenes ? `<svg class="win" viewBox="-6 -6 652 532"><defs><clipPath id="arch"><path d="${ARCH}"/></clipPath></defs>
+<g clip-path="url(#arch)">${scenes.map((nm, k) => `<g class="scn" data-v="${k}"><g class="kb">${scene(nm, k)}</g></g>`).join('')}</g>
+<path d="${ARCH}" fill="none" stroke="#c9962a" stroke-width="3"/><path d="${ARCH}" fill="none" stroke="#855c00" stroke-width="1" transform="translate(320 260) scale(1.012) translate(-320 -260)" opacity=".5"/></svg>` : '';
+const verseOf = lines.map((l) => l.verse);
+
 let seed = 11;
 const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
 const motes = Array.from({ length: 22 }, () => `<i class="m" style="left:${(rnd() * 100).toFixed(1)}%;top:${(rnd() * 100).toFixed(1)}%;--s:${(2 + rnd() * 5).toFixed(1)}px;--o:${(0.12 + rnd() * 0.3).toFixed(2)}"></i>`).join('');
@@ -130,17 +139,25 @@ body{width:1080px;height:1920px;overflow:hidden;background:#f6f3ec;color:#23211d
 .count{position:absolute;left:104px;right:104px;top:1470px;display:flex;align-items:center;gap:22px;direction:ltr;font:400 26px S;color:#77736b;letter-spacing:.12em}
 .track{flex:1;height:2px;background:rgba(133,92,0,.18);position:relative}
 .bar{position:absolute;left:0;top:-1px;height:4px;width:100%;background:#855c00;transform-origin:left;transform:scaleX(0)}
+body.illus .win{position:absolute;left:200px;top:196px;width:680px;height:553px}
+body.illus .sc{top:770px;height:700px}
+body.illus .count{top:1560px}
+body.illus .loop{bottom:150px;height:300px;opacity:.6}
+body.illus .gist{font-size:36px}
+.scn{opacity:0}.kb{transform-box:fill-box;transform-origin:center}
+.spin{transform-box:fill-box;transform-origin:center}
 .end{position:absolute;inset:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;opacity:0}
 .end .name{font:700 84px S;margin-top:34px}
 .end .hook{direction:ltr;font:italic 400 36px S;color:#77736b;margin-top:14px}
 .end .pname{font-family:N;font-size:64px;line-height:1.8;color:#855c00;margin-top:40px}
 .end .pen{font:600 26px S;letter-spacing:.24em;text-transform:uppercase;color:#77736b}
-</style></head><body>
+</style></head><body${scenes ? ' class="illus"' : ''}>
 <div class="paper"></div>
 <svg class="grain" width="1080" height="1920"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .45  0 0 0 0 .35  0 0 0 0 .3  0 0 0 .5 0"/></filter><rect width="100%" height="100%" filter="url(#g)"/></svg>
 <div class="border"></div>
 <div>${motes}</div>
 <svg class="loop" viewBox="0 0 1080 420"><path id="loop" pathLength="1" d="M-20 300 C 160 260, 260 380, 420 320 S 640 120, 720 210 S 640 380, 560 300 S 700 140, 860 230 S 1000 330, 1110 260"/></svg>
+${win}
 <div class="brand" id="brand">${LOGO(58)}<span>punjabii.net</span></div>
 ${screens}
 <div class="count" id="count"><span id="num">1 / ${N}</span><div class="track"><div class="bar" id="bar"></div></div></div>
@@ -164,7 +181,7 @@ const browser = await chromium.launch().catch(() => {
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 await page.setContent(html, { waitUntil: 'load' });
 await page.evaluate(() => document.fonts.ready);
-await page.evaluate(({ T, N }) => {
+await page.evaluate(({ T, N, verseOf }) => {
   const total = T.duration, ms = (s) => s * 1000, f = (t) => Math.min(1, Math.max(0, t / total));
   const tl = (el, kf) => el.animate(kf, { duration: ms(total), fill: 'both' });
 
@@ -201,9 +218,29 @@ await page.evaluate(({ T, N }) => {
   const end = document.getElementById('end');
   tl(end, [{ opacity: 0, offset: 0 }, { opacity: 0, offset: f(T.end_card + 0.2) }, { opacity: 1, offset: f(T.end_card + 1.0) }, { opacity: 1, offset: 1 }]);
 
+  
+  // pictures: each verse's scene fades in with its first line and drifts slowly (Ken Burns); small things move
+  const scns = [...document.querySelectorAll('.scn')];
+  if (scns.length) {
+    const vStart = scns.map((_, v) => { const n = verseOf.indexOf(v); return n <= 0 ? 0 : on[n] - 0.3; });
+    scns.forEach((g, v) => {
+      const a = vStart[v], b = v + 1 < scns.length ? vStart[v + 1] + 0.9 : T.end_card + 0.4;
+      tl(g, [{ opacity: v === 0 ? 1 : 0, offset: 0 }, { opacity: v === 0 ? 1 : 0, offset: f(a) }, { opacity: 1, offset: f(a + 0.9) }, { opacity: 1, offset: f(b - 0.9) }, { opacity: 0, offset: f(b) }, { opacity: 0, offset: 1 }]);
+      tl(g.querySelector('.kb'), [{ transform: 'scale(1.0)', offset: 0 }, { transform: 'scale(1.0)', offset: f(a) }, { transform: 'scale(1.07) translateY(-6px)', offset: f(b) }, { transform: 'scale(1.07) translateY(-6px)', offset: 1 }]);
+    });
+    tl(document.querySelector('.win'), [{ opacity: 1, offset: 0 }, { opacity: 1, offset: f(T.end_card - 0.3) }, { opacity: 0, offset: f(T.end_card + 0.4) }, { opacity: 0, offset: 1 }]);
+    const v = (el, name, dflt) => parseFloat(getComputedStyle(el).getPropertyValue(name)) || dflt;
+    const loop = (el, kf, d, extra = {}) => el.animate(kf, { duration: ms(d), iterations: Infinity, delay: -ms(v(el, '--k', 0)), ...extra });
+    document.querySelectorAll('.tw').forEach((el) => loop(el, [{ opacity: 1 }, { opacity: 0.25 }, { opacity: 1 }], v(el, '--d', 2.5)));
+    document.querySelectorAll('.bob').forEach((el) => loop(el, [{ transform: 'translateY(0)' }, { transform: 'translateY(-5px)' }, { transform: 'translateY(0)' }], 3.2, { easing: 'ease-in-out' }));
+    document.querySelectorAll('.spin').forEach((el) => loop(el, [{ transform: 'rotate(0deg)' }, { transform: 'rotate(360deg)' }], v(el, '--d', 8)));
+    document.querySelectorAll('.sway').forEach((el) => loop(el, [{ transform: 'rotate(-2.5deg)' }, { transform: 'rotate(2.5deg)' }, { transform: 'rotate(-2.5deg)' }], v(el, '--d', 3.6), { easing: 'ease-in-out' }));
+    document.querySelectorAll('.shim').forEach((el) => loop(el, [{ opacity: 0.15, transform: 'translateX(0)' }, { opacity: 0.7, transform: 'translateX(14px)' }, { opacity: 0.15, transform: 'translateX(28px)' }], 3));
+    document.querySelectorAll('.drift').forEach((el) => tl(el, [{ transform: 'translateX(0)' }, { transform: `translateX(${getComputedStyle(el).getPropertyValue('--x').trim() || '80px'})` }]));
+  }
   document.getAnimations().forEach((x) => x.pause());
   window.seek = (t) => { document.getAnimations().forEach((x) => { x.currentTime = t * 1000; }); window.counter(t); };
-}, { T, N });
+}, { T, N, verseOf });
 
 const FR = join(DIR, 'frames');
 rmSync(FR, { recursive: true, force: true });

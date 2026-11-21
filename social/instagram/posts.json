@@ -1103,6 +1103,123 @@
       "account": "punjabiidotnet",
       "media_id": "4035168627663714079_16922094236",
       "code": "Df_zHzUsjcf"
+    },
+    {
+      "id": "026-uth-shah-hussaina",
+      "poem": "ke-baghe-di-moli-hsina",
+      "verses": [
+        0
+      ],
+      "status": "held",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1364110568879248",
+        "query": "Uth Shah Hussaina Ramzan Jani",
+        "listen": 220
+      },
+      "singer": "Ramzan Jani",
+      "note": "Owner asked for this kalam (reel C25sn1Xosze): Ramzan Jani 'Uth Shah Hussaina' (track 1364110568879248, 219 s, no IG lyrics). Whisper (out/tracks/1364110568879248.whisper220.json): ~40 dohre addressed to Shah Hussain, naming Qasoor, Heer, Kaido, Takht Hazara, Chenab, Sohni/Mahiwal; not by Shah Hussain, not in src/content/poems, poet unidentified (likely modern). Held until the owner names the poet / OKs the text source."
+    },
+    {
+      "id": "s001-sample-ghunghat",
+      "poem": "ghnght-chk-ao-sjna-hn-shrman-kahnon-rkhian",
+      "status": "sample",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "686606098836026",
+        "query": "Ghunghat Chakk O Sajna",
+        "listen": 389
+      },
+      "singer": "Lakhwinder Wadali",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "ghnght-chk-ao-sjna-hn-shrman-kahnon-rkhian",
+          "verses": [
+            0,
+            3
+          ],
+          "gists": [
+            "Your curls coiled like a snake and struck; you looked at me with killing eyes and felt no pity. Lift your veil, beloved: why keep this shyness now?",
+            "You stole my heart with love, then never showed your face; I drank the cup of poison myself, foolish as I was. Lift your veil, beloved."
+          ],
+          "sung": [
+            {
+              "verse": 3,
+              "line": 1,
+              "from": "میں ایہہ",
+              "to": "آپے"
+            }
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 185.9,
+          "to": 190.7,
+          "lines": [
+            186.0
+          ]
+        },
+        {
+          "from": 201.2,
+          "to": 205.4,
+          "lines": []
+        },
+        {
+          "from": 216.1,
+          "to": 220.3,
+          "lines": [
+            216.2
+          ]
+        },
+        {
+          "from": 230.8,
+          "to": 242.2,
+          "lines": [
+            234.8
+          ]
+        },
+        {
+          "from": 300.6,
+          "to": 308.2,
+          "lines": [
+            300.7
+          ]
+        },
+        {
+          "from": 319.1,
+          "to": 323.4,
+          "lines": [
+            319.2
+          ]
+        },
+        {
+          "from": 333.9,
+          "to": 344.8,
+          "lines": [
+            338.0
+          ],
+          "end": 344.6
+        },
+        {
+          "from": 50.0,
+          "to": 57.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "note": "Sample of the illustrated layout (owner asked 2026-11-21). Not for posting.",
+      "verses": [
+        0,
+        3
+      ],
+      "scenes": [
+        "night",
+        "river"
+      ]
     }
   ]
 }
