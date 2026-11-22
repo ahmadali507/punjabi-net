@@ -1689,6 +1689,151 @@
         "night",
         "river"
       ]
+    },
+    {
+      "id": "029-bahu-kamil-murshid",
+      "poem": "kafkaml-mrshd-aisa-hooe",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "1002199192354448",
+        "query": "Kamil Murshid Aisa Hove",
+        "listen": 320
+      },
+      "singer": "Shubhangi Joshi",
+      "verses": [
+        0
+      ],
+      "note": "Shubhangi Joshi 'Kamil Murshid Aisa Hove' (Bahu bait 124, no IG lyrics). Whisper (first 240 s): L1-2 16-39, L3 59, L4 74, L5 ~125-140, L6 165, L7 217, L8 after 238. She sings slowly (~10-20 s a line), so each line once is ~90-95 s with intro and card: over the limit. Not built; left as draft."
+    },
+    {
+      "id": "030-farid-kaga-karang",
+      "poem": "kaga-krng-dhndolia",
+      "status": "approved",
+      "kind": "reel",
+      "style": "lyric",
+      "track": {
+        "id": "827835925390102",
+        "query": "Kaga Karang Dhandoleya",
+        "listen": 410
+      },
+      "singer": "Bhai Maninder Singh",
+      "audio": "singer recording as original audio, each line once (cuts)",
+      "parts": [
+        {
+          "poem": "kaga-krng-dhndolia",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "Crow, you have picked my skeleton clean and eaten all my flesh; but do not touch these two eyes, for they still hope to see my Beloved."
+          ]
+        },
+        {
+          "poem": "kaga-chond-nh-pnjrh",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "Crow, do not peck at my cage; if you have landed here, fly away. Do not eat the flesh of the cage where my Lord lives."
+          ],
+          "sung": [
+            {
+              "verse": 0,
+              "line": 1,
+              "from": "اُڈ جا",
+              "to": "اُڈر جاہِ"
+            },
+            {
+              "verse": 0,
+              "line": 3,
+              "from": "کھا",
+              "to": "کھاہِ"
+            }
+          ]
+        },
+        {
+          "poem": "tn-ska-pnjr-thia",
+          "verses": [
+            0
+          ],
+          "gists": [
+            "Farid, my body has withered to a skeleton and crows peck at my palms; even now the Lord has not come to my aid. See the fate of His servant!"
+          ],
+          "sung": [
+            {
+              "verse": 0,
+              "line": 0,
+              "from": "تن سُکّا",
+              "to": "فریدا تن سُکّا"
+            }
+          ]
+        }
+      ],
+      "cuts": [
+        {
+          "from": 4.5,
+          "to": 7.9,
+          "lines": []
+        },
+        {
+          "from": 24.3,
+          "to": 35.2,
+          "lines": [
+            24.6,
+            28.4
+          ]
+        },
+        {
+          "from": 77.6,
+          "to": 91.6,
+          "lines": [
+            77.7,
+            85.9
+          ]
+        },
+        {
+          "from": 141.9,
+          "to": 154.5,
+          "lines": [
+            142.2,
+            148.1
+          ]
+        },
+        {
+          "from": 161.9,
+          "to": 175.4,
+          "lines": [
+            162.0,
+            167.1
+          ]
+        },
+        {
+          "from": 245.9,
+          "to": 259.4,
+          "lines": [
+            246.2,
+            254.9
+          ]
+        },
+        {
+          "from": 267.1,
+          "to": 279.5,
+          "lines": [
+            267.4,
+            274.4
+          ],
+          "end": 279.2
+        },
+        {
+          "from": 229.0,
+          "to": 235.0,
+          "lines": []
+        }
+      ],
+      "pad": 1.0,
+      "note": "Bhai Maninder Singh 'Kaga Karang Dhandoleya' (no IG lyrics; Whisper on the full track): Farid's shaloks 91 (kaga karang), 92 (kaga choond na pinjra) and 90 (tan sukka pinjar), all in our files, sung in that order; each line once, refrain repeats and the 'eh do naina' returns after 92/90 cut out, plus a non-file line at 58-67 s. Harmonium/tabla never stop, so cuts sit in the gaps between Whisper's words. Sung variants (screen = audio): 'udar jaahi', 'khaahi' (92), 'Farida' before 'tan sukka' (90). Intro 4.5-7.9 s; closing card over the instrumental at 229-235 s. Rendered 85.2 s (three whole shaloks, under the 90 s cap). Whisper on the spliced music.wav hears all 12 lines once, in order, nothing added; 12-frame contact sheet checked. Approved 2026-11-22."
     }
   ]
 }
