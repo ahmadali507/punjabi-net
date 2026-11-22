@@ -1305,7 +1305,7 @@
     {
       "id": "027-bulleh-ranjha-hor",
       "poem": "mira-ranjha-hn-koii-hor",
-      "status": "approved",
+      "status": "posted",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -1413,7 +1413,11 @@
         }
       ],
       "pad": 1.0,
-      "note": "Sumit Tandon sings the refrain with an added half-line ('dil da saayin badal gaya chor', not in our file; cut after 'koi hor' at 4.25 s), then all 8 lines of the verse once (20-42.7, 55.2-75.3) with the refrain between; later lines (101-123 s, 'ishq di raah vich...') are not this poem and are cut. Closing card over the instrumental at 88.5-96 s. Rendered 54.7 s; Whisper on the spliced music.wav hears refrain + 8 lines once, in order, no added half-line; contact sheet checked. Approved 2026-11-21."
+      "note": "Sumit Tandon sings the refrain with an added half-line ('dil da saayin badal gaya chor', not in our file; cut after 'koi hor' at 4.25 s), then all 8 lines of the verse once (20-42.7, 55.2-75.3) with the refrain between; later lines (101-123 s, 'ishq di raah vich...') are not this poem and are cut. Closing card over the instrumental at 88.5-96 s. Rendered 54.7 s; Whisper on the spliced music.wav hears refrain + 8 lines once, in order, no added half-line; contact sheet checked. Approved 2026-11-21.",
+      "posted_at": "2026-11-22T13:02:03+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4036031277784247992_16922094236",
+      "code": "DgC3RA2si64"
     },
     {
       "id": "028-bulleh-ishq-hulare",
