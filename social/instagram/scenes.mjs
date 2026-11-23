@@ -217,6 +217,32 @@ ${Array.from({ length: 7 }, (_, i) => `<path d="M${172} ${246 + i * 15} q${30} $
 <path d="M170 236 Q235 216 300 232 M340 232 Q405 216 470 236" stroke="${GOLD}" stroke-width="3" fill="none"/>
 <g transform="translate(520 300)"><path d="M-26 40 Q0 58 26 40 Q18 30 0 28 Q-18 30 -26 40 Z" fill="${DEEP}"/><g class="sway" style="--d:1.2s;transform-origin:0 28px"><path d="M0 28 C-12 14 -6 -2 0 -16 C6 -2 12 14 0 28 Z" fill="#ffd27a"/></g></g>
 <rect y="470" width="640" height="50" fill="#1a120d"/>`,
+  // crow: a gaunt seeker sitting under a dead tree at dusk, eyes open to the horizon, crows circling and perched
+  // on his hand (Farid's kaga: pick my bones, but spare the eyes that wait for the Beloved)
+  crow: (u) => `<defs>${sky(`k${u}`, [[0, '#4a3a44'], [0.55, '#b0674a'], [1, '#e6a35e']])}${glow(`g${u}`, '#ffd59a')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="470" cy="330" r="150" fill="url(#g${u})" opacity=".7"/><path d="M410 340 A60 60 0 0 1 530 340 Z" fill="#f6cf86"/>
+<path d="M0 340 Q200 320 400 336 T640 334 V520 H0 Z" fill="#5a3a2c"/><rect y="440" width="640" height="80" fill="${INK}"/>
+<g stroke="${INK}" fill="none" stroke-linecap="round"><path d="M110 440 Q120 330 104 220" stroke-width="16"/><path d="M110 300 Q70 270 44 270 M108 260 Q150 220 190 214 M104 230 Q90 190 62 176 M150 226 Q170 200 168 176" stroke-width="6"/></g>
+<g fill="#0d0b0a"><path d="M232 442 q-6 -54 8 -84 q12 -18 28 -6 q14 30 6 90 Z"/><circle cx="252" cy="340" r="15"/>
+<path d="M240 386 q-10 24 -2 50 M266 384 Q300 380 330 372" stroke="#0d0b0a" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+<circle cx="257" cy="338" r="2.6" fill="#f6d692"/>
+<g fill="${INK}"><g transform="translate(330 360)"><path d="M0 0 q10 -12 24 -8 l10 -4 -6 8 q4 10 -8 14 l-8 10 h-4 l2 -10 q-12 -2 -10 -10 Z"/></g>
+<g transform="translate(64 262) scale(.9)"><path d="M0 0 q10 -12 24 -8 l10 -4 -6 8 q4 10 -8 14 l-8 10 h-4 l2 -10 q-12 -2 -10 -10 Z"/></g>
+<g transform="translate(172 208) scale(-.9 .9)"><path d="M0 0 q10 -12 24 -8 l10 -4 -6 8 q4 10 -8 14 l-8 10 h-4 l2 -10 q-12 -2 -10 -10 Z"/></g></g>
+<g class="drift" style="--x:-80px">${[[420, 150, 1.4], [470, 120, 1.1], [520, 168, 1.2]].map(([x, y, k], i) => `<g class="bob" style="--k:${i}s">${bird(x, y, k)}</g>`).join('')}</g>`,
+
+  // cage: a crow outside a hanging cage at dusk, a small light living inside it (the body is the cage the Lord lives in)
+  cage: (u) => `<defs>${sky(`k${u}`, [[0, '#2e2a3a'], [0.6, '#7a5a5a'], [1, '#d59a5c']])}${glow(`g${u}`, '#ffe3a0')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>${stars(20, 120)}
+<path d="M0 470 Q320 440 640 470 V520 H0 Z" fill="${INK}"/>
+<path d="M0 90 Q320 60 640 96" stroke="${INK}" stroke-width="8" fill="none"/>
+<g class="sway" style="--d:5s;transform-origin:320px 76px"><path d="M320 76 V140" stroke="${INK}" stroke-width="3"/><circle cx="320" cy="146" r="8" fill="none" stroke="${INK}" stroke-width="3"/>
+<path d="M230 400 V250 Q230 160 320 154 Q410 160 410 250 V400 Z" fill="none" stroke="${INK}" stroke-width="4"/>
+${Array.from({ length: 9 }, (_, i) => { const x = 240 + i * 20; return `<path d="M${x} 400 V${250 - Math.round(Math.sin((i / 8) * Math.PI) * 82)}" stroke="${INK}" stroke-width="2.4"/>`; }).join('')}
+<path d="M224 400 H416 M232 330 H408" stroke="${INK}" stroke-width="5"/>
+<circle class="tw" style="--d:2.4s" cx="320" cy="300" r="70" fill="url(#g${u})"/><circle cx="320" cy="300" r="10" fill="#fff1c8"/></g>
+<g fill="${INK}" transform="translate(408 154) scale(1.6)"><path d="M0 0 q10 -12 24 -8 l10 -4 -6 8 q4 10 -8 14 l-8 10 h-4 l2 -10 q-12 -2 -10 -10 Z"/></g>
+${bird(100, 200, 1.2)}${bird(140, 226, 0.9)}`,
 };
 
 export const SCENE_NAMES = Object.keys(SCENES);

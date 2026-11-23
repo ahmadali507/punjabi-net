@@ -1422,7 +1422,7 @@
     {
       "id": "028-bulleh-ishq-hulare",
       "poem": "minon-ashq-hlare-dinda",
-      "status": "approved",
+      "status": "draft",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -1588,7 +1588,13 @@
         }
       ],
       "pad": 1.0,
-      "note": "Zain Zohaib 'Ishq Hularey' (timed IG lyrics + whisper318): refrain, v2, v3 lines 0-2 (v1 not sung; v3's closing 'munh charhya' not sung at the end). Cut out the added lines not in our file ('kite pata kabe da dasda / but khane vich kidhre vasda', 104-128 s), the spoken/sung Urdu intro (24-30 s), and all repeats/echoes; cuts on the song's ~4.2 s bar so seams stay on the beat. Sung variants (screen = audio, owner's 025 rule; IG lyrics and Whisper agree): 'shia ae', 'sab ton', 'jo main kahan', 'ik dam', and the sung 'ji' line endings. Closing card over the instrumental interlude at 225-233 s. Rendered 65.1 s; Whisper on the spliced music.wav hears each line once in order, no added lines; 12-frame contact sheet checked. Approved 2026-11-21."
+      "note": "Zain Zohaib 'Ishq Hularey' (timed IG lyrics + whisper318): refrain, v2, v3 lines 0-2 (v1 not sung; v3's closing 'munh charhya' not sung at the end). Cut out the added lines not in our file ('kite pata kabe da dasda / but khane vich kidhre vasda', 104-128 s), the spoken/sung Urdu intro (24-30 s), and all repeats/echoes; cuts on the song's ~4.2 s bar so seams stay on the beat. Sung variants (screen = audio, owner's 025 rule; IG lyrics and Whisper agree): 'shia ae', 'sab ton', 'jo main kahan', 'ik dam', and the sung 'ji' line endings. Closing card over the instrumental interlude at 225-233 s. Rendered 65.1 s; Whisper on the spliced music.wav hears each line once in order, no added lines; 12-frame contact sheet checked. Approved 2026-11-21.",
+      "scenes": [
+        "dervish",
+        "night",
+        "desert"
+      ],
+      "hold_reason": "owner 2026-11-23: reels must be long, flowing, professional (longreel.mjs form); rebuild before posting"
     },
     {
       "id": "s001-sample-ghunghat",
@@ -1710,7 +1716,7 @@
     {
       "id": "030-farid-kaga-karang",
       "poem": "kaga-krng-dhndolia",
-      "status": "approved",
+      "status": "draft",
       "kind": "reel",
       "style": "lyric",
       "track": {
@@ -1833,11 +1839,17 @@
         }
       ],
       "pad": 1.0,
-      "note": "Bhai Maninder Singh 'Kaga Karang Dhandoleya' (no IG lyrics; Whisper on the full track): Farid's shaloks 91 (kaga karang), 92 (kaga choond na pinjra) and 90 (tan sukka pinjar), all in our files, sung in that order; each line once, refrain repeats and the 'eh do naina' returns after 92/90 cut out, plus a non-file line at 58-67 s. Harmonium/tabla never stop, so cuts sit in the gaps between Whisper's words. Sung variants (screen = audio): 'udar jaahi', 'khaahi' (92), 'Farida' before 'tan sukka' (90). Intro 4.5-7.9 s; closing card over the instrumental at 229-235 s. Rendered 85.2 s (three whole shaloks, under the 90 s cap). Whisper on the spliced music.wav hears all 12 lines once, in order, nothing added; 12-frame contact sheet checked. Approved 2026-11-22."
+      "note": "Bhai Maninder Singh 'Kaga Karang Dhandoleya' (no IG lyrics; Whisper on the full track): Farid's shaloks 91 (kaga karang), 92 (kaga choond na pinjra) and 90 (tan sukka pinjar), all in our files, sung in that order; each line once, refrain repeats and the 'eh do naina' returns after 92/90 cut out, plus a non-file line at 58-67 s. Harmonium/tabla never stop, so cuts sit in the gaps between Whisper's words. Sung variants (screen = audio): 'udar jaahi', 'khaahi' (92), 'Farida' before 'tan sukka' (90). Intro 4.5-7.9 s; closing card over the instrumental at 229-235 s. Rendered 85.2 s (three whole shaloks, under the 90 s cap). Whisper on the spliced music.wav hears all 12 lines once, in order, nothing added; 12-frame contact sheet checked. Approved 2026-11-22.",
+      "scenes": [
+        "crow",
+        "cage",
+        "crow"
+      ],
+      "hold_reason": "owner 2026-11-23: reels must be long, flowing, professional (longreel.mjs form); rebuild before posting"
     },
     {
       "id": "031-bulleh-yaar-raazi",
-      "status": "posted",
+      "status": "deleted",
       "kind": "reel",
       "style": "lyric",
       "title": "بلھے شاہ نے کجھ نہیں کیتا، یار نوں کیتا راضی",
@@ -1968,7 +1980,235 @@
       "posted_at": "2026-11-23T12:22:47+00:00",
       "account": "punjabiidotnet",
       "media_id": "4036736282195620624_16922094236",
-      "code": "DgFXkLYM3MQ"
+      "code": "DgFXkLYM3MQ",
+      "deleted_at": "2026-11-23T12:29:33+00:00",
+      "deleted_reason": "owner: no flow (jumps between sections), wants professional look, better visuals, long continuous piece"
+    },
+    {
+      "id": "032-bulleh-yaar-raazi",
+      "status": "posted",
+      "kind": "reel",
+      "style": "lyric",
+      "form": "long",
+      "title": "بلھے شاہ نے کجھ نہیں کیتا، یار نوں کیتا راضی",
+      "track": {
+        "id": "1371185864233724",
+        "query": "Piya Ghar Aaya Coke Studio"
+      },
+      "singer": "Fareed Ayaz & Abu Muhammad Qawwal",
+      "credit": {
+        "pa": "بلھے شاہ",
+        "en": "Bulleh Shah"
+      },
+      "kicker": {
+        "en": "Kalam of Baba Bulleh Shah",
+        "pa": "یار نوں کیتا راضی",
+        "src": "Coke Studio Season 11 · Piya Ghar Aaya"
+      },
+      "audio": "two long continuous passages of the qawwali (repeats kept), one 1.5 s crossfade; ~177 s",
+      "note": "Rebuild of deleted 031 (owner 2026-11-23: no flow, wants professional, better visuals, long like a symphony; repeats allowed). Text transcribed from the singing (IG timed lyrics + Whisper; line 3 sung 'Ghazi'); not in our poem files: owner-requested exception. Spoken asides shown in English, translated from the qawwal's Urdu (IG timed lyrics).",
+      "segments": [
+        {
+          "from": 413.4,
+          "to": 478.2
+        },
+        {
+          "from": 578.3,
+          "to": 691.9
+        }
+      ],
+      "xfade": 1.5,
+      "movements": [
+        {
+          "at": 413.4,
+          "pa": "قاضی، حاجی، غازی",
+          "en": "I · the judge, the pilgrim, the warrior"
+        },
+        {
+          "at": 578.3,
+          "pa": "لیلیٰ تے مجنوں",
+          "en": "II · Laila and Majnu"
+        }
+      ],
+      "lines": {
+        "L1": {
+          "pa": "پڑھ پڑھ علم کتاباں والا، نام رکھایو قاضی",
+          "en": "You read book after book of learning, and they named you Qazi."
+        },
+        "L2": {
+          "pa": "مکے جا کر حج پڑھ آیو، نام رکھایو حاجی",
+          "en": "You went to Mecca and made the Hajj, and they named you Haji."
+        },
+        "L3": {
+          "pa": "پھڑ شمشیر مجاہداں والی، نام رکھایو غازی",
+          "en": "You took up the warrior's sword, and they named you Ghazi."
+        },
+        "L4": {
+          "pa": "بلھے شاہ نے کجھ نہیں کیتا، یار نوں کیتا راضی",
+          "en": "Bulleh Shah did none of these. He only won his Beloved's pleasure."
+        },
+        "R": {
+          "pa": "میرا پیا گھر آیا",
+          "en": "My Beloved has come home."
+        },
+        "P": {
+          "pa": "میرا پیا، پیا، پیا، پیا",
+          "en": "My Beloved, Beloved, Beloved…"
+        },
+        "L5a": {
+          "pa": "مجنوں نوں رل عاشق کہندے",
+          "en": "The lovers gathered and said to Majnu…"
+        },
+        "L5": {
+          "pa": "مجنوں نوں رل عاشق کہندے، تیری لیلیٰ رنگ دی کالی",
+          "en": "The lovers gathered and said to Majnu, “Your Laila is dark.”"
+        },
+        "L6a": {
+          "pa": "کیتا جواب مجنوں میاں",
+          "en": "And Majnu gave his answer…"
+        },
+        "L6": {
+          "pa": "کیتا جواب مجنوں میاں، وے جا تیری اکھ نہیں ویکھن والی",
+          "en": "Majnu answered, “Go. You don't have the eyes to see her.”"
+        },
+        "L7": {
+          "pa": "قرآن کریم دے ورق نیں چٹے، اتے لکھی ایہہ سیاہی کالی",
+          "en": "The pages of the Holy Quran are white, and on them is written black ink."
+        },
+        "L8": {
+          "pa": "وے بلھیا جتھے دل اڑ جاوے، پھیر کی گوری کی کالی",
+          "en": "O Bulleh, once the heart is caught, what is fair and what is dark?"
+        }
+      },
+      "screens": [
+        {
+          "at": 413.4,
+          "kind": "title",
+          "scene": "kasur"
+        },
+        {
+          "at": 417.8,
+          "kind": "line",
+          "line": "L1",
+          "scene": "qazi"
+        },
+        {
+          "at": 430.6,
+          "kind": "line",
+          "line": "L2",
+          "prev": "L1",
+          "scene": "kaaba"
+        },
+        {
+          "at": 439.1,
+          "kind": "line",
+          "line": "L3",
+          "scene": "ghazi"
+        },
+        {
+          "at": 447.1,
+          "kind": "line",
+          "line": "L4",
+          "prev": "L3",
+          "scene": "dervish"
+        },
+        {
+          "at": 455.4,
+          "kind": "line",
+          "line": "R",
+          "scene": "home"
+        },
+        {
+          "at": 459.6,
+          "kind": "line",
+          "line": "L4",
+          "prev": "L3",
+          "scene": "dervish"
+        },
+        {
+          "at": 468.3,
+          "kind": "line",
+          "line": "R",
+          "scene": "home"
+        },
+        {
+          "at": 473.4,
+          "kind": "line",
+          "line": "P",
+          "scene": "home"
+        },
+        {
+          "at": 579.9,
+          "kind": "line",
+          "line": "L5a",
+          "scene": "lovers"
+        },
+        {
+          "at": 585.6,
+          "kind": "spoken",
+          "en": "All the lovers got together and told Majnu — the ‘professional’ lovers, mind you.",
+          "scene": "lovers"
+        },
+        {
+          "at": 593.9,
+          "kind": "line",
+          "line": "L5",
+          "scene": "lovers"
+        },
+        {
+          "at": 611.7,
+          "kind": "line",
+          "line": "L5",
+          "scene": "laila"
+        },
+        {
+          "at": 633.4,
+          "kind": "line",
+          "line": "L6a",
+          "scene": "majnu"
+        },
+        {
+          "at": 636.8,
+          "kind": "spoken",
+          "en": "Everyone together takes Majnu for a madman, and Majnu alone takes them all for mad. He says:",
+          "scene": "majnu"
+        },
+        {
+          "at": 646.4,
+          "kind": "line",
+          "line": "L6",
+          "prev": "L5",
+          "scene": "majnu"
+        },
+        {
+          "at": 656.3,
+          "kind": "spoken",
+          "en": "And now, the proof he gives:",
+          "scene": "quran"
+        },
+        {
+          "at": 659.8,
+          "kind": "line",
+          "line": "L7",
+          "scene": "quran"
+        },
+        {
+          "at": 675.2,
+          "kind": "line",
+          "line": "L8",
+          "prev": "L7",
+          "scene": "heart"
+        },
+        {
+          "at": 688.2,
+          "kind": "end"
+        }
+      ],
+      "cover_at": 452.5,
+      "posted_at": "2026-11-23T12:59:43+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4036754845354442702_16922094236",
+      "code": "DgFbyTqsD_O"
     }
   ]
 }
