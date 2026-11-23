@@ -40,6 +40,14 @@ const person = (x, y, k = 1, c = INK, pose = 'stand') => {
   return `<g transform="translate(${x} ${y}) scale(${k})" fill="${c}"><path d="${P}"/><circle cy="-172" r="17"/><path d="M-18 -176 Q0 -200 18 -176 Q0 -184 -18 -176 Z"/></g>`;
 };
 
+
+// a perched crow, feet at (x,y), facing right (k < 0 faces left)
+const crow = (x, y, k = 1, c = INK) => `<g transform="translate(${x} ${y}) scale(${k} ${Math.abs(k)})" fill="${c}"><path d="M-62 -18 L-30 -30 Q-14 -58 22 -56 Q34 -56 40 -66 Q46 -80 60 -78 Q72 -76 74 -66 L96 -62 L74 -57 Q72 -44 58 -34 Q42 -18 12 -16 L-22 -14 Z"/><path d="M-4 -16 L-8 0 M10 -16 L12 0" stroke="${c}" stroke-width="4" stroke-linecap="round"/><path d="M-16 0 h16 M4 0 h16" stroke="${c}" stroke-width="3" stroke-linecap="round"/></g>`;
+// a crow in flight (wings spread), centre (x,y)
+const crowFly = (x, y, k = 1, c = INK) => `<g transform="translate(${x} ${y}) scale(${k})" fill="${c}"><path d="M-70 -10 Q-40 -40 -6 -8 Q0 -14 8 -8 Q40 -44 76 -14 Q44 -18 18 4 Q22 12 30 14 L10 12 Q0 22 -8 12 L-28 16 Q-20 10 -16 4 Q-40 -16 -70 -10 Z"/></g>`;
+// a bare, twisted jand tree rooted at (x,y)
+const deadTree = (x, y, k = 1, c = INK) => `<g transform="translate(${x} ${y}) scale(${k})" stroke="${c}" fill="none" stroke-linecap="round"><path d="M0 0 Q-10 -120 10 -230 Q24 -300 0 -380" stroke-width="30"/><path d="M6 -220 Q80 -270 160 -280 Q210 -284 250 -330" stroke-width="16"/><path d="M4 -300 Q-70 -330 -140 -320 Q-190 -318 -230 -360" stroke-width="14"/><path d="M0 -370 Q30 -430 20 -500" stroke-width="12"/><path d="M150 -280 Q170 -330 160 -380 M-120 -322 Q-140 -380 -120 -420 M200 -300 Q240 -290 280 -300 M-190 -335 Q-230 -320 -270 -330 M20 -470 Q60 -490 80 -520 M18 -440 Q-20 -470 -30 -510" stroke-width="7"/></g>`;
+
 const SCENES = {
   // Kasur at first light: Bulleh Shah's shrine on the river bank, sun rising behind its dome
   kasur: (u) => `<defs>${lin(`s${u}`, [[0, '#141a30'], [0.35, '#40345a'], [0.62, '#b0687a'], [0.8, '#eaa56a'], [1, '#f6d7a0']])}${rad(`g${u}`, '#ffe2a8')}${lin(`w${u}`, [[0, '#d99a6a'], [1, '#3a2a36']])}</defs>
@@ -182,6 +190,101 @@ ${px(0.5, `<path d="M0 1240 V1060 Q280 980 540 1000 Q800 1020 1080 1070 V1240 Z"
 <path d="M20 -110 Q70 -130 96 -150 M10 -96 Q60 -100 92 -120" stroke="#0c0a12" stroke-width="10" stroke-linecap="round" fill="none"/></g>`)}
 ${px(0.8, `<path d="M0 1240 V1150 Q540 1120 1080 1150 V1240 Z" fill="#040308"/>`)}
 ${motes(30, 300, 780, 760, 1060, '#ffd8c8', 2.2)}${flock(200, 420, 5, 0.9, '#2a2440')}`,
+  // Farid: at dusk, crows on a dead jand tree in the wasteland, more circling against a blood-red sun
+  crow: (u) => `<defs>${lin(`s${u}`, [[0, '#120a14'], [0.4, '#3a1626'], [0.68, '#8a2e26'], [0.84, '#d0662e'], [1, '#eea258']])}${rad(`g${u}`, '#ffb070')}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(40, 30, 360)}<circle cx="640" cy="880" r="520" fill="url(#g${u})"/><circle cx="640" cy="880" r="130" fill="#f6b468"/>${rays(640, 880, 30, '#ffc890', 0.03, 1600, 0.05)}`)}
+${px(0.15, `${ridge(920, 60, '#5a2026', 101, 140, 0.9)}`)}
+${px(0.35, `${ridge(1010, 40, '#2a0e14', 111, 160)}`)}
+${px(0.55, `${deadTree(420, 1080, 1.35)}${crow(185, 616, 0.9)}${crow(330, 552, -0.85)}${crow(640, 694, -0.95)}${crow(752, 643, 0.8)}<g class="bob" style="--k:1s">${crow(476, 412, -0.75)}</g>
+<path d="M0 1240 V1080 Q300 1050 600 1074 Q860 1094 1080 1060 V1240 Z" fill="${INK}"/>`)}
+<g class="drift" style="--x:180px">${[[140, 300, 0.7], [300, 230, 0.55], [800, 330, 0.8], [900, 220, 0.5], [600, 180, 0.45], [980, 420, 0.6]].map(([x, y, k], i) => `<g class="bob" style="--k:${f(i * 0.7)}s">${crowFly(x, y, k)}</g>`).join('')}</g>
+${motes(30, 0, W, 900, 1200, '#ffb070', 2)}`,
+
+  // the skeleton: bleached ribs half-buried in the sand, a crow standing on them, another landing
+  bones: (u) => `<defs>${lin(`s${u}`, [[0, '#1a0e18'], [0.45, '#5a2230'], [0.75, '#b45436'], [1, '#e8a060']])}${rad(`g${u}`, '#ffc080')}${lin(`b${u}`, [[0, '#f2e6cc'], [1, '#b8a07a']])}${lin(`sa${u}`, [[0, '#7a3a2a'], [1, '#2a120e']])}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(30, 30, 300)}<circle cx="300" cy="820" r="460" fill="url(#g${u})"/><circle cx="300" cy="820" r="90" fill="#ffd08a"/>`)}
+${px(0.2, `${ridge(860, 70, '#6a2a2c', 121, 150, 0.85)}`)}
+${px(0.45, `<path d="M0 1240 V900 Q260 860 540 880 Q820 900 1080 870 V1240 Z" fill="url(#sa${u})"/>${Array.from({ length: 14 }, (_, i) => `<path d="M${f(r() * W)} ${f(930 + r() * 260)} q40 -10 80 0" stroke="#a85a3a" stroke-width="3" fill="none" opacity=".45"/>`).join('')}`)}
+${px(0.6, `<g transform="translate(540 1040)"><path d="M-300 30 Q0 -10 300 20" stroke="url(#b${u})" stroke-width="16" fill="none" stroke-linecap="round"/>
+${Array.from({ length: 9 }, (_, i) => { const x = -240 + i * 60, h = 200 - Math.abs(i - 4) * 22; return `<path d="M${x} 18 Q${x - 70} ${-h * 0.7} ${x - 10} ${-h} Q${x + 40} ${-h - 10} ${x + 70} ${-h * 0.75}" stroke="url(#b${u})" stroke-width="11" fill="none" stroke-linecap="round"/>`; }).join('')}
+<g transform="translate(372 -8) rotate(-12)"><path d="M-46 10 Q-60 -40 -10 -58 Q40 -66 56 -24 Q62 0 46 16 L40 34 L-30 34 Q-40 24 -46 10 Z" fill="url(#b${u})"/><ellipse cx="-12" cy="-6" rx="13" ry="15" fill="#2a120e"/><ellipse cx="26" cy="-4" rx="12" ry="14" fill="#2a120e"/><path d="M6 10 l-6 12 h12 Z" fill="#2a120e"/><path d="M-24 34 v-8 M-10 34 v-8 M4 34 v-8 M18 34 v-8 M32 34 v-8" stroke="#6a4a30" stroke-width="3"/></g></g>
+${crow(560, 868, 1.3)}<g class="bob">${crow(300, 900, -1.05)}</g>
+<path d="M0 1240 V1150 Q540 1110 1080 1150 V1240 Z" fill="${INK}"/>`)}
+<g class="drift" style="--x:-140px">${[[820, 360, 0.9], [700, 260, 0.6], [940, 250, 0.55]].map(([x, y, k], i) => `<g class="bob" style="--k:${f(i)}s">${crowFly(x, y, k)}</g>`).join('')}</g>
+${motes(40, 0, W, 850, 1200, '#ffc890', 2.2)}`,
+
+  // the cage: an ornate cage hung in the night, a lamp burning inside it (where the Lord dwells), a crow on its ring
+  cage: (u) => `<defs>${lin(`s${u}`, [[0, '#060a18'], [0.6, '#16203e'], [1, '#2e2a44']])}${rad(`g${u}`, '#ffd27a')}${rad(`lampglow${u}`, '#ffcf70')}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(150, 20, 1100)}`)}
+${px(0.2, `<circle cx="540" cy="720" r="520" fill="url(#g${u})" opacity=".55"/>${rays(540, 760, 40, '#ffe2a0', 0.05, 1600, 0.04)}`)}
+${px(0.5, `<g class="sway" style="--d:7s;transform-origin:540px 60px"><path d="M540 60 V260" stroke="#7a5a2a" stroke-width="5" stroke-dasharray="14 6"/>
+<circle cx="540" cy="282" r="22" fill="none" stroke="${GOLD}" stroke-width="7"/>
+<path d="M330 560 Q330 330 540 304 Q750 330 750 560" fill="none" stroke="${GOLD}" stroke-width="9"/>
+${Array.from({ length: 11 }, (_, i) => { const x = 340 + i * 40, top = 560 - Math.sqrt(Math.max(0, 1 - ((x - 540) / 210) ** 2)) * 250; return `<path d="M${x} 1040 V560 Q${x} ${f(top + 20)} 540 304" stroke="${GOLD}" stroke-width="4" fill="none" opacity=".9"/>`; }).join('')}
+<rect x="320" y="550" width="440" height="16" rx="6" fill="${DEEP}"/><rect x="320" y="1030" width="440" height="26" rx="8" fill="${DEEP}"/><rect x="320" y="790" width="440" height="8" fill="${DEEP}" opacity=".8"/>
+<circle class="fl" cx="540" cy="900" r="260" fill="url(#lampglow${u})" style="--d:2.2s"/>${diya(540, 1024, 2.4, u)}
+${crow(540, 262, 0.95)}</g>`)}
+${px(0.8, `<path d="M0 1240 V1200 Q540 1170 1080 1200 V1240 Z" fill="${INK}"/>`)}
+${motes(50, 300, 780, 600, 1080, '#ffe0a0', 2.4)}`,
+
+  // the Lord within: a gaunt fakir sitting on the hill at night, a lamp-light burning in his chest
+  within: (u) => `<defs>${lin(`s${u}`, [[0, '#070816'], [0.6, '#1c1a3a'], [1, '#3a2a40']])}${rad(`g${u}`, '#ffd890', 0.95)}${rad(`m${u}`, '#f0ecd8', 0.6)}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(170, 20, 1000)}<circle cx="830" cy="300" r="220" fill="url(#m${u})"/><circle cx="830" cy="300" r="62" fill="#eeeAd4"/>`)}
+${px(0.25, `${ridge(1000, 80, '#1e1a30', 131, 150)}`)}
+${px(0.5, `${rays(540, 800, 44, '#ffe2a0', 0.06, 1400, 0.035)}<circle cx="540" cy="800" r="420" fill="url(#g${u})" opacity=".5"/>
+<path d="M0 1240 V1110 Q300 1060 540 1070 Q780 1080 1080 1120 V1240 Z" fill="#06060c"/>
+<g transform="translate(540 1070)" fill="#06060c"><path d="M-200 0 Q-210 -60 -120 -80 Q-90 -86 -70 -120 Q-80 -220 -52 -300 Q-30 -350 0 -356 Q30 -350 52 -300 Q80 -220 70 -120 Q90 -86 120 -80 Q210 -60 200 0 Z"/>
+<circle cy="-396" r="40"/><path d="M-44 -404 Q0 -470 44 -404 Q0 -420 -44 -404 Z"/><path d="M-30 -370 Q0 -330 30 -370 Q20 -330 0 -320 Q-20 -330 -30 -370 Z"/>
+<path d="M-60 -230 Q-110 -150 -60 -96 M60 -230 Q110 -150 60 -96" stroke="#06060c" stroke-width="22" fill="none" stroke-linecap="round"/>
+<g opacity=".9">${Array.from({ length: 5 }, (_, i) => `<path d="M-40 ${-290 + i * 30} Q0 ${-276 + i * 30} 40 ${-290 + i * 30}" stroke="#3a2a1a" stroke-width="5" fill="none"/>`).join('')}</g>
+<circle class="fl" cy="-250" r="110" fill="url(#g${u})" style="--d:2.6s"/><path d="M0 -222 C-14 -238 -8 -258 0 -276 C8 -258 14 -238 0 -222 Z" fill="#fff0c0"/></g>`)}
+${motes(50, 340, 740, 700, 1060, '#ffe8b0', 2.2)}`,
+
+  // two eyes that still hope: a worn traveller under a dead tree at dawn, gazing down the long road to a lit doorway
+  eyes: (u) => `<defs>${lin(`s${u}`, [[0, '#101a34'], [0.45, '#3a4268'], [0.72, '#c07a6a'], [0.88, '#f0b07a'], [1, '#fbe0aa']])}${rad(`g${u}`, '#ffe4b0')}${rad(`lampglow${u}`, '#ffcf70')}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(50, 20, 420)}<circle cx="760" cy="860" r="420" fill="url(#g${u})"/>${rays(760, 860, 30, '#fff0c8', 0.04, 1500, 0.05)}`)}
+${px(0.15, `${ridge(880, 50, '#6a5070', 141, 160, 0.8)}<g transform="translate(760 872)"><rect x="-34" y="-50" width="68" height="50" fill="#3a2a34"/><path d="M-40 -50 L0 -80 L40 -50 Z" fill="#3a2a34"/><path d="M-10 0 V-26 Q0 -36 10 -26 V0 Z" fill="#ffd88a"/><circle class="fl" cy="-14" r="60" fill="url(#lampglow${u})" style="--d:2s"/></g>`)}
+${px(0.35, `<path d="M0 1240 V940 Q300 900 560 920 Q800 940 1080 900 V1240 Z" fill="#3a2a3a"/><path d="M748 914 Q700 1000 560 1080 Q420 1160 300 1240 L520 1240 Q620 1160 700 1060 Q760 990 772 914 Z" fill="#c89a7a" opacity=".55"/>`)}
+${px(0.6, `${deadTree(220, 1150, 1.15)}${crow(80, 816, 0.75)}${crow(345, 760, -0.7)}
+<g fill="${INK}" transform="translate(290 1150)"><path d="M-70 0 Q-80 -40 -50 -60 Q-40 -130 -10 -170 Q14 -186 34 -168 Q52 -130 48 -70 Q90 -50 110 0 Z"/><circle cx="34" cy="-196" r="26"/><path d="M14 -206 Q34 -236 58 -206 Q36 -214 14 -206 Z"/><path d="M40 -140 Q90 -110 120 -70" stroke="${INK}" stroke-width="14" fill="none" stroke-linecap="round"/><path d="M-120 2 L200 2" stroke="${INK}" stroke-width="8"/></g>
+<path d="M0 1240 V1150 Q540 1130 1080 1160 V1240 Z" fill="${INK}"/>`)}
+${flock(560, 460, 5, 0.9, '#2a2440')}${motes(30, 500, 1000, 800, 1100, '#fff0c8', 2)}`,
+
+  // every creed: a mosque and a temple on the skyline; a man at prayer, a matted jogi with his trident, a silent muni under a tree
+  seekers: (u) => `<defs>${lin(`s${u}`, [[0, '#141a34'], [0.45, '#4a3a5e'], [0.75, '#b06a62'], [1, '#eeb076']])}${rad(`g${u}`, '#ffd8a0')}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(70, 20, 520)}<circle cx="540" cy="860" r="460" fill="url(#g${u})"/><circle cx="540" cy="880" r="90" fill="#ffe2b0"/>`)}
+${px(0.15, `<g fill="#3a2c44"><path d="M110 900 V760 Q110 690 190 670 Q270 690 270 760 V900 Z"/><rect x="186" y="610" width="8" height="64"/><path d="M182 612 Q190 596 198 612 Z"/><rect x="60" y="640" width="26" height="260"/><path d="M54 642 Q73 590 92 642 Z"/><rect x="296" y="640" width="26" height="260"/><path d="M290 642 Q309 590 328 642 Z"/>
+<path d="M800 900 V740 L830 720 L846 600 Q860 520 876 600 L892 720 L922 740 V900 Z"/><path d="M760 900 V800 L790 780 L800 730 L812 780 L840 800 V900 Z"/><path d="M908 900 V800 L936 780 L948 730 L960 780 L986 800 V900 Z"/><path d="M876 520 V470 l24 10 l-24 10" fill="#3a2c44"/></g>`)}
+${px(0.3, `${ridge(960, 40, '#2a1e30', 151, 160)}`)}
+${px(0.55, `<path d="M0 1240 V1060 Q540 1020 1080 1060 V1240 Z" fill="${INK}"/>
+<g fill="${INK}" transform="translate(170 1064)"><path d="M-60 0 Q-70 -40 -40 -60 Q-20 -110 20 -116 Q50 -100 56 -60 Q80 -40 70 0 Z"/><circle cx="34" cy="-126" r="22"/><path d="M14 -134 Q34 -160 56 -134 Q36 -140 14 -134 Z"/><path d="M-90 2 H110" stroke="${INK}" stroke-width="6"/></g>
+<g fill="${INK}" transform="translate(420 1050)"><path d="M-16 0 L-14 -70 Q-24 -118 -16 -150 Q0 -162 16 -150 Q24 -118 14 -70 L16 0 Z"/><circle cy="-176" r="19"/><path d="M-22 -180 Q-34 -230 0 -240 Q34 -230 22 -180 Q30 -150 26 -120 Q14 -160 0 -160 Q-14 -160 -26 -120 Q-30 -150 -22 -180 Z"/><path d="M40 0 V-260" stroke="${INK}" stroke-width="7"/><path d="M22 -250 Q22 -284 40 -290 Q58 -284 58 -250 M40 -290 V-300" stroke="${INK}" stroke-width="6" fill="none"/><path d="M14 -120 L40 -140" stroke="${INK}" stroke-width="10" stroke-linecap="round"/></g>
+<g transform="translate(800 1062)"><path d="M0 0 Q-10 -140 10 -260" stroke="${INK}" stroke-width="24" fill="none"/><g fill="${INK}"><ellipse cx="-40" cy="-300" rx="140" ry="60"/><ellipse cx="90" cy="-270" rx="110" ry="50"/><ellipse cx="20" cy="-350" rx="100" ry="50"/></g>
+<g fill="${INK}" transform="translate(110 0)"><path d="M-70 0 Q-70 -40 -40 -56 Q-40 -120 0 -136 Q40 -120 40 -56 Q70 -40 70 0 Z"/><circle cy="-162" r="24"/><path d="M-26 -170 Q0 -210 26 -170 Q0 -180 -26 -170 Z"/></g></g>`)}
+${flock(500, 420, 6, 1, '#2a2240')}${motes(40, 0, W, 800, 1150, '#ffe0a8', 2)}`,
+
+  // "love sets me swaying": a swing under a great banyan at dusk, a girl swinging high, her dupatta streaming, petals falling
+  swing: (u) => `<defs>${lin(`s${u}`, [[0, '#1c1430'], [0.45, '#5a2e52'], [0.75, '#c2605a'], [1, '#f4b070']])}${rad(`g${u}`, '#ffd090')}${lin(`d${u}`, [[0, '#e0566a'], [1, '#f2b84a']], 1, 0)}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(40, 20, 360)}<circle cx="760" cy="880" r="420" fill="url(#g${u})"/><circle cx="760" cy="900" r="100" fill="#ffd8a0"/>`)}
+${px(0.2, `${ridge(960, 50, '#6a2c48', 161, 150, 0.85)}`)}
+${px(0.45, `<path d="M0 1240 V1040 Q540 1000 1080 1050 V1240 Z" fill="#1a0e18"/>
+<g fill="${INK}"><path d="M120 1060 Q150 700 110 420" stroke="${INK}" stroke-width="70" fill="none"/><path d="M130 430 Q500 330 1000 300" stroke="${INK}" stroke-width="34" fill="none" stroke-linecap="round"/>${Array.from({ length: 7 }, (_, i) => `<path d="M${200 + i * 110} ${400 - i * 12} q${f(r() * 20 - 10)} 200 ${f(r() * 30 - 15)} 420" stroke="${INK}" stroke-width="4" fill="none" opacity=".8"/>`).join('')}
+<ellipse cx="120" cy="300" rx="260" ry="140"/><ellipse cx="420" cy="260" rx="260" ry="110"/><ellipse cx="760" cy="250" rx="300" ry="100"/><ellipse cx="1040" cy="280" rx="160" ry="90"/><ellipse cx="300" cy="180" rx="220" ry="90"/><ellipse cx="640" cy="170" rx="240" ry="80"/></g>
+<g class="sway" style="--d:3.4s;transform-origin:560px 360px"><path d="M500 366 L470 900 M620 366 L650 900" stroke="#3a2418" stroke-width="5"/><rect x="450" y="896" width="220" height="16" rx="6" fill="#3a2418"/>
+<g fill="${INK}" transform="translate(560 896)"><path d="M-40 0 Q-50 -40 -36 -90 Q-20 -150 0 -156 Q24 -150 36 -90 Q50 -40 40 0 Z"/><circle cy="-180" r="22"/><path d="M-30 -96 L-80 -240 M30 -96 L80 -240" stroke="${INK}" stroke-width="10" stroke-linecap="round"/><path d="M-30 0 L-60 90 M30 0 L50 92" stroke="${INK}" stroke-width="12" stroke-linecap="round"/></g>
+<path d="M548 740 Q420 720 300 780 Q200 830 120 800 Q220 760 300 740 Q420 700 548 716 Z" fill="url(#d${u})" opacity=".9"/></g>`)}
+${px(0.8, `<path d="M0 1240 V1150 Q540 1120 1080 1150 V1240 Z" fill="${INK}"/>`)}
+${petals(50, '#e0566a')}${petals(30, '#f2b84a')}`,
+
+  // "Bulleh came walking from afar": a lone traveller with staff and bundle on the long road at evening, a lit shrine far off
+  journey: (u) => `<defs>${lin(`s${u}`, [[0, '#0e1430'], [0.5, '#323a66'], [0.8, '#9a6a78'], [1, '#e4a886']])}${rad(`g${u}`, '#ffe0b0')}${rad(`lampglow${u}`, '#ffcf70')}${rad(`m${u}`, '#f4ecd4', 0.7)}</defs>
+${px(0, `<rect width="${W}" height="${H}" fill="url(#s${u})"/>${stars(120, 20, 700)}<circle cx="220" cy="300" r="180" fill="url(#m${u})"/><circle cx="220" cy="300" r="56" fill="#f4ecd4"/><circle cx="700" cy="880" r="360" fill="url(#g${u})" opacity=".8"/>`)}
+${px(0.15, `${ridge(900, 40, '#5a4a6a', 171, 160, 0.8)}<g transform="translate(700 890)" fill="#2a2236"><rect x="-50" y="-60" width="100" height="60"/><path d="M-40 -60 Q-40 -120 0 -132 Q40 -120 40 -60 Z"/><rect x="-2" y="-152" width="4" height="22"/><rect x="-74" y="-110" width="12" height="110"/><rect x="62" y="-110" width="12" height="110"/><path d="M-8 0 V-30 Q0 -40 8 -30 V0 Z" fill="#ffd88a"/><circle class="fl" cy="-20" r="80" fill="url(#lampglow${u})" style="--d:2.4s"/></g>`)}
+${px(0.35, `<path d="M0 1240 V930 Q300 900 560 916 Q800 930 1080 900 V1240 Z" fill="#2a2238"/><path d="M690 900 Q640 960 520 1040 Q380 1130 260 1240 L560 1240 Q640 1130 700 1030 Q730 960 712 900 Z" fill="#b09090" opacity=".5"/>
+${Array.from({ length: 10 }, (_, i) => `<path d="M${f(40 + r() * 1000)} ${f(960 + r() * 200)} q${f(4 + r() * 6)} -${f(20 + r() * 30)} ${f(10 + r() * 6)} 0" stroke="#14101c" stroke-width="3" fill="none"/>`).join('')}`)}
+${px(0.6, `<g class="drift" style="--x:60px"><g fill="${INK}" transform="translate(420 1130) scale(1.25)"><path d="M-14 0 L-10 -60 Q-22 -110 -12 -140 Q0 -150 14 -140 Q24 -110 14 -60 L18 0 L8 0 L2 -50 L-4 0 Z"/><circle cy="-162" r="17"/><path d="M-16 -168 Q0 -192 16 -168 Q0 -176 -16 -168 Z"/><path d="M26 0 L40 -190" stroke="${INK}" stroke-width="6"/><path d="M14 -120 L36 -110" stroke="${INK}" stroke-width="8" stroke-linecap="round"/><path d="M-12 -136 Q-40 -150 -50 -110 Q-46 -84 -18 -96 Z"/></g></g>
+<path d="M0 1240 V1160 Q540 1140 1080 1170 V1240 Z" fill="${INK}"/>`)}
+${flock(620, 520, 5, 0.9, '#1a1630')}${motes(30, 0, W, 850, 1150, '#ffe8c0', 2)}`,
 };
 
 export const SCENE_NAMES = Object.keys(SCENES);

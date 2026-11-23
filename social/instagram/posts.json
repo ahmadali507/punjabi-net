@@ -2209,6 +2209,364 @@
       "account": "punjabiidotnet",
       "media_id": "4036754845354442702_16922094236",
       "code": "DgFbyTqsD_O"
+    },
+    {
+      "id": "033-farid-kaga-long",
+      "status": "draft",
+      "kind": "reel",
+      "style": "lyric",
+      "form": "long",
+      "title": "کاگا کرنگ ڈھنڈولیا",
+      "poem": "kaga-krng-dhndolia",
+      "track": {
+        "id": "827835925390102",
+        "query": "Kaga Karang Dhandoleya"
+      },
+      "singer": "Bhai Maninder Singh",
+      "credit": {
+        "pa": "بابا فرید",
+        "en": "Baba Farid"
+      },
+      "kicker": {
+        "en": "Shaloks of Baba Farid",
+        "pa": "کاگا کرنگ ڈھنڈولیا",
+        "src": "Gurbani kirtan · Salok Sheikh Farid"
+      },
+      "audio": "two long continuous passages of the kirtan (repeats kept), one 1.5 s crossfade",
+      "segments": [
+        {
+          "from": 4.5,
+          "to": 57.0
+        },
+        {
+          "from": 136.0,
+          "to": 235.5
+        }
+      ],
+      "xfade": 1.5,
+      "movements": [
+        {
+          "at": 4.5,
+          "pa": "کاگا کرنگ ڈھنڈولیا",
+          "en": "I · The crow"
+        },
+        {
+          "at": 136.0,
+          "pa": "کاگا چونڈ نہ پنجرہ",
+          "en": "II · The cage"
+        }
+      ],
+      "lines": {
+        "A1": {
+          "pa": "کاگا کرنگ ڈھنڈولیا",
+          "en": "The crow has picked through my skeleton"
+        },
+        "A2": {
+          "pa": "سگلا کھایا ماس",
+          "en": "and eaten all my flesh."
+        },
+        "A3": {
+          "pa": "ایہہ دو نیناں مت چُھوہیو",
+          "en": "But do not touch these two eyes:"
+        },
+        "A4": {
+          "pa": "پِر دیکھن کی آس",
+          "en": "they still hope to see my Beloved."
+        },
+        "B1": {
+          "pa": "کاگا چونڈ نہ پنجرہ",
+          "en": "Crow, do not peck at this cage;"
+        },
+        "B2": {
+          "pa": "بس اے تاں اُڈر جاہِ",
+          "en": "if you have landed here, fly away."
+        },
+        "B3": {
+          "pa": "جِت پنجرے میرا شَوہ",
+          "en": "In this cage my Lord"
+        },
+        "B4": {
+          "pa": "وسّے ماس نہ تِدوں کھاہِ",
+          "en": "lives; do not eat its flesh."
+        }
+      },
+      "screens": [
+        {
+          "at": 4.5,
+          "kind": "title",
+          "scene": "crow"
+        },
+        {
+          "at": 8.0,
+          "kind": "line",
+          "line": "A1",
+          "scene": "crow"
+        },
+        {
+          "at": 28.3,
+          "kind": "line",
+          "line": "A2",
+          "prev": "A1",
+          "scene": "bones"
+        },
+        {
+          "at": 141.9,
+          "kind": "line",
+          "line": "B1",
+          "scene": "cage"
+        },
+        {
+          "at": 149.0,
+          "kind": "line",
+          "line": "B2",
+          "prev": "B1",
+          "scene": "cage"
+        },
+        {
+          "at": 161.9,
+          "kind": "line",
+          "line": "B3",
+          "scene": "within"
+        },
+        {
+          "at": 167.0,
+          "kind": "line",
+          "line": "B4",
+          "prev": "B3",
+          "scene": "within"
+        },
+        {
+          "at": 182.0,
+          "kind": "line",
+          "line": "A3",
+          "scene": "eyes"
+        },
+        {
+          "at": 189.0,
+          "kind": "line",
+          "line": "A4",
+          "prev": "A3",
+          "scene": "eyes"
+        },
+        {
+          "at": 195.3,
+          "kind": "line",
+          "line": "A3",
+          "scene": "eyes"
+        },
+        {
+          "at": 202.3,
+          "kind": "line",
+          "line": "A4",
+          "prev": "A3",
+          "scene": "eyes"
+        },
+        {
+          "at": 209.5,
+          "kind": "line",
+          "line": "A1",
+          "scene": "crow"
+        },
+        {
+          "at": 229.0,
+          "kind": "end"
+        }
+      ],
+      "cover_at": 190.0,
+      "note": "Long-form rebuild of 030 (owner 2026-11-23: long flowing reels). Bhai Maninder Singh 'Kaga Karang Dhandoleya': passage I = Farid shalok 91 lines 1-2 with the ragi's repeats (4.5-57 s, stops before the non-file line at 58 s); passage II = shalok 92 whole, then 91 lines 3-4 and line 1 as the ragi returns to them, ending on the instrumental (136-235.5 s). Text from src/content/poems (kaga-krng-dhndolia, kaga-chond-nh-pnjrh); sung variants as in 030 ('udar jaahi', 'khaahi')."
+    },
+    {
+      "id": "034-bulleh-ishq-long",
+      "status": "posted",
+      "kind": "reel",
+      "style": "lyric",
+      "form": "long",
+      "title": "مینوں عشقَ ہلارے دیندا",
+      "poem": "minon-ashq-hlare-dinda",
+      "track": {
+        "id": "1320929705693414",
+        "query": "Ishq Hularey Zain Zohaib"
+      },
+      "singer": "Zain Zohaib",
+      "credit": {
+        "pa": "بلھے شاہ",
+        "en": "Bulleh Shah"
+      },
+      "kicker": {
+        "en": "Kafi of Baba Bulleh Shah",
+        "pa": "مینوں عشقَ ہلارے دیندا",
+        "src": "Ishq Hularey"
+      },
+      "audio": "two long continuous passages (repeats kept), one 1.5 s crossfade",
+      "segments": [
+        {
+          "from": 128.0,
+          "to": 193.0
+        },
+        {
+          "from": 254.0,
+          "to": 318.5
+        }
+      ],
+      "xfade": 1.5,
+      "movements": [
+        {
+          "at": 128.0,
+          "pa": "کتے شیعہ کتے سنی",
+          "en": "I · Beyond every creed"
+        },
+        {
+          "at": 254.0,
+          "pa": "بلھا دوروں چل کے آیا",
+          "en": "II · Bulleh came from afar"
+        }
+      ],
+      "lines": {
+        "S1": {
+          "pa": "کتے شیعہ اے کتے سنی اے",
+          "en": "Here a Shia, there a Sunni,"
+        },
+        "S2": {
+          "pa": "کتے جٹادھاری کتے منی اے",
+          "en": "here a matted ascetic, there a silent sage;"
+        },
+        "S3": {
+          "pa": "میری سب توں فارغ کنی اے",
+          "en": "I keep apart from them all,"
+        },
+        "S4": {
+          "pa": "جو میں کہاں سو یار منیندا جی",
+          "en": "and whatever I say, my Beloved accepts."
+        },
+        "R": {
+          "pa": "مینوں عشقَ ہلارے دیندا جی",
+          "en": "Love sets me swaying."
+        },
+        "T1": {
+          "pa": "بلھا دوروں چل کے آیا جی",
+          "en": "Bulleh came walking from far away;"
+        },
+        "T2": {
+          "pa": "اوہدی صورتَ نے بھرمایا جی",
+          "en": "His face bewitched me."
+        },
+        "T3": {
+          "pa": "اوسے پاک جمال وکھایا جی",
+          "en": "He showed me that pure beauty,"
+        },
+        "T4": {
+          "pa": "اوہ اک دم نہ بھلیندا جی",
+          "en": "and I cannot forget it for a moment."
+        }
+      },
+      "screens": [
+        {
+          "at": 128.0,
+          "kind": "line",
+          "line": "S1",
+          "scene": "seekers"
+        },
+        {
+          "at": 132.4,
+          "kind": "line",
+          "line": "S2",
+          "prev": "S1",
+          "scene": "seekers"
+        },
+        {
+          "at": 140.7,
+          "kind": "line",
+          "line": "S3",
+          "scene": "dervish"
+        },
+        {
+          "at": 149.0,
+          "kind": "line",
+          "line": "S4",
+          "prev": "S3",
+          "scene": "dervish"
+        },
+        {
+          "at": 155.8,
+          "kind": "line",
+          "line": "R",
+          "scene": "swing"
+        },
+        {
+          "at": 160.2,
+          "kind": "line",
+          "line": "S4",
+          "prev": "S3",
+          "scene": "dervish"
+        },
+        {
+          "at": 164.4,
+          "kind": "line",
+          "line": "R",
+          "scene": "swing"
+        },
+        {
+          "at": 168.5,
+          "kind": "line",
+          "line": "T1",
+          "scene": "journey"
+        },
+        {
+          "at": 258.4,
+          "kind": "line",
+          "line": "T1",
+          "scene": "journey"
+        },
+        {
+          "at": 266.9,
+          "kind": "line",
+          "line": "T2",
+          "prev": "T1",
+          "scene": "heart"
+        },
+        {
+          "at": 275.5,
+          "kind": "line",
+          "line": "T3",
+          "scene": "kasur"
+        },
+        {
+          "at": 284.0,
+          "kind": "line",
+          "line": "T4",
+          "prev": "T3",
+          "scene": "dervish"
+        },
+        {
+          "at": 290.3,
+          "kind": "line",
+          "line": "R",
+          "scene": "swing"
+        },
+        {
+          "at": 294.6,
+          "kind": "line",
+          "line": "T4",
+          "prev": "T3",
+          "scene": "dervish"
+        },
+        {
+          "at": 298.7,
+          "kind": "line",
+          "line": "R",
+          "scene": "swing"
+        },
+        {
+          "at": 313.8,
+          "kind": "end"
+        }
+      ],
+      "cover_at": 158.0,
+      "note": "Long-form rebuild of 028 (owner 2026-11-23: long flowing reels). Zain Zohaib 'Ishq Hularey': passage I = verse 2 whole + refrain + verse 3 line 1 'Bulla duron chal ke aaya ji' with the singer's repeats (128-193 s; starts after the added non-file lines at 104-128 s); passage II = verse 3 whole (from the sargam lead-in at 254 s) + closing refrains to the end of the track (254-318.5 s). Text from src/content/poems/minon-ashq-hlare-dinda.md, long lines broken at the comma; sung variants as in 028 ('shia ae', 'sab ton', 'jo main kahan', 'ik dam', sung 'ji' endings).",
+      "posted_at": "2026-11-23T18:29:35+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4036921126984668843_16922094236",
+      "code": "DgGBmBgMNar"
     }
   ]
 }

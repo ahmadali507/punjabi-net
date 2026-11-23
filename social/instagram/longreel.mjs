@@ -5,13 +5,14 @@
  * line under it and a gold rule that sweeps while it is sung; the singer's spoken asides shown in English.
  *
  *   node social/instagram/longreel.mjs 032-bulleh-yaar-raazi   # -> out/<id>.mp4, out/<id>-reel.txt, out/<id>/cover.jpg
+ *   add --resume to keep the frames an interrupted render already wrote
  *
  * posts.json item ("form": "long"):
  *   segments: [{from, to}] track seconds, played in order; xfade: seconds of crossfade between them
  *   lines: {KEY: {pa, en}}; screens: [{at (track s), kind: title|line|spoken|end, line?, prev?, en?, scene}]
  *   movements: [{at, pa, en}] the small label under the brand
  */
-import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { homedir } from 'node:os';
 import { fileURLToPath } from 'node:url';
@@ -190,8 +191,9 @@ await page.evaluate(({ scr, runs, DUR, endAt, movements }) => {
 }, { scr, runs, DUR, endAt, movements: (post.movements ?? []).map((m) => ({ t: map(m.at) })) });
 
 const FR = join(DIR, 'frames');
-rmSync(FR, { recursive: true, force: true });
-mkdirSync(FR);
+const RESUME = process.argv.includes('--resume'); // keep frames already rendered by an interrupted run
+if (!RESUME) rmSync(FR, { recursive: true, force: true });
+mkdirSync(FR, { recursive: true });
 const only = process.argv.includes('--frames') ? process.argv[process.argv.indexOf('--frames') + 1].split(',').map(Number) : null;
 if (only) { // quick check: a few stills (seconds), no video
   for (const t of only) { await page.evaluate((x) => window.seek(x), t); await page.screenshot({ path: join(DIR, `still-${t}.jpg`), type: 'jpeg', quality: 85 }); }
@@ -201,8 +203,10 @@ if (only) { // quick check: a few stills (seconds), no video
 }
 const frames = Math.ceil(DUR * FPS);
 for (let fr = 0; fr < frames; fr++) {
+  const fp = join(FR, `${String(fr).padStart(5, '0')}.jpg`);
+  if (RESUME && existsSync(fp) && statSync(fp).size > 0) continue;
   await page.evaluate((t) => window.seek(t), fr / FPS);
-  await page.screenshot({ path: join(FR, `${String(fr).padStart(5, '0')}.jpg`), type: 'jpeg', quality: 90 });
+  await page.screenshot({ path: fp, type: 'jpeg', quality: 90 });
   if (fr % 300 === 0) process.stdout.write(`\rframe ${fr}/${frames}`);
 }
 await browser.close();
