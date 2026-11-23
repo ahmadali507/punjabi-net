@@ -123,6 +123,100 @@ ${Array.from({ length: 12 }, (_, i) => { const a = (i * Math.PI) / 6, c = Math.c
 ${Array.from({ length: 5 }, (_, i) => `<path class="shim" style="--k:${(i * 0.5).toFixed(1)}s" d="M${255 + i * 6} ${410 + i * 3} q30 4 60 -2" stroke="#9fc4d0" stroke-width="3" fill="none" stroke-linecap="round"/>`).join('')}
 <g fill="${INK}" transform="translate(410 330)"><path d="M0 40 q0 -30 30 -32 h50 q18 0 22 -16 q10 -8 16 2 l-4 10 q12 4 6 14 l-14 2 q-6 14 -14 18 v34 h-8 l-2 -30 h-44 l-4 30 h-8 v-34 q-14 -4 -16 -24 Z"/></g>
 <rect y="490" width="640" height="30" fill="#5d4126"/>`,
+  // namaz: a worshipper in sajda on a prayer mat before a mosque at dawn (the five prayers, the namazi)
+  namaz: (u) => `<defs>${sky(`k${u}`, [[0, '#2f3550'], [0.5, '#a5779a'], [1, '#f0c27c']])}${glow(`g${u}`, '#ffe6b0')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>${stars(26, 120)}
+<circle cx="320" cy="330" r="190" fill="url(#g${u})" opacity=".55"/>
+<circle cx="520" cy="78" r="22" fill="#f6e5b8"/><circle cx="530" cy="70" r="20" fill="#3a3a58"/>
+<g fill="#3a2c33"><path d="M210 330 Q210 230 320 214 Q430 230 430 330 Z"/><rect x="316" y="180" width="8" height="38"/><circle cx="320" cy="178" r="7"/>
+<rect x="170" y="330" width="300" height="120"/><rect x="128" y="196" width="24" height="254"/><path d="M124 198 q16 -44 32 0 Z"/><rect x="488" y="196" width="24" height="254"/><path d="M484 198 q16 -44 32 0 Z"/>
+<rect x="122" y="250" width="36" height="8"/><rect x="482" y="250" width="36" height="8"/></g>
+<path d="M290 450 V392 q30 -44 60 0 V450 Z" fill="#f2c069" opacity=".9"/>
+${[214, 254, 386, 426].map((x) => `<path d="M${x} 410 V378 q10 -16 20 0 V410 Z" fill="#f2c069" opacity=".55"/>`).join('')}
+<rect y="446" width="640" height="74" fill="${INK}"/>
+<path d="M200 494 L440 494 L452 476 L212 476 Z" fill="${DEEP}"/><path d="M214 480 H438" stroke="${GOLD}" stroke-width="2" stroke-dasharray="6 6"/>
+<g fill="#0e0c0a" transform="translate(320 486) scale(1.35) translate(-320 -486)"><path d="M366 486 L344 486 Q332 470 336 446 Q340 432 352 430 Q330 424 304 444 Q290 456 286 470 L300 478 Q312 470 322 464 L330 486 Z"/>
+<circle cx="279" cy="474" r="11"/><path d="M270 468 q9 -12 18 0 Z" fill="#efe4cc"/><path d="M300 470 L262 486" stroke="#0e0c0a" stroke-width="5" stroke-linecap="round"/><path d="M344 486 H376" stroke="#0e0c0a" stroke-width="5" stroke-linecap="round"/></g>`,
+
+  // ghazi: a rider coming home from battle at sunset, sword raised, banner flying (the ghazi, the victor)
+  ghazi: (u) => `<defs>${sky(`k${u}`, [[0, '#5a2f2a'], [0.55, '#c8643a'], [1, '#efb262']])}${glow(`g${u}`, '#ffd08a')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="470" cy="300" r="170" fill="url(#g${u})" opacity=".7"/><circle cx="470" cy="300" r="60" fill="#f7cf87"/>
+<g fill="#4a2a22" opacity=".85"><rect x="480" y="250" width="120" height="170"/><path d="M500 250 q40 -60 80 0 Z"/><rect x="452" y="230" width="28" height="190"/><rect x="600" y="230" width="28" height="190"/><path d="M520 420 V340 q20 -28 40 0 V420 Z" fill="#f2b866"/></g>
+<path d="M0 400 Q200 370 400 396 T640 390 V520 H0 Z" fill="#7a4026"/>
+${Array.from({ length: 7 }, (_, i) => `<circle class="tw" style="--d:${(2 + i * 0.3).toFixed(1)}s" cx="${60 + i * 26}" cy="${440 - (i % 3) * 10}" r="${10 + (i % 3) * 5}" fill="#c99868" opacity=".35"/>`).join('')}
+<g class="drift" style="--x:90px"><g class="bob" fill="${INK}">
+<path d="M120 420 q-10 -40 20 -58 q40 -16 100 -8 q22 -26 40 -30 l14 -8 q8 4 2 14 l-6 10 q10 18 0 30 q-14 -4 -22 4 q-6 30 -24 40 l8 46 h-10 l-14 -40 h-60 l-14 40 h-10 l6 -44 q-26 6 -40 -4 Z"/>
+<path d="M126 380 q-30 10 -44 40" stroke="${INK}" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M186 352 q-6 -30 6 -44 q14 -10 26 0 q8 16 0 44 Z"/><circle cx="204" cy="294" r="12"/><path d="M190 286 q14 -18 28 0 Z" fill="${DEEP}"/>
+<path d="M214 318 L262 266" stroke="${INK}" stroke-width="7" stroke-linecap="round"/><path d="M258 270 L300 210" stroke="#e6dcc4" stroke-width="5" stroke-linecap="round"/>
+<path d="M190 318 L160 220" stroke="${INK}" stroke-width="4"/><path class="sway" style="--d:1.6s;transform-origin:160px 222px" d="M160 222 q30 -6 46 6 q-20 10 -44 6 Z" fill="${GOLD}"/></g></g>
+${bird(300, 120)}${bird(340, 140, 0.8)}`,
+
+  // qazi: a judge on the high seat of justice, the scales above him, a petitioner bowed before him (the qazi)
+  qazi: (u) => `<defs>${sky(`k${u}`, [[0, '#3a2a22'], [1, '#7a5233']])}${glow(`g${u}`, '#f3c675')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>
+<path d="M140 520 V220 C140 140 260 100 320 70 C380 100 500 140 500 220 V520 Z" fill="#5b3b28" stroke="${GOLD}" stroke-width="3" opacity=".9"/>
+<circle cx="320" cy="250" r="190" fill="url(#g${u})" opacity=".45"/>
+<g transform="translate(320 130)"><g class="sway" style="--d:4.5s;transform-origin:0 0"><path d="M0 0 V24 M-70 24 H70" stroke="${GOLD}" stroke-width="4"/><path d="M-70 24 L-90 70 M-70 24 L-50 70 M70 24 L50 70 M70 24 L90 70" stroke="${GOLD}" stroke-width="1.6"/>
+<path d="M-96 70 q26 20 52 0 Z" fill="${GOLD}"/><path d="M44 70 q26 20 52 0 Z" fill="${GOLD}"/></g><circle r="7" fill="${GOLD}"/></g>
+<g fill="${INK}"><rect x="250" y="300" width="140" height="18" rx="4"/><rect x="262" y="318" width="14" height="150"/><rect x="364" y="318" width="14" height="150"/><path d="M256 234 V300 H384 V234 q-64 -26 -128 0 Z" fill="#2c1d16"/>
+<path d="M286 300 q-2 -44 34 -52 q36 8 34 52 Z"/><circle cx="320" cy="232" r="17"/><path d="M300 226 q20 -30 40 0 q-20 -8 -40 0 Z" fill="#efe4cc"/><path d="M314 246 q6 18 12 0 Z" fill="#d8cdb6"/>
+<rect x="340" y="282" width="34" height="22" fill="${DEEP}"/><path d="M357 282 V304" stroke="${GOLD}" stroke-width="1.5"/></g>
+<rect y="468" width="640" height="52" fill="#24170f"/><path d="M180 468 H460" stroke="${GOLD}" stroke-width="2" opacity=".6"/>
+<g fill="${INK}"><path d="M120 466 q4 -36 30 -40 q22 4 34 24 l10 16 Z"/><circle cx="196" cy="456" r="10"/></g>
+<g fill="${INK}"><path d="M520 466 q-4 -36 -30 -40 q-22 4 -34 24 l-10 16 Z"/><circle cx="444" cy="456" r="10"/></g>`,
+
+  // laila: Laila's curtained litter (mahmil) carried away on a camel by night, Majnu left behind reaching after it
+  laila: (u) => `<defs>${sky(`k${u}`, [[0, '#141a30'], [0.6, '#3b3352'], [1, '#9a6a48']])}${glow(`g${u}`, '#f5dca0')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>${stars(70, 260)}
+<circle cx="150" cy="110" r="40" fill="#f4e3b4"/><circle cx="150" cy="110" r="110" fill="url(#g${u})" opacity=".35"/>
+<path d="M0 360 Q180 310 360 350 T640 330 V520 H0 Z" fill="#6a4a36"/><path d="M0 430 Q220 380 420 420 T640 410 V520 H0 Z" fill="#4a3226"/>
+<g class="drift" style="--x:110px"><g fill="${INK}">
+<path d="M420 352 L414 424 M442 356 L440 424 M500 356 L504 424 M522 350 L530 424" stroke="${INK}" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="470" cy="334" rx="72" ry="30"/><ellipse cx="462" cy="310" rx="42" ry="26"/>
+<path d="M530 330 Q566 312 560 262" stroke="${INK}" stroke-width="18" fill="none" stroke-linecap="round"/><ellipse cx="572" cy="256" rx="20" ry="10"/>
+<path d="M400 330 q-14 10 -12 30" stroke="${INK}" stroke-width="5" fill="none"/>
+<g transform="translate(408 262)"><g><path d="M10 26 q0 -52 44 -64 q44 12 44 64 Z" fill="#7a2f2a"/><path d="M54 -38 v-14" stroke="${GOLD}" stroke-width="3"/><circle cx="54" cy="-54" r="5" fill="${GOLD}"/>
+<path d="M4 26 h100" stroke="${GOLD}" stroke-width="4"/><path d="M8 26 q-4 18 4 30 M100 26 q4 18 -4 30" stroke="#7a2f2a" stroke-width="6" fill="none"/><path d="M28 24 q0 -34 26 -46 q26 12 26 46" fill="none" stroke="${GOLD}" stroke-width="1.6"/>
+<circle class="tw" style="--d:2s" cx="54" cy="6" r="18" fill="url(#g${u})"/></g></g></g></g>
+<g fill="#0e0b0a"><path d="M120 444 q-6 -40 6 -62 q10 -14 22 -4 q10 22 4 66 Z"/><circle cx="140" cy="362" r="14"/>
+<path d="M128 356 q-18 -10 -14 -28 M140 348 q-4 -20 8 -30 M150 354 q16 -14 30 -8 M130 366 q-20 4 -26 18" stroke="#0e0b0a" stroke-width="3" fill="none"/>
+<path d="M150 392 Q210 360 250 330" stroke="#0e0b0a" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M100 444 H190" stroke="#0e0b0a" stroke-width="6"/></g>`,
+
+  // majnu: Majnu in the wilderness, gaunt and alone, deer resting by him, a bird nesting in his hair
+  majnu: (u) => `<defs>${sky(`k${u}`, [[0, '#f1dfb6'], [0.6, '#e6b46c'], [1, '#c58642']])}${glow(`g${u}`, '#fff2cc')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/><circle cx="470" cy="210" r="140" fill="url(#g${u})"/><circle cx="470" cy="210" r="50" fill="#f8dea0"/>
+<path d="M0 340 Q160 290 320 330 T640 310 V520 H0 Z" fill="#d39c56"/><path d="M0 410 Q200 360 400 400 T640 390 V520 H0 Z" fill="#b07a3a"/>
+<g fill="${INK}"><path d="M90 420 q4 -60 14 -110 q8 -40 4 -70 q10 10 14 40 q6 -30 20 -44 q-6 30 -10 60 q-4 60 4 124 Z"/><path d="M104 300 q-30 -20 -44 -14 M118 262 q20 -24 40 -22" stroke="${INK}" stroke-width="4" fill="none"/></g>
+<g fill="#16110d"><path d="M262 432 q-8 -48 8 -74 q14 -16 30 -2 q12 26 2 76 Z"/><circle cx="284" cy="342" r="17"/>
+<path d="M266 336 q-16 -26 4 -40 q14 -14 30 -4 q20 6 12 34" fill="#16110d"/>
+<path d="M270 384 q-24 10 -30 40 M300 384 q20 16 18 44" stroke="#16110d" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M232 436 H340" stroke="#16110d" stroke-width="7"/></g>
+<g class="bob"><path d="M286 296 q8 -10 18 -2 q-4 6 -2 10 l-8 -2 Z" fill="${DEEP}"/><circle cx="300" cy="294" r="2" fill="#f4e3b4"/></g>
+<g fill="${INK}"><g transform="translate(380 404)"><path d="M0 26 q4 -20 30 -22 h40 q10 0 14 -12 l6 -14 q4 -6 8 0 l-2 14 q8 2 4 10 l-10 4 q-4 10 -10 14 v20 h-6 l-2 -18 h-36 l-4 18 h-6 v-20 q-14 -2 -16 -14 Z"/><path d="M98 -14 l6 -16 M98 -14 l-4 -18" stroke="${INK}" stroke-width="2.4"/></g>
+<g transform="translate(170 420) scale(.8)"><path d="M0 26 q4 -20 30 -22 h40 q10 0 14 -12 l6 -14 q4 -6 8 0 l-2 14 q8 2 4 10 l-10 4 q-4 10 -10 14 v20 h-6 l-2 -18 h-36 l-4 18 h-6 v-20 q-14 -2 -16 -14 Z" transform="scale(-1 1) translate(-110 0)"/></g></g>
+${bird(360, 120)}${bird(400, 140, 0.8)}`,
+  // kaaba: the Kaaba under a night sky, pilgrims circling it in white (the Hajj, the haji)
+  kaaba: (u) => `<defs>${sky(`k${u}`, [[0, '#121a2e'], [0.65, '#2f3552'], [1, '#6a5a50']])}${glow(`g${u}`, '#f6e2ae')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>${stars(50, 200)}
+<circle cx="320" cy="300" r="230" fill="url(#g${u})" opacity=".35"/>
+<path d="M0 520 V410 Q320 380 640 410 V520 Z" fill="#d8cfbd" opacity=".85"/>
+<ellipse cx="320" cy="430" rx="250" ry="46" fill="none" stroke="#efe6d4" stroke-width="2" opacity=".5"/>
+<g><path d="M232 236 L320 214 L408 236 L408 418 L320 440 L232 418 Z" fill="#0c0b0b"/><path d="M320 214 V440" stroke="#1c1a19" stroke-width="2"/>
+<path d="M232 270 L320 250 L408 270 L408 288 L320 268 L232 288 Z" fill="${GOLD}"/><path d="M300 440 V372 q20 -12 40 0 V440" fill="${DEEP}" opacity=".9"/></g>
+<g class="drift" style="--x:60px">${Array.from({ length: 26 }, (_, i) => { const a = (i / 26) * Math.PI * 2, x = 320 + 250 * Math.cos(a), y = 432 + 44 * Math.sin(a); return y > 420 || x < 225 || x > 415 ? `<g fill="#f3ece0"><circle cx="${x.toFixed(0)}" cy="${(y - 18).toFixed(0)}" r="4"/><path d="M${(x - 5).toFixed(0)} ${(y - 13).toFixed(0)} h10 l2 16 h-14 Z"/></g>` : ''; }).join('')}</g>`,
+
+  // quran: an open Quran on a carved stand, white pages and black ink, lit by a lamp (the white page, the black letters)
+  quran: (u) => `<defs>${sky(`k${u}`, [[0, '#2a201a'], [1, '#4a3424']])}${glow(`g${u}`, '#f2c46b')}</defs>
+<rect width="640" height="520" fill="url(#k${u})"/>
+<circle class="tw" style="--d:2.2s" cx="320" cy="300" r="240" fill="url(#g${u})" opacity=".55"/>
+<path d="M200 470 L320 380 L440 470 M220 470 L320 400 L420 470" stroke="${DEEP}" stroke-width="10" fill="none" stroke-linejoin="round"/>
+<path d="M150 360 Q235 330 318 352 L318 222 Q235 200 150 230 Z" fill="#fbf6ea"/><path d="M490 360 Q405 330 322 352 L322 222 Q405 200 490 230 Z" fill="#f6efe0"/>
+<path d="M150 360 Q235 330 318 352 L318 364 Q235 342 150 372 Z M490 360 Q405 330 322 352 L322 364 Q405 342 490 372 Z" fill="${DEEP}"/>
+${Array.from({ length: 7 }, (_, i) => `<path d="M${172} ${246 + i * 15} q${30} ${-6 - i} ${60} ${-2} t${60} ${-1}" stroke="#1a1512" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M${340} ${238 + i * 15} q${30} ${-3} ${60} ${2} t${60} ${2}" stroke="#1a1512" stroke-width="2.4" fill="none" stroke-linecap="round"/>`).join('')}
+<path d="M170 236 Q235 216 300 232 M340 232 Q405 216 470 236" stroke="${GOLD}" stroke-width="3" fill="none"/>
+<g transform="translate(520 300)"><path d="M-26 40 Q0 58 26 40 Q18 30 0 28 Q-18 30 -26 40 Z" fill="${DEEP}"/><g class="sway" style="--d:1.2s;transform-origin:0 28px"><path d="M0 28 C-12 14 -6 -2 0 -16 C6 -2 12 14 0 28 Z" fill="#ffd27a"/></g></g>
+<rect y="470" width="640" height="50" fill="#1a120d"/>`,
 };
 
 export const SCENE_NAMES = Object.keys(SCENES);

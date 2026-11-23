@@ -1834,6 +1834,141 @@
       ],
       "pad": 1.0,
       "note": "Bhai Maninder Singh 'Kaga Karang Dhandoleya' (no IG lyrics; Whisper on the full track): Farid's shaloks 91 (kaga karang), 92 (kaga choond na pinjra) and 90 (tan sukka pinjar), all in our files, sung in that order; each line once, refrain repeats and the 'eh do naina' returns after 92/90 cut out, plus a non-file line at 58-67 s. Harmonium/tabla never stop, so cuts sit in the gaps between Whisper's words. Sung variants (screen = audio): 'udar jaahi', 'khaahi' (92), 'Farida' before 'tan sukka' (90). Intro 4.5-7.9 s; closing card over the instrumental at 229-235 s. Rendered 85.2 s (three whole shaloks, under the 90 s cap). Whisper on the spliced music.wav hears all 12 lines once, in order, nothing added; 12-frame contact sheet checked. Approved 2026-11-22."
+    },
+    {
+      "id": "031-bulleh-yaar-raazi",
+      "status": "posted",
+      "kind": "reel",
+      "style": "lyric",
+      "title": "بلھے شاہ نے کجھ نہیں کیتا، یار نوں کیتا راضی",
+      "track": {
+        "id": "1371185864233724",
+        "query": "Piya Ghar Aaya Coke Studio"
+      },
+      "singer": "Fareed Ayaz & Abu Muhammad Qawwal",
+      "credit": {
+        "pa": "بلھے شاہ",
+        "en": "Bulleh Shah"
+      },
+      "audio": "singer recording as original audio, each line once (cuts); spoken commentary cut out",
+      "note": "Owner asked for this kalam with the Laila-Majnu part (2026-11-23). Both dohras are sung inside Coke Studio S11 'Piya Ghar Aaya' (7:17-7:56 and 9:54-11:28). Neither is in our poem files or the PD sources checked (Wikisource / punjabi-kavita dohre): text transcribed from the singing, using Instagram's timed lyrics and Whisper (line 3 is sung 'Ghazi', the IG lyrics say 'Qazi'). Owner-requested exception to the files-only rule.",
+      "parts": [
+        {
+          "text": [
+            "پڑھ پڑھ علم کتاباں والا، نام رکھایو قاضی\nمکے جا کر حج پڑھ آیو، نام رکھایو حاجی",
+            "پھڑ شمشیر مجاہداں والی، نام رکھایو غازی\nبلھے شاہ نے کجھ نہیں کیتا، یار نوں کیتا راضی"
+          ],
+          "source": "sung text of Fareed Ayaz & Abu Muhammad Qawwal, Coke Studio S11 'Piya Ghar Aaya' 7:17-7:56 (Instagram timed lyrics + Whisper)",
+          "verses": [
+            0,
+            1
+          ],
+          "gists": [
+            "Books of learning got you called a Qazi; a trip to Mecca got you called a Haji.",
+            "A warrior's sword got you called a Ghazi. Bulleh Shah did none of it; he only won his Beloved's pleasure."
+          ]
+        },
+        {
+          "text": [
+            "مجنوں نوں رل عاشق کہندے، تیری لیلیٰ رنگ دی کالی\nکیتا جواب مجنوں میاں، وے جا تیری اکھ نہیں ویکھن والی",
+            "قرآن کریم دے ورق نیں چٹے، اتے لکھی ایہہ سیاہی کالی\nوے بلھیا جتھے دل اڑ جاوے، پھیر کی گوری کی کالی"
+          ],
+          "source": "sung text of Fareed Ayaz & Abu Muhammad Qawwal, Coke Studio S11 'Piya Ghar Aaya' 9:54-11:28 (Instagram timed lyrics + Whisper)",
+          "verses": [
+            0,
+            1
+          ],
+          "gists": [
+            "The lovers told Majnu, 'Your Laila is dark.' Majnu answered, 'You don't have the eyes to see her.'",
+            "The Quran's pages are white, written in black ink. Bulleh, where the heart is caught, what is fair or dark?"
+          ]
+        }
+      ],
+      "scene_per": "line",
+      "scenes": [
+        "qazi",
+        "kaaba",
+        "ghazi",
+        "dervish",
+        "majnu",
+        "laila",
+        "quran",
+        "lamp"
+      ],
+      "cuts": [
+        {
+          "from": 417.6,
+          "to": 422.1,
+          "lines": [
+            417.8
+          ]
+        },
+        {
+          "from": 430.4,
+          "to": 435.2,
+          "lines": [
+            430.6
+          ]
+        },
+        {
+          "from": 438.9,
+          "to": 443.3,
+          "lines": [
+            439.1
+          ]
+        },
+        {
+          "from": 451.5,
+          "to": 455.4,
+          "lines": [
+            451.7
+          ]
+        },
+        {
+          "from": 593.8,
+          "to": 596.4,
+          "lines": [
+            594.0
+          ]
+        },
+        {
+          "from": 597.3,
+          "to": 604.0,
+          "lines": []
+        },
+        {
+          "from": 646.1,
+          "to": 655.6,
+          "lines": [
+            646.4
+          ]
+        },
+        {
+          "from": 665.6,
+          "to": 675.1,
+          "lines": [
+            665.8
+          ]
+        },
+        {
+          "from": 680.4,
+          "to": 688.0,
+          "lines": [
+            680.5
+          ],
+          "end": 687.8
+        },
+        {
+          "from": 9.0,
+          "to": 16.0,
+          "lines": []
+        }
+      ],
+      "pad": 0.6,
+      "posted_at": "2026-11-23T12:22:47+00:00",
+      "account": "punjabiidotnet",
+      "media_id": "4036736282195620624_16922094236",
+      "code": "DgFXkLYM3MQ"
     }
   ]
 }

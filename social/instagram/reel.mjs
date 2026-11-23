@@ -113,15 +113,17 @@ const screens = lines.map((l, n) => `<section class="sc" data-n="${n}">
   <p class="gist">${esc(gists[l.verse])}</p>
 </section>`).join('');
 
-// optional pictures: one scene per verse (scenes.mjs), in an arched window above the text
+// optional pictures: one scene per verse (scenes.mjs), in an arched window above the text; or one per line
+// ("scene_per": "line") when a couplet's two lines paint two different pictures
 const scenes = post.scenes ?? null;
-if (scenes && scenes.length !== gists.length) throw new Error(`${id}: "scenes" needs one entry per verse (${gists.length})`);
+const perLine = post.scene_per === 'line';
+if (scenes && scenes.length !== (perLine ? lines.length : gists.length)) throw new Error(`${id}: "scenes" needs one entry per ${perLine ? 'line' : 'verse'} (${perLine ? lines.length : gists.length})`);
 const full = post.layout === 'full';
 const win = scenes && full ? `<svg class="win" viewBox="0 0 640 520" preserveAspectRatio="xMidYMid slice">${scenes.map((nm, k) => `<g class="scn" data-v="${k}"><g class="kb">${scene(nm, k)}</g></g>`).join('')}</svg><div class="shade"></div>`
   : scenes ? `<svg class="win" viewBox="-6 -6 652 532"><defs><clipPath id="arch"><path d="${ARCH}"/></clipPath></defs>
 <g clip-path="url(#arch)">${scenes.map((nm, k) => `<g class="scn" data-v="${k}"><g class="kb">${scene(nm, k)}</g></g>`).join('')}</g>
 <path d="${ARCH}" fill="none" stroke="#c9962a" stroke-width="3"/><path d="${ARCH}" fill="none" stroke="#855c00" stroke-width="1" transform="translate(320 260) scale(1.012) translate(-320 -260)" opacity=".5"/></svg>` : '';
-const verseOf = lines.map((l) => l.verse);
+const verseOf = lines.map((l, n) => (perLine ? n : l.verse));
 
 let seed = 11;
 const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
