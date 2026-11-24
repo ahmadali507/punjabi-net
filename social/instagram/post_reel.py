@@ -23,6 +23,22 @@ HERE = Path(__file__).resolve().parent
 QUEUE = HERE / 'posts.json'
 
 
+SITE = 'punjabii.net'
+
+
+def with_site_link(caption, post):
+    """Point every reel at the full poem on the website: one line after the credit, before the hashtags.
+    Instagram captions do not make links clickable, so it also says the link is in the bio."""
+    if SITE in caption:
+        return caption
+    slug = post.get('poem') or next((p.get('poem') for p in post.get('parts', []) if p.get('poem')), None)
+    line = f'Read the full poem in Shahmukhi: {SITE}/poems/{slug} (link in bio)' if slug else \
+        f'More Punjabi poetry in Shahmukhi: {SITE} (link in bio)'
+    blocks = caption.split('\n\n')
+    at = len(blocks) - 1 if blocks[-1].lstrip().startswith('#') else len(blocks)
+    return '\n\n'.join(blocks[:at] + [line] + blocks[at:])
+
+
 def main():
     data = json.loads(QUEUE.read_text())
     cl = client()
@@ -39,8 +55,9 @@ def main():
     post = ready[0]
     out = HERE / 'out'
     timing = json.loads((out / post['id'] / 'timing.json').read_text())
-    caption = (out / f"{post['id']}-reel.txt").read_text().strip()
+    caption = with_site_link((out / f"{post['id']}-reel.txt").read_text().strip(), post)
     if '--publish' not in sys.argv:
+        print(caption + '\n---')
         print(f"Dry run. Would post {post['id']} ({timing['duration']:.0f}s, {'original audio' if post.get('style') == 'lyric' else 'music sticker'})" + (f", music: {timing['track']['title']} — {timing['track']['artist']}" if timing.get('track') else ''))
         return
 
