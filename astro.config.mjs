@@ -21,6 +21,10 @@ export default defineConfig({
       i18n: { defaultLocale: 'en', locales: { en: 'en', pa: 'pnb' } },
       // Only pages meant to rank: not search results, the 404 page or the form's thank-you/error pages (all noindex).
       filter: (page) => !/\/(search|404|contribute\/(thanks|error))$/.test(new URL(page).pathname),
+      // One sitemap per section (sitemap-poets-0.xml, …), so Search Console reports indexing per section.
+      // Pages in no section (home, lists, about, forms) go to sitemap-pages-0.xml.
+      chunks: Object.fromEntries(['poets', 'works', 'poems', 'dictionary', 'proverbs'].map((s) => [s,
+        (item) => (new RegExp(`^/(pa/)?${s}/`).test(new URL(item.url).pathname) ? item : undefined)])),
     }),
   ],
   devToolbar: { enabled: false },
